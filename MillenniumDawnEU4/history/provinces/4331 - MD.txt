@@ -1,0 +1,11 @@
+owner = IRN
+controller = IRN
+add_core = IRN
+culture = luri
+religion = sunni
+trade_goods = wine
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Kazerun"
+is_city = yes

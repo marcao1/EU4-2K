@@ -1,0 +1,11 @@
+owner = SDN
+controller = SDN
+add_core = SDN
+culture = nubian
+religion = sunni
+trade_goods = livestock
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Dar Jaal"
+is_city = yes

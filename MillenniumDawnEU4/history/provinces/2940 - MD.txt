@@ -1,0 +1,11 @@
+owner = BOL
+controller = BOL
+add_core = BOL
+culture = aimara
+religion = inti
+trade_goods = salt
+base_tax = 1
+base_production = 1
+base_manpower = 2
+capital = "Chichas"
+is_city = yes

@@ -1,0 +1,11 @@
+owner = IDN
+controller = IDN
+add_core = IDN
+culture = sundanese
+religion = hinduism
+trade_goods = spices
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Kalapa"
+is_city = yes

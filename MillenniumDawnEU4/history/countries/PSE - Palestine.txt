@@ -1,0 +1,9 @@
+government = republic
+add_government_reform = oligarchy_reform
+technology_group = western
+primary_culture = al_suryah_arabic
+religion = sunni
+capital = 381
+2000.1.1 = {
+ monarch = { name = "Yasser Arafat" adm = 3 dip = 4 mil = 3 }
+}

@@ -1,0 +1,11 @@
+owner = ERT
+controller = ERT
+add_core = ERT
+culture = afar
+religion = sunni
+trade_goods = livestock
+base_tax = 3
+base_production = 3
+base_manpower = 3
+capital = "Tajura"
+is_city = yes

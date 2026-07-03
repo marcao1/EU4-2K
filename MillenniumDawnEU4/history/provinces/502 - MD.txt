@@ -1,0 +1,11 @@
+owner = TTO
+controller = TTO
+add_core = TTO
+culture = carib
+religion = animism
+trade_goods = unknown
+base_tax = 21
+base_production = 22
+base_manpower = 22
+capital = "Trinidad"
+is_city = yes

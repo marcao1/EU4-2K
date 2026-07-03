@@ -1,0 +1,11 @@
+owner = OMN
+controller = OMN
+add_core = OMN
+culture = mahri_culture
+religion = sunni
+trade_goods = incense
+base_tax = 3
+base_production = 3
+base_manpower = 3
+capital = "Wusta"
+is_city = yes

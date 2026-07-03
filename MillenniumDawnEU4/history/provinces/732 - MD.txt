@@ -1,0 +1,11 @@
+owner = NKR
+controller = NKR
+add_core = NKR
+culture = korean
+religion = confucianism
+trade_goods = fish
+base_tax = 3
+base_production = 3
+base_manpower = 3
+capital = "South Hamgyeong"
+is_city = yes

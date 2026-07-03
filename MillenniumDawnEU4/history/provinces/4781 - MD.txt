@@ -1,0 +1,11 @@
+owner = SAF
+controller = SAF
+add_core = SAF
+culture = nguni
+religion = shamanism
+trade_goods = unknown
+base_tax = 2
+base_production = 2
+base_manpower = 3
+capital = "Transvaal"
+is_city = yes

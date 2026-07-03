@@ -1,0 +1,11 @@
+owner = PHL
+controller = PHL
+add_core = PHL
+culture = filipino
+religion = animism
+trade_goods = unknown
+base_tax = 1
+base_production = 1
+base_manpower = 2
+capital = "Samar"
+is_city = yes

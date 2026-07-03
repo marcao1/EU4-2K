@@ -1,0 +1,11 @@
+owner = P01
+controller = P01
+add_core = P01
+culture = chimuan
+religion = inti
+trade_goods = cocoa
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Chanchan"
+is_city = yes

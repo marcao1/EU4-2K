@@ -1,0 +1,11 @@
+owner = SDN
+controller = SDN
+add_core = SDN
+culture = beja
+religion = sunni
+trade_goods = livestock
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Taka"
+is_city = yes

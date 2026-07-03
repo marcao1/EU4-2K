@@ -1,0 +1,11 @@
+owner = ROU
+controller = ROU
+add_core = ROU
+culture = transylvanian
+religion = catholic
+trade_goods = wool
+base_tax = 1
+base_production = 2
+base_manpower = 2
+capital = "Maros"
+is_city = yes

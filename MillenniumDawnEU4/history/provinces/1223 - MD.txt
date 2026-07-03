@@ -1,0 +1,11 @@
+owner = ETH
+controller = ETH
+add_core = ETH
+culture = amhara
+religion = coptic
+trade_goods = coffee
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Gojjam"
+is_city = yes

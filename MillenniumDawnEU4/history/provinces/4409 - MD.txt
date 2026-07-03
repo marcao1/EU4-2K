@@ -1,0 +1,11 @@
+owner = LKA
+controller = LKA
+add_core = LKA
+culture = sinhala
+religion = buddhism
+trade_goods = spices
+base_tax = 6
+base_production = 6
+base_manpower = 7
+capital = "Trincomale"
+is_city = yes

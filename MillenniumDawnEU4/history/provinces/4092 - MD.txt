@@ -1,0 +1,11 @@
+owner = AGO
+controller = AGO
+add_core = AGO
+culture = lunda
+religion = shamanism
+trade_goods = ivory
+base_tax = 2
+base_production = 2
+base_manpower = 2
+capital = "Rund"
+is_city = yes

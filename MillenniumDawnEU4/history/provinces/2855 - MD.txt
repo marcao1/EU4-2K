@@ -1,0 +1,11 @@
+owner = PGY
+controller = PGY
+add_core = PGY
+culture = guarani
+religion = animism
+trade_goods = unknown
+base_tax = 4
+base_production = 5
+base_manpower = 5
+capital = "Misiones"
+is_city = yes

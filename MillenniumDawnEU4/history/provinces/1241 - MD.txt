@@ -1,0 +1,11 @@
+owner = WSM
+controller = WSM
+add_core = WSM
+culture = polynesian
+religion = animism
+trade_goods = unknown
+base_tax = 17
+base_production = 17
+base_manpower = 18
+capital = "Kiribati"
+is_city = yes

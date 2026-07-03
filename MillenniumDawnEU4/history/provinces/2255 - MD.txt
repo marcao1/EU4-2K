@@ -1,0 +1,11 @@
+owner = CIV
+controller = CIV
+add_core = CIV
+culture = aka
+religion = shamanism
+trade_goods = coffee
+base_tax = 8
+base_production = 8
+base_manpower = 9
+capital = "Gyaaman"
+is_city = yes

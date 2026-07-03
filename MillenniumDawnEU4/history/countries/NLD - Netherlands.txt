@@ -1,0 +1,10 @@
+government = monarchy
+add_government_reform = autocracy_reform
+technology_group = western
+primary_culture = frisian
+religion = catholic
+elector = yes
+capital = 97
+2000.1.1 = {
+ monarch = { name = "Netherlands Leadership" adm = 3 dip = 3 mil = 3 }
+}

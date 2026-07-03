@@ -1,0 +1,11 @@
+owner = LBY
+controller = LBY
+add_core = LBY
+culture = tunisian
+religion = sunni
+trade_goods = livestock
+base_tax = 2
+base_production = 2
+base_manpower = 3
+capital = "Sabha"
+is_city = yes

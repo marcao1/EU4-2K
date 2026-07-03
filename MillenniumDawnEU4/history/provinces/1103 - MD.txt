@@ -1,0 +1,12 @@
+owner = FRA
+controller = FRA
+add_core = FRA
+hre = yes
+culture = cosmopolitan_french
+religion = catholic
+trade_goods = unknown
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Bourbon"
+is_city = yes

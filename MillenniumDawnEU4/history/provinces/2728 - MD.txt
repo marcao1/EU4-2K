@@ -1,0 +1,11 @@
+owner = IDN
+controller = IDN
+add_core = IDN
+culture = gunwinyguan
+religion = dreamtime
+trade_goods = fish
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Tiwi"
+is_city = yes

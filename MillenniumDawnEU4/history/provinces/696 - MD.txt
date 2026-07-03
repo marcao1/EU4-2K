@@ -1,0 +1,11 @@
+owner = CHN
+controller = CHN
+add_core = CHN
+culture = chihan
+religion = confucianism
+trade_goods = chinaware
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Baoding"
+is_city = yes

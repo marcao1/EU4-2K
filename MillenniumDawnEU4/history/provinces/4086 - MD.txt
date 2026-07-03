@@ -1,0 +1,11 @@
+owner = COD
+controller = COD
+add_core = COD
+culture = kuba
+religion = shamanism
+trade_goods = tropical_wood
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Nunu"
+is_city = yes

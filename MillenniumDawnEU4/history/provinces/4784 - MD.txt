@@ -1,0 +1,11 @@
+owner = BWA
+controller = BWA
+add_core = BWA
+culture = nguni
+religion = shamanism
+trade_goods = unknown
+base_tax = 22
+base_production = 22
+base_manpower = 22
+capital = "Upper Limpopo"
+is_city = yes

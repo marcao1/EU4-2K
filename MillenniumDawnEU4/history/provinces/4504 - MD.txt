@@ -1,0 +1,11 @@
+owner = PAK
+controller = PAK
+add_core = PAK
+culture = sindhi
+religion = sunni
+trade_goods = cotton
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Nasirpur"
+is_city = yes

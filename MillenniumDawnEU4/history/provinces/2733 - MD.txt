@@ -1,0 +1,11 @@
+owner = AUS
+controller = AUS
+add_core = AUS
+culture = paman
+religion = dreamtime
+trade_goods = unknown
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Baiali"
+is_city = yes

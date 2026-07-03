@@ -1,0 +1,12 @@
+owner = ESP
+controller = ESP
+add_core = ESP
+hre = yes
+culture = berber
+religion = animism
+trade_goods = unknown
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "The Canarias"
+is_city = yes

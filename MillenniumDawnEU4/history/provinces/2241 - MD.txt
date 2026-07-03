@@ -1,0 +1,11 @@
+owner = GNB
+controller = GNB
+add_core = GNB
+culture = senegambian
+religion = shamanism
+trade_goods = slaves
+base_tax = 20
+base_production = 20
+base_manpower = 20
+capital = "Beafada"
+is_city = yes

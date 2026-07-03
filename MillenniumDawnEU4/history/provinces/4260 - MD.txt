@@ -1,0 +1,11 @@
+owner = RUS
+controller = RUS
+add_core = RUS
+culture = novgorodian
+religion = orthodox
+trade_goods = naval_supplies
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Vyshny Volochyok"
+is_city = yes

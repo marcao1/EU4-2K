@@ -1,0 +1,12 @@
+owner = FRA
+controller = FRA
+add_core = FRA
+hre = yes
+culture = normand
+religion = catholic
+trade_goods = cloth
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Normandie"
+is_city = yes

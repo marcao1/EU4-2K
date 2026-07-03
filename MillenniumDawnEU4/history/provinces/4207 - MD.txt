@@ -1,0 +1,11 @@
+owner = CHN
+controller = CHN
+add_core = CHN
+culture = uyghur
+religion = tengri_pagan_reformed
+trade_goods = wine
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Turpan"
+is_city = yes

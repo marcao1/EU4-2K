@@ -1,0 +1,11 @@
+owner = NZE
+controller = NZE
+add_core = NZE
+culture = maori
+religion = animism
+trade_goods = fish
+base_tax = 2
+base_production = 3
+base_manpower = 3
+capital = "Te Moana a Toi"
+is_city = yes

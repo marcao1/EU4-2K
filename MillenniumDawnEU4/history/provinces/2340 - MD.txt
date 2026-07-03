@@ -1,0 +1,11 @@
+owner = KWT
+controller = KWT
+add_core = KWT
+culture = gulf_arabic
+religion = sunni
+trade_goods = fish
+base_tax = 24
+base_production = 24
+base_manpower = 24
+capital = "Grane"
+is_city = yes

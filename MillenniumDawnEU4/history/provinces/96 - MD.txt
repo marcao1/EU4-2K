@@ -1,0 +1,12 @@
+owner = BEL
+controller = BEL
+add_core = BEL
+hre = yes
+culture = dutch
+religion = catholic
+trade_goods = salt
+base_tax = 3
+base_production = 3
+base_manpower = 3
+capital = "Zeeland"
+is_city = yes

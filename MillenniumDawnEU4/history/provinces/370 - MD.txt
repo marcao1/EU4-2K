@@ -1,0 +1,11 @@
+owner = IS1
+controller = IS1
+add_core = IS1
+culture = icelandic
+religion = catholic
+trade_goods = fish
+base_tax = 10
+base_production = 10
+base_manpower = 10
+capital = "Reykjavik"
+is_city = yes

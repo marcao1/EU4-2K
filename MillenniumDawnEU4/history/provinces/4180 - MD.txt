@@ -1,0 +1,11 @@
+owner = JPN
+controller = JPN
+add_core = JPN
+culture = kyushuan
+religion = shinto
+trade_goods = livestock
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Hyuga"
+is_city = yes

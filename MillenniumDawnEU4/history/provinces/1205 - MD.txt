@@ -1,0 +1,11 @@
+owner = SOM
+controller = SOM
+add_core = SOM
+culture = somali
+religion = sunni
+trade_goods = ivory
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Mogadishu"
+is_city = yes

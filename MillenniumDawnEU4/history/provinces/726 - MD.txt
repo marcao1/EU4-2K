@@ -1,0 +1,11 @@
+owner = CHN
+controller = CHN
+add_core = CHN
+culture = manchu
+religion = confucianism
+trade_goods = gems
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Shenyang"
+is_city = yes

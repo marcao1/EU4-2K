@@ -1,0 +1,11 @@
+owner = THA
+controller = THA
+add_core = THA
+culture = central_thai
+religion = buddhism
+trade_goods = tropical_wood
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Nakhon Si Thammarat"
+is_city = yes

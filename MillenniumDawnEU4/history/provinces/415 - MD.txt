@@ -1,0 +1,11 @@
+owner = IRQ
+controller = IRQ
+add_core = IRQ
+culture = kurdish
+religion = sunni
+trade_goods = grain
+base_tax = 1
+base_production = 2
+base_manpower = 2
+capital = "Shahrizor"
+is_city = yes

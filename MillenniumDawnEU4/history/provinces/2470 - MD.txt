@@ -1,0 +1,11 @@
+owner = MRC
+controller = MRC
+add_core = MRC
+culture = berber
+religion = sunni
+trade_goods = grain
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Haha"
+is_city = yes

@@ -1,0 +1,11 @@
+owner = IRQ
+controller = IRQ
+add_core = IRQ
+culture = al_iraqiya_arabic
+religion = sunni
+trade_goods = spices
+base_tax = 1
+base_production = 2
+base_manpower = 2
+capital = "Shatt"
+is_city = yes

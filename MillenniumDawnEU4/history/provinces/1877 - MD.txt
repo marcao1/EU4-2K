@@ -1,0 +1,12 @@
+owner = FRA
+controller = FRA
+add_core = FRA
+hre = yes
+culture = burgundian
+religion = catholic
+trade_goods = salt
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Charolais"
+is_city = yes

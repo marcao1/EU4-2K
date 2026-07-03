@@ -1,0 +1,11 @@
+owner = GEO
+controller = GEO
+add_core = GEO
+culture = georgian
+religion = orthodox
+trade_goods = wine
+base_tax = 4
+base_production = 4
+base_manpower = 5
+capital = "Mingrelia"
+is_city = yes

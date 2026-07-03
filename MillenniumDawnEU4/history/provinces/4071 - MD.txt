@@ -1,0 +1,11 @@
+owner = TZA
+controller = TZA
+add_core = TZA
+culture = rwandan
+religion = shamanism
+trade_goods = grain
+base_tax = 1
+base_production = 1
+base_manpower = 2
+capital = "Buyogoma"
+is_city = yes

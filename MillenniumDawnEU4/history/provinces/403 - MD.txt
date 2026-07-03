@@ -1,0 +1,11 @@
+owner = OMN
+controller = OMN
+add_core = OMN
+culture = omani_culture
+religion = ibadi
+trade_goods = wool
+base_tax = 3
+base_production = 3
+base_manpower = 3
+capital = "Nizwa"
+is_city = yes

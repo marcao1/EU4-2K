@@ -1,0 +1,11 @@
+owner = MMR
+controller = MMR
+add_core = MMR
+culture = mon
+religion = buddhism
+trade_goods = grain
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Pathein"
+is_city = yes

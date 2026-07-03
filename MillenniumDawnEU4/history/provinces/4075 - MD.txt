@@ -1,0 +1,11 @@
+owner = SDN
+controller = SDN
+add_core = SDN
+culture = acholi
+religion = shamanism
+trade_goods = unknown
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Lango"
+is_city = yes

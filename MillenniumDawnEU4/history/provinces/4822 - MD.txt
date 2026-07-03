@@ -1,0 +1,11 @@
+owner = VNM
+controller = VNM
+add_core = VNM
+culture = cham
+religion = hinduism
+trade_goods = incense
+base_tax = 2
+base_production = 2
+base_manpower = 3
+capital = "Amaravati"
+is_city = yes

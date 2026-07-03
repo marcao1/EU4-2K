@@ -1,0 +1,11 @@
+owner = AUS
+controller = AUS
+add_core = AUS
+culture = palawa
+religion = dreamtime
+trade_goods = fur
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Pyemmairrener"
+is_city = yes

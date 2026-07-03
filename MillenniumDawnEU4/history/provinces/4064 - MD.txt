@@ -1,0 +1,11 @@
+owner = UGA
+controller = UGA
+add_core = UGA
+culture = ganda
+religion = shamanism
+trade_goods = salt
+base_tax = 6
+base_production = 6
+base_manpower = 7
+capital = "Buganda"
+is_city = yes

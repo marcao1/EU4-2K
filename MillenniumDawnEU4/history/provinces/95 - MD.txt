@@ -1,0 +1,12 @@
+owner = BEL
+controller = BEL
+add_core = BEL
+hre = yes
+culture = dutch
+religion = catholic
+trade_goods = cloth
+base_tax = 3
+base_production = 3
+base_manpower = 3
+capital = "Breda"
+is_city = yes

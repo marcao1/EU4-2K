@@ -1,0 +1,11 @@
+owner = MOZ
+controller = MOZ
+add_core = MOZ
+culture = swahili
+religion = sunni
+trade_goods = ivory
+base_tax = 2
+base_production = 2
+base_manpower = 3
+capital = "Mozambique"
+is_city = yes

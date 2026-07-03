@@ -1,0 +1,11 @@
+owner = JPN
+controller = JPN
+add_core = JPN
+culture = japanese
+religion = shinto
+trade_goods = silk
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Suo"
+is_city = yes

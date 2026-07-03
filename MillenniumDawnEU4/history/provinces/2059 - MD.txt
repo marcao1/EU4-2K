@@ -1,0 +1,11 @@
+owner = IN1
+controller = IN1
+add_core = IN1
+culture = vindhyan
+religion = hinduism
+trade_goods = cloth
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Kalpi"
+is_city = yes

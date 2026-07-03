@@ -1,0 +1,11 @@
+owner = TU1
+controller = TU1
+add_core = TU1
+culture = armenian
+religion = coptic
+trade_goods = wool
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Bayazid"
+is_city = yes

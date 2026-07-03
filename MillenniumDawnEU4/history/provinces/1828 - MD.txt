@@ -1,0 +1,11 @@
+owner = HRV
+controller = HRV
+add_core = HRV
+culture = bosnian
+religion = catholic
+trade_goods = livestock
+base_tax = 2
+base_production = 2
+base_manpower = 3
+capital = "Donji Krajii"
+is_city = yes

@@ -1,0 +1,11 @@
+owner = OMN
+controller = OMN
+add_core = OMN
+culture = omani_culture
+religion = ibadi
+trade_goods = spices
+base_tax = 3
+base_production = 3
+base_manpower = 3
+capital = "Sur"
+is_city = yes

@@ -1,0 +1,11 @@
+owner = DZA
+controller = DZA
+add_core = DZA
+culture = tunisian
+religion = sunni
+trade_goods = salt
+base_tax = 1
+base_production = 1
+base_manpower = 2
+capital = "Gafsa"
+is_city = yes

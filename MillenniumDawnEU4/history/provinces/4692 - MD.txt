@@ -1,0 +1,11 @@
+owner = KZK
+controller = KZK
+add_core = KZK
+culture = khazak
+religion = sunni
+trade_goods = iron
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Turgay"
+is_city = yes

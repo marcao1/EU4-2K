@@ -1,0 +1,11 @@
+owner = IN1
+controller = IN1
+add_core = IN1
+culture = bihari
+religion = hinduism
+trade_goods = silk
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Monghyr"
+is_city = yes

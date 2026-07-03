@@ -1,0 +1,12 @@
+owner = ITA
+controller = ITA
+add_core = ITA
+hre = yes
+culture = venetian
+religion = catholic
+trade_goods = wine
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Friuli"
+is_city = yes

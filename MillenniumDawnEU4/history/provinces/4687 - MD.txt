@@ -1,0 +1,11 @@
+owner = KZK
+controller = KZK
+add_core = KZK
+culture = kirgiz
+religion = tengri_pagan_reformed
+trade_goods = unknown
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Imakia"
+is_city = yes

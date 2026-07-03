@@ -1,0 +1,11 @@
+owner = IDN
+controller = IDN
+add_core = IDN
+culture = nusa_tenggara
+religion = animism
+trade_goods = unknown
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "West Timor"
+is_city = yes

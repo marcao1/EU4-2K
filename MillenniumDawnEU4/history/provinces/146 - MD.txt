@@ -1,0 +1,12 @@
+owner = GRC
+controller = GRC
+add_core = GRC
+hre = yes
+culture = greek
+religion = orthodox
+trade_goods = grain
+base_tax = 1
+base_production = 1
+base_manpower = 2
+capital = "Athens"
+is_city = yes

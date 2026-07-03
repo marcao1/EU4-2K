@@ -1,0 +1,11 @@
+owner = NPL
+controller = NPL
+add_core = NPL
+culture = kochi
+religion = hinduism
+trade_goods = silk
+base_tax = 2
+base_production = 3
+base_manpower = 3
+capital = "Purnia"
+is_city = yes

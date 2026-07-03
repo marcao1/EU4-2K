@@ -1,0 +1,11 @@
+owner = USA
+controller = USA
+add_core = USA
+culture = huron
+religion = totemism
+trade_goods = grain
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Ontario"
+is_city = yes

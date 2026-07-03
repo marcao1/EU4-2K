@@ -1,0 +1,11 @@
+owner = GYN
+controller = GYN
+add_core = GYN
+culture = guajiro
+religion = animism
+trade_goods = sugar
+base_tax = 6
+base_production = 7
+base_manpower = 7
+capital = "Essequibo"
+is_city = yes

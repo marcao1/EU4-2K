@@ -1,0 +1,11 @@
+owner = IRN
+controller = IRN
+add_core = IRN
+culture = luri
+religion = shiite
+trade_goods = cloth
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Yasuj"
+is_city = yes

@@ -1,0 +1,11 @@
+owner = BGD
+controller = BGD
+add_core = BGD
+culture = chin
+religion = hinduism
+trade_goods = tropical_wood
+base_tax = 2
+base_production = 3
+base_manpower = 3
+capital = "Chakla"
+is_city = yes

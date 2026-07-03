@@ -1,0 +1,11 @@
+owner = DJI
+controller = DJI
+add_core = DJI
+culture = somali
+religion = sunni
+trade_goods = incense
+base_tax = 20
+base_production = 20
+base_manpower = 20
+capital = "Zeila"
+is_city = yes

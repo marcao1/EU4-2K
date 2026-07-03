@@ -1,0 +1,9 @@
+government = republic
+add_government_reform = oligarchy_reform
+technology_group = western
+primary_culture = songhai
+religion = sunni
+capital = 1142
+2000.1.1 = {
+ monarch = { name = "Niger Leadership" adm = 3 dip = 3 mil = 3 }
+}

@@ -1,0 +1,12 @@
+owner = IRL
+controller = IRL
+add_core = IRL
+hre = yes
+culture = irish
+religion = catholic
+trade_goods = wool
+base_tax = 2
+base_production = 2
+base_manpower = 2
+capital = "Tyrone"
+is_city = yes

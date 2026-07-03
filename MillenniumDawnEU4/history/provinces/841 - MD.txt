@@ -1,0 +1,11 @@
+owner = GTM
+controller = GTM
+add_core = GTM
+culture = highland_mayan
+religion = mesoamerican_religion
+trade_goods = cocoa
+base_tax = 4
+base_production = 4
+base_manpower = 4
+capital = "Guatemala"
+is_city = yes

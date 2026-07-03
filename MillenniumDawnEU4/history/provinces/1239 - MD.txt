@@ -1,0 +1,11 @@
+owner = VUT
+controller = VUT
+add_core = VUT
+culture = melanesian
+religion = animism
+trade_goods = unknown
+base_tax = 17
+base_production = 18
+base_manpower = 18
+capital = "Vanuatu"
+is_city = yes

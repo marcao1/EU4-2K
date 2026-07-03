@@ -1,0 +1,11 @@
+owner = CHN
+controller = CHN
+add_core = CHN
+culture = shandong_culture
+religion = confucianism
+trade_goods = cloth
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Jinan"
+is_city = yes

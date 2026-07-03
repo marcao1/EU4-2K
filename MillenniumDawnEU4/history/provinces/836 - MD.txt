@@ -1,0 +1,11 @@
+owner = COS
+controller = COS
+add_core = COS
+culture = muisca
+religion = animism
+trade_goods = unknown
+base_tax = 8
+base_production = 8
+base_manpower = 8
+capital = "Chorotega"
+is_city = yes

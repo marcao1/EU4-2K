@@ -1,0 +1,11 @@
+owner = VNM
+controller = VNM
+add_core = VNM
+culture = vietnamese
+religion = mahayana
+trade_goods = fish
+base_tax = 2
+base_production = 2
+base_manpower = 3
+capital = "Ha Tinh"
+is_city = yes

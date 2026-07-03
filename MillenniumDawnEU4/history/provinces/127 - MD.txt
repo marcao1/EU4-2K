@@ -1,0 +1,12 @@
+owner = ITA
+controller = ITA
+add_core = ITA
+hre = yes
+culture = sardinian
+religion = catholic
+trade_goods = fish
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Sassari"
+is_city = yes

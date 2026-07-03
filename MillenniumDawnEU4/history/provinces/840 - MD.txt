@@ -1,0 +1,11 @@
+owner = HND
+controller = HND
+add_core = HND
+culture = miskito
+religion = animism
+trade_goods = unknown
+base_tax = 4
+base_production = 5
+base_manpower = 5
+capital = "Honduras"
+is_city = yes

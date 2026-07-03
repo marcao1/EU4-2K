@@ -1,0 +1,11 @@
+owner = UZB
+controller = UZB
+add_core = UZB
+culture = khazak
+religion = sunni
+trade_goods = livestock
+base_tax = 3
+base_production = 4
+base_manpower = 4
+capital = "Atakent"
+is_city = yes

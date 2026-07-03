@@ -1,0 +1,11 @@
+owner = ARM
+controller = ARM
+add_core = ARM
+culture = georgian
+religion = orthodox
+trade_goods = dyes
+base_tax = 11
+base_production = 11
+base_manpower = 11
+capital = "Tblisi"
+is_city = yes

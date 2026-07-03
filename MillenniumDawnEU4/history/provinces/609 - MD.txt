@@ -1,0 +1,11 @@
+owner = THA
+controller = THA
+add_core = THA
+culture = khmer
+religion = hinduism
+trade_goods = tropical_wood
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Angkor"
+is_city = yes

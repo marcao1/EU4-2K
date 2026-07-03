@@ -1,0 +1,11 @@
+owner = NGR
+controller = NGR
+add_core = NGR
+culture = kanuri
+religion = sunni
+trade_goods = grain
+base_tax = 1
+base_production = 1
+base_manpower = 2
+capital = "Bedde"
+is_city = yes

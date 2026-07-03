@@ -1,0 +1,11 @@
+owner = BIH
+controller = BIH
+add_core = BIH
+culture = bosnian
+religion = orthodox
+trade_goods = wool
+base_tax = 4
+base_production = 4
+base_manpower = 5
+capital = "Travunia"
+is_city = yes

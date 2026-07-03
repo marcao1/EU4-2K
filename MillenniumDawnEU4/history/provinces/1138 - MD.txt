@@ -1,0 +1,11 @@
+owner = GHA
+controller = GHA
+add_core = GHA
+culture = aka
+religion = shamanism
+trade_goods = gold
+base_tax = 6
+base_production = 6
+base_manpower = 7
+capital = "Kumasi"
+is_city = yes

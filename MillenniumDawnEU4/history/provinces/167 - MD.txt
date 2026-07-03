@@ -1,0 +1,12 @@
+owner = FRA
+controller = FRA
+add_core = FRA
+hre = yes
+culture = normand
+religion = catholic
+trade_goods = glass
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Caux"
+is_city = yes

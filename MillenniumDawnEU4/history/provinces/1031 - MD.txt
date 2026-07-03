@@ -1,0 +1,11 @@
+owner = JPN
+controller = JPN
+add_core = JPN
+culture = ainu
+religion = animism
+trade_goods = fish
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Kamikawa"
+is_city = yes

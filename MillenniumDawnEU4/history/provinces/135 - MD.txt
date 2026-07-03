@@ -1,0 +1,12 @@
+owner = AUT
+controller = AUT
+add_core = AUT
+hre = yes
+culture = hungarian
+religion = catholic
+trade_goods = grain
+base_tax = 2
+base_production = 2
+base_manpower = 3
+capital = "Sopron"
+is_city = yes

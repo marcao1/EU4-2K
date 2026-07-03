@@ -1,0 +1,11 @@
+owner = IN1
+controller = IN1
+add_core = IN1
+culture = bengali
+religion = hinduism
+trade_goods = silk
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Goraghat"
+is_city = yes

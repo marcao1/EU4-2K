@@ -1,0 +1,11 @@
+owner = TNS
+controller = TNS
+add_core = TNS
+culture = tunisian
+religion = ibadi
+trade_goods = fish
+base_tax = 3
+base_production = 3
+base_manpower = 3
+capital = "Zuwarah"
+is_city = yes

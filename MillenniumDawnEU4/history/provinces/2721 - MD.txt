@@ -1,0 +1,11 @@
+owner = PNG
+controller = PNG
+add_core = PNG
+culture = papuan
+religion = animism
+trade_goods = unknown
+base_tax = 4
+base_production = 5
+base_manpower = 5
+capital = "Kerema"
+is_city = yes

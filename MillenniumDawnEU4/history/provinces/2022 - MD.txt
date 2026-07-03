@@ -1,0 +1,11 @@
+owner = CAN
+controller = CAN
+add_core = CAN
+culture = haida
+religion = totemism
+trade_goods = fish
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Haida"
+is_city = yes

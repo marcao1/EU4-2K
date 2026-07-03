@@ -1,0 +1,11 @@
+owner = UKN
+controller = UKN
+add_core = UKN
+culture = ruthenian
+religion = orthodox
+trade_goods = livestock
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Kremenets"
+is_city = yes

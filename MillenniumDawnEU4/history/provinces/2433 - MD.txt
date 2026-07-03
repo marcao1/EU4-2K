@@ -1,0 +1,11 @@
+owner = RUS
+controller = RUS
+add_core = RUS
+culture = ostyaki
+religion = tengri_pagan_reformed
+trade_goods = fur
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Vah"
+is_city = yes

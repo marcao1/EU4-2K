@@ -1,0 +1,9 @@
+government = monarchy
+add_government_reform = autocracy_reform
+technology_group = western
+primary_culture = kyushuan
+religion = shinto
+capital = 4190
+2000.1.1 = {
+ monarch = { name = "Japan Leadership" adm = 3 dip = 3 mil = 3 }
+}

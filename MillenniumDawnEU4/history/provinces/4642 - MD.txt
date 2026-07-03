@@ -1,0 +1,11 @@
+owner = MEX
+controller = MEX
+add_core = MEX
+culture = chichimecan
+religion = animism
+trade_goods = unknown
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Pame"
+is_city = yes

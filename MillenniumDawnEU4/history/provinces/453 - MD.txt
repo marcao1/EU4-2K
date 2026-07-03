@@ -1,0 +1,11 @@
+owner = TKM
+controller = TKM
+add_core = TKM
+culture = uzbehk
+religion = sunni
+trade_goods = cotton
+base_tax = 2
+base_production = 2
+base_manpower = 2
+capital = "Qarshi"
+is_city = yes

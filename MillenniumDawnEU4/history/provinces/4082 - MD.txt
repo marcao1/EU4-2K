@@ -1,0 +1,11 @@
+owner = AGO
+controller = AGO
+add_core = AGO
+culture = mbangala
+religion = shamanism
+trade_goods = slaves
+base_tax = 2
+base_production = 2
+base_manpower = 2
+capital = "Kasanje"
+is_city = yes

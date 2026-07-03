@@ -1,0 +1,11 @@
+owner = SAU
+controller = SAU
+add_core = SAU
+culture = yemeni_culture
+religion = shiite
+trade_goods = coffee
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Sahda"
+is_city = yes

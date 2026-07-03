@@ -1,0 +1,9 @@
+government = republic
+add_government_reform = oligarchy_reform
+technology_group = western
+primary_culture = polynesian
+religion = confucianism
+capital = 2155
+2000.1.1 = {
+ monarch = { name = "Lee Teng-hui" adm = 4 dip = 4 mil = 3 }
+}

@@ -1,0 +1,11 @@
+owner = LBY
+controller = LBY
+add_core = LBY
+culture = tuareg
+religion = sunni
+trade_goods = unknown
+base_tax = 2
+base_production = 2
+base_manpower = 3
+capital = "Tajhari"
+is_city = yes

@@ -1,0 +1,11 @@
+owner = SAU
+controller = SAU
+add_core = SAU
+culture = gulf_arabic
+religion = shiite
+trade_goods = fish
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Abd al-Qays"
+is_city = yes

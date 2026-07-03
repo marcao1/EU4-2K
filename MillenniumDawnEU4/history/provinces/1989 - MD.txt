@@ -1,0 +1,11 @@
+owner = NZE
+controller = NZE
+add_core = NZE
+culture = polynesian
+religion = animism
+trade_goods = naval_supplies
+base_tax = 2
+base_production = 3
+base_manpower = 3
+capital = "Tonga"
+is_city = yes

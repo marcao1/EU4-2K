@@ -1,0 +1,11 @@
+owner = MMR
+controller = MMR
+add_core = MMR
+culture = burmese
+religion = buddhism
+trade_goods = ivory
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Prome"
+is_city = yes

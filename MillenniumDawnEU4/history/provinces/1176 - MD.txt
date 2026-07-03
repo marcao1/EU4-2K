@@ -1,0 +1,11 @@
+owner = SAF
+controller = SAF
+add_core = SAF
+culture = khoisan
+religion = shamanism
+trade_goods = unknown
+base_tax = 2
+base_production = 2
+base_manpower = 3
+capital = "Roggeveld"
+is_city = yes

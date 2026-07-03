@@ -1,0 +1,11 @@
+owner = NAM
+controller = NAM
+add_core = NAM
+culture = khoisan
+religion = shamanism
+trade_goods = unknown
+base_tax = 10
+base_production = 11
+base_manpower = 11
+capital = "Senqu"
+is_city = yes

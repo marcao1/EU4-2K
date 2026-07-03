@@ -1,0 +1,11 @@
+owner = BLR
+controller = BLR
+add_core = BLR
+culture = byelorussian
+religion = orthodox
+trade_goods = cloth
+base_tax = 2
+base_production = 2
+base_manpower = 2
+capital = "Sluck"
+is_city = yes

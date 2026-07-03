@@ -1,0 +1,11 @@
+owner = SAU
+controller = SAU
+add_core = SAU
+culture = hejazi_culture
+religion = sunni
+trade_goods = livestock
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Turubah"
+is_city = yes

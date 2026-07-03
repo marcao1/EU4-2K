@@ -1,0 +1,11 @@
+owner = IRN
+controller = IRN
+add_core = IRN
+culture = mazandarani
+religion = shiite
+trade_goods = silk
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Amol"
+is_city = yes

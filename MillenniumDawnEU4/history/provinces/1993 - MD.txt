@@ -1,0 +1,11 @@
+owner = MHL
+controller = MHL
+add_core = MHL
+culture = polynesian
+religion = animism
+trade_goods = unknown
+base_tax = 15
+base_production = 15
+base_manpower = 15
+capital = "Masrshall Islands"
+is_city = yes

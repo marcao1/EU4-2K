@@ -1,0 +1,11 @@
+owner = TU1
+controller = TU1
+add_core = TU1
+culture = turkish
+religion = sunni
+trade_goods = salt
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Mentese"
+is_city = yes

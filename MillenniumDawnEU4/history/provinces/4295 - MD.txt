@@ -1,0 +1,11 @@
+owner = TU1
+controller = TU1
+add_core = TU1
+culture = kurdish
+religion = sunni
+trade_goods = wool
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Hisn Kayfa"
+is_city = yes

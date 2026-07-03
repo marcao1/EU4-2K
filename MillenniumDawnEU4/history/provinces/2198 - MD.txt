@@ -1,0 +1,11 @@
+owner = GEO
+controller = GEO
+add_core = GEO
+culture = dagestani
+religion = sunni
+trade_goods = livestock
+base_tax = 4
+base_production = 4
+base_manpower = 5
+capital = "Khundzia"
+is_city = yes

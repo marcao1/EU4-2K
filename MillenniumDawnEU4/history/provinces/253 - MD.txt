@@ -1,0 +1,12 @@
+owner = UKG
+controller = UKG
+add_core = UKG
+hre = yes
+culture = highland_scottish
+religion = catholic
+trade_goods = grain
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Western Isles"
+is_city = yes

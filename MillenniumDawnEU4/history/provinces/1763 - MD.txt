@@ -1,0 +1,12 @@
+owner = DEU
+controller = DEU
+add_core = DEU
+hre = yes
+culture = sorbian
+religion = catholic
+trade_goods = livestock
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Niederlausitz"
+is_city = yes

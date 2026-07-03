@@ -1,0 +1,11 @@
+owner = POL
+controller = POL
+add_core = POL
+culture = polish
+religion = catholic
+trade_goods = salt
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Krakow"
+is_city = yes

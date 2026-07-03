@@ -1,0 +1,11 @@
+owner = BOL
+controller = BOL
+add_core = BOL
+culture = aimara
+religion = inti
+trade_goods = cloth
+base_tax = 1
+base_production = 1
+base_manpower = 2
+capital = "Sucre"
+is_city = yes

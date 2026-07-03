@@ -1,0 +1,12 @@
+owner = LUX
+controller = LUX
+add_core = LUX
+hre = yes
+culture = wallonian
+religion = catholic
+trade_goods = iron
+base_tax = 21
+base_production = 22
+base_manpower = 22
+capital = "Luxemburg"
+is_city = yes

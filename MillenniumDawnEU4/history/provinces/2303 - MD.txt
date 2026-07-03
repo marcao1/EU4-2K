@@ -1,0 +1,11 @@
+owner = TU1
+controller = TU1
+add_core = TU1
+culture = turkish
+religion = shiite
+trade_goods = cloth
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Malatya"
+is_city = yes

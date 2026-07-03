@@ -1,0 +1,11 @@
+owner = HRV
+controller = HRV
+add_core = HRV
+culture = croatian
+religion = catholic
+trade_goods = fish
+base_tax = 2
+base_production = 2
+base_manpower = 3
+capital = "Lika"
+is_city = yes

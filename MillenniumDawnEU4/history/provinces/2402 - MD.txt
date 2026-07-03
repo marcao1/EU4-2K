@@ -1,0 +1,11 @@
+owner = MMR
+controller = MMR
+add_core = MMR
+culture = arakanese
+religion = buddhism
+trade_goods = iron
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Sandoway"
+is_city = yes

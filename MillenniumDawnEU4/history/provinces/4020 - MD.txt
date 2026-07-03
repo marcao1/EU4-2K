@@ -1,0 +1,11 @@
+owner = CMO
+controller = CMO
+add_core = CMO
+culture = madagasque
+religion = sunni
+trade_goods = unknown
+base_tax = 19
+base_production = 19
+base_manpower = 19
+capital = "Comoros"
+is_city = yes

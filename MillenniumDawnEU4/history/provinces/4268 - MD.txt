@@ -1,0 +1,11 @@
+owner = EGY
+controller = EGY
+add_core = EGY
+culture = bedouin_arabic
+religion = sunni
+trade_goods = fish
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Aqaba"
+is_city = yes

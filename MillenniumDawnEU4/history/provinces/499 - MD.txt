@@ -1,0 +1,11 @@
+owner = LCA
+controller = LCA
+add_core = LCA
+culture = carib
+religion = animism
+trade_goods = unknown
+base_tax = 17
+base_production = 18
+base_manpower = 18
+capital = "St. Lucia"
+is_city = yes

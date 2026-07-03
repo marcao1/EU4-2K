@@ -1,0 +1,11 @@
+owner = USA
+controller = USA
+add_core = USA
+culture = chinook
+religion = totemism
+trade_goods = unknown
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Pomo"
+is_city = yes

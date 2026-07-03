@@ -1,0 +1,11 @@
+owner = ML1
+controller = ML1
+add_core = ML1
+culture = tuareg
+religion = sunni
+trade_goods = livestock
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Azawagh"
+is_city = yes

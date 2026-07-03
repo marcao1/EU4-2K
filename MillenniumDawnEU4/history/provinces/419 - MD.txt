@@ -1,0 +1,11 @@
+owner = TU1
+controller = TU1
+add_core = TU1
+culture = armenian
+religion = coptic
+trade_goods = wine
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Yerevan"
+is_city = yes

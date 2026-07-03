@@ -1,0 +1,11 @@
+owner = ECU
+controller = ECU
+add_core = ECU
+culture = inca
+religion = inti
+trade_goods = wool
+base_tax = 3
+base_production = 3
+base_manpower = 4
+capital = "Wankapampa"
+is_city = yes

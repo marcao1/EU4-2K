@@ -1,0 +1,11 @@
+owner = MRT
+controller = MRT
+add_core = MRT
+culture = senegambian
+religion = sunni
+trade_goods = salt
+base_tax = 2
+base_production = 2
+base_manpower = 3
+capital = "Trarza"
+is_city = yes

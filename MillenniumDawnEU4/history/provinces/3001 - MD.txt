@@ -1,0 +1,11 @@
+owner = MKD
+controller = MKD
+add_core = MKD
+culture = bulgarian
+religion = orthodox
+trade_goods = copper
+base_tax = 10
+base_production = 11
+base_manpower = 11
+capital = "Skopje"
+is_city = yes

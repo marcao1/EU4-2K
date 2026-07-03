@@ -1,0 +1,12 @@
+owner = NLD
+controller = NLD
+add_core = NLD
+hre = yes
+culture = dutch
+religion = catholic
+trade_goods = cloth
+base_tax = 2
+base_production = 2
+base_manpower = 3
+capital = "Haag"
+is_city = yes

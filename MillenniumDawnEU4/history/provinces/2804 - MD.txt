@@ -1,0 +1,11 @@
+owner = VE1
+controller = VE1
+add_core = VE1
+culture = carib
+religion = animism
+trade_goods = unknown
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Guasipati"
+is_city = yes

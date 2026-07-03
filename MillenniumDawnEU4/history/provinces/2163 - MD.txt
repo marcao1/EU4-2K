@@ -1,0 +1,11 @@
+owner = CHN
+controller = CHN
+add_core = CHN
+culture = zhuang
+religion = confucianism
+trade_goods = salt
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Liuzhou"
+is_city = yes

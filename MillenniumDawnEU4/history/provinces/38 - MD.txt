@@ -1,0 +1,11 @@
+owner = LAT
+controller = LAT
+add_core = LAT
+culture = baltic_german
+religion = catholic
+trade_goods = naval_supplies
+base_tax = 4
+base_production = 4
+base_manpower = 5
+capital = "Riga"
+is_city = yes

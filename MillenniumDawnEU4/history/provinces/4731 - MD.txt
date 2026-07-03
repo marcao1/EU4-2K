@@ -1,0 +1,12 @@
+owner = ITA
+controller = ITA
+add_core = ITA
+hre = yes
+culture = umbrian
+religion = catholic
+trade_goods = livestock
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Spoleto"
+is_city = yes

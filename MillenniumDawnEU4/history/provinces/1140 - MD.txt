@@ -1,0 +1,11 @@
+owner = TGO
+controller = TGO
+add_core = TGO
+culture = fon
+religion = shamanism
+trade_goods = slaves
+base_tax = 7
+base_production = 7
+base_manpower = 8
+capital = "Abomey"
+is_city = yes

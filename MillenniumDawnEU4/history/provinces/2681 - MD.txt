@@ -1,0 +1,11 @@
+owner = IDN
+controller = IDN
+add_core = IDN
+culture = sumatran
+religion = buddhism
+trade_goods = gold
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Pagarruyung"
+is_city = yes

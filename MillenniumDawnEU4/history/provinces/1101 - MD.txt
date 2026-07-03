@@ -1,0 +1,12 @@
+owner = UKG
+controller = UKG
+add_core = UKG
+hre = yes
+culture = cosmopolitan_french
+religion = catholic
+trade_goods = unknown
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Diego Garcia"
+is_city = yes

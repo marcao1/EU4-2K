@@ -1,0 +1,11 @@
+owner = SVN
+controller = SVN
+add_core = SVN
+culture = austrian
+religion = catholic
+trade_goods = iron
+base_tax = 7
+base_production = 8
+base_manpower = 8
+capital = "Karnten"
+is_city = yes

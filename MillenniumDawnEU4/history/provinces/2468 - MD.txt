@@ -1,0 +1,11 @@
+owner = MRC
+controller = MRC
+add_core = MRC
+culture = moroccan
+religion = sunni
+trade_goods = copper
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Tadla"
+is_city = yes

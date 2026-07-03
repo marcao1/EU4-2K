@@ -1,0 +1,11 @@
+owner = MWI
+controller = MWI
+add_core = MWI
+culture = nyasa
+religion = shamanism
+trade_goods = iron
+base_tax = 6
+base_production = 6
+base_manpower = 6
+capital = "Kalonga"
+is_city = yes

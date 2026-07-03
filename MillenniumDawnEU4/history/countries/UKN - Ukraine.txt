@@ -1,0 +1,9 @@
+government = republic
+add_government_reform = oligarchy_reform
+technology_group = western
+primary_culture = romanian
+religion = orthodox
+capital = 280
+2000.1.1 = {
+ monarch = { name = "Leonid Kuchma" adm = 3 dip = 3 mil = 2 }
+}

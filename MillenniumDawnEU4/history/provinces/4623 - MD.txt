@@ -1,0 +1,11 @@
+owner = CUB
+controller = CUB
+add_core = CUB
+culture = arawak
+religion = animism
+trade_goods = unknown
+base_tax = 2
+base_production = 3
+base_manpower = 3
+capital = "Escambrey"
+is_city = yes

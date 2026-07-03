@@ -1,0 +1,11 @@
+owner = PAK
+controller = PAK
+add_core = PAK
+culture = panjabi
+religion = hinduism
+trade_goods = salt
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Bhera"
+is_city = yes

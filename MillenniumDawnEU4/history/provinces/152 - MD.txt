@@ -1,0 +1,11 @@
+owner = SVN
+controller = SVN
+add_core = SVN
+culture = croatian
+religion = catholic
+trade_goods = cloth
+base_tax = 7
+base_production = 8
+base_manpower = 8
+capital = "Belovar"
+is_city = yes

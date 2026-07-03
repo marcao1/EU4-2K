@@ -1,0 +1,11 @@
+owner = VAT
+controller = VAT
+add_core = VAT
+culture = umbrian
+religion = catholic
+trade_goods = paper
+base_tax = 6
+base_production = 7
+base_manpower = 7
+capital = "Roma"
+is_city = yes

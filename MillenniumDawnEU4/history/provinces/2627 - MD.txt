@@ -1,0 +1,11 @@
+owner = MEX
+controller = MEX
+add_core = MEX
+culture = tlapanec
+religion = nahuatl
+trade_goods = gems
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Cihuatlan"
+is_city = yes

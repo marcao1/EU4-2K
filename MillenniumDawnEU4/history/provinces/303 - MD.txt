@@ -1,0 +1,11 @@
+owner = RUS
+controller = RUS
+add_core = RUS
+culture = mishary
+religion = sunni
+trade_goods = livestock
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Saratow"
+is_city = yes

@@ -1,0 +1,11 @@
+owner = VNM
+controller = VNM
+add_core = VNM
+culture = vietnamese
+religion = mahayana
+trade_goods = chinaware
+base_tax = 2
+base_production = 2
+base_manpower = 3
+capital = "Dong Kinh"
+is_city = yes

@@ -1,0 +1,11 @@
+owner = SOM
+controller = SOM
+add_core = SOM
+culture = somali
+religion = sunni
+trade_goods = incense
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Las Khorey"
+is_city = yes

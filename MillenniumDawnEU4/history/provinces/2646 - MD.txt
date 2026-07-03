@@ -1,0 +1,11 @@
+owner = MEX
+controller = MEX
+add_core = MEX
+culture = mixtec
+religion = nahuatl
+trade_goods = dyes
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Coixtlahuacan"
+is_city = yes

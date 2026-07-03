@@ -1,0 +1,12 @@
+owner = PRT
+controller = PRT
+add_core = PRT
+hre = yes
+culture = leonese
+religion = catholic
+trade_goods = wine
+base_tax = 2
+base_production = 2
+base_manpower = 2
+capital = "Zamora"
+is_city = yes

@@ -1,0 +1,11 @@
+owner = ALB
+controller = ALB
+add_core = ALB
+culture = albanian
+religion = orthodox
+trade_goods = wool
+base_tax = 4
+base_production = 4
+base_manpower = 5
+capital = "Kruje"
+is_city = yes

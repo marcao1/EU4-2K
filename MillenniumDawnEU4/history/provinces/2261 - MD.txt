@@ -1,0 +1,11 @@
+owner = ML1
+controller = ML1
+add_core = ML1
+culture = bozo
+religion = shamanism
+trade_goods = fish
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Kala"
+is_city = yes

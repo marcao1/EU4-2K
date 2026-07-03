@@ -1,0 +1,11 @@
+owner = TJK
+controller = TJK
+add_core = TJK
+culture = uzbehk
+religion = sunni
+trade_goods = iron
+base_tax = 4
+base_production = 5
+base_manpower = 5
+capital = "Kokand"
+is_city = yes

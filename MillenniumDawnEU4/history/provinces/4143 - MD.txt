@@ -1,0 +1,11 @@
+owner = NOR
+controller = NOR
+add_core = NOR
+culture = norwegian
+religion = catholic
+trade_goods = naval_supplies
+base_tax = 2
+base_production = 2
+base_manpower = 3
+capital = "Smalenene"
+is_city = yes

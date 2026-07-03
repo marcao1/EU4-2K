@@ -1,0 +1,11 @@
+owner = LBN
+controller = LBN
+add_core = LBN
+culture = al_suryah_arabic
+religion = shiite
+trade_goods = naval_supplies
+base_tax = 8
+base_production = 8
+base_manpower = 8
+capital = "Sidon"
+is_city = yes

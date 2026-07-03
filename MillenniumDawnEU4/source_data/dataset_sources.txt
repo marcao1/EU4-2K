@@ -1,0 +1,6 @@
+Natural Earth Admin 0 Countries 5.1.1 (public domain)
+https://naturalearth.s3.amazonaws.com/10m_cultural/ne_10m_admin_0_countries.zip
+FlagCDN national flag images
+https://flagcdn.com/
+Capital coordinate dataset
+https://gist.githubusercontent.com/aratsimbaharison/d2b02b968bcfa03749c7c4ee9577dc68/raw/355eb56e164ddc3cd1a9467c524422cb674e71a9/country-capital-lat-long-population.csv

@@ -1,0 +1,11 @@
+owner = COD
+controller = COD
+add_core = COD
+culture = kuba
+religion = shamanism
+trade_goods = cloth
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Kuba"
+is_city = yes

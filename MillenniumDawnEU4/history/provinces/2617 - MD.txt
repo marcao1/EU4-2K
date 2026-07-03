@@ -1,0 +1,11 @@
+owner = MEX
+controller = MEX
+add_core = MEX
+culture = tepic
+religion = nahuatl
+trade_goods = wool
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Huichol"
+is_city = yes

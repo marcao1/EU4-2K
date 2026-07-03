@@ -1,0 +1,11 @@
+owner = LBR
+controller = LBR
+add_core = LBR
+culture = dyola
+religion = shamanism
+trade_goods = unknown
+base_tax = 21
+base_production = 21
+base_manpower = 22
+capital = "Grain Coast"
+is_city = yes

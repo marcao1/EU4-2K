@@ -1,0 +1,11 @@
+owner = SYC
+controller = SYC
+add_core = SYC
+culture = cosmopolitan_french
+religion = catholic
+trade_goods = unknown
+base_tax = 17
+base_production = 17
+base_manpower = 17
+capital = "Mahe"
+is_city = yes

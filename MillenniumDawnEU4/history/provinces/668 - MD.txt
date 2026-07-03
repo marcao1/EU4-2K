@@ -1,0 +1,11 @@
+owner = CHN
+controller = CHN
+add_core = CHN
+culture = cantonese
+religion = confucianism
+trade_goods = fish
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Macau"
+is_city = yes

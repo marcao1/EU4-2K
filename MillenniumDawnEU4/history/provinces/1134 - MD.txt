@@ -1,0 +1,11 @@
+owner = ML1
+controller = ML1
+add_core = ML1
+culture = bozo
+religion = shamanism
+trade_goods = cloth
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Jenne"
+is_city = yes

@@ -1,0 +1,11 @@
+owner = TGO
+controller = TGO
+add_core = TGO
+culture = dagomba
+religion = shamanism
+trade_goods = tropical_wood
+base_tax = 7
+base_production = 7
+base_manpower = 8
+capital = "Atakora"
+is_city = yes

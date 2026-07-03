@@ -1,0 +1,11 @@
+owner = EGY
+controller = EGY
+add_core = EGY
+culture = al_misr_arabic
+religion = sunni
+trade_goods = cloth
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Cairo"
+is_city = yes

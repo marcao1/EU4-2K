@@ -1,0 +1,11 @@
+owner = BGR
+controller = BGR
+add_core = BGR
+culture = bulgarian
+religion = orthodox
+trade_goods = grain
+base_tax = 4
+base_production = 4
+base_manpower = 4
+capital = "Plovdiv"
+is_city = yes

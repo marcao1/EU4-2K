@@ -1,0 +1,11 @@
+owner = KEN
+controller = KEN
+add_core = KEN
+culture = bantu
+religion = shamanism
+trade_goods = unknown
+base_tax = 2
+base_production = 2
+base_manpower = 3
+capital = "Kikuyu"
+is_city = yes

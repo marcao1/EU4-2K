@@ -1,0 +1,11 @@
+owner = BHS
+controller = BHS
+add_core = BHS
+culture = arawak
+religion = animism
+trade_goods = unknown
+base_tax = 10
+base_production = 10
+base_manpower = 10
+capital = "Bahamas"
+is_city = yes

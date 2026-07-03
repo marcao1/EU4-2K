@@ -1,0 +1,11 @@
+owner = DZA
+controller = DZA
+add_core = DZA
+culture = berber
+religion = sunni
+trade_goods = livestock
+base_tax = 1
+base_production = 1
+base_manpower = 2
+capital = "Maaskar"
+is_city = yes

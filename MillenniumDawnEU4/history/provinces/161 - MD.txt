@@ -1,0 +1,11 @@
+owner = ROU
+controller = ROU
+add_core = ROU
+culture = romanian
+religion = orthodox
+trade_goods = livestock
+base_tax = 1
+base_production = 2
+base_manpower = 2
+capital = "Tirgoviste"
+is_city = yes

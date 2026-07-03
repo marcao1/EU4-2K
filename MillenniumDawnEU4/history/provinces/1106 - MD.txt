@@ -1,0 +1,11 @@
+owner = FJI
+controller = FJI
+add_core = FJI
+culture = maori
+religion = animism
+trade_goods = tropical_wood
+base_tax = 5
+base_production = 5
+base_manpower = 5
+capital = "Te Tai Tokerau"
+is_city = yes

@@ -1,0 +1,11 @@
+owner = ZMB
+controller = ZMB
+add_core = ZMB
+culture = nyasa
+religion = shamanism
+trade_goods = gems
+base_tax = 2
+base_production = 2
+base_manpower = 3
+capital = "Tumbuka"
+is_city = yes

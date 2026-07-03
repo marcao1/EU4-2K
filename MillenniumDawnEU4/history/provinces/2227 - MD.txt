@@ -1,0 +1,11 @@
+owner = AFG
+controller = AFG
+add_core = AFG
+culture = afghani
+religion = sunni
+trade_goods = cotton
+base_tax = 1
+base_production = 2
+base_manpower = 2
+capital = "Kunduz"
+is_city = yes

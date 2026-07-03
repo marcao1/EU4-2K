@@ -1,0 +1,11 @@
+owner = CZE
+controller = CZE
+add_core = CZE
+culture = czech
+religion = hussite
+trade_goods = cloth
+base_tax = 2
+base_production = 2
+base_manpower = 2
+capital = "Prague"
+is_city = yes

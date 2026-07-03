@@ -1,0 +1,11 @@
+owner = ZWE
+controller = ZWE
+add_core = ZWE
+culture = shona
+religion = shamanism
+trade_goods = gold
+base_tax = 4
+base_production = 4
+base_manpower = 4
+capital = "Buha"
+is_city = yes

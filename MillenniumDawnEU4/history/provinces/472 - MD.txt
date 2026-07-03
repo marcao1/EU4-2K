@@ -1,0 +1,11 @@
+owner = KZK
+controller = KZK
+add_core = KZK
+culture = nogaybak
+religion = sunni
+trade_goods = naval_supplies
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Jetyru"
+is_city = yes

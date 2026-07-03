@@ -1,0 +1,11 @@
+owner = CH1
+controller = CH1
+add_core = CH1
+culture = swiss
+religion = catholic
+trade_goods = livestock
+base_tax = 2
+base_production = 2
+base_manpower = 3
+capital = "Illanz"
+is_city = yes

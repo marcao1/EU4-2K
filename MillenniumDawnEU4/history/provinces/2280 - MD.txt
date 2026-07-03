@@ -1,0 +1,11 @@
+owner = NER
+controller = NER
+add_core = NER
+culture = hausa
+religion = sunni
+trade_goods = dyes
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Biram"
+is_city = yes

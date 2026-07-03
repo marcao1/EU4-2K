@@ -1,0 +1,28 @@
+﻿# The vanilla HRE reform slots are retained because their positions are hardcoded
+# in the native interface; their names and effects now represent EU treaties.
+reichsreform = { empire = hre potential = { NOT = { has_dlc = "Emperor" } } member = { global_trade_power = 0.05 } gui_container = nodlc }
+reichsregiment = { empire = hre potential = { NOT = { has_dlc = "Emperor" } } member = { diplomatic_reputation = 1 } required_reform = reichsreform gui_container = nodlc }
+hofgericht = { empire = hre potential = { NOT = { has_dlc = "Emperor" } } member = { stability_cost_modifier = -0.05 } required_reform = reichsregiment gui_container = nodlc }
+gemeinerpfennig = { empire = hre potential = { NOT = { has_dlc = "Emperor" } } member = { production_efficiency = 0.05 } required_reform = hofgericht gui_container = nodlc }
+landfriede = { empire = hre potential = { NOT = { has_dlc = "Emperor" } } member = { technology_cost = -0.03 } required_reform = gemeinerpfennig gui_container = nodlc }
+erbkaisertum = { empire = hre potential = { NOT = { has_dlc = "Emperor" } } member = { global_unrest = -1 } required_reform = landfriede gui_container = nodlc }
+privilegia_de_non_appelando = { empire = hre potential = { NOT = { has_dlc = "Emperor" } } member = { development_cost = -0.05 } required_reform = erbkaisertum gui_container = nodlc }
+renovatio = { empire = hre potential = { NOT = { has_dlc = "Emperor" } } all = { administrative_efficiency = 0.05 } required_reform = privilegia_de_non_appelando gui_container = nodlc }
+
+emperor_reichsreform = { empire = hre potential = { has_dlc = "Emperor" } member = { global_trade_power = 0.05 } gui_container = mainline }
+emperor_reichsregiment = { empire = hre potential = { has_dlc = "Emperor" } member = { diplomatic_reputation = 1 } required_reform = emperor_reichsreform gui_container = mainline }
+emperor_reichsstabilitaet = { empire = hre potential = { has_dlc = "Emperor" } member = { stability_cost_modifier = -0.05 } required_reform = emperor_reichsregiment gui_container = mainline }
+emperor_gemeinerpfennig = { empire = hre potential = { has_dlc = "Emperor" } member = { production_efficiency = 0.05 } required_reform = emperor_reichsstabilitaet gui_container = mainline }
+emperor_perpetual_diet = { empire = hre potential = { has_dlc = "Emperor" } all = { diplomatic_reputation = 1 } required_reform = emperor_gemeinerpfennig gui_container = mainline }
+emperor_landsknechtswesen = { empire = hre potential = { has_dlc = "Emperor" } member = { land_maintenance_modifier = -0.05 } required_reform = emperor_perpetual_diet gui_container = mainline }
+emperor_landfriede = { empire = hre potential = { has_dlc = "Emperor" } member = { technology_cost = -0.03 } required_reform = emperor_landsknechtswesen gui_container = mainline }
+emperor_reichstag_collegia = { empire = hre potential = { has_dlc = "Emperor" } member = { global_manpower_modifier = 0.05 } required_reform = emperor_perpetual_diet disabled_by = emperor_hofgericht gui_container = left_branch ai_acceptance_decentralize = yes }
+emperor_expand_gemeiner_pfennig = { empire = hre potential = { has_dlc = "Emperor" } member = { global_tax_modifier = 0.05 } required_reform = emperor_reichstag_collegia gui_container = left_branch ai_acceptance_decentralize = yes }
+emperor_rechenschaft = { empire = hre potential = { has_dlc = "Emperor" } member = { global_unrest = -1 } required_reform = emperor_expand_gemeiner_pfennig gui_container = left_branch ai_acceptance_decentralize = yes }
+emperor_geteilte_macht = { empire = hre potential = { has_dlc = "Emperor" } member = { development_cost = -0.05 } required_reform = emperor_rechenschaft gui_container = left_branch ai_acceptance_decentralize = yes }
+emperor_reichskrieg = { empire = hre potential = { has_dlc = "Emperor" } member = { land_morale = 0.05 } required_reform = emperor_geteilte_macht gui_container = left_branch ai_acceptance_decentralize = yes }
+emperor_hofgericht = { empire = hre potential = { has_dlc = "Emperor" } member = { stability_cost_modifier = -0.10 } required_reform = emperor_perpetual_diet disabled_by = emperor_reichstag_collegia gui_container = right_branch ai_acceptance_centralize = yes }
+emperor_imperial_estates = { empire = hre potential = { has_dlc = "Emperor" } member = { production_efficiency = 0.10 } required_reform = emperor_hofgericht gui_container = right_branch ai_acceptance_centralize = yes }
+emperor_erbkaisertum = { empire = hre potential = { has_dlc = "Emperor" } member = { global_unrest = -1 } required_reform = emperor_imperial_estates gui_container = right_branch ai_acceptance_centralize = yes }
+emperor_privilegia_de_non_appelando = { empire = hre potential = { has_dlc = "Emperor" } member = { development_cost = -0.05 } required_reform = emperor_erbkaisertum gui_container = right_branch ai_acceptance_centralize = yes }
+emperor_renovatio = { empire = hre potential = { has_dlc = "Emperor" } all = { administrative_efficiency = 0.05 } required_reform = emperor_privilegia_de_non_appelando gui_container = right_branch ai_acceptance_centralize = yes }

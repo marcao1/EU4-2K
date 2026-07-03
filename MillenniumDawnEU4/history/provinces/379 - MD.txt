@@ -1,0 +1,11 @@
+owner = EGY
+controller = EGY
+add_core = EGY
+culture = al_suryah_arabic
+religion = sunni
+trade_goods = grain
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Jerusalem"
+is_city = yes

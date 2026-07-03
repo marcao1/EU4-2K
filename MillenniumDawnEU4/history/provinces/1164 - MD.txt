@@ -1,0 +1,11 @@
+owner = CMR
+controller = CMR
+add_core = CMR
+culture = sawabantu
+religion = shamanism
+trade_goods = unknown
+base_tax = 12
+base_production = 13
+base_manpower = 13
+capital = "Cameroon"
+is_city = yes

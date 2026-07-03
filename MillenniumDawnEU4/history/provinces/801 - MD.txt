@@ -1,0 +1,11 @@
+owner = BOL
+controller = BOL
+add_core = BOL
+culture = guarani
+religion = animism
+trade_goods = unknown
+base_tax = 1
+base_production = 1
+base_manpower = 2
+capital = "Caranga"
+is_city = yes

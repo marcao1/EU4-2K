@@ -1,0 +1,11 @@
+owner = URY
+controller = URY
+add_core = URY
+culture = charruan
+religion = animism
+trade_goods = unknown
+base_tax = 7
+base_production = 8
+base_manpower = 8
+capital = "Paysandu"
+is_city = yes

@@ -1,0 +1,11 @@
+owner = POL
+controller = POL
+add_core = POL
+culture = byelorussian
+religion = orthodox
+trade_goods = wool
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Brest"
+is_city = yes

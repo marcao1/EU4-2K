@@ -1,0 +1,12 @@
+owner = ESP
+controller = ESP
+add_core = ESP
+hre = yes
+culture = andalucian
+religion = sunni
+trade_goods = salt
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Malaga"
+is_city = yes

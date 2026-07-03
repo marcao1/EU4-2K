@@ -1,0 +1,11 @@
+owner = MDV
+controller = MDV
+add_core = MDV
+culture = malayalam
+religion = sunni
+trade_goods = gems
+base_tax = 19
+base_production = 20
+base_manpower = 20
+capital = "Maldives"
+is_city = yes

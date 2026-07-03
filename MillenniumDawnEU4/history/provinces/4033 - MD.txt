@@ -1,0 +1,11 @@
+owner = SDN
+controller = SDN
+add_core = SDN
+culture = nubian
+religion = sunni
+trade_goods = ivory
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Al Qadirif"
+is_city = yes

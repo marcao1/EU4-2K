@@ -1,0 +1,11 @@
+owner = SAU
+controller = SAU
+add_core = SAU
+culture = bedouin_arabic
+religion = sunni
+trade_goods = grain
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Yabrin"
+is_city = yes

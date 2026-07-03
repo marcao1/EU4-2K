@@ -1,0 +1,12 @@
+owner = PRT
+controller = PRT
+add_core = PRT
+hre = yes
+culture = portugese
+religion = catholic
+trade_goods = grain
+base_tax = 2
+base_production = 2
+base_manpower = 2
+capital = "Ribatejo"
+is_city = yes

@@ -1,0 +1,11 @@
+owner = UKN
+controller = UKN
+add_core = UKN
+culture = ryazanian
+religion = orthodox
+trade_goods = iron
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Chernigov"
+is_city = yes

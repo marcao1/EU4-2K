@@ -1,0 +1,11 @@
+owner = NER
+controller = NER
+add_core = NER
+culture = kanuri
+religion = sunni
+trade_goods = paper
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Kanem"
+is_city = yes

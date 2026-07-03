@@ -1,0 +1,11 @@
+owner = IRN
+controller = IRN
+add_core = IRN
+culture = persian
+religion = sunni
+trade_goods = silk
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Fasa"
+is_city = yes

@@ -1,0 +1,12 @@
+owner = PRT
+controller = PRT
+add_core = PRT
+hre = yes
+culture = berber
+religion = animism
+trade_goods = fish
+base_tax = 2
+base_production = 2
+base_manpower = 2
+capital = "The Azores"
+is_city = yes

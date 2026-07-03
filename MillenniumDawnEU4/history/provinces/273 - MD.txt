@@ -1,0 +1,11 @@
+owner = LAT
+controller = LAT
+add_core = LAT
+culture = latvian
+religion = catholic
+trade_goods = livestock
+base_tax = 4
+base_production = 4
+base_manpower = 5
+capital = "Latgalia"
+is_city = yes

@@ -1,0 +1,11 @@
+owner = USA
+controller = USA
+add_core = USA
+culture = laurentian
+religion = totemism
+trade_goods = fur
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Hochelega"
+is_city = yes

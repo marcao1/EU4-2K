@@ -1,0 +1,11 @@
+owner = SKR
+controller = SKR
+add_core = SKR
+culture = korean
+religion = confucianism
+trade_goods = fish
+base_tax = 2
+base_production = 2
+base_manpower = 3
+capital = "Jeju"
+is_city = yes

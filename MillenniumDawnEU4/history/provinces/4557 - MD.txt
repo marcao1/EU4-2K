@@ -1,0 +1,12 @@
+owner = ESP
+controller = ESP
+add_core = ESP
+hre = yes
+culture = aragonese
+religion = catholic
+trade_goods = cloth
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Lleida"
+is_city = yes

@@ -1,0 +1,11 @@
+owner = CBD
+controller = CBD
+add_core = CBD
+culture = cham
+religion = animism
+trade_goods = tea
+base_tax = 2
+base_production = 2
+base_manpower = 2
+capital = "Tay Nguyen"
+is_city = yes

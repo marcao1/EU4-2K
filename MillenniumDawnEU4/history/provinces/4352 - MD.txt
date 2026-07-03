@@ -1,0 +1,11 @@
+owner = PHL
+controller = PHL
+add_core = PHL
+culture = filipino
+religion = hinduism
+trade_goods = gems
+base_tax = 1
+base_production = 1
+base_manpower = 2
+capital = "Cebu"
+is_city = yes

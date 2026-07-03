@@ -1,0 +1,26 @@
+﻿.cache/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+eu4_mod_test_output.txt
+
+# Editors and operating-system metadata
+.idea/
+.vscode/
+*.code-workspace
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+*.bak
+*.tmp
+
+# Local EU4/Paradox output and logs
+logs/
+crashes/
+*.log
+*.dmp
+
+# Third-party reference mod supplied by the user; never vendor it.
+ExtendedTimeline 1.18.2/

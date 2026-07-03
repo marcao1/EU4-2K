@@ -1,0 +1,11 @@
+owner = P01
+controller = P01
+add_core = P01
+culture = aimara
+religion = inti
+trade_goods = unknown
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Arica"
+is_city = yes

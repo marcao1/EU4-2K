@@ -1,0 +1,11 @@
+owner = TZA
+controller = TZA
+add_core = TZA
+culture = swahili
+religion = sunni
+trade_goods = gold
+base_tax = 1
+base_production = 1
+base_manpower = 2
+capital = "Kilwa"
+is_city = yes

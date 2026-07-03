@@ -1,0 +1,11 @@
+owner = NGR
+controller = NGR
+add_core = NGR
+culture = jukun
+religion = shamanism
+trade_goods = unknown
+base_tax = 1
+base_production = 1
+base_manpower = 2
+capital = "Wukari"
+is_city = yes

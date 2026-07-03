@@ -1,0 +1,11 @@
+owner = EGY
+controller = EGY
+add_core = EGY
+culture = beja
+religion = sunni
+trade_goods = slaves
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Halaib"
+is_city = yes

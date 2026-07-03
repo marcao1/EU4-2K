@@ -1,0 +1,9 @@
+government = republic
+add_government_reform = oligarchy_reform
+technology_group = western
+primary_culture = yorumba
+religion = sunni
+capital = 1152
+2000.1.1 = {
+ monarch = { name = "Nigeria Leadership" adm = 3 dip = 3 mil = 3 }
+}

@@ -1,0 +1,12 @@
+owner = GRC
+controller = GRC
+add_core = GRC
+hre = yes
+culture = greek
+religion = orthodox
+trade_goods = livestock
+base_tax = 1
+base_production = 1
+base_manpower = 2
+capital = "Arta"
+is_city = yes

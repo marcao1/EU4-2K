@@ -1,0 +1,11 @@
+owner = IRN
+controller = IRN
+add_core = IRN
+culture = armenian
+religion = coptic
+trade_goods = wine
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Nakhchivan"
+is_city = yes

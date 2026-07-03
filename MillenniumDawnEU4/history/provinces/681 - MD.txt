@@ -1,0 +1,11 @@
+owner = CHN
+controller = CHN
+add_core = CHN
+culture = sichuanese
+religion = confucianism
+trade_goods = tea
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Yichang"
+is_city = yes

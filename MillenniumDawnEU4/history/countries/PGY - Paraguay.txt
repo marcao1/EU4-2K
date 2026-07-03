@@ -1,0 +1,9 @@
+government = republic
+add_government_reform = oligarchy_reform
+technology_group = western
+primary_culture = chacoan
+religion = catholic
+capital = 2859
+2000.1.1 = {
+ monarch = { name = "Paraguay Leadership" adm = 3 dip = 3 mil = 3 }
+}

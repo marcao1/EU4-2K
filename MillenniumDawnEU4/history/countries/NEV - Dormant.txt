@@ -1,0 +1,2 @@
+# Dormant historical tag retained for base-script compatibility.
+technology_group = western

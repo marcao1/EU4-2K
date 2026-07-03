@@ -1,0 +1,11 @@
+owner = MMR
+controller = MMR
+add_core = MMR
+culture = shan
+religion = buddhism
+trade_goods = cotton
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Yawnghwe"
+is_city = yes

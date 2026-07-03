@@ -1,0 +1,11 @@
+owner = RUS
+controller = RUS
+add_core = RUS
+culture = russian
+religion = orthodox
+trade_goods = grain
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Tver"
+is_city = yes

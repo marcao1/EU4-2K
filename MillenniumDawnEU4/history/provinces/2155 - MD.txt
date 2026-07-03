@@ -1,0 +1,11 @@
+owner = TWN
+controller = TWN
+add_core = TWN
+culture = polynesian
+religion = animism
+trade_goods = unknown
+base_tax = 13
+base_production = 14
+base_manpower = 14
+capital = "Middag"
+is_city = yes

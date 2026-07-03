@@ -1,0 +1,11 @@
+owner = CAN
+controller = CAN
+add_core = CAN
+culture = mikmaq
+religion = totemism
+trade_goods = unknown
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Micmac"
+is_city = yes

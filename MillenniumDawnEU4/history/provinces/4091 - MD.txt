@@ -1,0 +1,11 @@
+owner = COD
+controller = COD
+add_core = COD
+culture = lunda
+religion = shamanism
+trade_goods = spices
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Mpasu"
+is_city = yes

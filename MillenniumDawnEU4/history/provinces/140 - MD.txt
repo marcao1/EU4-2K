@@ -1,0 +1,11 @@
+owner = BIH
+controller = BIH
+add_core = BIH
+culture = bosnian
+religion = orthodox
+trade_goods = salt
+base_tax = 4
+base_production = 4
+base_manpower = 5
+capital = "Bosnia"
+is_city = yes

@@ -1,0 +1,11 @@
+owner = MMR
+controller = MMR
+add_core = MMR
+culture = kachin
+religion = buddhism
+trade_goods = gems
+base_tax = 1
+base_production = 1
+base_manpower = 1
+capital = "Mong Kawng"
+is_city = yes
