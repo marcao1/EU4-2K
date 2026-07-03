@@ -1,6 +1,7 @@
 owner = LTU
 controller = LTU
 add_core = LTU
+add_claim = RUS
 culture = latvian
 religion = catholic
 trade_goods = naval_supplies

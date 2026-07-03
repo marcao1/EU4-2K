@@ -1,6 +1,7 @@
 owner = HRV
 controller = HRV
 add_core = HRV
+add_claim = YUG
 culture = croatian
 religion = catholic
 trade_goods = fish

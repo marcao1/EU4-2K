@@ -1,6 +1,7 @@
 owner = UKN
 controller = UKN
 add_core = UKN
+add_claim = RUS
 culture = romanian
 religion = orthodox
 trade_goods = wool

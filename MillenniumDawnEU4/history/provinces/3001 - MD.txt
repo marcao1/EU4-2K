@@ -1,6 +1,8 @@
 owner = MKD
 controller = MKD
 add_core = MKD
+add_claim = BGR
+add_claim = YUG
 culture = bulgarian
 religion = orthodox
 trade_goods = copper

@@ -1,6 +1,7 @@
 owner = ISR
 controller = ISR
 add_core = ISR
+add_core = PSE
 culture = al_suryah_arabic
 religion = sunni
 trade_goods = sugar

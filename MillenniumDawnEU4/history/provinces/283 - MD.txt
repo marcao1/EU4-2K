@@ -1,6 +1,7 @@
 owner = UKN
 controller = UKN
 add_core = UKN
+add_claim = RUS
 culture = crimean
 religion = sunni
 trade_goods = livestock

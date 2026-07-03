@@ -1,6 +1,7 @@
 owner = UKG
 controller = UKG
 add_core = UKG
+add_core = IRL
 hre = yes
 culture = irish
 religion = catholic

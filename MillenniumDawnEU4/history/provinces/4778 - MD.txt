@@ -1,6 +1,8 @@
 owner = CZE
 controller = CZE
 add_core = CZE
+add_claim = AUT
+add_claim = SVK
 culture = sorbian
 religion = catholic
 trade_goods = livestock

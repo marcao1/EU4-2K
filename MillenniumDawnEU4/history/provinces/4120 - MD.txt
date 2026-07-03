@@ -1,6 +1,7 @@
 owner = IRL
 controller = IRL
 add_core = IRL
+add_claim = UKG
 hre = yes
 culture = irish
 religion = catholic

@@ -1,6 +1,7 @@
 owner = GEO
 controller = GEO
 add_core = GEO
+add_claim = RUS
 culture = georgian
 religion = orthodox
 trade_goods = wine

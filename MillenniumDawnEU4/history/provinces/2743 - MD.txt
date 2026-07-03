@@ -1,6 +1,7 @@
 owner = NKR
 controller = NKR
 add_core = NKR
+add_claim = SKR
 culture = manchu
 religion = confucianism
 trade_goods = fur

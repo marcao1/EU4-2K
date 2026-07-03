@@ -1,6 +1,8 @@
 owner = GRC
 controller = GRC
 add_core = GRC
+add_claim = BGR
+add_claim = TU1
 hre = yes
 culture = greek
 religion = orthodox

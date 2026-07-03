@@ -1,6 +1,7 @@
 owner = AUT
 controller = AUT
 add_core = AUT
+add_claim = HUN
 hre = yes
 culture = hungarian
 religion = catholic

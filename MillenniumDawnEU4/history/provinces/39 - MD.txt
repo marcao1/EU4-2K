@@ -1,6 +1,7 @@
 owner = LAT
 controller = LAT
 add_core = LAT
+add_claim = RUS
 culture = latvian
 religion = catholic
 trade_goods = naval_supplies

@@ -1,6 +1,7 @@
 owner = BLZ
 controller = BLZ
 add_core = BLZ
+add_core = GTM
 culture = yucatec
 religion = mesoamerican_religion
 trade_goods = sugar

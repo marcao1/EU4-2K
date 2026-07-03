@@ -1,6 +1,7 @@
 owner = TU1
 controller = TU1
 add_core = TU1
+add_claim = GRC
 culture = turkish
 religion = sunni
 trade_goods = cotton

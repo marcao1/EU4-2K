@@ -1,6 +1,8 @@
 owner = LTU
 controller = LTU
 add_core = LTU
+add_claim = POL
+add_claim = RUS
 culture = lithuanian
 religion = catholic
 trade_goods = livestock

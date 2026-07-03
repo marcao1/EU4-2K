@@ -1,6 +1,7 @@
 owner = KZK
 controller = KZK
 add_core = KZK
+add_claim = RUS
 culture = oirats
 religion = sunni
 trade_goods = salt

@@ -1,0 +1,30 @@
+claimant_tag,target_tag,strength,dispute,basis,source_url
+RUS,BLR,claim,Soviet successor territory,Belarus belonged to the Soviet Union until 1991 and Russia is its recognized continuator state,https://www.britannica.com/place/Soviet-Union
+RUS,UKN,claim,Soviet successor territory,Ukraine belonged to the Soviet Union until 1991 and Russia is its recognized continuator state,https://www.britannica.com/place/Soviet-Union
+RUS,MLD,claim,Soviet successor territory,Moldova belonged to the Soviet Union until 1991 and Russia is its recognized continuator state,https://www.britannica.com/place/Soviet-Union
+RUS,EST,claim,Soviet successor territory,Estonia was incorporated into the Soviet Union until 1991,https://www.britannica.com/place/Soviet-Union
+RUS,LAT,claim,Soviet successor territory,Latvia was incorporated into the Soviet Union until 1991,https://www.britannica.com/place/Soviet-Union
+RUS,LTU,claim,Soviet successor territory,Lithuania was incorporated into the Soviet Union until 1991,https://www.britannica.com/place/Soviet-Union
+RUS,GEO,claim,Soviet successor territory,Georgia belonged to the Soviet Union until 1991 and Russia is its recognized continuator state,https://www.britannica.com/place/Soviet-Union
+RUS,ARM,claim,Soviet successor territory,Armenia belonged to the Soviet Union until 1991 and Russia is its recognized continuator state,https://www.britannica.com/place/Soviet-Union
+RUS,AZE,claim,Soviet successor territory,Azerbaijan belonged to the Soviet Union until 1991 and Russia is its recognized continuator state,https://www.britannica.com/place/Soviet-Union
+RUS,KZK,claim,Soviet successor territory,Kazakhstan belonged to the Soviet Union until 1991 and Russia is its recognized continuator state,https://www.britannica.com/place/Soviet-Union
+RUS,UZB,claim,Soviet successor territory,Uzbekistan belonged to the Soviet Union until 1991 and Russia is its recognized continuator state,https://www.britannica.com/place/Soviet-Union
+RUS,TKM,claim,Soviet successor territory,Turkmenistan belonged to the Soviet Union until 1991 and Russia is its recognized continuator state,https://www.britannica.com/place/Soviet-Union
+RUS,TJK,claim,Soviet successor territory,Tajikistan belonged to the Soviet Union until 1991 and Russia is its recognized continuator state,https://www.britannica.com/place/Soviet-Union
+RUS,KGZ,claim,Soviet successor territory,Kyrgyzstan belonged to the Soviet Union until 1991 and Russia is its recognized continuator state,https://www.britannica.com/place/Soviet-Union
+YUG,SVN,claim,Yugoslav successor territory,Slovenia belonged to Yugoslavia until 1991,https://www.britannica.com/place/Yugoslavia-former-federated-nation-1929-2003
+YUG,HRV,claim,Yugoslav successor territory,Croatia belonged to Yugoslavia until 1991,https://www.britannica.com/place/Yugoslavia-former-federated-nation-1929-2003
+YUG,BIH,claim,Yugoslav successor territory,Bosnia and Herzegovina belonged to Yugoslavia until 1992,https://www.britannica.com/place/Yugoslavia-former-federated-nation-1929-2003
+YUG,MKD,claim,Yugoslav successor territory,Macedonia belonged to Yugoslavia until 1991,https://www.britannica.com/place/Yugoslavia-former-federated-nation-1929-2003
+UKG,IRL,claim,United Kingdom before partition,Ireland formed part of the United Kingdom at the beginning of the twentieth century,https://www.britannica.com/event/Act-of-Union-United-Kingdom-1801
+CZE,SVK,claim,Czechoslovak successor territory,Slovakia formed part of Czechoslovakia until 1992,https://www.britannica.com/place/Czechoslovakia
+SVK,CZE,claim,Czechoslovak successor territory,The Czech lands formed part of Czechoslovakia until 1992,https://www.britannica.com/place/Czechoslovakia
+ROU,MLD,claim,Greater Romania,Bessarabia formed part of Romania between the world wars,https://www.britannica.com/place/Bessarabia
+ETH,ERT,claim,Ethiopian annexation,Eritrea was federated with and then annexed by Ethiopia before independence in 1993,https://www.britannica.com/place/Eritrea/Federation-with-Ethiopia
+CHN,MGL,claim,Qing and Chinese successor territory,Outer Mongolia formed part of the Qing realm and remained claimed by its Chinese successor,https://www.britannica.com/place/Mongolia/Independence-and-revolution
+SKR,NKR,claim,Unified Korea,Korea was a unified country before its postwar division,https://www.britannica.com/place/Korea
+NKR,SKR,claim,Unified Korea,Korea was a unified country before its postwar division,https://www.britannica.com/place/Korea
+AUT,CZE,claim,Austrian half of Austria-Hungary,The Czech lands belonged to the Austrian crown at the beginning of the twentieth century,https://www.britannica.com/place/Austria-Hungary
+AUT,SVN,claim,Austrian half of Austria-Hungary,Most Slovenian territory belonged to the Austrian crown at the beginning of the twentieth century,https://www.britannica.com/place/Austria-Hungary
+TU1,ALB,claim,Late Ottoman territory,Albania remained part of the Ottoman Empire until 1912,https://www.britannica.com/place/Albania/Albanian-nationalism

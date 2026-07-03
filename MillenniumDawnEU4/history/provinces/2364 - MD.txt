@@ -1,6 +1,7 @@
 owner = KGZ
 controller = KGZ
 add_core = KGZ
+add_claim = RUS
 culture = kirgiz
 religion = sunni
 trade_goods = iron

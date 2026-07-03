@@ -1,6 +1,7 @@
 owner = ESP
 controller = ESP
 add_core = ESP
+add_core = UKG
 hre = yes
 culture = andalucian
 religion = sunni

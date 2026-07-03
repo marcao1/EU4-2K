@@ -1,6 +1,7 @@
 owner = SKR
 controller = SKR
 add_core = SKR
+add_claim = NKR
 culture = korean
 religion = confucianism
 trade_goods = cotton

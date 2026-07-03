@@ -1,6 +1,7 @@
 owner = YUG
 controller = YUG
 add_core = YUG
+add_claim = HUN
 culture = serbian
 religion = orthodox
 trade_goods = grain

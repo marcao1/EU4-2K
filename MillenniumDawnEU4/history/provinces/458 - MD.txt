@@ -1,6 +1,7 @@
 owner = TJK
 controller = TJK
 add_core = TJK
+add_claim = RUS
 culture = uzbehk
 religion = sunni
 trade_goods = iron

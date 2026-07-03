@@ -1,6 +1,7 @@
 owner = UZB
 controller = UZB
 add_core = UZB
+add_claim = RUS
 culture = nogaybak
 religion = sunni
 trade_goods = livestock

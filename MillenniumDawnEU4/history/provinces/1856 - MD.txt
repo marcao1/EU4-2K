@@ -1,6 +1,7 @@
 owner = RUS
 controller = RUS
 add_core = RUS
+add_core = GEO
 culture = georgian
 religion = orthodox
 trade_goods = wine

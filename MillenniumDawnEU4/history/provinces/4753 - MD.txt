@@ -1,6 +1,8 @@
 owner = HRV
 controller = HRV
 add_core = HRV
+add_claim = ITA
+add_claim = YUG
 culture = dalmatian
 religion = catholic
 trade_goods = naval_supplies

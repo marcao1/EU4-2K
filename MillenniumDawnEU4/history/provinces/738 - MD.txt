@@ -1,6 +1,7 @@
 owner = TWN
 controller = TWN
 add_core = TWN
+add_core = CHN
 culture = polynesian
 religion = animism
 trade_goods = unknown

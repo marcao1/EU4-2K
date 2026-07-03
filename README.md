@@ -27,6 +27,12 @@ python tools/validate_mod.py --mod MillenniumDawnEU4
 The generated `source_data/countries.csv` and `source_data/provinces.csv` are the
 canonical audit tables for country tags and province ownership.
 
+Historical claims use the active-dispute situation on 1 January 2000. Their
+canonical, sourced definitions are in `tools/data/historical_claims.csv`; the
+generator emits matching `add_claim`/`add_core` entries and complete per-country
+review tables under `source_data/`. After editing the canonical table, apply it
+to an existing generated tree with `python tools/apply_claims.py`.
+
 ## Install
 
 ```powershell

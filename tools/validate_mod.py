@@ -12,7 +12,7 @@ def balanced(path:Path)->bool:
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--mod',type=Path,required=True);a=ap.parse_args();m=a.mod
     errors=[]
-    required=[m/'descriptor.mod',m/'common/defines/md_defines.lua',m/'source_data/countries.csv',m/'source_data/provinces.csv']
+    required=[m/'descriptor.mod',m/'common/defines/md_defines.lua',m/'source_data/countries.csv',m/'source_data/provinces.csv',m/'source_data/historical_claims.csv',m/'source_data/country_claim_reviews.csv']
     for p in required:
         if not p.exists():errors.append(f"missing {p}")
     for p in m.rglob('*'):
@@ -26,6 +26,23 @@ def main():
     pids=[p['id'] for p in provinces];dupes=[p for p,n in Counter(pids).items() if n>1]
     if dupes:errors.append('duplicate provinces: '+','.join(dupes[:20]))
     owners=set(p['tag'] for p in provinces)
+    claims=list(csv.DictReader((m/'source_data/historical_claims.csv').open(encoding='utf-8')))
+    reviews=list(csv.DictReader((m/'source_data/country_claim_reviews.csv').open(encoding='utf-8')))
+    review_tags=[r['tag'] for r in reviews]
+    if set(review_tags) != set(tags) or len(review_tags) != len(set(review_tags)):errors.append('claim reviews must cover every playable country exactly')
+    province_ids=set(pids);claim_keys=[]
+    province_by_id={p['id']:p for p in provinces}
+    for claim in claims:
+        key=(claim['claimant_tag'],claim['province_id'],claim['strength']);claim_keys.append(key)
+        if claim['claimant_tag'] not in tags:errors.append(f'unknown claim tag {claim["claimant_tag"]}')
+        if claim['province_id'] not in province_ids:errors.append(f'unknown claimed province {claim["province_id"]}')
+        if claim['strength'] not in {'claim','core'}:errors.append(f'invalid claim strength {claim["strength"]}')
+        if not claim.get('source_url'):errors.append(f'unsourced claim {key}')
+        pf=next(m.glob(f'history/provinces/{claim["province_id"]} - *.txt'),None)
+        if province_by_id.get(claim['province_id'],{}).get('tag') == claim['claimant_tag']:errors.append(f'self-claim is redundant: {key}')
+        if not pf:errors.append(f'claimed province history missing: {key}')
+        elif pf.read_text(encoding='utf-8').count(f'add_{claim["strength"]} = {claim["claimant_tag"]}') != 1:errors.append(f'claim not emitted exactly once: {key}')
+    if len(claim_keys) != len(set(claim_keys)):errors.append('duplicate historical claims')
     for c in countries:
         tag=c['tag'];cap=c['capital_province']
         if tag not in owners:errors.append(f'{tag} owns no province')
@@ -35,7 +52,6 @@ def main():
     end=(m/'common/defines/md_defines.lua').read_text()
     if '9999.12.31' not in end:errors.append('open end date missing')
     expected_owners={'80':'DEU','93':'BEL','139':'BIH','4126':'YUG','4173':'YUG','4757':'YUG','4768':'DEU'}
-    province_by_id={p['id']:p for p in provinces}
     for pid,owner in expected_owners.items():
         if province_by_id.get(pid,{}).get('tag') != owner:
             errors.append(f'province {pid} must be owned by {owner}')

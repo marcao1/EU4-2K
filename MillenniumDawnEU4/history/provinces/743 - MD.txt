@@ -1,6 +1,7 @@
 owner = GYN
 controller = GYN
 add_core = GYN
+add_core = VE1
 culture = guajiro
 religion = animism
 trade_goods = sugar

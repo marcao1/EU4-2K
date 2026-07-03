@@ -1,6 +1,7 @@
 owner = EGY
 controller = EGY
 add_core = EGY
+add_core = SDN
 culture = beja
 religion = sunni
 trade_goods = slaves

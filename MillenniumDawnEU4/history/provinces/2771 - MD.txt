@@ -1,6 +1,7 @@
 owner = ERT
 controller = ERT
 add_core = ERT
+add_claim = ETH
 culture = amhara
 religion = jewish
 trade_goods = grain

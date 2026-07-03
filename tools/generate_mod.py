@@ -24,6 +24,8 @@ from shapely.strtree import STRtree
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "MillenniumDawnEU4"
 CACHE = ROOT / ".cache"
+CLAIMS_PATH = ROOT / "tools" / "data" / "historical_claims.csv"
+CLAIM_GROUPS_PATH = ROOT / "tools" / "data" / "historical_claim_groups.csv"
 NE_URL = "https://naturalearth.s3.amazonaws.com/10m_cultural/ne_10m_admin_0_countries.zip"
 FLAG_URL = "https://flagcdn.com/w320/{iso2}.png"
 CAPITALS_URL = "https://gist.githubusercontent.com/aratsimbaharison/d2b02b968bcfa03749c7c4ee9577dc68/raw/355eb56e164ddc3cd1a9467c524422cb674e71a9/country-capital-lat-long-population.csv"
@@ -473,6 +475,17 @@ def write_countries(countries, provinces, game: Path):
 
 
 def write_provinces(provinces, countries):
+    claims_by_province = defaultdict(list)
+    with CLAIMS_PATH.open(encoding="utf-8") as f:
+        for claim in csv.DictReader(f):
+            claims_by_province[int(claim["province_id"])].append(claim)
+    provinces_by_owner = defaultdict(list)
+    for province in provinces:
+        provinces_by_owner[province["tag"]].append(province)
+    with CLAIM_GROUPS_PATH.open(encoding="utf-8") as f:
+        for group in csv.DictReader(f):
+            for province in provinces_by_owner[group["target_tag"]]:
+                claims_by_province[province["id"]].append({**group, "province_id": str(province["id"])})
     country_pop = {t:max(c["population"],1) for t,c in countries.items()}
     country_gdp = {t:max(c["gdp"],1) for t,c in countries.items()}
     counts = defaultdict(int)
@@ -488,11 +501,25 @@ def write_provinces(provinces, countries):
         tax=max(1,dev//3); prod=max(1,(dev-tax)//2); manpower=max(1,dev-tax-prod)
         culture=p.get("culture","english"); religion=p.get("religion",religion_for(tag,countries[tag]["continent"])); goods=p.get("trade_goods","grain")
         eu_status = "hre = yes\n" if tag in EU_2000_MEMBERS else ""
-        text=f'''owner = {tag}\ncontroller = {tag}\nadd_core = {tag}\n{eu_status}culture = {culture}\nreligion = {religion}\ntrade_goods = {goods}\nbase_tax = {tax}\nbase_production = {prod}\nbase_manpower = {manpower}\ncapital = "{p["name"].split("-",1)[-1].strip()}"\nis_city = yes\n'''
+        historical = "".join(
+            f'add_{claim["strength"]} = {claim["claimant_tag"]}\n'
+            for claim in sorted(claims_by_province[p["id"]], key=lambda row: (row["strength"], row["claimant_tag"]))
+        )
+        text=f'''owner = {tag}\ncontroller = {tag}\nadd_core = {tag}\n{historical}{eu_status}culture = {culture}\nreligion = {religion}\ntrade_goods = {goods}\nbase_tax = {tax}\nbase_production = {prod}\nbase_manpower = {manpower}\ncapital = "{p["name"].split("-",1)[-1].strip()}"\nis_city = yes\n'''
         (OUT / f'history/provinces/{p["id"]} - MD.txt').write_text(text,encoding="utf-8")
         rows.append({k:p.get(k,"") for k in ["id","name","tag","lon","lat","culture","religion","trade_goods"]}|{"development":dev})
     with (OUT/"source_data/provinces.csv").open("w",newline="",encoding="utf-8") as f:
         writer=csv.DictWriter(f,fieldnames=rows[0].keys());writer.writeheader();writer.writerows(rows)
+    expanded_claims = [claim for values in claims_by_province.values() for claim in values]
+    with (OUT / "source_data/historical_claims.csv").open("w", newline="", encoding="utf-8") as f:
+        fields=["claimant_tag","province_id","strength","dispute","basis","source_url"]
+        writer=csv.DictWriter(f,fieldnames=fields);writer.writeheader()
+        writer.writerows({field:claim[field] for field in fields} for claim in sorted(expanded_claims,key=lambda row:(int(row["province_id"]),row["claimant_tag"])))
+    claimants = {claim["claimant_tag"] for claim in expanded_claims}
+    with (OUT / "source_data/country_claim_reviews.csv").open("w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=["tag", "status", "note"]); writer.writeheader()
+        for country_tag in sorted(countries):
+            writer.writerow({"tag": country_tag, "status": "claims_added" if country_tag in claimants else "reviewed_no_mappable_claim", "note": "See historical_claims.csv" if country_tag in claimants else "No qualifying dispute mappable without materially overstating it on the vanilla province map"})
 
 
 def write_ideas(countries):

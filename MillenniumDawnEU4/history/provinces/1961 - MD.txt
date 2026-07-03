@@ -1,6 +1,7 @@
 owner = RUS
 controller = RUS
 add_core = RUS
+add_claim = FIN
 culture = novgorodian
 religion = orthodox
 trade_goods = fur

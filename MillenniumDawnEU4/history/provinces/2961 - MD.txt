@@ -1,6 +1,8 @@
 owner = UKN
 controller = UKN
 add_core = UKN
+add_claim = POL
+add_claim = RUS
 culture = ruthenian
 religion = orthodox
 trade_goods = dyes

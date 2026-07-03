@@ -1,6 +1,7 @@
 owner = AZE
 controller = AZE
 add_core = AZE
+add_claim = RUS
 culture = azerbaijani
 religion = sunni
 trade_goods = silk

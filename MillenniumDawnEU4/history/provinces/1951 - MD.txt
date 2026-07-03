@@ -1,6 +1,7 @@
 owner = ROU
 controller = ROU
 add_core = ROU
+add_claim = HUN
 culture = transylvanian
 religion = orthodox
 trade_goods = iron

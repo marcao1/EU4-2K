@@ -1,6 +1,7 @@
 owner = NGR
 controller = NGR
 add_core = NGR
+add_core = CMR
 culture = sawabantu
 religion = shamanism
 trade_goods = slaves

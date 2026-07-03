@@ -1,6 +1,7 @@
 owner = EGY
 controller = EGY
 add_core = EGY
+add_core = PSE
 culture = al_suryah_arabic
 religion = sunni
 trade_goods = salt

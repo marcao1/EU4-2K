@@ -1,6 +1,7 @@
 owner = ERT
 controller = ERT
 add_core = ERT
+add_claim = ETH
 culture = tigray
 religion = coptic
 trade_goods = gems

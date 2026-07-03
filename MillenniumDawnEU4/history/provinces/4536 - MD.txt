@@ -1,6 +1,8 @@
 owner = BLR
 controller = BLR
 add_core = BLR
+add_claim = POL
+add_claim = RUS
 culture = lithuanian
 religion = orthodox
 trade_goods = livestock

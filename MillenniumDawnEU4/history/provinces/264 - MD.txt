@@ -1,6 +1,7 @@
 owner = POL
 controller = POL
 add_core = POL
+add_claim = DEU
 culture = schlesian
 religion = catholic
 trade_goods = cloth

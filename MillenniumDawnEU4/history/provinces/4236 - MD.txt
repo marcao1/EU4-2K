@@ -1,6 +1,8 @@
 owner = SVK
 controller = SVK
 add_core = SVK
+add_claim = CZE
+add_claim = HUN
 culture = slovak
 religion = catholic
 trade_goods = iron

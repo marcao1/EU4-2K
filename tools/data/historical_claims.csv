@@ -1,0 +1,76 @@
+claimant_tag,province_id,strength,dispute,basis,source_url
+UKG,226,core,Gibraltar,United Kingdom administered Gibraltar in 2000 while Spain maintained its sovereignty claim,https://www.un.org/dppa/decolonization/en/nsgt/gibraltar
+ESP,335,core,Melilla,Spanish-administered integral territory represented as Moroccan-owned by the coarse vanilla map,https://www.britannica.com/place/Melilla
+ESP,1751,core,Ceuta,Spanish-administered integral territory represented as Moroccan-owned by the coarse vanilla map,https://www.britannica.com/place/Ceuta
+CHN,738,core,Taiwan,PRC actively claimed Taiwan as integral Chinese territory in 2000,https://www.fmprc.gov.cn/eng/zy/wjls/3604_665547/202405/t20240531_11367591.html
+CHN,2155,core,Taiwan,PRC actively claimed Taiwan as integral Chinese territory in 2000,https://www.fmprc.gov.cn/eng/zy/wjls/3604_665547/202405/t20240531_11367591.html
+PAK,508,core,Kashmir,Pakistan claimed the Indian-administered portion of Kashmir,https://peacekeeping.un.org/en/mission/unmogip
+PAK,4449,core,Jammu and Kashmir,Pakistan claimed the Indian-administered portion of Jammu and Kashmir,https://peacekeeping.un.org/en/mission/unmogip
+JPN,1032,claim,Northern Territories,Japan claimed the southern Kuril islands administered by Russia,https://www.mofa.go.jp/region/europe/russia/territory/overview.html
+ARG,1095,core,Falkland Islands,Argentina actively claimed the British-administered Falkland Islands,https://www.un.org/dppa/decolonization/en/nsgt/falkland-islands-malvinas
+VE1,743,core,Guayana Esequiba,Venezuela actively claimed territory west of the Essequibo River,https://www.icj-cij.org/case/171
+GTM,843,core,Belize,Guatemala maintained an active territorial claim to Belize in 2000,https://www.oas.org/sap/peacefund/belizeandguatemala/
+SDN,2324,core,Halaib Triangle,Sudan claimed the Egyptian-administered Halaib Triangle,https://www.britannica.com/place/Halaib-Triangle
+GEO,1856,core,Abkhazia,Georgia claimed separatist Abkhazia represented as Russian-owned by the vanilla assignment,https://www.un.org/securitycouncil/content/repertoire/asia
+GEO,2201,core,South Ossetia,Georgia claimed separatist South Ossetia represented by the coarse Alania province,https://www.osce.org/georgia-closed
+AZE,420,core,Nagorno-Karabakh,Azerbaijan claimed Armenian-controlled Nagorno-Karabakh represented by Ganja,https://www.osce.org/mg/108306
+PSE,364,core,Gaza Strip,Palestine claimed the Gaza Strip as part of its state territory,https://www.un.org/unispal/history/
+PSE,379,core,East Jerusalem,Palestine claimed East Jerusalem as part of its state territory,https://www.un.org/unispal/history/
+PSE,380,core,West Bank,Palestine claimed the West Bank as part of its state territory,https://www.un.org/unispal/history/
+PSE,1854,core,West Bank,Palestine claimed the West Bank as part of its state territory,https://www.un.org/unispal/history/
+MUS,1101,core,Chagos Archipelago,Mauritius claimed the British-administered Chagos Archipelago,https://www.icj-cij.org/case/169
+CMR,1163,core,Bakassi Peninsula,Cameroon claimed the Nigerian-administered Bakassi Peninsula,https://www.icj-cij.org/case/94
+CBD,4828,core,Preah Vihear,Cambodia claimed the Thai-assigned province containing Preah Vihear,https://www.icj-cij.org/case/45
+HUN,135,claim,Pre-Trianon Hungary,Sopron and Burgenland formed part of the Kingdom of Hungary before the Treaty of Trianon,https://www.britannica.com/event/Treaty-of-Trianon
+HUN,154,claim,Pre-Trianon Hungary,Slovak territory formed part of the Kingdom of Hungary before the Treaty of Trianon,https://www.britannica.com/event/Treaty-of-Trianon
+HUN,1318,claim,Pre-Trianon Hungary,Slovak territory formed part of the Kingdom of Hungary before the Treaty of Trianon,https://www.britannica.com/event/Treaty-of-Trianon
+HUN,4236,claim,Pre-Trianon Hungary,Slovak territory formed part of the Kingdom of Hungary before the Treaty of Trianon,https://www.britannica.com/event/Treaty-of-Trianon
+HUN,156,claim,Pre-Trianon Hungary,Banat formed part of the Kingdom of Hungary before the Treaty of Trianon,https://www.britannica.com/event/Treaty-of-Trianon
+HUN,157,claim,Pre-Trianon Hungary,Partium formed part of the Kingdom of Hungary before the Treaty of Trianon,https://www.britannica.com/event/Treaty-of-Trianon
+HUN,158,claim,Pre-Trianon Hungary,Transylvania formed part of the Lands of the Hungarian Crown before the Treaty of Trianon,https://www.britannica.com/event/Treaty-of-Trianon
+HUN,1951,claim,Pre-Trianon Hungary,Transylvania formed part of the Lands of the Hungarian Crown before the Treaty of Trianon,https://www.britannica.com/event/Treaty-of-Trianon
+HUN,1952,claim,Pre-Trianon Hungary,Maramaros formed part of the Kingdom of Hungary before the Treaty of Trianon,https://www.britannica.com/event/Treaty-of-Trianon
+HUN,4127,claim,Pre-Trianon Hungary,Transylvania formed part of the Lands of the Hungarian Crown before the Treaty of Trianon,https://www.britannica.com/event/Treaty-of-Trianon
+HUN,4128,claim,Pre-Trianon Hungary,Transylvania formed part of the Lands of the Hungarian Crown before the Treaty of Trianon,https://www.britannica.com/event/Treaty-of-Trianon
+HUN,131,claim,Pre-Trianon Hungary,Croatia-Slavonia belonged to the Lands of the Hungarian Crown before the Treaty of Trianon,https://www.britannica.com/place/Croatia/History
+HUN,1767,claim,Pre-Trianon Hungary,Croatia-Slavonia belonged to the Lands of the Hungarian Crown before the Treaty of Trianon,https://www.britannica.com/place/Croatia/History
+HUN,4756,claim,Pre-Trianon Hungary,Croatia-Slavonia belonged to the Lands of the Hungarian Crown before the Treaty of Trianon,https://www.britannica.com/place/Croatia/History
+HUN,1954,claim,Pre-Trianon Hungary,Vojvodina territory formed part of the Kingdom of Hungary before the Treaty of Trianon,https://www.britannica.com/place/Vojvodina
+HUN,4126,claim,Pre-Trianon Hungary,Vojvodina territory formed part of the Kingdom of Hungary before the Treaty of Trianon,https://www.britannica.com/place/Vojvodina
+HUN,4173,claim,Pre-Trianon Hungary,Syrmia belonged to the Lands of the Hungarian Crown before the Treaty of Trianon,https://www.britannica.com/place/Vojvodina
+HUN,152,claim,Pre-Trianon Hungary,Prekmurje formed part of the Kingdom of Hungary before the Treaty of Trianon,https://www.britannica.com/event/Treaty-of-Trianon
+DEU,75,claim,German Empire,Alsace formed part of Germany from 1871 to 1918,https://www.britannica.com/place/Alsace-Lorraine
+DEU,189,claim,German Empire,Lorraine territory formed part of Germany from 1871 to 1918,https://www.britannica.com/place/Alsace-Lorraine
+DEU,43,claim,Former German eastern territories,Danzig formed part of Germany during the twentieth century,https://www.britannica.com/place/Gdansk
+DEU,48,claim,Former German eastern territories,Pomeranian territory formed part of Germany before 1945,https://www.britannica.com/place/Pomerania
+DEU,49,claim,Former German eastern territories,East Brandenburg formed part of Germany before 1945,https://www.britannica.com/place/Brandenburg-historical-margravate-Germany
+DEU,264,claim,Former German eastern territories,Breslau and Lower Silesia formed part of Germany before 1945,https://www.britannica.com/place/Silesia
+DEU,2966,claim,Former German eastern territories,Lower Silesia formed part of Germany before 1945,https://www.britannica.com/place/Silesia
+DEU,2995,claim,Former German eastern territories,Pomeranian territory formed part of Germany before 1945,https://www.britannica.com/place/Pomerania
+DEU,2997,claim,Former German eastern territories,Pomeranian territory formed part of Germany before 1945,https://www.britannica.com/place/Pomerania
+DEU,4747,claim,Former German eastern territories,Pomeranian territory formed part of Germany before 1945,https://www.britannica.com/place/Pomerania
+FIN,1776,claim,Finnish Karelia,Finland held parts of Karelia during the twentieth century before ceding them to the Soviet Union,https://www.britannica.com/place/Karelia
+FIN,1961,claim,Finnish Karelia,Finland held Ladoga Karelia before ceding it to the Soviet Union,https://www.britannica.com/place/Karelia
+ITA,130,claim,Italian eastern Adriatic territory,Istria belonged to Italy during the twentieth century,https://www.britannica.com/place/Istria
+ITA,4752,claim,Italian eastern Adriatic territory,Fiume belonged to Italy during the twentieth century,https://www.britannica.com/place/Rijeka
+ITA,4753,claim,Italian eastern Adriatic territory,Zadar belonged to Italy during the twentieth century,https://www.britannica.com/place/Zadar
+BGR,3001,claim,Greater Bulgaria and wartime administration,Bulgaria held Macedonian territory during the twentieth century,https://www.britannica.com/place/North-Macedonia/History
+BGR,4703,claim,Greater Bulgaria and wartime administration,Bulgaria held Macedonian territory during the twentieth century,https://www.britannica.com/place/North-Macedonia/History
+BGR,147,claim,Western Thrace and Macedonia,Bulgaria held parts of Aegean Macedonia during the twentieth century,https://www.britannica.com/place/Bulgaria/World-War-II
+BGR,148,claim,Western Thrace and Macedonia,Bulgaria held parts of Aegean Macedonia during the twentieth century,https://www.britannica.com/place/Bulgaria/World-War-II
+BGR,4702,claim,Western Thrace and Macedonia,Bulgaria held parts of Greek Macedonia during the twentieth century,https://www.britannica.com/place/Bulgaria/World-War-II
+BGR,4705,claim,Western Thrace,Bulgaria held Western Thrace during the twentieth century,https://www.britannica.com/place/Bulgaria/World-War-II
+GRC,318,claim,Asia Minor campaign,Greece administered Smyrna during the Greco-Turkish War,https://www.britannica.com/event/Greco-Turkish-wars
+POL,270,claim,Second Polish Republic,The Vilnius region belonged to interwar Poland,https://www.britannica.com/place/Vilnius
+POL,261,claim,Second Polish Republic,Eastern Galicia belonged to interwar Poland,https://www.britannica.com/place/Galicia-historical-region-Eastern-Europe
+POL,2961,claim,Second Polish Republic,Lwow belonged to interwar Poland,https://www.britannica.com/place/Lviv-Ukraine
+POL,4536,claim,Second Polish Republic,Western Belarusian territory belonged to interwar Poland,https://www.britannica.com/place/Belarus
+POL,4537,claim,Second Polish Republic,Western Belarusian territory belonged to interwar Poland,https://www.britannica.com/place/Belarus
+IRL,4121,core,Northern Ireland,Ireland maintained a constitutional territorial claim to Northern Ireland until 1999,https://www.britannica.com/event/Good-Friday-Agreement
+ALB,1766,claim,Wartime Greater Albania,Kosovo was incorporated into Italian-controlled Albania during the Second World War,https://www.britannica.com/place/Kosovo/History
+FRA,80,claim,Saar administration,France administered the Saar territory during the twentieth century,https://www.britannica.com/place/Saarland
+TU1,147,claim,Late Ottoman territory,Salonika remained Ottoman territory at the beginning of the twentieth century,https://www.britannica.com/place/Thessaloniki-Greece
+TU1,148,claim,Late Ottoman territory,Salonika remained Ottoman territory at the beginning of the twentieth century,https://www.britannica.com/place/Thessaloniki-Greece
+TU1,4702,claim,Late Ottoman territory,Macedonian territory remained Ottoman at the beginning of the twentieth century,https://www.britannica.com/place/Macedonia-region-Europe
+TU1,4705,claim,Late Ottoman territory,Western Thrace remained Ottoman territory at the beginning of the twentieth century,https://www.britannica.com/place/Thrace
+TU1,149,core,Modern Turkish territory,Edirne is modern Turkish territory represented as Bulgarian-owned by the coarse vanilla map,https://www.britannica.com/place/Edirne-Turkey

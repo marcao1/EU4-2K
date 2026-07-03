@@ -1,6 +1,7 @@
 owner = ARM
 controller = ARM
 add_core = ARM
+add_claim = RUS
 culture = georgian
 religion = orthodox
 trade_goods = dyes

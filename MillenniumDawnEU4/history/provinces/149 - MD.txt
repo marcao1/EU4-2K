@@ -1,6 +1,7 @@
 owner = BGR
 controller = BGR
 add_core = BGR
+add_core = TU1
 culture = greek
 religion = orthodox
 trade_goods = cloth

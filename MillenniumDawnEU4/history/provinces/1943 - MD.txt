@@ -1,6 +1,8 @@
 owner = MLD
 controller = MLD
 add_core = MLD
+add_claim = ROU
+add_claim = RUS
 culture = ruthenian
 religion = orthodox
 trade_goods = livestock

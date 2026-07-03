@@ -1,6 +1,7 @@
 owner = TKM
 controller = TKM
 add_core = TKM
+add_claim = RUS
 culture = turkmeni
 religion = sunni
 trade_goods = livestock
