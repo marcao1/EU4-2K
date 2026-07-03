@@ -1,6 +1,118 @@
 # Millennium Dawn uses the eight native institution slots. Internal keys remain
 # unchanged so engine and base-game scripted triggers stay compatible.
 
+imperialism = {
+	bonus = { diplomatic_reputation = 1 }
+	historical_start_date = 1830.1.1
+	history = { is_year = 2000 is_city = yes owner = { always = yes } }
+	can_start = { is_year = 1830 is_city = yes is_capital = yes development = 15 }
+	start_chance = 100
+	can_embrace = { always = yes }
+	embracement_speed = {
+		modifier = { factor = 0.5 scale = yes any_friendly_coast_border_province = { imperialism = 100 } }
+		modifier = { factor = 1 scale = yes potential = { owner = { has_institution = imperialism } } owner = { has_institution = imperialism } }
+	}
+	ai_will_do = { factor = 24 }
+}
+
+nationalism_institution = {
+	bonus = { global_manpower_modifier = 0.05 }
+	historical_start_date = 1850.1.1
+	history = { is_year = 2000 is_city = yes owner = { always = yes } }
+	can_start = { is_year = 1850 is_city = yes is_capital = yes development = 15 }
+	start_chance = 100
+	can_embrace = { always = yes }
+	embracement_speed = {
+		modifier = { factor = 0.5 scale = yes any_friendly_coast_border_province = { nationalism_institution = 100 } }
+		modifier = { factor = 1 scale = yes potential = { owner = { has_institution = nationalism_institution } } owner = { has_institution = nationalism_institution } }
+	}
+	ai_will_do = { factor = 24 }
+}
+
+electrification = {
+	bonus = { production_efficiency = 0.05 }
+	historical_start_date = 1880.1.1
+	history = { is_year = 2000 is_city = yes owner = { always = yes } }
+	can_start = { is_year = 1880 is_city = yes is_capital = yes development = 15 }
+	start_chance = 100
+	can_embrace = { always = yes }
+	embracement_speed = {
+		modifier = { factor = 0.5 scale = yes any_friendly_coast_border_province = { electrification = 100 } }
+		modifier = { factor = 1 scale = yes potential = { owner = { has_institution = electrification } } owner = { has_institution = electrification } }
+	}
+	ai_will_do = { factor = 24 }
+}
+
+mass_production = {
+	bonus = { goods_produced_modifier = 0.05 }
+	historical_start_date = 1910.1.1
+	history = { is_year = 2000 is_city = yes owner = { always = yes } }
+	can_start = { is_year = 1910 is_city = yes is_capital = yes development = 15 }
+	start_chance = 100
+	can_embrace = { always = yes }
+	embracement_speed = {
+		modifier = { factor = 0.5 scale = yes any_friendly_coast_border_province = { mass_production = 100 } }
+		modifier = { factor = 1 scale = yes potential = { owner = { has_institution = mass_production } } owner = { has_institution = mass_production } }
+	}
+	ai_will_do = { factor = 24 }
+}
+
+mass_media = {
+	bonus = { yearly_prestige = 0.5 }
+	historical_start_date = 1930.1.1
+	history = { is_year = 2000 is_city = yes owner = { always = yes } }
+	can_start = { is_year = 1930 is_city = yes is_capital = yes development = 15 }
+	start_chance = 100
+	can_embrace = { always = yes }
+	embracement_speed = {
+		modifier = { factor = 0.5 scale = yes any_friendly_coast_border_province = { mass_media = 100 } }
+		modifier = { factor = 1 scale = yes potential = { owner = { has_institution = mass_media } } owner = { has_institution = mass_media } }
+	}
+	ai_will_do = { factor = 24 }
+}
+
+atomic_age = {
+	bonus = { land_morale = 0.05 }
+	historical_start_date = 1950.1.1
+	history = { is_year = 2000 is_city = yes owner = { always = yes } }
+	can_start = { is_year = 1950 is_city = yes is_capital = yes development = 20 }
+	start_chance = 100
+	can_embrace = { always = yes }
+	embracement_speed = {
+		modifier = { factor = 0.5 scale = yes any_friendly_coast_border_province = { atomic_age = 100 } }
+		modifier = { factor = 1 scale = yes potential = { owner = { has_institution = atomic_age } } owner = { has_institution = atomic_age } }
+	}
+	ai_will_do = { factor = 24 }
+}
+
+computerization = {
+	bonus = { technology_cost = -0.02 }
+	historical_start_date = 1970.1.1
+	history = { is_year = 2000 is_city = yes owner = { always = yes } }
+	can_start = { is_year = 1970 is_city = yes is_capital = yes development = 20 }
+	start_chance = 100
+	can_embrace = { always = yes }
+	embracement_speed = {
+		modifier = { factor = 0.5 scale = yes any_friendly_coast_border_province = { computerization = 100 } }
+		modifier = { factor = 1 scale = yes potential = { owner = { has_institution = computerization } } owner = { has_institution = computerization } }
+	}
+	ai_will_do = { factor = 24 }
+}
+
+digital_revolution = {
+	bonus = { global_institution_spread = 0.05 }
+	historical_start_date = 1990.1.1
+	history = { is_year = 2000 is_city = yes owner = { always = yes } }
+	can_start = { is_year = 1990 is_city = yes is_capital = yes development = 20 }
+	start_chance = 100
+	can_embrace = { always = yes }
+	embracement_speed = {
+		modifier = { factor = 0.5 scale = yes any_friendly_coast_border_province = { digital_revolution = 100 } }
+		modifier = { factor = 1 scale = yes potential = { owner = { has_institution = digital_revolution } } owner = { has_institution = digital_revolution } }
+	}
+	ai_will_do = { factor = 24 }
+}
+
 feudalism = {
 	bonus = { trade_efficiency = 0.1 }
 	trade_company_efficiency = 0.1

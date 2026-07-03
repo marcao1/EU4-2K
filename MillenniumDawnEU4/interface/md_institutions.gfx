@@ -1,0 +1,33 @@
+spriteTypes = {
+	spriteType = { name = "GFX_icon_institution_imperialism" texturefile = "gfx/interface/institutions/global_trade.dds" loadType = "INGAME" transparencecheck = yes }
+	spriteType = { name = "GFX_institution_tab_imperialism" texturefile = "gfx/interface/institutions/institution_tab_global_trade.dds" noOfFrames = 2 transparencecheck = yes }
+	spriteType = { name = "GFX_tech_institution_imperialism" texturefile = "gfx/interface/institutions/tech_institution_global_trade.dds" noOfFrames = 5 transparencecheck = yes }
+
+	spriteType = { name = "GFX_icon_institution_nationalism_institution" texturefile = "gfx/interface/institutions/printing_press.dds" loadType = "INGAME" transparencecheck = yes }
+	spriteType = { name = "GFX_institution_tab_nationalism_institution" texturefile = "gfx/interface/institutions/institution_tab_printing_press.dds" noOfFrames = 2 transparencecheck = yes }
+	spriteType = { name = "GFX_tech_institution_nationalism_institution" texturefile = "gfx/interface/institutions/tech_institution_printing_press.dds" noOfFrames = 5 transparencecheck = yes }
+
+	spriteType = { name = "GFX_icon_institution_electrification" texturefile = "gfx/interface/institutions/institutions_industrialization.dds" loadType = "INGAME" transparencecheck = yes }
+	spriteType = { name = "GFX_institution_tab_electrification" texturefile = "gfx/interface/institutions/institution_tab_industrialization.dds" noOfFrames = 2 transparencecheck = yes }
+	spriteType = { name = "GFX_tech_institution_electrification" texturefile = "gfx/interface/institutions/tech_institution_industrialization.dds" noOfFrames = 5 transparencecheck = yes }
+
+	spriteType = { name = "GFX_icon_institution_mass_production" texturefile = "gfx/interface/institutions/manufactories.dds" loadType = "INGAME" transparencecheck = yes }
+	spriteType = { name = "GFX_institution_tab_mass_production" texturefile = "gfx/interface/institutions/institution_tab_manufactories.dds" noOfFrames = 2 transparencecheck = yes }
+	spriteType = { name = "GFX_tech_institution_mass_production" texturefile = "gfx/interface/institutions/tech_institution_manufactories.dds" noOfFrames = 5 transparencecheck = yes }
+
+	spriteType = { name = "GFX_icon_institution_mass_media" texturefile = "gfx/interface/institutions/renaissance.dds" loadType = "INGAME" transparencecheck = yes }
+	spriteType = { name = "GFX_institution_tab_mass_media" texturefile = "gfx/interface/institutions/institution_tab_renaissance.dds" noOfFrames = 2 transparencecheck = yes }
+	spriteType = { name = "GFX_tech_institution_mass_media" texturefile = "gfx/interface/institutions/tech_institution_renaissance.dds" noOfFrames = 5 transparencecheck = yes }
+
+	spriteType = { name = "GFX_icon_institution_atomic_age" texturefile = "gfx/interface/institutions/enlightenment.dds" loadType = "INGAME" transparencecheck = yes }
+	spriteType = { name = "GFX_institution_tab_atomic_age" texturefile = "gfx/interface/institutions/institution_tab_enlightenment.dds" noOfFrames = 2 transparencecheck = yes }
+	spriteType = { name = "GFX_tech_institution_atomic_age" texturefile = "gfx/interface/institutions/tech_institution_enlightenment.dds" noOfFrames = 5 transparencecheck = yes }
+
+	spriteType = { name = "GFX_icon_institution_computerization" texturefile = "gfx/interface/institutions/new_world_i.dds" loadType = "INGAME" transparencecheck = yes }
+	spriteType = { name = "GFX_institution_tab_computerization" texturefile = "gfx/interface/institutions/institution_tab_new_world_i.dds" noOfFrames = 2 transparencecheck = yes }
+	spriteType = { name = "GFX_tech_institution_computerization" texturefile = "gfx/interface/institutions/tech_institution_colonialism.dds" noOfFrames = 5 transparencecheck = yes }
+
+	spriteType = { name = "GFX_icon_institution_digital_revolution" texturefile = "gfx/interface/institutions/feudalism.dds" loadType = "INGAME" transparencecheck = yes }
+	spriteType = { name = "GFX_institution_tab_digital_revolution" texturefile = "gfx/interface/institutions/institution_tab_feudalism.dds" noOfFrames = 2 transparencecheck = yes }
+	spriteType = { name = "GFX_tech_institution_digital_revolution" texturefile = "gfx/interface/institutions/tech_institution_feudalism.dds" noOfFrames = 5 transparencecheck = yes }
+}

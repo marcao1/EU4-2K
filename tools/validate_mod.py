@@ -12,7 +12,7 @@ def balanced(path:Path)->bool:
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--mod',type=Path,required=True);a=ap.parse_args();m=a.mod
     errors=[]
-    required=[m/'descriptor.mod',m/'common/defines/md_defines.lua',m/'common/institutions/00_md_institutions.txt',m/'localisation/md_institutions_l_english.yml',m/'source_data/countries.csv',m/'source_data/provinces.csv',m/'source_data/historical_claims.csv',m/'source_data/country_claim_reviews.csv']
+    required=[m/'descriptor.mod',m/'common/defines/md_defines.lua',m/'common/institutions/00_md_institutions.txt',m/'interface/md_institutions.gfx',m/'localisation/md_institutions_l_english.yml',m/'source_data/countries.csv',m/'source_data/provinces.csv',m/'source_data/historical_claims.csv',m/'source_data/country_claim_reviews.csv']
     for p in required:
         if not p.exists():errors.append(f"missing {p}")
     for p in m.rglob('*'):
@@ -54,9 +54,13 @@ def main():
     descriptor=(m/'descriptor.mod').read_text(encoding='utf-8-sig')
     if 'replace_path="common/institutions"' not in descriptor:errors.append('institution replacement path missing')
     institutions=(m/'common/institutions/00_md_institutions.txt').read_text(encoding='utf-8-sig')
-    institution_keys=['feudalism','renaissance','colonialism','printing_press','global_trade','manufactories','enlightenment','industrialization']
+    institution_keys=['imperialism','nationalism_institution','electrification','mass_production','mass_media','atomic_age','computerization','digital_revolution','feudalism','renaissance','colonialism','printing_press','global_trade','manufactories','enlightenment','industrialization']
     for key in institution_keys:
         if len(re.findall(rf'(?m)^{key}\s*=\s*\{{',institutions)) != 1:errors.append(f'institution {key} must be defined exactly once')
+    institution_gfx=(m/'interface/md_institutions.gfx').read_text(encoding='utf-8-sig')
+    for key in institution_keys[:8]:
+        for prefix in ['GFX_icon_institution_','GFX_institution_tab_','GFX_tech_institution_']:
+            if institution_gfx.count(prefix+key) != 1:errors.append(f'missing institution sprite {prefix+key}')
     expected_owners={'80':'DEU','93':'BEL','139':'BIH','4126':'YUG','4173':'YUG','4757':'YUG','4768':'DEU'}
     for pid,owner in expected_owners.items():
         if province_by_id.get(pid,{}).get('tag') != owner:
