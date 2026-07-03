@@ -1,0 +1,162 @@
+# Ages become active ten years after their internal start year.
+md_age_industrialization = {
+ start = 1811
+ can_start = { always = yes }
+ papacy = 2.0
+ objectives = {
+  md_obj_developed = { num_of_owned_provinces_with = { value = 10 development = 10 } }
+  md_obj_stable = { stability = 1 }
+  md_obj_prestige = { prestige = 50 }
+  md_obj_manpower = { manpower_percentage = 0.8 }
+  md_obj_debt_free = { NOT = { has_any_loan = yes } }
+  md_obj_allies = { num_of_allies = 3 }
+  md_obj_great_power = { is_great_power = yes }
+ }
+ abilities = {
+  md_ab_industrial_output = { modifier = { production_efficiency = 0.15 } ai_will_do = { factor = 10 } }
+  md_ab_factory_building = { modifier = { build_cost = -0.15 } ai_will_do = { factor = 10 } }
+  md_ab_urban_growth = { modifier = { development_cost = -0.10 } ai_will_do = { factor = 10 } }
+  md_ab_mass_conscription = { modifier = { manpower_recovery_speed = 0.20 } ai_will_do = { factor = 10 } }
+  md_ab_railway_logistics = { modifier = { movement_speed = 0.10 } ai_will_do = { factor = 10 } }
+  md_ab_imperial_markets = { modifier = { global_trade_power = 0.15 } ai_will_do = { factor = 10 } }
+  md_ab_modern_administration = { modifier = { core_creation = -0.10 } ai_will_do = { factor = 10 } }
+ }
+}
+md_age_world_wars = {
+ start = 1890
+ can_start = { always = yes }
+ papacy = 2.0
+ objectives = {
+  md_obj_developed = { num_of_owned_provinces_with = { value = 10 development = 10 } }
+  md_obj_stable = { stability = 1 }
+  md_obj_prestige = { prestige = 50 }
+  md_obj_manpower = { manpower_percentage = 0.8 }
+  md_obj_debt_free = { NOT = { has_any_loan = yes } }
+  md_obj_allies = { num_of_allies = 3 }
+  md_obj_great_power = { is_great_power = yes }
+ }
+ abilities = {
+  md_ab_total_war = { modifier = { war_exhaustion = -0.15 } ai_will_do = { factor = 10 } }
+  md_ab_mass_mobilization = { modifier = { global_manpower_modifier = 0.20 } ai_will_do = { factor = 10 } }
+  md_ab_war_industry = { modifier = { global_regiment_cost = -0.10 } ai_will_do = { factor = 10 } }
+  md_ab_entrenchment = { modifier = { defensiveness = 0.20 } ai_will_do = { factor = 10 } }
+  md_ab_combined_arms = { modifier = { discipline = 0.05 } ai_will_do = { factor = 10 } }
+  md_ab_military_logistics = { modifier = { land_attrition = -0.15 } ai_will_do = { factor = 10 } }
+  md_ab_veteran_officers = { modifier = { army_tradition_decay = -0.01 } ai_will_do = { factor = 10 } }
+ }
+}
+md_age_ideologies = {
+ start = 1940
+ can_start = { always = yes }
+ papacy = 2.0
+ objectives = {
+  md_obj_developed = { num_of_owned_provinces_with = { value = 10 development = 10 } }
+  md_obj_stable = { stability = 1 }
+  md_obj_prestige = { prestige = 50 }
+  md_obj_manpower = { manpower_percentage = 0.8 }
+  md_obj_debt_free = { NOT = { has_any_loan = yes } }
+  md_obj_allies = { num_of_allies = 3 }
+  md_obj_great_power = { is_great_power = yes }
+ }
+ abilities = {
+  md_ab_bloc_diplomacy = { modifier = { diplomatic_upkeep = 2 } ai_will_do = { factor = 10 } }
+  md_ab_ideological_state = { modifier = { global_unrest = -2 } ai_will_do = { factor = 10 } }
+  md_ab_proxy_warfare = { modifier = { reinforce_speed = 0.20 } ai_will_do = { factor = 10 } }
+  md_ab_nuclear_deterrence = { modifier = { war_exhaustion_cost = -0.20 } ai_will_do = { factor = 10 } }
+  md_ab_space_race = { modifier = { technology_cost = -0.05 } ai_will_do = { factor = 10 } }
+  md_ab_development_programs = { modifier = { global_tax_modifier = 0.15 } ai_will_do = { factor = 10 } }
+  md_ab_intelligence_services = { modifier = { spy_offence = 0.20 global_spy_defence = 0.20 } ai_will_do = { factor = 10 } }
+ }
+}
+md_age_globalization = {
+ start = 1970
+ can_start = { always = yes }
+ papacy = 2.0
+ objectives = {
+  md_obj_developed = { num_of_owned_provinces_with = { value = 10 development = 10 } }
+  md_obj_stable = { stability = 1 }
+  md_obj_prestige = { prestige = 50 }
+  md_obj_manpower = { manpower_percentage = 0.8 }
+  md_obj_debt_free = { NOT = { has_any_loan = yes } }
+  md_obj_allies = { num_of_allies = 3 }
+  md_obj_great_power = { is_great_power = yes }
+ }
+ abilities = {
+  md_ab_global_supply_chains = { modifier = { trade_efficiency = 0.15 } ai_will_do = { factor = 10 } }
+  md_ab_financial_markets = { modifier = { interest = -1 } ai_will_do = { factor = 10 } }
+  md_ab_free_trade = { modifier = { global_trade_power = 0.15 } ai_will_do = { factor = 10 } }
+  md_ab_multinational_industry = { modifier = { production_efficiency = 0.15 } ai_will_do = { factor = 10 } }
+  md_ab_international_institutions = { modifier = { diplomatic_reputation = 1 } ai_will_do = { factor = 10 } }
+  md_ab_container_shipping = { modifier = { global_ship_trade_power = 0.20 } ai_will_do = { factor = 10 } }
+  md_ab_economic_reform = { modifier = { inflation_reduction = 0.10 } ai_will_do = { factor = 10 } }
+ }
+}
+md_age_information = {
+ start = 1990
+ can_start = { always = yes }
+ papacy = 2.0
+ objectives = {
+  md_obj_developed = { num_of_owned_provinces_with = { value = 10 development = 10 } }
+  md_obj_stable = { stability = 1 }
+  md_obj_prestige = { prestige = 50 }
+  md_obj_manpower = { manpower_percentage = 0.8 }
+  md_obj_debt_free = { NOT = { has_any_loan = yes } }
+  md_obj_allies = { num_of_allies = 3 }
+  md_obj_great_power = { is_great_power = yes }
+ }
+ abilities = {
+  md_ab_digital_economy = { modifier = { production_efficiency = 0.15 } ai_will_do = { factor = 10 } }
+  md_ab_internet_research = { modifier = { technology_cost = -0.05 } ai_will_do = { factor = 10 } }
+  md_ab_global_communications = { modifier = { improve_relation_modifier = 0.20 } ai_will_do = { factor = 10 } }
+  md_ab_precision_logistics = { modifier = { movement_speed = 0.10 } ai_will_do = { factor = 10 } }
+  md_ab_service_economy = { modifier = { global_tax_modifier = 0.15 } ai_will_do = { factor = 10 } }
+  md_ab_networked_diplomacy = { modifier = { diplomats = 1 } ai_will_do = { factor = 10 } }
+  md_ab_knowledge_society = { modifier = { idea_cost = -0.10 } ai_will_do = { factor = 10 } }
+ }
+}
+md_age_multipolarity = {
+ start = 2010
+ can_start = { always = yes }
+ papacy = 2.0
+ objectives = {
+  md_obj_developed = { num_of_owned_provinces_with = { value = 10 development = 10 } }
+  md_obj_stable = { stability = 1 }
+  md_obj_prestige = { prestige = 50 }
+  md_obj_manpower = { manpower_percentage = 0.8 }
+  md_obj_debt_free = { NOT = { has_any_loan = yes } }
+  md_obj_allies = { num_of_allies = 3 }
+  md_obj_great_power = { is_great_power = yes }
+ }
+ abilities = {
+  md_ab_regional_influence = { modifier = { diplomatic_reputation = 1 } ai_will_do = { factor = 10 } }
+  md_ab_hybrid_warfare = { modifier = { spy_offence = 0.20 } ai_will_do = { factor = 10 } }
+  md_ab_resilient_economy = { modifier = { global_tax_modifier = 0.10 production_efficiency = 0.10 } ai_will_do = { factor = 10 } }
+  md_ab_drone_warfare = { modifier = { fire_damage = 0.10 } ai_will_do = { factor = 10 } }
+  md_ab_cyber_defence = { modifier = { global_spy_defence = 0.25 } ai_will_do = { factor = 10 } }
+  md_ab_energy_transition = { modifier = { build_cost = -0.10 } ai_will_do = { factor = 10 } }
+  md_ab_competing_blocs = { modifier = { power_projection_from_insults = 0.50 } ai_will_do = { factor = 10 } }
+ }
+}
+md_age_transformation = {
+ start = 2030
+ can_start = { always = yes }
+ papacy = 2.0
+ objectives = {
+  md_obj_developed = { num_of_owned_provinces_with = { value = 10 development = 10 } }
+  md_obj_stable = { stability = 1 }
+  md_obj_prestige = { prestige = 50 }
+  md_obj_manpower = { manpower_percentage = 0.8 }
+  md_obj_debt_free = { NOT = { has_any_loan = yes } }
+  md_obj_allies = { num_of_allies = 3 }
+  md_obj_great_power = { is_great_power = yes }
+ }
+ abilities = {
+  md_ab_automation = { modifier = { production_efficiency = 0.20 } ai_will_do = { factor = 10 } }
+  md_ab_artificial_intelligence = { modifier = { technology_cost = -0.10 } ai_will_do = { factor = 10 } }
+  md_ab_climate_adaptation = { modifier = { global_prov_trade_power_modifier = 0.15 } ai_will_do = { factor = 10 } }
+  md_ab_advanced_materials = { modifier = { build_cost = -0.15 } ai_will_do = { factor = 10 } }
+  md_ab_future_medicine = { modifier = { manpower_recovery_speed = 0.20 } ai_will_do = { factor = 10 } }
+  md_ab_autonomous_forces = { modifier = { land_morale = 0.10 } ai_will_do = { factor = 10 } }
+  md_ab_postindustrial_state = { modifier = { development_cost = -0.15 } ai_will_do = { factor = 10 } }
+ }
+}

@@ -3,6 +3,7 @@ tags={ "Alternative History" "Historical" "Map" "New Nations" }
 name="Millennium Dawn EU4"
 supported_version="1.37.*"
 replace_path="common/country_tags"
+replace_path="common/ages"
 replace_path="history/countries"
 replace_path="history/provinces"
 replace_path="history/diplomacy"
