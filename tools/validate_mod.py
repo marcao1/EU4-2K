@@ -12,7 +12,7 @@ def balanced(path:Path)->bool:
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--mod',type=Path,required=True);a=ap.parse_args();m=a.mod
     errors=[]
-    required=[m/'descriptor.mod',m/'common/defines/md_defines.lua',m/'source_data/countries.csv',m/'source_data/provinces.csv',m/'source_data/historical_claims.csv',m/'source_data/country_claim_reviews.csv']
+    required=[m/'descriptor.mod',m/'common/defines/md_defines.lua',m/'common/institutions/00_md_institutions.txt',m/'localisation/md_institutions_l_english.yml',m/'source_data/countries.csv',m/'source_data/provinces.csv',m/'source_data/historical_claims.csv',m/'source_data/country_claim_reviews.csv']
     for p in required:
         if not p.exists():errors.append(f"missing {p}")
     for p in m.rglob('*'):
@@ -51,6 +51,12 @@ def main():
             if not p.exists():errors.append(f'missing {p}')
     end=(m/'common/defines/md_defines.lua').read_text()
     if '9999.12.31' not in end:errors.append('open end date missing')
+    descriptor=(m/'descriptor.mod').read_text(encoding='utf-8-sig')
+    if 'replace_path="common/institutions"' not in descriptor:errors.append('institution replacement path missing')
+    institutions=(m/'common/institutions/00_md_institutions.txt').read_text(encoding='utf-8-sig')
+    institution_keys=['feudalism','renaissance','colonialism','printing_press','global_trade','manufactories','enlightenment','industrialization']
+    for key in institution_keys:
+        if len(re.findall(rf'(?m)^{key}\s*=\s*\{{',institutions)) != 1:errors.append(f'institution {key} must be defined exactly once')
     expected_owners={'80':'DEU','93':'BEL','139':'BIH','4126':'YUG','4173':'YUG','4757':'YUG','4768':'DEU'}
     for pid,owner in expected_owners.items():
         if province_by_id.get(pid,{}).get('tag') != owner:

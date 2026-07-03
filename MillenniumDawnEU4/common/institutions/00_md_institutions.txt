@@ -1,0 +1,117 @@
+# Millennium Dawn uses the eight native institution slots. Internal keys remain
+# unchanged so engine and base-game scripted triggers stay compatible.
+
+feudalism = {
+	bonus = { trade_efficiency = 0.1 }
+	trade_company_efficiency = 0.1
+	history = {
+		is_year = 2000
+		is_city = yes
+		owner = { always = yes }
+		OR = { is_capital = yes has_port = yes development = 15 center_of_trade = 1 }
+	}
+	can_embrace = { always = yes }
+	embracement_speed = {
+		modifier = { factor = 0.6 scale = yes custom_trigger_tooltip = { tooltip = MD_INSTITUTION_NEARBY_GLOBALIZATION any_friendly_coast_border_province = { feudalism = 100 } } }
+		modifier = { factor = 0.08 scale = yes custom_trigger_tooltip = { tooltip = MD_INSTITUTION_TRADE_PORT has_port = yes } }
+		modifier = { factor = 0.05 scale = yes custom_trigger_tooltip = { tooltip = MD_INSTITUTION_CAPITAL is_capital = yes } }
+		modifier = { factor = 1 scale = yes potential = { owner = { has_institution = feudalism } } custom_trigger_tooltip = { tooltip = MD_INSTITUTION_OWNER_EMBRACED owner = { has_institution = feudalism } } }
+	}
+	ai_will_do = { factor = 24 }
+}
+
+renaissance = {
+	bonus = { technology_cost = -0.05 }
+	history = {
+		is_year = 2000
+		is_city = yes
+		owner = { always = yes }
+		OR = { is_capital = yes development = 20 center_of_trade = 2 has_building = university }
+	}
+	can_embrace = { always = yes }
+	embracement_speed = {
+		modifier = { factor = 0.6 scale = yes custom_trigger_tooltip = { tooltip = MD_INSTITUTION_NEARBY_INFORMATION any_friendly_coast_border_province = { renaissance = 100 } } }
+		modifier = { factor = 0.1 scale = yes custom_trigger_tooltip = { tooltip = MD_INSTITUTION_UNIVERSITY has_building = university } }
+		modifier = { factor = 0.05 scale = yes custom_trigger_tooltip = { tooltip = MD_INSTITUTION_CAPITAL is_capital = yes } }
+		modifier = { factor = 1 scale = yes potential = { owner = { has_institution = renaissance } } custom_trigger_tooltip = { tooltip = MD_INSTITUTION_OWNER_EMBRACED owner = { has_institution = renaissance } } }
+	}
+	ai_will_do = { factor = 24 }
+}
+
+colonialism = {
+	bonus = { global_institution_spread = 0.1 }
+	can_start = { is_year = 2005 is_city = yes is_capital = yes development = 10 }
+	start_chance = 100
+	can_embrace = { always = yes }
+	embracement_speed = {
+		modifier = { factor = 0.6 scale = yes custom_trigger_tooltip = { tooltip = MD_INSTITUTION_NEARBY_MOBILE any_friendly_coast_border_province = { colonialism = 100 } } }
+		modifier = { factor = 0.08 scale = yes custom_trigger_tooltip = { tooltip = MD_INSTITUTION_URBAN development = 15 } }
+		modifier = { factor = 1 scale = yes potential = { owner = { has_institution = colonialism } } custom_trigger_tooltip = { tooltip = MD_INSTITUTION_OWNER_EMBRACED owner = { has_institution = colonialism } } }
+	}
+	ai_will_do = { factor = 24 }
+}
+
+printing_press = {
+	bonus = { global_unrest = -1 }
+	can_start = { is_year = 2010 is_city = yes is_capital = yes development = 10 }
+	start_chance = 100
+	can_embrace = { always = yes }
+	embracement_speed = {
+		modifier = { factor = 0.6 scale = yes custom_trigger_tooltip = { tooltip = MD_INSTITUTION_NEARBY_SOCIAL any_friendly_coast_border_province = { printing_press = 100 } } }
+		modifier = { factor = 0.08 scale = yes custom_trigger_tooltip = { tooltip = MD_INSTITUTION_URBAN development = 15 } }
+		modifier = { factor = 1 scale = yes potential = { owner = { has_institution = printing_press } } custom_trigger_tooltip = { tooltip = MD_INSTITUTION_OWNER_EMBRACED owner = { has_institution = printing_press } } }
+	}
+	ai_will_do = { factor = 24 }
+}
+
+global_trade = {
+	bonus = { production_efficiency = 0.1 }
+	can_start = { is_year = 2020 is_city = yes is_capital = yes development = 10 }
+	start_chance = 100
+	can_embrace = { always = yes }
+	embracement_speed = {
+		modifier = { factor = 0.6 scale = yes custom_trigger_tooltip = { tooltip = MD_INSTITUTION_NEARBY_GREEN any_friendly_coast_border_province = { global_trade = 100 } } }
+		modifier = { factor = 0.08 scale = yes custom_trigger_tooltip = { tooltip = MD_INSTITUTION_DEVELOPED development = 20 } }
+		modifier = { factor = 1 scale = yes potential = { owner = { has_institution = global_trade } } custom_trigger_tooltip = { tooltip = MD_INSTITUTION_OWNER_EMBRACED owner = { has_institution = global_trade } } }
+	}
+	ai_will_do = { factor = 24 }
+}
+
+manufactories = {
+	bonus = { development_cost = -0.1 }
+	can_start = { is_year = 2030 is_city = yes is_capital = yes development = 10 }
+	start_chance = 100
+	can_embrace = { always = yes }
+	embracement_speed = {
+		modifier = { factor = 0.6 scale = yes custom_trigger_tooltip = { tooltip = MD_INSTITUTION_NEARBY_AI any_friendly_coast_border_province = { manufactories = 100 } } }
+		modifier = { factor = 0.1 scale = yes custom_trigger_tooltip = { tooltip = MD_INSTITUTION_UNIVERSITY has_building = university } }
+		modifier = { factor = 1 scale = yes potential = { owner = { has_institution = manufactories } } custom_trigger_tooltip = { tooltip = MD_INSTITUTION_OWNER_EMBRACED owner = { has_institution = manufactories } } }
+	}
+	ai_will_do = { factor = 24 }
+}
+
+enlightenment = {
+	bonus = { global_manpower_modifier = 0.1 }
+	can_start = { is_year = 2040 is_city = yes is_capital = yes development = 10 }
+	start_chance = 100
+	can_embrace = { always = yes }
+	embracement_speed = {
+		modifier = { factor = 0.6 scale = yes custom_trigger_tooltip = { tooltip = MD_INSTITUTION_NEARBY_BIOTECH any_friendly_coast_border_province = { enlightenment = 100 } } }
+		modifier = { factor = 0.1 scale = yes custom_trigger_tooltip = { tooltip = MD_INSTITUTION_UNIVERSITY has_building = university } }
+		modifier = { factor = 1 scale = yes potential = { owner = { has_institution = enlightenment } } custom_trigger_tooltip = { tooltip = MD_INSTITUTION_OWNER_EMBRACED owner = { has_institution = enlightenment } } }
+	}
+	ai_will_do = { factor = 24 }
+}
+
+industrialization = {
+	bonus = { global_trade_power = 0.1 }
+	can_start = { is_year = 2050 is_city = yes is_capital = yes development = 10 }
+	start_chance = 100
+	can_embrace = { always = yes }
+	embracement_speed = {
+		modifier = { factor = 0.6 scale = yes custom_trigger_tooltip = { tooltip = MD_INSTITUTION_NEARBY_SPACE any_friendly_coast_border_province = { industrialization = 100 } } }
+		modifier = { factor = 0.08 scale = yes custom_trigger_tooltip = { tooltip = MD_INSTITUTION_DEVELOPED development = 20 } }
+		modifier = { factor = 1 scale = yes potential = { owner = { has_institution = industrialization } } custom_trigger_tooltip = { tooltip = MD_INSTITUTION_OWNER_EMBRACED owner = { has_institution = industrialization } } }
+	}
+	ai_will_do = { factor = 24 }
+}

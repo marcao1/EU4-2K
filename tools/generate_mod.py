@@ -197,7 +197,7 @@ def clean_output() -> None:
                 time.sleep(0.5 * (attempt + 1))
     for folder in [
         "common/bookmarks", "common/countries", "common/country_tags", "common/defines",
-        "common/ideas", "common/imperial_reforms", "common/triggered_modifiers", "gfx/flags", "history/countries", "history/provinces",
+        "common/ideas", "common/imperial_reforms", "common/institutions", "common/triggered_modifiers", "gfx/flags", "history/countries", "history/provinces",
         "history/diplomacy", "history/wars",
         "localisation", "source_data",
     ]:
@@ -390,7 +390,7 @@ def vanilla_color_map(game: Path, countries: dict) -> dict[str, tuple[tuple[int,
 
 
 def write_descriptor() -> None:
-    descriptor = '''version="0.1.0"\ntags={ "Alternative History" "Historical" "Map" "New Nations" }\nname="Millennium Dawn EU4"\nsupported_version="1.37.*"\nreplace_path="common/country_tags"\nreplace_path="history/countries"\nreplace_path="history/provinces"\nreplace_path="history/diplomacy"\nreplace_path="history/wars"\n'''
+    descriptor = '''version="0.1.0"\ntags={ "Alternative History" "Historical" "Map" "New Nations" }\nname="Millennium Dawn EU4"\nsupported_version="1.37.*"\nreplace_path="common/country_tags"\nreplace_path="common/institutions"\nreplace_path="history/countries"\nreplace_path="history/provinces"\nreplace_path="history/diplomacy"\nreplace_path="history/wars"\n'''
     (OUT / "descriptor.mod").write_text(descriptor, encoding="utf-8")
     (ROOT / "MillenniumDawnEU4.mod").write_text(descriptor + 'path="mod/MillenniumDawnEU4"\n', encoding="utf-8")
 
@@ -398,6 +398,16 @@ def write_descriptor() -> None:
 def write_eu_system() -> None:
     """Install the native-HRE European Union definitions and localisation."""
     template_root = ROOT / "tools" / "templates" / "eu"
+    for source in template_root.rglob("*"):
+        if source.is_file():
+            target = OUT / source.relative_to(template_root)
+            target.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(source, target)
+
+
+def write_institutions() -> None:
+    """Install the modern institution sequence and its localisation."""
+    template_root = ROOT / "tools" / "templates" / "institutions"
     for source in template_root.rglob("*"):
         if source.is_file():
             target = OUT / source.relative_to(template_root)
@@ -574,7 +584,7 @@ def main():
     parser.add_argument("--game",type=Path,required=True)
     args=parser.parse_args()
     if not (args.game/"eu4.exe").exists(): raise SystemExit(f"Invalid EU4 path: {args.game}")
-    clean_output(); write_descriptor(); write_defines_bookmark(); write_eu_system()
+    clean_output(); write_descriptor(); write_defines_bookmark(); write_eu_system(); write_institutions()
     countries,polygons,metadata=country_data(natural_earth_path())
     provinces=assign_provinces(province_records(args.game),polygons,metadata)
     countries,_=write_countries(countries,provinces,args.game)
