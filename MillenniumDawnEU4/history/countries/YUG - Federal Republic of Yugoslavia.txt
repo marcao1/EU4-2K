@@ -1,9 +1,0 @@
-government = republic
-add_government_reform = oligarchy_reform
-technology_group = western
-primary_culture = serbian
-religion = orthodox
-capital = 4239
-2000.1.1 = {
- monarch = { name = "Slobodan Milosevic" adm = 2 dip = 2 mil = 3 }
-}

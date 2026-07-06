@@ -1,9 +1,0 @@
-government = republic
-add_government_reform = oligarchy_reform
-technology_group = western
-primary_culture = aka
-religion = animism
-capital = 2258
-2000.1.1 = {
- monarch = { name = "Cote d'Ivoire Leadership" adm = 3 dip = 3 mil = 3 }
-}

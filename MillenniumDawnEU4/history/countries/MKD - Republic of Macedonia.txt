@@ -1,9 +1,0 @@
-government = republic
-add_government_reform = oligarchy_reform
-technology_group = western
-primary_culture = bulgarian
-religion = orthodox
-capital = 3001
-2000.1.1 = {
- monarch = { name = "Republic of Macedonia Leadership" adm = 3 dip = 3 mil = 3 }
-}

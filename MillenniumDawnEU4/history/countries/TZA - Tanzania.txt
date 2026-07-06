@@ -1,9 +1,0 @@
-government = republic
-add_government_reform = oligarchy_reform
-technology_group = western
-primary_culture = swahili
-religion = animism
-capital = 4041
-2000.1.1 = {
- monarch = { name = "Tanzania Leadership" adm = 3 dip = 3 mil = 3 }
-}

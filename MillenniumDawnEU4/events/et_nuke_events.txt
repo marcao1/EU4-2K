@@ -1,0 +1,105 @@
+
+namespace = et_nuke
+
+
+province_event = {
+	id = et_nuke.3
+	title = et_nuke.3.t
+	desc = et_nuke.3.d
+	picture = NUCLEAR_ENERGY_eventPicture
+	goto = ROOT
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			add_devastation = 100
+			kill_units = { amount = 10 who = owner }
+			add_province_modifier = {
+				name = province_nuked
+				duration = 1825
+			}
+			if = {
+				limit = { base_tax = 20 }
+				add_base_tax = -10
+				set_province_flag = et_nuke_lost_10_tax
+			}
+			else_if = {
+				limit = { base_tax = 6 }
+				add_base_tax = -5
+				set_province_flag = et_nuke_lost_5_tax
+			}
+			else = { set_base_tax = 1 }
+			if = {
+				limit = { base_production = 20 }
+				add_base_production = -10
+				set_province_flag = et_nuke_lost_10_production
+			}
+			else_if = {
+				limit = { base_production = 6 }
+				add_base_production = -5
+				set_province_flag = et_nuke_lost_5_production
+			}
+			else = { set_base_production = 1 }
+			if = {
+				limit = { base_manpower = 20 }
+				add_base_manpower = -10
+				set_province_flag = et_nuke_lost_10_manpower
+			}
+			else_if = {
+				limit = { base_manpower = 6 }
+				add_base_manpower = -5
+				set_province_flag = et_nuke_lost_5_manpower
+			}
+			else = { set_base_manpower = 1 }
+			owner = { add_war_exhaustion = 4 }
+		}
+	}
+
+	option = { #
+		name = et_nuke.3.a
+
+		tooltip = {
+			add_devastation = 100
+			custom_tooltip = et_nuke_province_button_tt_kill_units
+			add_province_modifier = {
+				name = province_nuked
+				duration = 1825
+			}
+			if = {
+				limit = { has_province_flag = et_nuke_lost_10_tax }
+				add_base_tax = -10
+			}
+			else_if = {
+				limit = { has_province_flag = et_nuke_lost_5_tax }
+				add_base_tax = -5
+			}
+			else = { set_base_tax = 1 }
+			if = {
+				limit = { has_province_flag = et_nuke_lost_10_production }
+				add_base_production = -10
+			}
+			else_if = {
+				limit = { has_province_flag = et_nuke_lost_5_production }
+				add_base_production = -5
+			}
+			else = { set_base_production = 1 }
+			if = {
+				limit = { has_province_flag = et_nuke_lost_10_manpower }
+				add_base_manpower = -10
+			}
+			else_if = {
+				limit = { has_province_flag = et_nuke_lost_5_manpower }
+				add_base_manpower = -5
+			}
+			else = { set_base_manpower = 1 }
+			owner = { add_war_exhaustion = 4 }
+		}
+		clr_province_flag = et_nuke_lost_10_tax
+		clr_province_flag = et_nuke_lost_5_tax
+		clr_province_flag = et_nuke_lost_10_production
+		clr_province_flag = et_nuke_lost_5_production
+		clr_province_flag = et_nuke_lost_10_manpower
+		clr_province_flag = et_nuke_lost_5_manpower
+	}
+}

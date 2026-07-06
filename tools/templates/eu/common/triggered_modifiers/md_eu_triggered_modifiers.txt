@@ -1,6 +1,0 @@
-﻿md_eu_council_presidency = {
-    potential = { is_emperor = yes }
-    trigger = { always = yes }
-    max_electors = 8
-    diplomatic_reputation = 1
-}

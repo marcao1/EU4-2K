@@ -1,42 +1,11 @@
-# Millennium Dawn: EU4 (foundation)
+# EU4 2K
 
-Standalone Europa Universalis IV 1.37.5 mod with a 1 January 2000 start and a
-technical end date of 31 December 9999.
+Private Extended Timeline 1.18.2 fork for Europa Universalis IV 1.37.
 
-The generated world uses the vanilla EU4 province map. Modern country borders
-are assigned from the public-domain Natural Earth Admin 0 dataset, with explicit
-historical overrides for the 2000 world. Extended Timeline is not a dependency
-and none of its files are used by the generator.
+- Campaign dates: `1836.1.1` through `9999.12.31`
+- Complete ET map, history, countries, technology, events and mechanics
+- ET secularism and irreligious religion mechanics removed
+- Affected history assignments retain their nearest conventional religion
 
-## Generate
-
-```powershell
-python tools/generate_mod.py `
-  --game "F:\Steam\steamapps\common\Europa Universalis IV"
-```
-
-The generator downloads Natural Earth and REST Countries flag assets into
-`.cache/`, then writes the complete mod to `MillenniumDawnEU4/`.
-
-## Validate
-
-```powershell
-python tools/validate_mod.py --mod MillenniumDawnEU4
-```
-
-The generated `source_data/countries.csv` and `source_data/provinces.csv` are the
-canonical audit tables for country tags and province ownership.
-
-Historical claims use the active-dispute situation on 1 January 2000. Their
-canonical, sourced definitions are in `tools/data/historical_claims.csv`; the
-generator emits matching `add_claim`/`add_core` entries and complete per-country
-review tables under `source_data/`. After editing the canonical table, apply it
-to an existing generated tree with `python tools/apply_claims.py`.
-
-## Install
-
-```powershell
-.\tools\install_mod.ps1
-```
-
-The currently installed copy is enabled in the local `dlc_load.json` playset.
+Enable only EU4 2K when testing. Changes should be tested in a new campaign;
+existing saves can retain removed religion IDs.

@@ -1,7 +1,0 @@
-graphical_culture = westerngfx
-color = { 191 25 25 }
-historical_score = 0
-historical_idea_groups = { economic_ideas defensive_ideas trade_ideas administrative_ideas }
-monarch_names = { "Leader #0" = 100 "Alexander #0" = 80 "Michael #0" = 80 "David #0" = 80 "John #0" = 80 "Maria #0" = 80 "Anna #0" = 80 "Peter #0" = 80 "George #0" = 80 "Thomas #0" = 80 }
-leader_names = { "Smith" "Brown" "Martin" "Miller" "Wilson" "Moore" "Taylor" "Anderson" "Thomas" "Jackson" }
-ship_names = { "Unity" "Liberty" "Republic" "Defender" "Guardian" "Victory" "Enterprise" "Endeavour" "Independence" "Constitution" }

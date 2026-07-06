@@ -1,9 +1,0 @@
-government = republic
-add_government_reform = oligarchy_reform
-technology_group = western
-primary_culture = ainu
-religion = orthodox
-capital = 295
-2000.1.1 = {
- monarch = { name = "Vladimir Putin" adm = 4 dip = 3 mil = 4 }
-}

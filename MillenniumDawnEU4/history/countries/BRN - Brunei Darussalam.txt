@@ -1,9 +1,0 @@
-government = monarchy
-add_government_reform = autocracy_reform
-technology_group = western
-primary_culture = bornean
-religion = sunni
-capital = 636
-2000.1.1 = {
- monarch = { name = "Brunei Darussalam Leadership" adm = 3 dip = 3 mil = 3 }
-}
