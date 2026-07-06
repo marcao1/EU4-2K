@@ -16,5 +16,5 @@ tags={
 	"New Nations"
 }
 picture="extended_timeline.jpg"
-version="0.5.1-no-secular"
+version="0.9.1-fort-ui"
 supported_version="v1.37.*"

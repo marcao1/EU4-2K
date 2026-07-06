@@ -1205,13 +1205,13 @@ guiTypes = {
 		}			
 		
 		checkboxType = {
-			name = "build_fort_et"
+			name = "build_fort_18th"
 			position = { x = 5 y = 323 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 		
 		instantTextBoxType={
-			name = "fort_et_cost"
+			name = "fort_18th_cost"
 			position = {x = 5 y = 373 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
@@ -1221,13 +1221,13 @@ guiTypes = {
 		}
 		
 		checkboxType = {
-			name = "build_fort_15th"
+			name = "build_modern_fortification"
 			position = { x = 53 y = 323 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 		
 		instantTextBoxType={
-			name = "fort_15th_cost"
+			name = "modern_fortification_cost"
 			position = {x = 53 y = 373 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
@@ -1237,19 +1237,19 @@ guiTypes = {
 		}
 		
 		iconType = {
-			name = "fort_et_to_fort_15th_arrow"
+			name = "fort_18th_to_modern_fortification_arrow"
 			position = { x = 46 y = 332 }
 			spriteType = "GFX_building_upgrade_icon"
 		}	
 		
 		checkboxType = {
-			name = "build_fort_16th"
+			name = "build_hardened_bunker"
 			position = { x = 101 y = 323 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 		
 		instantTextBoxType={
-			name = "fort_16th_cost"
+			name = "hardened_bunker_cost"
 			position = {x = 101 y = 373 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
@@ -1259,19 +1259,19 @@ guiTypes = {
 		}
 		
 		iconType = {
-			name = "fort_15th_to_fort_16th_arrow"
+			name = "modern_fortification_to_hardened_bunker_arrow"
 			position = { x = 94 y = 332 }
 			spriteType = "GFX_building_upgrade_icon"
 		}			
 		
 		checkboxType = {
-			name = "build_fort_17th"
+			name = "build_integrated_defence_network"
 			position = { x = 149 y = 323 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 		
 		instantTextBoxType={
-			name = "fort_17th_cost"
+			name = "integrated_defence_network_cost"
 			position = {x = 149 y = 373 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
@@ -1281,19 +1281,19 @@ guiTypes = {
 		}
 		
 		iconType = {
-			name = "fort_16th_to_fort_17th_arrow"
+			name = "hardened_bunker_to_integrated_defence_network_arrow"
 			position = { x = 142 y = 332 }
 			spriteType = "GFX_building_upgrade_icon"
 		}			
 		
 		checkboxType = {
-			name = "build_fort_18th"
+			name = "build_orbital_defence_complex"
 			position = { x = 197 y = 323 }
 			quadTextureSprite = "GFX_courthouse_muslimgfx" #Placeholder, real sprite is decided by game (based on button name).
 		}
 		
 		instantTextBoxType={
-			name = "fort_18th_cost"
+			name = "orbital_defence_complex_cost"
 			position = {x = 197 y = 373 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
@@ -1303,7 +1303,7 @@ guiTypes = {
 		}		
 		
 		iconType = {
-			name = "fort_17th_to_fort_18th_arrow"
+			name = "integrated_defence_network_to_orbital_defence_complex_arrow"
 			position = { x = 190 y = 332 }
 			spriteType = "GFX_building_upgrade_icon"
 		}

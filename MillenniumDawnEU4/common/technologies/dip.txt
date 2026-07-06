@@ -1816,11 +1816,12 @@ technology = {
 	trade_efficiency 		= 	0.02
 	trade_range				=	20
 	global_colonial_growth  = 	25
+	railroad = yes
 }
 
 technology = {
 	# Tech 78
-	year = 1848
+	year = 1850
 	
 	expects_institution = {
 		writing = 0.5
@@ -1848,13 +1849,13 @@ technology = {
 	}
 
 	#Railroad
-	railroad = yes
 	trade_efficiency 		= 	0.02
+	enable = ironclad
 }
 
 technology = {
 	# Tech 79
-	year = 1855
+	year = 1870
 	
 	expects_institution = {
 		writing = 0.5
@@ -1887,13 +1888,11 @@ technology = {
 	naval_maintenance	= 0.1
 	global_colonial_growth  = 	25
 	naval_engagement_width = 10
-
-	enable = ironclad
 }
 
 technology = {
 	# Tech 80
-	year = 1867
+	year = 1890
 	
 	expects_institution = {
 		writing = 0.5
@@ -1929,7 +1928,7 @@ technology = {
 
 technology = {
 	# Tech 81
-	year = 1885
+	year = 1910
 	
 	expects_institution = {
 		writing = 0.5
@@ -1965,11 +1964,12 @@ technology = {
 	enable = cruiser
 	enable = torpedo_boat
 	enable = troopship
+	enable = dreadnought
 }
 
 technology = {
 	# Tech 82
-	year = 1897
+	year = 1930
 	
 	expects_institution = {
 		writing = 0.5
@@ -2004,7 +2004,7 @@ technology = {
 
 technology = {
 	# Tech 83
-	year = 1915
+	year = 1945
 	
 	expects_institution = {
 		writing = 0.5
@@ -2034,12 +2034,12 @@ technology = {
 	}
 
 	#Dreadnought
-	enable = dreadnought
+	enable = battleship
 }
 
 technology = {
 	# Tech 84
-	year = 1930
+	year = 1960
 	
 	expects_institution = {
 		writing = 0.5
@@ -2070,11 +2070,12 @@ technology = {
 
 	#Radar
 	naval_morale		= 0.5
+	mass_transit_system = yes
 }
 
 technology = {
 	# Tech 85
-	year = 1936
+	year = 1975
 	
 	expects_institution = {
 		writing = 0.5
@@ -2106,11 +2107,13 @@ technology = {
 	#Mass Media
 	trade_efficiency 	= 0.02
 	num_accepted_cultures = 1
+	enable = missile_cruiser
+	enable = missile_destroyer
 }
 
 technology = {
 	# Tech 86
-	year = 1940
+	year = 1990
 	
 	expects_institution = {
 		writing = 0.5
@@ -2141,14 +2144,12 @@ technology = {
 
 	#Battleships
 	naval_maintenance	= 0.2
-
-	enable = battleship
 	naval_engagement_width = 10
 }
 
 technology = {
 	# Tech 87
-	year = 1946
+	year = 2005
 	
 	expects_institution = {
 		writing = 0.5
@@ -2184,7 +2185,7 @@ technology = {
 
 technology = {
 	# Tech 88
-	year = 1960
+	year = 2020
 	
 	expects_institution = {
 		writing = 0.5
@@ -2215,7 +2216,6 @@ technology = {
 	}
 
 	#Civil Aviation
-	mass_transit_system = yes
 	trade_efficiency 	= 0.02
 	trade_range		= 20
 	range			= 200
@@ -2223,7 +2223,7 @@ technology = {
 
 technology = {
 	# Tech 89
-	year = 1980
+	year = 2035
 	
 	expects_institution = {
 		writing = 0.5
@@ -2255,14 +2255,11 @@ technology = {
 
 	#Naval Missiles
 	naval_maintenance	= 0.2
-	
-	enable = missile_cruiser
-	enable = missile_destroyer
 }
 
 technology = {
 	# Tech 90
-	year = 1995
+	year = 2050
 	
 	expects_institution = {
 		writing = 0.5
@@ -2300,7 +2297,7 @@ technology = {
 
 technology = {
 	# Tech 91
-	year = 2025
+	year = 2065
 	
 	expects_institution = {
 		writing = 0.5
@@ -2337,7 +2334,7 @@ technology = {
 
 technology = {
 	# Tech 92
-	year = 2040
+	year = 2080
 	
 	expects_institution = {
 		writing = 0.5
@@ -2375,7 +2372,7 @@ technology = {
 
 technology = {
 	# Tech 93
-	year = 2080
+	year = 2090
 	
 	expects_institution = {
 		writing = 0.5
@@ -2412,7 +2409,7 @@ technology = {
 
 technology = {
 	# Tech 94
-	year = 2120
+	year = 2100
 	
 	expects_institution = {
 		writing = 0.5
@@ -2449,187 +2446,1297 @@ technology = {
 }
 
 technology = {
-	# Tech 95
-	year = 2160
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
-		feudalism = 0.5
-		renaissance = 0.5
-		new_world_i = 0.5
-		printing_press = 0.5
-		global_trade = 0.5
-		manufactories = 0.5
-		enlightenment = 1
-		imperialism = 1
-		industrialization = 1
-		nationalism_institution = 1
-		electrification = 1
-		globalization = 1
-		internet = 1
-	}
-
-	#Future Diplomacy 4
-	trade_range		= 20
-}
-
-technology = {
 	# Tech 96
-	year = 2200
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
-		feudalism = 0.5
-		renaissance = 0.5
-		new_world_i = 0.5
-		printing_press = 0.5
-		global_trade = 0.5
-		manufactories = 0.5
-		enlightenment = 1
-		imperialism = 1
-		industrialization = 1
-		nationalism_institution = 1
-		electrification = 1
-		globalization = 1
-		internet = 1
-	}
+	year = 2150
 
-	#Future Diplomacy 5
-	range			= 100
+	# Future Diplomacy 1
+	trade_efficiency = 0.005
 }
 
 technology = {
 	# Tech 97
-	year = 2240
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
-		feudalism = 0.5
-		renaissance = 0.5
-		new_world_i = 0.5
-		printing_press = 0.5
-		global_trade = 0.5
-		manufactories = 0.5
-		enlightenment = 1
-		imperialism = 1
-		industrialization = 1
-		nationalism_institution = 1
-		electrification = 1
-		globalization = 1
-		internet = 1
-	}
+	year = 2200
 
-	#Future Diplomacy 6
-	num_accepted_cultures = 1
+	# Future Diplomacy 2
+	trade_efficiency = 0.005
 }
 
 technology = {
 	# Tech 98
-	year = 2280
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
-		feudalism = 0.5
-		renaissance = 0.5
-		new_world_i = 0.5
-		printing_press = 0.5
-		global_trade = 0.5
-		manufactories = 0.5
-		enlightenment = 1
-		imperialism = 1
-		industrialization = 1
-		nationalism_institution = 1
-		electrification = 1
-		globalization = 1
-		internet = 1
-	}
+	year = 2250
 
-	#Future Diplomacy 7
-	naval_morale			=	0.5
+	# Future Diplomacy 3
+	trade_efficiency = 0.005
 }
 
 technology = {
 	# Tech 99
-	year = 2320
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
-		feudalism = 0.5
-		renaissance = 0.5
-		new_world_i = 0.5
-		printing_press = 0.5
-		global_trade = 0.5
-		manufactories = 0.5
-		enlightenment = 1
-		imperialism = 1
-		industrialization = 1
-		nationalism_institution = 1
-		electrification = 1
-		globalization = 1
-		internet = 1
-	}
+	year = 2300
 
-	#Future Diplomacy 8
-	trade_efficiency 	= 0.02
-	naval_maintenance	= 0.1
+	# Future Diplomacy 4
+	trade_efficiency = 0.005
+	trade_range = 10
 }
+
+technology = {
+	# Tech 100
+	year = 2350
+
+	# Future Diplomacy 5
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 101
+	year = 2400
+
+	# Future Diplomacy 6
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 102
+	year = 2450
+
+	# Future Diplomacy 7
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 103
+	year = 2500
+
+	# Future Diplomacy 8
+	trade_efficiency = 0.005
+	trade_range = 10
+}
+
+technology = {
+	# Tech 104
+	year = 2550
+
+	# Future Diplomacy 9
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 105
+	year = 2600
+
+	# Future Diplomacy 10
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 106
+	year = 2650
+
+	# Future Diplomacy 11
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 107
+	year = 2700
+
+	# Future Diplomacy 12
+	trade_efficiency = 0.005
+	trade_range = 10
+}
+
+technology = {
+	# Tech 108
+	year = 2750
+
+	# Future Diplomacy 13
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 109
+	year = 2800
+
+	# Future Diplomacy 14
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 110
+	year = 2850
+
+	# Future Diplomacy 15
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 111
+	year = 2900
+
+	# Future Diplomacy 16
+	trade_efficiency = 0.005
+	trade_range = 10
+}
+
+technology = {
+	# Tech 112
+	year = 2950
+
+	# Future Diplomacy 17
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 113
+	year = 3000
+
+	# Future Diplomacy 18
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 114
+	year = 3050
+
+	# Future Diplomacy 19
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 115
+	year = 3100
+
+	# Future Diplomacy 20
+	trade_efficiency = 0.005
+	trade_range = 10
+}
+
+technology = {
+	# Tech 116
+	year = 3150
+
+	# Future Diplomacy 21
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 117
+	year = 3200
+
+	# Future Diplomacy 22
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 118
+	year = 3250
+
+	# Future Diplomacy 23
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 119
+	year = 3300
+
+	# Future Diplomacy 24
+	trade_efficiency = 0.005
+	trade_range = 10
+}
+
+technology = {
+	# Tech 120
+	year = 3350
+
+	# Future Diplomacy 25
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 121
+	year = 3400
+
+	# Future Diplomacy 26
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 122
+	year = 3450
+
+	# Future Diplomacy 27
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 123
+	year = 3500
+
+	# Future Diplomacy 28
+	trade_efficiency = 0.005
+	trade_range = 10
+}
+
+technology = {
+	# Tech 124
+	year = 3550
+
+	# Future Diplomacy 29
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 125
+	year = 3600
+
+	# Future Diplomacy 30
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 126
+	year = 3650
+
+	# Future Diplomacy 31
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 127
+	year = 3700
+
+	# Future Diplomacy 32
+	trade_efficiency = 0.005
+	trade_range = 10
+}
+
+technology = {
+	# Tech 128
+	year = 3750
+
+	# Future Diplomacy 33
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 129
+	year = 3800
+
+	# Future Diplomacy 34
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 130
+	year = 3850
+
+	# Future Diplomacy 35
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 131
+	year = 3900
+
+	# Future Diplomacy 36
+	trade_efficiency = 0.005
+	trade_range = 10
+}
+
+technology = {
+	# Tech 132
+	year = 3950
+
+	# Future Diplomacy 37
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 133
+	year = 4000
+
+	# Future Diplomacy 38
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 134
+	year = 4050
+
+	# Future Diplomacy 39
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 135
+	year = 4100
+
+	# Future Diplomacy 40
+	trade_efficiency = 0.005
+	trade_range = 10
+}
+
+technology = {
+	# Tech 136
+	year = 4150
+
+	# Future Diplomacy 41
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 137
+	year = 4200
+
+	# Future Diplomacy 42
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 138
+	year = 4250
+
+	# Future Diplomacy 43
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 139
+	year = 4300
+
+	# Future Diplomacy 44
+	trade_efficiency = 0.005
+	trade_range = 10
+}
+
+technology = {
+	# Tech 140
+	year = 4350
+
+	# Future Diplomacy 45
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 141
+	year = 4400
+
+	# Future Diplomacy 46
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 142
+	year = 4450
+
+	# Future Diplomacy 47
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 143
+	year = 4500
+
+	# Future Diplomacy 48
+	trade_efficiency = 0.005
+	trade_range = 10
+}
+
+technology = {
+	# Tech 144
+	year = 4550
+
+	# Future Diplomacy 49
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 145
+	year = 4600
+
+	# Future Diplomacy 50
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 146
+	year = 4650
+
+	# Future Diplomacy 51
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 147
+	year = 4700
+
+	# Future Diplomacy 52
+	trade_efficiency = 0.005
+	trade_range = 10
+}
+
+technology = {
+	# Tech 148
+	year = 4750
+
+	# Future Diplomacy 53
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 149
+	year = 4800
+
+	# Future Diplomacy 54
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 150
+	year = 4850
+
+	# Future Diplomacy 55
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 151
+	year = 4900
+
+	# Future Diplomacy 56
+	trade_efficiency = 0.005
+	trade_range = 10
+}
+
+technology = {
+	# Tech 152
+	year = 4950
+
+	# Future Diplomacy 57
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 153
+	year = 5000
+
+	# Future Diplomacy 58
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 154
+	year = 5050
+
+	# Future Diplomacy 59
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 155
+	year = 5100
+
+	# Future Diplomacy 60
+	trade_efficiency = 0.005
+	trade_range = 10
+}
+
+technology = {
+	# Tech 156
+	year = 5150
+
+	# Future Diplomacy 61
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 157
+	year = 5200
+
+	# Future Diplomacy 62
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 158
+	year = 5250
+
+	# Future Diplomacy 63
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 159
+	year = 5300
+
+	# Future Diplomacy 64
+	trade_efficiency = 0.005
+	trade_range = 10
+}
+
+technology = {
+	# Tech 160
+	year = 5350
+
+	# Future Diplomacy 65
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 161
+	year = 5400
+
+	# Future Diplomacy 66
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 162
+	year = 5450
+
+	# Future Diplomacy 67
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 163
+	year = 5500
+
+	# Future Diplomacy 68
+	trade_efficiency = 0.005
+	trade_range = 10
+}
+
+technology = {
+	# Tech 164
+	year = 5550
+
+	# Future Diplomacy 69
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 165
+	year = 5600
+
+	# Future Diplomacy 70
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 166
+	year = 5650
+
+	# Future Diplomacy 71
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 167
+	year = 5700
+
+	# Future Diplomacy 72
+	trade_efficiency = 0.005
+	trade_range = 10
+}
+
+technology = {
+	# Tech 168
+	year = 5750
+
+	# Future Diplomacy 73
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 169
+	year = 5800
+
+	# Future Diplomacy 74
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 170
+	year = 5850
+
+	# Future Diplomacy 75
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 171
+	year = 5900
+
+	# Future Diplomacy 76
+	trade_efficiency = 0.005
+	trade_range = 10
+}
+
+technology = {
+	# Tech 172
+	year = 5950
+
+	# Future Diplomacy 77
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 173
+	year = 6000
+
+	# Future Diplomacy 78
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 174
+	year = 6050
+
+	# Future Diplomacy 79
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 175
+	year = 6100
+
+	# Future Diplomacy 80
+	trade_efficiency = 0.005
+	trade_range = 10
+}
+
+technology = {
+	# Tech 176
+	year = 6150
+
+	# Future Diplomacy 81
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 177
+	year = 6200
+
+	# Future Diplomacy 82
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 178
+	year = 6250
+
+	# Future Diplomacy 83
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 179
+	year = 6300
+
+	# Future Diplomacy 84
+	trade_efficiency = 0.005
+	trade_range = 10
+}
+
+technology = {
+	# Tech 180
+	year = 6350
+
+	# Future Diplomacy 85
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 181
+	year = 6400
+
+	# Future Diplomacy 86
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 182
+	year = 6450
+
+	# Future Diplomacy 87
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 183
+	year = 6500
+
+	# Future Diplomacy 88
+	trade_efficiency = 0.005
+	trade_range = 10
+}
+
+technology = {
+	# Tech 184
+	year = 6550
+
+	# Future Diplomacy 89
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 185
+	year = 6600
+
+	# Future Diplomacy 90
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 186
+	year = 6650
+
+	# Future Diplomacy 91
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 187
+	year = 6700
+
+	# Future Diplomacy 92
+	trade_efficiency = 0.005
+	trade_range = 10
+}
+
+technology = {
+	# Tech 188
+	year = 6750
+
+	# Future Diplomacy 93
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 189
+	year = 6800
+
+	# Future Diplomacy 94
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 190
+	year = 6850
+
+	# Future Diplomacy 95
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 191
+	year = 6900
+
+	# Future Diplomacy 96
+	trade_efficiency = 0.005
+	trade_range = 10
+}
+
+technology = {
+	# Tech 192
+	year = 6950
+
+	# Future Diplomacy 97
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 193
+	year = 7000
+
+	# Future Diplomacy 98
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 194
+	year = 7050
+
+	# Future Diplomacy 99
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 195
+	year = 7100
+
+	# Future Diplomacy 100
+	trade_efficiency = 0.005
+	trade_range = 10
+}
+
+technology = {
+	# Tech 196
+	year = 7150
+
+	# Future Diplomacy 101
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 197
+	year = 7200
+
+	# Future Diplomacy 102
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 198
+	year = 7250
+
+	# Future Diplomacy 103
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 199
+	year = 7300
+
+	# Future Diplomacy 104
+	trade_efficiency = 0.005
+	trade_range = 10
+}
+
+technology = {
+	# Tech 200
+	year = 7350
+
+	# Future Diplomacy 105
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 201
+	year = 7400
+
+	# Future Diplomacy 106
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 202
+	year = 7450
+
+	# Future Diplomacy 107
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 203
+	year = 7500
+
+	# Future Diplomacy 108
+	trade_efficiency = 0.005
+	trade_range = 10
+}
+
+technology = {
+	# Tech 204
+	year = 7550
+
+	# Future Diplomacy 109
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 205
+	year = 7600
+
+	# Future Diplomacy 110
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 206
+	year = 7650
+
+	# Future Diplomacy 111
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 207
+	year = 7700
+
+	# Future Diplomacy 112
+	trade_efficiency = 0.005
+	trade_range = 10
+}
+
+technology = {
+	# Tech 208
+	year = 7750
+
+	# Future Diplomacy 113
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 209
+	year = 7800
+
+	# Future Diplomacy 114
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 210
+	year = 7850
+
+	# Future Diplomacy 115
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 211
+	year = 7900
+
+	# Future Diplomacy 116
+	trade_efficiency = 0.005
+	trade_range = 10
+}
+
+technology = {
+	# Tech 212
+	year = 7950
+
+	# Future Diplomacy 117
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 213
+	year = 8000
+
+	# Future Diplomacy 118
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 214
+	year = 8050
+
+	# Future Diplomacy 119
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 215
+	year = 8100
+
+	# Future Diplomacy 120
+	trade_efficiency = 0.005
+	trade_range = 10
+}
+
+technology = {
+	# Tech 216
+	year = 8150
+
+	# Future Diplomacy 121
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 217
+	year = 8200
+
+	# Future Diplomacy 122
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 218
+	year = 8250
+
+	# Future Diplomacy 123
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 219
+	year = 8300
+
+	# Future Diplomacy 124
+	trade_efficiency = 0.005
+	trade_range = 10
+}
+
+technology = {
+	# Tech 220
+	year = 8350
+
+	# Future Diplomacy 125
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 221
+	year = 8400
+
+	# Future Diplomacy 126
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 222
+	year = 8450
+
+	# Future Diplomacy 127
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 223
+	year = 8500
+
+	# Future Diplomacy 128
+	trade_efficiency = 0.005
+	trade_range = 10
+}
+
+technology = {
+	# Tech 224
+	year = 8550
+
+	# Future Diplomacy 129
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 225
+	year = 8600
+
+	# Future Diplomacy 130
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 226
+	year = 8650
+
+	# Future Diplomacy 131
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 227
+	year = 8700
+
+	# Future Diplomacy 132
+	trade_efficiency = 0.005
+	trade_range = 10
+}
+
+technology = {
+	# Tech 228
+	year = 8750
+
+	# Future Diplomacy 133
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 229
+	year = 8800
+
+	# Future Diplomacy 134
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 230
+	year = 8850
+
+	# Future Diplomacy 135
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 231
+	year = 8900
+
+	# Future Diplomacy 136
+	trade_efficiency = 0.005
+	trade_range = 10
+}
+
+technology = {
+	# Tech 232
+	year = 8950
+
+	# Future Diplomacy 137
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 233
+	year = 9000
+
+	# Future Diplomacy 138
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 234
+	year = 9050
+
+	# Future Diplomacy 139
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 235
+	year = 9100
+
+	# Future Diplomacy 140
+	trade_efficiency = 0.005
+	trade_range = 10
+}
+
+technology = {
+	# Tech 236
+	year = 9150
+
+	# Future Diplomacy 141
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 237
+	year = 9200
+
+	# Future Diplomacy 142
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 238
+	year = 9250
+
+	# Future Diplomacy 143
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 239
+	year = 9300
+
+	# Future Diplomacy 144
+	trade_efficiency = 0.005
+	trade_range = 10
+}
+
+technology = {
+	# Tech 240
+	year = 9350
+
+	# Future Diplomacy 145
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 241
+	year = 9400
+
+	# Future Diplomacy 146
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 242
+	year = 9450
+
+	# Future Diplomacy 147
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 243
+	year = 9500
+
+	# Future Diplomacy 148
+	trade_efficiency = 0.005
+	trade_range = 10
+}
+
+technology = {
+	# Tech 244
+	year = 9550
+
+	# Future Diplomacy 149
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 245
+	year = 9600
+
+	# Future Diplomacy 150
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 246
+	year = 9650
+
+	# Future Diplomacy 151
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 247
+	year = 9700
+
+	# Future Diplomacy 152
+	trade_efficiency = 0.005
+	trade_range = 10
+}
+
+technology = {
+	# Tech 248
+	year = 9750
+
+	# Future Diplomacy 153
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 249
+	year = 9800
+
+	# Future Diplomacy 154
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 250
+	year = 9850
+
+	# Future Diplomacy 155
+	trade_efficiency = 0.005
+}
+
+technology = {
+	# Tech 251
+	year = 9900
+
+	# Future Diplomacy 156
+	trade_efficiency = 0.005
+	trade_range = 10
+}
+
+technology = {
+	# Tech 252
+	year = 9950
+
+	# Future Diplomacy 157
+	trade_efficiency = 0.005
+}
+

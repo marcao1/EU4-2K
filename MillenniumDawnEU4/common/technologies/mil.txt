@@ -2388,7 +2388,7 @@ technology = {
 
 technology = {
 	# Tech 78
-	year = 1848
+	year = 1850
 	
 	expects_institution = {
 		writing = 0.5
@@ -2425,7 +2425,7 @@ technology = {
 
 technology = {
 	# Tech 79
-	year = 1855
+	year = 1870
 	
 	expects_institution = {
 		writing = 0.5
@@ -2463,7 +2463,7 @@ technology = {
 
 technology = {
 	# Tech 80
-	year = 1867
+	year = 1890
 	
 	expects_institution = {
 		writing = 0.5
@@ -2504,7 +2504,7 @@ technology = {
 
 technology = {
 	# Tech 81
-	year = 1885
+	year = 1910
 	
 	expects_institution = {
 		writing = 0.5
@@ -2539,11 +2539,13 @@ technology = {
 	combat_width 		= 	-2
 
 	enable = bolt_action_rifle
+	enable = machine_gun
+	modern_fortification = yes
 }
 
 technology = {
 	# Tech 82
-	year = 1897
+	year = 1930
 	
 	expects_institution = {
 		writing = 0.5
@@ -2577,11 +2579,15 @@ technology = {
 	combat_width 		= 	-3
 
 	enable = french_75
+	enable = mark_heavy_tank
+	enable = renault_light_tank
+	enable = fiat3000
+	enable = 89chiro
 }
 
 technology = {
 	# Tech 83
-	year = 1915
+	year = 1945
 	
 	expects_institution = {
 		writing = 0.5
@@ -2614,17 +2620,19 @@ technology = {
 	cavalry_fire		=	0.5
 	supply_limit		=	0.25
 	combat_width 		= 	-5
-
-	enable = machine_gun
-	enable = mark_heavy_tank
-	enable = renault_light_tank
-	enable = fiat3000
-	enable = 89chiro
+	enable = churchill
+	enable = tiger
+	enable = t38
+	enable = m4_sherman
+	enable = assault_rifle
+	enable = katyusha_rocket
+	enable = land_mattress
+	enable = carro_armato_p2640
 }
 
 technology = {
 	# Tech 84
-	year = 1930
+	year = 1960
 	
 	expects_institution = {
 		writing = 0.5
@@ -2655,11 +2663,14 @@ technology = {
 
 	#Aerial Warfare
 	military_tactics 	= 	0.25
+	enable = ak47
+	enable = m16_rifle
+	hardened_bunker = yes
 }
 
 technology = {
 	# Tech 85
-	year = 1936
+	year = 1975
 	
 	expects_institution = {
 		writing = 0.5
@@ -2690,17 +2701,16 @@ technology = {
 
 	#Gun Turret
 	cavalry_fire		=	1.0
-	
-	enable = churchill
-	enable = tiger
-	enable = t38
-	enable = m4_sherman
-	enable = assault_rifle
+	enable = m1_abrams
+	enable = leopard_2
+	enable = t64
+	enable = type62
+	enable = type90
 }
 
 technology = {
 	# Tech 86
-	year = 1940
+	year = 1990
 	
 	expects_institution = {
 		writing = 0.5
@@ -2731,15 +2741,14 @@ technology = {
 
 	#Rocket Artillery
 	artillery_fire		=	0.5
-
-	enable = katyusha_rocket
-	enable = land_mattress
-	enable = carro_armato_p2640
+	enable = pzh_2000
+	enable = a2s19_msta
+	enable = m270_mlrs
 }
 
 technology = {
 	# Tech 87
-	year = 1946
+	year = 2005
 	
 	expects_institution = {
 		writing = 0.5
@@ -2770,11 +2779,13 @@ technology = {
 
 	#Nuclear Bomb
 	military_tactics 	= 	0.25
+	enable = land_warrior
+	integrated_defence_network = yes
 }
 
 technology = {
 	# Tech 88
-	year = 1960
+	year = 2020
 	
 	expects_institution = {
 		writing = 0.5
@@ -2807,14 +2818,13 @@ technology = {
 	#Modern Assault Rifle
 	infantry_fire		=	0.25
 	infantry_shock		=	0.25
-
-	enable = ak47
-	enable = m16_rifle
+	enable = armata
+	enable = m1a3_abrams
 }
 
 technology = {
 	# Tech 89
-	year = 1980
+	year = 2035
 	
 	expects_institution = {
 		writing = 0.5
@@ -2846,17 +2856,11 @@ technology = {
 
 	#Main Battle Tanks
 	cavalry_fire		=	0.5
-
-	enable = m1_abrams
-	enable = leopard_2
-	enable = t64
-	enable = type62
-	enable = type90
 }
 
 technology = {
 	# Tech 90
-	year = 1995
+	year = 2050
 	
 	expects_institution = {
 		writing = 0.5
@@ -2889,15 +2893,11 @@ technology = {
 
 	#Missile Guidance System
 	artillery_fire		=	0.25
-	
-	enable = pzh_2000
-	enable = a2s19_msta
-	enable = m270_mlrs
 }
 
 technology = {
 	# Tech 91
-	year = 2025
+	year = 2065
 	
 	expects_institution = {
 		writing = 0.5
@@ -2930,14 +2930,11 @@ technology = {
 	
 	#Advanced Main Battle Tanks
 	cavalry_fire		=	0.5
-
-	enable = armata
-	enable = m1a3_abrams
 }
 
 technology = {
 	# Tech 92
-	year = 2040
+	year = 2080
 	
 	expects_institution = {
 		writing = 0.5
@@ -2971,13 +2968,13 @@ technology = {
 	#Future Soldier Project
 	infantry_fire		=	0.25
 	infantry_shock		=	0.25
-
-	enable = land_warrior
+	enable = robot_soldier
+	enable = mecha_warrior
 }
 
 technology = {
 	# Tech 93
-	year = 2080
+	year = 2090
 	
 	expects_institution = {
 		writing = 0.5
@@ -3016,7 +3013,7 @@ technology = {
 
 technology = {
 	# Tech 94
-	year = 2120
+	year = 2100
 	
 	expects_institution = {
 		writing = 0.5
@@ -3051,193 +3048,1339 @@ technology = {
 	artillery_fire		=	0.25
 	infantry_fire		=	0.25
 	cavalry_fire		=	0.25
-}
-
-technology = {
-	# Tech 95
-	year = 2160
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
-		feudalism = 0.5
-		renaissance = 0.5
-		new_world_i = 0.5
-		printing_press = 0.5
-		global_trade = 0.5
-		manufactories = 0.5
-		enlightenment = 1
-		imperialism = 1
-		industrialization = 1
-		nationalism_institution = 1
-		electrification = 1
-		globalization = 1
-		internet = 1
-	}
-
-	#War Robots
-	enable = robot_soldier
-	enable = mecha_warrior
+	orbital_defence_complex = yes
 }
 
 technology = {
 	# Tech 96
-	year = 2200
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
-		feudalism = 0.5
-		renaissance = 0.5
-		new_world_i = 0.5
-		printing_press = 0.5
-		global_trade = 0.5
-		manufactories = 0.5
-		enlightenment = 1
-		imperialism = 1
-		industrialization = 1
-		nationalism_institution = 1
-		electrification = 1
-		globalization = 1
-		internet = 1
-	}
+	year = 2150
 
-	#Sterile Field Generators
-	maneuver_value 		= 	0.25
-	supply_limit		=	0.25
+	# Future Military 1
+	supply_limit = 0.01
 }
 
 technology = {
 	# Tech 97
-	year = 2240
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
-		feudalism = 0.5
-		renaissance = 0.5
-		new_world_i = 0.5
-		printing_press = 0.5
-		global_trade = 0.5
-		manufactories = 0.5
-		enlightenment = 1
-		imperialism = 1
-		industrialization = 1
-		nationalism_institution = 1
-		electrification = 1
-		globalization = 1
-		internet = 1
-	}
+	year = 2200
 
-	#Future Military 6
-	land_morale		=	0.2
+	# Future Military 2
+	supply_limit = 0.01
 }
 
 technology = {
 	# Tech 98
-	year = 2280
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
-		feudalism = 0.5
-		renaissance = 0.5
-		new_world_i = 0.5
-		printing_press = 0.5
-		global_trade = 0.5
-		manufactories = 0.5
-		enlightenment = 1
-		imperialism = 1
-		industrialization = 1
-		nationalism_institution = 1
-		electrification = 1
-		globalization = 1
-		internet = 1
-	}
+	year = 2250
 
-	#Future Military 7
-	artillery_shock		=	0.25
-	infantry_shock		=	0.25
-	cavalry_shock		=	0.25
+	# Future Military 3
+	supply_limit = 0.01
 }
 
 technology = {
 	# Tech 99
-	year = 2320
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
-		feudalism = 0.5
-		renaissance = 0.5
-		new_world_i = 0.5
-		printing_press = 0.5
-		global_trade = 0.5
-		manufactories = 0.5
-		enlightenment = 1
-		imperialism = 1
-		industrialization = 1
-		nationalism_institution = 1
-		electrification = 1
-		globalization = 1
-		internet = 1
-	}
+	year = 2300
 
-	#Future Military 8
-	land_morale		=	0.5
+	# Future Military 4
+	supply_limit = 0.01
+	military_tactics = 0.025
+	land_morale = 0.02
+}
+
+technology = {
+	# Tech 100
+	year = 2350
+
+	# Future Military 5
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 101
+	year = 2400
+
+	# Future Military 6
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 102
+	year = 2450
+
+	# Future Military 7
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 103
+	year = 2500
+
+	# Future Military 8
+	supply_limit = 0.01
+	military_tactics = 0.025
+	land_morale = 0.02
+}
+
+technology = {
+	# Tech 104
+	year = 2550
+
+	# Future Military 9
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 105
+	year = 2600
+
+	# Future Military 10
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 106
+	year = 2650
+
+	# Future Military 11
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 107
+	year = 2700
+
+	# Future Military 12
+	supply_limit = 0.01
+	military_tactics = 0.025
+	land_morale = 0.02
+}
+
+technology = {
+	# Tech 108
+	year = 2750
+
+	# Future Military 13
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 109
+	year = 2800
+
+	# Future Military 14
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 110
+	year = 2850
+
+	# Future Military 15
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 111
+	year = 2900
+
+	# Future Military 16
+	supply_limit = 0.01
+	military_tactics = 0.025
+	land_morale = 0.02
+}
+
+technology = {
+	# Tech 112
+	year = 2950
+
+	# Future Military 17
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 113
+	year = 3000
+
+	# Future Military 18
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 114
+	year = 3050
+
+	# Future Military 19
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 115
+	year = 3100
+
+	# Future Military 20
+	supply_limit = 0.01
+	military_tactics = 0.025
+	land_morale = 0.02
+}
+
+technology = {
+	# Tech 116
+	year = 3150
+
+	# Future Military 21
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 117
+	year = 3200
+
+	# Future Military 22
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 118
+	year = 3250
+
+	# Future Military 23
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 119
+	year = 3300
+
+	# Future Military 24
+	supply_limit = 0.01
+	military_tactics = 0.025
+	land_morale = 0.02
+}
+
+technology = {
+	# Tech 120
+	year = 3350
+
+	# Future Military 25
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 121
+	year = 3400
+
+	# Future Military 26
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 122
+	year = 3450
+
+	# Future Military 27
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 123
+	year = 3500
+
+	# Future Military 28
+	supply_limit = 0.01
+	military_tactics = 0.025
+	land_morale = 0.02
+}
+
+technology = {
+	# Tech 124
+	year = 3550
+
+	# Future Military 29
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 125
+	year = 3600
+
+	# Future Military 30
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 126
+	year = 3650
+
+	# Future Military 31
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 127
+	year = 3700
+
+	# Future Military 32
+	supply_limit = 0.01
+	military_tactics = 0.025
+	land_morale = 0.02
+}
+
+technology = {
+	# Tech 128
+	year = 3750
+
+	# Future Military 33
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 129
+	year = 3800
+
+	# Future Military 34
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 130
+	year = 3850
+
+	# Future Military 35
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 131
+	year = 3900
+
+	# Future Military 36
+	supply_limit = 0.01
+	military_tactics = 0.025
+	land_morale = 0.02
+}
+
+technology = {
+	# Tech 132
+	year = 3950
+
+	# Future Military 37
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 133
+	year = 4000
+
+	# Future Military 38
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 134
+	year = 4050
+
+	# Future Military 39
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 135
+	year = 4100
+
+	# Future Military 40
+	supply_limit = 0.01
+	military_tactics = 0.025
+	land_morale = 0.02
+}
+
+technology = {
+	# Tech 136
+	year = 4150
+
+	# Future Military 41
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 137
+	year = 4200
+
+	# Future Military 42
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 138
+	year = 4250
+
+	# Future Military 43
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 139
+	year = 4300
+
+	# Future Military 44
+	supply_limit = 0.01
+	military_tactics = 0.025
+	land_morale = 0.02
+}
+
+technology = {
+	# Tech 140
+	year = 4350
+
+	# Future Military 45
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 141
+	year = 4400
+
+	# Future Military 46
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 142
+	year = 4450
+
+	# Future Military 47
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 143
+	year = 4500
+
+	# Future Military 48
+	supply_limit = 0.01
+	military_tactics = 0.025
+	land_morale = 0.02
+}
+
+technology = {
+	# Tech 144
+	year = 4550
+
+	# Future Military 49
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 145
+	year = 4600
+
+	# Future Military 50
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 146
+	year = 4650
+
+	# Future Military 51
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 147
+	year = 4700
+
+	# Future Military 52
+	supply_limit = 0.01
+	military_tactics = 0.025
+	land_morale = 0.02
+}
+
+technology = {
+	# Tech 148
+	year = 4750
+
+	# Future Military 53
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 149
+	year = 4800
+
+	# Future Military 54
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 150
+	year = 4850
+
+	# Future Military 55
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 151
+	year = 4900
+
+	# Future Military 56
+	supply_limit = 0.01
+	military_tactics = 0.025
+	land_morale = 0.02
+}
+
+technology = {
+	# Tech 152
+	year = 4950
+
+	# Future Military 57
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 153
+	year = 5000
+
+	# Future Military 58
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 154
+	year = 5050
+
+	# Future Military 59
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 155
+	year = 5100
+
+	# Future Military 60
+	supply_limit = 0.01
+	military_tactics = 0.025
+	land_morale = 0.02
+}
+
+technology = {
+	# Tech 156
+	year = 5150
+
+	# Future Military 61
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 157
+	year = 5200
+
+	# Future Military 62
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 158
+	year = 5250
+
+	# Future Military 63
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 159
+	year = 5300
+
+	# Future Military 64
+	supply_limit = 0.01
+	military_tactics = 0.025
+	land_morale = 0.02
+}
+
+technology = {
+	# Tech 160
+	year = 5350
+
+	# Future Military 65
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 161
+	year = 5400
+
+	# Future Military 66
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 162
+	year = 5450
+
+	# Future Military 67
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 163
+	year = 5500
+
+	# Future Military 68
+	supply_limit = 0.01
+	military_tactics = 0.025
+	land_morale = 0.02
+}
+
+technology = {
+	# Tech 164
+	year = 5550
+
+	# Future Military 69
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 165
+	year = 5600
+
+	# Future Military 70
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 166
+	year = 5650
+
+	# Future Military 71
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 167
+	year = 5700
+
+	# Future Military 72
+	supply_limit = 0.01
+	military_tactics = 0.025
+	land_morale = 0.02
+}
+
+technology = {
+	# Tech 168
+	year = 5750
+
+	# Future Military 73
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 169
+	year = 5800
+
+	# Future Military 74
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 170
+	year = 5850
+
+	# Future Military 75
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 171
+	year = 5900
+
+	# Future Military 76
+	supply_limit = 0.01
+	military_tactics = 0.025
+	land_morale = 0.02
+}
+
+technology = {
+	# Tech 172
+	year = 5950
+
+	# Future Military 77
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 173
+	year = 6000
+
+	# Future Military 78
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 174
+	year = 6050
+
+	# Future Military 79
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 175
+	year = 6100
+
+	# Future Military 80
+	supply_limit = 0.01
+	military_tactics = 0.025
+	land_morale = 0.02
+}
+
+technology = {
+	# Tech 176
+	year = 6150
+
+	# Future Military 81
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 177
+	year = 6200
+
+	# Future Military 82
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 178
+	year = 6250
+
+	# Future Military 83
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 179
+	year = 6300
+
+	# Future Military 84
+	supply_limit = 0.01
+	military_tactics = 0.025
+	land_morale = 0.02
+}
+
+technology = {
+	# Tech 180
+	year = 6350
+
+	# Future Military 85
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 181
+	year = 6400
+
+	# Future Military 86
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 182
+	year = 6450
+
+	# Future Military 87
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 183
+	year = 6500
+
+	# Future Military 88
+	supply_limit = 0.01
+	military_tactics = 0.025
+	land_morale = 0.02
+}
+
+technology = {
+	# Tech 184
+	year = 6550
+
+	# Future Military 89
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 185
+	year = 6600
+
+	# Future Military 90
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 186
+	year = 6650
+
+	# Future Military 91
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 187
+	year = 6700
+
+	# Future Military 92
+	supply_limit = 0.01
+	military_tactics = 0.025
+	land_morale = 0.02
+}
+
+technology = {
+	# Tech 188
+	year = 6750
+
+	# Future Military 93
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 189
+	year = 6800
+
+	# Future Military 94
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 190
+	year = 6850
+
+	# Future Military 95
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 191
+	year = 6900
+
+	# Future Military 96
+	supply_limit = 0.01
+	military_tactics = 0.025
+	land_morale = 0.02
+}
+
+technology = {
+	# Tech 192
+	year = 6950
+
+	# Future Military 97
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 193
+	year = 7000
+
+	# Future Military 98
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 194
+	year = 7050
+
+	# Future Military 99
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 195
+	year = 7100
+
+	# Future Military 100
+	supply_limit = 0.01
+	military_tactics = 0.025
+	land_morale = 0.02
+}
+
+technology = {
+	# Tech 196
+	year = 7150
+
+	# Future Military 101
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 197
+	year = 7200
+
+	# Future Military 102
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 198
+	year = 7250
+
+	# Future Military 103
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 199
+	year = 7300
+
+	# Future Military 104
+	supply_limit = 0.01
+	military_tactics = 0.025
+	land_morale = 0.02
+}
+
+technology = {
+	# Tech 200
+	year = 7350
+
+	# Future Military 105
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 201
+	year = 7400
+
+	# Future Military 106
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 202
+	year = 7450
+
+	# Future Military 107
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 203
+	year = 7500
+
+	# Future Military 108
+	supply_limit = 0.01
+	military_tactics = 0.025
+	land_morale = 0.02
+}
+
+technology = {
+	# Tech 204
+	year = 7550
+
+	# Future Military 109
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 205
+	year = 7600
+
+	# Future Military 110
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 206
+	year = 7650
+
+	# Future Military 111
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 207
+	year = 7700
+
+	# Future Military 112
+	supply_limit = 0.01
+	military_tactics = 0.025
+	land_morale = 0.02
+}
+
+technology = {
+	# Tech 208
+	year = 7750
+
+	# Future Military 113
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 209
+	year = 7800
+
+	# Future Military 114
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 210
+	year = 7850
+
+	# Future Military 115
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 211
+	year = 7900
+
+	# Future Military 116
+	supply_limit = 0.01
+	military_tactics = 0.025
+	land_morale = 0.02
+}
+
+technology = {
+	# Tech 212
+	year = 7950
+
+	# Future Military 117
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 213
+	year = 8000
+
+	# Future Military 118
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 214
+	year = 8050
+
+	# Future Military 119
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 215
+	year = 8100
+
+	# Future Military 120
+	supply_limit = 0.01
+	military_tactics = 0.025
+	land_morale = 0.02
+}
+
+technology = {
+	# Tech 216
+	year = 8150
+
+	# Future Military 121
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 217
+	year = 8200
+
+	# Future Military 122
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 218
+	year = 8250
+
+	# Future Military 123
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 219
+	year = 8300
+
+	# Future Military 124
+	supply_limit = 0.01
+	military_tactics = 0.025
+	land_morale = 0.02
+}
+
+technology = {
+	# Tech 220
+	year = 8350
+
+	# Future Military 125
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 221
+	year = 8400
+
+	# Future Military 126
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 222
+	year = 8450
+
+	# Future Military 127
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 223
+	year = 8500
+
+	# Future Military 128
+	supply_limit = 0.01
+	military_tactics = 0.025
+	land_morale = 0.02
+}
+
+technology = {
+	# Tech 224
+	year = 8550
+
+	# Future Military 129
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 225
+	year = 8600
+
+	# Future Military 130
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 226
+	year = 8650
+
+	# Future Military 131
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 227
+	year = 8700
+
+	# Future Military 132
+	supply_limit = 0.01
+	military_tactics = 0.025
+	land_morale = 0.02
+}
+
+technology = {
+	# Tech 228
+	year = 8750
+
+	# Future Military 133
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 229
+	year = 8800
+
+	# Future Military 134
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 230
+	year = 8850
+
+	# Future Military 135
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 231
+	year = 8900
+
+	# Future Military 136
+	supply_limit = 0.01
+	military_tactics = 0.025
+	land_morale = 0.02
+}
+
+technology = {
+	# Tech 232
+	year = 8950
+
+	# Future Military 137
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 233
+	year = 9000
+
+	# Future Military 138
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 234
+	year = 9050
+
+	# Future Military 139
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 235
+	year = 9100
+
+	# Future Military 140
+	supply_limit = 0.01
+	military_tactics = 0.025
+	land_morale = 0.02
+}
+
+technology = {
+	# Tech 236
+	year = 9150
+
+	# Future Military 141
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 237
+	year = 9200
+
+	# Future Military 142
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 238
+	year = 9250
+
+	# Future Military 143
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 239
+	year = 9300
+
+	# Future Military 144
+	supply_limit = 0.01
+	military_tactics = 0.025
+	land_morale = 0.02
+}
+
+technology = {
+	# Tech 240
+	year = 9350
+
+	# Future Military 145
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 241
+	year = 9400
+
+	# Future Military 146
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 242
+	year = 9450
+
+	# Future Military 147
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 243
+	year = 9500
+
+	# Future Military 148
+	supply_limit = 0.01
+	military_tactics = 0.025
+	land_morale = 0.02
+}
+
+technology = {
+	# Tech 244
+	year = 9550
+
+	# Future Military 149
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 245
+	year = 9600
+
+	# Future Military 150
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 246
+	year = 9650
+
+	# Future Military 151
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 247
+	year = 9700
+
+	# Future Military 152
+	supply_limit = 0.01
+	military_tactics = 0.025
+	land_morale = 0.02
+}
+
+technology = {
+	# Tech 248
+	year = 9750
+
+	# Future Military 153
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 249
+	year = 9800
+
+	# Future Military 154
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 250
+	year = 9850
+
+	# Future Military 155
+	supply_limit = 0.01
+}
+
+technology = {
+	# Tech 251
+	year = 9900
+
+	# Future Military 156
+	supply_limit = 0.01
+	military_tactics = 0.025
+	land_morale = 0.02
+}
+
+technology = {
+	# Tech 252
+	year = 9950
+
+	# Future Military 157
+	supply_limit = 0.01
 }

@@ -1731,7 +1731,7 @@ technology = {
 
 technology = {
 	# Tech 78
-	year = 1848
+	year = 1850
 	
 	expects_institution = {
 		writing = 0.5
@@ -1764,7 +1764,7 @@ technology = {
 
 technology = {
 	# Tech 79
-	year = 1855
+	year = 1870
 	
 	expects_institution = {
 		writing = 0.5
@@ -1798,7 +1798,7 @@ technology = {
 
 technology = {
 	# Tech 80
-	year = 1867
+	year = 1890
 	
 	expects_institution = {
 		writing = 0.5
@@ -1832,7 +1832,7 @@ technology = {
 
 technology = {
 	# Tech 81
-	year = 1885
+	year = 1910
 	
 	expects_institution = {
 		writing = 0.5
@@ -1867,7 +1867,7 @@ technology = {
 
 technology = {
 	# Tech 82
-	year = 1897
+	year = 1930
 	
 	expects_institution = {
 		writing = 0.5
@@ -1898,11 +1898,12 @@ technology = {
 	#Assembly Line
 	production_efficiency 	=	0.02
 	development_efficiency = 0.1	
+	coal_plant = yes
 }
 
 technology = {
 	# Tech 83
-	year = 1915
+	year = 1945
 	
 	expects_institution = {
 		writing = 0.5
@@ -1937,7 +1938,7 @@ technology = {
 
 technology = {
 	# Tech 84
-	year = 1930
+	year = 1960
 	
 	expects_institution = {
 		writing = 0.5
@@ -1968,11 +1969,12 @@ technology = {
 
 	#Fascism
 	administrative_efficiency = 0.1
+	nuclear_plant = yes
 }
 
 technology = {
 	# Tech 85
-	year = 1936
+	year = 1975
 	
 	expects_institution = {
 		writing = 0.5
@@ -2002,13 +2004,12 @@ technology = {
 	}
 
 	#Electrification
-	coal_plant = yes
 	production_efficiency 	=	0.02
 }
 
 technology = {
 	# Tech 86
-	year = 1940
+	year = 1990
 	
 	expects_institution = {
 		writing = 0.5
@@ -2043,7 +2044,7 @@ technology = {
 
 technology = {
 	# Tech 87
-	year = 1946
+	year = 2005
 	
 	expects_institution = {
 		writing = 0.5
@@ -2074,12 +2075,11 @@ technology = {
 
 	#Nuclear Power
 	governing_capacity = 200
-	nuclear_plant = yes
 }
 
 technology = {
 	# Tech 88
-	year = 1960
+	year = 2020
 	
 	expects_institution = {
 		writing = 0.5
@@ -2115,7 +2115,7 @@ technology = {
 
 technology = {
 	# Tech 89
-	year = 1980
+	year = 2035
 	
 	expects_institution = {
 		writing = 0.5
@@ -2152,7 +2152,7 @@ technology = {
 
 technology = {
 	# Tech 90
-	year = 1995
+	year = 2050
 	
 	expects_institution = {
 		writing = 0.5
@@ -2189,7 +2189,7 @@ technology = {
 
 technology = {
 	# Tech 91
-	year = 2025
+	year = 2065
 	
 	expects_institution = {
 		writing = 0.5
@@ -2226,7 +2226,7 @@ technology = {
 
 technology = {
 	# Tech 92
-	year = 2040
+	year = 2080
 	
 	expects_institution = {
 		writing = 0.5
@@ -2263,7 +2263,7 @@ technology = {
 
 technology = {
 	# Tech 93
-	year = 2080
+	year = 2090
 	
 	expects_institution = {
 		writing = 0.5
@@ -2300,7 +2300,7 @@ technology = {
 
 technology = {
 	# Tech 94
-	year = 2120
+	year = 2100
 	
 	expects_institution = {
 		writing = 0.5
@@ -2336,186 +2336,1297 @@ technology = {
 }
 
 technology = {
-	# Tech 95
-	year = 2160
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
-		feudalism = 0.5
-		renaissance = 0.5
-		new_world_i = 0.5
-		printing_press = 0.5
-		global_trade = 0.5
-		manufactories = 0.5
-		enlightenment = 1
-		imperialism = 1
-		industrialization = 1
-		nationalism_institution = 1
-		electrification = 1
-		globalization = 1
-		internet = 1
-	}
-
-	#Future Administration 2
-	governing_capacity = 200
-}
-
-technology = {
 	# Tech 96
-	year = 2200
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
-		feudalism = 0.5
-		renaissance = 0.5
-		new_world_i = 0.5
-		printing_press = 0.5
-		global_trade = 0.5
-		manufactories = 0.5
-		enlightenment = 1
-		imperialism = 1
-		industrialization = 1
-		nationalism_institution = 1
-		electrification = 1
-		globalization = 1
-		internet = 1
-	}
+	year = 2150
 
-	#Future Administration 3
-	development_efficiency = 0.1	
+	# Future Administration 1
+	governing_capacity = 25
 }
 
 technology = {
 	# Tech 97
-	year = 2240
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
-		feudalism = 0.5
-		renaissance = 0.5
-		new_world_i = 0.5
-		printing_press = 0.5
-		global_trade = 0.5
-		manufactories = 0.5
-		enlightenment = 1
-		imperialism = 1
-		industrialization = 1
-		nationalism_institution = 1
-		electrification = 1
-		globalization = 1
-		internet = 1
-	}
+	year = 2200
 
-	#Future Administration 4
-	governing_capacity = 200
+	# Future Administration 2
+	governing_capacity = 25
 }
 
 technology = {
 	# Tech 98
-	year = 2280
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
-		feudalism = 0.5
-		renaissance = 0.5
-		new_world_i = 0.5
-		printing_press = 0.5
-		global_trade = 0.5
-		manufactories = 0.5
-		enlightenment = 1
-		imperialism = 1
-		industrialization = 1
-		nationalism_institution = 1
-		electrification = 1
-		globalization = 1
-		internet = 1
-	}
+	year = 2250
 
-	#Future Administration 5
-	production_efficiency 	=	0.02
+	# Future Administration 3
+	governing_capacity = 25
 }
 
 technology = {
 	# Tech 99
-	year = 2320
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
-		feudalism = 0.5
-		renaissance = 0.5
-		new_world_i = 0.5
-		printing_press = 0.5
-		global_trade = 0.5
-		manufactories = 0.5
-		enlightenment = 1
-		imperialism = 1
-		industrialization = 1
-		nationalism_institution = 1
-		electrification = 1
-		globalization = 1
-		internet = 1
-	}
+	year = 2300
 
-	#Future Administration 6
-	governing_capacity = 200
+	# Future Administration 4
+	governing_capacity = 25
+	production_efficiency = 0.01
 }
+
+technology = {
+	# Tech 100
+	year = 2350
+
+	# Future Administration 5
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 101
+	year = 2400
+
+	# Future Administration 6
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 102
+	year = 2450
+
+	# Future Administration 7
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 103
+	year = 2500
+
+	# Future Administration 8
+	governing_capacity = 25
+	production_efficiency = 0.01
+}
+
+technology = {
+	# Tech 104
+	year = 2550
+
+	# Future Administration 9
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 105
+	year = 2600
+
+	# Future Administration 10
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 106
+	year = 2650
+
+	# Future Administration 11
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 107
+	year = 2700
+
+	# Future Administration 12
+	governing_capacity = 25
+	production_efficiency = 0.01
+}
+
+technology = {
+	# Tech 108
+	year = 2750
+
+	# Future Administration 13
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 109
+	year = 2800
+
+	# Future Administration 14
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 110
+	year = 2850
+
+	# Future Administration 15
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 111
+	year = 2900
+
+	# Future Administration 16
+	governing_capacity = 25
+	production_efficiency = 0.01
+}
+
+technology = {
+	# Tech 112
+	year = 2950
+
+	# Future Administration 17
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 113
+	year = 3000
+
+	# Future Administration 18
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 114
+	year = 3050
+
+	# Future Administration 19
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 115
+	year = 3100
+
+	# Future Administration 20
+	governing_capacity = 25
+	production_efficiency = 0.01
+}
+
+technology = {
+	# Tech 116
+	year = 3150
+
+	# Future Administration 21
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 117
+	year = 3200
+
+	# Future Administration 22
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 118
+	year = 3250
+
+	# Future Administration 23
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 119
+	year = 3300
+
+	# Future Administration 24
+	governing_capacity = 25
+	production_efficiency = 0.01
+}
+
+technology = {
+	# Tech 120
+	year = 3350
+
+	# Future Administration 25
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 121
+	year = 3400
+
+	# Future Administration 26
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 122
+	year = 3450
+
+	# Future Administration 27
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 123
+	year = 3500
+
+	# Future Administration 28
+	governing_capacity = 25
+	production_efficiency = 0.01
+}
+
+technology = {
+	# Tech 124
+	year = 3550
+
+	# Future Administration 29
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 125
+	year = 3600
+
+	# Future Administration 30
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 126
+	year = 3650
+
+	# Future Administration 31
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 127
+	year = 3700
+
+	# Future Administration 32
+	governing_capacity = 25
+	production_efficiency = 0.01
+}
+
+technology = {
+	# Tech 128
+	year = 3750
+
+	# Future Administration 33
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 129
+	year = 3800
+
+	# Future Administration 34
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 130
+	year = 3850
+
+	# Future Administration 35
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 131
+	year = 3900
+
+	# Future Administration 36
+	governing_capacity = 25
+	production_efficiency = 0.01
+}
+
+technology = {
+	# Tech 132
+	year = 3950
+
+	# Future Administration 37
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 133
+	year = 4000
+
+	# Future Administration 38
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 134
+	year = 4050
+
+	# Future Administration 39
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 135
+	year = 4100
+
+	# Future Administration 40
+	governing_capacity = 25
+	production_efficiency = 0.01
+}
+
+technology = {
+	# Tech 136
+	year = 4150
+
+	# Future Administration 41
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 137
+	year = 4200
+
+	# Future Administration 42
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 138
+	year = 4250
+
+	# Future Administration 43
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 139
+	year = 4300
+
+	# Future Administration 44
+	governing_capacity = 25
+	production_efficiency = 0.01
+}
+
+technology = {
+	# Tech 140
+	year = 4350
+
+	# Future Administration 45
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 141
+	year = 4400
+
+	# Future Administration 46
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 142
+	year = 4450
+
+	# Future Administration 47
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 143
+	year = 4500
+
+	# Future Administration 48
+	governing_capacity = 25
+	production_efficiency = 0.01
+}
+
+technology = {
+	# Tech 144
+	year = 4550
+
+	# Future Administration 49
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 145
+	year = 4600
+
+	# Future Administration 50
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 146
+	year = 4650
+
+	# Future Administration 51
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 147
+	year = 4700
+
+	# Future Administration 52
+	governing_capacity = 25
+	production_efficiency = 0.01
+}
+
+technology = {
+	# Tech 148
+	year = 4750
+
+	# Future Administration 53
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 149
+	year = 4800
+
+	# Future Administration 54
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 150
+	year = 4850
+
+	# Future Administration 55
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 151
+	year = 4900
+
+	# Future Administration 56
+	governing_capacity = 25
+	production_efficiency = 0.01
+}
+
+technology = {
+	# Tech 152
+	year = 4950
+
+	# Future Administration 57
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 153
+	year = 5000
+
+	# Future Administration 58
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 154
+	year = 5050
+
+	# Future Administration 59
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 155
+	year = 5100
+
+	# Future Administration 60
+	governing_capacity = 25
+	production_efficiency = 0.01
+}
+
+technology = {
+	# Tech 156
+	year = 5150
+
+	# Future Administration 61
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 157
+	year = 5200
+
+	# Future Administration 62
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 158
+	year = 5250
+
+	# Future Administration 63
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 159
+	year = 5300
+
+	# Future Administration 64
+	governing_capacity = 25
+	production_efficiency = 0.01
+}
+
+technology = {
+	# Tech 160
+	year = 5350
+
+	# Future Administration 65
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 161
+	year = 5400
+
+	# Future Administration 66
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 162
+	year = 5450
+
+	# Future Administration 67
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 163
+	year = 5500
+
+	# Future Administration 68
+	governing_capacity = 25
+	production_efficiency = 0.01
+}
+
+technology = {
+	# Tech 164
+	year = 5550
+
+	# Future Administration 69
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 165
+	year = 5600
+
+	# Future Administration 70
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 166
+	year = 5650
+
+	# Future Administration 71
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 167
+	year = 5700
+
+	# Future Administration 72
+	governing_capacity = 25
+	production_efficiency = 0.01
+}
+
+technology = {
+	# Tech 168
+	year = 5750
+
+	# Future Administration 73
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 169
+	year = 5800
+
+	# Future Administration 74
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 170
+	year = 5850
+
+	# Future Administration 75
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 171
+	year = 5900
+
+	# Future Administration 76
+	governing_capacity = 25
+	production_efficiency = 0.01
+}
+
+technology = {
+	# Tech 172
+	year = 5950
+
+	# Future Administration 77
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 173
+	year = 6000
+
+	# Future Administration 78
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 174
+	year = 6050
+
+	# Future Administration 79
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 175
+	year = 6100
+
+	# Future Administration 80
+	governing_capacity = 25
+	production_efficiency = 0.01
+}
+
+technology = {
+	# Tech 176
+	year = 6150
+
+	# Future Administration 81
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 177
+	year = 6200
+
+	# Future Administration 82
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 178
+	year = 6250
+
+	# Future Administration 83
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 179
+	year = 6300
+
+	# Future Administration 84
+	governing_capacity = 25
+	production_efficiency = 0.01
+}
+
+technology = {
+	# Tech 180
+	year = 6350
+
+	# Future Administration 85
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 181
+	year = 6400
+
+	# Future Administration 86
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 182
+	year = 6450
+
+	# Future Administration 87
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 183
+	year = 6500
+
+	# Future Administration 88
+	governing_capacity = 25
+	production_efficiency = 0.01
+}
+
+technology = {
+	# Tech 184
+	year = 6550
+
+	# Future Administration 89
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 185
+	year = 6600
+
+	# Future Administration 90
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 186
+	year = 6650
+
+	# Future Administration 91
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 187
+	year = 6700
+
+	# Future Administration 92
+	governing_capacity = 25
+	production_efficiency = 0.01
+}
+
+technology = {
+	# Tech 188
+	year = 6750
+
+	# Future Administration 93
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 189
+	year = 6800
+
+	# Future Administration 94
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 190
+	year = 6850
+
+	# Future Administration 95
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 191
+	year = 6900
+
+	# Future Administration 96
+	governing_capacity = 25
+	production_efficiency = 0.01
+}
+
+technology = {
+	# Tech 192
+	year = 6950
+
+	# Future Administration 97
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 193
+	year = 7000
+
+	# Future Administration 98
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 194
+	year = 7050
+
+	# Future Administration 99
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 195
+	year = 7100
+
+	# Future Administration 100
+	governing_capacity = 25
+	production_efficiency = 0.01
+}
+
+technology = {
+	# Tech 196
+	year = 7150
+
+	# Future Administration 101
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 197
+	year = 7200
+
+	# Future Administration 102
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 198
+	year = 7250
+
+	# Future Administration 103
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 199
+	year = 7300
+
+	# Future Administration 104
+	governing_capacity = 25
+	production_efficiency = 0.01
+}
+
+technology = {
+	# Tech 200
+	year = 7350
+
+	# Future Administration 105
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 201
+	year = 7400
+
+	# Future Administration 106
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 202
+	year = 7450
+
+	# Future Administration 107
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 203
+	year = 7500
+
+	# Future Administration 108
+	governing_capacity = 25
+	production_efficiency = 0.01
+}
+
+technology = {
+	# Tech 204
+	year = 7550
+
+	# Future Administration 109
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 205
+	year = 7600
+
+	# Future Administration 110
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 206
+	year = 7650
+
+	# Future Administration 111
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 207
+	year = 7700
+
+	# Future Administration 112
+	governing_capacity = 25
+	production_efficiency = 0.01
+}
+
+technology = {
+	# Tech 208
+	year = 7750
+
+	# Future Administration 113
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 209
+	year = 7800
+
+	# Future Administration 114
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 210
+	year = 7850
+
+	# Future Administration 115
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 211
+	year = 7900
+
+	# Future Administration 116
+	governing_capacity = 25
+	production_efficiency = 0.01
+}
+
+technology = {
+	# Tech 212
+	year = 7950
+
+	# Future Administration 117
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 213
+	year = 8000
+
+	# Future Administration 118
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 214
+	year = 8050
+
+	# Future Administration 119
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 215
+	year = 8100
+
+	# Future Administration 120
+	governing_capacity = 25
+	production_efficiency = 0.01
+}
+
+technology = {
+	# Tech 216
+	year = 8150
+
+	# Future Administration 121
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 217
+	year = 8200
+
+	# Future Administration 122
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 218
+	year = 8250
+
+	# Future Administration 123
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 219
+	year = 8300
+
+	# Future Administration 124
+	governing_capacity = 25
+	production_efficiency = 0.01
+}
+
+technology = {
+	# Tech 220
+	year = 8350
+
+	# Future Administration 125
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 221
+	year = 8400
+
+	# Future Administration 126
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 222
+	year = 8450
+
+	# Future Administration 127
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 223
+	year = 8500
+
+	# Future Administration 128
+	governing_capacity = 25
+	production_efficiency = 0.01
+}
+
+technology = {
+	# Tech 224
+	year = 8550
+
+	# Future Administration 129
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 225
+	year = 8600
+
+	# Future Administration 130
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 226
+	year = 8650
+
+	# Future Administration 131
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 227
+	year = 8700
+
+	# Future Administration 132
+	governing_capacity = 25
+	production_efficiency = 0.01
+}
+
+technology = {
+	# Tech 228
+	year = 8750
+
+	# Future Administration 133
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 229
+	year = 8800
+
+	# Future Administration 134
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 230
+	year = 8850
+
+	# Future Administration 135
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 231
+	year = 8900
+
+	# Future Administration 136
+	governing_capacity = 25
+	production_efficiency = 0.01
+}
+
+technology = {
+	# Tech 232
+	year = 8950
+
+	# Future Administration 137
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 233
+	year = 9000
+
+	# Future Administration 138
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 234
+	year = 9050
+
+	# Future Administration 139
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 235
+	year = 9100
+
+	# Future Administration 140
+	governing_capacity = 25
+	production_efficiency = 0.01
+}
+
+technology = {
+	# Tech 236
+	year = 9150
+
+	# Future Administration 141
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 237
+	year = 9200
+
+	# Future Administration 142
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 238
+	year = 9250
+
+	# Future Administration 143
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 239
+	year = 9300
+
+	# Future Administration 144
+	governing_capacity = 25
+	production_efficiency = 0.01
+}
+
+technology = {
+	# Tech 240
+	year = 9350
+
+	# Future Administration 145
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 241
+	year = 9400
+
+	# Future Administration 146
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 242
+	year = 9450
+
+	# Future Administration 147
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 243
+	year = 9500
+
+	# Future Administration 148
+	governing_capacity = 25
+	production_efficiency = 0.01
+}
+
+technology = {
+	# Tech 244
+	year = 9550
+
+	# Future Administration 149
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 245
+	year = 9600
+
+	# Future Administration 150
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 246
+	year = 9650
+
+	# Future Administration 151
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 247
+	year = 9700
+
+	# Future Administration 152
+	governing_capacity = 25
+	production_efficiency = 0.01
+}
+
+technology = {
+	# Tech 248
+	year = 9750
+
+	# Future Administration 153
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 249
+	year = 9800
+
+	# Future Administration 154
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 250
+	year = 9850
+
+	# Future Administration 155
+	governing_capacity = 25
+}
+
+technology = {
+	# Tech 251
+	year = 9900
+
+	# Future Administration 156
+	governing_capacity = 25
+	production_efficiency = 0.01
+}
+
+technology = {
+	# Tech 252
+	year = 9950
+
+	# Future Administration 157
+	governing_capacity = 25
+}
+

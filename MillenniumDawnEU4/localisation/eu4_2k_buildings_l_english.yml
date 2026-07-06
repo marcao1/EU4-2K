@@ -1,0 +1,9 @@
+l_english:
+ modern_fortification:0 "Modern Fortification"
+ modern_fortification_desc:0 "Reinforced concrete, dispersed positions and modern artillery protection extend the life of permanent fortifications in industrial warfare."
+ hardened_bunker:0 "Hardened Bunker Complex"
+ hardened_bunker_desc:0 "Deep shelters, protected command posts and prepared fields of fire allow defenders to survive sustained modern bombardment."
+ integrated_defence_network:0 "Integrated Defence Network"
+ integrated_defence_network_desc:0 "Sensors, hardened communications and layered defensive positions coordinate the defence of an entire strategic region."
+ orbital_defence_complex:0 "Orbital Defence Complex"
+ orbital_defence_complex_desc:0 "Planetary sensors and space-based support systems protect critical positions against mature space-age weapons."

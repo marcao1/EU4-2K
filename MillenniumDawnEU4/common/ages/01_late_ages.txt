@@ -381,7 +381,7 @@ information_age = {
 	start = 1980
 	
 	can_start = {
-		any_country = { adm_tech = 89 }
+		any_country = { adm_tech = 86 }
 	}
 	
 	papacy = 2.0
