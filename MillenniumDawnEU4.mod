@@ -1,5 +1,5 @@
 name="EU4 2K"
-version="1.3.0-modern-navies"
+version="1.4.0-modern-governments"
 supported_version="v1.37.*"
 tags={
 	"Expansion"

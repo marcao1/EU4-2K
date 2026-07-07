@@ -3,6 +3,7 @@
 # country
 on_startup = {
 	et_setup_effect = yes
+	eu4_2k_normalize_modern_government = yes
 	country_event = { id = dynasties.54 }
 	if = {
 		limit = {
