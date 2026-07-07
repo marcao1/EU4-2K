@@ -1,5 +1,5 @@
 name="EU4 2K"
-version="1.4.0-modern-governments"
+version="1.4.1-et-governments"
 supported_version="v1.37.*"
 tags={
 	"Expansion"

@@ -3,8 +3,6 @@ monarchy = {
 	reform_levels = {
 		feudalism_vs_autocracy = {
 			reforms = {
-				eu4_2k_parliamentary_monarchy_reform
-				eu4_2k_absolute_monarchy_reform
 				feudalism_reform
 				autocracy_reform
 				elective_monarchy_reform
@@ -664,10 +662,6 @@ republic = {
 	reform_levels = {
 		oligarchy_merchant_class_noble_elite = {
 			reforms = {
-				eu4_2k_parliamentary_republic_reform
-				eu4_2k_presidential_republic_reform
-				eu4_2k_authoritarian_republic_reform
-				eu4_2k_socialist_state_reform
 				oligarchy_reform
 				signoria_reform
 				merchants_reform
