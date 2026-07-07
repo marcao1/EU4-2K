@@ -47,6 +47,8 @@ def effects(branch: str, level: int) -> list[str]:
         return result
     if branch == "dip":
         result = ["trade_efficiency = 0.005"]
+        if level == 96:
+            result.append("quantum_logistics_network = yes")
         if cycle % 4 == 0:
             result.append("trade_range = 10")
         return result

@@ -1,0 +1,51 @@
+spriteTypes = {
+	# Modern fortification: reuse base-game fort tier 5 art.
+	spriteType = { name = "GFX_modern_fortification" texturefile = "gfx/interface/buildings/latin_fort05.tga" loadType = "INGAME" }
+	spriteType = { name = "GFX_modern_fortification_easterngfx" texturefile = "gfx/interface/buildings/eastern_fort05.tga" loadType = "INGAME" }
+	spriteType = { name = "GFX_modern_fortification_asiangfx" texturefile = "gfx/interface/buildings/chinese_fort05.tga" loadType = "INGAME" }
+	spriteType = { name = "GFX_modern_fortification_africangfx" texturefile = "gfx/interface/buildings/african_fort05.tga" loadType = "INGAME" }
+	spriteType = { name = "GFX_modern_fortification_indiangfx" texturefile = "gfx/interface/buildings/indian_fort05.tga" loadType = "INGAME" }
+	spriteType = { name = "GFX_modern_fortification_muslimgfx" texturefile = "gfx/interface/buildings/muslim_fort05.tga" loadType = "INGAME" }
+	spriteType = { name = "GFX_modern_fortification_northamericagfx" texturefile = "gfx/interface/buildings/northamerica_fort05.tga" loadType = "INGAME" }
+	spriteType = { name = "GFX_modern_fortification_southamericagfx" texturefile = "gfx/interface/buildings/southamerica_fort05.tga" loadType = "INGAME" }
+
+	# Hardened bunkers: reuse base-game fort tier 6 art.
+	spriteType = { name = "GFX_hardened_bunker" texturefile = "gfx/interface/buildings/latin_fort06.dds" loadType = "INGAME" }
+	spriteType = { name = "GFX_hardened_bunker_easterngfx" texturefile = "gfx/interface/buildings/eastern_fort06.dds" loadType = "INGAME" }
+	spriteType = { name = "GFX_hardened_bunker_asiangfx" texturefile = "gfx/interface/buildings/chinese_fort06.dds" loadType = "INGAME" }
+	spriteType = { name = "GFX_hardened_bunker_africangfx" texturefile = "gfx/interface/buildings/african_fort06.dds" loadType = "INGAME" }
+	spriteType = { name = "GFX_hardened_bunker_indiangfx" texturefile = "gfx/interface/buildings/indian_fort06.dds" loadType = "INGAME" }
+	spriteType = { name = "GFX_hardened_bunker_muslimgfx" texturefile = "gfx/interface/buildings/muslim_fort06.dds" loadType = "INGAME" }
+	spriteType = { name = "GFX_hardened_bunker_northamericagfx" texturefile = "gfx/interface/buildings/northamerica_fort06.dds" loadType = "INGAME" }
+	spriteType = { name = "GFX_hardened_bunker_southamericagfx" texturefile = "gfx/interface/buildings/southamerica_fort06.dds" loadType = "INGAME" }
+
+	# Integrated defence: reuse base-game fort tier 7 art.
+	spriteType = { name = "GFX_integrated_defence_network" texturefile = "gfx/interface/buildings/latin_fort07.dds" loadType = "INGAME" }
+	spriteType = { name = "GFX_integrated_defence_network_easterngfx" texturefile = "gfx/interface/buildings/eastern_fort07.dds" loadType = "INGAME" }
+	spriteType = { name = "GFX_integrated_defence_network_asiangfx" texturefile = "gfx/interface/buildings/chinese_fort07.dds" loadType = "INGAME" }
+	spriteType = { name = "GFX_integrated_defence_network_africangfx" texturefile = "gfx/interface/buildings/african_fort07.dds" loadType = "INGAME" }
+	spriteType = { name = "GFX_integrated_defence_network_indiangfx" texturefile = "gfx/interface/buildings/indian_fort07.dds" loadType = "INGAME" }
+	spriteType = { name = "GFX_integrated_defence_network_muslimgfx" texturefile = "gfx/interface/buildings/muslim_fort07.dds" loadType = "INGAME" }
+	spriteType = { name = "GFX_integrated_defence_network_northamericagfx" texturefile = "gfx/interface/buildings/northamerica_fort07.dds" loadType = "INGAME" }
+	spriteType = { name = "GFX_integrated_defence_network_southamericagfx" texturefile = "gfx/interface/buildings/southamerica_fort07.dds" loadType = "INGAME" }
+
+	# Orbital defence: reuse ET's futuristic fusion-reactor artwork.
+	spriteType = { name = "GFX_orbital_defence_complex" texturefile = "gfx/interface/buildings/fusion_reactor.tga" loadType = "INGAME" }
+	spriteType = { name = "GFX_orbital_defence_complex_easterngfx" texturefile = "gfx/interface/buildings/fusion_reactor.tga" loadType = "INGAME" }
+	spriteType = { name = "GFX_orbital_defence_complex_asiangfx" texturefile = "gfx/interface/buildings/fusion_reactor.tga" loadType = "INGAME" }
+	spriteType = { name = "GFX_orbital_defence_complex_africangfx" texturefile = "gfx/interface/buildings/fusion_reactor.tga" loadType = "INGAME" }
+	spriteType = { name = "GFX_orbital_defence_complex_indiangfx" texturefile = "gfx/interface/buildings/fusion_reactor.tga" loadType = "INGAME" }
+	spriteType = { name = "GFX_orbital_defence_complex_muslimgfx" texturefile = "gfx/interface/buildings/fusion_reactor.tga" loadType = "INGAME" }
+	spriteType = { name = "GFX_orbital_defence_complex_northamericagfx" texturefile = "gfx/interface/buildings/fusion_reactor.tga" loadType = "INGAME" }
+	spriteType = { name = "GFX_orbital_defence_complex_southamericagfx" texturefile = "gfx/interface/buildings/fusion_reactor.tga" loadType = "INGAME" }
+
+	# Future transport tiers reuse ET infrastructure artwork.
+	spriteType = { name = "GFX_quantum_logistics_network" texturefile = "gfx/interface/buildings/central_station.tga" loadType = "INGAME" }
+	spriteType = { name = "GFX_quantum_logistics_network_easterngfx" texturefile = "gfx/interface/buildings/central_station.tga" loadType = "INGAME" }
+	spriteType = { name = "GFX_quantum_logistics_network_asiangfx" texturefile = "gfx/interface/buildings/central_station.tga" loadType = "INGAME" }
+	spriteType = { name = "GFX_quantum_logistics_network_africangfx" texturefile = "gfx/interface/buildings/central_station.tga" loadType = "INGAME" }
+	spriteType = { name = "GFX_quantum_logistics_network_indiangfx" texturefile = "gfx/interface/buildings/central_station.tga" loadType = "INGAME" }
+	spriteType = { name = "GFX_quantum_logistics_network_muslimgfx" texturefile = "gfx/interface/buildings/central_station.tga" loadType = "INGAME" }
+	spriteType = { name = "GFX_quantum_logistics_network_northamericagfx" texturefile = "gfx/interface/buildings/central_station.tga" loadType = "INGAME" }
+	spriteType = { name = "GFX_quantum_logistics_network_southamericagfx" texturefile = "gfx/interface/buildings/central_station.tga" loadType = "INGAME" }
+}

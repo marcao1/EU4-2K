@@ -1,5 +1,5 @@
 name="EU4 2K"
-version="0.9.1-fort-ui"
+version="1.0.1-no-planetary-transit"
 supported_version="v1.37.*"
 tags={
 	"Expansion"

@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
  modern_fortification:0 "Modern Fortification"
  modern_fortification_desc:0 "Reinforced concrete, dispersed positions and modern artillery protection extend the life of permanent fortifications in industrial warfare."
  hardened_bunker:0 "Hardened Bunker Complex"
@@ -7,3 +7,15 @@ l_english:
  integrated_defence_network_desc:0 "Sensors, hardened communications and layered defensive positions coordinate the defence of an entire strategic region."
  orbital_defence_complex:0 "Orbital Defence Complex"
  orbital_defence_complex_desc:0 "Planetary sensors and space-based support systems protect critical positions against mature space-age weapons."
+ building_modern_fortification:0 "Modern Fortification"
+ building_modern_fortification_desc:0 "Reinforced concrete, dispersed positions and modern artillery protection extend the life of permanent fortifications in industrial warfare."
+ building_hardened_bunker:0 "Hardened Bunker Complex"
+ building_hardened_bunker_desc:0 "Deep shelters, protected command posts and prepared fields of fire allow defenders to survive sustained modern bombardment."
+ building_integrated_defence_network:0 "Integrated Defence Network"
+ building_integrated_defence_network_desc:0 "Sensors, hardened communications and layered defensive positions coordinate the defence of an entire strategic region."
+ building_orbital_defence_complex:0 "Orbital Defence Complex"
+ building_orbital_defence_complex_desc:0 "Planetary sensors and space-based support systems protect critical positions against mature space-age weapons."
+ quantum_logistics_network:0 "Quantum Logistics Network"
+ quantum_logistics_network_desc:0 "Predictive computation and near-instant coordination connect production, storage and transport into one responsive network."
+ building_quantum_logistics_network:0 "Quantum Logistics Network"
+ building_quantum_logistics_network_desc:0 "Predictive computation and near-instant coordination connect production, storage and transport into one responsive network."

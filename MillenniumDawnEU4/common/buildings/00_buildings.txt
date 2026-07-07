@@ -2604,7 +2604,7 @@ road = {
 }
 
 highway = {
-	cost = 120
+	cost = 150
 	time = 12
 
 	make_obsolete = road
@@ -2634,13 +2634,15 @@ highway = {
 }
 
 railroad = {
-	cost = 100
-	time = 12
+	cost = 300
+	time = 18
+
+	make_obsolete = highway
 
 	modifier = {
-		local_friendly_movement_speed = 0.4
+		local_friendly_movement_speed = 0.25
 		province_trade_power_modifier = 0.1
-		local_institution_spread = 0.3
+		local_institution_spread = 0.15
 		allowed_num_of_buildings = 1
 	}
 	on_built = {
@@ -2663,14 +2665,14 @@ railroad = {
 	ai_will_do = {
 		#Tricks the AI into thinking this building makes money, so it will build this
 		#100.3%, AI Should only build this if nothing else makes money
-		factor = 100.3
+		factor = 40
 
 		modifier = {
 			#AI Wont build this if they losing money or are low on money
 			factor = -1000
 			NOT = {
 				OR = {
-					treasury = 120 # Does AI have Railroad cost + 20?
+					treasury = 360 # Railroad cost plus a safety reserve
 					monthly_income = 0 #If AI is making no money, do not build this
 				}
 			}
@@ -2679,25 +2681,30 @@ railroad = {
 }
 
 mass_transit_system = {
-	cost = 200
-	time = 18
+	cost = 600
+	time = 24
+
+	make_obsolete = railroad
 
 	modifier = {
-		local_tax_modifier = 0.4
-		local_friendly_movement_speed = 0.10
+		local_tax_modifier = 0.20
+		province_trade_power_modifier = 0.10
+		local_friendly_movement_speed = 0.30
+		local_institution_spread = 0.20
+		allowed_num_of_buildings = 1
 	}
 	on_built = {
 		add_development_from_building = {
 			building = mass_transit_system
 			type = tax
-			value = 2
+			value = 1
 		}
 	}
 	on_destroyed = {
 		remove_development_from_building = {
 			building = mass_transit_system
 			type = tax
-			value = 2
+			value = 1
 		}
 	}
 	on_obsolete = {
@@ -2708,6 +2715,40 @@ mass_transit_system = {
 		#The AI Should be building this natrually
 		factor = 1
 	} 
+}
+
+quantum_logistics_network = {
+	cost = 1200
+	time = 36
+	make_obsolete = mass_transit_system
+
+	modifier = {
+		local_tax_modifier = 0.25
+		province_trade_power_modifier = 0.20
+		local_friendly_movement_speed = 0.40
+		local_institution_spread = 0.25
+		allowed_num_of_buildings = 1
+	}
+
+	on_built = {
+		add_development_from_building = {
+			building = quantum_logistics_network
+			type = production
+			value = 1
+		}
+	}
+	on_destroyed = {
+		remove_development_from_building = {
+			building = quantum_logistics_network
+			type = production
+			value = 1
+		}
+	}
+	on_obsolete = { }
+
+	ai_will_do = {
+		factor = 1.25
+	}
 }
 
 ################################################

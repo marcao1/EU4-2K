@@ -49,6 +49,10 @@ slots for Fort 18th followed by the four modern tiers. Earlier fort tiers remain
 valid in history but are intentionally omitted from construction menus because
 the campaign cannot start before 1836.
 
+Modern Fortification, Hardened Bunker and Integrated Defence Network reuse the
+base game's graphical-culture-specific fort tiers 5, 6 and 7. Orbital Defence
+Complex reuses ET's fusion-reactor artwork as a temporary futuristic icon.
+
 ## Industrial and energy balance
 
 The factory and energy chain previously granted excessive development and local
@@ -56,3 +60,24 @@ economic multipliers. Costs, construction time and bonuses now rise more
 gradually. Factory development gain was reduced from 4 to 3; coal from 2 to 1;
 nuclear from 4 to 2; and fusion from 6 to 3. Coal, nuclear and fusion remain a
 separate energy chain, while factories remain the main production upgrade.
+
+## Transportation and future infrastructure
+
+Transportation now follows one non-stacking upgrade chain:
+
+1. Highway (1820; retained internally as the predecessor).
+2. Railroad (1835; 300 ducats).
+3. Mass Transit System (1960; 600 ducats).
+4. Quantum Logistics Network (2150; 1,200 ducats).
+
+Each tier makes the preceding tier obsolete and grants one building slot, so
+transport infrastructure consumes a single net slot and cannot accumulate all
+movement and economic bonuses. The 1836 construction interfaces display
+Railroad and the two later relevant upgrades.
+
+The future transport unlock is generated at Diplomatic level 96, ensuring
+regeneration does not remove it.
+
+AI factors and reserve thresholds were reduced for railroads and kept moderate
+for later infrastructure. Fort construction remains primarily controlled by
+EU4's hard-coded strategic fort AI, with high costs limiting excessive density.

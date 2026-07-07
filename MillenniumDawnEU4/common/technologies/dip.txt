@@ -2451,6 +2451,7 @@ technology = {
 
 	# Future Diplomacy 1
 	trade_efficiency = 0.005
+	quantum_logistics_network = yes
 }
 
 technology = {

@@ -4384,3 +4384,4 @@ technology = {
 	# Future Military 157
 	supply_limit = 0.01
 }
+
