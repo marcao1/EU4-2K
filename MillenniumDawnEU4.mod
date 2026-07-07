@@ -1,5 +1,5 @@
 name="EU4 2K"
-version="1.2.1-economy-integration"
+version="1.3.0-modern-navies"
 supported_version="v1.37.*"
 tags={
 	"Expansion"

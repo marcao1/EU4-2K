@@ -2219,6 +2219,10 @@ technology = {
 	trade_efficiency 	= 0.02
 	trade_range		= 20
 	range			= 200
+	enable = guided_missile_cruiser
+	enable = modern_frigate
+	enable = littoral_combat_ship
+	enable = amphibious_assault_ship
 }
 
 technology = {
@@ -2443,6 +2447,10 @@ technology = {
 	#Space Colonization
 	range			= 100
 	naval_maintenance	= 0.1
+	enable = autonomous_arsenal_ship
+	enable = unmanned_oceanic_frigate
+	enable = autonomous_coastal_defence_ship
+	enable = advanced_strategic_sealift
 }
 
 technology = {
@@ -3740,4 +3748,3 @@ technology = {
 	# Future Diplomacy 157
 	trade_efficiency = 0.005
 }
-
