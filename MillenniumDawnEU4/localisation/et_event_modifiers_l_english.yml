@@ -73,6 +73,8 @@
  desc_great_war_age_modifier:0 ""
  information_age_modifier:0 "Information Age"
  desc_information_age_modifier:0 ""
+ future_age_modifier:0 "Future Age"
+ desc_future_age_modifier:0 ""
  religious_policy:0 "Religious Policy"
  desc_religious_policy:0 "By focusing our resources on religious affairs, we can convert infidels at a much faster rate."
  economic_policy:0 "Economic Policy"

@@ -278,6 +278,33 @@ information_age_modifier = {
 	naval_attrition = -0.75
 }
 
+future_age_modifier = {
+	potential = {
+		current_age = future_age
+	}
+
+	trigger = {
+		current_age = future_age
+	}
+
+	# Preserve the late-game scaling baseline when Information Age ends.
+	envoy_travel_time = -0.8
+	diplomatic_upkeep = 6
+	free_leader_pool = 2
+	siege_ability = 1
+	movement_speed = 0.3
+	technology_cost = 0.3
+	development_cost = -0.3
+	culture_conversion_cost = -0.3
+	land_maintenance_modifier = 0.3
+	global_regiment_cost = 0.75
+	land_forcelimit_modifier = -0.45
+	ae_impact = 0.5
+	land_morale = -0.45
+	monarch_lifespan = 0.4
+	naval_attrition = -0.75
+}
+
 ai_rome = {
 	potential = {
 		ai = yes

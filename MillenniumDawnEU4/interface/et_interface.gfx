@@ -1910,8 +1910,25 @@ spriteTypes = {
 	}
 	
 	#Nuke button
-	spriteType = {
+		spriteType = {
 		name = "GFX_et_nuke_province_button"
 		textureFile = "gfx/interface/et_nuke_province_button.dds"
 	}
+
+	# EU4 2K future age (temporary reuse of Information Age artwork)
+	spriteType = { name = "GFX_future_age" texturefile = "gfx/interface/ages/age_information.dds" }
+	spriteType = { name = "GFX_obj_future_technology" texturefile = "gfx/interface/ages/obj_industrial_tech_superiority.dds" }
+	spriteType = { name = "GFX_obj_future_internet" texturefile = "gfx/interface/ages/obj_info_internet.dds" }
+	spriteType = { name = "GFX_obj_future_fusion" texturefile = "gfx/interface/ages/obj_info_fusion_power.dds" }
+	spriteType = { name = "GFX_obj_future_factories" texturefile = "gfx/interface/ages/obj_industrial_20_factories.dds" }
+	spriteType = { name = "GFX_obj_future_development" texturefile = "gfx/interface/ages/obj_industrial_developed_provinces.dds" }
+	spriteType = { name = "GFX_obj_future_great_power" texturefile = "gfx/interface/ages/obj_greatwar_greatpower.dds" }
+	spriteType = { name = "GFX_obj_future_income" texturefile = "gfx/interface/ages/obj_classical_income.dds" }
+	spriteType = { name = "GFX_ab_future_research" texturefile = "gfx/interface/ages/ab_info_future_technology.dds" }
+	spriteType = { name = "GFX_ab_future_infrastructure" texturefile = "gfx/interface/ages/ab_industrial_construction.dds" }
+	spriteType = { name = "GFX_ab_future_administration" texturefile = "gfx/interface/ages/ab_info_stable_society.dds" }
+	spriteType = { name = "GFX_ab_future_economy" texturefile = "gfx/interface/ages/ab_info_global_economy.dds" }
+	spriteType = { name = "GFX_ab_future_diplomacy" texturefile = "gfx/interface/ages/ab_info_global_diplomacy.dds" }
+	spriteType = { name = "GFX_ab_future_society" texturefile = "gfx/interface/ages/ab_info_cultural_tolerance.dds" }
+	spriteType = { name = "GFX_ab_future_defence" texturefile = "gfx/interface/ages/ab_greatwar_secret_police.dds" }
 }

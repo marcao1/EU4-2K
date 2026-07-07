@@ -16,5 +16,5 @@ tags={
 	"New Nations"
 }
 picture="extended_timeline.jpg"
-version="1.0.1-no-planetary-transit"
+version="1.2.1-economy-integration"
 supported_version="v1.37.*"

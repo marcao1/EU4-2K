@@ -27,7 +27,7 @@ industrial_age = {
 					controlled_by = owner
 					is_core = ROOT
 				}
-				amount = 20
+				amount = 10
 			}
 		}
 		obj_industrial_10_manufactories = {
@@ -43,27 +43,28 @@ industrial_age = {
 					controlled_by = owner
 					is_core = ROOT
 				}
-				amount = 10
+				amount = 5
 			}
 		}
 		obj_industrial_african_colonies = {
 			calc_true_if = {
-				all_country = {
-					is_colonial_nation_of = ROOT
-					capital_scope = { continent = africa }
+				all_owned_province = {
+					has_building = railroad
+					controlled_by = owner
+					is_core = ROOT
 				}
-				amount = 2
+				amount = 5
 			}
 		}
 		obj_industrial_four_continents = {
-			num_of_continents = 4
+			monthly_income = 100
 		}
 		obj_industrial_developed_provinces = {
 			calc_true_if = {
 				all_owned_province = {
-					development = 50
+					development = 40
 				}
-				amount = 10
+				amount = 5
 			}
 		}
 		obj_industrial_japan = {
@@ -82,7 +83,7 @@ industrial_age = {
 	abilities = {
 		ab_industrial_construction = {
 			modifier = {
-				build_cost = -0.15
+				build_cost = -0.10
 			}
 			ai_will_do = {
 				factor = 10
@@ -90,7 +91,7 @@ industrial_age = {
 		}
 		ab_industrial_development = {
 			modifier = {
-				development_cost = -0.15
+				development_cost = -0.10
 			}
 			ai_will_do = {
 				factor = 10
@@ -186,7 +187,7 @@ industrial_age = {
 				}
 			}
 			modifier = {
-				discipline = 0.075
+				discipline = 0.05
 			}
 			ai_will_do = {
 				factor = 100
@@ -196,7 +197,7 @@ industrial_age = {
 }
 
 great_war_age = {
-	start = 1890
+	start = 1910
 	
 	can_start = {
 		any_country = { mil_tech = 82 }
@@ -247,6 +248,7 @@ great_war_age = {
 			}
 		}
 		obj_greatwar_more_nuclear_than_rivals = {
+			any_rival_country = { always = yes }
 			all_rival_country = {
 				NOT = {
 					check_variable = {
@@ -258,7 +260,7 @@ great_war_age = {
 		}
 		obj_greatwar_win_battles = {	
 			check_variable = {
-				which = num_of_battles_won
+				which = num_of_battles_won_var
 				value = 25
 			}
 		}
@@ -329,7 +331,7 @@ great_war_age = {
 				tag = USA
 			}
 			modifier = {
-				global_trade_goods_size_modifier = 0.25
+				global_trade_goods_size_modifier = 0.15
 			}
 			ai_will_do = {
 				factor = 100
@@ -398,7 +400,12 @@ information_age = {
 	
 	objectives = {
 		obj_info_parties = {
-			has_faction = nationalist_party 
+			OR = {
+				has_faction = nationalist_party
+				has_faction = communist_party
+				has_faction = national_socialist_party
+				government = republic
+			}
 		}
 		obj_info_alldeveloped = {
 			all_owned_province = {
@@ -426,11 +433,11 @@ information_age = {
 					controlled_by = owner
 					is_core = ROOT
 				}
-				amount = 20
+				amount = 5
 			}
 		}
 		obj_info_allies = {
-			num_of_allies = 6
+			num_of_allies = 4
 		}
 		obj_info_skilled_scientist = {
 			natural_scientist = 3
@@ -502,7 +509,7 @@ information_age = {
 				}
 			}
 			modifier = {
-				global_trade_goods_size_modifier = 0.25
+				global_trade_goods_size_modifier = 0.15
 			}
 			ai_will_do = {
 				factor = 100
@@ -513,7 +520,7 @@ information_age = {
 				tag = INI
 			}
 			modifier = {
-				development_cost = -0.2
+				development_cost = -0.1
 			}
 			ai_will_do = {
 				factor = 100
@@ -528,7 +535,7 @@ information_age = {
 				}
 			}
 			modifier = {
-				global_trade_goods_size_modifier = 0.25
+				global_trade_goods_size_modifier = 0.15
 			}
 			ai_will_do = {
 				factor = 100
@@ -539,11 +546,104 @@ information_age = {
 				has_country_modifier = european_union
 			}
 			modifier = {
-				diplomatic_reputation = 2
+				diplomatic_reputation = 1
 			}
 			ai_will_do = {
 				factor = 100
 			}
+		}
+	}
+}
+
+future_age = {
+	start = 2100
+
+	can_start = {
+		any_country = { adm_tech = 95 }
+	}
+
+	papacy = 2.0
+	absolutism = {
+		stability = 1
+		decrease_autonomy_command = 1
+		strengthen_government = 2
+		increase_autonomy_command = -2
+		debase_currency = -1
+		execute_rebel_acceptance_command = -10
+		war_exhaustion = -1
+	}
+
+	objectives = {
+		obj_future_technology = {
+			adm_tech = 95
+			dip_tech = 95
+			mil_tech = 95
+		}
+		obj_future_internet = {
+			has_institution = internet
+		}
+		obj_future_fusion = {
+			calc_true_if = {
+				all_owned_province = {
+					has_building = fusion_reactor
+					controlled_by = owner
+					is_core = ROOT
+				}
+				amount = 5
+			}
+		}
+		obj_future_factories = {
+			calc_true_if = {
+				all_owned_province = {
+					has_building = factory
+					controlled_by = owner
+					is_core = ROOT
+				}
+				amount = 10
+			}
+		}
+		obj_future_development = {
+			calc_true_if = {
+				all_owned_province = { development = 50 }
+				amount = 5
+			}
+		}
+		obj_future_great_power = {
+			is_great_power = yes
+		}
+		obj_future_income = {
+			monthly_income = 500
+		}
+	}
+
+	abilities = {
+		ab_future_research = {
+			modifier = { technology_cost = -0.05 }
+			ai_will_do = { factor = 10 }
+		}
+		ab_future_infrastructure = {
+			modifier = { build_cost = -0.10 }
+			ai_will_do = { factor = 10 }
+		}
+		ab_future_administration = {
+			modifier = { governing_capacity_modifier = 0.15 }
+			ai_will_do = { factor = 10 }
+		}
+		ab_future_economy = {
+			modifier = { production_efficiency = 0.15 }
+			ai_will_do = { factor = 10 }
+		}
+		ab_future_diplomacy = {
+			modifier = { diplomatic_upkeep = 1 }
+			ai_will_do = { factor = 10 }
+		}
+		ab_future_society = {
+			modifier = { global_unrest = -1 }
+			ai_will_do = { factor = 10 }
+		}
+		ab_future_defence = {
+			modifier = { defensiveness = 0.15 }
+			ai_will_do = { factor = 10 }
 		}
 	}
 }

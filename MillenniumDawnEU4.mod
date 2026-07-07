@@ -1,5 +1,5 @@
 name="EU4 2K"
-version="1.0.1-no-planetary-transit"
+version="1.2.1-economy-integration"
 supported_version="v1.37.*"
 tags={
 	"Expansion"

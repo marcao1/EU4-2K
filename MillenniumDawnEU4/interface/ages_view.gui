@@ -1300,6 +1300,38 @@ guiTypes = {
 				frame = 14
 			}
 		}		
+
+		# Permanent final age. Information Age icon is reused until dedicated art is added.
+		WindowType = {
+			name = "future_age"
+			position = { x= 35 y = -29 }
+			upsound = age_of_reformation
+
+			iconType = {
+				name ="icon_industrial_age"
+				spriteType = "GFX_icon_age_g"
+				position = { x= 465 y = 108 }
+				frame = 12
+			}
+			iconType = {
+				name ="icon_great_war_age"
+				spriteType = "GFX_icon_age_g"
+				position = { x= 495 y = 129 }
+				frame = 13
+			}
+			iconType = {
+				name ="icon_information_age"
+				spriteType = "GFX_icon_age_g"
+				position = { x= 465 y = 150 }
+				frame = 14
+			}
+			iconType = {
+				name ="icon_future_age"
+				spriteType = "GFX_icon_age_l"
+				position = { x= 487 y = 163 }
+				frame = 14
+			}
+		}
 		
 		instantTextBoxType = {
 			name = "title"
