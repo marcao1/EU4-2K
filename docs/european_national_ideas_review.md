@@ -156,3 +156,14 @@ As with the completed major-power sets, replacements should use durable national
 - Added modern sets for Sweden, Norway, Finland, Iceland, Ireland, Belgium, Luxembourg, Switzerland and Portugal.
 - Removed Viking exploration, colonists, absolutism, mercenary specialization, religious conversion and oversized naval modifiers.
 - Replaced them with modern industry, research, finance, energy, infrastructure, diplomacy, shipping and territorial defence.
+
+## Implemented in 1.6.4
+
+- Added new modern unique sets for Greece and Malta.
+- Replaced Turkey, Armenia, Georgia and Azerbaijan's ruler-specific, religious, dynastic and oversized military sets.
+- Reframed the region around shipping, energy, trade corridors, state reform, diaspora, industry and territorial defence.
+
+## Implemented in 1.6.5
+
+- Replaced the Holy See's territorial, military and fabricated-claim bonuses with spiritual diplomacy, concordats, administration, cultural heritage, global networks, humanitarian activity and neutrality.
+- Completed static coverage validation for every European tag included in this review.

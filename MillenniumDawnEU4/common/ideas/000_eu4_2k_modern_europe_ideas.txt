@@ -487,3 +487,101 @@ POR_modern_ideas = {
 	por_modern_infrastructure = { development_cost = -0.10 }
 	por_professional_forces = { discipline = 0.05 }
 }
+
+GRE_modern_ideas = {
+	start = { naval_morale = 0.10 trade_efficiency = 0.10 }
+	bonus = { diplomatic_reputation = 1 }
+	trigger = { tag = GRE }
+	free = yes
+	gre_merchant_shipping = { naval_forcelimit_modifier = 0.15 }
+	gre_tourism_economy = { production_efficiency = 0.10 }
+	gre_democratic_institutions = { global_unrest = -1 }
+	gre_diaspora = { manpower_recovery_speed = 0.10 }
+	gre_eastern_mediterranean = { global_trade_power = 0.10 }
+	gre_mountain_defence = { hostile_attrition = 1 }
+	gre_cultural_diplomacy = { improve_relation_modifier = 0.15 }
+}
+
+JAI_modern_ideas = {
+	start = { trade_efficiency = 0.10 diplomatic_reputation = 1 }
+	bonus = { global_unrest = -1 }
+	trigger = { tag = JAI }
+	free = yes
+	jai_grand_harbour = { naval_forcelimit_modifier = 0.15 }
+	jai_maritime_services = { global_trade_power = 0.10 }
+	jai_financial_administration = { interest = -1 }
+	jai_neutral_diplomacy = { improve_relation_modifier = 0.15 }
+	jai_tourism_economy = { production_efficiency = 0.10 }
+	jai_educated_workforce = { advisor_cost = -0.10 }
+	jai_island_security = { defensiveness = 0.10 }
+}
+
+TKY_modern_ideas = {
+	start = { manpower_recovery_speed = 0.10 trade_efficiency = 0.10 }
+	bonus = { diplomatic_reputation = 1 }
+	trigger = { tag = TKY }
+	free = yes
+	tky_republican_state = { reform_progress_growth = 0.10 }
+	tky_industrial_centres = { production_efficiency = 0.10 }
+	tky_bosphorus_trade = { global_trade_power = 0.10 }
+	tky_defence_industry = { artillery_cost = -0.10 }
+	tky_anatolian_infrastructure = { build_cost = -0.10 }
+	tky_regional_diplomacy = { improve_relation_modifier = 0.15 }
+	tky_professional_forces = { discipline = 0.05 }
+}
+
+ARM_modern_ideas = {
+	start = { defensiveness = 0.10 manpower_recovery_speed = 0.10 }
+	bonus = { diplomatic_reputation = 1 }
+	trigger = { tag = ARM }
+	free = yes
+	arm_diaspora_networks = { improve_relation_modifier = 0.15 }
+	arm_mountain_defence = { hostile_attrition = 1 }
+	arm_technology_sector = { technology_cost = -0.05 }
+	arm_educated_workforce = { advisor_cost = -0.10 }
+	arm_industrial_transition = { production_efficiency = 0.10 }
+	arm_state_resilience = { global_unrest = -1 }
+	arm_regional_trade = { trade_efficiency = 0.10 }
+}
+
+GEO_modern_ideas = {
+	start = { defensiveness = 0.10 trade_efficiency = 0.10 }
+	bonus = { diplomatic_reputation = 1 }
+	trigger = { tag = GEO }
+	free = yes
+	geo_caucasus_defence = { hostile_attrition = 1 }
+	geo_black_sea_trade = { global_trade_power = 0.10 }
+	geo_transit_corridor = { production_efficiency = 0.10 }
+	geo_state_reform = { reform_progress_growth = 0.10 }
+	geo_wine_and_agriculture = { global_trade_goods_size_modifier = 0.10 }
+	geo_diaspora = { manpower_recovery_speed = 0.10 }
+	geo_european_diplomacy = { improve_relation_modifier = 0.15 }
+}
+
+AZE_modern_ideas = {
+	start = { production_efficiency = 0.10 trade_efficiency = 0.10 }
+	bonus = { diplomatic_reputation = 1 }
+	trigger = { tag = AZE }
+	free = yes
+	aze_energy_resources = { global_trade_goods_size_modifier = 0.10 }
+	aze_caspian_trade = { global_trade_power = 0.10 }
+	aze_infrastructure_corridors = { build_cost = -0.10 }
+	aze_central_administration = { governing_capacity_modifier = 0.10 }
+	aze_educated_workforce = { advisor_cost = -0.10 }
+	aze_mountain_defence = { defensiveness = 0.10 }
+	aze_regional_diplomacy = { improve_relation_modifier = 0.15 }
+}
+
+PAP_modern_ideas = {
+	start = { diplomatic_reputation = 1 tolerance_own = 1 }
+	bonus = { improve_relation_modifier = 0.15 }
+	trigger = { tag = PAP }
+	free = yes
+	pap_spiritual_diplomacy = { diplomats = 1 }
+	pap_concordats = { diplomatic_upkeep = 1 }
+	pap_vatican_administration = { global_tax_modifier = 0.10 }
+	pap_cultural_heritage = { prestige = 1 }
+	pap_global_church_network = { global_unrest = -1 }
+	pap_humanitarian_missions = { tolerance_heretic = 1 tolerance_heathen = 1 }
+	pap_lateran_neutrality = { defensiveness = 0.10 }
+}
