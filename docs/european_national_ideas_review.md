@@ -150,3 +150,9 @@ As with the completed major-power sets, replacements should use durable national
 - Added modern sets for Austria, Czechia, Hungary, Romania, Moldova, Slovakia, Slovenia, Ukraine, Belarus, Estonia, Latvia and Lithuania.
 - Removed dynastic, cavalry, missionary, Soviet-policy and oversized military modifiers from these countries.
 - Added 84 localized ideas covering industry, trade, administration, resilience, infrastructure, education and diplomacy.
+
+## Implemented in 1.6.3
+
+- Added modern sets for Sweden, Norway, Finland, Iceland, Ireland, Belgium, Luxembourg, Switzerland and Portugal.
+- Removed Viking exploration, colonists, absolutism, mercenary specialization, religious conversion and oversized naval modifiers.
+- Replaced them with modern industry, research, finance, energy, infrastructure, diplomacy, shipping and territorial defence.

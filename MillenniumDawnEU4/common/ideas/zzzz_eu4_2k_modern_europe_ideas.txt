@@ -361,3 +361,129 @@ LIT_modern_ideas = {
 	lit_regional_diplomacy = { improve_relation_modifier = 0.15 }
 	lit_territorial_defence = { hostile_attrition = 1 }
 }
+
+SWE_modern_ideas = {
+	start = { technology_cost = -0.05 production_efficiency = 0.10 }
+	bonus = { diplomatic_reputation = 1 }
+	trigger = { tag = SWE }
+	free = yes
+	swe_welfare_state = { global_unrest = -1 }
+	swe_advanced_industry = { global_trade_goods_size_modifier = 0.10 }
+	swe_research_economy = { advisor_cost = -0.10 }
+	swe_baltic_trade = { trade_efficiency = 0.10 }
+	swe_total_defence = { defensiveness = 0.10 }
+	swe_professional_forces = { discipline = 0.05 }
+	swe_nordic_diplomacy = { improve_relation_modifier = 0.15 }
+}
+
+NOR_modern_ideas = {
+	start = { naval_morale = 0.10 trade_efficiency = 0.10 }
+	bonus = { diplomatic_reputation = 1 }
+	trigger = { primary_culture = norwegian }
+	free = yes
+	nor_energy_resources = { global_trade_goods_size_modifier = 0.10 }
+	nor_merchant_shipping = { naval_forcelimit_modifier = 0.15 }
+	nor_sovereign_wealth = { interest = -1 }
+	nor_maritime_industry = { production_efficiency = 0.10 }
+	nor_welfare_administration = { stability_cost_modifier = -0.10 }
+	nor_arctic_expertise = { land_attrition = -0.10 }
+	nor_nordic_diplomacy = { improve_relation_modifier = 0.15 }
+}
+
+FIN_modern_ideas = {
+	start = { defensiveness = 0.10 technology_cost = -0.05 }
+	bonus = { land_morale = 0.10 }
+	trigger = { primary_culture = finnish }
+	free = yes
+	fin_total_defence = { hostile_attrition = 1 }
+	fin_education_system = { advisor_cost = -0.10 }
+	fin_technology_industry = { production_efficiency = 0.10 }
+	fin_forest_resources = { global_trade_goods_size_modifier = 0.10 }
+	fin_winter_logistics = { land_attrition = -0.10 }
+	fin_parliamentary_state = { global_unrest = -1 }
+	fin_nordic_diplomacy = { diplomatic_reputation = 1 }
+}
+
+ICE_modern_ideas = {
+	start = { trade_efficiency = 0.10 global_unrest = -1 }
+	bonus = { diplomatic_reputation = 1 }
+	trigger = { tag = ICE }
+	free = yes
+	ice_geothermal_energy = { build_cost = -0.10 }
+	ice_fisheries = { production_efficiency = 0.10 }
+	ice_north_atlantic_shipping = { naval_forcelimit_modifier = 0.15 }
+	ice_renewable_economy = { global_trade_goods_size_modifier = 0.10 }
+	ice_educated_society = { advisor_cost = -0.10 }
+	ice_arctic_expertise = { land_attrition = -0.10 }
+	ice_nordic_cooperation = { improve_relation_modifier = 0.15 }
+}
+
+IRE_modern_ideas = {
+	start = { trade_efficiency = 0.10 technology_cost = -0.05 }
+	bonus = { diplomatic_reputation = 1 }
+	trigger = { tag = IRE }
+	free = yes
+	ire_parliamentary_state = { global_unrest = -1 }
+	ire_technology_investment = { production_efficiency = 0.10 }
+	ire_foreign_investment = { global_trade_goods_size_modifier = 0.10 }
+	ire_educated_workforce = { advisor_cost = -0.10 }
+	ire_diaspora = { manpower_recovery_speed = 0.10 }
+	ire_neutral_diplomacy = { improve_relation_modifier = 0.15 }
+	ire_atlantic_trade = { global_trade_power = 0.10 }
+}
+
+BEL_modern_ideas = {
+	start = { production_efficiency = 0.10 trade_efficiency = 0.10 }
+	bonus = { diplomatic_reputation = 1 }
+	trigger = { tag = BEL }
+	free = yes
+	bel_federal_compromise = { global_unrest = -1 }
+	bel_industrial_corridor = { global_trade_goods_size_modifier = 0.10 }
+	bel_port_of_antwerp = { global_trade_power = 0.10 }
+	bel_multilingual_state = { num_accepted_cultures = 1 }
+	bel_european_diplomacy = { improve_relation_modifier = 0.15 }
+	bel_research_centres = { technology_cost = -0.05 }
+	bel_professional_forces = { discipline = 0.05 }
+}
+
+LUX_modern_ideas = {
+	start = { diplomatic_reputation = 1 trade_efficiency = 0.10 }
+	bonus = { improve_relation_modifier = 0.15 }
+	trigger = { tag = LUX }
+	free = yes
+	lux_financial_services = { interest = -1 }
+	lux_european_institutions = { diplomatic_upkeep = 1 }
+	lux_multilingual_workforce = { num_accepted_cultures = 1 }
+	lux_logistics_hub = { global_trade_power = 0.10 }
+	lux_compact_administration = { global_tax_modifier = 0.10 }
+	lux_advanced_services = { production_efficiency = 0.10 }
+	lux_collective_security = { defensiveness = 0.10 }
+}
+
+SWI_modern_ideas = {
+	start = { defensiveness = 0.10 diplomatic_reputation = 1 }
+	bonus = { global_unrest = -1 }
+	trigger = { tag = SWI }
+	free = yes
+	swi_federalism = { governing_capacity_modifier = 0.10 }
+	swi_neutrality = { improve_relation_modifier = 0.15 }
+	swi_financial_services = { interest = -1 }
+	swi_precision_industry = { production_efficiency = 0.10 }
+	swi_research_economy = { technology_cost = -0.05 }
+	swi_alpine_defence = { hostile_attrition = 1 }
+	swi_multilingual_state = { num_accepted_cultures = 1 }
+}
+
+POR_modern_ideas = {
+	start = { trade_efficiency = 0.10 naval_morale = 0.10 }
+	bonus = { diplomatic_reputation = 1 }
+	trigger = { tag = POR }
+	free = yes
+	por_atlantic_ports = { global_trade_power = 0.10 }
+	por_maritime_economy = { naval_forcelimit_modifier = 0.15 }
+	por_tourism_economy = { production_efficiency = 0.10 }
+	por_renewable_energy = { build_cost = -0.10 }
+	por_lusophone_diplomacy = { improve_relation_modifier = 0.15 }
+	por_modern_infrastructure = { development_cost = -0.10 }
+	por_professional_forces = { discipline = 0.05 }
+}
