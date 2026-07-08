@@ -16,5 +16,5 @@ tags={
 	"New Nations"
 }
 picture="extended_timeline.jpg"
-version="1.6.1-european-ideas-balance"
+version="1.6.2-european-ideas-central-east"
 supported_version="v1.37.*"

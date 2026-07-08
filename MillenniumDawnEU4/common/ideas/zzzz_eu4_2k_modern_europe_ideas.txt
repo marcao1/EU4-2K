@@ -193,3 +193,171 @@ CYP_modern_ideas = {
 	cyp_educated_workforce = { advisor_cost = -0.10 }
 	cyp_island_security = { land_morale = 0.05 naval_morale = 0.05 }
 }
+
+HAB_modern_ideas = {
+	start = { diplomatic_reputation = 1 production_efficiency = 0.10 }
+	bonus = { improve_relation_modifier = 0.15 }
+	trigger = { tag = HAB }
+	free = yes
+	hab_federal_republic = { global_unrest = -1 }
+	hab_alpine_industry = { global_trade_goods_size_modifier = 0.10 }
+	hab_vienna_diplomacy = { diplomatic_upkeep = 1 }
+	hab_social_partnership = { stability_cost_modifier = -0.10 }
+	hab_engineering = { technology_cost = -0.05 }
+	hab_transit_economy = { trade_efficiency = 0.10 }
+	hab_alpine_defence = { defensiveness = 0.10 }
+}
+
+CZE_modern_ideas = {
+	start = { production_efficiency = 0.10 technology_cost = -0.05 }
+	bonus = { diplomatic_reputation = 1 }
+	trigger = { tag = CZE }
+	free = yes
+	cze_industrial_engineering = { global_trade_goods_size_modifier = 0.10 }
+	cze_technical_education = { advisor_cost = -0.10 }
+	cze_parliamentary_state = { global_unrest = -1 }
+	cze_central_european_trade = { trade_efficiency = 0.10 }
+	cze_automotive_industry = { production_efficiency = 0.10 }
+	cze_cultural_diplomacy = { improve_relation_modifier = 0.15 }
+	cze_professional_defence = { discipline = 0.05 }
+}
+
+HUN_modern_ideas = {
+	start = { production_efficiency = 0.10 manpower_recovery_speed = 0.10 }
+	bonus = { land_morale = 0.10 }
+	trigger = { tag = HUN }
+	free = yes
+	hun_danube_economy = { trade_efficiency = 0.10 }
+	hun_industrial_centres = { global_trade_goods_size_modifier = 0.10 }
+	hun_technical_education = { advisor_cost = -0.10 }
+	hun_central_administration = { governing_capacity_modifier = 0.10 }
+	hun_regional_diplomacy = { diplomatic_reputation = 1 }
+	hun_carpathian_defence = { hostile_attrition = 1 }
+	hun_professional_forces = { discipline = 0.05 }
+}
+
+RMN_modern_ideas = {
+	start = { production_efficiency = 0.10 defensiveness = 0.10 }
+	bonus = { diplomatic_reputation = 1 }
+	trigger = { tag = RMN }
+	free = yes
+	rmn_danube_trade = { trade_efficiency = 0.10 }
+	rmn_energy_resources = { global_trade_goods_size_modifier = 0.10 }
+	rmn_industrial_base = { build_cost = -0.10 }
+	rmn_carpathian_defence = { hostile_attrition = 1 }
+	rmn_modern_state = { reform_progress_growth = 0.10 }
+	rmn_diaspora = { manpower_recovery_speed = 0.10 }
+	rmn_black_sea_strategy = { naval_forcelimit_modifier = 0.15 }
+}
+
+MDV_modern_ideas = {
+	start = { production_efficiency = 0.10 development_cost = -0.10 }
+	bonus = { diplomatic_reputation = 1 }
+	trigger = { tag = MDV }
+	free = yes
+	mdv_agricultural_exports = { global_trade_goods_size_modifier = 0.10 }
+	mdv_wine_industry = { trade_efficiency = 0.10 }
+	mdv_dniester_defence = { hostile_attrition = 1 }
+	mdv_european_diplomacy = { improve_relation_modifier = 0.15 }
+	mdv_diaspora = { manpower_recovery_speed = 0.10 }
+	mdv_state_reform = { reform_progress_growth = 0.10 }
+	mdv_energy_links = { build_cost = -0.10 }
+}
+
+SVK_modern_ideas = {
+	start = { production_efficiency = 0.10 defensiveness = 0.10 }
+	bonus = { diplomatic_reputation = 1 }
+	trigger = { tag = SVK }
+	free = yes
+	svk_tatra_defence = { hostile_attrition = 1 }
+	svk_automotive_industry = { global_trade_goods_size_modifier = 0.10 }
+	svk_technical_workforce = { advisor_cost = -0.10 }
+	svk_danube_trade = { trade_efficiency = 0.10 }
+	svk_parliamentary_state = { global_unrest = -1 }
+	svk_central_european_links = { improve_relation_modifier = 0.15 }
+	svk_infrastructure = { build_cost = -0.10 }
+}
+
+SVN_modern_ideas = {
+	start = { trade_efficiency = 0.10 development_cost = -0.10 }
+	bonus = { diplomatic_reputation = 1 }
+	trigger = { tag = SVN }
+	free = yes
+	svn_alpine_adriatic_corridor = { global_trade_power = 0.10 }
+	svn_advanced_industry = { production_efficiency = 0.10 }
+	svn_educated_workforce = { advisor_cost = -0.10 }
+	svn_green_infrastructure = { build_cost = -0.10 }
+	svn_parliamentary_stability = { global_unrest = -1 }
+	svn_alpine_defence = { defensiveness = 0.10 }
+	svn_european_diplomacy = { improve_relation_modifier = 0.15 }
+}
+
+UKR_modern_ideas = {
+	start = { global_manpower_modifier = 0.15 production_efficiency = 0.10 }
+	bonus = { land_morale = 0.10 }
+	trigger = { tag = UKR }
+	free = yes
+	ukr_black_soil = { global_trade_goods_size_modifier = 0.10 }
+	ukr_industrial_regions = { artillery_cost = -0.10 }
+	ukr_national_resilience = { defensiveness = 0.10 }
+	ukr_territorial_defence = { hostile_attrition = 1 }
+	ukr_black_sea_trade = { trade_efficiency = 0.10 }
+	ukr_digital_state = { reform_progress_growth = 0.10 }
+	ukr_european_diplomacy = { diplomatic_reputation = 1 }
+}
+
+BLR_modern_ideas = {
+	start = { production_efficiency = 0.10 defensiveness = 0.10 }
+	bonus = { global_unrest = -1 }
+	trigger = { tag = BLR }
+	free = yes
+	blr_industrial_base = { global_trade_goods_size_modifier = 0.10 }
+	blr_transit_state = { trade_efficiency = 0.10 }
+	blr_forests_and_marshes = { hostile_attrition = 1 }
+	blr_technical_education = { advisor_cost = -0.10 }
+	blr_central_administration = { governing_capacity_modifier = 0.10 }
+	blr_agricultural_capacity = { production_efficiency = 0.10 }
+	blr_regional_diplomacy = { improve_relation_modifier = 0.15 }
+}
+
+EST_modern_ideas = {
+	start = { technology_cost = -0.05 trade_efficiency = 0.10 }
+	bonus = { diplomatic_reputation = 1 }
+	trigger = { tag = EST }
+	free = yes
+	est_digital_government = { reform_progress_growth = 0.10 }
+	est_baltic_trade = { global_trade_power = 0.10 }
+	est_educated_workforce = { advisor_cost = -0.10 }
+	est_cyber_security = { global_spy_defence = 0.15 }
+	est_maritime_economy = { naval_forcelimit_modifier = 0.15 }
+	est_national_defence = { defensiveness = 0.10 }
+	est_nordic_diplomacy = { improve_relation_modifier = 0.15 }
+}
+
+LTV_modern_ideas = {
+	start = { trade_efficiency = 0.10 defensiveness = 0.10 }
+	bonus = { diplomatic_reputation = 1 }
+	trigger = { tag = LTV }
+	free = yes
+	ltv_riga_port = { global_trade_power = 0.10 }
+	ltv_baltic_transit = { production_efficiency = 0.10 }
+	ltv_national_resilience = { hostile_attrition = 1 }
+	ltv_educated_workforce = { advisor_cost = -0.10 }
+	ltv_digital_services = { technology_cost = -0.05 }
+	ltv_regional_cooperation = { improve_relation_modifier = 0.15 }
+	ltv_professional_defence = { discipline = 0.05 }
+}
+
+LIT_modern_ideas = {
+	start = { manpower_recovery_speed = 0.10 trade_efficiency = 0.10 }
+	bonus = { diplomatic_reputation = 1 }
+	trigger = { tag = LIT }
+	free = yes
+	lit_baltic_trade = { global_trade_power = 0.10 }
+	lit_national_resilience = { defensiveness = 0.10 }
+	lit_educated_workforce = { advisor_cost = -0.10 }
+	lit_digital_economy = { technology_cost = -0.05 }
+	lit_energy_security = { build_cost = -0.10 }
+	lit_regional_diplomacy = { improve_relation_modifier = 0.15 }
+	lit_territorial_defence = { hostile_attrition = 1 }
+}

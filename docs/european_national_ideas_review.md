@@ -144,3 +144,9 @@ As with the completed major-power sets, replacements should use durable national
 - Reduced Yugoslavia's military and manpower stacking while preserving federalism, non-alignment, self-management and partisan defence.
 - Removed Denmark and the Netherlands' 50% naval force-limit bonuses and colonial-era mechanics.
 - Replaced Cyprus's crusading and corsair set with diplomacy, shipping, tourism, services, trade, education and island security.
+
+## Implemented in 1.6.2
+
+- Added modern sets for Austria, Czechia, Hungary, Romania, Moldova, Slovakia, Slovenia, Ukraine, Belarus, Estonia, Latvia and Lithuania.
+- Removed dynastic, cavalry, missionary, Soviet-policy and oversized military modifiers from these countries.
+- Added 84 localized ideas covering industry, trade, administration, resilience, infrastructure, education and diplomacy.

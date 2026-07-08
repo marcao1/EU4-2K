@@ -1,5 +1,5 @@
 name="EU4 2K"
-version="1.6.1-european-ideas-balance"
+version="1.6.2-european-ideas-central-east"
 supported_version="v1.37.*"
 tags={
 	"Expansion"
