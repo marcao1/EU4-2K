@@ -1,5 +1,5 @@
 name="EU4 2K"
-version="1.4.1-et-governments"
+version="1.5.3-national-ideas-complete"
 supported_version="v1.37.*"
 tags={
 	"Expansion"

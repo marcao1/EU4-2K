@@ -16,5 +16,5 @@ tags={
 	"New Nations"
 }
 picture="extended_timeline.jpg"
-version="1.4.1-et-governments"
+version="1.5.3-national-ideas-complete"
 supported_version="v1.37.*"
