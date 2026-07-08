@@ -95,3 +95,101 @@ BUL_modern_ideas = {
 	bul_mountain_defence = { hostile_attrition = 1 }
 	bul_professional_army = { discipline = 0.05 }
 }
+
+ITA_modern_ideas = {
+	start = { production_efficiency = 0.10 trade_efficiency = 0.10 }
+	bonus = { improve_relation_modifier = 0.15 }
+	trigger = { tag = ITA }
+	free = yes
+	ita_industrial_districts = { global_trade_goods_size_modifier = 0.10 }
+	ita_mediterranean_trade = { global_trade_power = 0.10 }
+	ita_republican_administration = { reform_progress_growth = 0.10 }
+	ita_design_and_engineering = { technology_cost = -0.05 }
+	ita_cultural_influence = { prestige = 1 }
+	ita_infrastructure_network = { build_cost = -0.10 }
+	ita_professional_forces = { discipline = 0.05 }
+}
+
+POL_modern_ideas = {
+	start = { manpower_recovery_speed = 0.10 production_efficiency = 0.10 }
+	bonus = { land_morale = 0.10 }
+	trigger = { tag = POL }
+	free = yes
+	pol_national_resilience = { defensiveness = 0.10 }
+	pol_central_european_trade = { trade_efficiency = 0.10 }
+	pol_industrial_base = { global_trade_goods_size_modifier = 0.10 }
+	pol_education_system = { advisor_cost = -0.10 }
+	pol_territorial_defence = { hostile_attrition = 1 }
+	pol_regional_diplomacy = { diplomatic_reputation = 1 }
+	pol_agricultural_capacity = { production_efficiency = 0.10 }
+}
+
+SPA_modern_ideas = {
+	start = { global_unrest = -1 trade_efficiency = 0.10 }
+	bonus = { diplomatic_reputation = 1 }
+	trigger = { tag = SPA }
+	free = yes
+	spa_democratic_transition = { reform_progress_growth = 0.10 }
+	spa_tourism_economy = { production_efficiency = 0.10 }
+	spa_renewable_energy = { build_cost = -0.10 }
+	spa_industrial_regions = { global_trade_goods_size_modifier = 0.10 }
+	spa_iberoamerican_diplomacy = { improve_relation_modifier = 0.15 }
+	spa_maritime_security = { naval_forcelimit_modifier = 0.15 }
+	spa_high_speed_infrastructure = { development_cost = -0.10 }
+}
+
+YUG_modern_ideas = {
+	start = { global_unrest = -1 production_efficiency = 0.10 }
+	bonus = { diplomatic_upkeep = 1 }
+	trigger = { tag = YUG }
+	free = yes
+	yug_federal_republic = { governing_capacity_modifier = 0.10 }
+	yug_non_aligned_movement = { diplomatic_reputation = 1 }
+	yug_workers_self_management = { global_trade_goods_size_modifier = 0.10 }
+	yug_partisan_legacy = { hostile_attrition = 1 }
+	yug_brotherhood_and_unity = { num_accepted_cultures = 1 }
+	yug_defence_industry = { infantry_cost = -0.10 }
+	yug_adriatic_and_danube = { trade_efficiency = 0.10 }
+}
+
+DAN_modern_ideas = {
+	start = { naval_morale = 0.10 trade_efficiency = 0.10 }
+	bonus = { diplomatic_reputation = 1 }
+	trigger = { tag = DAN }
+	free = yes
+	dan_parliamentary_state = { global_unrest = -1 }
+	dan_global_shipping = { naval_forcelimit_modifier = 0.15 }
+	dan_green_energy = { production_efficiency = 0.10 }
+	dan_welfare_administration = { stability_cost_modifier = -0.10 }
+	dan_design_and_pharma = { technology_cost = -0.05 }
+	dan_baltic_diplomacy = { improve_relation_modifier = 0.15 }
+	dan_professional_defence = { discipline = 0.05 }
+}
+
+NED_modern_ideas = {
+	start = { trade_efficiency = 0.10 development_cost = -0.10 }
+	bonus = { diplomatic_reputation = 1 }
+	trigger = { OR = { tag = NED tag = HOL } }
+	free = yes
+	ned_water_management = { build_cost = -0.10 }
+	ned_port_of_rotterdam = { global_trade_power = 0.10 }
+	ned_financial_services = { interest = -1 }
+	ned_consensus_government = { global_unrest = -1 }
+	ned_high_technology_agriculture = { global_trade_goods_size_modifier = 0.10 }
+	ned_maritime_networks = { naval_forcelimit_modifier = 0.15 }
+	ned_international_law = { improve_relation_modifier = 0.15 }
+}
+
+CYP_modern_ideas = {
+	start = { trade_efficiency = 0.10 defensiveness = 0.10 }
+	bonus = { diplomatic_reputation = 1 }
+	trigger = { tag = CYP }
+	free = yes
+	cyp_divided_island_diplomacy = { improve_relation_modifier = 0.15 }
+	cyp_merchant_shipping = { naval_forcelimit_modifier = 0.15 }
+	cyp_tourism_economy = { production_efficiency = 0.10 }
+	cyp_financial_services = { interest = -1 }
+	cyp_eastern_mediterranean_trade = { global_trade_power = 0.10 }
+	cyp_educated_workforce = { advisor_cost = -0.10 }
+	cyp_island_security = { land_morale = 0.05 naval_morale = 0.05 }
+}

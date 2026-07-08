@@ -137,3 +137,10 @@ As with the completed major-power sets, replacements should use durable national
 - Replaced the active sets for Albania, Croatia, Bulgaria, North Macedonia and Montenegro.
 - Removed medieval dynasties, crusading themes, cavalry specialization, privateering and expansion-oriented core cost from these countries.
 - Standardized the western Balkan sets around state capacity, terrain, infrastructure, trade, diplomacy, diaspora and professional defence.
+
+## Implemented in 1.6.1
+
+- Replaced Italy, Poland and Spain's conquest, cavalry, religious and colonial sets with modern economic, institutional, diplomatic and defensive identities.
+- Reduced Yugoslavia's military and manpower stacking while preserving federalism, non-alignment, self-management and partisan defence.
+- Removed Denmark and the Netherlands' 50% naval force-limit bonuses and colonial-era mechanics.
+- Replaced Cyprus's crusading and corsair set with diplomacy, shipping, tourism, services, trade, education and island security.
