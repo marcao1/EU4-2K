@@ -1,5 +1,5 @@
 name="EU4 2K"
-version="1.6.5-european-ideas-complete"
+version="1.6.6-year-2000-bookmark"
 supported_version="v1.37.*"
 tags={
 	"Expansion"
