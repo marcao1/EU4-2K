@@ -1,5 +1,5 @@
 name="EU4 2K"
-version="1.6.8-modern-rivals"
+version="1.6.9-modern-diplomacy"
 supported_version="v1.37.*"
 tags={
 	"Expansion"

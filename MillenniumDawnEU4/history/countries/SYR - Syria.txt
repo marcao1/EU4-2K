@@ -4,6 +4,7 @@ primary_culture = al_suryah_arabic
 religion = hellenism
 technology_group = middle_eastern
 capital = 377 # Aleppo
+historical_rival = ISR
 
 100.1.1 = { add_government_reform = early_gov_reform_1 }
 230.1.1 = { add_government_reform = early_gov_reform_2 }

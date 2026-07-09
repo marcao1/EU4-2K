@@ -4,6 +4,7 @@ technology_group = western
 religion = protestant
 primary_culture = british_canadian
 historical_friend = USA
+historical_friend = GBR
 capital = 4892 # Ottawa
 
 100.1.1 = { add_government_reform = early_gov_reform_1 }

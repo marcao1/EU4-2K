@@ -5,6 +5,11 @@ primary_culture = serbian
 religion = slavic
 technology_group = eastern
 capital = 1827 #Ras
+historical_rival = CRO
+historical_rival = BHE
+historical_rival = ALB
+historical_rival = KOS
+historical_friend = RUS
 
 100.1.1 = { add_government_reform = early_gov_reform_1 }
 230.1.1 = { add_government_reform = early_gov_reform_2 }

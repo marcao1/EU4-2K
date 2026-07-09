@@ -4,6 +4,8 @@ technology_group = western
 religion = arianism
 primary_culture = roman
 capital = 114 # Ravenna
+historical_friend = FR2
+historical_friend = GER
 
 100.1.1 = { add_government_reform = early_gov_reform_1 }
 230.1.1 = { add_government_reform = early_gov_reform_2 }

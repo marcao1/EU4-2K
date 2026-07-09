@@ -3,6 +3,8 @@ add_government_reform = autocracy_reform
 primary_culture = israeli
 religion = jewish
 historical_rival = PLS
+historical_rival = SYR
+historical_rival = LEB
 technology_group = middle_eastern
 capital = 1854 # Jerusalem
 

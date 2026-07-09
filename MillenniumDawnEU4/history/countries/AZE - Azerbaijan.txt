@@ -4,6 +4,8 @@ primary_culture = talysh
 religion = sunni
 technology_group = middle_eastern
 capital = 2207 # Maragha
+historical_rival = ARM
+historical_friend = TKY
 religious_school = shafii_school
 
 100.1.1 = { add_government_reform = early_gov_reform_1 }

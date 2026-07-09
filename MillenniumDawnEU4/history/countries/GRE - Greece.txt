@@ -4,6 +4,7 @@ technology_group = roman_group
 primary_culture = greek
 religion = chalcedonism
 historical_rival = TKY
+historical_friend = CYP
 capital = 146 # Athens
 
 100.1.1 = { add_government_reform = early_gov_reform_1 }

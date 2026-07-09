@@ -4,6 +4,8 @@ primary_culture = al_iraqiya_arabic
 religion = shiite
 technology_group = middle_eastern
 capital = 410 # Bagdad
+historical_rival = KUW
+historical_rival = USA
 religious_school = jafari_school
 
 100.1.1 = { add_government_reform = early_gov_reform_1 }

@@ -6,6 +6,12 @@ religion = protestant
 historical_rival = SOV
 historical_rival = RUS
 historical_friend = CAN
+historical_rival = IRQ
+historical_rival = IRA
+historical_friend = GBR
+historical_friend = JAP
+historical_friend = SKO
+historical_friend = AUS
 capital = 965 # New York
 
 

@@ -4,6 +4,8 @@ primary_culture = korean
 religion = confucianism
 technology_group = early_chinese
 historical_rival = NOK
+historical_friend = USA
+historical_friend = JAP
 capital = 735 # Seoul
 
 100.1.1 = { add_government_reform = early_gov_reform_1 }

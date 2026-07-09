@@ -4,6 +4,7 @@ primary_culture = taiwanese
 religion = confucianism
 technology_group = early_chinese
 capital = 738
+historical_rival = CHN
 
 100.1.1 = { add_government_reform = early_gov_reform_1 }
 230.1.1 = { add_government_reform = early_gov_reform_2 }

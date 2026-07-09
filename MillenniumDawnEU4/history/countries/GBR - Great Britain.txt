@@ -5,6 +5,9 @@ primary_culture = english
 add_accepted_culture = scottish
 religion = anglican
 capital = 236 # London
+historical_friend = USA
+historical_friend = AUS
+historical_friend = CAN
 
 100.1.1 = { add_government_reform = early_gov_reform_1 }
 230.1.1 = { add_government_reform = early_gov_reform_2 }

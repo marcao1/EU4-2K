@@ -5,6 +5,7 @@ primary_culture = serbian
 religion = chalcedonism
 technology_group = eastern
 capital = 1766
+historical_rival = SER
 
 100.1.1 = { add_government_reform = early_gov_reform_1 }
 230.1.1 = { add_government_reform = early_gov_reform_2 }

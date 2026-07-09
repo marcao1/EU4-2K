@@ -5,6 +5,7 @@ primary_culture = gulf_arabic
 religion = sunni
 technology_group = middle_eastern
 capital = 2340 # Kuwait
+historical_rival = IRQ
 religious_school = maliki_school
 
 100.1.1 = { add_government_reform = early_gov_reform_1 }

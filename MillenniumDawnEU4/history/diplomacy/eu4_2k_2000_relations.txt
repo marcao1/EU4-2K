@@ -17,6 +17,14 @@ alliance = {
 	end_date = 9999.12.30
 }
 
+# ANZUS / bilateral United States-Australia security relationship.
+alliance = {
+	first = USA
+	second = AUS
+	start_date = 1951.9.1
+	end_date = 9999.12.30
+}
+
 # Union State / bilateral defence relationship between Russia and Belarus.
 alliance = {
 	first = RUS
