@@ -16,5 +16,5 @@ tags={
 	"New Nations"
 }
 picture="extended_timeline.jpg"
-version="1.6.6-year-2000-bookmark"
+version="1.6.8-modern-rivals"
 supported_version="v1.37.*"

@@ -5,6 +5,7 @@ primary_culture = russian
 religion = chalcedonism
 technology_group = eastern
 unit_type = eastern
+historical_rival = USA
 capital = 295 # Moskva
 
 100.1.1 = { add_government_reform = early_gov_reform_1 }

@@ -4,6 +4,7 @@ technology_group = western
 primary_culture = american
 religion = protestant
 historical_rival = SOV
+historical_rival = RUS
 historical_friend = CAN
 capital = 965 # New York
 
