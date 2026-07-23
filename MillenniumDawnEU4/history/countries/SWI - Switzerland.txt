@@ -1,0 +1,19 @@
+# Generated 2000.1.1 snapshot; later historical changes belong in events.
+government = republic
+government_rank = 2
+add_government_reform = eu4_2k_parliamentary_republic
+add_government_reform = eu4_2k_federal_state
+add_government_reform = eu4_2k_multiparty_system
+primary_culture = swiss
+religion = reformed
+technology_group = modern_western
+unit_type = western
+capital = 165
+set_country_flag = eu4_2k_ruling_group_swi_swiss_peoples_party
+# Historical executive birth date: 1942.7.18
+monarch = {
+	name = "Adolf Ogi"
+	adm = 4
+	dip = 4
+	mil = 2
+}

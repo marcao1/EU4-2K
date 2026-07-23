@@ -1,0 +1,19 @@
+# Generated 2000.1.1 snapshot; later historical changes belong in events.
+government = republic
+government_rank = 2
+add_government_reform = eu4_2k_parliamentary_republic
+add_government_reform = eu4_2k_unitary_state
+add_government_reform = eu4_2k_multiparty_system
+primary_culture = greek
+religion = orthodox
+technology_group = modern_western
+unit_type = western
+capital = 146
+set_country_flag = eu4_2k_ruling_group_gre_pasok
+# Historical executive birth date: 1936.6.23
+monarch = {
+	name = "Costas Simitis"
+	adm = 4
+	dip = 4
+	mil = 2
+}

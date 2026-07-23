@@ -12,6 +12,10 @@
 - **Foundation:** Extended Timeline 1.18.2 fork
 - **Development stage:** Pre-alpha
 
+### Implemented foundation
+
+The project now has a reproducible `2000.1.1` country foundation: 188 active countries, five dormant successor tags, one modern bookmark, an effective `9999.12.31` engine end date, vanilla religions, modern political reforms, equal-cost regional technology groups, clean undated country histories, and deterministic generation from `data/countries_2000.csv`. Province ownership and the complete playable world remain the next phase.
+
 This document defines what EU4 2K should become and what must be included in its first playable release. It is a product guide, not a promise that every idea listed here is already implemented.
 
 ## Vision
@@ -404,8 +408,8 @@ Before a milestone is considered complete:
 
 The following questions should be resolved through prototypes and playtests:
 
-1. Should the primary end date be 2050, 2100, or remain open-ended?
-2. How much of the pre-2000 Extended Timeline content should remain accessible?
+1. How should balance and authored content be paced through 2100 while the engine end date remains open at `9999.12.31`?
+2. Which isolated pre-2000 facts, if any, are needed as event context without restoring a playable pre-2000 scenario?
 3. Which international organizations need dedicated mechanics, and which can remain diplomatic abstractions?
 4. Should air power be represented primarily by modifiers, special units, buildings, or a combination?
 5. Can nuclear deterrence be made strategically useful without allowing the AI to destroy campaign balance?

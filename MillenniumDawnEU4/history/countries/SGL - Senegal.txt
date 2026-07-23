@@ -1,0 +1,19 @@
+# Generated 2000.1.1 snapshot; later historical changes belong in events.
+government = republic
+government_rank = 2
+add_government_reform = eu4_2k_semi_presidential_republic
+add_government_reform = eu4_2k_unitary_state
+add_government_reform = eu4_2k_multiparty_system
+primary_culture = senegambian
+religion = sunni
+technology_group = modern_sub_saharan_african
+unit_type = sub_saharan
+capital = 1113
+set_country_flag = eu4_2k_ruling_group_sgl_independent_or_nonpartisan
+# Historical executive birth date: 1935.9.7
+monarch = {
+	name = "Abdou Diouf"
+	adm = 6
+	dip = 2
+	mil = 2
+}

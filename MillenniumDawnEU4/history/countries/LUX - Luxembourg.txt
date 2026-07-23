@@ -1,0 +1,19 @@
+# Generated 2000.1.1 snapshot; later historical changes belong in events.
+government = republic
+government_rank = 1
+add_government_reform = eu4_2k_parliamentary_republic
+add_government_reform = eu4_2k_unitary_state
+add_government_reform = eu4_2k_multiparty_system
+primary_culture = hessian
+religion = catholic
+technology_group = modern_western
+unit_type = western
+capital = 94
+set_country_flag = eu4_2k_ruling_group_lux_christian_social_peoples_party
+# Historical executive birth date: 1954.12.9
+monarch = {
+	name = "Jean-Claude Juncker"
+	adm = 5
+	dip = 5
+	mil = 2
+}

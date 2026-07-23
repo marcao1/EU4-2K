@@ -1,0 +1,19 @@
+# Generated 2000.1.1 snapshot; later historical changes belong in events.
+government = republic
+government_rank = 2
+add_government_reform = eu4_2k_presidential_republic
+add_government_reform = eu4_2k_unitary_state
+add_government_reform = eu4_2k_closed_authoritarian_system
+primary_culture = ganda
+religion = catholic
+technology_group = modern_sub_saharan_african
+unit_type = sub_saharan
+capital = 4064
+set_country_flag = eu4_2k_ruling_group_uga_independent_or_nonpartisan
+# Historical executive birth date: 1944.9.15
+monarch = {
+	name = "Yoweri Kaguta Museveni"
+	adm = 6
+	dip = 2
+	mil = 1
+}

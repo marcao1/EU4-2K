@@ -1,0 +1,19 @@
+# Generated 2000.1.1 snapshot; later historical changes belong in events.
+government = republic
+government_rank = 2
+add_government_reform = eu4_2k_parliamentary_republic
+add_government_reform = eu4_2k_unitary_state
+add_government_reform = eu4_2k_multiparty_system
+primary_culture = israeli
+religion = jewish
+technology_group = modern_middle_eastern_north_african
+unit_type = muslim
+capital = 1854
+set_country_flag = eu4_2k_ruling_group_isr_one_israel
+# Historical executive birth date: 1942.2.12
+monarch = {
+	name = "Ehud Barak"
+	adm = 4
+	dip = 4
+	mil = 4
+}

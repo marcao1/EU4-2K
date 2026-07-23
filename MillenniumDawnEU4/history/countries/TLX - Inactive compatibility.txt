@@ -1,0 +1,2 @@
+# Inactive compatibility tag retained for vanilla script references.
+government = monarchy

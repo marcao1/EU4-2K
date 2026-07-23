@@ -1,0 +1,19 @@
+# Generated 2000.1.1 snapshot; later historical changes belong in events.
+government = republic
+government_rank = 2
+add_government_reform = eu4_2k_presidential_republic
+add_government_reform = eu4_2k_unitary_state
+add_government_reform = eu4_2k_dominant_party_system
+primary_culture = chimin
+religion = hinduism
+technology_group = modern_southeast_asian
+unit_type = chinese
+capital = 4815
+set_country_flag = eu4_2k_ruling_group_sga_independent_or_nonpartisan
+# Historical executive birth date: 1924.7.3
+monarch = {
+	name = "Sellapan Ramanathan"
+	adm = 4
+	dip = 3
+	mil = 3
+}

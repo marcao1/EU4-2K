@@ -1,0 +1,19 @@
+# Generated 2000.1.1 snapshot; later historical changes belong in events.
+government = republic
+government_rank = 2
+add_government_reform = eu4_2k_presidential_republic
+add_government_reform = eu4_2k_unitary_state
+add_government_reform = eu4_2k_multiparty_system
+primary_culture = nyasa
+religion = catholic
+technology_group = modern_sub_saharan_african
+unit_type = sub_saharan
+capital = 4040
+set_country_flag = eu4_2k_ruling_group_mwi_independent_or_nonpartisan
+# Historical executive birth date: 1943.3.17
+monarch = {
+	name = "Bakili Muluzi"
+	adm = 1
+	dip = 2
+	mil = 2
+}

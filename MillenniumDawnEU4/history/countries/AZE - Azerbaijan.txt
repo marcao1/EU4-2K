@@ -1,0 +1,19 @@
+# Generated 2000.1.1 snapshot; later historical changes belong in events.
+government = republic
+government_rank = 2
+add_government_reform = eu4_2k_semi_presidential_republic
+add_government_reform = eu4_2k_unitary_state
+add_government_reform = eu4_2k_multiparty_system
+primary_culture = azerbaijani
+religion = sunni
+technology_group = modern_post_soviet
+unit_type = eastern
+capital = 421
+set_country_flag = eu4_2k_ruling_group_aze_new_azerbaijan_party
+# Historical executive birth date: 1923.5.10
+monarch = {
+	name = "Heydar Aliyev"
+	adm = 4
+	dip = 3
+	mil = 3
+}

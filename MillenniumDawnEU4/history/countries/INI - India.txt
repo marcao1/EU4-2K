@@ -1,0 +1,19 @@
+# Generated 2000.1.1 snapshot; later historical changes belong in events.
+government = republic
+government_rank = 3
+add_government_reform = eu4_2k_parliamentary_republic
+add_government_reform = eu4_2k_federal_state
+add_government_reform = eu4_2k_multiparty_system
+primary_culture = kanauji
+religion = hinduism
+technology_group = modern_south_asian
+unit_type = indian
+capital = 522
+set_country_flag = eu4_2k_ruling_group_ini_bharatiya_janata_party
+# Historical executive birth date: 1924.12.25
+monarch = {
+	name = "Atal Bihari Vajpayee"
+	adm = 4
+	dip = 4
+	mil = 3
+}

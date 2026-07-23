@@ -1,0 +1,23 @@
+# Generated 2000.1.1 snapshot; later historical changes belong in events.
+government = republic
+government_rank = 2
+add_government_reform = eu4_2k_presidential_republic
+add_government_reform = eu4_2k_federal_state
+add_government_reform = eu4_2k_closed_authoritarian_system
+primary_culture = serbian
+add_accepted_culture = slovene
+add_accepted_culture = croatian
+add_accepted_culture = bosnian
+add_accepted_culture = macedonian
+religion = orthodox
+technology_group = modern_western
+unit_type = western
+capital = 4239
+set_country_flag = eu4_2k_ruling_group_yug_socialist_party_of_serbia
+# Historical executive birth date: 1941.8.20
+monarch = {
+	name = "Slobodan Milosevic"
+	adm = 4
+	dip = 3
+	mil = 4
+}

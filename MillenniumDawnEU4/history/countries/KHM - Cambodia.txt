@@ -1,0 +1,19 @@
+# Generated 2000.1.1 snapshot; later historical changes belong in events.
+government = republic
+government_rank = 2
+add_government_reform = eu4_2k_parliamentary_monarchy
+add_government_reform = eu4_2k_unitary_state
+add_government_reform = eu4_2k_multiparty_system
+primary_culture = khmer
+religion = buddhism
+technology_group = modern_southeast_asian
+unit_type = chinese
+capital = 2380
+set_country_flag = eu4_2k_ruling_group_khm_cambodian_peoples_party
+# Historical executive birth date: 1952.8.5
+monarch = {
+	name = "Hun Sen"
+	adm = 4
+	dip = 3
+	mil = 3
+}

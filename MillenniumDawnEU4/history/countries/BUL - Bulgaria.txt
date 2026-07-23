@@ -1,0 +1,20 @@
+# Generated 2000.1.1 snapshot; later historical changes belong in events.
+government = republic
+government_rank = 2
+add_government_reform = eu4_2k_parliamentary_republic
+add_government_reform = eu4_2k_unitary_state
+add_government_reform = eu4_2k_multiparty_system
+primary_culture = bulgarian
+add_accepted_culture = bulgar
+religion = orthodox
+technology_group = modern_western
+unit_type = western
+capital = 1765
+set_country_flag = eu4_2k_ruling_group_bul_union_of_democratic_forces
+# Historical executive birth date: 1949.12.23
+monarch = {
+	name = "Ivan Kostov"
+	adm = 4
+	dip = 4
+	mil = 2
+}

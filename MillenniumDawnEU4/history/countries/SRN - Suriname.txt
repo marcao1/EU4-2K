@@ -1,0 +1,19 @@
+# Generated 2000.1.1 snapshot; later historical changes belong in events.
+government = republic
+government_rank = 2
+add_government_reform = eu4_2k_presidential_republic
+add_government_reform = eu4_2k_unitary_state
+add_government_reform = eu4_2k_multiparty_system
+primary_culture = germanic_colombian
+religion = reformed
+technology_group = modern_latin_american
+unit_type = south_american
+capital = 745
+set_country_flag = eu4_2k_ruling_group_srn_independent_or_nonpartisan
+# Historical executive birth date: 1942.5.2
+monarch = {
+	name = "Jules Wijdenbosch"
+	adm = 4
+	dip = 2
+	mil = 4
+}

@@ -1,0 +1,19 @@
+# Generated 2000.1.1 snapshot; later historical changes belong in events.
+government = republic
+government_rank = 2
+add_government_reform = eu4_2k_one_party_state
+add_government_reform = eu4_2k_unitary_state
+add_government_reform = eu4_2k_single_party_system
+primary_culture = tigray
+religion = sunni
+technology_group = modern_sub_saharan_african
+unit_type = sub_saharan
+capital = 2766
+set_country_flag = eu4_2k_ruling_group_ert_independent_or_nonpartisan
+# Historical executive birth date: 1946.2.2
+monarch = {
+	name = "Isaias Afewerki"
+	adm = 4
+	dip = 5
+	mil = 5
+}

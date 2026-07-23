@@ -1,0 +1,1 @@
+# Empty clean province-history layer used while generating the 2000 snapshot.

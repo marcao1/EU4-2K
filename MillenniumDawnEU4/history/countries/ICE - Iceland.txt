@@ -1,0 +1,19 @@
+# Generated 2000.1.1 snapshot; later historical changes belong in events.
+government = republic
+government_rank = 2
+add_government_reform = eu4_2k_parliamentary_republic
+add_government_reform = eu4_2k_unitary_state
+add_government_reform = eu4_2k_multiparty_system
+primary_culture = icelandic
+religion = protestant
+technology_group = modern_western
+unit_type = western
+capital = 370
+set_country_flag = eu4_2k_ruling_group_ice_independence_party
+# Historical executive birth date: 1948.1.17
+monarch = {
+	name = "David Oddsson"
+	adm = 4
+	dip = 4
+	mil = 2
+}

@@ -1,0 +1,19 @@
+# Generated 2000.1.1 snapshot; later historical changes belong in events.
+government = republic
+government_rank = 2
+add_government_reform = eu4_2k_semi_presidential_republic
+add_government_reform = eu4_2k_unitary_state
+add_government_reform = eu4_2k_closed_authoritarian_system
+primary_culture = khazak
+religion = sunni
+technology_group = modern_post_soviet
+unit_type = eastern
+capital = 476
+set_country_flag = eu4_2k_ruling_group_kzk_independent_or_nonpartisan
+# Historical executive birth date: 1953.5.17
+monarch = {
+	name = "Kassym-Jomart Tokayev"
+	adm = 3
+	dip = 4
+	mil = 3
+}

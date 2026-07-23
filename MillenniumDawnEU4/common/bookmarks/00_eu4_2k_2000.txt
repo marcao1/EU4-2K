@@ -1,0 +1,12 @@
+bookmark = {
+	name = "EU4_2K_2000_NAME"
+	desc = "EU4_2K_2000_DESC"
+	date = 2000.1.1
+	country = USA
+	country = RUS
+	country = CHN
+	country = GER
+	country = FR2
+	country = GBR
+	country = YUG
+}

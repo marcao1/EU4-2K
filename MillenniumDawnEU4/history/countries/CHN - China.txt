@@ -1,0 +1,19 @@
+# Generated 2000.1.1 snapshot; later historical changes belong in events.
+government = republic
+government_rank = 3
+add_government_reform = eu4_2k_one_party_state
+add_government_reform = eu4_2k_unitary_state
+add_government_reform = eu4_2k_single_party_system
+primary_culture = chihan
+religion = confucianism
+technology_group = modern_east_asian
+unit_type = chinese
+capital = 1816
+set_country_flag = eu4_2k_ruling_group_chn_chinese_communist_party
+# Historical executive birth date: 1926.8.17
+monarch = {
+	name = "Jiang Zemin"
+	adm = 5
+	dip = 4
+	mil = 3
+}

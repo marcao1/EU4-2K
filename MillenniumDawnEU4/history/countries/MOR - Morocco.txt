@@ -1,0 +1,19 @@
+# Generated 2000.1.1 snapshot; later historical changes belong in events.
+government = republic
+government_rank = 2
+add_government_reform = eu4_2k_parliamentary_monarchy
+add_government_reform = eu4_2k_unitary_state
+add_government_reform = eu4_2k_multiparty_system
+primary_culture = moroccan
+religion = sunni
+technology_group = modern_middle_eastern_north_african
+unit_type = muslim
+capital = 2469
+set_country_flag = eu4_2k_ruling_group_mor_independent_or_nonpartisan
+# Historical executive birth date: 1963.8.21
+monarch = {
+	name = "Muhammad VI"
+	adm = 4
+	dip = 4
+	mil = 2
+}

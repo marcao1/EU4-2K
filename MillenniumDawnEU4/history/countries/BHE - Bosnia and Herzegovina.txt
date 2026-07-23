@@ -1,0 +1,20 @@
+# Generated 2000.1.1 snapshot; later historical changes belong in events.
+government = republic
+government_rank = 2
+add_government_reform = eu4_2k_parliamentary_republic
+add_government_reform = eu4_2k_confederal_state
+add_government_reform = eu4_2k_multiparty_system
+primary_culture = bosnian
+add_accepted_culture = serbian
+religion = orthodox
+technology_group = modern_western
+unit_type = western
+capital = 3002
+set_country_flag = eu4_2k_ruling_group_bhe_party_for_bosnia_and_herzegovina
+# Historical executive birth date: 1945.10.1
+monarch = {
+	name = "Haris Silajdzic"
+	adm = 3
+	dip = 4
+	mil = 2
+}

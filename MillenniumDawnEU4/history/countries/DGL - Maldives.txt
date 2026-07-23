@@ -1,0 +1,19 @@
+# Generated 2000.1.1 snapshot; later historical changes belong in events.
+government = republic
+government_rank = 2
+add_government_reform = eu4_2k_presidential_republic
+add_government_reform = eu4_2k_unitary_state
+add_government_reform = eu4_2k_multiparty_system
+primary_culture = sinhala
+religion = sunni
+technology_group = modern_western
+unit_type = western
+capital = 1248
+set_country_flag = eu4_2k_ruling_group_dgl_independent_or_nonpartisan
+# Historical executive birth date: 1937.12.29
+monarch = {
+	name = "Maumoon Abdul Gayoom"
+	adm = 4
+	dip = 5
+	mil = 3
+}

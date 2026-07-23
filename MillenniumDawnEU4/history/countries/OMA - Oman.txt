@@ -1,0 +1,19 @@
+# Generated 2000.1.1 snapshot; later historical changes belong in events.
+government = monarchy
+government_rank = 2
+add_government_reform = eu4_2k_absolute_monarchy
+add_government_reform = eu4_2k_unitary_state
+add_government_reform = eu4_2k_nonpartisan_system
+primary_culture = omani_culture
+religion = ibadi
+technology_group = modern_middle_eastern_north_african
+unit_type = muslim
+capital = 400
+set_country_flag = eu4_2k_ruling_group_oma_independent_or_nonpartisan
+# Historical executive birth date: 1940.11.18
+monarch = {
+	name = "Qaboos"
+	adm = 3
+	dip = 5
+	mil = 3
+}

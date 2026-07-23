@@ -1,0 +1,383 @@
+# Generated subset of modern cultures required by the 2000 snapshot.
+eu4_2k_modern_east_asian_cultures = {
+	graphical_culture = asiangfx
+
+	taiwanese = {
+			primary = FRM
+		}
+
+}
+eu4_2k_modern_latin_american_cultures = {
+	graphical_culture = westerngfx
+
+	british_caribbean = {
+		}
+
+	british_colombian = {
+		}
+
+	british_mexican = {
+		}
+
+	french_caribbean = {
+		}
+
+	germanic_colombian = {
+		}
+
+	iberian_caribbean = {
+			dynasty_names = {
+				"de Trastámara" "de Guzmán" "Álvarez de Toledo" "de la Cerda" "de Castilla" "de Valencia"
+				Téllez-Girón "Manrique de Lara" "de Ávalos" Enríquez "Osuna" "Argavieso" Ruspoli "Lasso de la Vega" "de Hoyos" Zayas "de Alcalá"
+				#CK2
+				"de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"  
+				"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
+				Zúñiga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
+			}
+			male_names = {
+				Enrique Fernando Juan Felipe Carlos Sancho Ramiro Pedro Alonso Baltasar 
+				Bernardo Bertrán Hernando
+				Cristobal Domingo Esteban Fadrique Francisco Gómez Gonzalo Hermenegildo 
+				Ignacio Laín Lope Miguel Nuño Odón Ramón Rodrigo Tomás Valeriano
+				Alfonso Alphonse Álvar Oliver Álvaro Bermudo Vermudo Diego Diaco 
+				Henry Frederick Philip Ferdinand Fruela Froila García Garcia Gil 
+				Egidius Gomez Guillén William Guillermo Gutierre Walter
+				Lupo Luis Louis Manrique Amalric Martín Martin Munio Nuno Ordoño Ordono 
+				Obeko Peter Pelayo Pelagius Roderick Salvador
+				Suero Tello Vela Oveco John
+			}
+			female_names = {
+				Aldonza Anderquina Beatriz Beatrice Berenguela Berengaria Blanca Blanche Constanza 
+				Constance Elvira Estefanía Stephania Fronilda Fronilde Gontroda Gotruda Inés Agnes 
+				Elisabeth Jimena Ximena Juana Joan Leonor Eleanor Mafalda Matilda María Maria Marina Marine 
+				Mayor Mencía Mencia Milia Emily Sancha Teresa Toda Urraca
+				Isabel
+			}
+		}
+
+	iberian_colombian = {
+			dynasty_names = {
+				"de Trastámara" "de Guzmán" "Álvarez de Toledo" "de la Cerda" "de Castilla" "de Valencia"
+				Téllez-Girón "Manrique de Lara" "de Ávalos" Enríquez "Osuna" "Argavieso" Ruspoli "Lasso de la Vega" "de Hoyos" Zayas "de Alcalá"
+				#CK2
+				"de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"  
+				"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
+				Zúñiga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
+			}
+			male_names = {
+				Enrique Fernando Juan Felipe Carlos Sancho Ramiro Pedro Alonso Baltasar 
+				Bernardo Bertrán Hernando
+				Cristobal Domingo Esteban Fadrique Francisco Gómez Gonzalo Hermenegildo 
+				Ignacio Laín Lope Miguel Nuño Odón Ramón Rodrigo Tomás Valeriano
+				Alfonso Alphonse Álvar Oliver Álvaro Bermudo Vermudo Diego Diaco 
+				Henry Frederick Philip Ferdinand Fruela Froila García Garcia Gil 
+				Egidius Gomez Guillén William Guillermo Gutierre Walter
+				Lupo Luis Louis Manrique Amalric Martín Martin Munio Nuno Ordoño Ordono 
+				Obeko Peter Pelayo Pelagius Roderick Salvador
+				Suero Tello Vela Oveco John
+			}
+			female_names = {
+				Aldonza Anderquina Beatriz Beatrice Berenguela Berengaria Blanca Blanche Constanza 
+				Constance Elvira Estefanía Stephania Fronilda Fronilde Gontroda Gotruda Inés Agnes 
+				Elisabeth Jimena Ximena Juana Joan Leonor Eleanor Mafalda Matilda María Maria Marina Marine 
+				Mayor Mencía Mencia Milia Emily Sancha Teresa Toda Urraca
+				Isabel
+			}
+		}
+
+	iberian_la_platan = {
+			dynasty_names = {
+				"de Trastámara" "de Guzmán" "Álvarez de Toledo" "de la Cerda" "de Castilla" "de Valencia"
+				Téllez-Girón "Manrique de Lara" "de Ávalos" Enríquez "Osuna" "Argavieso" Ruspoli "Lasso de la Vega" "de Hoyos" Zayas "de Alcalá"
+				#CK2
+				"de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"  
+				"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
+				Zúñiga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
+			}
+			male_names = {
+				Enrique Fernando Juan Felipe Carlos Sancho Ramiro Pedro Alonso Baltasar 
+				Bernardo Bertrán Hernando
+				Cristobal Domingo Esteban Fadrique Francisco Gómez Gonzalo Hermenegildo 
+				Ignacio Laín Lope Miguel Nuño Odón Ramón Rodrigo Tomás Valeriano
+				Alfonso Alphonse Álvar Oliver Álvaro Bermudo Vermudo Diego Diaco 
+				Henry Frederick Philip Ferdinand Fruela Froila García Garcia Gil 
+				Egidius Gomez Guillén William Guillermo Gutierre Walter
+				Lupo Luis Louis Manrique Amalric Martín Martin Munio Nuno Ordoño Ordono 
+				Obeko Peter Pelayo Pelagius Roderick Salvador
+				Suero Tello Vela Oveco John
+			}
+			female_names = {
+				Aldonza Anderquina Beatriz Beatrice Berenguela Berengaria Blanca Blanche Constanza 
+				Constance Elvira Estefanía Stephania Fronilda Fronilde Gontroda Gotruda Inés Agnes 
+				Elisabeth Jimena Ximena Juana Joan Leonor Eleanor Mafalda Matilda María Maria Marina Marine 
+				Mayor Mencía Mencia Milia Emily Sancha Teresa Toda Urraca
+				Isabel
+			}
+		}
+
+	iberian_peruvian = {
+			dynasty_names = {
+				"de Trastámara" "de Guzmán" "Álvarez de Toledo" "de la Cerda" "de Castilla" "de Valencia"
+				Téllez-Girón "Manrique de Lara" "de Ávalos" Enríquez "Osuna" "Argavieso" Ruspoli "Lasso de la Vega" "de Hoyos" Zayas "de Alcalá"
+				#CK2
+				"de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"  
+				"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
+				Zúñiga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
+			}
+			male_names = {
+				Enrique Fernando Juan Felipe Carlos Sancho Ramiro Pedro Alonso Baltasar 
+				Bernardo Bertrán Hernando
+				Cristobal Domingo Esteban Fadrique Francisco Gómez Gonzalo Hermenegildo 
+				Ignacio Laín Lope Miguel Nuño Odón Ramón Rodrigo Tomás Valeriano
+				Alfonso Alphonse Álvar Oliver Álvaro Bermudo Vermudo Diego Diaco 
+				Henry Frederick Philip Ferdinand Fruela Froila García Garcia Gil 
+				Egidius Gomez Guillén William Guillermo Gutierre Walter
+				Lupo Luis Louis Manrique Amalric Martín Martin Munio Nuno Ordoño Ordono 
+				Obeko Peter Pelayo Pelagius Roderick Salvador
+				Suero Tello Vela Oveco John
+			}
+			female_names = {
+				Aldonza Anderquina Beatriz Beatrice Berenguela Berengaria Blanca Blanche Constanza 
+				Constance Elvira Estefanía Stephania Fronilda Fronilde Gontroda Gotruda Inés Agnes 
+				Elisabeth Jimena Ximena Juana Joan Leonor Eleanor Mafalda Matilda María Maria Marina Marine 
+				Mayor Mencía Mencia Milia Emily Sancha Teresa Toda Urraca
+				Isabel
+			}
+		}
+
+}
+eu4_2k_modern_middle_eastern_north_african_cultures = {
+	graphical_culture = muslimgfx
+
+	atlas = {
+			primary = ATL
+			dynasty_names = {
+				Zayyanid Wattasid Rustamid Khurasanid Ifrinid Hammadid Zirid Maghrawa Awraba Midrarid Wasulid
+				Almohad Almoravid "Banu Hilal" "Beni Djellab" "Banu al-Rand" "Banu Khalef" Aghlabid
+			}
+			male_names = {
+				Barakat Basir Dawud Faris Haidar Hashim Jabbar 
+				Junayd Najib Qasim Rahim Rashîd Safi Sakhr Wahid Zahir Jamal Mustafa Muzaffaraddin N'Guna Nasr Nazar Niptasan 
+				Nizamaddin Ptolemee Ptolemy Qutaiba Rashid Sa'id Salah Salla Salomon Solomon Sammer Sayyid Seghada Sekla Shamsaddin 
+				Sifaks Sifal Sinbad Sisso Stembanos Suggut Sultan T'ar'iq Tabat Tacfin Taffounnout Tahir Takfarinas Tanan Tariq 
+				Tegama Thabitah Tifan Theophanus Tiljad Ugdada Ugwistan Umar Uqess'un Uregh Urtilian Urz'ig Uzmir Uzza Wahab 
+				Watt'as Xamida Yabdas Yaghmurasen Yahya Yattuy Yeften Yeh'lem Yiliyen Yuba Yugerten Yugurthen Youkhanna John 
+				Yunes Yusuf Joseph Yuva Z'effun Zafir Zalelsan Zayar Zer'wal Zigza Ziri Zubeyr
+			}
+			female_names = {
+				Randa Tabassum 	Dema Dimah Dinara Dua Durra Durriyya Edza Eleonorka Eleanor Faghissa Fahriya Fariza Fedada 
+				Tazenkwedt Tazirit Tazrurt Tella Temzi Tfit Tigmi Tikinas Tilelli Timmi Tinhinan Tintadefi 
+				Tintifawin Tinzert Tisent Tislit Titbirt Titrit Tizemt Tiziri Triya Tudert Tuh'r'ict Tureght 
+			}
+		}
+
+	israeli = {
+			primary = ISR
+		}
+
+	palestinian = {
+			primary = PLS
+			male_names = {
+				Mani Rabi'a Musa Ibrahim Markhan Watban Nasir Idris 'Abd Allah Sa'ud Zayid Abdullah Muhammad Abd al 
+				'Abdullah Turki Faisal Abd Al-Rahman Khalid Fahd Aziz Abu-Bakr Abu-Bakr Aarif Abdul-Gafur Abdul-Jaleel Abdul-Qadir 
+				Abdul-Wahab Abdul Abdul Abdullah Abdullah Aghlab Akin Ali Ali Alim Aram Azam Bahir Burhanaddin
+				Fadil Fadl Faruk Ghalib Hafiz Halil Hasan Hasan Husam Hussayn Hussayn Ibrahim Abraham Idris 
+				Is'mail Ismail Isa Jabir Jalil Jibril Khaireddin Khalil Mahdi Mahmud Mahmud
+				Mansur Mirza Mubarak Muhammad Muhammad Mukhtar Murad Musa Moses Muslihiddin Muzaffaraddin Najib 
+				Nasr Nizam Qawurd Ramadan Sa'daddin Sadiq Sami Samir Shaiban
+				Shamir Shujah Sulayman Solomon Talib Ubayd Uways Yahya Yahya Ya'qub Jacob Youkhanna John Yusuf 
+				Joseph Zeyd 
+			}
+			female_names = {
+				Nadiyya Adila Amsha Asiya Faghira Habiba Hanifa Jahaira Kamala Layla Maryam Nafisa Nyawela Parand 
+				Parween Paymaneh Paywand Qamara Rafiqa Rasa Rashida Reshawna
+				Saaman Sabba Saghar Sahba Sajida Samira Semeah Setara Shahrbano Shahzadah Shameem Shararah 
+				Sheeftah Sheeva Shogofa Shokouh Shola Sholah Simin Souzan
+				Taliba Tanaz Taneen Yagana Yakta Yasmin Zaynab
+			}
+		}
+
+	sudanese = {
+			primary = SUD
+			male_names = {
+				Mohamed Ahmad Bakri Omar Hassabu Abu Abdallah Abdal Hassan Zubair Ali Salva Alhaj Osman Rahman Gaafar "Abd al-Rahman"
+				Ismail Ibrahim Sadiq Babiker Abdel Ahmed Tijani Mubarak Khidr Adel Asad Alam Isaam Fadl Khairi Yasser Hamdi
+				Mahmoud Jabar Gadir Yahiya Salih Awad Tajj Eddin Yassin Abdel-Aziz Yasir Munir Kamil Hatim
+			}
+			female_names = {
+				Shahira Yusra Asma Abda Ahu Aiza Aliyah Butayna Daniyah Dima Fahra Fahriya Fatima Gamila Ghada Habiba Huda Ibtisam 
+				Isra Karima Kera Khadija Layla Maha Malika Mariam Maria Munya Munia Nadia Naila Nur Rafiqa Rahat 
+				Raisa Randa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida Yasmin Zahida Zahra
+			}
+		}
+
+}
+eu4_2k_modern_oceanian_cultures = {
+	graphical_culture = westerngfx
+
+	micronesian = {
+			primary = MIC
+		}
+
+}
+eu4_2k_modern_post_soviet_cultures = {
+	graphical_culture = muslimgfx
+
+	tajik = {
+			primary = TJK
+			male_names = {
+				Qahhor Rahmon Emomali Olimzhon Amir Ismoil Abduhalim Kokhir Oqil Yahyo Jamshed Abdujalil Abdumalik Akbar Azatullo
+				Abadulakhad Nazarsho Tursun Jabbor Mamdali Urunboi Abdullo Abdurrahim Mumin Polat Nusratulla Muhammad Yusuf Abubakr
+			}
+			female_names = {
+				Azizmo Sumayah Asiya Oisha Googoosh Anohito Indira
+			}
+			dynasty_names = { 
+				"Zunbil" "Jindin" "Zarbil" "Bahmanid" "Khattak" "Nandin" "Trailokyadevi" "Nagar" "of Kunduz" 
+				"Bamiyan" "Kaikanite"
+			}
+		}
+
+}
+eu4_2k_modern_sub_saharan_african_cultures = {
+	graphical_culture = africangfx
+
+	fang = {
+			primary = GAB
+			dynasty_names = { 
+				Mbene Mombo Bongo M'ba
+			}
+		}
+
+	gbaya = {
+			primary = CAF
+			dynasty_names = { 
+				Bambote Goyemide
+			}
+		}
+
+	herero = {
+		}
+
+	masai = {
+			primary = KEY
+			dynasty_names = {
+				Keekonyokie Damat Purko Wuasinkishu Siria Laitayiok Loitai Kisonko
+			}
+			male_names = {
+				Kapalei Koinet Komeyicin Kurary Leboo Legeny Legishon Lemaron Lemashon Lemayian Lembui Lemuanik 
+				Lolkerra Maitera Masigonde Mbiraru Mejooli Meticiki Murunga Naengop Nampazo Ntimama Oloishona 
+				Parneres Sabore Sankei Sankale Santamo Simel Sironka Surum Tonkei
+			}
+			female_names = {
+				Isina Kingasunye Kiserian Lankenua Liloe Malazo Naeku Naimutiae Naipanoi Naisaruru Naisenya Naisiae
+				Naisianoi Nalangu Nalutuesha Namelok Namunyak Naramal Naserian Nataana Nkasiogi Peresian Pion Resson
+				Sankau Segeyian Semeyian Siglal Siatamei Simaloi Simu Sintamei Sipanto Sopiato Tanei Tentoyia Terenua
+				Tigisi
+			}
+		}
+
+	tswana = {
+			primary = BOT
+			dynasty_names = { 
+				Khama Masire Seretse Masisi Nabahani Mvita
+			}
+			male_names = {
+				Kobina Vabena Kofi Kojo Vadwo Kondwani Kumbukani Kwabena Kwadwo Kwaku Kwame Kwasi Kweku Kwesi Lanre Lekan Limbani 
+				Limbikani Madalitso Makena Mamadou Masamba Masozi Mavuto Mayamiko Mayeso Melisizwe Mosi Mphatso Mtendere Mudiwa 
+				Munashe Mwenye Ndidi Neo Ngozi Nkemdilim Nkosana Nkruma Nnamdi Nsia Nsonowa Nthanda Obi Ochieng Odhiambo Oghenekaro 
+				Oghenekevwe Oghenero Okoro Olabode Olamilekan Olanrewaju Oluchi Olufemi Olufunke Olufunmilayo Olufunmilola Olujimi 
+				Olukayode Olumide Oluwafemi Oluwafunmilayo Oluwakanyinsola Oluwasegun Oluwaseun Oluwaseyi Oluwatoyin Oluwayemisi 
+				Omobolanle Onyekachi Onyekachukwu Opeyemi i Otieno Oyibo Paki Pemphero Pilirani Refilwe Rudo Rutendo Sefu Simba 
+				Sipho Sithembile Sizwe Tadala Tafadzwa Tafari Takondwa Tamandani Tamrat Taonga Tatenda Tau Temitope Tendai Tendaji 
+				Tewodros Thabo Themba Thoko Thokozani Thulani Tichaona Tinashe Tiyamike Tumelo Udo Uduak Ufuoma Umukoro Unathi 
+				Uzochi Uzoma Wasswa Wekesa Xolani Yamikani Yared Yaw Zephania Zuberi 
+			}
+			female_names = {
+				Abena Abeni Aberash Abimbola Abiodun Achieng Adaeze Adanna Adannaya Ade Adebola Adebowale Adedayo Adetokunbo 
+				Adhiambo Adjoa Adwoa Afia Afua Akachi Akinyi Akosua Akpofure Akua Akuchi Alaba Alemayehu Alinafe Ama Amaka Amara 
+				Amarachi Anan Añuli Asha Aisha Atieno Awiti Awotwi Ayo Ayodele Ayomide Ayotunde Baako Babirye Boipelo Boitumelo 
+				Bolanle Bosede  Chausiku Chi Chiamaka Chibueze Chibuike Chibuzo Chichi Chidi Chidiebere Chidiebube Chidiegwu 
+				Chidimma Chifundo Chifuniro Chijindum Chika Chike Chikelu Chikere Chikondi Chikumbutso Chimwemwe Chinasa Chinedu 
+				Chinonso Chinwe Chinweike Chinwendu Chinweuba Chinyelu Chinyere Chioma Chipo Chisomo Chiyembekezo Chizoba Dada 
+				Dalitso Dayo Desta Dikeledi Dubaku Dumisani Ebele Efe Efemena Efua Ejiro Ejiroghene Ekene Ekenedilichukwu Ekua 
+				Ekundayo Emem Eniola Enitan Enu Eseoghene Eshe Esi Farai Fatsani Folami Fumnanya Funanya Fungai Furaha Ganizani 
+				Gbemisola Hiwot Hlengiwe Idowu Ife Ige Imani Ime Itumeleng Kagiso Kahina Kamaria Katlego Kayin Kefilwe Kirabo 
+				Kondwani Kumbukani Kunto Lerato Lesedi Limbani Limbikani Lindiwe Lumusi Lungile Madalitso Makena Manyara Marjani 
+				Masego Masozi 
+			}
+		}
+
+}
+eu4_2k_modern_western_cultures = {
+	graphical_culture = westerngfx
+
+	british_australian = {
+		}
+
+	british_canadian = {
+		}
+
+	british_oceanian = {
+		}
+
+	bulgar = {
+			graphical_culture = muslimgfx
+			dynasty_names = {
+				Dulo Ermi Vokil Ukil Ugain
+			}
+			male_names = {
+				Kotrag Irhan Tuqyi Aidar Silki Batyr Mumin Mikail Ghabdula Chelbir Kubrat Batbayan Gostun Organa Asparukh Tervel Ajjar Sevar Kormisosh
+				Vinekh Telets Sabin Umor Toktu Pagan Telerig Kardam Krum Omurtag Malamir Presian Gavril Kaloyan
+			}
+			female_names = {
+				Akgul Asli Ayasun Ayten Bozçin Dilek Esin Gulay Gulçiçäk Gundes Gunduz Gunes Ikalay Ilkay Ipek Ipekel Irge Karacik Khatun Kätyarikka Këlnissa Këlyamal Lyukha Lärkka Mala Maturkka Mutlu Naça Parsbit Patiyer Paykëlti Peksen 
+				Puyantay Samur Sarantay Sarica Sarikel Sarä Sati Savaçka Savilay Savintik Savkëlti Savtilek Shurkka Sibel Sirin Sirma Songul Tekçe Tura Tähtani Umay Usunbike Yartilek Yasar Yeldem Yildiz Çeçeppi Çeçki
+				Çeçtilet Çilen Çiltanesi Çiçäk Özgul Özlem
+			}
+		}
+
+	french_canadian = {
+			male_names = {
+				Adélard Adolphe Alphonse Antoine Baptiste Bénédict Charles Charles-Étienne Claude 
+				Dominique Émile Étienne Félix Félix-Gabriel François Georges Georges-Émile Gérard 
+				Guy Henri Hervé Honoré Jacques Jacques-Yvan Jean Jean-Christophe Jean-Baptiste 
+				Jean-François Jean-Jacques Jean-Marc Jean-Marie Jean-Maurice Jean-Michaël Jean-Paul 
+				Joseph Joseph-Jacques Loïc Louis Louis-Alexandre Louis-Michel Louis-Olivier Louis-René 
+				Lucien Marc Marc-André Michaël Michel Mario Maurice Maurice-Pierre Olivier Paul 
+				Paul-Émile Paul-Olivier Pierre Pierre-Joseph Pierre-Marc Pierre-Olivier Pierre-Robert 
+				René René-Jacques Robert Simon Simon-Pierre Stéphane Sylvain
+			}
+			female_names = {
+				Adélaïde Alexandra Anne Antoinette Alphonsine Bénédicte Camille Cassandra Charlotte 
+				Dominique Émilie Étienne Francine Jeanne Jeanne-Marie Joséphine Line Line-Paul Lise 
+				Louise Louise-Marie Louise-Paul Louise-René Pauline Lucienne Marie Marie-Madeleine 
+				Martine Michelle Monique Nathalie Simone
+			}
+			dynasty_names = {
+				Arcand Barrette Beauchamp Bédard Bertrand Blanchard Boisclair Bouchard Boucher 
+				Bourassa Cardinal Charest Chevrette Courchesne Chouinard Couillard Cousineau Dumont 
+				Duplessis Dupuis Fournier Gagnon Gaudreault Gendron Godbout Gouin Guilbault Houde 
+				Lajoie Landry Laurin Leblanc Lesage Lévesque Lisée Marchand Marois Mercier Morin 
+				Mousseau Normandeau Ouimet Parent Parizeau Péladeau Prévost Prud'homme Sauvé Taillefer 
+				Talbot Taschereau Thériault Tremblay
+			}
+		}
+
+	macedonian = {
+			primary = MAC
+			male_names = {
+				Ivan Pavel Nebojša Slavisa Mario Dusan Milorad Velimir Toni Maxim Risto Branimir 
+				Milan Bogdan Dalibor Zlatan Nikita Miroslav Sava Slawomir Vladimir Mirko Miodrag Lubomír 
+				Nikola Matej Radomir Sašo Boris Bojan Mihailo Aco Igor Nenad Bozidar Boleslaw 
+				Ace Yakov Vitomir Dragan Alek Todor Milivoj Aleksandar Mladen Vukašin Czeslaw 
+				Zoran Predrag Zivko Ertan Jovan Davor Dragomir Rumen Goran Pavle Tihomir Milomir 
+			}
+			female_names = {
+				Sandra Snežana Ana Branka Elena Bozena Toni Kalina Milan Jasna Magdalena Radmila 
+				Nikita Marija Sava Mira Dubravka Nikola Saška Milena Aleksandra Slavena 
+				Vesna Biljana Ljubica 
+			}
+		}
+
+}

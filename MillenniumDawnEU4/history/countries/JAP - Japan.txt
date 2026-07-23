@@ -1,0 +1,19 @@
+# Generated 2000.1.1 snapshot; later historical changes belong in events.
+government = republic
+government_rank = 3
+add_government_reform = eu4_2k_parliamentary_monarchy
+add_government_reform = eu4_2k_unitary_state
+add_government_reform = eu4_2k_dominant_party_system
+primary_culture = japanese
+religion = shinto
+technology_group = modern_east_asian
+unit_type = chinese
+capital = 1020
+set_country_flag = eu4_2k_ruling_group_jap_liberal_democratic_party
+# Historical executive birth date: 1937.6.25
+monarch = {
+	name = "Keizo Obuchi"
+	adm = 4
+	dip = 4
+	mil = 2
+}

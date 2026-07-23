@@ -1,0 +1,19 @@
+# Generated 2000.1.1 snapshot; later historical changes belong in events.
+government = republic
+government_rank = 2
+add_government_reform = eu4_2k_presidential_republic
+add_government_reform = eu4_2k_unitary_state
+add_government_reform = eu4_2k_multiparty_system
+primary_culture = iberian_caribbean
+religion = catholic
+technology_group = modern_latin_american
+unit_type = south_american
+capital = 490
+set_country_flag = eu4_2k_ruling_group_dom_independent_or_nonpartisan
+# Historical executive birth date: 1953.12.26
+monarch = {
+	name = "Leonel Fernández"
+	adm = 4
+	dip = 4
+	mil = 2
+}

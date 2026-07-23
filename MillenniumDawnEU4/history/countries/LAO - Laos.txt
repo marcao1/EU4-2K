@@ -1,0 +1,19 @@
+# Generated 2000.1.1 snapshot; later historical changes belong in events.
+government = republic
+government_rank = 2
+add_government_reform = eu4_2k_one_party_state
+add_government_reform = eu4_2k_unitary_state
+add_government_reform = eu4_2k_single_party_system
+primary_culture = lao
+religion = buddhism
+technology_group = modern_southeast_asian
+unit_type = chinese
+capital = 614
+set_country_flag = eu4_2k_ruling_group_lao_independent_or_nonpartisan
+# Historical executive birth date: 1924.2.8
+monarch = {
+	name = "Khamtai Siphandon"
+	adm = 2
+	dip = 4
+	mil = 2
+}

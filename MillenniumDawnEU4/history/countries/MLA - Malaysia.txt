@@ -1,0 +1,19 @@
+# Generated 2000.1.1 snapshot; later historical changes belong in events.
+government = republic
+government_rank = 2
+add_government_reform = eu4_2k_parliamentary_monarchy
+add_government_reform = eu4_2k_federal_state
+add_government_reform = eu4_2k_dominant_party_system
+primary_culture = malayan
+religion = sunni
+technology_group = modern_southeast_asian
+unit_type = chinese
+capital = 2392
+set_country_flag = eu4_2k_ruling_group_mla_barisan_nasional
+# Historical executive birth date: 1925.7.10
+monarch = {
+	name = "Mahathir Mohamad"
+	adm = 5
+	dip = 4
+	mil = 3
+}

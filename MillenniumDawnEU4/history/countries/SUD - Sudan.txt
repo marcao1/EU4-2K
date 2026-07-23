@@ -1,0 +1,19 @@
+# Generated 2000.1.1 snapshot; later historical changes belong in events.
+government = republic
+government_rank = 2
+add_government_reform = eu4_2k_military_government
+add_government_reform = eu4_2k_unitary_state
+add_government_reform = eu4_2k_closed_authoritarian_system
+primary_culture = sudanese
+religion = sunni
+technology_group = modern_middle_eastern_north_african
+unit_type = muslim
+capital = 2798
+set_country_flag = eu4_2k_ruling_group_sud_independent_or_nonpartisan
+# Historical executive birth date: 1944.1.1
+monarch = {
+	name = "Omar al-Bashir"
+	adm = 4
+	dip = 3
+	mil = 4
+}

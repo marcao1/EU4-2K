@@ -37,9 +37,9 @@ These corrections do not change any valid province border or province ID.
 - Canal definitions and canal graphics
 - Adjacencies and ambient map objects
 
-## Not included
+## Not included in the original map-only copy
 
-This foundation step does not copy Extended Timeline gameplay or historical content:
+The map-foundation step did not copy Extended Timeline gameplay or historical content. Later generated phases may now add narrowly selected definitions outside `map/` while keeping this package itself map-only:
 
 - Country history
 - Province history
@@ -69,7 +69,7 @@ No dated history is stored in the copied `map/` package, so it contains no pre-1
 
 ## Descriptor policy
 
-The clean descriptor replaces only `map/random` at this stage. It deliberately does not replace country or province history yet, allowing the map foundation to be isolated from later historical-data work.
+The country-foundation phase now also replaces `common/bookmarks`, `history/countries`, and `history/provinces`. Province history currently contains only a placeholder so incompatible vanilla ownership cannot be applied to ET province IDs. The proper clean `2000.1.1` province snapshot is the next world-setup phase.
 
 ## Next step
 

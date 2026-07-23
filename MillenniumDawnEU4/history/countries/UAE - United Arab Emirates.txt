@@ -1,0 +1,19 @@
+# Generated 2000.1.1 snapshot; later historical changes belong in events.
+government = monarchy
+government_rank = 2
+add_government_reform = eu4_2k_absolute_monarchy
+add_government_reform = eu4_2k_federal_state
+add_government_reform = eu4_2k_nonpartisan_system
+primary_culture = gulf_arabic
+religion = sunni
+technology_group = modern_middle_eastern_north_african
+unit_type = muslim
+capital = 2333
+set_country_flag = eu4_2k_ruling_group_uae_independent_or_nonpartisan
+# Historical executive birth date: 1918.5.6
+monarch = {
+	name = "Zayed bin Sultan Al Nahyan"
+	adm = 4
+	dip = 4
+	mil = 1
+}

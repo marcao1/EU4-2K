@@ -1,0 +1,19 @@
+# Generated 2000.1.1 snapshot; later historical changes belong in events.
+government = republic
+government_rank = 2
+add_government_reform = eu4_2k_parliamentary_monarchy
+add_government_reform = eu4_2k_unitary_state
+add_government_reform = eu4_2k_multiparty_system
+primary_culture = nguni
+religion = protestant
+technology_group = modern_sub_saharan_african
+unit_type = sub_saharan
+capital = 3011
+set_country_flag = eu4_2k_ruling_group_les_lesotho_congress_for_democracy
+# Historical executive birth date: 1945.3.14
+monarch = {
+	name = "Pakalitha Mosisili"
+	adm = 3
+	dip = 3
+	mil = 2
+}
