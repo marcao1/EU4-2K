@@ -1,8 +1,0 @@
-# Littoral Combat Ship
-type = galley
-hull_size = 45
-base_cannons = 130
-blockade = 12
-sail_speed = 23
-sailors = 200
-sprite_level = 6

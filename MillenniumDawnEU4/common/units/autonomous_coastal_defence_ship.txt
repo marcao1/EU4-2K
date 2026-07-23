@@ -1,8 +1,0 @@
-# Autonomous Coastal Defence Ship
-type = galley
-hull_size = 60
-base_cannons = 155
-blockade = 14
-sail_speed = 25
-sailors = 160
-sprite_level = 6

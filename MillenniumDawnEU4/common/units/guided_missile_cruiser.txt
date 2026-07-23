@@ -1,8 +1,0 @@
-# Guided Missile Cruiser
-type = heavy_ship
-hull_size = 135
-base_cannons = 300
-blockade = 14
-sail_speed = 22
-sailors = 1500
-sprite_level = 6

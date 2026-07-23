@@ -1,8 +1,0 @@
-# Amphibious Assault Ship
-type = transport
-hull_size = 60
-base_cannons = 30
-blockade = 7
-sail_speed = 19
-sailors = 120
-sprite_level = 5

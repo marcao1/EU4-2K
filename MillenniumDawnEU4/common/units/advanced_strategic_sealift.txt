@@ -1,8 +1,0 @@
-# Advanced Strategic Sealift
-type = transport
-hull_size = 80
-base_cannons = 45
-blockade = 9
-sail_speed = 22
-sailors = 100
-sprite_level = 5
