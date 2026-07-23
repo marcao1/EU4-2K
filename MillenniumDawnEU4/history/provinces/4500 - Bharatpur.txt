@@ -24,15 +24,26 @@ base_manpower = 2
 is_city = yes
 add_core = NST
 
-120.1.1 = { owner = KUS controller = KUS add_core = KUS remove_core = NST }
-320.1.1 = { owner = PDM controller = PDM add_core = PDM remove_core = KUS }
-360.1.1 = { owner = GUP controller = GUP add_core = GUP remove_core = PDM }
-540.1.1 = { owner = HRS controller = HRS add_core = HRS remove_core = GUP }
-647.1.1 = { owner = GRP controller = GRP add_core = GRP remove_core = HRS }
-1036.1.1 = { owner = CCH controller = CCH add_core = CCH remove_core = GRP }
-1193.1.1 = { owner = GHU controller = GHU add_core = GHU remove_core = CCH }
-1206.1.1 = { owner = DLH controller = DLH add_core = DLH add_core = MEW remove_core = GHU }
-1351.1.1 = { owner = MEW controller = MEW add_core = MEW remove_core = DLH }
+1444.11.11 = {
+owner = KUS controller = KUS add_core = KUS remove_core = NST
+owner = PDM controller = PDM add_core = PDM remove_core = KUS
+owner = GUP controller = GUP add_core = GUP remove_core = PDM
+owner = HRS controller = HRS add_core = HRS remove_core = GUP
+owner = GRP controller = GRP add_core = GRP remove_core = HRS
+owner = CCH controller = CCH add_core = CCH remove_core = GRP
+owner = GHU controller = GHU add_core = GHU remove_core = CCH
+owner = DLH controller = DLH add_core = DLH add_core = MEW remove_core = GHU
+owner = MEW controller = MEW add_core = MEW remove_core = DLH
+}
+
+
+
+
+
+
+
+
+
 
 1530.1.1 = {
 	owner = MUG

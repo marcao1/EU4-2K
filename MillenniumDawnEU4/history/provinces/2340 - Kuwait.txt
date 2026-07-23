@@ -26,24 +26,44 @@ base_manpower = 1
 is_city = yes
 add_core = CRC
 
-120.1.1 = { religion = zoroastrian }
-220.1.1 = { owner = LKH controller = LKH add_core = LKH capital = "Grane" }
-325.1.1 = { owner = ERS controller = ERS add_core = ERS remove_core = LKH }
-639.1.1 = { owner = RSD controller = RSD add_core = RSD remove_core = ERS religion = islam }
-661.7.28 = { owner = UMA controller = UMA add_core = UMA remove_core = RSD religion = sunni }
-750.8.6 = { owner = ABA controller = ABA add_core = ABA remove_core = UMA }
-944.1.1 = { owner = IRQ controller = IRQ add_core = IRQ }
-978.3.1 = { owner = PER controller = PER add_core = PER }
-983.3.26 = { owner = IRQ controller = IRQ }
-987.1.1 = { owner = PER controller = PER }
-1021.1.1 = { owner = IRQ controller = IRQ }
-1044.3.1 = { owner = PER controller = PER }
-1048.10.1 = { owner = IRQ controller = IRQ }
-1055.12.17 = { owner = SEL controller = SEL add_core = SEL remove_core = PER }
-1153.1.1 = { owner = ABA controller = ABA add_core = ABA remove_core = SEL }
-1258.2.10 = { owner = KHA controller = KHA add_core = KHA add_core = IRQ remove_core = ABA }
-1260.1.1 = { owner = ILK controller = ILK add_core = ILK remove_core = KHA }
-1335.1.1 = { owner = ALH controller = ALH add_core = ALH remove_core = ILK }
+1444.11.11 = {
+religion = zoroastrian
+owner = LKH controller = LKH add_core = LKH capital = "Grane"
+owner = ERS controller = ERS add_core = ERS remove_core = LKH
+owner = RSD controller = RSD add_core = RSD remove_core = ERS religion = islam
+owner = UMA controller = UMA add_core = UMA remove_core = RSD religion = sunni
+owner = ABA controller = ABA add_core = ABA remove_core = UMA
+owner = IRQ controller = IRQ add_core = IRQ
+owner = PER controller = PER add_core = PER
+owner = IRQ controller = IRQ
+owner = PER controller = PER
+owner = IRQ controller = IRQ
+owner = PER controller = PER
+owner = IRQ controller = IRQ
+owner = SEL controller = SEL add_core = SEL remove_core = PER
+owner = ABA controller = ABA add_core = ABA remove_core = SEL
+owner = KHA controller = KHA add_core = KHA add_core = IRQ remove_core = ABA
+owner = ILK controller = ILK add_core = ILK remove_core = KHA
+owner = ALH controller = ALH add_core = ALH remove_core = ILK
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1498.1.1 = { discovered_by = POR }
 1549.1.1 = {

@@ -17,11 +17,15 @@ native_size = 40
 native_ferocity = 4
 native_hostileness = 9
 
-1240.1.1 = { owner = MAL controller = MAL add_core = MAL is_city = yes trade_goods = ivory }
-1350.1.1 = { add_core = KBU add_local_autonomy = 50 } #Subject province within the empire
+1444.11.11 = {
+owner = MAL controller = MAL add_core = MAL is_city = yes trade_goods = ivory
+add_core = KBU add_local_autonomy = 50
+}
+
+ #Subject province within the empire
 
 1537.1.1 = { owner = KBU controller = KBU add_core = KBU remove_core = MAL } #Kaabu declares independece from Mali
-1755.1.1 = { capital = "Labé" }
+1755.1.1 = { capital = "Labï¿½" }
 1780.1.1 = { religion = sunni }
 
 1867.1.1 = { owner = FUL controller = FUL add_core = FUL }

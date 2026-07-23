@@ -20,26 +20,45 @@ base_manpower = 1
 capital = "Mago" 
 is_city = yes
 
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-400.1.1 = { religion = chalcedonism }
-450.1.1 = { owner = VAN controller = VAN add_core = VAN remove_core = ROW }
-534.1.1 = { owner = BYZ controller = BYZ add_core = BYZ remove_core = VAN }
-903.1.1 = { owner = CRD controller = CRD add_core = CRD remove_core = BYZ capital = "Mahon" }
-800.1.1 = { religion = sunni culture = andalucian }
-1011.1.1 = { owner = DEN controller = DEN add_core = DEN remove_core = CRD }
-1076.1.1 = { owner = MJR controller = MJR add_core = MJR remove_core = DEN }
-1114.1.1 = { owner = PIS controller = PIS add_core = PIS }
-1115.1.1 = { owner = MOR controller = MOR add_core = MOR remove_core = PIS }
-1145.1.1 = { owner = MJR controller = MJR remove_core = MOR }
-1203.1.1 = { owner = MOR controller = MOR add_core = MOR }
-1231.6.17 = { owner = MJR controller = MJR add_core = MJR add_core = MJO } #Treaty of Capdepera
-1287.1.17 = { owner = ARA controller = ARA add_core = ARA add_core = MJO remove_core = MJR }
-1295.1.1 = { owner = MJO controller = MJO }
-1300.1.1 = { religion = catholic culture = catalan }
-1349.10.25 = { owner = ARA controller = ARA }
+1444.11.11 = {
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+religion = chalcedonism
+owner = VAN controller = VAN add_core = VAN remove_core = ROW
+owner = BYZ controller = BYZ add_core = BYZ remove_core = VAN
+owner = CRD controller = CRD add_core = CRD remove_core = BYZ capital = "Mahon"
+religion = sunni culture = andalucian
+owner = DEN controller = DEN add_core = DEN remove_core = CRD
+owner = MJR controller = MJR add_core = MJR remove_core = DEN
+owner = PIS controller = PIS add_core = PIS
+owner = MOR controller = MOR add_core = MOR remove_core = PIS
+owner = MJR controller = MJR remove_core = MOR
+owner = MOR controller = MOR add_core = MOR
+owner = MJR controller = MJR add_core = MJR add_core = MJO
+owner = ARA controller = ARA add_core = ARA add_core = MJO remove_core = MJR
+owner = MJO controller = MJO
+religion = catholic culture = catalan
+owner = ARA controller = ARA
+}
+ # Final division of the empire
 
-1462.1.1 = { unrest = 2 } # Remença peasant revolt, in parallel with the Catalan civil war.
-1472.1.1 = { unrest = 0 } # End of the First Remença revolt
+
+
+
+
+
+
+
+
+
+
+ #Treaty of Capdepera
+
+
+
+
+
+1462.1.1 = { unrest = 2 } # Remenï¿½a peasant revolt, in parallel with the Catalan civil war.
+1472.1.1 = { unrest = 0 } # End of the First Remenï¿½a revolt
 1516.1.23 = {
 	controller = SPA
 	owner = SPA

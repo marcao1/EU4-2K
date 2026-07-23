@@ -17,13 +17,14 @@ native_ferocity = 4
 native_hostileness = 9
 discovered_by = polynesian_tech
 
-1200.1.1 = { 	
-	owner = WAI
+1444.11.11 = {
+owner = WAI
 	controller = WAI
 	add_core = WAI
 	trade_goods = grain
 	culture = maori
 }
+
 
 1642.1.1 = { discovered_by = NED } # Abel Tasman
 

@@ -13,15 +13,18 @@ discovered_by = east_african
 base_tax = 1
 base_production = 1
 
-500.1.1 = {	
-	owner = ALO
+1444.11.11 = {
+owner = ALO
 	controller = ALO
 	add_core = ALO
 	is_city = yes
 	trade_goods = livestock
+religion = coptic
+discovered_by = muslim discovered_by = ottoman
 }
-1280.1.1 = { religion = coptic }
-1300.1.1 = { discovered_by = muslim discovered_by = ottoman }
+
+
+
 
 1503.1.1 = {	owner = NUB
 	   	controller = NUB

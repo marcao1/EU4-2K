@@ -19,21 +19,38 @@ is_city = yes
 add_core = HND
 add_core = WUU
 
-9.1.10 = { owner = XIN controller = XIN add_core = XIN }
-23.10.5 = { owner = SHU controller = SHU add_core = SHU remove_core = XIN }
-36.12.25 = { owner = HND controller = HND add_core = HND }
-189.9.28 = { owner = JNG controller = JNG add_core = JNG remove_core = HND }
-208.11.1 = { owner = SHU controller = SHU add_core = SHU }
-263.11.1 = { owner = WEI controller = WEI add_core = WEI remove_core = SHU }
-266.2.4 = { owner = JIN controller = JIN add_core = JIN remove_core = WEI }
-420.1.1 = { owner = LSO controller = LSO add_core = LSO remove_core = JIN }
-479.1.1 = { owner = QIC controller = QIC add_core = QIC remove_core = LSO }
-502.1.1 = { owner = LNG controller = LNG add_core = LNG remove_core = QIC }
-557.1.1 = { owner = CEN controller = CEN add_core = CEN remove_core = LNG }
-582.1.1 = { owner = SIZ controller = SIZ add_core = SIZ remove_core = CEN }
-624.1.1 = { owner = TNG controller = TNG add_core = TNG }
-750.1.1 = { owner = SIZ controller = SIZ add_core = SIZ remove_core = TNG }
-1371.1.1 = { owner = MNG controller = MNG add_core = MNG }
+1444.11.11 = {
+owner = XIN controller = XIN add_core = XIN
+owner = SHU controller = SHU add_core = SHU remove_core = XIN
+owner = HND controller = HND add_core = HND
+owner = JNG controller = JNG add_core = JNG remove_core = HND
+owner = SHU controller = SHU add_core = SHU
+owner = WEI controller = WEI add_core = WEI remove_core = SHU
+owner = JIN controller = JIN add_core = JIN remove_core = WEI
+owner = LSO controller = LSO add_core = LSO remove_core = JIN
+owner = QIC controller = QIC add_core = QIC remove_core = LSO
+owner = LNG controller = LNG add_core = LNG remove_core = QIC
+owner = CEN controller = CEN add_core = CEN remove_core = LNG
+owner = SIZ controller = SIZ add_core = SIZ remove_core = CEN
+owner = TNG controller = TNG add_core = TNG
+owner = SIZ controller = SIZ add_core = SIZ remove_core = TNG
+owner = MNG controller = MNG add_core = MNG
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1594.1.1 = { revolt_risk = 6 } # Rebels
 1599.1.1 = { revolt_risk = 0 }

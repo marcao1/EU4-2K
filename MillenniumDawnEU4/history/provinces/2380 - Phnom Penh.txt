@@ -19,13 +19,22 @@ is_city = yes
 add_core = FUN
 center_of_trade = 1
 
-550.1.1 = { owner = CNA controller = CNA add_core = CNA remove_core = FUN }
-600.1.1 = { religion = mahayana }
-700.1.1 = { capital = "Phnom Penh" }
-802.1.1 = { owner = CMB controller = CMB add_core = CMB remove_core = CNA }
-900.1.1 = { base_tax = 5 base_production = 5 }
-1295.1.1 = { religion = buddhism }
-1431.1.1 = { owner = KHM controller = KHM add_core = KHM remove_core = CMB }
+1444.11.11 = {
+owner = CNA controller = CNA add_core = CNA remove_core = FUN
+religion = mahayana
+capital = "Phnom Penh"
+owner = CMB controller = CMB add_core = CMB remove_core = CNA
+base_tax = 5 base_production = 5
+religion = buddhism
+owner = KHM controller = KHM add_core = KHM remove_core = CMB
+}
+
+
+
+
+
+
+
 
 1535.1.1 = { discovered_by = POR }
 1811.1.1 = { unrest = 5 } # The Siamese-Cambodian Rebellion

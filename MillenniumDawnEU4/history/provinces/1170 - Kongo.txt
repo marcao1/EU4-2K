@@ -14,10 +14,13 @@ native_hostileness = 7
 discovered_by = central_african
 center_of_trade = 2
 
-1350.1.1 = { owner = KON controller = KON add_core = KON is_city = yes trade_goods = iron }
+1444.11.11 = {
+owner = KON controller = KON add_core = KON is_city = yes trade_goods = iron
+}
 
-1483.1.1   = { discovered_by = POR } # Diogo Cão
-1560.1.1   = { capital = "São Salvador do Congo" } # ~1976, The name is changed to Mbanza Kongo again 
+
+1483.1.1   = { discovered_by = POR } # Diogo Cï¿½o
+1560.1.1   = { capital = "Sï¿½o Salvador do Congo" } # ~1976, The name is changed to Mbanza Kongo again 
 1665.10.30 = { unrest = 8 } #After the Battle of Mbwila the Kongo is torn apart by consecutive civil wars.
 1702.1.1   = { unrest = 0 } #Order more or less restored
 

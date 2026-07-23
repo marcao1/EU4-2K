@@ -24,20 +24,36 @@ base_manpower = 1
 is_city = yes
 add_core = IGR
 
-10.1.1 = { owner = NST controller = NST add_core = NST }
-60.1.1 = { remove_core = IGR }
-120.1.1 = { owner = KUS controller = KUS add_core = KUS remove_core = NST capital = "Sialkot" }
-375.1.1 = { owner = KDT controller = KDT add_core = KDT remove_core = KUS }
-460.1.1 = { owner = KAP controller = KAP add_core = KAP remove_core = KDT }
-530.1.1 = { owner = GND controller = GND add_core = GND remove_core = KAP }
-550.1.1 = { religion = hinduism }
-670.1.1 = { owner = KSH controller = KSH add_core = KSH remove_core = GND }
-860.1.1 = { owner = SHH controller = SHH add_core = SHH remove_core = KSH }
-1002.1.1 = { owner = GHZ controller = GHZ add_core = GHZ remove_core = SHH }
-1187.1.1 = { owner = GHU controller = GHU add_core = GHU remove_core = GHZ }
-1210.1.1 = { owner = MUL controller = MUL add_core = MUL remove_core = GHU }
-1228.1.1 = { owner = DLH controller = DLH add_core = DLH add_core = PUN }
-1398.1.1 = { owner = MUL controller = MUL add_core = MUL }
+1444.11.11 = {
+owner = NST controller = NST add_core = NST
+remove_core = IGR
+owner = KUS controller = KUS add_core = KUS remove_core = NST capital = "Sialkot"
+owner = KDT controller = KDT add_core = KDT remove_core = KUS
+owner = KAP controller = KAP add_core = KAP remove_core = KDT
+owner = GND controller = GND add_core = GND remove_core = KAP
+religion = hinduism
+owner = KSH controller = KSH add_core = KSH remove_core = GND
+owner = SHH controller = SHH add_core = SHH remove_core = KSH
+owner = GHZ controller = GHZ add_core = GHZ remove_core = SHH
+owner = GHU controller = GHU add_core = GHU remove_core = GHZ
+owner = MUL controller = MUL add_core = MUL remove_core = GHU
+owner = DLH controller = DLH add_core = DLH add_core = PUN
+owner = MUL controller = MUL add_core = MUL
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1451.4.20 = {
 	controller = DLH

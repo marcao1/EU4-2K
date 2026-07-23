@@ -13,8 +13,12 @@ native_size = 40
 native_ferocity = 4.5
 native_hostileness = 9 
 
-523.1.1 = { owner = IFE controller = IFE add_core = IFE is_city = yes trade_goods = grain }
-892.1.1 = { owner = OYO controller = OYO add_core = OYO remove_core = IFE }
+1444.11.11 = {
+owner = IFE controller = IFE add_core = IFE is_city = yes trade_goods = grain
+owner = OYO controller = OYO add_core = OYO remove_core = IFE
+}
+
+
 
 1525.1.1 = { unrest = 8 capital = "Kusu" } # Nupe Invasions force Oyo to abandon capital
 1560.1.1 = { capital = "Igboho" } # Oyo Alafin Egunoju relocates capital

@@ -21,14 +21,24 @@ base_manpower = 2
 is_city = yes
 add_core = AYX
 
-250.1.1 = { owner = KLA controller = KLA add_core = KLA remove_core = AYX }
-560.1.1 = { owner = PND controller = PND add_core = PND remove_core = KLA }
-700.1.1 = { base_production = 2 }
-800.1.1 = { discovered_by = nomad_group }
-900.1.1 = { base_production = 3 }
-810.1.1 = { owner = CEA controller = CEA add_core = CEA remove_core = PND }
-960.1.1 = { capital = "Kumari" }
-1090.1.1 = { owner = VND controller = VND add_core = VND remove_core = CEA }
+1444.11.11 = {
+owner = KLA controller = KLA add_core = KLA remove_core = AYX
+owner = PND controller = PND add_core = PND remove_core = KLA
+base_production = 2
+discovered_by = nomad_group
+base_production = 3
+owner = CEA controller = CEA add_core = CEA remove_core = PND
+capital = "Kumari"
+owner = VND controller = VND add_core = VND remove_core = CEA
+}
+
+
+
+
+
+
+
+
 
 1498.1.1 = { discovered_by = POR }
 1662.1.1 = { controller = NED }

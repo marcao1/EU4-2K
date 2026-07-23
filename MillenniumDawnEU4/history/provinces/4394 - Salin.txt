@@ -18,13 +18,22 @@ base_manpower = 1
 is_city = yes
 add_core = SRK
 
-700.1.1 = { base_manpower = 2 }
-900.1.1 = { culture = burmese }
-901.1.1 = { base_manpower = 3 }
-1044.1.1 = { owner = PAG controller = PAG add_core = PAG }
-1100.1.1 = { base_tax = 3 }
-1297.12.17 = { owner = MYI controller = MYI add_core = MYI remove_core = PAG }
-1364.4.1 = { owner = AVA controller = AVA add_core = AVA remove_core = MYI }
+1444.11.11 = {
+base_manpower = 2
+culture = burmese
+base_manpower = 3
+owner = PAG controller = PAG add_core = PAG
+base_tax = 3
+owner = MYI controller = MYI add_core = MYI remove_core = PAG
+owner = AVA controller = AVA add_core = AVA remove_core = MYI
+}
+
+
+
+
+
+
+
 
 1527.1.1 = {
 	owner = SST

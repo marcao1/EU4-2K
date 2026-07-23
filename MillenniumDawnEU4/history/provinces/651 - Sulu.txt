@@ -16,9 +16,14 @@ native_ferocity = 7
 native_hostileness = 9
 center_of_trade = 1
 
-1160.1.1 = { owner = SUL controller = SUL add_core = SUL is_city = yes trade_goods = gems } #Pearls
-1320.1.1 = { discovered_by = indian discovered_by = muslim discovered_by = ottoman }
-1405.1.1 = { base_tax = 4 base_production = 4 religion = sunni } # The Sulu Sultanate
+1444.11.11 = {
+owner = SUL controller = SUL add_core = SUL is_city = yes trade_goods = gems
+discovered_by = indian discovered_by = muslim discovered_by = ottoman
+base_tax = 4 base_production = 4 religion = sunni
+}
+ #Pearls
+
+ # The Sulu Sultanate
 
 1521.1.1 = { discovered_by = SPA } # Ferdinand Magellan 
 

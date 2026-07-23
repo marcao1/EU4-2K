@@ -20,22 +20,34 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-150.1.1 = { culture = gothic religion = germanic }
-250.1.1 = { owner = GEP controller = GEP add_core = GEP remove_core = BAS culture = gepid religion = germanic }
-469.1.1 = { owner = SCI controller = SCI add_core = SCI remove_core = GEP culture = scirian }
-567.1.1 = { owner = AVR controller = AVR add_core = AVR remove_core = SCI culture = avar religion = tengri_pagan_reformed }
-804.1.1 = { owner = HUN controller = HUN add_core = HUN remove_core = AVR culture = hungarian }
-1000.1.1 = { base_tax = 2 base_production = 2 }
-1010.1.1 = { religion = catholic }
-1100.1.1 = { religion = orthodox culture = ruthenian }
-1280.1.1 = { owner = VOL controller = VOL add_core = VOL }
-1320.1.1 = { owner = HUN controller = HUN add_core = HUN remove_core = VOL }
+1444.11.11 = {
+culture = gothic religion = germanic
+owner = GEP controller = GEP add_core = GEP remove_core = BAS culture = gepid religion = germanic
+owner = SCI controller = SCI add_core = SCI remove_core = GEP culture = scirian
+owner = AVR controller = AVR add_core = AVR remove_core = SCI culture = avar religion = tengri_pagan_reformed
+owner = HUN controller = HUN add_core = HUN remove_core = AVR culture = hungarian
+base_tax = 2 base_production = 2
+religion = catholic
+religion = orthodox culture = ruthenian
+owner = VOL controller = VOL add_core = VOL
+owner = HUN controller = HUN add_core = HUN remove_core = VOL
+}
+
+
+
+
+
+
+
+
+
+
 
 1526.8.30 = {	owner = TRA
 		controller = TRA
 		add_core = HAB
 		add_core = TRA
-   	    } # Battle of Mohács, the end of the independent Kingdom of Hungary
+   	    } # Battle of Mohï¿½cs, the end of the independent Kingdom of Hungary
 1551.7.19 = {	owner = HAB
 		controller = HAB
 		} # Ferdinand gains Transylvania from Treaty of Weissenburg

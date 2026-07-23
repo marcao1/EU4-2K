@@ -13,13 +13,14 @@ native_ferocity = 1
 native_hostileness = 0
 discovered_by = aboriginal_tech
 
-1200.1.1 = {
-	add_core = PLW
+1444.11.11 = {
+add_core = PLW
 	owner = PLW
 	controller = PLW
 	is_city = yes
 	trade_goods = fish
 }
+
 
 1642.11.24 = { discovered_by = NED } # Abel Tasman
 1803.1.1   = {	

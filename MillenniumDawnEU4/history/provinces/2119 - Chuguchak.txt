@@ -19,21 +19,38 @@ base_tax = 1
 base_production = 1
 base_manpower = 2
 
-260.1.1 = { owner = TIE controller = TIE add_core = TIE remove_core = XIO }
-400.1.1 = { owner = ROU controller = ROU add_core = ROU }
-460.1.1 = { owner = UIG controller = UIG add_core = UIG }
-487.1.1 = { owner = TIE controller = TIE add_core = TIE remove_core = ROU }
-547.1.1 = { owner = GOK controller = GOK add_core = GOK remove_core = TIE }
-627.1.1 = { owner = UIG controller = UIG add_core = UIG remove_core = GOK }
-763.1.1 = { religion = manichaeism }
-1130.1.1 = { owner = KKT controller = KKT add_core = KKT remove_core = UIG }
-1140.1.1 = { religion = mahayana }
-1218.1.1 = { owner = KHA controller = KHA add_core = KHA remove_core = KKT }
-1220.1.1 = { religion = tengri_pagan_reformed }
-1260.1.1 = { owner = CGT controller = CGT add_core = CGT remove_core = KHA }
-1347.1.1 = { owner = CHG controller = CHG add_core = CHG remove_core = CGT }
-1350.1.1 = { religion = sunni }
-1419.1.1 = { owner = OIR controller = OIR add_core = OIR remove_core = CHG }
+1444.11.11 = {
+owner = TIE controller = TIE add_core = TIE remove_core = XIO
+owner = ROU controller = ROU add_core = ROU
+owner = UIG controller = UIG add_core = UIG
+owner = TIE controller = TIE add_core = TIE remove_core = ROU
+owner = GOK controller = GOK add_core = GOK remove_core = TIE
+owner = UIG controller = UIG add_core = UIG remove_core = GOK
+religion = manichaeism
+owner = KKT controller = KKT add_core = KKT remove_core = UIG
+religion = mahayana
+owner = KHA controller = KHA add_core = KHA remove_core = KKT
+religion = tengri_pagan_reformed
+owner = CGT controller = CGT add_core = CGT remove_core = KHA
+owner = CHG controller = CHG add_core = CHG remove_core = CGT
+religion = sunni
+owner = OIR controller = OIR add_core = OIR remove_core = CHG
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1622.1.1 = { discovered_by = RUS }
 1635.1.1 = { owner = ZUN controller = ZUN add_core = ZUN }

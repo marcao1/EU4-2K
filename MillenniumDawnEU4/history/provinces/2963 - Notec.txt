@@ -16,14 +16,24 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-140.1.1 = { owner = LEM controller = LEM add_core = LEM remove_core = GCR culture = pommeranian }
-395.1.1 = { owner = VEL controller = VEL add_core = VEL remove_core = LEM culture = polish religion = slavic }
-500.1.1 = { discovered_by = eastern }
-550.1.1 = { owner = POL controller = POL add_core = POL remove_core = VEL }
-1000.1.1 = { discovered_by = muslim discovered_by = ottoman }
-1050.1.1 = { religion = catholic }
-1138.10.28 = { owner = GPO controller = GPO add_core = GPO }
-1290.1.1 = { owner = POL controller = POL add_core = POL }
+1444.11.11 = {
+owner = LEM controller = LEM add_core = LEM remove_core = GCR culture = pommeranian
+owner = VEL controller = VEL add_core = VEL remove_core = LEM culture = polish religion = slavic
+discovered_by = eastern
+owner = POL controller = POL add_core = POL remove_core = VEL
+discovered_by = muslim discovered_by = ottoman
+religion = catholic
+owner = GPO controller = GPO add_core = GPO
+owner = POL controller = POL add_core = POL
+}
+
+
+
+
+
+
+
+
 
 1569.7.1 = {
 	owner = PLC

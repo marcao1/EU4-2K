@@ -14,7 +14,10 @@ native_hostileness = 9
 discovered_by = central_african
 center_of_trade = 1
 
-1350.1.1 = { owner = LUB controller = LUB add_core = LUB is_city = yes trade_goods = iron }
+1444.11.11 = {
+owner = LUB controller = LUB add_core = LUB is_city = yes trade_goods = iron
+}
+
 
 1880.1.1   = { discovered_by = BEL discovered_by = GER } #Hermann von Wissmann
 1895.1.1   = { owner = BEL controller = BEL add_core = BEL religion = protestant capital = "Lubao" }

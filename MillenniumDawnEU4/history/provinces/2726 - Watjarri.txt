@@ -13,13 +13,14 @@ native_ferocity = 1
 native_hostileness = 9
 discovered_by = aboriginal_tech
 
-1200.1.1 = {
-	add_core = MLG
+1444.11.11 = {
+add_core = MLG
 	owner = MLG
 	controller = MLG
 	is_city = yes
 	trade_goods = naval_supplies
 }
+
 
 1619.1.10 = { discovered_by = NED } # Frederick de Houtman
 

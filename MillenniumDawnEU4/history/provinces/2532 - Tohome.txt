@@ -17,7 +17,10 @@ native_size = 5
 native_ferocity = 1
 native_hostileness = 2
 
-1320.1.1 = { owner = CHO controller = CHO add_core = CHO is_city = yes trade_goods = grain }
+1444.11.11 = {
+owner = CHO controller = CHO add_core = CHO is_city = yes trade_goods = grain
+}
+
 
 1540.1.1   = { discovered_by = SPA } # Hernando de Soto
 1600.1.1 = {

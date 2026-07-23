@@ -24,20 +24,36 @@ base_manpower = 1
 is_city = yes
 add_core = WSA
 
-405.1.1 = { owner = GUP controller = GUP add_core = GUP remove_core = WSA }
-500.1.1 = { owner = MLW controller = MLW add_core = MLW remove_core = GUP }
-540.1.1 = { owner = GUJ controller = GUJ add_core = GUJ remove_core = MLW }
-776.1.1 = { owner = GRP controller = GRP add_core = GRP }
-800.1.1 = { owner = RSH controller = RSH add_core = GUJ remove_core = GRP }
-806.1.1 = { owner = GUJ controller = GUJ }
-871.1.1 = { owner = RSH controller = RSH add_core = RSH }
-953.1.1 = { owner = MLW controller = MLW add_core = MLW remove_core = RSH }
-1000.1.1 = { base_manpower = 2 }
-1100.1.1 = { fort_15th = yes }
-1110.1.1 = { owner = GUJ controller = GUJ add_core = GUJ remove_core = MLW }
-1150.1.1 = { religion = jainism }
-1171.1.1 = { religion = hinduism }
-1300.1.1 = { owner = CMP controller = CMP add_core = CMP remove_core = GUJ }
+1444.11.11 = {
+owner = GUP controller = GUP add_core = GUP remove_core = WSA
+owner = MLW controller = MLW add_core = MLW remove_core = GUP
+owner = GUJ controller = GUJ add_core = GUJ remove_core = MLW
+owner = GRP controller = GRP add_core = GRP
+owner = RSH controller = RSH add_core = GUJ remove_core = GRP
+owner = GUJ controller = GUJ
+owner = RSH controller = RSH add_core = RSH
+owner = MLW controller = MLW add_core = MLW remove_core = RSH
+base_manpower = 2
+fort_15th = yes
+owner = GUJ controller = GUJ add_core = GUJ remove_core = MLW
+religion = jainism
+religion = hinduism
+owner = CMP controller = CMP add_core = CMP remove_core = GUJ
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1485.1.1 = { controller = GUJ }
 1485.11.21 = {

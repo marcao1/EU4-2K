@@ -27,18 +27,32 @@ base_manpower = 1
 is_city = yes
 add_core = GRR
 
-220.1.1 = { owner = LKH controller = LKH add_core = LKH remove_core = GRR }
-325.1.1 = { owner = ERS controller = ERS add_core = ERS remove_core = LKH }
-609.1.1 = { owner = YAS controller = YAS add_core = YAS remove_core = ERS }
-634.1.1 = { owner = RSD controller = RSD add_core = RSD religion = islam }
-661.7.28 = { owner = UMA controller = UMA add_core = UMA remove_core = RSD religion = shiite }
-750.8.6 = { owner = ABA controller = ABA add_core = ABA remove_core = UMA }
-840.1.1 = { owner = YAS controller = YAS add_core = YAS remove_core = ABA }
-899.1.1 = { owner = QRM controller = QRM add_core = QRM }
-1053.1.1 = { owner = YAS controller = YAS add_core = YAS remove_core = QRM }
-1073.5.16 = { owner = KRM controller = KRM add_core = KRM }
-1154.1.1 = { owner = YAS controller = YAS remove_core = KRM }
-1360.1.1 = { owner = ORM controller = ORM add_core = ORM }
+1444.11.11 = {
+owner = LKH controller = LKH add_core = LKH remove_core = GRR
+owner = ERS controller = ERS add_core = ERS remove_core = LKH
+owner = YAS controller = YAS add_core = YAS remove_core = ERS
+owner = RSD controller = RSD add_core = RSD religion = islam
+owner = UMA controller = UMA add_core = UMA remove_core = RSD religion = shiite
+owner = ABA controller = ABA add_core = ABA remove_core = UMA
+owner = YAS controller = YAS add_core = YAS remove_core = ABA
+owner = QRM controller = QRM add_core = QRM
+owner = YAS controller = YAS add_core = YAS remove_core = QRM
+owner = KRM controller = KRM add_core = KRM
+owner = YAS controller = YAS remove_core = KRM
+owner = ORM controller = ORM add_core = ORM
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 1480.1.1 = { discovered_by = TUR }
 1498.1.1 = { discovered_by = POR }

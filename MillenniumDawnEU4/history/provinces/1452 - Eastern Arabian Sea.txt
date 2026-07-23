@@ -7,7 +7,10 @@ discovered_by = early_indian
 discovered_by = indian
 discovered_by = asian
 
-1413.1.1 = { discovered_by = MNG }
+1444.11.11 = {
+discovered_by = MNG
+}
+
 1488.1.1 = { discovered_by = POR }
 1550.1.1 = { discovered_by = TUR }
 

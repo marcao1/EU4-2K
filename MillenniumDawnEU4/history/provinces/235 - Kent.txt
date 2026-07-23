@@ -20,21 +20,38 @@ capital = "Durovernum"
 is_city = yes
 add_core = KEN
 
-20.1.1 = { owner = CTV controller = CTV add_core = CTV }
-43.1.1 = { owner = ROM controller = ROM add_core = ROM remove_core = CTV }
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-420.1.1 = { owner = KEN controller = KEN add_core = KEN remove_core = ROW capital = "Cantwaraburh" culture = anglo_saxon religion = germanic }
-616.1.1 = { religion = chalcedonism }
-650.1.1 = { base_tax = 3 base_production = 3 }
-785.1.1 = { owner = MRC controller = MRC add_core = MRC }
-796.1.1 = { owner = KEN controller = KEN remove_core = MRC }
-850.1.1 = { base_manpower = 2 }
-867.1.1 = { religion = catholic }
-871.1.1 = { owner = WSX controller = WSX add_core = WSX capital = "Canterbury" }
-927.1.1 = { owner = ENG controller = ENG add_core = ENG remove_core = WSX }
-1050.1.1 = { remove_core = KEN base_tax = 4 base_production = 4 }
-1066.12.25 = { culture = english }
-1250.1.1 = { base_tax = 5 base_production = 5 }
+1444.11.11 = {
+owner = CTV controller = CTV add_core = CTV
+owner = ROM controller = ROM add_core = ROM remove_core = CTV
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+owner = KEN controller = KEN add_core = KEN remove_core = ROW capital = "Cantwaraburh" culture = anglo_saxon religion = germanic
+religion = chalcedonism
+base_tax = 3 base_production = 3
+owner = MRC controller = MRC add_core = MRC
+owner = KEN controller = KEN remove_core = MRC
+base_manpower = 2
+religion = catholic
+owner = WSX controller = WSX add_core = WSX capital = "Canterbury"
+owner = ENG controller = ENG add_core = ENG remove_core = WSX
+remove_core = KEN base_tax = 4 base_production = 4
+culture = english
+base_tax = 5 base_production = 5
+}
+
+
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
+
 
 1450.5.1 = { revolt = { type = anti_tax_rebels size = 2 } controller = REB } # Jack Cade's rebellion
 1450.7.12 = { revolt = {} controller = ENG }

@@ -21,32 +21,60 @@ capital = "Gades"
 is_city = yes
 center_of_trade = 1
 
-100.1.1 = { religion = hellenism }
-310.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-409.1.1 = { owner = VAN controller = VAN add_core = VAN religion = arianism capital = "Gibraltar" }
-425.1.1 = { owner = ROW controller = ROW remove_core = VAN }
-448.1.1 = { owner = EAL controller = EAL add_core = EAL }
-456.1.1 = { owner = GVI controller = GVI add_core = GVI remove_core = EAL }
-458.10.1 = { owner = ROW controller = ROW } #Battle of Arelate
-461.8.2 = { owner = GVI controller = GVI remove_core = ROW } #Assassination of Majorian
-552.1.1 = { owner = BYZ controller = BYZ add_core = BYZ }
-555.1.1 = { religion = chalcedonism }
-572.1.1 = { owner = GVI controller = GVI remove_core = BYZ }
-600.1.1 = { base_tax = 3 base_production = 3 }
-711.1.1 = { owner = UMA controller = UMA add_core = UMA remove_core = GVI capital = "Qadis" }
-740.1.1 = { religion = sunni }
-750.1.1 = { culture = andalucian }
-750.8.6 = { owner = CRD controller = CRD add_core = CRD remove_core = UMA }
-800.1.1 = { base_manpower = 3 }
-1000.1.1 = { base_tax = 4 base_production = 4 }
-1023.1.1 = { owner = AGC controller = AGC add_core = AGC remove_core = CRD }
-1058.1.1 = { owner = SEV controller = SEV add_core = SEV }
-1091.1.1 = { owner = MOR controller = MOR add_core = MOR remove_core = SEV remove_core = AGC }
-1147.1.1 = { owner = MOR controller = MOR add_core = MOR remove_core = MOR }
-1200.1.1 = { base_tax = 5 }
-1262.1.1 = { owner = CAS controller = CAS add_core = CAS remove_core = MOR remove_core = CRD capital = "Cadiz" }
-1320.1.1 = { religion = catholic }
+1444.11.11 = {
+religion = hellenism
+religion = chalcedonism
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+owner = VAN controller = VAN add_core = VAN religion = arianism capital = "Gibraltar"
+owner = ROW controller = ROW remove_core = VAN
+owner = EAL controller = EAL add_core = EAL
+owner = GVI controller = GVI add_core = GVI remove_core = EAL
+owner = ROW controller = ROW
+owner = GVI controller = GVI remove_core = ROW
+owner = BYZ controller = BYZ add_core = BYZ
+religion = chalcedonism
+owner = GVI controller = GVI remove_core = BYZ
+base_tax = 3 base_production = 3
+owner = UMA controller = UMA add_core = UMA remove_core = GVI capital = "Qadis"
+religion = sunni
+culture = andalucian
+owner = CRD controller = CRD add_core = CRD remove_core = UMA
+base_manpower = 3
+base_tax = 4 base_production = 4
+owner = AGC controller = AGC add_core = AGC remove_core = CRD
+owner = SEV controller = SEV add_core = SEV
+owner = MOR controller = MOR add_core = MOR remove_core = SEV remove_core = AGC
+owner = MOR controller = MOR add_core = MOR remove_core = MOR
+base_tax = 5
+owner = CAS controller = CAS add_core = CAS remove_core = MOR remove_core = CRD capital = "Cadiz"
+religion = catholic
+}
+
+
+ # Final division of the empire
+
+
+
+
+ #Battle of Arelate
+ #Assassination of Majorian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1516.1.23 = {
 	controller = SPA

@@ -22,15 +22,26 @@ base_manpower = 2
 is_city = yes
 add_core = ROM
 
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-430.1.1 = { religion = chalcedonism }
-867.1.1 = { religion = orthodox }
-1058.1.1 = { capital = "Kastra Komneni" }
-1204.4.13 = { owner = NCA controller = NCA add_core = NCA }
-1211.1.1 = { owner = RUM controller = RUM add_core = RUM remove_core = NCA capital = "Kastamonu" }
-1220.1.1 = { religion = sunni culture = turkish remove_core = BYZ }
-1292.1.1 = { owner = CND controller = CND add_core = CND remove_core = RUM }
-1300.1.1 = { base_production = 5 } #Huge copper mine
+1444.11.11 = {
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+religion = chalcedonism
+religion = orthodox
+capital = "Kastra Komneni"
+owner = NCA controller = NCA add_core = NCA
+owner = RUM controller = RUM add_core = RUM remove_core = NCA capital = "Kastamonu"
+religion = sunni culture = turkish remove_core = BYZ
+owner = CND controller = CND add_core = CND remove_core = RUM
+base_production = 5
+}
+ # Final division of the empire
+
+
+
+
+
+
+
+ #Huge copper mine
 
 1458.1.1 = {
 	owner = TUR

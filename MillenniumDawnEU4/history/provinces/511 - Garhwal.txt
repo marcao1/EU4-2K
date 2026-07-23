@@ -24,10 +24,16 @@ base_manpower = 1
 is_city = yes
 add_core = KUN
 
-300.1.1 = { owner = GHR controller = GHR remove_core = KUN }
-510.1.1 = { owner = HEP controller = HEP add_core = HEP }
-532.1.1 = { owner = GHR controller = GHR remove_core = HEP }
-1003.1.1 = { religion = hinduism }
+1444.11.11 = {
+owner = GHR controller = GHR remove_core = KUN
+owner = HEP controller = HEP add_core = HEP
+owner = GHR controller = GHR remove_core = HEP
+religion = hinduism
+}
+
+
+
+
 
 1690.1.1 = { discovered_by = ENG }
 1707.5.12 = { discovered_by = GBR }

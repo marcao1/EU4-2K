@@ -14,8 +14,12 @@ native_size = 5
 native_ferocity = 1
 native_hostileness = 3
 
-750.1.1 = { owner = CYA controller = CYA add_core = CYA is_city = yes trade_goods = grain }
-1250.1.1 = { fort_15th = yes }
+1444.11.11 = {
+owner = CYA controller = CYA add_core = CYA is_city = yes trade_goods = grain
+fort_15th = yes
+}
+
+
 
 1472.1.1 = {
 	owner = INC

@@ -23,13 +23,22 @@ discovered_by = ottoman
 discovered_by = middle_eastern
 discovered_by = muslim
 
-550.1.1 = { religion = coptic }
-650.1.1 = { owner = TSH controller = TSH add_core = TSH remove_core = BLE }
-680.1.1 = { religion = sunni }
-980.1.1 = { owner = FAT controller = FAT add_core = FAT }
-1000.1.1 = { discovered_by = western }
-1050.1.1 = { owner = TSH controller = TSH add_core = TSH remove_core = FAT }
-1264.1.1 = { owner = MAM controller = MAM add_core = MAM remove_core = EGY }
+1444.11.11 = {
+religion = coptic
+owner = TSH controller = TSH add_core = TSH remove_core = BLE
+religion = sunni
+owner = FAT controller = FAT add_core = FAT
+discovered_by = western
+owner = TSH controller = TSH add_core = TSH remove_core = FAT
+owner = MAM controller = MAM add_core = MAM remove_core = EGY
+}
+
+
+
+
+
+
+
 
 1517.1.1 = { owner = TSH controller = TSH add_core = TSH remove_core = MAM } #Fall of the Mamluks
 1540.1.1 = { owner = TUR controller = TUR add_core = TUR }

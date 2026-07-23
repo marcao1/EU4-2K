@@ -21,26 +21,48 @@ is_city = yes
 add_core = HND
 add_core = WUU
 
-9.1.10 = { owner = XIN controller = XIN add_core = XIN }
-23.10.5 = { owner = HND controller = HND remove_core = XIN }
-189.9.28 = { owner = YUE controller = YUE add_core = YUE remove_core = HND }
-220.1.1 = { owner = WUU controller = WUU add_core = WUU }
-280.3.15 = { owner = JIN controller = JIN add_core = JIN remove_core = WUU }
-300.1.1 = { culture = cantonese }
-400.1.1 = { religion = confucianism }
-420.1.1 = { owner = LSO controller = LSO add_core = LSO remove_core = JIN }
-479.1.1 = { owner = QIC controller = QIC add_core = QIC remove_core = LSO }
-502.1.1 = { owner = LNG controller = LNG add_core = LNG remove_core = QIC }
-557.1.1 = { owner = CEN controller = CEN add_core = CEN remove_core = LNG }
-589.3.4 = { owner = SUI controller = SUI add_core = SUI remove_core = CEN }
-617.1.1 = { owner = LNG controller = LNG add_core = LNG remove_core = SUI }
-621.12.1 = { owner = TNG controller = TNG add_core = TNG remove_core = LNG }
-907.6.1 = { owner = DAI controller = DAI add_core = DAI remove_core = TNG }
-971.1.1 = { owner = SNG controller = SNG add_core = SNG remove_core = DAI }
-1000.1.1 = { base_manpower = 2 }
-1279.3.19 = { owner = YUA controller = YUA add_core = YUA add_core = CZH remove_core = SNG }
-1368.1.23 = { owner = KHA controller = KHA add_core = KHA remove_core = YUA }
-1368.7.1 = { owner = MNG controller = MNG add_core = MNG remove_core = KHA }
+1444.11.11 = {
+owner = XIN controller = XIN add_core = XIN
+owner = HND controller = HND remove_core = XIN
+owner = YUE controller = YUE add_core = YUE remove_core = HND
+owner = WUU controller = WUU add_core = WUU
+owner = JIN controller = JIN add_core = JIN remove_core = WUU
+culture = cantonese
+religion = confucianism
+owner = LSO controller = LSO add_core = LSO remove_core = JIN
+owner = QIC controller = QIC add_core = QIC remove_core = LSO
+owner = LNG controller = LNG add_core = LNG remove_core = QIC
+owner = CEN controller = CEN add_core = CEN remove_core = LNG
+owner = SUI controller = SUI add_core = SUI remove_core = CEN
+owner = LNG controller = LNG add_core = LNG remove_core = SUI
+owner = TNG controller = TNG add_core = TNG remove_core = LNG
+owner = DAI controller = DAI add_core = DAI remove_core = TNG
+owner = SNG controller = SNG add_core = SNG remove_core = DAI
+base_manpower = 2
+owner = YUA controller = YUA add_core = YUA add_core = CZH remove_core = SNG
+owner = KHA controller = KHA add_core = KHA remove_core = YUA
+owner = MNG controller = MNG add_core = MNG remove_core = KHA
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1595.1.1 = { discovered_by = SPA }
 1651.12.1 = {	owner = QNG

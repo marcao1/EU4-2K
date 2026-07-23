@@ -704,7 +704,7 @@ salerno_missions_5 = {
 		trigger = {
 			OR = {
 				trader = 2
-				has_institution = manuscripts
+				always = yes
 			}
 		}
 		effect = {
@@ -723,7 +723,7 @@ salerno_missions_5 = {
 		trigger = {
 			OR = {
 				natural_scientist = 2
-				has_institution = medicine
+				always = yes
 			}
 		}
 		effect = {

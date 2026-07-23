@@ -13,8 +13,12 @@ native_size = 60
 native_ferocity = 4
 native_hostileness = 9 
 
-1050.1.1 = { owner = ZND controller = ZND add_core = ZND is_city = yes trade_goods = livestock }
-1333.1.1 = { owner = YAT controller = YAT add_core = YAT remove_core = ZND }
+1444.11.11 = {
+owner = ZND controller = ZND add_core = ZND is_city = yes trade_goods = livestock
+owner = YAT controller = YAT add_core = YAT remove_core = ZND
+}
+
+
 
 1460.1.1  = { unrest = 3 native_size = 40 } #Songhai raids devastate region
 1468.1.1  = { unrest = 3 } #Songhai raids devastate region

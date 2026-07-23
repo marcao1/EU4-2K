@@ -23,14 +23,24 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-300.1.1 = { owner = CIR controller = CIR add_core = CIR remove_core = SIR }
-450.1.1 = { religion = chalcedonism }
-867.1.1 = { religion = orthodox }
-900.1.1 = { base_tax = 2 base_production = 2 }
-1100.1.1 = { base_manpower = 2 }
-1239.1.1 = { owner = KHA controller = KHA add_core = KHA }
-1260.1.1 = { owner = WHH controller = WHH add_core = WHH remove_core = KHA }
-1308.1.1 = { owner = CIR controller = CIR add_core = CIR remove_core = WHH }
+1444.11.11 = {
+owner = CIR controller = CIR add_core = CIR remove_core = SIR
+religion = chalcedonism
+religion = orthodox
+base_tax = 2 base_production = 2
+base_manpower = 2
+owner = KHA controller = KHA add_core = KHA
+owner = WHH controller = WHH add_core = WHH remove_core = KHA
+owner = CIR controller = CIR add_core = CIR remove_core = WHH
+}
+
+
+
+
+
+
+
+
 
 1700.1.1 = { religion = sunni }
 1752.1.1 = { base_tax = 3 }

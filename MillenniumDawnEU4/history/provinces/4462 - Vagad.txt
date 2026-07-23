@@ -24,23 +24,42 @@ base_manpower = 1
 is_city = yes
 add_core = WSA
 
-405.1.1 = { owner = GUP controller = GUP add_core = GUP remove_core = WSA }
-515.1.1 = { owner = KAP controller = KAP add_core = MLW remove_core = GUP }
-528.1.1 = { owner = MLW controller = MLW add_core = GUJ }
-540.1.1 = { owner = GUJ controller = GUJ remove_core = MLW }
-580.1.1 = { owner = MER controller = MER add_core = MER remove_core = GUJ }
-620.1.1 = { owner = HRS controller = HRS add_core = HRS }
-647.1.1 = { owner = MER controller = MER remove_core = HRS }
-770.1.1 = { owner = GRP controller = GRP add_core = GRP }
-800.1.1 = { owner = MER controller = MER remove_core = GRP }
-953.1.1 = { owner = MLW controller = MLW add_core = MLW }
-1110.1.1 = { owner = GUJ controller = GUJ add_core = GUJ remove_core = MLW }
-1150.1.1 = { religion = jainism }
-1171.1.1 = { religion = hinduism }
-1172.1.1 = { owner = MER controller = MER add_core = MER remove_core = GUJ }
-1213.1.1 = { capital = "Kotharia" }
-1303.1.1 = { owner = DLH controller = DLH add_core = DLH }
-1326.1.1 = { owner = MER controller = MER add_core = MER remove_core = DLH }
+1444.11.11 = {
+owner = GUP controller = GUP add_core = GUP remove_core = WSA
+owner = KAP controller = KAP add_core = MLW remove_core = GUP
+owner = MLW controller = MLW add_core = GUJ
+owner = GUJ controller = GUJ remove_core = MLW
+owner = MER controller = MER add_core = MER remove_core = GUJ
+owner = HRS controller = HRS add_core = HRS
+owner = MER controller = MER remove_core = HRS
+owner = GRP controller = GRP add_core = GRP
+owner = MER controller = MER remove_core = GRP
+owner = MLW controller = MLW add_core = MLW
+owner = GUJ controller = GUJ add_core = GUJ remove_core = MLW
+religion = jainism
+religion = hinduism
+owner = MER controller = MER add_core = MER remove_core = GUJ
+capital = "Kotharia"
+owner = DLH controller = DLH add_core = DLH
+owner = MER controller = MER add_core = MER remove_core = DLH
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1690.1.1 = { discovered_by = ENG }
 1707.5.12 = { discovered_by = GBR }

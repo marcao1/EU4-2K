@@ -13,11 +13,18 @@ native_ferocity = 4.5
 native_hostileness = 9
 discovered_by = east_african
 
-1150.1.1 = { religion = sunni }
-1185.1.1 = { discovered_by = DWR owner = DWR controller = DWR add_core = DWR is_city = yes trade_goods = grain }
-1300.1.1 = { discovered_by = muslim discovered_by = ottoman discovered_by = indian discovered_by = asian }
-1332.1.1 = { owner = IFA controller = IFA add_core = IFA }
-1415.1.1 = { owner = ADA controller = ADA add_core = ADA remove_core = IFA }
+1444.11.11 = {
+religion = sunni
+discovered_by = DWR owner = DWR controller = DWR add_core = DWR is_city = yes trade_goods = grain
+discovered_by = muslim discovered_by = ottoman discovered_by = indian discovered_by = asian
+owner = IFA controller = IFA add_core = IFA
+owner = ADA controller = ADA add_core = ADA remove_core = IFA
+}
+
+
+
+
+
 
 1517.7.1 = {	owner = ETH
 		controller = ETH

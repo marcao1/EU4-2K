@@ -13,7 +13,10 @@ native_ferocity = 4.5
 native_hostileness = 9 
 discovered_by = central_african
 
-1300.1.1   = { owner = BSG controller = BSG add_core = BSG is_city = yes trade_goods = fish }
+1444.11.11 = {
+owner = BSG controller = BSG add_core = BSG is_city = yes trade_goods = fish
+}
+
 
 1844.1.1   = { discovered_by = EGY discovered_by = TUR }
 1862.1.1   = { discovered_by = GBR } # John Hanning Speke

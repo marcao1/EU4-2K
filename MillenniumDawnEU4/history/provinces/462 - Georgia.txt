@@ -24,22 +24,40 @@ base_production = 2
 base_manpower = 2
 center_of_trade = 1
 
-62.1.1 = { owner = ROM controller = ROM add_core = ROM }
-80.1.1 = { remove_core = PON }
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-400.1.1 = { capital = "Archaeopolis" }
-456.1.1 = { owner = LAZ controller = LAZ add_core = LAZ remove_core = BYZ }
-460.1.1 = { religion = chalcedonism }
-697.1.1 = { owner = IBE controller = IBE add_core = IBE add_core = UMA }
-750.1.1 = { add_core = ABA remove_core = UMA }
-775.1.1 = { owner = ABK controller = ABK add_core = ABK remove_core = IBE remove_core = ABA }
-867.1.1 = { religion = orthodox }
-1008.1.1 = { owner = GEO controller = GEO add_core = GEO remove_core = ABK capital = "Batumi" }
-1236.1.1 = { owner = KHA controller = KHA add_core = KHA }
-1259.1.1 = { owner = IME controller = IME add_core = IME remove_core = KHA }
-1330.1.1 = { owner = GEO controller = GEO }
-1387.1.1 = { owner = IME controller = IME }
-1412.1.1 = { owner = GEO controller = GEO }
+1444.11.11 = {
+owner = ROM controller = ROM add_core = ROM
+remove_core = PON
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+capital = "Archaeopolis"
+owner = LAZ controller = LAZ add_core = LAZ remove_core = BYZ
+religion = chalcedonism
+owner = IBE controller = IBE add_core = IBE add_core = UMA
+add_core = ABA remove_core = UMA
+owner = ABK controller = ABK add_core = ABK remove_core = IBE remove_core = ABA
+religion = orthodox
+owner = GEO controller = GEO add_core = GEO remove_core = ABK capital = "Batumi"
+owner = KHA controller = KHA add_core = KHA
+owner = IME controller = IME add_core = IME remove_core = KHA
+owner = GEO controller = GEO
+owner = IME controller = IME
+owner = GEO controller = GEO
+}
+
+
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1446.1.1 = { owner = IME controller = IME }
 1453.1.1 = { owner = GEO controller = GEO }

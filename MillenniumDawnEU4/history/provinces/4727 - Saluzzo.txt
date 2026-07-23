@@ -20,24 +20,44 @@ base_manpower = 2
 capital = "Segusio"
 is_city = yes		# Estimated
 
-64.1.1 = { owner = ROM controller = ROM add_core = ROM }
-330.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-476.9.4 = { owner = ITA controller = ITA add_core = ITA }
-480.1.1 = { remove_core = ROW }
-489.1.1 = { owner = OST controller = OST add_core = OST remove_core = ITA }
-553.1.1 = { owner = LOM controller = LOM add_core = LOM remove_core = OST culture = piedmontese capital = "Saluzzo" }
-600.1.1 = { base_tax = 3 base_production = 3 }
-700.1.1 = { base_manpower = 3 }
-773.1.1 = { owner = FRK controller = FRK add_core = FRK }
-800.1.1 = { base_production = 4 }
-840.6.21 = { owner = FRD controller = FRD add_core = FRD remove_core = FRK }
-855.9.30 = { owner = ITA controller = ITA add_core = ITA remove_core = FRD remove_core = LOM }
-867.1.1 = { religion = catholic }
-900.1.1 = { base_manpower = 4 }
-962.2.2 = { hre = yes owner = TUI controller = TUI add_core = TUI remove_core = ITA }
-1046.1.1 = { owner = SAV controller = SAV add_core = SAV }
-1125.1.1 = { owner = SZO controller = SZO add_core = SZO remove_core = SAV }
+1444.11.11 = {
+owner = ROM controller = ROM add_core = ROM
+religion = chalcedonism
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+owner = ITA controller = ITA add_core = ITA
+remove_core = ROW
+owner = OST controller = OST add_core = OST remove_core = ITA
+owner = LOM controller = LOM add_core = LOM remove_core = OST culture = piedmontese capital = "Saluzzo"
+base_tax = 3 base_production = 3
+base_manpower = 3
+owner = FRK controller = FRK add_core = FRK
+base_production = 4
+owner = FRD controller = FRD add_core = FRD remove_core = FRK
+owner = ITA controller = ITA add_core = ITA remove_core = FRD remove_core = LOM
+religion = catholic
+base_manpower = 4
+hre = yes owner = TUI controller = TUI add_core = TUI remove_core = ITA
+owner = SAV controller = SAV add_core = SAV
+owner = SZO controller = SZO add_core = SZO remove_core = SAV
+}
+
+
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1495.1.1 = { hre = no }
 1548.1.1 = { owner = FRA controller = FRA add_core = FRA }

@@ -15,17 +15,30 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-220.1.1 = { owner = GHS controller = GHS add_core = GHS is_city = yes trade_goods = grain }
-230.1.1 = { religion = chalcedonism }
-425.1.1 = { owner = LKH controller = LKH add_core = LKH remove_core = GHS }
-431.7.1 = { religion = nestorian }
-602.1.1 = { owner = ANZ controller = ANZ add_core = ANZ remove_core = LKH }
-633.1.1 = { owner = RSD controller = RSD add_core = RSD religion = islam }
-661.7.28 = { owner = UMA controller = UMA add_core = UMA remove_core = RSD religion = sunni }
-750.8.6 = { owner = ABA controller = ABA add_core = ABA remove_core = UMA }
-935.8.26 = { owner = FAD controller = FAD add_core = FAD remove_core = ABA }
-976.1.1 = { owner = ANZ controller = ANZ add_core = ANZ remove_core = FAD }
-1107.1.1 = { owner = FAD controller = FAD add_core = FAD remove_core = ANZ }
+1444.11.11 = {
+owner = GHS controller = GHS add_core = GHS is_city = yes trade_goods = grain
+religion = chalcedonism
+owner = LKH controller = LKH add_core = LKH remove_core = GHS
+religion = nestorian
+owner = ANZ controller = ANZ add_core = ANZ remove_core = LKH
+owner = RSD controller = RSD add_core = RSD religion = islam
+owner = UMA controller = UMA add_core = UMA remove_core = RSD religion = sunni
+owner = ABA controller = ABA add_core = ABA remove_core = UMA
+owner = FAD controller = FAD add_core = FAD remove_core = ABA
+owner = ANZ controller = ANZ add_core = ANZ remove_core = FAD
+owner = FAD controller = FAD add_core = FAD remove_core = ANZ
+}
+
+
+
+
+
+
+
+
+
+
+
 
 1515.1.1 = { discovered_by = POR }
 1516.8.24 = {

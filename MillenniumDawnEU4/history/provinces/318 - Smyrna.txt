@@ -23,18 +23,32 @@ is_city = yes
 add_core = ROM
 center_of_trade = 2
 
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-440.1.1 = { religion = chalcedonism }
-450.1.1 = { fort_15th = yes }
-867.1.1 = { religion = orthodox }
-1076.1.1 = { owner = RUM controller = RUM add_core = RUM } #Separate Beylik under Tzachas
-1097.1.1 = { owner = BYZ controller = BYZ remove_core = RUM }
-1204.4.13 = { owner = NCA controller = NCA add_core = NCA }
-1261.1.1 = { owner = BYZ controller = BYZ remove_core = NCA }
-1308.1.1 = { owner = AYD controller = AYD add_core = AYD capital = "Izmir" }
-1320.1.1 = { remove_core = BYZ }
-1374.1.1 = { culture = turkish religion = sunni }	# Isabey Mosque
-1390.1.1 = { owner = TUR controller = TUR add_core = TUR }
+1444.11.11 = {
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+religion = chalcedonism
+fort_15th = yes
+religion = orthodox
+owner = RUM controller = RUM add_core = RUM
+owner = BYZ controller = BYZ remove_core = RUM
+owner = NCA controller = NCA add_core = NCA
+owner = BYZ controller = BYZ remove_core = NCA
+owner = AYD controller = AYD add_core = AYD capital = "Izmir"
+remove_core = BYZ
+culture = turkish religion = sunni
+owner = TUR controller = TUR add_core = TUR
+}
+ # Final division of the empire
+
+
+
+ #Separate Beylik under Tzachas
+
+
+
+
+
+	# Isabey Mosque
+
 
 1481.6.1 = { revolt = { type = pretender_rebels size = 0 } controller = REB } # Civil war, Bayezid & Jem
 1482.7.26 = { revolt = {} controller = TUR } # Jem escapes to Rhodes

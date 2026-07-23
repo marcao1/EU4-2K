@@ -15,9 +15,9 @@ discovered_by = east_african
 discovered_by = central_african
 center_of_trade = 1
 
-300.1.1 = { culture = swahili }
-850.1.1 = { 	
-	discovered_by = early_indian
+1444.11.11 = {
+culture = swahili
+discovered_by = early_indian
 	discovered_by = indian
 	discovered_by = asian
 	discovered_by = muslim
@@ -27,8 +27,10 @@ center_of_trade = 1
 	controller = ZAN 
 	add_core = ZAN 
 	is_city = yes 
-	trade_goods = gold 
+	trade_goods = gold
 }
+
+
 
 1498.3.2 = { discovered_by = POR } # Vasco Da Gama
 1501.1.1 = { unrest = 3 } # Portuguese visit, brief skirmish with sultans

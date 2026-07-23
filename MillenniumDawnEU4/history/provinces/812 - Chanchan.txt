@@ -16,11 +16,18 @@ is_city = yes
 add_core = MOC
 center_of_trade = 1
 
-500.1.1 = { owner = HRI controller = HRI add_core = HRI remove_core = MOC }
-600.1.1 = { base_tax = 3 base_production = 3 }
-800.1.1 = { base_tax = 4 base_production = 4 }
-900.1.1 = { owner = CHM controller = CHM add_core = CHM remove_core = HRI }
-1200.1.1 = { fort_15th = yes }
+1444.11.11 = {
+owner = HRI controller = HRI add_core = HRI remove_core = MOC
+base_tax = 3 base_production = 3
+base_tax = 4 base_production = 4
+owner = CHM controller = CHM add_core = CHM remove_core = HRI
+fort_15th = yes
+}
+
+
+
+
+
 
 1470.1.1  = {	owner = INC
 		controller = INC

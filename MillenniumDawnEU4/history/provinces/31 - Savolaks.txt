@@ -12,10 +12,16 @@ native_hostileness = 4
 native_size = 10
 native_ferocity = 2
 
-749.1.1 = { discovered_by = KKS discovered_by = TAV discovered_by = SMI }
-750.1.1 = { owner = KKS controller = KKS add_core = KKS is_city = yes trade_goods = fur }
-1100.1.1 = { discovered_by = western discovered_by = eastern }
-1280.1.1 = { owner = SWE controller = SWE add_core = SWE add_core = FIN remove_core = KKS religion = catholic }
+1444.11.11 = {
+discovered_by = KKS discovered_by = TAV discovered_by = SMI
+owner = KKS controller = KKS add_core = KKS is_city = yes trade_goods = fur
+discovered_by = western discovered_by = eastern
+owner = SWE controller = SWE add_core = SWE add_core = FIN remove_core = KKS religion = catholic
+}
+
+
+
+
 
 1497.3.13  = { controller = DAN } # Danish loyalists at Danish DoW
 1497.10.6  = { controller = SWE } # Hans I become King and Sweden a Danish Vassal
@@ -31,7 +37,7 @@ native_ferocity = 2
 1714.7.29  = { controller = RUS } # The Great Nordic War-Captured by Apraksin
 1721.8.30  = { controller = SWE } # The Peace of Nystad
 1742.9.15  = { controller = RUS } # The War of the Hats-Estimated date
-1743.8.7   = { controller = SWE } # The Peace of Åbo
+1743.8.7   = { controller = SWE } # The Peace of ï¿½bo
 1801.1.1 = { base_tax = 2 }
 1808.2.21  = { controller = RUS } # Conquered by Friedrich Wilhelm von Buxhoevden
 1809.9.17  = {	owner = RUS

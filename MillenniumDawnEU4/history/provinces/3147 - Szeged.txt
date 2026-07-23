@@ -1,4 +1,4 @@
-#155 - Békés
+#155 - Bï¿½kï¿½s
 
 owner = IAZ
 controller = IAZ
@@ -20,16 +20,28 @@ base_tax = 1
 base_production = 1
 base_manpower = 2
 
-300.1.1 = { owner = RGL controller = RGL add_core = RGL remove_core = IAZ culture = bavarian }
-376.1.1 = { owner = HNS controller = HNS add_core = HNS remove_core = RGL }
-453.1.1 = { owner = SCI controller = SCI add_core = SCI remove_core = HNS culture = scirian }
-469.1.1 = { owner = GEP controller = GEP add_core = GEP remove_core = SCI culture = gepid }
-567.1.1 = { owner = AVR controller = AVR add_core = AVR remove_core = GEP culture = avar }
-700.1.1 = { base_tax = 2 base_production = 2 }
-804.1.1 = { owner = BUL controller = BUL add_core = BUL remove_core = AVR }
-880.1.1 = { religion = catholic }
-884.1.1 = { owner = MVA controller = MVA add_core = MVA remove_core = BUL }
-897.1.1 = { owner = HUN controller = HUN add_core = HUN remove_core = MVA culture = hungarian }
+1444.11.11 = {
+owner = RGL controller = RGL add_core = RGL remove_core = IAZ culture = bavarian
+owner = HNS controller = HNS add_core = HNS remove_core = RGL
+owner = SCI controller = SCI add_core = SCI remove_core = HNS culture = scirian
+owner = GEP controller = GEP add_core = GEP remove_core = SCI culture = gepid
+owner = AVR controller = AVR add_core = AVR remove_core = GEP culture = avar
+base_tax = 2 base_production = 2
+owner = BUL controller = BUL add_core = BUL remove_core = AVR
+religion = catholic
+owner = MVA controller = MVA add_core = MVA remove_core = BUL
+owner = HUN controller = HUN add_core = HUN remove_core = MVA culture = hungarian
+}
+
+
+
+
+
+
+
+
+
+
 
 1506.1.1 = { revolt = { type = anti_tax_rebels size = 0 } controller = REB } # Szekely rebellion
 1507.1.1 = { revolt = {} controller = HUN } # Estimated

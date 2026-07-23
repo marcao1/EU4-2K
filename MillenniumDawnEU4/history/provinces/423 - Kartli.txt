@@ -24,21 +24,38 @@ base_manpower = 2
 is_city = yes
 center_of_trade = 1
 
-326.1.1 = { religion = chalcedonism }
-527.1.1 = { controller = ERS }
-532.1.1 = { controller = IBE }
-580.1.1 = { owner = ERS controller = ERS add_core = ERS }
-607.1.1 = { owner = IBE controller = IBE add_core = IBE remove_core = ERS }
-628.1.1 = { owner = BYZ controller = BYZ add_core = BYZ }
-654.1.1 = { owner = IBE controller = IBE add_core = IBE add_core = RSD remove_core = BYZ }
-661.1.1 = { add_core = UMA remove_core = RSD }
-750.1.1 = { add_core = ABA remove_core = UMA }
-800.1.1 = { base_tax = 4 base_production = 4 }
-810.1.1 = { remove_core = ABA }
-867.1.1 = { religion = orthodox }
-1122.1.1 = { owner = GEO controller = GEO add_core = GEO remove_core = IBE }
-1236.1.1 = { owner = KHA controller = KHA add_core = KHA }
-1260.1.1 = { owner = GEO controller = GEO remove_core = KHA }
+1444.11.11 = {
+religion = chalcedonism
+controller = ERS
+controller = IBE
+owner = ERS controller = ERS add_core = ERS
+owner = IBE controller = IBE add_core = IBE remove_core = ERS
+owner = BYZ controller = BYZ add_core = BYZ
+owner = IBE controller = IBE add_core = IBE add_core = RSD remove_core = BYZ
+add_core = UMA remove_core = RSD
+add_core = ABA remove_core = UMA
+base_tax = 4 base_production = 4
+remove_core = ABA
+religion = orthodox
+owner = GEO controller = GEO add_core = GEO remove_core = IBE
+owner = KHA controller = KHA add_core = KHA
+owner = GEO controller = GEO remove_core = KHA
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1588.1.1 = { controller = TUR }
 1590.3.21 = { controller = GEO } #Treaty of Istanbul, Ottoman vassal

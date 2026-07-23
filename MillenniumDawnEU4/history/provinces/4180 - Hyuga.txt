@@ -16,11 +16,18 @@ base_manpower = 2
 is_city = yes
 add_core = HAY
 
-721.1.1 = { owner = YAM controller = YAM add_core = YAM remove_core = HAY }
-750.1.1 = { culture = japanese }
-794.1.1 = { owner = JAP controller = JAP add_core = JAP remove_core = YAM }
-1192.7.12 = { owner = SMZ controller = SMZ add_core = SMZ remove_core = JAP } #Kamakura Shogunate
-1203.1.1 = { owner = ITO controller = ITO add_core = ITO remove_core = SMZ }
+1444.11.11 = {
+owner = YAM controller = YAM add_core = YAM remove_core = HAY
+culture = japanese
+owner = JAP controller = JAP add_core = JAP remove_core = YAM
+owner = SMZ controller = SMZ add_core = SMZ remove_core = JAP
+owner = ITO controller = ITO add_core = ITO remove_core = SMZ
+}
+
+
+
+ #Kamakura Shogunate
+
 
 1542.1.1 = { discovered_by = POR }
 1577.12.8 = { owner = SMZ controller = SMZ add_core = SMZ }

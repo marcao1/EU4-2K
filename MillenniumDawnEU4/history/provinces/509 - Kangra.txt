@@ -24,11 +24,18 @@ base_manpower = 1
 is_city = yes
 add_core = KGR
 
-140.1.1 = { owner = KUS controller = KUS add_core = KUS }
-250.1.1 = { owner = KGR controller = KGR remove_core = KUS }
-510.1.1 = { owner = HEP controller = HEP add_core = HEP }
-532.1.1 = { owner = KGR controller = KGR remove_core = HEP }
-1003.1.1 = { religion = hinduism }
+1444.11.11 = {
+owner = KUS controller = KUS add_core = KUS
+owner = KGR controller = KGR remove_core = KUS
+owner = HEP controller = HEP add_core = HEP
+owner = KGR controller = KGR remove_core = HEP
+religion = hinduism
+}
+
+
+
+
+
 
 1620.1.1 = { controller = MUG } # Mughals
 1621.1.1 = { owner = MUG add_core = MUG } # Mughals

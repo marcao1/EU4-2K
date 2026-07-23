@@ -20,41 +20,78 @@ trade_goods = wool
 base_manpower = 1
 add_core = ROM
 
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-418.1.1 = { owner = GVI controller = GVI add_core = GVI remove_core = ROW religion = arianism }
-500.1.1 = { culture = gascon }
-507.1.1 = { owner = FRK controller = FRK add_core = FRK remove_core = GVI capital = "Auch" }
-511.11.27 = { owner = SOI controller = SOI add_core = SOI }
-550.1.1 = { religion = chalcedonism }
-558.12.23 = { owner = FRK controller = FRK add_core = FRK remove_core = SOI }
-561.11.29 = { owner = NEU controller = NEU add_core = NEU }
-567.12.1 = { owner = ORL controller = ORL add_core = ORL remove_core = NEU }
-583.1.1 = { owner = AQT controller = AQT add_core = AQT remove_core = ORL }
-600.1.1 = { base_tax = 2 base_production = 2 }
-602.1.1 = { owner = VAS controller = VAS add_core = VAS }
-660.1.1 = { owner = AQT controller = AQT add_core = AQT }
-769.2.1 = { owner = FRK controller = FRK add_core = FRK }
-781.1.1 = { owner = AQT controller = AQT add_core = AQT }
-800.1.1 = { base_manpower = 2 }
-840.6.21 = { add_core = FRW remove_core = FRK }
-849.1.1 = { owner = FRW controller = FRW }
-866.1.1 = { owner = AQT controller = AQT add_core = AQT remove_core = FRW }
-867.1.1 = { religion = catholic }
-877.10.6 = { owner = GUY controller = GUY add_core = GUY }
-900.1.1 = { base_tax = 3 base_production = 3 }
-987.7.3 = { add_core = AMG add_core = FRA remove_core = FRW remove_core = AQT }
-1000.1.1 = { base_manpower = 3 }
-1032.10.4 = { owner = AQT controller = AQT add_core = AQT add_core = FRA }
-1039.3.10 = { owner = GUY controller = GUY add_core = GUY }
-1052.1.1 = { owner = AQT controller = AQT }
-1100.1.1 = { base_tax = 4 base_production = 4 }
-1200.1.1 = { base_manpower = 4 }
-1204.4.1 = { owner = AMG controller = AMG add_core = AMG remove_core = AQT add_core = ENG }
-1300.1.1 = { base_tax = 5 base_production = 5 }
-1350.1.1 = { base_manpower = 5 }
-1357.1.1 = { controller = ENG } # Hundred years' war
-1360.5.9 = { owner = ENG controller = ENG } # Treaty of Bretigny
-1377.1.1 = { owner = AMG controller = AMG }
+1444.11.11 = {
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+owner = GVI controller = GVI add_core = GVI remove_core = ROW religion = arianism
+culture = gascon
+owner = FRK controller = FRK add_core = FRK remove_core = GVI capital = "Auch"
+owner = SOI controller = SOI add_core = SOI
+religion = chalcedonism
+owner = FRK controller = FRK add_core = FRK remove_core = SOI
+owner = NEU controller = NEU add_core = NEU
+owner = ORL controller = ORL add_core = ORL remove_core = NEU
+owner = AQT controller = AQT add_core = AQT remove_core = ORL
+base_tax = 2 base_production = 2
+owner = VAS controller = VAS add_core = VAS
+owner = AQT controller = AQT add_core = AQT
+owner = FRK controller = FRK add_core = FRK
+owner = AQT controller = AQT add_core = AQT
+base_manpower = 2
+add_core = FRW remove_core = FRK
+owner = FRW controller = FRW
+owner = AQT controller = AQT add_core = AQT remove_core = FRW
+religion = catholic
+owner = GUY controller = GUY add_core = GUY
+base_tax = 3 base_production = 3
+add_core = AMG add_core = FRA remove_core = FRW remove_core = AQT
+base_manpower = 3
+owner = AQT controller = AQT add_core = AQT add_core = FRA
+owner = GUY controller = GUY add_core = GUY
+owner = AQT controller = AQT
+base_tax = 4 base_production = 4
+base_manpower = 4
+owner = AMG controller = AMG add_core = AMG remove_core = AQT add_core = ENG
+base_tax = 5 base_production = 5
+base_manpower = 5
+controller = ENG
+owner = ENG controller = ENG
+owner = AMG controller = AMG
+}
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ # Hundred years' war
+ # Treaty of Bretigny
+
 
 1475.8.29 = { remove_core = ENG } # Treaty of Picquigny
 1549.12.22 = {
@@ -76,9 +113,9 @@ add_core = ROM
 1594.1.1 = { unrest = 10 } # 'Paris vaut bien une messe!', Henri converts to Catholicism
 1598.4.13 = { unrest = 3 } # Edict of Nantes, alot more freedom to the protestants
 1598.5.2 = { unrest = 0 } # Peace of Vervins, formal end to the Wars of Religion
-1650.1.14 = { unrest = 7 } # Mazarin arrests the Princes Condé, Conti & Longueville, the beginning of the Second Fronde
+1650.1.14 = { unrest = 7 } # Mazarin arrests the Princes Condï¿½, Conti & Longueville, the beginning of the Second Fronde
 1651.4.1 = { unrest = 4 } # An unstable peace is concluded
-1651.12.1 = { unrest = 7 } # Mazarin returns from exile, Condé sides with Spain, situation heats up again
+1651.12.1 = { unrest = 7 } # Mazarin returns from exile, Condï¿½ sides with Spain, situation heats up again
 1652.10.21 = { unrest = 0 } # The King is allowed to enter Paris again, Mazarin leaves France for good. Second Fronde over.
 1685.10.18 = { unrest = 8 } # Edict of Nantes revoked by Louis XIV
 1686.1.17 = { religion = catholic } # Dragonnard campaign succesful: region reverts back to catholicism

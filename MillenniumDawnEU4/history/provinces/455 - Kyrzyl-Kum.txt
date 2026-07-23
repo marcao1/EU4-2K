@@ -23,25 +23,46 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-320.1.1 = { owner = KDT controller = KDT add_core = KDT remove_core = KGJ }
-380.1.1 = { owner = HEP controller = HEP add_core = HEP remove_core = KDT }
-567.1.1 = { owner = GOK controller = GOK add_core = GOK remove_core = HEP }
-593.1.1 = { owner = WGO controller = WGO add_core = WGO remove_core = GOK }
-659.1.1 = { owner = SOG controller = SOG add_core = SOG remove_core = WGO }
-740.1.1 = { owner = UMA controller = UMA add_core = UMA }
-750.1.1 = { religion = manichaeism }
-750.8.6 = { owner = ABA controller = ABA add_core = ABA remove_core = UMA }
-800.1.1 = { religion = sunni }
-819.1.1 = { owner = CAC controller = CAC add_core = CAC remove_core = ABA }
-855.1.1 = { owner = KOK controller = KOK add_core = KOK }
-867.1.1 = { owner = BUK controller = BUK add_core = BUK remove_core = KOK }
-991.1.1 = { owner = TRS controller = TRS add_core = TRS remove_core = BUK }
-1207.1.1 = { owner = KHW controller = KHW add_core = KHW }
-1220.1.1 = { owner = KHA controller = KHA add_core = KHA remove_core = KHW }
-1260.1.1 = { owner = BHO controller = BHO add_core = BHO remove_core = KHA }
-1378.1.1 = { owner = GLH controller = GLH add_core = GLH }
-1394.1.1 = { owner = KZH controller = KZH add_core = KZH remove_core = GLH }
-1428.1.1 = { owner = SHY controller = SHY add_core = SHY }
+1444.11.11 = {
+owner = KDT controller = KDT add_core = KDT remove_core = KGJ
+owner = HEP controller = HEP add_core = HEP remove_core = KDT
+owner = GOK controller = GOK add_core = GOK remove_core = HEP
+owner = WGO controller = WGO add_core = WGO remove_core = GOK
+owner = SOG controller = SOG add_core = SOG remove_core = WGO
+owner = UMA controller = UMA add_core = UMA
+religion = manichaeism
+owner = ABA controller = ABA add_core = ABA remove_core = UMA
+religion = sunni
+owner = CAC controller = CAC add_core = CAC remove_core = ABA
+owner = KOK controller = KOK add_core = KOK
+owner = BUK controller = BUK add_core = BUK remove_core = KOK
+owner = TRS controller = TRS add_core = TRS remove_core = BUK
+owner = KHW controller = KHW add_core = KHW
+owner = KHA controller = KHA add_core = KHA remove_core = KHW
+owner = BHO controller = BHO add_core = BHO remove_core = KHA
+owner = GLH controller = GLH add_core = GLH
+owner = KZH controller = KZH add_core = KZH remove_core = GLH
+owner = SHY controller = SHY add_core = SHY
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1502.1.1 = { 
 	owner = BUK 

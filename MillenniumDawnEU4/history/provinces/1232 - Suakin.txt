@@ -27,12 +27,20 @@ discovered_by = muslim
 base_tax = 1
 base_production = 1
 
-480.1.1 = { religion = coptic }
-650.1.1 = { owner = NGS controller = NGS add_core = NGS remove_core = BLE }
-1000.1.1 = { discovered_by = western }
-1250.1.1 = { religion = sunni }
-1317.1.1 = { owner = MAM controller = MAM add_core = MAM capital = "Suakin" }
-1380.1.1 = { owner = NGS controller = NGS }
+1444.11.11 = {
+religion = coptic
+owner = NGS controller = NGS add_core = NGS remove_core = BLE
+discovered_by = western
+religion = sunni
+owner = MAM controller = MAM add_core = MAM capital = "Suakin"
+owner = NGS controller = NGS
+}
+
+
+
+
+
+
 
 1555.1.1 = {
 	owner = TUR

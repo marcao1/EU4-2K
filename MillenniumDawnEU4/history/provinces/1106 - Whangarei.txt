@@ -13,14 +13,15 @@ native_ferocity = 4
 native_hostileness = 9
 discovered_by = polynesian_tech
 
-1200.1.1 = { 	
-	owner = TTT
+1444.11.11 = {
+owner = TTT
 	controller = TTT
 	add_core = TTT
 	is_city = yes
 	trade_goods = gems
 	culture = maori
 }
+
 
 1642.1.1 = { discovered_by = NED } # Abel Tasman
 

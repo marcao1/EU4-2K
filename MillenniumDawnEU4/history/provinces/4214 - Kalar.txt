@@ -14,7 +14,10 @@ native_size = 10
 native_ferocity = 1
 native_hostileness = 3
 
-1206.1.1 = { owner = NVK controller = NVK add_core = NVK is_city = yes trade_goods = fur }
+1444.11.11 = {
+owner = NVK controller = NVK add_core = NVK is_city = yes trade_goods = fur
+}
+
 
 1542.1.1 = { discovered_by = POR }
 1643.1.1 = { discovered_by = RUS } # Vasily Poyarkov

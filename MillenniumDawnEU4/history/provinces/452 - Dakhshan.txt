@@ -22,17 +22,30 @@ base_production = 1
 base_manpower = 1
 is_city = yes
 
-230.1.1 = { owner = BDK controller = BDK add_core = BDK remove_core = KUS }
-440.1.1 = { owner = HEP controller = HEP add_core = HEP }
-560.1.1 = { owner = BDK controller = BDK add_core = BDK remove_core = HEP }
-625.1.1 = { owner = TKA controller = TKA add_core = TKA }
-705.1.1 = { owner = BDK controller = BDK add_core = BDK remove_core = TKA }
-800.1.1 = { culture = tajik capital = "Munjan" }
-1065.1.1 = { religion = sunni }
-1219.1.1 = { owner = KHA controller = KHA add_core = KHA }
-1260.1.1 = { owner = CGT controller = CGT add_core = CGT remove_core = KHA }
-1347.1.1 = { owner = CHG controller = CHG add_core = CHG remove_core = CGT }
-1370.1.1 = { owner = TIM controller = TIM add_core = TIM add_core = MUG remove_core = CHG }
+1444.11.11 = {
+owner = BDK controller = BDK add_core = BDK remove_core = KUS
+owner = HEP controller = HEP add_core = HEP
+owner = BDK controller = BDK add_core = BDK remove_core = HEP
+owner = TKA controller = TKA add_core = TKA
+owner = BDK controller = BDK add_core = BDK remove_core = TKA
+culture = tajik capital = "Munjan"
+religion = sunni
+owner = KHA controller = KHA add_core = KHA
+owner = CGT controller = CGT add_core = CGT remove_core = KHA
+owner = CHG controller = CHG add_core = CHG remove_core = CGT
+owner = TIM controller = TIM add_core = TIM add_core = MUG remove_core = CHG
+}
+
+
+
+
+
+
+
+
+
+
+
 
 1449.1.1 = {
 	owner = KHO

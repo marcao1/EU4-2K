@@ -15,27 +15,48 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-395.1.1 = { owner = LOM controller = LOM add_core = LOM remove_core = NHN culture = langobardi }
-400.1.1 = { owner = SRB controller = SRB add_core = SRB remove_core = LOM culture = sorbian religion = slavic }
-600.1.1 = { discovered_by = eastern }
-932.1.1 = { owner = SAX controller = SAX add_core = SAX remove_core = SRB }
-948.1.1 = { owner = BRA controller = BRA add_core = BRA remove_core = SAX }
-962.2.2 = { hre = yes }
-965.1.1 = { owner = SOR controller = SOR add_core = SOR remove_core = BRA }
-968.1.1 = { religion = catholic }
-1000.1.1 = { discovered_by = muslim discovered_by = ottoman }
-1003.1.1 = { controller = POL }
-1005.1.1 = { controller = SOR }
-1007.1.1 = { controller = POL }
-1018.1.30 = { owner = POL add_core = POL } # Peace of Bautzen
-1031.1.1 = { owner = MEI controller = MEI add_core = MEI remove_core = SOR remove_core = POL }
-1050.1.1 = { base_tax = 2 base_production = 2 }
-1250.1.1 = { culture = saxon }
-1253.1.1 = { owner = BRA controller = BRA add_core = BRA }
-1319.1.1 = { owner = BOH controller = BOH add_core = BOH remove_core = BRA }
+1444.11.11 = {
+owner = LOM controller = LOM add_core = LOM remove_core = NHN culture = langobardi
+owner = SRB controller = SRB add_core = SRB remove_core = LOM culture = sorbian religion = slavic
+discovered_by = eastern
+owner = SAX controller = SAX add_core = SAX remove_core = SRB
+owner = BRA controller = BRA add_core = BRA remove_core = SAX
+hre = yes
+owner = SOR controller = SOR add_core = SOR remove_core = BRA
+religion = catholic
+discovered_by = muslim discovered_by = ottoman
+controller = POL
+controller = SOR
+controller = POL
+owner = POL add_core = POL
+owner = MEI controller = MEI add_core = MEI remove_core = SOR remove_core = POL
+base_tax = 2 base_production = 2
+culture = saxon
+owner = BRA controller = BRA add_core = BRA
+owner = BOH controller = BOH add_core = BOH remove_core = BRA
+unrest = 10
+unrest = 0
+}
 
-1419.12.1 = { unrest = 10 } # Hussite Wars, Battle of Nekmir
-1436.7.5 = { unrest = 0 } # Peace is signed in Jihlava
+
+
+
+
+
+
+
+
+
+
+
+ # Peace of Bautzen
+
+
+
+
+
+ # Hussite Wars, Battle of Nekmir
+ # Peace is signed in Jihlava
 1453.1.1 = { add_core = POL }
 1457.1.1 = { unrest = 5 } # George of Podiebrand had to secure recognition from the German and Catholic towns. Pilsen is very hostile towards him, the Roman church being dominant throughout Pilsen's history.
 1466.1.1 = {

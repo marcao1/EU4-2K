@@ -31,15 +31,16 @@ native_size = 5
 native_ferocity = 1
 native_hostileness = 1
 
-1512.1.1 = { discovered_by = POR } # Francisco Serrão
+1512.1.1 = { discovered_by = POR } # Francisco Serrï¿½o
 
-1322.1.1 = {
-	owner = BAC
+1444.11.11 = {
+owner = BAC
 	controller = BAC
 	add_core = BAC
 	is_city = yes
 	trade_goods = spices
 }
+
 1600.1.1 = { religion = sunni }
 
 1800.1.1   = { discovered_by = chinese discovered_by = asian }

@@ -3,9 +3,14 @@
 culture = tibetan
 religion = tibetan_bon
 
-400.1.1 = { discovered_by = TIB }
-630.1.1 = { religion = vajrayana }
-1000.1.1 = { discovered_by = nomad_group }
+1444.11.11 = {
+discovered_by = TIB
+religion = vajrayana
+discovered_by = nomad_group
+}
+
+
+
 1890.1.1   = { discovered_by = western }
 1940.1.1   = {  discovered_by = eastern
 		discovered_by = muslim

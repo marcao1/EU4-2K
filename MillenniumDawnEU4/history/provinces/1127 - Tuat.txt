@@ -12,19 +12,17 @@ native_size = 30
 native_ferocity = 4
 native_hostileness = 9
 
-772.1.1 = {
-	owner = SIJ
+1444.11.11 = {
+owner = SIJ
 	controller = SIJ
 	add_core = SIJ
 	is_city = yes
-	trade_goods = grain 
-}
-840.1.1 = { owner = SAN controller = SAN add_core = SAN }
-850.1.1 = { religion = sunni }
-900.1.1 = { owner = SIJ controller = SIJ add_core = SIJ remove_core = SAN }
-1054.1.1 = { owner = MOR controller = MOR add_core = MOR }
-1121.1.1 = { 	
-	owner = XXX 
+	trade_goods = grain
+owner = SAN controller = SAN add_core = SAN
+religion = sunni
+owner = SIJ controller = SIJ add_core = SIJ remove_core = SAN
+owner = MOR controller = MOR add_core = MOR
+owner = XXX 
 	controller = XXX 
 	remove_core = MOR 
 	remove_core = SIJ
@@ -34,6 +32,12 @@ native_hostileness = 9
 	native_ferocity = 4
 	native_hostileness = 9
 }
+
+
+
+
+
+
 
 1555.1.1 = {
 	owner = MOR

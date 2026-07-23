@@ -15,20 +15,36 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-280.1.1 = { owner = BUR controller = BUR add_core = BUR remove_core = SNN culture = burgundione }
-395.1.1 = { owner = SRB controller = SRB add_core = SRB remove_core = BUR culture = sorbian religion = slavic }
-500.1.1 = { discovered_by = eastern }
-600.1.1 = { base_manpower = 2 }
-800.1.1 = { base_tax = 2 base_production = 2 }
-900.1.1 = { discovered_by = muslim discovered_by = ottoman }
-932.1.1 = { owner = SAX controller = SAX add_core = SAX remove_core = SRB }
-955.1.1 = { owner = BRA controller = BRA add_core = BRA remove_core = SAX }
-962.2.2 = { hre = yes }
-965.5.20 = { owner = SOR controller = SOR add_core = SOR remove_core = BRA }
-968.1.1 = { religion = catholic culture = saxon }
-1000.1.1 = { base_tax = 3 base_production = 3 }
-1046.1.1 = { owner = SAX controller = SAX add_core = SAX remove_core = SOR }
-1200.1.1 = { base_tax = 4 base_production = 4 }
+1444.11.11 = {
+owner = BUR controller = BUR add_core = BUR remove_core = SNN culture = burgundione
+owner = SRB controller = SRB add_core = SRB remove_core = BUR culture = sorbian religion = slavic
+discovered_by = eastern
+base_manpower = 2
+base_tax = 2 base_production = 2
+discovered_by = muslim discovered_by = ottoman
+owner = SAX controller = SAX add_core = SAX remove_core = SRB
+owner = BRA controller = BRA add_core = BRA remove_core = SAX
+hre = yes
+owner = SOR controller = SOR add_core = SOR remove_core = BRA
+religion = catholic culture = saxon
+base_tax = 3 base_production = 3
+owner = SAX controller = SAX add_core = SAX remove_core = SOR
+base_tax = 4 base_production = 4
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1445.9.10 = { owner = THU controller = THU add_core = THU }
 1520.12.10 = {

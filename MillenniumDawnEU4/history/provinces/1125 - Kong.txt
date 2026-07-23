@@ -13,7 +13,10 @@ native_size = 40
 native_ferocity = 4
 native_hostileness = 9 
 
-1150.1.1 = { owner = KNG controller = KNG add_core = KNG is_city = yes trade_goods = ivory }
+1444.11.11 = {
+owner = KNG controller = KNG add_core = KNG is_city = yes trade_goods = ivory
+}
+
 
 1540.1.1 = { unrest = 5 } #Mane Invasions reach region, disrupt societies in area
 1590.1.1 = { unrest = 5 } #Raids by Gonja destabilize Region

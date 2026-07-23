@@ -22,16 +22,26 @@ base_manpower = 3
 is_city = yes
 add_core = ROM
 
-250.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-867.1.1 = { religion = orthodox }
-1190.1.1 = { owner = RUM controller = RUM add_core = RUM capital = "Milas" }
-1250.1.1 = { religion = sunni culture = turkish remove_core = BYZ }
-1260.1.1 = { owner = MEN controller = MEN add_core = MEN remove_core = RUM }
-1390.1.1 = { owner = TUR controller = TUR add_core = TUR capital = "Mughla" }
+1444.11.11 = {
+religion = chalcedonism
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+religion = orthodox
+owner = RUM controller = RUM add_core = RUM capital = "Milas"
+religion = sunni culture = turkish remove_core = BYZ
+owner = MEN controller = MEN add_core = MEN remove_core = RUM
+owner = TUR controller = TUR add_core = TUR capital = "Mughla"
+owner = MEN controller = MEN
+owner = TUR controller = TUR
+}
 
-1402.7.20 = { owner = MEN controller = MEN }
-1424.1.1 = { owner = TUR controller = TUR }
+ # Final division of the empire
+
+
+
+
+
+
+
 1481.6.1 = { revolt = { type = pretender_rebels size = 0 } controller = REB } # Civil war, Bayezid & Jem
 1482.7.26 = { revolt = {} controller = TUR } # Jem escapes to Rhodes
 1509.1.1 = { revolt = { type = revolutionary_rebels size = 0 } controller = REB } # Civil war

@@ -17,16 +17,28 @@ native_size = 30
 native_ferocity = 1
 native_hostileness = 5
 
-550.1.1 = { owner = SGT controller = SGT add_core = SGT is_city = yes trade_goods = silk }
-880.1.1 = { owner = CMB controller = CMB add_core = CMB }
-1000.1.1 = { base_tax = 2 base_production = 2 }
-1050.1.1 = { owner = SGT controller = SGT add_core = SGT remove_core = CMB } #Tai migrations, decline of Khmer influence
-1185.1.1 = { owner = CMB controller = CMB add_core = CMB } #Conquests of Jayavarman
-1195.1.1 = { owner = SGT controller = SGT add_core = SGT remove_core = CMB }
-1300.1.1 = { culture = lao religion = satsana_phi }
-1310.1.1 = { religion = buddhism }
-1354.1.1 = { owner = LXA controller = LXA add_core = LXA }
-1380.1.1 = { add_core = AYU }
+1444.11.11 = {
+owner = SGT controller = SGT add_core = SGT is_city = yes trade_goods = silk
+owner = CMB controller = CMB add_core = CMB
+base_tax = 2 base_production = 2
+owner = SGT controller = SGT add_core = SGT remove_core = CMB
+owner = CMB controller = CMB add_core = CMB
+owner = SGT controller = SGT add_core = SGT remove_core = CMB
+culture = lao religion = satsana_phi
+religion = buddhism
+owner = LXA controller = LXA add_core = LXA
+add_core = AYU
+}
+
+
+
+ #Tai migrations, decline of Khmer influence
+ #Conquests of Jayavarman
+
+
+
+
+
 
 1535.1.1 = { discovered_by = POR }
 1579.1.1 = { unrest = 5 } # Revolt against vassalization

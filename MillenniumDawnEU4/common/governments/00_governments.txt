@@ -138,16 +138,16 @@ monarchy = {
 				parthian_reform
 			}
 		}
-		early_reform_level_1 = { reforms = { early_gov_reform_1 early_gov_reform_1b } }    #has_institution = writing
-		early_reform_level_2 = { reforms = { early_gov_reform_2 early_gov_reform_2b } }    #has_institution = legalism
-		early_reform_level_3 = { reforms = { early_gov_reform_3 early_gov_reform_3b } }    #has_institution = ancient_imperialism
-		early_reform_level_4 = { reforms = { early_gov_reform_4 early_gov_reform_4b } }    #has_institution = caste_system
-		early_reform_level_5 = { reforms = { early_gov_reform_5 early_gov_reform_5b } }    #has_institution = organized_religion
-		early_reform_level_6 = { reforms = { early_gov_reform_6 early_gov_reform_6b } }    #has_institution = manorialism
-		early_reform_level_7 = { reforms = { early_gov_reform_7 early_gov_reform_7b } }    #has_institution = early_feudalism
-		early_reform_level_8 = { reforms = { early_gov_reform_8 early_gov_reform_8b } }    #has_institution = manuscripts
-		early_reform_level_9 = { reforms = { early_gov_reform_9 early_gov_reform_9b } }    #has_institution = scholasticism
-		early_reform_level_10 = { reforms = { early_gov_reform_10 early_gov_reform_10b } } #has_institution = guilds
+		early_reform_level_1 = { reforms = { early_gov_reform_1 early_gov_reform_1b } }    #always = yes
+		early_reform_level_2 = { reforms = { early_gov_reform_2 early_gov_reform_2b } }    #always = yes
+		early_reform_level_3 = { reforms = { early_gov_reform_3 early_gov_reform_3b } }    #always = yes
+		early_reform_level_4 = { reforms = { early_gov_reform_4 early_gov_reform_4b } }    #always = yes
+		early_reform_level_5 = { reforms = { early_gov_reform_5 early_gov_reform_5b } }    #always = yes
+		early_reform_level_6 = { reforms = { early_gov_reform_6 early_gov_reform_6b } }    #always = yes
+		early_reform_level_7 = { reforms = { early_gov_reform_7 early_gov_reform_7b } }    #always = yes
+		early_reform_level_8 = { reforms = { early_gov_reform_8 early_gov_reform_8b } }    #always = yes
+		early_reform_level_9 = { reforms = { early_gov_reform_9 early_gov_reform_9b } }    #always = yes
+		early_reform_level_10 = { reforms = { early_gov_reform_10 early_gov_reform_10b } } #always = yes
 		hereditary_vs_nobility = { #has_institution = feudalism
 			reforms = {
 				enforce_privileges_reform
@@ -707,16 +707,16 @@ republic = {
 				roman_republic_reform
 			}
 		}
-		early_reform_level_1 = { reforms = { early_gov_reform_1 early_gov_reform_1b } }    #has_institution = writing
-		early_reform_level_2 = { reforms = { early_gov_reform_2 early_gov_reform_2b } }    #has_institution = legalism
-		early_reform_level_3 = { reforms = { early_gov_reform_3 early_gov_reform_3b } }    #has_institution = ancient_imperialism
-		early_reform_level_4 = { reforms = { early_gov_reform_4 early_gov_reform_4b } }    #has_institution = caste_system
-		early_reform_level_5 = { reforms = { early_gov_reform_5 early_gov_reform_5b } }    #has_institution = organized_religion
-		early_reform_level_6 = { reforms = { early_gov_reform_6 early_gov_reform_6b } }    #has_institution = manorialism
-		early_reform_level_7 = { reforms = { early_gov_reform_7 early_gov_reform_7b } }    #has_institution = early_feudalism
-		early_reform_level_8 = { reforms = { early_gov_reform_8 early_gov_reform_8b } }    #has_institution = manuscripts
-		early_reform_level_9 = { reforms = { early_gov_reform_9 early_gov_reform_9b } }    #has_institution = scholasticism
-		early_reform_level_10 = { reforms = { early_gov_reform_10 early_gov_reform_10b } } #has_institution = guilds
+		early_reform_level_1 = { reforms = { early_gov_reform_1 early_gov_reform_1b } }    #always = yes
+		early_reform_level_2 = { reforms = { early_gov_reform_2 early_gov_reform_2b } }    #always = yes
+		early_reform_level_3 = { reforms = { early_gov_reform_3 early_gov_reform_3b } }    #always = yes
+		early_reform_level_4 = { reforms = { early_gov_reform_4 early_gov_reform_4b } }    #always = yes
+		early_reform_level_5 = { reforms = { early_gov_reform_5 early_gov_reform_5b } }    #always = yes
+		early_reform_level_6 = { reforms = { early_gov_reform_6 early_gov_reform_6b } }    #always = yes
+		early_reform_level_7 = { reforms = { early_gov_reform_7 early_gov_reform_7b } }    #always = yes
+		early_reform_level_8 = { reforms = { early_gov_reform_8 early_gov_reform_8b } }    #always = yes
+		early_reform_level_9 = { reforms = { early_gov_reform_9 early_gov_reform_9b } }    #always = yes
+		early_reform_level_10 = { reforms = { early_gov_reform_10 early_gov_reform_10b } } #always = yes
 		republican_virtues = { #has_institution = feudalism
 			reforms = {
 				republican_authoritarianism_reform

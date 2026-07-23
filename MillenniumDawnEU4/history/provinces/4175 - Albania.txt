@@ -20,26 +20,44 @@ base_manpower = 1
 is_city = yes
 add_core = ROM
 
-360.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-845.1.1 = { owner = DOC controller = DOC add_core = DOC }
-867.1.1 = { religion = orthodox }
-900.1.1 = { base_production = 2 }
-930.1.1 = { owner = SER controller = SER add_core = SER }
-969.1.1 = { owner = BYZ controller = BYZ add_core = BYZ remove_core = SER }
-976.1.1 = { owner = BUL controller = BUL add_core = BUL }
-1014.1.1 = { owner = BYZ controller = BYZ remove_core = BUL }
-1046.1.1 = { owner = DOC controller = DOC add_core = DOC remove_core = BYZ }
-1100.1.1 = { base_manpower = 2 }
-1190.1.1 = { capital = "Shkodër" add_core = ALB }
-1186.1.1 = { owner = SER controller = SER add_core = SER }
-1362.1.1 = { owner = MON controller = MON add_core = MON }
-1368.1.1 = { owner = ALB controller = ALB remove_core = SER remove_core = MON }
+1444.11.11 = {
+religion = chalcedonism
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+owner = DOC controller = DOC add_core = DOC
+religion = orthodox
+base_production = 2
+owner = SER controller = SER add_core = SER
+owner = BYZ controller = BYZ add_core = BYZ remove_core = SER
+owner = BUL controller = BUL add_core = BUL
+owner = BYZ controller = BYZ remove_core = BUL
+owner = DOC controller = DOC add_core = DOC remove_core = BYZ
+base_manpower = 2
+capital = "Shkodï¿½r" add_core = ALB
+owner = SER controller = SER add_core = SER
+owner = MON controller = MON add_core = MON
+owner = ALB controller = ALB remove_core = SER remove_core = MON
+owner = TUR controller = TUR add_core = TUR
+owner = ALB controller = ALB add_core = ALB capital = "Lezhï¿½"
+}
 
-1437.5.4 = { owner = TUR controller = TUR add_core = TUR }
-1444.3.2 = { owner = ALB controller = ALB add_core = ALB capital = "Lezhë" }
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 1453.5.29 = { remove_core = BYZ }
-1478.6.16 = { owner = TUR controller = TUR add_core = TUR capital = "Shkodër" }
+1478.6.16 = { owner = TUR controller = TUR add_core = TUR capital = "Shkodï¿½r" }
 1520.1.1 = { religion = sunni } # Predominant religion under Turkish rule
 1555.1.1 = { unrest = 5 } # General discontent against the Janissaries' dominance
 1556.1.1 = { unrest = 0   }

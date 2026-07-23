@@ -23,22 +23,40 @@ discovered_by = ottoman
 discovered_by = middle_eastern
 discovered_by = muslim
 
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-618.1.1 = { controller = ERS }
-628.1.1 = { controller = BYZ }
-641.1.1 = { owner = RSD controller = RSD add_core = RSD remove_core = BYZ }
-655.1.1 = { religion = islam }
-661.7.28 = { owner = UMA controller = UMA add_core = UMA remove_core = RSD capital = "Al Qusair" religion = sunni }
-750.8.6 = { owner = ABA controller = ABA add_core = ABA remove_core = UMA }
-868.9.15 = { owner = EGY controller = EGY add_core = EGY remove_core = ABA }
-905.1.10 = { owner = ABA controller = ABA add_core = ABA }
-935.8.26 = { owner = EGY controller = EGY add_core = EGY remove_core = ABA }
-969.6.1  = { owner = FAT controller = FAT add_core = FAT }
-1000.1.1 = { discovered_by = western }
-1171.1.1 = { owner = EGY controller = EGY add_core = EGY remove_core = FAT }
-1200.1.1 = { culture = al_misr_arabic }
-1250.5.2 = { owner = MAM controller = MAM add_core = MAM remove_core = EGY }
-1350.1.1 = { culture = saidi }
+1444.11.11 = {
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+controller = ERS
+controller = BYZ
+owner = RSD controller = RSD add_core = RSD remove_core = BYZ
+religion = islam
+owner = UMA controller = UMA add_core = UMA remove_core = RSD capital = "Al Qusair" religion = sunni
+owner = ABA controller = ABA add_core = ABA remove_core = UMA
+owner = EGY controller = EGY add_core = EGY remove_core = ABA
+owner = ABA controller = ABA add_core = ABA
+owner = EGY controller = EGY add_core = EGY remove_core = ABA
+owner = FAT controller = FAT add_core = FAT
+discovered_by = western
+owner = EGY controller = EGY add_core = EGY remove_core = FAT
+culture = al_misr_arabic
+owner = MAM controller = MAM add_core = MAM remove_core = EGY
+culture = saidi
+}
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1517.1.1 = { add_core = TUR remove_core = MAM } # Mamluks fall to Ottomans, Ottomans do not advance up Nile
 1540.1.1 = { owner = TUR controller = TUR } #Ottomans occupy Lower Nubia

@@ -16,8 +16,12 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-1400.1.1 = { owner = AKT controller = AKT add_core = AKT capital = "Katsuyama" }
-1420.1.1 = { culture = japanese religion = shinto remove_core = ANU }
+1444.11.11 = {
+owner = AKT controller = AKT add_core = AKT capital = "Katsuyama"
+culture = japanese religion = shinto remove_core = ANU
+}
+
+
 
 1514.1.1 = { capital = "Matsumae" }
 1590.8.10 = { remove_core = AKT add_core = TYT owner = TYT controller = TYT }

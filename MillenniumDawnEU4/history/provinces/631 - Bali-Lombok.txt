@@ -15,15 +15,24 @@ native_size = 40
 native_ferocity = 1
 native_hostileness = 5
 
-914.1.1 = { owner = BLI controller = BLI add_core = BLI is_city = yes trade_goods = cloth }
-1025.1.1 = { owner = KAH controller = KAH add_core = KAH }
-1045.1.1 = { owner = BLI controller = BLI remove_core = KAH }
-1284.1.1 = { owner = SIN controller = SIN add_core = SIN }
-1293.1.1 = { owner = BLI controller = BLI remove_core = SIN }
-1300.1.1 = { discovered_by = indian discovered_by = muslim discovered_by = ottoman }
-1343.1.1 = { owner = MAJ controller = MAJ add_core = MAJ }
+1444.11.11 = {
+owner = BLI controller = BLI add_core = BLI is_city = yes trade_goods = cloth
+owner = KAH controller = KAH add_core = KAH
+owner = BLI controller = BLI remove_core = KAH
+owner = SIN controller = SIN add_core = SIN
+owner = BLI controller = BLI remove_core = SIN
+discovered_by = indian discovered_by = muslim discovered_by = ottoman
+owner = MAJ controller = MAJ add_core = MAJ
+discovered_by = MNG
+}
 
-1405.1.1 = { discovered_by = MNG }
+
+
+
+
+
+
+
 1500.1.1 = {	owner = BLI
 		controller = BLI
 		add_core = BLI

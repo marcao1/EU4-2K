@@ -17,12 +17,20 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-660.1.1    = { owner = FZA controller = FZA add_core = FZA remove_core = GAR }
-850.1.1    = { religion = ibadi }
-1070.1.1   = { religion = sunni culture = tunisian }
-1173.1.1   = { owner = MAM controller = MAM add_core = MAM }
-1212.1.1   = { owner = FZA controller = FZA add_core = FZA remove_core = MAM }
-1257.1.1   = { discovered_by = KBO }
+1444.11.11 = {
+owner = FZA controller = FZA add_core = FZA remove_core = GAR
+religion = ibadi
+religion = sunni culture = tunisian
+owner = MAM controller = MAM add_core = MAM
+owner = FZA controller = FZA add_core = FZA remove_core = MAM
+discovered_by = KBO
+}
+
+
+
+
+
+
 
 1851.1.1   = { discovered_by = GER discovered_by = PRU } #Heinrich Barth
 1910.1.1 = { discovered_by = western discovered_by = eastern discovered_by = asian }

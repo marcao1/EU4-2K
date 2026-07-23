@@ -29,40 +29,69 @@ fort_15th = yes
 add_core = PRT
 center_of_trade = 2
 
-116.1.1 = { owner = ROM controller = ROM add_core = ROM }
-118.1.1 = { owner = PRT controller = PRT remove_core = ROM }
-164.1.1 = { controller = ROM }
-166.1.1 = { controller = PRT }
-224.4.24 = { owner = ERS controller = ERS add_core = ERS remove_core = PRT }
-637.1.1 = { owner = RSD controller = RSD add_core = RSD remove_core = ERS religion = islam culture = al_iraqiya_arabic }
-661.7.28 = { owner = UMA controller = UMA add_core = UMA remove_core = RSD religion = sunni }
-750.8.6 = { owner = ABA controller = ABA add_core = ABA remove_core = UMA }
-762.7.30 = { capital = "Baghdad" }
-945.12.19 = { owner = IRQ controller = IRQ add_core = IRQ }
-978.3.1 = { owner = PER controller = PER add_core = PER }
-983.3.26 = { owner = IRQ controller = IRQ }
-987.1.1 = { owner = PER controller = PER }
-1021.1.1 = { owner = IRQ controller = IRQ }
-1044.3.1 = { owner = PER controller = PER }
-1048.10.1 = { owner = IRQ controller = IRQ }
-1055.12.17 = { owner = SEL controller = SEL add_core = SEL remove_core = PER }
-1153.1.1 = { owner = ABA controller = ABA add_core = ABA remove_core = SEL }
-1258.2.10 = { owner = KHA controller = KHA add_core = KHA add_core = IRQ remove_core = ABA center_of_trade = 1 }
-1260.1.1 = { owner = ILK controller = ILK add_core = ILK remove_core = KHA }
-1300.1.1 = { religion = shiite }
-1335.1.1 = { owner = JAL controller = JAL add_core = JAL remove_core = ILK }
-1380.1.1 = { add_core = TIM }
-
-1399.1.1   = { add_core = TIM }
-1401.6.1   = { controller = TIM }
-1402.1.1   = { controller = JAL }
-1403.1.1   = { controller = TIM }
-1405.2.20  = { controller = JAL }
-1411.1.1   = {	owner = QAR
+1444.11.11 = {
+owner = ROM controller = ROM add_core = ROM
+owner = PRT controller = PRT remove_core = ROM
+controller = ROM
+controller = PRT
+owner = ERS controller = ERS add_core = ERS remove_core = PRT
+owner = RSD controller = RSD add_core = RSD remove_core = ERS religion = islam culture = al_iraqiya_arabic
+owner = UMA controller = UMA add_core = UMA remove_core = RSD religion = sunni
+owner = ABA controller = ABA add_core = ABA remove_core = UMA
+capital = "Baghdad"
+owner = IRQ controller = IRQ add_core = IRQ
+owner = PER controller = PER add_core = PER
+owner = IRQ controller = IRQ
+owner = PER controller = PER
+owner = IRQ controller = IRQ
+owner = PER controller = PER
+owner = IRQ controller = IRQ
+owner = SEL controller = SEL add_core = SEL remove_core = PER
+owner = ABA controller = ABA add_core = ABA remove_core = SEL
+owner = KHA controller = KHA add_core = KHA add_core = IRQ remove_core = ABA center_of_trade = 1
+owner = ILK controller = ILK add_core = ILK remove_core = KHA
+religion = shiite
+owner = JAL controller = JAL add_core = JAL remove_core = ILK
+add_core = TIM
+add_core = TIM
+controller = TIM
+controller = JAL
+controller = TIM
+controller = JAL
+owner = QAR
 		controller = QAR
 		add_core = QAR
 		remove_core = JAL
-	     } # Qara Koyunlu
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ # Qara Koyunlu
 1449.1.1 = { remove_core = TIM }
 1453.1.1   = { discovered_by = western discovered_by = TUR }
 1469.2.4 = {

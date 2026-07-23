@@ -25,26 +25,48 @@ add_permanent_province_modifier = {
 	duration = -1
 }
 
-260.1.1 = { add_core = GLL revolt = { type = nationalist_rebels size = 1 } controller = REB culture = gallian }
-274.1.1 = { controller = ROM remove_core = GLL revolt = {} culture = frisian }
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-420.1.1 = { owner = FRI controller = FRI add_core = FRI remove_core = ROW capital = "Flaardingen" }
-700.1.1 = { base_tax = 3 base_production = 3 }
-734.1.1 = { owner = FRK controller = FRK add_core = FRK culture = dutch capital = "Vlaardingen" }
-780.1.1 = { religion = chalcedonism }
-840.6.21 = { owner = FRD controller = FRD add_core = FRD remove_core = FRK }
-855.9.30 = { owner = LOT controller = LOT add_core = LOT remove_core = FRD }
-867.1.1 = { religion = catholic }
-870.8.8 = { owner = FRE controller = FRE add_core = FRE remove_core = LOT }
-900.1.1 = { base_tax = 4 base_production = 4 }
-911.11.10 = { owner = LOT controller = LOT add_core = LOT add_core = HOL remove_core = FRE remove_core = FRY }
-922.1.1 = { owner = HOL controller = HOL remove_core = LOT }
-962.2.2 = { hre = yes }
-1000.1.1 = { base_manpower = 3 }
-1065.1.1 = { fort_15th = yes }
-1100.1.1 = { base_tax = 5 base_production = 5 }
-1200.1.1 = { base_tax = 6 base_production = 6 }
-1229.1.1 = { capital = "Den Haag" }
+1444.11.11 = {
+add_core = GLL revolt = { type = nationalist_rebels size = 1 } controller = REB culture = gallian
+controller = ROM remove_core = GLL revolt = {} culture = frisian
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+owner = FRI controller = FRI add_core = FRI remove_core = ROW capital = "Flaardingen"
+base_tax = 3 base_production = 3
+owner = FRK controller = FRK add_core = FRK culture = dutch capital = "Vlaardingen"
+religion = chalcedonism
+owner = FRD controller = FRD add_core = FRD remove_core = FRK
+owner = LOT controller = LOT add_core = LOT remove_core = FRD
+religion = catholic
+owner = FRE controller = FRE add_core = FRE remove_core = LOT
+base_tax = 4 base_production = 4
+owner = LOT controller = LOT add_core = LOT add_core = HOL remove_core = FRE remove_core = FRY
+owner = HOL controller = HOL remove_core = LOT
+hre = yes
+base_manpower = 3
+fort_15th = yes
+base_tax = 5 base_production = 5
+base_tax = 6 base_production = 6
+capital = "Den Haag"
+}
+
+
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1477.1.5 = { owner = NED controller = NED add_core = NED }
 1572.1.1 = { religion = reformed }

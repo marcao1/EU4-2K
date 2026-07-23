@@ -24,30 +24,47 @@ is_city = yes
 add_core = BSP
 add_core = ROM
 
-2.1.1   = {
-		add_permanent_province_modifier = {
+1444.11.11 = {
+add_permanent_province_modifier = {
 			name = don_estuary_modifier
 			duration = -1
 		}
+owner = OST controller = OST add_core = OST remove_core = BSP remove_core = ROM
+religion = germanic culture = gothic
+owner = HNS controller = HNS add_core = HNS remove_core = OST religion = tengri_pagan_reformed
+add_core = UTI culture = bulgar
+owner = UTI controller = UTI remove_core = HNS capital = "Azow"
+owner = BUL controller = BUL add_core = BUL remove_core = UTI
+base_manpower = 2
+owner = HUN controller = HUN add_core = HUN remove_core = BUL
+owner = KHZ controller = KHZ add_core = KHZ remove_core = HUN culture = khazar
+base_tax = 3 base_production = 3
+owner = PEC controller = PEC add_core = PEC remove_core = KHZ culture = cuman
+owner = CUM controller = CUM add_core = CUM add_core = ZAZ remove_core = PEC capital = "Azaq"
+base_manpower = 3
+owner = KHA controller = KHA add_core = KHA remove_core = CUM culture = crimean
+religion = sunni
+owner = WHH controller = WHH add_core = WHH remove_core = KHA
+owner = GEN controller = GEN add_core = GEN remove_core = WHH capital = "Tana"
 }
 
-250.1.1 = { owner = OST controller = OST add_core = OST remove_core = BSP remove_core = ROM }
-300.1.1 = { religion = germanic culture = gothic }
-370.1.1 = { owner = HNS controller = HNS add_core = HNS remove_core = OST religion = tengri_pagan_reformed }
-420.1.1 = { add_core = UTI culture = bulgar }
-469.1.1 = { owner = UTI controller = UTI remove_core = HNS capital = "Azow" }
-632.1.1 = { owner = BUL controller = BUL add_core = BUL remove_core = UTI }
-700.1.1 = { base_manpower = 2 }
-720.1.1 = { owner = HUN controller = HUN add_core = HUN remove_core = BUL }
-750.1.1 = { owner = KHZ controller = KHZ add_core = KHZ remove_core = HUN culture = khazar }
-900.1.1 = { base_tax = 3 base_production = 3 }
-969.1.1 = { owner = PEC controller = PEC add_core = PEC remove_core = KHZ culture = cuman }
-1060.1.1 = { owner = CUM controller = CUM add_core = CUM add_core = ZAZ remove_core = PEC capital = "Azaq" }
-1100.1.1 = { base_manpower = 3 }
-1237.1.1 = { owner = KHA controller = KHA add_core = KHA remove_core = CUM culture = crimean }
-1240.1.1 = { religion = sunni }
-1260.1.1 = { owner = WHH controller = WHH add_core = WHH remove_core = KHA }
-1266.1.1 = { owner = GEN controller = GEN add_core = GEN remove_core = WHH capital = "Tana" }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1471.1.1 = { fort_15th = yes owner = TUR controller = TUR add_core = TUR remove_core = GEN capital = "Azaq" } # End of prosperity, seized by the Turks, fortress established
 1637.6.1 = { owner = ZAZ controller = ZAZ add_core = ZAZ } # Held by the Don Cossacks and the Zaporozhian Cossacks

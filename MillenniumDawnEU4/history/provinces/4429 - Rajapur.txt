@@ -21,21 +21,31 @@ base_manpower = 1
 is_city = yes
 add_core = STV
 
-220.1.1 = { owner = ABH controller = ABH add_core = ABH remove_core = STV }
-250.1.1 = { owner = VAK controller = VAK add_core = VAK remove_core = ABH }
-480.1.1 = { owner = KAD controller = KAD add_core = KAD remove_core = VAK }
-543.1.1 = { owner = CLY controller = CLY add_core = CLY remove_core = KAD }
-753.1.1 = { owner = RSH controller = RSH add_core = RSH remove_core = CLY }
-800.1.1 = { owner = KNK controller = KNK add_core = KNK remove_core = RSH discovered_by = nomad_group }
-1220.1.1 = { religion = hinduism }
-1265.1.1 = { owner = YAD controller = YAD add_core = YAD remove_core = KNK }
-1317.1.1 = { owner = DLH controller = DLH add_core = DLH remove_core = YAD }
-1347.1.1 = { owner = BAH controller = BAH add_core = BAH remove_core = DLH }
-
-1380.1.1 = {
-	controller = VIJ
+1444.11.11 = {
+owner = ABH controller = ABH add_core = ABH remove_core = STV
+owner = VAK controller = VAK add_core = VAK remove_core = ABH
+owner = KAD controller = KAD add_core = KAD remove_core = VAK
+owner = CLY controller = CLY add_core = CLY remove_core = KAD
+owner = RSH controller = RSH add_core = RSH remove_core = CLY
+owner = KNK controller = KNK add_core = KNK remove_core = RSH discovered_by = nomad_group
+religion = hinduism
+owner = YAD controller = YAD add_core = YAD remove_core = KNK
+owner = DLH controller = DLH add_core = DLH remove_core = YAD
+owner = BAH controller = BAH add_core = BAH remove_core = DLH
+controller = VIJ
 	owner = VIJ
-} # Taken by Harihara II
+}
+
+
+
+
+
+
+
+
+
+
+ # Taken by Harihara II
 1469.1.1 = { controller = BAH } # Conquered by the Bahmani sultans
 1470.1.1 = { owner = BAH }
 1490.1.1 = {

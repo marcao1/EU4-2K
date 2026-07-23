@@ -15,16 +15,28 @@ trade_goods = naval_supplies
 base_manpower = 2
 capital = "Torgelow"
 
-140.1.1 = { owner = RUG controller = RUG add_core = RUG remove_core = RGL }
-395.1.1 = { owner = POM controller = POM add_core = POM remove_core = RUG culture = polabian religion = slavic }
-600.1.1 = { discovered_by = eastern }
-1000.1.1 = { discovered_by = muslim discovered_by = ottoman }
-1121.1.1 = { culture = pommeranian }
-1128.1.1 = { religion = catholic }
-1135.1.1 = { hre = yes }
-1186.1.1 = { owner = DAN controller = DAN add_core = DAN }
-1227.1.1 = { owner = POM controller = POM remove_core = DAN }
-1295.1.1 = { owner = STE controller = STE add_core = STE remove_core = POM }
+1444.11.11 = {
+owner = RUG controller = RUG add_core = RUG remove_core = RGL
+owner = POM controller = POM add_core = POM remove_core = RUG culture = polabian religion = slavic
+discovered_by = eastern
+discovered_by = muslim discovered_by = ottoman
+culture = pommeranian
+religion = catholic
+hre = yes
+owner = DAN controller = DAN add_core = DAN
+owner = POM controller = POM remove_core = DAN
+owner = STE controller = STE add_core = STE remove_core = POM
+}
+
+
+
+
+
+
+
+
+
+
 
 1529.1.1 = { religion = protestant }
 1630.1.1 = { 

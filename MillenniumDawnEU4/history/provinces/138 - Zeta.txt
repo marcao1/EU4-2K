@@ -20,22 +20,38 @@ base_manpower = 1
 is_city = yes
 add_core = ROM
 
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-400.1.1 = { religion = chalcedonism }
-610.1.1 = { add_core = DOC culture = serbian religion = slavic }
-768.1.1 = { owner = SER controller = SER add_core = SER remove_core = BYZ capital = "Zabljak" }
-860.1.1 = { religion = chalcedonism }
-867.1.1 = { religion = orthodox }
-969.1.1 = { owner = BYZ controller = BYZ add_core = BYZ remove_core = SER }
-976.1.1 = { owner = BUL controller = BUL add_core = BUL }
-1000.1.1 = { base_tax = 2 base_production = 2 }
-1014.1.1 = { owner = BYZ controller = BYZ remove_core = BUL }
-1046.1.1 = { owner = DOC controller = DOC remove_core = BYZ }
-1166.1.1 = { controller = SER add_core = SER }
-1186.1.1 = { owner = SER add_core = MON remove_core = DOC }
-1362.1.1 = { owner = MON controller = MON }
+1444.11.11 = {
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+religion = chalcedonism
+add_core = DOC culture = serbian religion = slavic
+owner = SER controller = SER add_core = SER remove_core = BYZ capital = "Zabljak"
+religion = chalcedonism
+religion = orthodox
+owner = BYZ controller = BYZ add_core = BYZ remove_core = SER
+owner = BUL controller = BUL add_core = BUL
+base_tax = 2 base_production = 2
+owner = BYZ controller = BYZ remove_core = BUL
+owner = DOC controller = DOC remove_core = BYZ
+controller = SER add_core = SER
+owner = SER add_core = MON remove_core = DOC
+owner = MON controller = MON
+owner = SER controller = SER add_core = SER
+}
+ # Final division of the empire
 
-1421.1.1 = { owner = SER controller = SER add_core = SER } # Annexed to Serbia
+
+
+
+
+
+
+
+
+
+
+
+
+ # Annexed to Serbia
 1451.1.1 = { owner = MON controller = MON remove_core = SER }
 1478.1.1 = { add_core = TUR } # Conquered Zabljak, but never fully conquered Zeta
 1482.1.1 = { capital = "Cetinje" }

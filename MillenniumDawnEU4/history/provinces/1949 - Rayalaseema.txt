@@ -21,16 +21,28 @@ base_manpower = 2
 is_city = yes
 add_core = STV
 
-220.1.1 = { owner = CLS controller = CLS add_core = CLS remove_core = STV }
-275.1.1 = { owner = PLL controller = PLL add_core = PLL remove_core = CLS }
-590.1.1 = { religion = jainism }
-620.1.1 = { religion = hinduism }
-800.1.1 = { discovered_by = nomad_group }
-897.1.1 = { owner = CLS controller = CLS add_core = CLS remove_core = PLL }
-900.1.1 = { base_tax = 3 base_production = 3 }
-1026.1.1 = { owner = HOY controller = HOY add_core = HOY remove_core = CLS }
-1050.1.1 = { fort_15th = yes } #Chandragiri+Penukonda Forts
-1336.1.1 = { owner = VIJ controller = VIJ add_core = VIJ remove_core = HOY }
+1444.11.11 = {
+owner = CLS controller = CLS add_core = CLS remove_core = STV
+owner = PLL controller = PLL add_core = PLL remove_core = CLS
+religion = jainism
+religion = hinduism
+discovered_by = nomad_group
+owner = CLS controller = CLS add_core = CLS remove_core = PLL
+base_tax = 3 base_production = 3
+owner = HOY controller = HOY add_core = HOY remove_core = CLS
+fort_15th = yes
+owner = VIJ controller = VIJ add_core = VIJ remove_core = HOY
+}
+
+
+
+
+
+
+
+
+ #Chandragiri+Penukonda Forts
+
 
 1498.1.1 = { discovered_by = POR }
 1645.1.1 = { controller = GOC } # Conquered by Golconda

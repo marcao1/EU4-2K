@@ -24,18 +24,32 @@ base_manpower = 1
 is_city = yes
 add_core = WSA
 
-405.1.1 = { owner = GUP controller = GUP add_core = GUP remove_core = WSA }
-475.1.1 = { owner = GUJ controller = GUJ add_core = GUJ remove_core = GUP }
-520.1.1 = { religion = jainism }
-776.1.1 = { owner = GRP controller = GRP add_core = GRP }
-800.1.1 = { owner = RSH controller = RSH add_core = GUJ remove_core = GRP }
-806.1.1 = { owner = GUJ controller = GUJ }
-871.1.1 = { owner = RSH controller = RSH add_core = RSH }
-900.1.1 = { base_tax = 4 base_production = 4 }
-940.1.1 = { owner = GUJ controller = GUJ add_core = GUJ remove_core = RSH }
-1180.1.1 = { religion = hinduism }
-1304.1.1 = { owner = DLH controller = DLH add_core = DLH }
-1391.1.1 = { owner = GUJ controller = GUJ remove_core = DLH }
+1444.11.11 = {
+owner = GUP controller = GUP add_core = GUP remove_core = WSA
+owner = GUJ controller = GUJ add_core = GUJ remove_core = GUP
+religion = jainism
+owner = GRP controller = GRP add_core = GRP
+owner = RSH controller = RSH add_core = GUJ remove_core = GRP
+owner = GUJ controller = GUJ
+owner = RSH controller = RSH add_core = RSH
+base_tax = 4 base_production = 4
+owner = GUJ controller = GUJ add_core = GUJ remove_core = RSH
+religion = hinduism
+owner = DLH controller = DLH add_core = DLH
+owner = GUJ controller = GUJ remove_core = DLH
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 1498.1.1 = { discovered_by = POR }
 1573.6.1 = {

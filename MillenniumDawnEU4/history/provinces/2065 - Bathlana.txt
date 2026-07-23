@@ -24,19 +24,34 @@ base_manpower = 1
 is_city = yes
 add_core = NST
 
-120.1.1 = { owner = KUS controller = KUS add_core = KUS remove_core = NST }
-375.1.1 = { owner = GUP controller = GUP add_core = GUP remove_core = KUS }
-498.1.1 = { owner = KAP controller = KAP add_core = HRS remove_core = GUP }
-528.1.1 = { owner = MLW controller = MLW }
-540.1.1 = { owner = HRS controller = HRS }
-647.1.1 = { owner = TOM controller = TOM add_core = TOM remove_core = HRS }
-740.1.1 = { owner = KSH controller = KSH add_core = KSH }
-760.1.1 = { owner = TOM controller = TOM remove_core = KSH }
-800.1.1 = { base_manpower = 2 }
-1000.1.1 = { base_tax = 3 }
-1002.1.1 = { owner = GHZ controller = GHZ add_core = GHZ remove_core = TOM }
-1187.1.1 = { owner = GHU controller = GHU add_core = GHU remove_core = GHZ }
-1206.1.1 = { owner = DLH controller = DLH add_core = DLH add_core = PUN remove_core = GHU }
+1444.11.11 = {
+owner = KUS controller = KUS add_core = KUS remove_core = NST
+owner = GUP controller = GUP add_core = GUP remove_core = KUS
+owner = KAP controller = KAP add_core = HRS remove_core = GUP
+owner = MLW controller = MLW
+owner = HRS controller = HRS
+owner = TOM controller = TOM add_core = TOM remove_core = HRS
+owner = KSH controller = KSH add_core = KSH
+owner = TOM controller = TOM remove_core = KSH
+base_manpower = 2
+base_tax = 3
+owner = GHZ controller = GHZ add_core = GHZ remove_core = TOM
+owner = GHU controller = GHU add_core = GHU remove_core = GHZ
+owner = DLH controller = DLH add_core = DLH add_core = PUN remove_core = GHU
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1526.2.1 = { controller = TIM } # Babur's invasion
 1526.4.21 = {

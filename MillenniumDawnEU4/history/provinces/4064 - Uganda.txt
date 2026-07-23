@@ -14,7 +14,10 @@ native_hostileness = 9
 discovered_by = central_african
 center_of_trade = 2
 
-1300.1.1   = { owner = BUG controller = BUG add_core = BUG is_city = yes trade_goods = salt }
+1444.11.11 = {
+owner = BUG controller = BUG add_core = BUG is_city = yes trade_goods = salt
+}
+
 
 1844.1.1   = { discovered_by = EGY discovered_by = TUR }
 1862.1.1   = { discovered_by = GBR } # John Hanning Speke

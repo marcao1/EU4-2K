@@ -23,20 +23,36 @@ is_city = yes
 add_core = IPA
 add_core = SUR
 
-20.1.1 = { owner = SUR controller = SUR remove_core = IPA }
-240.1.1 = { owner = ERS controller = ERS add_core = ERS remove_core = SUR }
-647.1.1 = { owner = ZAB controller = ZAB add_core = ZAB remove_core = ERS }
-840.1.1 = { owner = KHO controller = KHO add_core = KHO remove_core = ZAB capital = "Bost" }
-854.1.1 = { owner = SIS controller = SIS add_core = SIS remove_core = KHO }
-870.1.1 = { religion = sunni }
-913.5.24 = { owner = BUK controller = BUK }
-922.5.1 = { owner = SIS controller = SIS }
-1002.12.1 = { owner = GHZ controller = GHZ add_core = GHZ }
-1029.1.1 = { owner = SIS controller = SIS remove_core = GHZ }
-1225.1.1 = { owner = KHW controller = KHW add_core = KHW }
-1231.1.1 = { owner = KHA controller = KHA add_core = KHA add_core = BAL add_core = AFG remove_core = KHW }
-1260.1.1 = { owner = ILK controller = ILK add_core = ILK remove_core = KHA }
-1335.1.1 = { owner = SIS controller = SIS add_core = SIS remove_core = ILK }
+1444.11.11 = {
+owner = SUR controller = SUR remove_core = IPA
+owner = ERS controller = ERS add_core = ERS remove_core = SUR
+owner = ZAB controller = ZAB add_core = ZAB remove_core = ERS
+owner = KHO controller = KHO add_core = KHO remove_core = ZAB capital = "Bost"
+owner = SIS controller = SIS add_core = SIS remove_core = KHO
+religion = sunni
+owner = BUK controller = BUK
+owner = SIS controller = SIS
+owner = GHZ controller = GHZ add_core = GHZ
+owner = SIS controller = SIS remove_core = GHZ
+owner = KHW controller = KHW add_core = KHW
+owner = KHA controller = KHA add_core = KHA add_core = BAL add_core = AFG remove_core = KHW
+owner = ILK controller = ILK add_core = ILK remove_core = KHA
+owner = SIS controller = SIS add_core = SIS remove_core = ILK
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1460.1.1 = {
 	controller = TIM

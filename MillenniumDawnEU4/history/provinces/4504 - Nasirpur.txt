@@ -24,17 +24,30 @@ base_manpower = 1
 is_city = yes
 add_core = SND
 
-76.1.1 = { owner = KUS controller = KUS add_core = KUS }
-80.1.1 = { owner = SND controller = SND remove_core = KUS }
-711.1.1 = { owner = UMA controller = UMA add_core = UMA }
-750.8.6 = { owner = ABA controller = ABA add_core = ABA remove_core = UMA }
-841.1.1 = { owner = SND controller = SND add_core = SND remove_core = ABA }
-900.1.1 = { base_tax = 3 base_production = 3 }
-1020.1.1 = { religion = shiite }
-1024.1.1 = { owner = GHZ controller = GHZ add_core = GHZ }
-1026.1.1 = { owner = SND controller = SND remove_core = GHZ }
-1100.1.1 = { base_production = 4 }
-1356.1.1 = { religion = sunni }
+1444.11.11 = {
+owner = KUS controller = KUS add_core = KUS
+owner = SND controller = SND remove_core = KUS
+owner = UMA controller = UMA add_core = UMA
+owner = ABA controller = ABA add_core = ABA remove_core = UMA
+owner = SND controller = SND add_core = SND remove_core = ABA
+base_tax = 3 base_production = 3
+religion = shiite
+owner = GHZ controller = GHZ add_core = GHZ
+owner = SND controller = SND remove_core = GHZ
+base_production = 4
+religion = sunni
+}
+
+
+
+
+
+
+
+
+
+
+
 
 1498.1.1 = { discovered_by = POR }
 1544.1.1 = {

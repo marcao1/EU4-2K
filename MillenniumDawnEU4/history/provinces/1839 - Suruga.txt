@@ -16,15 +16,26 @@ base_manpower = 3
 is_city = yes
 add_core = OWA
 
-320.1.1 = { owner = YAM controller = YAM add_core = YAM remove_core = OWA }
-607.1.1 = { religion = mahayana }
-712.1.1 = { religion = shinto }
-794.1.1 = { owner = JAP controller = JAP add_core = JAP remove_core = YAM }
-1040.1.1 = { owner = III controller = III add_core = III remove_core = JAP }
-1175.1.1 = { owner = TAC controller = TAC add_core = TAC }
-1180.8.1 = { owner = TKD controller = TKD add_core = TKD remove_core = TAC }
-1192.7.12 = { owner = HJO controller = HJO add_core = HJO remove_core = JAP } #Kamakura Shogunate
-1333.5.18 = { owner = IMG controller = IMG add_core = IMG remove_core = HJO } #Kenmu restoration
+1444.11.11 = {
+owner = YAM controller = YAM add_core = YAM remove_core = OWA
+religion = mahayana
+religion = shinto
+owner = JAP controller = JAP add_core = JAP remove_core = YAM
+owner = III controller = III add_core = III remove_core = JAP
+owner = TAC controller = TAC add_core = TAC
+owner = TKD controller = TKD add_core = TKD remove_core = TAC
+owner = HJO controller = HJO add_core = HJO remove_core = JAP
+owner = IMG controller = IMG add_core = IMG remove_core = HJO
+}
+
+
+
+
+
+
+
+ #Kamakura Shogunate
+ #Kenmu restoration
 
 1501.1.1 = { add_core = TKG }
 1542.1.1 = { discovered_by = POR }

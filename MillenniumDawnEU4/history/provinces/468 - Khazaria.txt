@@ -19,22 +19,38 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-420.1.1 = { owner = HNS controller = HNS add_core = HNS remove_core = ALN }
-420.1.1 = { add_core = UTI culture = bulgar }
-469.1.1 = { owner = UTI controller = UTI remove_core = HNS }
-632.1.1 = { owner = BUL controller = BUL add_core = BUL remove_core = UTI }
-720.1.1 = { owner = KHZ controller = KHZ add_core = KHZ remove_core = BUL culture = khazar }
-800.1.1 = { discovered_by = eastern }
-969.1.1 = { owner = PEC controller = PEC add_core = PEC remove_core = KHZ }
-1000.1.1 = { base_tax = 2 base_production = 2 religion = sunni }
-1037.1.1 = { owner = CUM controller = CUM add_core = CUM remove_core = PEC }
-1236.1.1 = { owner = KHA controller = KHA add_core = KHA add_core = AST remove_core = CUM culture = astrakhani }
-1260.1.1 = { owner = WHH controller = WHH add_core = WHH remove_core = KHA }
-1372.1.1 = { owner = BHO controller = BHO add_core = BHO }
-1374.1.1 = { owner = WHH controller = WHH remove_core = BHO }
-1378.1.1 = { owner = GLH controller = GLH add_core = GLH }
+1444.11.11 = {
+owner = HNS controller = HNS add_core = HNS remove_core = ALN
+add_core = UTI culture = bulgar
+owner = UTI controller = UTI remove_core = HNS
+owner = BUL controller = BUL add_core = BUL remove_core = UTI
+owner = KHZ controller = KHZ add_core = KHZ remove_core = BUL culture = khazar
+discovered_by = eastern
+owner = PEC controller = PEC add_core = PEC remove_core = KHZ
+base_tax = 2 base_production = 2 religion = sunni
+owner = CUM controller = CUM add_core = CUM remove_core = PEC
+owner = KHA controller = KHA add_core = KHA add_core = AST remove_core = CUM culture = astrakhani
+owner = WHH controller = WHH add_core = WHH remove_core = KHA
+owner = BHO controller = BHO add_core = BHO
+owner = WHH controller = WHH remove_core = BHO
+owner = GLH controller = GLH add_core = GLH
+owner = GOL controller = GOL add_core = GOL remove_core = GLH
+}
 
-1442.1.1  = { owner = GOL controller = GOL add_core = GOL remove_core = GLH }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 1459.1.1  = { owner = AST controller = AST add_core = AST remove_core = GOL } # Independence of Astrakhan
 1556.6.2  = { owner = RUS controller = RUS add_core = RUS remove_core = AST } # Russians acquire Volga after fall of Astrakhan
 1600.1.1  = { culture = russian religion = orthodox }

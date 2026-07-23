@@ -27,28 +27,44 @@ is_city = yes
 add_core = PRT
 fort_15th = yes
 
-224.4.24 = { owner = ERS controller = ERS add_core = ERS remove_core = PRT }
-400.1.1 = { base_tax = 2 base_production = 2 }
-638.1.1 = { owner = RSD controller = RSD add_core = RSD remove_core = ERS }
-650.1.1 = { religion = islam }
-661.7.28 = { owner = UMA controller = UMA add_core = UMA remove_core = RSD religion = shiite }
-750.8.6 = { owner = ABA controller = ABA add_core = ABA remove_core = UMA }
-920.1.1 = { culture = kurdish }
-934.1.1 = { owner = QOM controller = QOM add_core = QOM remove_core = ABA }
-961.1.1 = { owner = ARD controller = ARD add_core = ARD remove_core = QOM }
-1055.1.1 = { owner = SEL controller = SEL add_core = SEL }
-1153.1.1 = { owner = ABA controller = ABA add_core = ABA remove_core = SEL }
-1250.1.1 = { owner = KHA controller = KHA add_core = KHA add_core = PER remove_core = ABA }
-1260.1.1 = { owner = ILK controller = ILK add_core = ILK remove_core = KHA }
-1335.1.1 = { owner = JAL controller = JAL add_core = JAL remove_core = ILK }
-1380.1.1 = { add_core = TIM }
-1393.1.1 = { owner = TIM controller = TIM remove_core = JAL }
-
-1411.1.1 = {
-	owner = QAR
+1444.11.11 = {
+owner = ERS controller = ERS add_core = ERS remove_core = PRT
+base_tax = 2 base_production = 2
+owner = RSD controller = RSD add_core = RSD remove_core = ERS
+religion = islam
+owner = UMA controller = UMA add_core = UMA remove_core = RSD religion = shiite
+owner = ABA controller = ABA add_core = ABA remove_core = UMA
+culture = kurdish
+owner = QOM controller = QOM add_core = QOM remove_core = ABA
+owner = ARD controller = ARD add_core = ARD remove_core = QOM
+owner = SEL controller = SEL add_core = SEL
+owner = ABA controller = ABA add_core = ABA remove_core = SEL
+owner = KHA controller = KHA add_core = KHA add_core = PER remove_core = ABA
+owner = ILK controller = ILK add_core = ILK remove_core = KHA
+owner = JAL controller = JAL add_core = JAL remove_core = ILK
+add_core = TIM
+owner = TIM controller = TIM remove_core = JAL
+owner = QAR
 	controller = QAR
-	add_core = QAR		
-} # Qara Koyunlu
+	add_core = QAR
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ # Qara Koyunlu
 1458.9.1 = { unrest = 5 } # Civil war
 1458.12.1 = { unrest = 0 }
 1469.2.4 = {

@@ -12,7 +12,10 @@ native_size = 70
 native_ferocity = 2
 native_hostileness = 7 
 
-1350.1.1 = { owner = KON controller = KON add_core = KON is_city = yes trade_goods = ivory }
+1444.11.11 = {
+owner = KON controller = KON add_core = KON is_city = yes trade_goods = ivory
+}
+
 
 1481.1.1 = { discovered_by = POR } # Bartolomeu Dias
 1590.1.1 = { owner = SYO controller = SYO add_core = SYO }

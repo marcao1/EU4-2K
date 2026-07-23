@@ -17,7 +17,10 @@ native_ferocity = 1
 native_hostileness = 3
 discovered_by = central_african
 
-1350.1.1 = { owner = KON controller = KON add_core = KON add_core = SYO is_city = yes trade_goods = slaves }
+1444.11.11 = {
+owner = KON controller = KON add_core = KON add_core = SYO is_city = yes trade_goods = slaves
+}
+
 
 1483.1.1 = { discovered_by = POR } # Diogo Cão
 1590.1.1 = { owner = SYO controller = SYO add_core = SYO }

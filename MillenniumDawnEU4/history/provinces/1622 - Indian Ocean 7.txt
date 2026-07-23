@@ -1,7 +1,11 @@
 #1622 - Eastern Equatorial Counter Current
 
-1350.1.1 = { discovered_by = indian discovered_by = asian }
-1405.1.1 = { discovered_by = MNG }
+1444.11.11 = {
+discovered_by = indian discovered_by = asian
+discovered_by = MNG
+}
+
+
 1498.1.1 = { discovered_by = POR }
 
 

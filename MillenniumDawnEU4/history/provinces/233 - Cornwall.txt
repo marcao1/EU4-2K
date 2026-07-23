@@ -20,15 +20,26 @@ capital = "Trevena"
 is_city = yes
 add_core = DUM
 
-55.1.1 = { owner = ROM controller = ROM add_core = ROM }
-200.1.1 = { culture = cornish }
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-410.1.1 = { owner = DUM controller = DUM add_core = DUM remove_core = ROW capital = "Tintagel" }
-500.1.1 = { religion = chalcedonism }
-710.1.1 = { owner = CRN controller = CRN add_core = CRN remove_core = DUM capital = "Penryn" }
-867.1.1 = { religion = catholic }
-890.1.1 = { owner = WSX controller = WSX add_core = WSX }
-927.1.1 = { owner = ENG controller = ENG add_core = ENG remove_core = WSX }
+1444.11.11 = {
+owner = ROM controller = ROM add_core = ROM
+culture = cornish
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+owner = DUM controller = DUM add_core = DUM remove_core = ROW capital = "Tintagel"
+religion = chalcedonism
+owner = CRN controller = CRN add_core = CRN remove_core = DUM capital = "Penryn"
+religion = catholic
+owner = WSX controller = WSX add_core = WSX
+owner = ENG controller = ENG add_core = ENG remove_core = WSX
+}
+
+
+ # Final division of the empire
+
+
+
+
+
+
 
 1453.1.1 = { unrest = 5 } # Start of the War of the Roses
 1461.6.1 = { unrest = 2 } # Coronation of Edward IV

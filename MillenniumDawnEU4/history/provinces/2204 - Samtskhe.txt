@@ -23,27 +23,50 @@ base_manpower = 2
 is_city = yes
 add_core = ARM
 
-114.1.1 = { owner = ROM controller = ROM add_core = ROM }
-117.1.1 = { owner = ARM controller = ARM remove_core = ROM }
-200.1.1 = { religion = zoroastrian }
-380.1.1 = { religion = chalcedonism }
-428.1.1 = { owner = ERS controller = ERS add_core = ERS }
-506.1.1 = { religion = coptic }
-591.1.1 = { owner = BYZ controller = BYZ add_core = BYZ remove_core = ERS }
-639.1.1 = { owner = RSD controller = RSD add_core = RSD remove_core = BYZ capital = "Akhaltsikhe" }
-653.1.1 = { owner = ARM controller = ARM add_core = ARM }
-661.1.1 = { add_core = UMA remove_core = RSD }
-750.1.1 = { add_core = ABA remove_core = UMA }
-813.1.1 = { owner = GEO controller = GEO add_core = GEO remove_core = ABA remove_core = ARM }
-900.1.1 = { base_tax = 3 base_production = 3 }
-950.1.1 = { fort_15th = yes }
-1071.8.26 = { owner = SLT controller = SLT add_core = SLT }
-1124.1.1 = { owner = GEO controller = GEO add_core = GEO remove_core = SLT }
-1230.1.1 = { owner = RUM controller = RUM add_core = RUM }
-1234.1.1 = { owner = KHA controller = KHA add_core = KHA remove_core = RUM }
-1260.1.1 = { owner = GEO controller = GEO add_core = GEO remove_core = KHA remove_core = SLT }
-1266.1.1 = { owner = ILK controller = ILK add_core = ILK } #Samtskhe submitted to Ilkhanate
-1268.1.1 = { owner = SME controller = SME add_core = SME } #Turned into Ilkhanate vassal
+1444.11.11 = {
+owner = ROM controller = ROM add_core = ROM
+owner = ARM controller = ARM remove_core = ROM
+religion = zoroastrian
+religion = chalcedonism
+owner = ERS controller = ERS add_core = ERS
+religion = coptic
+owner = BYZ controller = BYZ add_core = BYZ remove_core = ERS
+owner = RSD controller = RSD add_core = RSD remove_core = BYZ capital = "Akhaltsikhe"
+owner = ARM controller = ARM add_core = ARM
+add_core = UMA remove_core = RSD
+add_core = ABA remove_core = UMA
+owner = GEO controller = GEO add_core = GEO remove_core = ABA remove_core = ARM
+base_tax = 3 base_production = 3
+fort_15th = yes
+owner = SLT controller = SLT add_core = SLT
+owner = GEO controller = GEO add_core = GEO remove_core = SLT
+owner = RUM controller = RUM add_core = RUM
+owner = KHA controller = KHA add_core = KHA remove_core = RUM
+owner = GEO controller = GEO add_core = GEO remove_core = KHA remove_core = SLT
+owner = ILK controller = ILK add_core = ILK
+owner = SME controller = SME add_core = SME
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ #Samtskhe submitted to Ilkhanate
+ #Turned into Ilkhanate vassal
 
 1535.1.1 = { owner = GEO controller = GEO add_core = GEO }
 1545.1.1 = { owner = SME controller = SME } #Battle of Sokhoista

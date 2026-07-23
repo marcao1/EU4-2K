@@ -13,8 +13,8 @@ native_size = 20
 native_ferocity = 3 
 native_hostileness = 5 
 
-1200.1.1 = {
-	add_core = NAH
+1444.11.11 = {
+add_core = NAH
 	owner = NAH
 	controller = NAH
 	is_city = yes
@@ -22,7 +22,8 @@ native_hostileness = 5
 	trade_goods = salt
 }
 
-1541.1.1   = { discovered_by = SPA } # Francisco Vásquez de Coronado
+
+1541.1.1   = { discovered_by = SPA } # Francisco Vï¿½squez de Coronado
 
 1866.1.1   = { 	
 	owner = USA 

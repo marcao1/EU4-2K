@@ -18,11 +18,18 @@ base_manpower = 2
 is_city = yes
 add_core = THA
 
-400.1.1 = { religion = buddhism }
-700.1.1 = { discovered_by = muslim discovered_by = ottoman }
-1000.1.1 = { base_tax = 3 base_production = 3 }
-1057.5.17 = { owner = PAG controller = PAG add_core = PAG remove_core = THA }
-1287.4.4 = { owner = PEG controller = PEG add_core = PEG remove_core = PAG }
+1444.11.11 = {
+religion = buddhism
+discovered_by = muslim discovered_by = ottoman
+base_tax = 3 base_production = 3
+owner = PAG controller = PAG add_core = PAG remove_core = THA
+owner = PEG controller = PEG add_core = PEG remove_core = PAG
+}
+
+
+
+
+
 
 1500.1.1 = { discovered_by = POR }
 1534.1.1 = { add_core = TAU } # Taungu Invasion

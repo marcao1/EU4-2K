@@ -17,13 +17,22 @@ fort_15th = yes #Gassantoda Castle
 is_city = yes
 add_core = IZU
 
-530.1.1 = { owner = YAM controller = YAM add_core = YAM remove_core = IZU }
-580.1.1 = { religion = mahayana }
-712.1.1 = { religion = shinto }
-794.1.1 = { owner = JAP controller = JAP add_core = JAP remove_core = YAM }
-1000.1.1 = { capital = "Matsue" }
-1185.6.19 = { owner = ADC controller = ADC add_core = ADC remove_core = YAM } #Genpei War
-1333.5.18 = { owner = AMA controller = AMA add_core = AMA } #Kenmu restoration
+1444.11.11 = {
+owner = YAM controller = YAM add_core = YAM remove_core = IZU
+religion = mahayana
+religion = shinto
+owner = JAP controller = JAP add_core = JAP remove_core = YAM
+capital = "Matsue"
+owner = ADC controller = ADC add_core = ADC remove_core = YAM
+owner = AMA controller = AMA add_core = AMA
+}
+
+
+
+
+
+ #Genpei War
+ #Kenmu restoration
 
 1542.1.1 = { discovered_by = POR }
 1558.1.1 = { add_core = MRI }

@@ -20,17 +20,30 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-300.1.1 = { owner = SAX controller = SAX add_core = SAX remove_core = CRS culture = saxon }
-700.1.1 = { base_tax = 2 base_production = 2 }
-804.1.1 = { owner = FRK controller = FRK add_core = FRK }
-840.6.21 = { owner = FRE controller = FRE add_core = FRE add_core = FKN remove_core = FRK }
-900.1.1 = { religion = catholic }
-911.11.10 = { owner = FKN controller = FKN add_core = FKN remove_core = FRE remove_core = SAX }
-962.2.2 = { hre = yes }
-1000.1.1 = { base_tax = 3 base_production = 3 }
-1081.12.26 = { owner = GOS controller = GOS add_core = GOS remove_core = FKN }
-1100.1.1 = { base_tax = 4 base_production = 4 }
-1200.1.1 = { base_tax = 5 base_production = 5 }
+1444.11.11 = {
+owner = SAX controller = SAX add_core = SAX remove_core = CRS culture = saxon
+base_tax = 2 base_production = 2
+owner = FRK controller = FRK add_core = FRK
+owner = FRE controller = FRE add_core = FRE add_core = FKN remove_core = FRK
+religion = catholic
+owner = FKN controller = FKN add_core = FKN remove_core = FRE remove_core = SAX
+hre = yes
+base_tax = 3 base_production = 3
+owner = GOS controller = GOS add_core = GOS remove_core = FKN
+base_tax = 4 base_production = 4
+base_tax = 5 base_production = 5
+}
+
+
+
+
+
+
+
+
+
+
+
 
 1524.1.1 = { religion = protestant }
 1803.4.27 = {

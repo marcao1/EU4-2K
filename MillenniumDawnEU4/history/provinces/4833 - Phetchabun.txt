@@ -18,20 +18,36 @@ base_manpower = 1
 is_city = yes
 add_core = MNX
 
-300.1.1 = { owner = DVA controller = DVA add_core = DVA remove_core = MNX }
-500.1.1 = { religion = mahayana }
-600.1.1 = { base_tax = 2 base_production = 2 }
-650.1.1 = { religion = buddhism }
-661.1.1 = { owner = LAV controller = LAV add_core = LAV remove_core = DVA }
-700.1.1 = { base_manpower = 2 }
-800.1.1 = { base_tax = 3 base_production = 3 }
-880.1.1 = { owner = CMB controller = CMB add_core = CMB }
-900.1.1 = { base_manpower = 3 }
-1020.1.1 = { culture = central_thai } #Sometime in the 11th century
-1060.1.1 = { owner = LAV controller = LAV remove_core = CMB }
-1238.1.1 = { owner = SUK controller = SUK add_core = SUK remove_core = LAV }
-1260.1.1 = { religion = buddhism }
-1390.1.1 = { owner = AYU controller = AYU add_core = AYU remove_core = SUK }
+1444.11.11 = {
+owner = DVA controller = DVA add_core = DVA remove_core = MNX
+religion = mahayana
+base_tax = 2 base_production = 2
+religion = buddhism
+owner = LAV controller = LAV add_core = LAV remove_core = DVA
+base_manpower = 2
+base_tax = 3 base_production = 3
+owner = CMB controller = CMB add_core = CMB
+base_manpower = 3
+culture = central_thai
+owner = LAV controller = LAV remove_core = CMB
+owner = SUK controller = SUK add_core = SUK remove_core = LAV
+religion = buddhism
+owner = AYU controller = AYU add_core = AYU remove_core = SUK
+}
+
+
+
+
+
+
+
+
+
+ #Sometime in the 11th century
+
+
+
+
 
 1535.1.1 = { discovered_by = POR }
 1767.4.7 = { owner = SWB controller = SWB add_core = SWB }

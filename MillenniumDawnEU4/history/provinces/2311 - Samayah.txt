@@ -22,36 +22,61 @@ base_production = 3
 base_manpower = 2
 add_province_triggered_modifier = religious_center
 
-116.1.1 = { owner = ROM controller = ROM add_core = ROM }
-118.1.1 = { owner = PRT controller = PRT remove_core = ROM }
-210.1.1 = { religion = chalcedonism }
-220.1.1 = { owner = LKH controller = LKH add_core = LKH remove_core = PRT capital = "Najaf" }
-431.7.1 = { religion = nestorian }
-602.1.1 = { owner = ERS controller = ERS add_core = ERS }
-633.5.1 = { owner = RSD controller = RSD add_core = RSD remove_core = ERS remove_core = LKH }
-661.7.28 = { owner = UMA controller = UMA add_core = UMA remove_core = RSD }
-680.1.1 = { religion = sunni }
-750.8.6 = { owner = ABA controller = ABA add_core = ABA remove_core = UMA }
-944.1.1 = { owner = IRQ controller = IRQ add_core = IRQ }
-978.3.1 = { owner = PER controller = PER add_core = PER }
-983.3.26 = { owner = IRQ controller = IRQ }
-987.1.1 = { owner = PER controller = PER }
-1021.1.1 = { owner = IRQ controller = IRQ }
-1044.3.1 = { owner = PER controller = PER }
-1048.10.1 = { owner = IRQ controller = IRQ }
-1055.12.17 = { owner = SEL controller = SEL add_core = SEL remove_core = PER }
-1153.1.1 = { owner = ABA controller = ABA add_core = ABA remove_core = SEL }
-1250.1.1 = { religion = shiite }
-1258.2.10 = { owner = KHA controller = KHA add_core = KHA add_core = IRQ remove_core = ABA }
-1260.1.1 = { owner = ILK controller = ILK add_core = ILK remove_core = KHA }
-1335.1.1 = { owner = JAL controller = JAL add_core = JAL remove_core = ILK }
-1380.1.1 = { add_core = TIM }
-
-1411.1.1   = {	owner = QAR
+1444.11.11 = {
+owner = ROM controller = ROM add_core = ROM
+owner = PRT controller = PRT remove_core = ROM
+religion = chalcedonism
+owner = LKH controller = LKH add_core = LKH remove_core = PRT capital = "Najaf"
+religion = nestorian
+owner = ERS controller = ERS add_core = ERS
+owner = RSD controller = RSD add_core = RSD remove_core = ERS remove_core = LKH
+owner = UMA controller = UMA add_core = UMA remove_core = RSD
+religion = sunni
+owner = ABA controller = ABA add_core = ABA remove_core = UMA
+owner = IRQ controller = IRQ add_core = IRQ
+owner = PER controller = PER add_core = PER
+owner = IRQ controller = IRQ
+owner = PER controller = PER
+owner = IRQ controller = IRQ
+owner = PER controller = PER
+owner = IRQ controller = IRQ
+owner = SEL controller = SEL add_core = SEL remove_core = PER
+owner = ABA controller = ABA add_core = ABA remove_core = SEL
+religion = shiite
+owner = KHA controller = KHA add_core = KHA add_core = IRQ remove_core = ABA
+owner = ILK controller = ILK add_core = ILK remove_core = KHA
+owner = JAL controller = JAL add_core = JAL remove_core = ILK
+add_core = TIM
+owner = QAR
 		controller = QAR
 		add_core = QAR
 		remove_core = JAL
-	     } # Qara Koyunlu
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ # Qara Koyunlu
 1447.1.1 = {
 	owner = MSY
 	controller = MSY

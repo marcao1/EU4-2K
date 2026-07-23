@@ -17,19 +17,34 @@ base_manpower = 2
 capital = "Kiev"
 center_of_trade = 2
 
-380.1.1 = { owner = HNS controller = HNS add_core = HNS }
-400.1.1 = { discovered_by = western discovered_by = eastern }
-469.1.1 = { owner = ANE controller = ANE add_core = ANE remove_core = HNS }
-550.1.1 = { owner = DRV controller = DRV add_core = DRV remove_core = ANE base_tax = 3 base_production = 3 }
-860.1.1 = { owner = KRU controller = KRU add_core = KRU add_core = UKR remove_core = DRV fort_15th = yes }
-900.1.1 = { base_tax = 4 base_production = 4 }
-960.1.1 = { religion = orthodox }
-1000.1.1 = { discovered_by = muslim discovered_by = ottoman }
-1054.2.20 = { owner = KIE controller = KIE add_core = KIE remove_core = KRU }
-1230.1.1 = { owner = VOL controller = VOL add_core = VOL }
-1240.12.6 = { owner = KHA controller = KHA add_core = KHA remove_core = VOL fort_15th = no }
-1260.1.1 = { owner = WHH controller = WHH add_core = WHH remove_core = KHA }
-1362.12.24 = { owner = LIT controller = LIT add_core = LIT remove_core = WHH }
+1444.11.11 = {
+owner = HNS controller = HNS add_core = HNS
+discovered_by = western discovered_by = eastern
+owner = ANE controller = ANE add_core = ANE remove_core = HNS
+owner = DRV controller = DRV add_core = DRV remove_core = ANE base_tax = 3 base_production = 3
+owner = KRU controller = KRU add_core = KRU add_core = UKR remove_core = DRV fort_15th = yes
+base_tax = 4 base_production = 4
+religion = orthodox
+discovered_by = muslim discovered_by = ottoman
+owner = KIE controller = KIE add_core = KIE remove_core = KRU
+owner = VOL controller = VOL add_core = VOL
+owner = KHA controller = KHA add_core = KHA remove_core = VOL fort_15th = no
+owner = WHH controller = WHH add_core = WHH remove_core = KHA
+owner = LIT controller = LIT add_core = LIT remove_core = WHH
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 1550.1.1 = { fort_15th = yes }

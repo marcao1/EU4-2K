@@ -19,37 +19,68 @@ base_production = 1
 trade_goods = wine
 base_manpower = 1
 add_core = ROM
-#  # L'Université de Cahors: top university
+#  # L'Universitï¿½ de Cahors: top university
 
-260.1.1 = { add_core = GLL revolt = { type = nationalist_rebels size = 1 } controller = REB }
-268.1.1 = { controller = ROM remove_core = GLL revolt = {} }
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-400.1.1 = { religion = chalcedonism }
-455.1.1 = { owner = GVI controller = GVI add_core = GVI remove_core = ROW }
-507.1.1 = { owner = FRK controller = FRK add_core = FRK remove_core = GVI culture = occitain capital = "Bergerac" }
-511.11.27 = { owner = SOI controller = SOI add_core = SOI }
-558.12.23 = { owner = FRK controller = FRK add_core = FRK remove_core = SOI }
-561.11.29 = { owner = NEU controller = NEU add_core = NEU }
-567.12.1 = { owner = ORL controller = ORL add_core = ORL remove_core = NEU }
-592.3.28 = { owner = AUT controller = AUT add_core = AUT }
-595.1.1 = { owner = ORL controller = ORL remove_core = AUT }
-612.1.1 = { owner = AUT controller = AUT add_core = AUT remove_core = ORL }
-613.10.10 = { owner = FRK controller = FRK add_core = FRK remove_core = AUT }
-629.10.18 = { owner = AQT controller = AQT add_core = AQT }
-700.1.1 = { base_tax = 2 base_production = 2 }
-769.2.1 = { owner = FRK controller = FRK add_core = FRK }
-840.6.21 = { owner = FRW controller = FRW add_core = FRW remove_core = FRK }
-866.1.1 = { owner = AQT controller = AQT add_core = AQT remove_core = FRW }
-867.1.1 = { religion = catholic }
-893.1.1 = { owner = AUV controller = AUV add_core = AUV }
-900.1.1 = { base_tax = 3 base_production = 3 }
-927.1.1 = { owner = AQT controller = AQT remove_core = AUV }
-987.7.3 = { add_core = FRA remove_core = FRW }
-1050.1.1 = { base_manpower = 2 }
-1204.4.1 = { owner = FRA controller = FRA }
-1300.1.1 = { base_manpower = 3 }
-1360.5.9 = { owner = ENG controller = ENG } # Treaty of Bretigny
-1377.1.1 = { owner = FRA controller = FRA }
+1444.11.11 = {
+add_core = GLL revolt = { type = nationalist_rebels size = 1 } controller = REB
+controller = ROM remove_core = GLL revolt = {}
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+religion = chalcedonism
+owner = GVI controller = GVI add_core = GVI remove_core = ROW
+owner = FRK controller = FRK add_core = FRK remove_core = GVI culture = occitain capital = "Bergerac"
+owner = SOI controller = SOI add_core = SOI
+owner = FRK controller = FRK add_core = FRK remove_core = SOI
+owner = NEU controller = NEU add_core = NEU
+owner = ORL controller = ORL add_core = ORL remove_core = NEU
+owner = AUT controller = AUT add_core = AUT
+owner = ORL controller = ORL remove_core = AUT
+owner = AUT controller = AUT add_core = AUT remove_core = ORL
+owner = FRK controller = FRK add_core = FRK remove_core = AUT
+owner = AQT controller = AQT add_core = AQT
+base_tax = 2 base_production = 2
+owner = FRK controller = FRK add_core = FRK
+owner = FRW controller = FRW add_core = FRW remove_core = FRK
+owner = AQT controller = AQT add_core = AQT remove_core = FRW
+religion = catholic
+owner = AUV controller = AUV add_core = AUV
+base_tax = 3 base_production = 3
+owner = AQT controller = AQT remove_core = AUV
+add_core = FRA remove_core = FRW
+base_manpower = 2
+owner = FRA controller = FRA
+base_manpower = 3
+owner = ENG controller = ENG
+owner = FRA controller = FRA
+}
+
+
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ # Treaty of Bretigny
+
 
 1560.1.1 = { religion = reformed }
 1565.1.1 = { unrest = 8 } # France is restless once again as ultra-catholic intentions become clear
@@ -65,10 +96,10 @@ add_core = ROM
 1598.5.2 = { unrest = 0 } # Peace of Vervins, formal end to the Wars of Religion
 1637.1.1 = { unrest = 3 }
 1639.1.1 = { unrest = 0 }
-1650.1.14 = { unrest = 7 } # Mazarin arrests the Princes Condé, Conti & Longueville, the beginning of the Second Fronde
+1650.1.14 = { unrest = 7 } # Mazarin arrests the Princes Condï¿½, Conti & Longueville, the beginning of the Second Fronde
 1651.4.1 = { unrest = 4 } # An unstable peace is concluded
-1651.12.1 = { unrest = 7 } # Mazarin returns from exile, Condé sides with Spain, situation heats up again
-1652.2.15 = { unrest = 0 revolt = { type = revolutionary_rebels size = 0 } controller = REB } # Fronde rebels make a foothold in the Guyenne area, under Condé
+1651.12.1 = { unrest = 7 } # Mazarin returns from exile, Condï¿½ sides with Spain, situation heats up again
+1652.2.15 = { unrest = 0 revolt = { type = revolutionary_rebels size = 0 } controller = REB } # Fronde rebels make a foothold in the Guyenne area, under Condï¿½
 1652.10.21 = { revolt = {} controller = FRA } # The King is allowed to enter Paris again, Mazarin leaves France for good. Second Fronde over.
 1685.10.18 = { unrest = 8 } # Edict of Nantes revoked by Louis XIV
 1686.1.17 = { religion = catholic } # Dragonnard campaign succesful: region reverts back to catholicism

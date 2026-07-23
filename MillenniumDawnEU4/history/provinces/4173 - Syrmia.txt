@@ -20,23 +20,42 @@ base_manpower = 1
 is_city = yes
 add_core = ROM
 
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-441.1.1 = { owner = HNS controller = HNS add_core = HNS }
-469.1.1 = { owner = OST controller = OST add_core = OST remove_core = HNS }
-470.1.1 = { religion = arianism }
-488.1.1 = { owner = GEP controller = GEP add_core = GEP culture = gepid }
-504.1.1 = { owner = OST controller = OST add_core = OST }
-540.1.1 = { owner = GEP controller = GEP add_core = GEP remove_core = OST }
-567.1.1 = { owner = BYZ controller = BYZ add_core = BYZ remove_core = GEP }
-582.1.1 = { owner = AVR controller = AVR add_core = AVR culture = avar }
-600.1.1 = { religion = tengri_pagan_reformed }
-620.1.1 = { culture = serbian }
-804.1.1 = { owner = PNN controller = PNN add_core = PNN remove_core = AVR }
-845.1.1 = { owner = BUL controller = BUL add_core = BUL }
-867.1.1 = { religion = orthodox }
-900.1.1 = { base_tax = 2 base_production = 2 }
-1003.1.1 = { owner = HUN controller = HUN add_core = HUN remove_core = BUL capital = "Mitrovica" }
-1282.1.1 = { add_core = SER }
+1444.11.11 = {
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+owner = HNS controller = HNS add_core = HNS
+owner = OST controller = OST add_core = OST remove_core = HNS
+religion = arianism
+owner = GEP controller = GEP add_core = GEP culture = gepid
+owner = OST controller = OST add_core = OST
+owner = GEP controller = GEP add_core = GEP remove_core = OST
+owner = BYZ controller = BYZ add_core = BYZ remove_core = GEP
+owner = AVR controller = AVR add_core = AVR culture = avar
+religion = tengri_pagan_reformed
+culture = serbian
+owner = PNN controller = PNN add_core = PNN remove_core = AVR
+owner = BUL controller = BUL add_core = BUL
+religion = orthodox
+base_tax = 2 base_production = 2
+owner = HUN controller = HUN add_core = HUN remove_core = BUL capital = "Mitrovica"
+add_core = SER
+}
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1471.1.1 = { capital = "Kupinik" }
 1514.1.1 = { revolt = { type = anti_tax_rebels size = 2 } controller = REB } # Rebel peasant troops led by Gheorghe Doja

@@ -24,13 +24,22 @@ base_manpower = 1
 is_city = yes
 add_core = KSH
 
-375.1.1 = { owner = LDK controller = LDK add_core = LDK remove_core = KSH }
-542.1.1 = { owner = KSH controller = KSH add_core = KSH }
-645.1.1 = { owner = TIB controller = TIB add_core = TIB remove_core = KSH }
-842.1.1 = { owner = UTS controller = UTS add_core = UTS remove_core = TIB }
-910.1.1 = { owner = GUG controller = GUG add_core = GUG remove_core = UTS }
-930.1.1 = { owner = LDK controller = LDK add_core = LDK remove_core = GUG }
-980.1.1 = { religion = vajrayana }
+1444.11.11 = {
+owner = LDK controller = LDK add_core = LDK remove_core = KSH
+owner = KSH controller = KSH add_core = KSH
+owner = TIB controller = TIB add_core = TIB remove_core = KSH
+owner = UTS controller = UTS add_core = UTS remove_core = TIB
+owner = GUG controller = GUG add_core = GUG remove_core = UTS
+owner = LDK controller = LDK add_core = LDK remove_core = GUG
+religion = vajrayana
+}
+
+
+
+
+
+
+
 
 1450.1.1 = {
 	owner = KSH

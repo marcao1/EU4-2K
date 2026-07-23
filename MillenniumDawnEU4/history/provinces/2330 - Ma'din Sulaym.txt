@@ -24,20 +24,36 @@ base_production = 1
 base_manpower = 1
 is_city = yes
 
-220.1.1 = { owner = HWZ controller = HWZ add_core = HWZ remove_core = THM }
-622.1.1 = { owner = RSD controller = RSD add_core = RSD remove_core = HWZ religion = islam }
-661.7.28 = { owner = UMA controller = UMA add_core = UMA remove_core = RSD religion = sunni }
-750.8.6 = { owner = ABA controller = ABA add_core = ABA remove_core = UMA trade_goods = gold }
-760.1.1 = { discovered_by = nomad_group }
-800.1.1 = { discovered_by = western }
-868.9.15 = { owner = EGY controller = EGY add_core = EGY remove_core = ABA }
-905.1.10 = { owner = ABA controller = ABA add_core = ABA }
-935.8.26 = { owner = EGY controller = EGY add_core = EGY remove_core = ABA }
-970.3.1  = { owner = FAT controller = FAT add_core = FAT remove_core = EGY }
-1171.1.1 = { owner = EGY controller = EGY add_core = EGY remove_core = FAT }
-1230.1.1 = { owner = HED controller = HED add_core = HED remove_core = EGY }
-1258.1.1 = { trade_goods = livestock }
-1427.10.1 = { owner = MDA controller = MDA add_core = MDA remove_core = HED }
+1444.11.11 = {
+owner = HWZ controller = HWZ add_core = HWZ remove_core = THM
+owner = RSD controller = RSD add_core = RSD remove_core = HWZ religion = islam
+owner = UMA controller = UMA add_core = UMA remove_core = RSD religion = sunni
+owner = ABA controller = ABA add_core = ABA remove_core = UMA trade_goods = gold
+discovered_by = nomad_group
+discovered_by = western
+owner = EGY controller = EGY add_core = EGY remove_core = ABA
+owner = ABA controller = ABA add_core = ABA
+owner = EGY controller = EGY add_core = EGY remove_core = ABA
+owner = FAT controller = FAT add_core = FAT remove_core = EGY
+owner = EGY controller = EGY add_core = EGY remove_core = FAT
+owner = HED controller = HED add_core = HED remove_core = EGY
+trade_goods = livestock
+owner = MDA controller = MDA add_core = MDA remove_core = HED
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1482.6.1 = { #Mamluks place all Hejaz under Mecca
 	owner = HED

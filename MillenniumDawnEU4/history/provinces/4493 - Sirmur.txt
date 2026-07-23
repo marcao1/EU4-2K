@@ -24,12 +24,20 @@ base_manpower = 1
 is_city = yes
 add_core = KGR
 
-140.1.1 = { owner = KUS controller = KUS add_core = KUS }
-250.1.1 = { owner = KGR controller = KGR remove_core = KUS }
-510.1.1 = { owner = HEP controller = HEP add_core = HEP }
-532.1.1 = { owner = KGR controller = KGR remove_core = HEP }
-1003.1.1 = { religion = hinduism }
-1095.1.1 = { owner = SRM controller = SRM add_core = SRM remove_core = KGR }
+1444.11.11 = {
+owner = KUS controller = KUS add_core = KUS
+owner = KGR controller = KGR remove_core = KUS
+owner = HEP controller = HEP add_core = HEP
+owner = KGR controller = KGR remove_core = HEP
+religion = hinduism
+owner = SRM controller = SRM add_core = SRM remove_core = KGR
+}
+
+
+
+
+
+
 1621.1.1 = { capital = "Nahan" }
 
 1690.1.1 = { discovered_by = ENG }

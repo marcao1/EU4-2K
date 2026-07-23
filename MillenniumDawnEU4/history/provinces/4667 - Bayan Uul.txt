@@ -18,17 +18,30 @@ base_manpower = 2
 is_city = yes
 add_core = XIO
 
-89.1.1 = { owner = XIB controller = XIB add_core = XIB remove_core = XIO }
-330.1.1 = { owner = ROU controller = ROU add_core = ROU remove_core = XIB }
-555.1.1 = { owner = GOK controller = GOK add_core = GOK remove_core = ROU }
-627.1.1 = { owner = XUE controller = XUE add_core = XUE }
-646.10.1 = { owner = UIG controller = UIG add_core = UIG remove_core = XUE }
-681.1.1 = { owner = GOK controller = GOK add_core = GOK }
-744.1.1 = { owner = UIG controller = UIG add_core = UIG remove_core = GOK }
-848.1.1 = { owner = KMO controller = KMO add_core = KMO remove_core = UIG }
-1206.1.1 = { owner = KHA controller = KHA add_core = KHA remove_core = KMO }
-1271.1.1 = { owner = YUA controller = YUA add_core = YUA remove_core = KHA }
-1368.1.23 = { owner = KHA controller = KHA add_core = KHA remove_core = YUA }
+1444.11.11 = {
+owner = XIB controller = XIB add_core = XIB remove_core = XIO
+owner = ROU controller = ROU add_core = ROU remove_core = XIB
+owner = GOK controller = GOK add_core = GOK remove_core = ROU
+owner = XUE controller = XUE add_core = XUE
+owner = UIG controller = UIG add_core = UIG remove_core = XUE
+owner = GOK controller = GOK add_core = GOK
+owner = UIG controller = UIG add_core = UIG remove_core = GOK
+owner = KMO controller = KMO add_core = KMO remove_core = UIG
+owner = KHA controller = KHA add_core = KHA remove_core = KMO
+owner = YUA controller = YUA add_core = YUA remove_core = KHA
+owner = KHA controller = KHA add_core = KHA remove_core = YUA
+}
+
+
+
+
+
+
+
+
+
+
+
 
 1543.1.1 = { revolt = { type = revolutionary_rebels size = 0 } controller = REB } # Fighting broke out between the Mongols
 1552.1.1 = { revolt = {} controller = KHA } # The Oirads are defeated & Mongolia is reunited under Altan Khan

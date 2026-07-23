@@ -19,19 +19,34 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-253.1.1 = { owner = ERS controller = ERS add_core = ERS }
-450.1.1 = { culture = khazar remove_core = ALN }
-620.1.1 = { owner = KHZ controller = KHZ add_core = KHZ remove_core = ERS }
-654.1.1 = { owner = RSD controller = RSD add_core = RSD remove_core = KHZ }
-661.7.28 = { owner = UMA controller = UMA add_core = UMA remove_core = RSD }
-700.1.1 = { base_tax = 2 base_production = 2 }
-720.1.1 = { culture = dagestani religion = shiite }
-734.1.1 = { owner = GAZ controller = GAZ add_core = GAZ remove_core = UMA remove_core = KHZ }
-800.1.1 = { discovered_by = eastern }
-900.1.1 = { base_tax = 3 base_production = 3 }
-1236.1.1 = { owner = KHA controller = KHA add_core = KHA }
-1260.1.1 = { owner = GAZ controller = GAZ add_core = GAZ remove_core = KHA }
-1437.1.1 = { owner = SRV controller = SRV add_core = SRV remove_core = GAZ }
+1444.11.11 = {
+owner = ERS controller = ERS add_core = ERS
+culture = khazar remove_core = ALN
+owner = KHZ controller = KHZ add_core = KHZ remove_core = ERS
+owner = RSD controller = RSD add_core = RSD remove_core = KHZ
+owner = UMA controller = UMA add_core = UMA remove_core = RSD
+base_tax = 2 base_production = 2
+culture = dagestani religion = shiite
+owner = GAZ controller = GAZ add_core = GAZ remove_core = UMA remove_core = KHZ
+discovered_by = eastern
+base_tax = 3 base_production = 3
+owner = KHA controller = KHA add_core = KHA
+owner = GAZ controller = GAZ add_core = GAZ remove_core = KHA
+owner = SRV controller = SRV add_core = SRV remove_core = GAZ
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1501.7.1 = {
 	owner = PER

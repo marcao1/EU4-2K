@@ -25,34 +25,64 @@ add_core = ROM
 add_core = PLM
 center_of_trade = 2
 
-260.1.1 = { add_core = PLM revolt = { type = nationalist_rebels size = 2 } controller = REB }
-272.1.1 = { controller = ROM remove_core = PLM revolt = {} }
-280.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-400.1.1 = { base_tax = 6 base_production = 6 }
-512.11.16 = { religion = coptic } #Syrian Orthodox Church
-600.1.1 = { base_manpower = 5 }
-613.1.1 = { controller = ERS }
-627.1.1 = { controller = BYZ }
-635.9.1 = { owner = RSD controller = RSD add_core = RSD }
-661.7.28 = { owner = UMA controller = UMA add_core = UMA remove_core = RSD remove_core = BYZ }
-706.1.1 = { religion = sunni culture = al_suryah_arabic fort_15th = yes }
-750.8.6 = { owner = ABA controller = ABA add_core = ABA remove_core = UMA }
-800.1.1 = { base_manpower = 6 }
-868.9.15 = { owner = EGY controller = EGY add_core = EGY }
-905.1.10 = { owner = ABA controller = ABA add_core = ABA }
-935.8.26 = { owner = EGY controller = EGY add_core = EGY remove_core = ABA }
-945.1.1 = { add_core = SYR }
-970.3.1  = { owner = FAT controller = FAT add_core = FAT remove_core = EGY }
-1000.1.1 = { base_tax = 7 base_production = 7 }
-1074.1.1 = { owner = DSC controller = DSC add_core = DSC remove_core = FAT }
-1094.1.1 = { owner = SYR controller = SYR add_core = SYR }
-1104.1.1 = { owner = DSC controller = DSC remove_core = SYR }
-1154.1.1 = { owner = SYR controller = SYR add_core = SYR }
-1174.1.1 = { owner = EGY controller = EGY add_core = EGY remove_core = ZNG }
-1260.3.1 = { owner = MAM controller = MAM add_core = MAM remove_core = EGY }
-1377.1.1 = { revolt = { type = pretender_rebels size = 5 } controller = REB }
-1382.1.1 = { revolt = {} controller = MAM }
+1444.11.11 = {
+add_core = PLM revolt = { type = nationalist_rebels size = 2 } controller = REB
+controller = ROM remove_core = PLM revolt = {}
+religion = chalcedonism
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+base_tax = 6 base_production = 6
+religion = coptic
+base_manpower = 5
+controller = ERS
+controller = BYZ
+owner = RSD controller = RSD add_core = RSD
+owner = UMA controller = UMA add_core = UMA remove_core = RSD remove_core = BYZ
+religion = sunni culture = al_suryah_arabic fort_15th = yes
+owner = ABA controller = ABA add_core = ABA remove_core = UMA
+base_manpower = 6
+owner = EGY controller = EGY add_core = EGY
+owner = ABA controller = ABA add_core = ABA
+owner = EGY controller = EGY add_core = EGY remove_core = ABA
+add_core = SYR
+owner = FAT controller = FAT add_core = FAT remove_core = EGY
+base_tax = 7 base_production = 7
+owner = DSC controller = DSC add_core = DSC remove_core = FAT
+owner = SYR controller = SYR add_core = SYR
+owner = DSC controller = DSC remove_core = SYR
+owner = SYR controller = SYR add_core = SYR
+owner = EGY controller = EGY add_core = EGY remove_core = ZNG
+owner = MAM controller = MAM add_core = MAM remove_core = EGY
+revolt = { type = pretender_rebels size = 5 } controller = REB
+revolt = {} controller = MAM
+}
+
+
+
+ # Final division of the empire
+
+ #Syrian Orthodox Church
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1516.8.24 = {	owner = TUR
 	controller = TUR

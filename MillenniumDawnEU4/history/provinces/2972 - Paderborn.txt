@@ -20,18 +20,30 @@ discovered_by = barbarian
 discovered_by = western
 discovered_by = roman_group
 discovered_by = eastern
-# Paderborn is through its history dependant on Münster and Köln.
+# Paderborn is through its history dependant on Mï¿½nster and Kï¿½ln.
 
-88.1.1 = { owner = CTI controller = CTI add_core = CTI remove_core = CRS }
-300.1.1 = { owner = AGR controller = AGR add_core = AGR remove_core = CTI culture = hannoverian }
-600.1.1 = { owner = SAX controller = SAX add_core = SAX remove_core = AGR }
-620.1.1 = { religion = chalcedonism }
-804.1.1 = { owner = FRK controller = FRK add_core = FRK }
-840.6.21 = { owner = FRE controller = FRE add_core = FRE remove_core = FRK }
-867.1.1 = { religion = catholic }
-911.11.10 = { owner = SAX controller = SAX remove_core = FRE }
-962.2.2 = { hre = yes }
-1102.1.1 = { owner = KOL controller = KOL add_core = KOL remove_core = SAX }
+1444.11.11 = {
+owner = CTI controller = CTI add_core = CTI remove_core = CRS
+owner = AGR controller = AGR add_core = AGR remove_core = CTI culture = hannoverian
+owner = SAX controller = SAX add_core = SAX remove_core = AGR
+religion = chalcedonism
+owner = FRK controller = FRK add_core = FRK
+owner = FRE controller = FRE add_core = FRE remove_core = FRK
+religion = catholic
+owner = SAX controller = SAX remove_core = FRE
+hre = yes
+owner = KOL controller = KOL add_core = KOL remove_core = SAX
+}
+
+
+
+
+
+
+
+
+
+
 
 1453.1.1 = { add_core = MUN }
 1566.1.1 = { religion = reformed }

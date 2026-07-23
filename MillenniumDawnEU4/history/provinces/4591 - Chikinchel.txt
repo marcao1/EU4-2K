@@ -18,10 +18,16 @@ native_size = 5
 native_ferocity = 1
 native_hostileness = 2
 
-881.1.1 = { owner = TLT controller = TLT add_core = TLT }
-970.1.1 = { owner = ITZ controller = ITZ add_core = ITZ remove_core = TLT }
-987.1.1 = { owner = MAY controller = MAY add_core = MAY remove_core = ITZ }
-1441.1.1 = { owner = COC controller = COC add_core = COC }
+1444.11.11 = {
+owner = TLT controller = TLT add_core = TLT
+owner = ITZ controller = ITZ add_core = ITZ remove_core = TLT
+owner = MAY controller = MAY add_core = MAY remove_core = ITZ
+owner = COC controller = COC add_core = COC
+}
+
+
+
+
 
 1517.1.1 = { discovered_by = SPA } # Francisco Hernandez de Cordoba
 1545.3.24 = {

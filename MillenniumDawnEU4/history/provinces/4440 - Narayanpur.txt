@@ -18,15 +18,26 @@ base_manpower = 1
 is_city = yes
 add_core = DAV
 
-400.1.1 = { owner = KMR controller = KMR add_core = KMR }
-500.1.1 = { religion = hinduism }
-600.1.1 = { base_tax = 2 base_production = 2 }
-800.1.1 = { base_tax = 3 base_production = 3 discovered_by = nomad_group }
-1000.1.1 = { base_manpower = 3 }
-1100.1.1 = { owner = SDY controller = SDY add_core = SDY remove_core = KMR }
-1200.1.1 = { base_tax = 4 base_production = 4 }
-1228.1.1 = { owner = ASS controller = ASS add_core = ASS remove_core = SDY }
-1230.1.1 = { culture = ahom }
+1444.11.11 = {
+owner = KMR controller = KMR add_core = KMR
+religion = hinduism
+base_tax = 2 base_production = 2
+base_tax = 3 base_production = 3 discovered_by = nomad_group
+base_manpower = 3
+owner = SDY controller = SDY add_core = SDY remove_core = KMR
+base_tax = 4 base_production = 4
+owner = ASS controller = ASS add_core = ASS remove_core = SDY
+culture = ahom
+}
+
+
+
+
+
+
+
+
+
 
 1540.1.1 = {
 	capital = "Garhgaon"

@@ -15,8 +15,12 @@ base_manpower = 1
 is_city = yes
 add_core = NAZ
 
-600.1.1 = { owner = HRI controller = HRI add_core = HRI remove_core = NAZ }
-1150.1.1 = { owner = NAZ controller = NAZ add_core = NAZ remove_core = HRI }
+1444.11.11 = {
+owner = HRI controller = HRI add_core = HRI remove_core = NAZ
+owner = NAZ controller = NAZ add_core = NAZ remove_core = HRI
+}
+
+
 
 1467.1.1 = {
 	owner = INC

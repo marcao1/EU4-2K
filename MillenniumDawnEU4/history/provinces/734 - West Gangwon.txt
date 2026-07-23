@@ -18,14 +18,24 @@ base_manpower = 1
 is_city = yes
 add_core = DON
 
-372.1.1 = { religion = mahayana }
-420.1.1 = { owner = GOG controller = GOG add_core = GOG remove_core = DON }
-522.1.1 = { owner = SLL controller = SLL add_core = SLL remove_core = GOG }
-901.1.1 = { owner = GOG controller = GOG add_core = GOG remove_core = SLL }
-918.1.1 = { owner = GOR controller = GOR add_core = GOR remove_core = GOG }
-940.1.1 = { capital = "Wonju" }
-1100.1.1 = { base_manpower = 2 }
-1392.7.12 = { owner = KOR controller = KOR add_core = KOR remove_core = GOR religion = confucianism }
+1444.11.11 = {
+religion = mahayana
+owner = GOG controller = GOG add_core = GOG remove_core = DON
+owner = SLL controller = SLL add_core = SLL remove_core = GOG
+owner = GOG controller = GOG add_core = GOG remove_core = SLL
+owner = GOR controller = GOR add_core = GOR remove_core = GOG
+capital = "Wonju"
+base_manpower = 2
+owner = KOR controller = KOR add_core = KOR remove_core = GOR religion = confucianism
+}
+
+
+
+
+
+
+
+
 
 1542.1.1 = { discovered_by = POR }
 1637.1.1 = { add_core = MNG } # Tributary of Qing China

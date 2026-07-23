@@ -21,8 +21,12 @@ base_manpower = 1
 is_city = yes
 add_core = KHS
 
-800.1.1 = { discovered_by = nomad_group }
-1404.1.1 = { owner = JML controller = JML add_core = JML remove_core = KHS capital = "Jumla" }
+1444.11.11 = {
+discovered_by = nomad_group
+owner = JML controller = JML add_core = JML remove_core = KHS capital = "Jumla"
+}
+
+
 
 1690.1.1 = { discovered_by = ENG }
 1707.5.12 = { discovered_by = GBR }

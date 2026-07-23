@@ -18,12 +18,20 @@ base_manpower = 1
 is_city = yes
 add_core = DON
 
-372.1.1 = { religion = mahayana }
-400.1.1 = { owner = GOG controller = GOG add_core = GOG remove_core = DON }
-555.1.1 = { owner = SLL controller = SLL add_core = SLL remove_core = GOG }
-901.1.1 = { owner = GOG controller = GOG add_core = GOG remove_core = SLL }
-918.1.1 = { owner = GOR controller = GOR add_core = GOR remove_core = GOG }
-1392.7.12 = { owner = KOR controller = KOR add_core = KOR remove_core = GOR religion = confucianism }
+1444.11.11 = {
+religion = mahayana
+owner = GOG controller = GOG add_core = GOG remove_core = DON
+owner = SLL controller = SLL add_core = SLL remove_core = GOG
+owner = GOG controller = GOG add_core = GOG remove_core = SLL
+owner = GOR controller = GOR add_core = GOR remove_core = GOG
+owner = KOR controller = KOR add_core = KOR remove_core = GOR religion = confucianism
+}
+
+
+
+
+
+
 
 1542.1.1   = { discovered_by = POR }
 1627.1.1  = { add_core = MCH } # Manchu Invasion

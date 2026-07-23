@@ -15,13 +15,22 @@ base_manpower = 2
 is_city = yes
 center_of_trade = 1
 
-650.1.1 = { capital = "Xochicalco" }
-800.1.1 = { owner = TLT controller = TLT add_core = TLT remove_core = TTH }
-1100.1.1 = { base_tax = 5 base_production = 5 }
-1200.1.1 = { base_tax = 6 base_production = 6 }
-1250.1.1 = { owner = AZT controller = AZT add_core = AZT remove_core = TLT }
-1300.1.1 = { base_tax = 7 base_production = 7 }
-1325.1.1 = { capital = "Tenochtitlan" fort_15th = yes }
+1444.11.11 = {
+capital = "Xochicalco"
+owner = TLT controller = TLT add_core = TLT remove_core = TTH
+base_tax = 5 base_production = 5
+base_tax = 6 base_production = 6
+owner = AZT controller = AZT add_core = AZT remove_core = TLT
+base_tax = 7 base_production = 7
+capital = "Tenochtitlan" fort_15th = yes
+}
+
+
+
+
+
+
+
 
 1519.1.1  = { discovered_by = SPA }
 1521.8.13 = {	owner = SPA 
@@ -29,7 +38,7 @@ center_of_trade = 1
 		add_core = SPA
 		religion = catholic
 		culture = castillian
-		capital = "Ciudad de México"
+		capital = "Ciudad de Mï¿½xico"
 	    } # The last Aztec emperor surrendered, Mexico city is founded on top of the ruins 
 1624.1.1  = { unrest = 5 } # Riots
 1626.1.1  = { unrest = 0 } 

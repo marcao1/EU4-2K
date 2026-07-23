@@ -19,24 +19,44 @@ is_city = yes
 add_core = HND
 add_core = WUU
 
-9.1.10 = { owner = XIN controller = XIN add_core = XIN }
-23.10.5 = { owner = HND controller = HND remove_core = XIN }
-189.9.28 = { owner = JNG controller = JNG add_core = JNG remove_core = HND }
-208.11.1 = { owner = SHU controller = SHU add_core = SHU }
-263.11.1 = { owner = WEI controller = WEI add_core = WEI remove_core = SHU }
-266.2.4 = { owner = JIN controller = JIN add_core = JIN remove_core = WEI }
-420.1.1 = { owner = LSO controller = LSO add_core = LSO remove_core = JIN }
-479.1.1 = { owner = QIC controller = QIC add_core = QIC remove_core = LSO }
-502.1.1 = { owner = LNG controller = LNG add_core = LNG remove_core = QIC }
-557.1.1 = { owner = CEN controller = CEN add_core = CEN remove_core = LNG }
-588.1.1 = { owner = CMI controller = CMI add_core = CMI remove_core = CEN }
-622.1.1 = { owner = TNG controller = TNG add_core = TNG }
-907.6.1 = { owner = CHC controller = CHC add_core = CHC remove_core = TNG }
-951.11.16 = { owner = CMI controller = CMI add_core = CMI remove_core = CHC }
-975.1.1 = { owner = SNG controller = SNG add_core = SNG }
-1279.3.19 = { owner = YUA controller = YUA add_core = YUA add_core = CXI remove_core = SNG }
-1361.1.1 = { owner = CMI controller = CMI add_core = CMI remove_core = YUA }
-1368.7.1 = { owner = MNG controller = MNG add_core = MNG }
+1444.11.11 = {
+owner = XIN controller = XIN add_core = XIN
+owner = HND controller = HND remove_core = XIN
+owner = JNG controller = JNG add_core = JNG remove_core = HND
+owner = SHU controller = SHU add_core = SHU
+owner = WEI controller = WEI add_core = WEI remove_core = SHU
+owner = JIN controller = JIN add_core = JIN remove_core = WEI
+owner = LSO controller = LSO add_core = LSO remove_core = JIN
+owner = QIC controller = QIC add_core = QIC remove_core = LSO
+owner = LNG controller = LNG add_core = LNG remove_core = QIC
+owner = CEN controller = CEN add_core = CEN remove_core = LNG
+owner = CMI controller = CMI add_core = CMI remove_core = CEN
+owner = TNG controller = TNG add_core = TNG
+owner = CHC controller = CHC add_core = CHC remove_core = TNG
+owner = CMI controller = CMI add_core = CMI remove_core = CHC
+owner = SNG controller = SNG add_core = SNG
+owner = YUA controller = YUA add_core = YUA add_core = CXI remove_core = SNG
+owner = CMI controller = CMI add_core = CMI remove_core = YUA
+owner = MNG controller = MNG add_core = MNG
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1594.1.1 = { revolt_risk = 6 } # Rebels
 1599.1.1 = { revolt_risk = 0 }

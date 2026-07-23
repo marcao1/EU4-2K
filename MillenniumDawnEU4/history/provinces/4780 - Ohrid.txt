@@ -23,22 +23,40 @@ base_manpower = 1
 is_city = yes
 add_core = ROM
 
-220.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-610.1.1 = { culture = macedonian religion = slavic }
-630.1.1 = { owner = BZT controller = BZT add_core = BZT remove_core = BYZ capital = "Ohrid" }
-842.1.1 = { owner = BUL controller = BUL add_core = BUL }
-867.1.1 = { religion = orthodox }
-900.1.1 = { base_manpower = 2 }
-1014.1.1 = { owner = BYZ controller = BYZ add_core = BYZ remove_core = BUL }
-1189.1.1 = { owner = SER controller = SER add_core = SER }
-1217.1.1 = { owner = EPI controller = EPI add_core = EPI remove_core = SER }
-1224.1.1 = { owner = THS controller = THS add_core = THS remove_core = EPI }
-1230.1.1 = { owner = BUL controller = BUL add_core = BUL remove_core = THS }
-1262.1.1 = { owner = BYZ controller = BYZ add_core = BYZ remove_core = BUL }
-1282.1.1 = { owner = SER controller = SER add_core = SER }
-1371.12.4 = { owner = MAC controller = MAC add_core = MAC } #Lordship of Prilep
-1395.5.17 = { owner = TUR controller = TUR add_core = TUR remove_core = MAC }
+1444.11.11 = {
+religion = chalcedonism
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+culture = macedonian religion = slavic
+owner = BZT controller = BZT add_core = BZT remove_core = BYZ capital = "Ohrid"
+owner = BUL controller = BUL add_core = BUL
+religion = orthodox
+base_manpower = 2
+owner = BYZ controller = BYZ add_core = BYZ remove_core = BUL
+owner = SER controller = SER add_core = SER
+owner = EPI controller = EPI add_core = EPI remove_core = SER
+owner = THS controller = THS add_core = THS remove_core = EPI
+owner = BUL controller = BUL add_core = BUL remove_core = THS
+owner = BYZ controller = BYZ add_core = BYZ remove_core = BUL
+owner = SER controller = SER add_core = SER
+owner = MAC controller = MAC add_core = MAC
+owner = TUR controller = TUR add_core = TUR remove_core = MAC
+}
+
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
+
+ #Lordship of Prilep
+
 
 1555.1.1  = { unrest = 5 } # General discontent with the Janissaries' dominance
 1556.1.1  = { unrest = 0 }

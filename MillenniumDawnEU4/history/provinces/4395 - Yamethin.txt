@@ -18,14 +18,24 @@ base_manpower = 2
 is_city = yes
 add_core = BKT
 
-450.1.1 = { owner = SRK controller = SRK add_core = SRK }
-750.1.1 = { religion = vajrayana }
-800.1.1 = { culture = burmese }
-1043.12.1 = { owner = PAG controller = PAG add_core = PAG capital = "Yamethin" }
-1000.1.1 = { base_production = 3 }
-1050.1.1 = { religion = buddhism }
-1297.12.17 = { owner = MYI controller = MYI add_core = MYI remove_core = PAG }
-1364.4.1 = { owner = AVA controller = AVA add_core = AVA remove_core = MYI }
+1444.11.11 = {
+owner = SRK controller = SRK add_core = SRK
+religion = vajrayana
+culture = burmese
+owner = PAG controller = PAG add_core = PAG capital = "Yamethin"
+base_production = 3
+religion = buddhism
+owner = MYI controller = MYI add_core = MYI remove_core = PAG
+owner = AVA controller = AVA add_core = AVA remove_core = MYI
+}
+
+
+
+
+
+
+
+
 
 1527.1.1 = {
 	owner = SST

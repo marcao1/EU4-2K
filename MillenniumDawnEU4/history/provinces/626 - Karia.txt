@@ -15,14 +15,24 @@ native_size = 20
 native_ferocity = 2
 native_hostileness = 7
 
-732.1.1 = { owner = MTR controller = MTR add_core = MTR is_city = yes trade_goods = spices }
-1000.1.1 = { base_tax = 4 base_production = 4 }
-1019.1.1 = { owner = KAH controller = KAH add_core = KAH remove_core = MTR }
-1045.1.1 = { owner = KDR controller = KDR add_core = KDR remove_core = KAH }
-1200.1.1 = { base_tax = 5 base_production = 5 }
-1222.1.1 = { owner = SIN controller = SIN add_core = SIN remove_core = KDR }
-1293.1.1 = { owner = MAJ controller = MAJ add_core = MAJ remove_core = SIN }
-1300.1.1 = { discovered_by = indian discovered_by = muslim discovered_by = ottoman }
+1444.11.11 = {
+owner = MTR controller = MTR add_core = MTR is_city = yes trade_goods = spices
+base_tax = 4 base_production = 4
+owner = KAH controller = KAH add_core = KAH remove_core = MTR
+owner = KDR controller = KDR add_core = KDR remove_core = KAH
+base_tax = 5 base_production = 5
+owner = SIN controller = SIN add_core = SIN remove_core = KDR
+owner = MAJ controller = MAJ add_core = MAJ remove_core = SIN
+discovered_by = indian discovered_by = muslim discovered_by = ottoman
+}
+
+
+
+
+
+
+
+
 
 1475.1.1  = {
 		owner = DMK

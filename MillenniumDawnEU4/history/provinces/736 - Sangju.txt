@@ -16,10 +16,16 @@ base_manpower = 2
 is_city = yes
 add_core = JHN
 
-360.1.1 = { owner = SLL controller = SLL add_core = SLL culture = korean }
-530.1.1 = { religion = mahayana }
-935.1.1 = { owner = GOR controller = GOR add_core = GOR remove_core = SLL }
-1392.7.12 = { owner = KOR controller = KOR add_core = KOR remove_core = GOR religion = confucianism }
+1444.11.11 = {
+owner = SLL controller = SLL add_core = SLL culture = korean
+religion = mahayana
+owner = GOR controller = GOR add_core = GOR remove_core = SLL
+owner = KOR controller = KOR add_core = KOR remove_core = GOR religion = confucianism
+}
+
+
+
+
 
 1542.1.1 = { discovered_by = POR }
 1592.5.26 = { controller = TYT } # Japanese invasion - Siege of Busan

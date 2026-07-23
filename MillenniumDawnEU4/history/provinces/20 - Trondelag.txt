@@ -13,19 +13,29 @@ native_size = 15
 native_ferocity = 2
 center_of_trade = 1
 
-699.1.1 = { discovered_by = HAL discovered_by = AGD discovered_by = VES }
-700.1.1 = { owner = HAL controller = HAL add_core = HAL is_city = yes trade_goods = fish }
-800.1.1 = { base_tax = 3 base_production = 3 }
-850.1.1 = { discovered_by = western discovered_by = eastern }
-860.1.1 = { fort_15th = yes }
-872.1.1 = { owner = NOR controller = NOR add_core = NOR remove_core = HAL }
-997.1.1 = { religion = catholic   }
-1217.1.1 = { capital = "Trondheim" }
+1444.11.11 = {
+discovered_by = HAL discovered_by = AGD discovered_by = VES
+owner = HAL controller = HAL add_core = HAL is_city = yes trade_goods = fish
+base_tax = 3 base_production = 3
+discovered_by = western discovered_by = eastern
+fort_15th = yes
+owner = NOR controller = NOR add_core = NOR remove_core = HAL
+religion = catholic
+capital = "Trondheim"
+}
+
+
+
+
+
+
+
+
 
 1531.11.10 = { unrest = 10 } # The Return of Christian II
 1532.7.15  = { unrest = 0 } # The Capture of Christian II
 1536.1.1   = { religion = protestant} # Unknown date
-1536.1.1   = { owner = DAN controller = DAN add_core = DAN } # 'Handfästningen'(Unknown date)
+1536.1.1   = { owner = DAN controller = DAN add_core = DAN } # 'Handfï¿½stningen'(Unknown date)
 1564.3.3   = { controller = SWE } # Nordic Seven-years War
 1564.5.21  = { controller = DAN } # Nordic Seven-years War
 1658.2.26  = { owner = SWE controller = SWE add_core = SWE }

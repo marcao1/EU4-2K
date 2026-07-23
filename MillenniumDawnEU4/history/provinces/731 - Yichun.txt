@@ -17,13 +17,22 @@ native_size = 20
 native_ferocity = 1
 native_hostileness = 3
 
-600.1.1 = { owner = HSM controller = HSM add_core = HSM is_city = yes trade_goods = naval_supplies }
-726.1.1 = { owner = BLH controller = BLH add_core = BLH remove_core = HSM }
-926.1.14 = { owner = LIO controller = LIO add_core = LIO remove_core = BLH capital = "Ilan Hala" }
-1115.1.1 = { owner = CJN controller = CJN add_core = CJN remove_core = LIO }
-1214.1.1 = { owner = KHA controller = KHA add_core = KHA remove_core = CJN }
-1271.1.1 = { owner = YUA controller = YUA add_core = YUA remove_core = KHA }
-1368.1.1 = { owner = EJZ controller = EJZ add_core = EJZ remove_core = YUA }
+1444.11.11 = {
+owner = HSM controller = HSM add_core = HSM is_city = yes trade_goods = naval_supplies
+owner = BLH controller = BLH add_core = BLH remove_core = HSM
+owner = LIO controller = LIO add_core = LIO remove_core = BLH capital = "Ilan Hala"
+owner = CJN controller = CJN add_core = CJN remove_core = LIO
+owner = KHA controller = KHA add_core = KHA remove_core = CJN
+owner = YUA controller = YUA add_core = YUA remove_core = KHA
+owner = EJZ controller = EJZ add_core = EJZ remove_core = YUA
+}
+
+
+
+
+
+
+
 
 1616.1.1 = {
 	owner = MCH

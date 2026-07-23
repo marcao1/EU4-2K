@@ -18,21 +18,38 @@ base_manpower = 2
 is_city = yes
 add_core = QIA
 
-284.1.1 = { owner = TUY controller = TUY add_core = TUY remove_core = QIA }
-670.1.1 = { owner = TIB controller = TIB add_core = TIB }
-800.1.1 = { religion = vajrayana }
-842.1.1 = { owner = PHA controller = PHA add_core = PHA remove_core = TIB }
-850.1.1 = { owner = GYI controller = GYI add_core = GYI remove_core = PHA }
-894.1.1 = { owner = GNS controller = GNS add_core = GNS remove_core = GYI }
-906.1.1 = { owner = LIU controller = LIU add_core = LIU remove_core = GNS }
-997.1.1 = { owner = TSO controller = TSO add_core = TSO remove_core = LIU }
-1104.1.1 = { owner = SNG controller = SNG add_core = SNG capital = "Xining" }
-1200.1.1 = { base_tax = 3 base_production = 3 }
-1227.1.1 = { owner = KHA controller = KHA add_core = KHA add_core = CSH }
-1271.1.1 = { owner = YUA controller = YUA add_core = YUA remove_core = KHA }
-1368.1.23 = { owner = KHA controller = KHA add_core = KHA remove_core = YUA }
-1382.1.1 = { owner = MNG controller = MNG add_core = MNG remove_core = KHA }
-1390.1.1 = { culture = xibei }
+1444.11.11 = {
+owner = TUY controller = TUY add_core = TUY remove_core = QIA
+owner = TIB controller = TIB add_core = TIB
+religion = vajrayana
+owner = PHA controller = PHA add_core = PHA remove_core = TIB
+owner = GYI controller = GYI add_core = GYI remove_core = PHA
+owner = GNS controller = GNS add_core = GNS remove_core = GYI
+owner = LIU controller = LIU add_core = LIU remove_core = GNS
+owner = TSO controller = TSO add_core = TSO remove_core = LIU
+owner = SNG controller = SNG add_core = SNG capital = "Xining"
+base_tax = 3 base_production = 3
+owner = KHA controller = KHA add_core = KHA add_core = CSH
+owner = YUA controller = YUA add_core = YUA remove_core = KHA
+owner = KHA controller = KHA add_core = KHA remove_core = YUA
+owner = MNG controller = MNG add_core = MNG remove_core = KHA
+culture = xibei
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1644.1.1 = {	revolt_risk = 0
 				owner = CSH

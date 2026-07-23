@@ -13,13 +13,14 @@ native_ferocity = 1
 native_hostileness = 2
 discovered_by = polynesian_tech
 
-900.1.1 = { 	
-	owner = VNL
+1444.11.11 = {
+owner = VNL
 	controller = VNL
 	add_core = VNL
 	is_city = yes
 	trade_goods = fish
 }
+
 
 1643.1.1 = { discovered_by = NED } # Abel Tasman
 

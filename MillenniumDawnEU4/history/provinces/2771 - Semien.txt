@@ -20,8 +20,12 @@ discovered_by = middle_eastern
 discovered_by = muslim
 discovered_by = east_african
 
-325.1.1 = { owner = BTI controller = BTI add_core = BTI remove_core = AKS }
-1420.1.1 = { owner = ETH controller = ETH add_core = ETH }
+1444.11.11 = {
+owner = BTI controller = BTI add_core = BTI remove_core = AKS
+owner = ETH controller = ETH add_core = ETH
+}
+
+
 
 1475.1.1 = { unrest = 5 } #Repression against the Falasha by Baeda Maryam
 1476.1.1 = { unrest = 0 }

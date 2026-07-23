@@ -22,38 +22,63 @@ fort_15th = yes
 add_core = ROM
 center_of_trade = 1
 
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-441.1.1 = { owner = HNS controller = HNS add_core = HNS }
-469.1.1 = { owner = OST controller = OST add_core = OST remove_core = HNS }
-470.1.1 = { religion = arianism }
-488.1.1 = { owner = GEP controller = GEP add_core = GEP }
-504.1.1 = { owner = OST controller = OST remove_core = GEP }
-510.1.1 = { owner = BYZ controller = BYZ remove_core = OST }
-520.1.1 = { religion = chalcedonism }
-584.1.1 = { controller = AVR }
-592.1.1 = { controller = BYZ }
-600.1.1 = { base_manpower = 2 }
-610.1.1 = { add_core = SER culture = serbian religion = slavic capital = "Beligrad" }
-630.1.1 = { owner = SER controller = SER remove_core = BYZ }
-800.1.1 = { base_tax = 3 base_production = 3 }
-827.1.1 = { owner = BUL controller = BUL add_core = BUL }
-869.1.1 = { religion = orthodox }
-1014.1.1 = { owner = BYZ controller = BYZ add_core = BYZ remove_core = BUL }
-1091.1.1 = { owner = SER controller = SER remove_core = BYZ capital = "Belgrade" }
-1100.1.1 = { base_tax = 4 base_production = 4 }
-1185.1.1 = { owner = BUL controller = BUL add_core = BUL }
-1213.1.1 = { owner = HUN controller = HUN add_core = HUN }
-1221.1.1 = { owner = BUL controller = BUL }
-1246.1.1 = { owner = HUN controller = HUN remove_core = BUL }
-1282.1.1 = { owner = SYM controller = SYM add_core = SYM remove_core = HUN }
-1325.1.1 = { owner = SER controller = SER add_core = SER }
-
-1428.1.1 = {
-	owner = HUN
+1444.11.11 = {
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+owner = HNS controller = HNS add_core = HNS
+owner = OST controller = OST add_core = OST remove_core = HNS
+religion = arianism
+owner = GEP controller = GEP add_core = GEP
+owner = OST controller = OST remove_core = GEP
+owner = BYZ controller = BYZ remove_core = OST
+religion = chalcedonism
+controller = AVR
+controller = BYZ
+base_manpower = 2
+add_core = SER culture = serbian religion = slavic capital = "Beligrad"
+owner = SER controller = SER remove_core = BYZ
+base_tax = 3 base_production = 3
+owner = BUL controller = BUL add_core = BUL
+religion = orthodox
+owner = BYZ controller = BYZ add_core = BYZ remove_core = BUL
+owner = SER controller = SER remove_core = BYZ capital = "Belgrade"
+base_tax = 4 base_production = 4
+owner = BUL controller = BUL add_core = BUL
+owner = HUN controller = HUN add_core = HUN
+owner = BUL controller = BUL
+owner = HUN controller = HUN remove_core = BUL
+owner = SYM controller = SYM add_core = SYM remove_core = HUN
+owner = SER controller = SER add_core = SER
+owner = HUN
 	controller = HUN
 	add_core = HUN
-	capital = "Nándorfehérvár"
+	capital = "Nï¿½ndorfehï¿½rvï¿½r"
 }
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 1521.8.29 = {
 	owner = TUR
 	controller = TUR

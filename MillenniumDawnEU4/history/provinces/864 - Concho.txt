@@ -11,7 +11,10 @@ base_production = 1
 base_manpower = 1
 tribal_owner = MOG
 
-1370.1.1 = { culture = mescalero }
+1444.11.11 = {
+culture = mescalero
+}
+
 
 1540.1.1   = { 	discovered_by = SPA } # Francisco Vasquez de Coronado
 1569.1.1 = {

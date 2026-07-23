@@ -19,27 +19,50 @@ is_city = yes
 add_core = HND
 add_core = DI0
 
-9.1.10 = { owner = DI0 controller = DI0 remove_core = HND }
-60.1.1 = { owner = HND controller = HND add_core = HND }
-107.1.1 = { revolt = { type = nationalist_rebels size = 2 } controller = REB } #Qiang Rebellion
-118.1.1 = { revolt = {} controller = HND }
-184.10.1 = { owner = DI0 controller = DI0 remove_core = HND }
-214.10.1 = { owner = WEI controller = WEI add_core = WEI }
-219.1.1 = { owner = SHU controller = SHU add_core = SHU remove_core = WEI }
-250.1.1 = { owner = DI0 controller = DI0 remove_core = SHU }
-295.1.1 = { owner = JIN controller = JIN add_core = JIN }
-314.1.1 = { owner = DI0 controller = DI0 remove_core = JIN }
-410.1.1 = { owner = QIN controller = QIN add_core = QIN }
-431.1.1 = { owner = TUY controller = TUY add_core = TUY remove_core = QIN }
-584.1.1 = { owner = TAG controller = TAG add_core = TAG remove_core = TUY }
-629.1.1 = { owner = TIB controller = TIB add_core = TIB }
-842.1.1 = { owner = DI0 controller = DI0 add_core = DI0 remove_core = TIB }
-1050.1.1 = { religion = vajrayana }
-1072.1.1 = { owner = SNG controller = SNG add_core = SNG }
-1279.3.19 = { owner = YUA controller = YUA add_core = YUA add_core = CSH remove_core = SNG }
-1361.1.1 = { owner = XIA controller = XIA add_core = XIA } 
-1368.1.23 = { remove_core = YUA }
-1371.1.1 = { owner = MNG controller = MNG add_core = MNG }
+1444.11.11 = {
+owner = DI0 controller = DI0 remove_core = HND
+owner = HND controller = HND add_core = HND
+revolt = { type = nationalist_rebels size = 2 } controller = REB
+revolt = {} controller = HND
+owner = DI0 controller = DI0 remove_core = HND
+owner = WEI controller = WEI add_core = WEI
+owner = SHU controller = SHU add_core = SHU remove_core = WEI
+owner = DI0 controller = DI0 remove_core = SHU
+owner = JIN controller = JIN add_core = JIN
+owner = DI0 controller = DI0 remove_core = JIN
+owner = QIN controller = QIN add_core = QIN
+owner = TUY controller = TUY add_core = TUY remove_core = QIN
+owner = TAG controller = TAG add_core = TAG remove_core = TUY
+owner = TIB controller = TIB add_core = TIB
+owner = DI0 controller = DI0 add_core = DI0 remove_core = TIB
+religion = vajrayana
+owner = SNG controller = SNG add_core = SNG
+owner = YUA controller = YUA add_core = YUA add_core = CSH remove_core = SNG
+owner = XIA controller = XIA add_core = XIA
+remove_core = YUA
+owner = MNG controller = MNG add_core = MNG
+}
+
+
+ #Qiang Rebellion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
 
 1644.1.1 = {	revolt_risk = 0
 				owner = CSH

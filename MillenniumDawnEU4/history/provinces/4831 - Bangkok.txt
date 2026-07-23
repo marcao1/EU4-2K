@@ -19,18 +19,32 @@ is_city = yes
 add_core = MNX
 center_of_trade = 2
 
-150.1.1 = { owner = FUN controller = FUN add_core = FUN remove_core = MNX }
-400.1.1 = { base_tax = 3 base_production = 3 }
-450.1.1 = { owner = DVA controller = DVA add_core = DVA remove_core = FUN } 
-600.1.1 = { religion = buddhism }
-661.1.1 = { owner = LAV controller = LAV add_core = LAV remove_core = DVA }
-700.1.1 = { base_manpower = 3 }
-880.1.1 = { owner = CMB controller = CMB add_core = CMB }
-1050.1.1 = { culture = central_thai } #Sometime in the 11th century
-1060.1.1 = { owner = LAV controller = LAV remove_core = CMB }
-1290.1.1 = { religion = buddhism }
-1350.1.1 = { owner = AYU controller = AYU add_core = AYU remove_core = LAV }
-1420.1.1 = { capital = "Bangkok" } #Early 15th century
+1444.11.11 = {
+owner = FUN controller = FUN add_core = FUN remove_core = MNX
+base_tax = 3 base_production = 3
+owner = DVA controller = DVA add_core = DVA remove_core = FUN
+religion = buddhism
+owner = LAV controller = LAV add_core = LAV remove_core = DVA
+base_manpower = 3
+owner = CMB controller = CMB add_core = CMB
+culture = central_thai
+owner = LAV controller = LAV remove_core = CMB
+religion = buddhism
+owner = AYU controller = AYU add_core = AYU remove_core = LAV
+capital = "Bangkok"
+}
+
+
+ 
+
+
+
+
+ #Sometime in the 11th century
+
+
+
+ #Early 15th century
 
 1535.1.1 = { discovered_by = POR }
 1750.1.1 = { base_tax = 5 base_production = 5 base_manpower = 4 }

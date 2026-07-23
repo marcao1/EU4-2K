@@ -16,14 +16,24 @@ base_manpower = 2
 is_city = yes
 add_core = ANU
 
-650.1.1 = { owner = EMI controller = EMI add_core = EMI remove_core = ANU culture = emishi }
-802.1.1 = { owner = JAP controller = JAP add_core = JAP remove_core = EMI }
-820.1.1 = { religion = shinto }
-940.1.1 = { owner = KIY controller = KIY add_core = KIY } #Kiyohara Clan
-1000.1.1 = { culture = japanese }
-1087.12.11 = { owner = FUJ controller = FUJ add_core = FUJ } #Gosannen War
-1189.8.22 = { owner = KMK controller = KMK add_core = KMK } #Conquered by Minamoto clan
-1210.1.1 = { owner = AKT controller = AKT add_core = AKT remove_core = KMK } #During the time of Hojo Yoshitoki
+1444.11.11 = {
+owner = EMI controller = EMI add_core = EMI remove_core = ANU culture = emishi
+owner = JAP controller = JAP add_core = JAP remove_core = EMI
+religion = shinto
+owner = KIY controller = KIY add_core = KIY
+culture = japanese
+owner = FUJ controller = FUJ add_core = FUJ
+owner = KMK controller = KMK add_core = KMK
+owner = AKT controller = AKT add_core = AKT remove_core = KMK
+}
+
+
+
+ #Kiyohara Clan
+
+ #Gosannen War
+ #Conquered by Minamoto clan
+ #During the time of Hojo Yoshitoki
 
 1542.1.1 = { discovered_by = POR }
 1602.5.17 = { owner = STK controller = STK add_core = STK remove_core = AKT } # The Satake clan moved to Akita

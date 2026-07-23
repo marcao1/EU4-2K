@@ -21,16 +21,28 @@ base_manpower = 1
 is_city = yes
 add_core = STV
 
-220.1.1 = { owner = YOR controller = YOR add_core = YOR remove_core = STV }
-278.1.1 = { owner = PLL controller = PLL add_core = PLL remove_core = YOR }
-590.1.1 = { religion = jainism }
-620.1.1 = { religion = hinduism }
-800.1.1 = { discovered_by = nomad_group }
-897.1.1 = { owner = CLS controller = CLS add_core = CLS remove_core = PLL }
-1026.1.1 = { owner = HOY controller = HOY add_core = HOY remove_core = CLS }
-1216.1.1 = { owner = TLG controller = TLG add_core = TLG remove_core = HOY }
-1325.1.1 = { owner = YOR controller = YOR add_core = YOR remove_core = TLG }
-1336.1.1 = { owner = VIJ controller = VIJ add_core = VIJ remove_core = YOR }
+1444.11.11 = {
+owner = YOR controller = YOR add_core = YOR remove_core = STV
+owner = PLL controller = PLL add_core = PLL remove_core = YOR
+religion = jainism
+religion = hinduism
+discovered_by = nomad_group
+owner = CLS controller = CLS add_core = CLS remove_core = PLL
+owner = HOY controller = HOY add_core = HOY remove_core = CLS
+owner = TLG controller = TLG add_core = TLG remove_core = HOY
+owner = YOR controller = YOR add_core = YOR remove_core = TLG
+owner = VIJ controller = VIJ add_core = VIJ remove_core = YOR
+}
+
+
+
+
+
+
+
+
+
+
 
 1498.1.1 = { discovered_by = POR }
 1565.7.1 = {

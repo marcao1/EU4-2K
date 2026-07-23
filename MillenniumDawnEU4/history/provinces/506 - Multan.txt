@@ -25,25 +25,46 @@ is_city = yes
 add_core = IPA
 center_of_trade = 1
 
-76.1.1 = { owner = KUS controller = KUS add_core = KUS remove_core = IPA }
-375.1.1 = { owner = GUP controller = GUP add_core = GUP remove_core = KUS }
-460.1.1 = { owner = KAP controller = KAP add_core = KAP remove_core = GUP }
-528.1.1 = { owner = MLW controller = MLW add_core = SND remove_core = GUP }
-540.1.1 = { owner = SND controller = SND }
-654.1.1 = { owner = TAA controller = TAA add_core = TAA remove_core = SND }
-711.1.1 = { owner = UMA controller = UMA add_core = UMA remove_core = SND }
-750.8.6 = { owner = ABA controller = ABA add_core = ABA remove_core = UMA }
-841.1.1 = { owner = SND controller = SND add_core = SND remove_core = ABA }
-861.1.1 = { owner = MUL controller = MUL add_core = MUL remove_core = SND }
-960.1.1 = { religion = shiite }
-1000.1.1 = { base_tax = 4 base_production = 4 }
-1006.1.1 = { owner = GHZ controller = GHZ add_core = GHZ }
-1175.1.1 = { owner = GHU controller = GHU add_core = GHU remove_core = GHZ }
-1190.1.1 = { religion = sunni }
-1200.1.1 = { base_tax = 5 base_production = 5 }
-1210.1.1 = { owner = MUL controller = MUL add_core = MUL remove_core = GHU }
-1228.1.1 = { owner = DLH controller = DLH add_core = DLH add_core = PUN }
-1398.1.1 = { owner = MUL controller = MUL add_core = MUL }
+1444.11.11 = {
+owner = KUS controller = KUS add_core = KUS remove_core = IPA
+owner = GUP controller = GUP add_core = GUP remove_core = KUS
+owner = KAP controller = KAP add_core = KAP remove_core = GUP
+owner = MLW controller = MLW add_core = SND remove_core = GUP
+owner = SND controller = SND
+owner = TAA controller = TAA add_core = TAA remove_core = SND
+owner = UMA controller = UMA add_core = UMA remove_core = SND
+owner = ABA controller = ABA add_core = ABA remove_core = UMA
+owner = SND controller = SND add_core = SND remove_core = ABA
+owner = MUL controller = MUL add_core = MUL remove_core = SND
+religion = shiite
+base_tax = 4 base_production = 4
+owner = GHZ controller = GHZ add_core = GHZ
+owner = GHU controller = GHU add_core = GHU remove_core = GHZ
+religion = sunni
+base_tax = 5 base_production = 5
+owner = MUL controller = MUL add_core = MUL remove_core = GHU
+owner = DLH controller = DLH add_core = DLH add_core = PUN
+owner = MUL controller = MUL add_core = MUL
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1526.1.1 = {
 	owner = SND

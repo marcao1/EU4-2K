@@ -13,13 +13,14 @@ native_ferocity = 1
 native_hostileness = 1
 discovered_by = aboriginal_tech
 
-1200.1.1 = {
-	add_core = GMI
+1444.11.11 = {
+add_core = GMI
 	owner = GMI
 	controller = GMI
 	is_city = yes
 	trade_goods = grain
 }
+
 
 1818.1.1 = { discovered_by = GBR } #John Oxley
 1850.1.1   = {

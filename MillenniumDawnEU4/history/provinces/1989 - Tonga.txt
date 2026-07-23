@@ -15,13 +15,14 @@ center_of_trade = 1
 discovered_by = polynesian_tech
 center_of_trade = 1
 
-900.1.1 = { 	
-	owner = TOG
+1444.11.11 = {
+owner = TOG
 	controller = TOG
 	add_core = TOG
 	is_city = yes
 	trade_goods = naval_supplies
 }
+
 
 1616.4.21 = {
 	discovered_by = NED		# Explorers Willem Schouten and Jacob Le Maire

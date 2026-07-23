@@ -14,9 +14,14 @@ native_size = 10
 native_ferocity = 1 
 native_hostileness = 1
 
-375.1.1 = { owner = TWN controller = TWN add_core = TWN is_city = yes trade_goods = gold }
-1200.1.1 = { owner = CRA controller = CRA add_core = CRA remove_core = TWN }
-1380.1.1  = { owner = PCJ controller = PCJ add_core = PCJ remove_core = CRA }
+1444.11.11 = {
+owner = TWN controller = TWN add_core = TWN is_city = yes trade_goods = gold
+owner = CRA controller = CRA add_core = CRA remove_core = TWN
+owner = PCJ controller = PCJ add_core = PCJ remove_core = CRA
+}
+
+
+
 
 1476.1.1 = {
 	owner = INC

@@ -13,11 +13,16 @@ native_size = 40
 native_ferocity = 4
 native_hostileness = 9
 
-1150.1.1 = { religion = sunni }
-1230.1.1 = { owner = KBO controller = KBO add_core = KBO is_city = yes trade_goods = salt }
-1380.1.1 = { owner = AIR controller = AIR add_core = AIR remove_core = KBO }
+1444.11.11 = {
+religion = sunni
+owner = KBO controller = KBO add_core = KBO is_city = yes trade_goods = salt
+owner = AIR controller = AIR add_core = AIR remove_core = KBO
+add_core = KBO
+}
 
-1444.1.1 = { add_core = KBO }
+
+
+
 1590.1.1 = { owner = KBO controller = KBO add_core = KBO } #Idris Katakarmabe retakes Kanem
 1750.1.1 = { owner = AIR controller = AIR add_core = AIR remove_core = KBO } #Decline of Kanem-Bornu, control over faraway areas gradually lost
 

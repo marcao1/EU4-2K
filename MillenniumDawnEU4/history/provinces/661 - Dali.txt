@@ -15,18 +15,32 @@ native_size = 20
 native_ferocity = 1
 native_hostileness = 5
 
-220.1.1 = { owner = CNM controller = CNM add_core = CNM is_city = yes trade_goods = tea }
-649.1.1 = { owner = NAN controller = NAN add_core = NAN remove_core = CNM }
-660.1.1 = { religion = vajrayana }
-800.1.1 = { discovered_by = indian }
-900.1.1 = { discovered_by = nomad_group }
-937.1.1 = { owner = CDL controller = CDL add_core = CDL remove_core = NAN }
-1200.1.1 = { base_tax = 3 base_production = 3 }
-1253.1.1 = { owner = KHA controller = KHA add_core = KHA add_core = CZH }
-1271.1.1 = { owner = YUA controller = YUA add_core = YUA remove_core = KHA }
-1300.1.1 = { base_manpower = 3 }
-1368.1.23 = { owner = CDL controller = CDL add_core = CDL remove_core = YUA }
-1382.1.6 = { owner = MNG controller = MNG add_core = MNG }
+1444.11.11 = {
+owner = CNM controller = CNM add_core = CNM is_city = yes trade_goods = tea
+owner = NAN controller = NAN add_core = NAN remove_core = CNM
+religion = vajrayana
+discovered_by = indian
+discovered_by = nomad_group
+owner = CDL controller = CDL add_core = CDL remove_core = NAN
+base_tax = 3 base_production = 3
+owner = KHA controller = KHA add_core = KHA add_core = CZH
+owner = YUA controller = YUA add_core = YUA remove_core = KHA
+base_manpower = 3
+owner = CDL controller = CDL add_core = CDL remove_core = YUA
+owner = MNG controller = MNG add_core = MNG
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 1655.1.1 = { discovered_by = SPA }#Novus Atlas Sinensis
 1662.4.1 = {	owner = CZH

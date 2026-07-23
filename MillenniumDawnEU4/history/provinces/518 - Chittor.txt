@@ -25,17 +25,30 @@ is_city = yes
 add_core = WSA
 center_of_trade = 1
 
-405.1.1 = { owner = GUP controller = GUP add_core = GUP remove_core = WSA }
-515.1.1 = { owner = KAP controller = KAP add_core = MLW remove_core = GUP }
-528.1.1 = { owner = MLW controller = MLW add_core = GRP }
-565.1.1 = { owner = MER controller = MER add_core = MER remove_core = MLW }
-620.1.1 = { owner = HRS controller = HRS add_core = HRS }
-647.1.1 = { owner = MER controller = MER remove_core = HRS }
-734.1.1 = { fort_15th = yes } #Chittorgarh fort
-953.1.1 = { owner = MLW controller = MLW add_core = MLW remove_core = GRP }
-971.1.1 = { owner = MER controller = MER add_core = MER remove_core = MLW }
-1303.1.1 = { owner = DLH controller = DLH add_core = DLH }
-1326.1.1 = { owner = MER controller = MER add_core = MER remove_core = DLH }
+1444.11.11 = {
+owner = GUP controller = GUP add_core = GUP remove_core = WSA
+owner = KAP controller = KAP add_core = MLW remove_core = GUP
+owner = MLW controller = MLW add_core = GRP
+owner = MER controller = MER add_core = MER remove_core = MLW
+owner = HRS controller = HRS add_core = HRS
+owner = MER controller = MER remove_core = HRS
+fort_15th = yes
+owner = MLW controller = MLW add_core = MLW remove_core = GRP
+owner = MER controller = MER add_core = MER remove_core = MLW
+owner = DLH controller = DLH add_core = DLH
+owner = MER controller = MER add_core = MER remove_core = DLH
+}
+
+
+
+
+
+
+ #Chittorgarh fort
+
+
+
+
 
 1534.1.1 = { controller = GUJ } # War with Gujarat
 1536.1.1 = { controller = MER } # War with Gujarat ends

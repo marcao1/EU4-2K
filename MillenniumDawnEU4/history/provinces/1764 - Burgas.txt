@@ -23,17 +23,30 @@ base_manpower = 1
 is_city = yes
 add_core = ODR
 
-46.1.1 = { owner = ROM controller = ROM add_core = ROM }
-80.1.1 = { remove_core = ODR }
-260.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-680.1.1 = { owner = BUL controller = BUL add_core = BUL capital = "Burgas" culture = bulgar }
-864.1.1 = { culture = bulgarian }
-867.1.1 = { religion = orthodox }
-1014.1.1 = { owner = BYZ controller = BYZ }
-1201.1.1 = { owner = BUL controller = BUL }
-1389.1.1 = { owner = TUR controller = TUR add_core = TUR }
-1403.2.1 = { owner = BYZ controller = BYZ remove_core = TUR } #Treaty of Gallipoli
+1444.11.11 = {
+owner = ROM controller = ROM add_core = ROM
+remove_core = ODR
+religion = chalcedonism
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+owner = BUL controller = BUL add_core = BUL capital = "Burgas" culture = bulgar
+culture = bulgarian
+religion = orthodox
+owner = BYZ controller = BYZ
+owner = BUL controller = BUL
+owner = TUR controller = TUR add_core = TUR
+owner = BYZ controller = BYZ remove_core = TUR
+}
+
+
+
+ # Final division of the empire
+
+
+
+
+
+
+ #Treaty of Gallipoli
 
 1453.5.29 = { owner = TUR controller = TUR add_core = TUR } # The fall of the Byzantine Empire
 1555.1.1 = { unrest = 5 } # General discontent against the Janissaries' dominance

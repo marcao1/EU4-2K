@@ -18,8 +18,12 @@ native_size = 5
 native_ferocity = 1
 native_hostileness = 2
 
-987.1.1 = { owner = MAY controller = MAY add_core = MAY remove_core = CLK capital = "Kobox" }
-1441.1.1 = { owner = ITZ controller = ITZ add_core = ITZ }
+1444.11.11 = {
+owner = MAY controller = MAY add_core = MAY remove_core = CLK capital = "Kobox"
+owner = ITZ controller = ITZ add_core = ITZ
+}
+
+
 
 1522.1.1 = { discovered_by = SPA }
 1697.3.14 = { unrest = 5 } # Spanish attack

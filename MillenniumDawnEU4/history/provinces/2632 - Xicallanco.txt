@@ -16,13 +16,17 @@ base_manpower = 2
 add_local_autonomy = 25
 center_of_trade = 2
 
-300.1.1 = { base_tax = 4 base_production = 4 }
-900.1.1 = { 
-	owner = YOK controller = YOK add_core = YOK remove_core = PLQ 
+1444.11.11 = {
+base_tax = 4 base_production = 4
+owner = YOK controller = YOK add_core = YOK remove_core = PLQ 
 	base_tax = 2 base_production = 2 base_manpower = 1 capital = "Xicallanco"
-} #Palenque abandoned
-1010.1.1 = { owner = MAY controller = MAY add_core = MAY }
-1180.1.1 = { owner = YOK controller = YOK add_core = YOK remove_core = MAY }
+owner = MAY controller = MAY add_core = MAY
+owner = YOK controller = YOK add_core = YOK remove_core = MAY
+}
+
+ #Palenque abandoned
+
+
 
 1529.1.1 = { 	discovered_by = SPA
 		owner = SPA

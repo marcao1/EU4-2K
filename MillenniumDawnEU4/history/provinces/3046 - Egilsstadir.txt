@@ -9,14 +9,24 @@ trade_goods = unknown
 base_manpower = 1
 capital = "Egilsstadir"
 
-850.1.1 = { discovered_by = NOR discovered_by = ICE }
-880.1.1 = { owner = NOR controller = NOR add_core = NOR citysize = 400 culture = icelandic religion = norse_pagan_reformed }
-930.1.1 = { owner = ICE controller = ICE add_core = ICE remove_core = NOR citysize = 500 }
-940.1.1 = { trade_goods = fish }
-950.1.1 = { discovered_by = western }
-1000.1.1 = { religion = catholic }
-1262.1.1 = { owner = NOR controller = NOR add_core = NOR citysize = 800 }
-1399.1.1 = { is_city = yes }
+1444.11.11 = {
+discovered_by = NOR discovered_by = ICE
+owner = NOR controller = NOR add_core = NOR citysize = 400 culture = icelandic religion = norse_pagan_reformed
+owner = ICE controller = ICE add_core = ICE remove_core = NOR citysize = 500
+trade_goods = fish
+discovered_by = western
+religion = catholic
+owner = NOR controller = NOR add_core = NOR citysize = 800
+is_city = yes
+}
+
+
+
+
+
+
+
+
 
 1536.1.1 = { religion = protestant owner = DAN controller = DAN add_core = DAN }
 #1550.1.1 = { citysize = 300 }

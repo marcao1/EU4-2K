@@ -18,26 +18,48 @@ base_production = 1
 base_manpower = 1
 is_city = yes
 
-400.1.1 = { discovered_by = VAN }
-420.1.1 = { religion = chalcedonism }
-429.1.1 = { owner = ATV controller = ATV add_core = ATV remove_core = GAE }
-600.1.1 = { discovered_by = western }
-708.1.1 = { owner = UMA controller = UMA add_core = UMA }
-740.1.1 = { revolt = { type = nationalist_rebels size = 2 } controller = REB } #Great Berber revolt
-743.1.1 = { owner = MZB controller = MZB add_core = MZB remove_core = UMA revolt = {} } #Caliphate loses control of the region
-777.1.1 = { religion = ibadi }
-790.1.1 = { owner = MOR controller = MOR add_core = MOR remove_core = ABA }
-922.1.1 = { owner = FAT controller = FAT add_core = FAT remove_core = MOR }
-950.1.1 = { owner = TLC controller = TLC add_core = TLC remove_core = FAT }
-1066.10.1 = { owner = MOR controller = MOR add_core = MOR remove_core = TLC }
-1145.1.1 = { controller = SOS }
-1147.4.1 = { controller = MOR }
-1200.1.1 = { religion = sunni culture = algerian }
-1235.1.1 = { owner = TLC controller = TLC add_core = TLC remove_core = MOR }
-1337.1.1 = { owner = MOR controller = MOR }
-1348.1.1 = { owner = TLC controller = TLC }
-1352.1.1 = { owner = MOR controller = MOR }
-1359.1.1 = { owner = TLC controller = TLC }
+1444.11.11 = {
+discovered_by = VAN
+religion = chalcedonism
+owner = ATV controller = ATV add_core = ATV remove_core = GAE
+discovered_by = western
+owner = UMA controller = UMA add_core = UMA
+revolt = { type = nationalist_rebels size = 2 } controller = REB
+owner = MZB controller = MZB add_core = MZB remove_core = UMA revolt = {}
+religion = ibadi
+owner = MOR controller = MOR add_core = MOR remove_core = ABA
+owner = FAT controller = FAT add_core = FAT remove_core = MOR
+owner = TLC controller = TLC add_core = TLC remove_core = FAT
+owner = MOR controller = MOR add_core = MOR remove_core = TLC
+controller = SOS
+controller = MOR
+religion = sunni culture = algerian
+owner = TLC controller = TLC add_core = TLC remove_core = MOR
+owner = MOR controller = MOR
+owner = TLC controller = TLC
+owner = MOR controller = MOR
+owner = TLC controller = TLC
+}
+
+
+
+
+
+ #Great Berber revolt
+ #Caliphate loses control of the region
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1549.1.1 = {
 	owner = MOR

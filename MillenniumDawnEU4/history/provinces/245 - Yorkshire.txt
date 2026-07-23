@@ -18,28 +18,52 @@ is_city = yes
 add_core = BGT
 center_of_trade = 1
 
-71.1.1 = { controller = ROM }
-78.1.1 = { owner = ROM add_core = ROM capital = "Eboracum" }
-380.1.1 = { add_core = DEI remove_core = BGT }
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-410.1.1 = { owner = DEI controller = DEI add_core = DEI remove_core = ROW remove_core = BGT capital = "Cair Ebrauc" culture = welsh }
-559.1.1 = { culture = anglo_saxon religion = germanic }
-604.1.1 = { owner = BRN controller = BRN add_core = BRN }
-616.1.1 = { owner = DEI controller = DEI remove_core = BRN }
-640.1.1 = { religion = chalcedonism }
-654.1.1 = { owner = NOL controller = NOL add_core = NOL remove_core = DEI }
-867.3.23 = { capital = "Jorvik" }
-875.1.1 = { religion = norse_pagan_reformed culture = danish }
-918.1.1 = { owner = KOI controller = KOI add_core = KOI }
-921.1.1 = { owner = NOL controller = NOL remove_core = KOI }
-927.1.1 = { owner = ENG controller = ENG add_core = ENG }
-939.1.1 = { owner = NOL controller = NOL }
-944.1.1 = { owner = ENG controller = ENG }
-947.1.1 = { owner = NOL controller = NOL }
-950.1.1 = { base_tax = 3 base_production = 3 discovered_by = muslim discovered_by = ottoman }
-954.1.1 = { owner = ENG controller = ENG capital = "York" religion = catholic culture = anglo_saxon }
-1000.1.1 = { remove_core = NOL }
-1066.12.25 = { culture = english }
+1444.11.11 = {
+controller = ROM
+owner = ROM add_core = ROM capital = "Eboracum"
+add_core = DEI remove_core = BGT
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+owner = DEI controller = DEI add_core = DEI remove_core = ROW remove_core = BGT capital = "Cair Ebrauc" culture = welsh
+culture = anglo_saxon religion = germanic
+owner = BRN controller = BRN add_core = BRN
+owner = DEI controller = DEI remove_core = BRN
+religion = chalcedonism
+owner = NOL controller = NOL add_core = NOL remove_core = DEI
+capital = "Jorvik"
+religion = norse_pagan_reformed culture = danish
+owner = KOI controller = KOI add_core = KOI
+owner = NOL controller = NOL remove_core = KOI
+owner = ENG controller = ENG add_core = ENG
+owner = NOL controller = NOL
+owner = ENG controller = ENG
+owner = NOL controller = NOL
+base_tax = 3 base_production = 3 discovered_by = muslim discovered_by = ottoman
+owner = ENG controller = ENG capital = "York" religion = catholic culture = anglo_saxon
+remove_core = NOL
+culture = english
+}
+
+
+
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1453.1.1 = { unrest = 5 } # Start of the War of the Roses
 1459.9.23 = { unrest = 0 revolt = { type = pretender_rebels size = 3 leader = "Edward of York" } controller = REB } # The Battle of Blore Heath

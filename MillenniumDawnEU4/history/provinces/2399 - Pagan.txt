@@ -18,14 +18,24 @@ base_manpower = 2
 is_city = yes
 add_core = PAG
 
-700.1.1 = { base_tax = 3 base_production = 3 }
-750.1.1 = { religion = vajrayana }
-800.1.1 = { culture = burmese }
-900.1.1 = { base_manpower = 3 }
-1050.1.1 = { religion = buddhism }
-1100.1.1 = { base_tax = 4 base_production = 4 }
-1297.12.17 = { owner = MYI controller = MYI add_core = MYI }
-1364.4.1 = { owner = AVA controller = AVA add_core = AVA remove_core = MYI }
+1444.11.11 = {
+base_tax = 3 base_production = 3
+religion = vajrayana
+culture = burmese
+base_manpower = 3
+religion = buddhism
+base_tax = 4 base_production = 4
+owner = MYI controller = MYI add_core = MYI
+owner = AVA controller = AVA add_core = AVA remove_core = MYI
+}
+
+
+
+
+
+
+
+
 
 1527.1.1 = {
 	owner = SST

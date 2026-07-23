@@ -14,13 +14,14 @@ native_hostileness = 2
 center_of_trade = 1
 discovered_by = aboriginal_tech
 
-1200.1.1 = {
-	add_core = EOR
+1444.11.11 = {
+add_core = EOR
 	owner = EOR
 	controller = EOR
 	is_city = yes
 	trade_goods = fish
 }
+
 
 1770.1.1 = { discovered_by = GBR } # James Cook
 1788.1.26 = {	

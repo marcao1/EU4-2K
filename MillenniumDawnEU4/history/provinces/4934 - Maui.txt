@@ -13,13 +13,14 @@ native_ferocity = 2
 native_hostileness = 9
 discovered_by = polynesian_tech
 
-1060.1.1 = { 
-	owner = MAU
+1444.11.11 = {
+owner = MAU
 	controller = MAU
 	add_core = MAU
 	is_city = yes
 	trade_goods = naval_supplies
 }
+
 
 1555.1.1 = { discovered_by = SPA }
 1778.1.1 = { discovered_by = GBR }

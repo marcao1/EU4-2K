@@ -23,21 +23,38 @@ base_manpower = 2
 is_city = yes
 add_core = ROM
 
-220.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-842.1.1 = { owner = BUL controller = BUL add_core = BUL }
-867.1.1 = { religion = orthodox }
-940.1.1 = { culture = bulgarian religion = bogomilism add_province_modifier = { name = religious_zeal_at_conv duration = 9125 } }
-972.1.1 = { capital = "Skopje" religion = orthodox }
-1014.1.1 = { owner = BYZ controller = BYZ remove_core = BUL }
-1100.1.1 = { base_production = 4 }
-1189.1.1 = { owner = SER controller = SER add_core = SER }
-1230.1.1 = { owner = BUL controller = BUL add_core = BUL remove_core = SER }
-1262.1.1 = { owner = BYZ controller = BYZ add_core = BYZ remove_core = BUL }
-1282.1.1 = { owner = SER controller = SER add_core = SER }
-1334.1.1 = { culture = serbian }
-1371.9.26 = { owner = TUR controller = TUR add_core = TUR } #Battle of Maritsa
-1420.1.1 = { remove_core = BYZ }
+1444.11.11 = {
+religion = chalcedonism
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+owner = BUL controller = BUL add_core = BUL
+religion = orthodox
+culture = bulgarian religion = bogomilism add_province_modifier = { name = religious_zeal_at_conv duration = 9125 }
+capital = "Skopje" religion = orthodox
+owner = BYZ controller = BYZ remove_core = BUL
+base_production = 4
+owner = SER controller = SER add_core = SER
+owner = BUL controller = BUL add_core = BUL remove_core = SER
+owner = BYZ controller = BYZ add_core = BYZ remove_core = BUL
+owner = SER controller = SER add_core = SER
+culture = serbian
+owner = TUR controller = TUR add_core = TUR
+remove_core = BYZ
+}
+
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
+ #Battle of Maritsa
+
 
 1555.1.1  = { unrest = 5 } # General discontent with the Janissaries' dominance
 1556.1.1  = { unrest = 0 }

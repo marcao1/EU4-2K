@@ -14,10 +14,16 @@ native_size = 10
 native_ferocity = 1
 native_hostileness = 3
 
-1245.1.1 = { owner = KHA controller = KHA add_core = KHA is_city = yes trade_goods = livestock }
-1271.1.1 = { owner = YUA controller = YUA add_core = YUA remove_core = KHA }
-1368.1.23 = { owner = KHA controller = KHA add_core = KHA remove_core = YUA }
-1399.1.1 = { owner = OIR controller = OIR add_core = OIR remove_core = KHA } # The Oirads united much of Mongolia
+1444.11.11 = {
+owner = KHA controller = KHA add_core = KHA is_city = yes trade_goods = livestock
+owner = YUA controller = YUA add_core = YUA remove_core = KHA
+owner = KHA controller = KHA add_core = KHA remove_core = YUA
+owner = OIR controller = OIR add_core = OIR remove_core = KHA
+}
+
+
+
+ # The Oirads united much of Mongolia
 
 1618.1.1 = {	
 	discovered_by = RUS

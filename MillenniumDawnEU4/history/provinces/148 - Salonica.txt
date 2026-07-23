@@ -25,19 +25,32 @@ fort_15th = yes
 add_core = ROM
 center_of_trade = 2
 
-52.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-867.1.1 = { religion = orthodox }
-1204.4.13 = { owner = THS controller = THS add_core = THS }
-1246.1.1 = { owner = NCA controller = NCA add_core = NCA }
-1261.1.1 = { owner = BYZ controller = BYZ remove_core = NCA }
-1348.1.1 = { owner = SER controller = SER add_core = SER }
-1356.1.1 = { owner = BYZ controller = BYZ remove_core = SER }
-1387.1.1 = { owner = TUR controller = TUR add_core = TUR }
-1403.2.1 = { owner = BYZ controller = BYZ } #Treaty of Gallipoli
+1444.11.11 = {
+religion = chalcedonism
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+religion = orthodox
+owner = THS controller = THS add_core = THS
+owner = NCA controller = NCA add_core = NCA
+owner = BYZ controller = BYZ remove_core = NCA
+owner = SER controller = SER add_core = SER
+owner = BYZ controller = BYZ remove_core = SER
+owner = TUR controller = TUR add_core = TUR
+owner = BYZ controller = BYZ
+owner = VEN controller = VEN add_core = VEN
+owner = TUR controller = TUR remove_core = VEN
+}
 
-1423.1.1 = { owner = VEN controller = VEN add_core = VEN } # Sold to Venice by the weakening Byzantines
-1430.3.29 = { owner = TUR controller = TUR remove_core = VEN } # Finally conquered by Murad II 
+ # Final division of the empire
+
+
+
+
+
+
+
+ #Treaty of Gallipoli
+ # Sold to Venice by the weakening Byzantines
+ # Finally conquered by Murad II 
 1502.1.1 = { remove_core = BYZ }
 1555.1.1 = { unrest = 5 } # General discontent with the Janissaries' dominance
 1556.1.1 = { unrest = 0 }

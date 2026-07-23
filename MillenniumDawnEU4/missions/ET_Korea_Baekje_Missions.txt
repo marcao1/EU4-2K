@@ -178,7 +178,7 @@ baekje_missions_5 = {
 		required_missions = { } #none
 		position = 4
 		trigger = {
-			has_institution = legalism
+			always = yes
 			has_advisor = yes
 			stability = 3
 		}

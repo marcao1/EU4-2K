@@ -18,7 +18,10 @@ native_ferocity = 1
 native_hostileness = 2
 add_province_triggered_modifier = MAY_obsidian_source
 
-1194.1.1 = { owner = KAQ controller = KAQ add_core = KAQ remove_core = KNJ capital = "Iximché" }
+1444.11.11 = {
+owner = KAQ controller = KAQ add_core = KAQ remove_core = KNJ capital = "Iximché"
+}
+
 
 1524.1.1  = {	discovered_by = SPA 
 		owner = SPA 

@@ -23,36 +23,61 @@ base_manpower = 2
 is_city = yes
 add_core = PRT
 
-116.1.1 = { owner = ROM controller = ROM add_core = ROM }
-118.1.1 = { owner = PRT controller = PRT remove_core = ROM }
-164.1.1 = { controller = ROM }
-166.1.1 = { controller = PRT }
-224.4.24 = { owner = ERS controller = ERS add_core = ERS remove_core = PRT }
-440.1.1 = { religion = nestorian }
-637.1.1 = { owner = RSD controller = RSD add_core = RSD remove_core = ERS }
-661.7.28 = { owner = UMA controller = UMA add_core = UMA remove_core = RSD }
-750.8.6 = { owner = ABA controller = ABA add_core = ABA remove_core = UMA }
-900.1.1 = { base_tax = 3 base_production = 3 }
-942.1.1 = { owner = ZNG controller = ZNG add_core = ZNG }
-958.1.1 = { owner = IRQ controller = IRQ add_core = IRQ remove_core = ZNG }
-978.3.1 = { owner = PER controller = PER add_core = PER }
-983.3.26 = { owner = IRQ controller = IRQ }
-987.1.1 = { owner = PER controller = PER }
-1021.1.1 = { owner = IRQ controller = IRQ }
-1044.3.1 = { owner = PER controller = PER }
-1048.10.1 = { owner = IRQ controller = IRQ }
-1055.12.17 = { owner = SEL controller = SEL add_core = SEL remove_core = PER }
-1153.1.1 = { owner = ABA controller = ABA add_core = ABA remove_core = SEL }
-1258.2.10 = { owner = KHA controller = KHA add_core = KHA add_core = IRQ remove_core = ABA }
-1260.1.1 = { owner = ILK controller = ILK add_core = ILK remove_core = KHA capital = "Tikrit" }
-1335.1.1 = { owner = JAL controller = JAL add_core = JAL remove_core = ILK }
-1380.1.1 = { add_core = TIM culture = al_iraqiya_arabic religion = sunni } #Assyrian inhabitants killed by Timur
-
-1405.1.1   = {	owner = QAR
+1444.11.11 = {
+owner = ROM controller = ROM add_core = ROM
+owner = PRT controller = PRT remove_core = ROM
+controller = ROM
+controller = PRT
+owner = ERS controller = ERS add_core = ERS remove_core = PRT
+religion = nestorian
+owner = RSD controller = RSD add_core = RSD remove_core = ERS
+owner = UMA controller = UMA add_core = UMA remove_core = RSD
+owner = ABA controller = ABA add_core = ABA remove_core = UMA
+base_tax = 3 base_production = 3
+owner = ZNG controller = ZNG add_core = ZNG
+owner = IRQ controller = IRQ add_core = IRQ remove_core = ZNG
+owner = PER controller = PER add_core = PER
+owner = IRQ controller = IRQ
+owner = PER controller = PER
+owner = IRQ controller = IRQ
+owner = PER controller = PER
+owner = IRQ controller = IRQ
+owner = SEL controller = SEL add_core = SEL remove_core = PER
+owner = ABA controller = ABA add_core = ABA remove_core = SEL
+owner = KHA controller = KHA add_core = KHA add_core = IRQ remove_core = ABA
+owner = ILK controller = ILK add_core = ILK remove_core = KHA capital = "Tikrit"
+owner = JAL controller = JAL add_core = JAL remove_core = ILK
+add_core = TIM culture = al_iraqiya_arabic religion = sunni
+owner = QAR
 		controller = QAR
 		add_core = QAR
 		remove_core = TIM
-	     } # The Qara Koyunlu
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ #Assyrian inhabitants killed by Timur
+ # The Qara Koyunlu
 1469.2.4  = {	owner = AKK
 		controller = AKK
 		add_core = AKK

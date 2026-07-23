@@ -14,12 +14,20 @@ native_size = 30
 native_ferocity = 4.5
 native_hostileness = 9
 
-500.1.1 = { owner = HRL controller = HRL add_core = HRL is_city = yes trade_goods = coffee }
-700.1.1 = { discovered_by = muslim discovered_by = ottoman discovered_by = indian discovered_by = asian }
-840.1.1 = { owner = ADA controller = ADA add_core = ADA }
-860.1.1 = { religion = sunni }
-1185.1.1 = { owner = IFA controller = IFA add_core = IFA remove_core = ADA }
-1415.1.1 = { owner = ADA controller = ADA add_core = ADA remove_core = IFA }
+1444.11.11 = {
+owner = HRL controller = HRL add_core = HRL is_city = yes trade_goods = coffee
+discovered_by = muslim discovered_by = ottoman discovered_by = indian discovered_by = asian
+owner = ADA controller = ADA add_core = ADA
+religion = sunni
+owner = IFA controller = IFA add_core = IFA remove_core = ADA
+owner = ADA controller = ADA add_core = ADA remove_core = IFA
+}
+
+
+
+
+
+
 
 1473.1.1 = { unrest = 5 } # Raids by Bayda Maryam into Adal to enforce fealty
 1476.1.1 = { unrest = 5 } # Raids by Bayda Maryam into Adal to enforce fealty

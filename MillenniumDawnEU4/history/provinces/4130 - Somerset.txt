@@ -20,18 +20,32 @@ discovered_by = muslim
 discovered_by = barbarian
 discovered_by = western
 
-55.1.1 = { owner = ROM controller = ROM add_core = ROM }
-100.1.1 = { capital = "Aquae Sulis" }
-200.1.1 = { culture = welsh }
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-410.1.1 = { owner = DUM controller = DUM add_core = DUM remove_core = ROW capital = "Bath" }
-500.1.1 = { base_tax = 2 base_production = 2 religion = chalcedonism }
-520.1.1 = { owner = WSX controller = WSX add_core = WSX culture = anglo_saxon }
-645.1.1 = { owner = MRC controller = MRC add_core = MRC }
-648.1.1 = { owner = WSX controller = WSX remove_core = MRC }
-867.1.1 = { religion = catholic }
-927.1.1 = { owner = ENG controller = ENG add_core = ENG remove_core = WSX }
-1066.12.25 = { culture = english }
+1444.11.11 = {
+owner = ROM controller = ROM add_core = ROM
+capital = "Aquae Sulis"
+culture = welsh
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+owner = DUM controller = DUM add_core = DUM remove_core = ROW capital = "Bath"
+base_tax = 2 base_production = 2 religion = chalcedonism
+owner = WSX controller = WSX add_core = WSX culture = anglo_saxon
+owner = MRC controller = MRC add_core = MRC
+owner = WSX controller = WSX remove_core = MRC
+religion = catholic
+owner = ENG controller = ENG add_core = ENG remove_core = WSX
+culture = english
+}
+
+
+
+ # Final division of the empire
+
+
+
+
+
+
+
+
 
 1453.1.1 = { unrest = 5 } # Start of the War of the Roses
 1461.3.1 = { unrest = 0 revolt = { type = pretender_rebels size = 0 } controller = REB } # Increasing Yorkist Support in the South

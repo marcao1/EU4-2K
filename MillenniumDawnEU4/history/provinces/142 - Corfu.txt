@@ -20,22 +20,40 @@ base_manpower = 1
 is_city = yes
 add_core = ROM
 
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-400.1.1 = { religion = chalcedonism }
-867.1.1 = { religion = orthodox }
-900.1.1 = { base_manpower = 2 }
-1081.5.1 = { controller = SIC }
-1085.7.15 = { controller = BYZ }
-1100.1.1 = { base_manpower = 3 }
-1147.1.1 = { controller = SIC }
-1154.1.1 = { controller = BYZ }
-1197.1.1 = { owner = GEN controller = GEN add_core = GEN capital = "Corfu" fort_15th = yes }
-1207.1.1 = { owner = VEN controller = VEN add_core = VEN remove_core = GEN }
-1214.1.1 = { owner = EPI controller = EPI add_core = EPI remove_core = VEN }
-1224.1.1 = { owner = THS controller = THS add_core = THS }
-1230.1.1 = { owner = EPI controller = EPI remove_core = THS }
-1267.1.1 = { owner = NAP controller = NAP add_core = NAP }
-1386.1.1 = { owner = VEN controller = VEN add_core = VEN remove_core = NAP }
+1444.11.11 = {
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+religion = chalcedonism
+religion = orthodox
+base_manpower = 2
+controller = SIC
+controller = BYZ
+base_manpower = 3
+controller = SIC
+controller = BYZ
+owner = GEN controller = GEN add_core = GEN capital = "Corfu" fort_15th = yes
+owner = VEN controller = VEN add_core = VEN remove_core = GEN
+owner = EPI controller = EPI add_core = EPI remove_core = VEN
+owner = THS controller = THS add_core = THS
+owner = EPI controller = EPI remove_core = THS
+owner = NAP controller = NAP add_core = NAP
+owner = VEN controller = VEN add_core = VEN remove_core = NAP
+}
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1502.1.1   = { remove_core = BYZ }
 1610.1.1   = { unrest = 7 } # Exploatation by the nobles, several minor revolts

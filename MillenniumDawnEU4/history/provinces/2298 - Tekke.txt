@@ -22,19 +22,32 @@ base_manpower = 2
 is_city = yes
 add_core = ROM
 
-150.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-867.1.1 = { religion = orthodox }
-1204.4.13 = { owner = NCA controller = NCA add_core = NCA }
-1220.1.1 = { owner = RUM controller = RUM add_core = RUM remove_core = NCA capital = "Adalia" }
-1250.1.1 = { religion = sunni culture = turkish remove_core = BYZ }
-1307.1.1 = { owner = MEN controller = MEN add_core = MEN remove_core = RUM }
-1319.1.1 = { owner = TEK controller = TEK add_core = TEK remove_core = MEN }
-1391.1.1 = { owner = TUR controller = TUR add_core = TUR }
-1402.7.20 = { owner = TEK controller = TEK }
-1423.1.1 = { owner = TUR controller = TUR }
+1444.11.11 = {
+religion = chalcedonism
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+religion = orthodox
+owner = NCA controller = NCA add_core = NCA
+owner = RUM controller = RUM add_core = RUM remove_core = NCA capital = "Adalia"
+religion = sunni culture = turkish remove_core = BYZ
+owner = MEN controller = MEN add_core = MEN remove_core = RUM
+owner = TEK controller = TEK add_core = TEK remove_core = MEN
+owner = TUR controller = TUR add_core = TUR
+owner = TEK controller = TEK
+owner = TUR controller = TUR
+capital = "Adalia"
+}
 
-1423.1.1  = { capital = "Adalia" }
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
 1481.6.1 = { revolt = { type = pretender_rebels size = 0 } controller = REB } # Civil war, Bayezid & Jem
 1482.7.26 = { revolt = {} controller = TUR } # Jem escapes to Rhodes
 1509.1.1 = { revolt = { type = revolutionary_rebels size = 0 } controller = REB } # Civil war

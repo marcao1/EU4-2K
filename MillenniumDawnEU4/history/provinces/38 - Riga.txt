@@ -18,16 +18,28 @@ add_permanent_province_modifier = {
 	duration = -1
 }
 
-500.1.1 = { discovered_by = eastern }
-550.1.1 = { owner = LTG controller = LTG add_core = LTG is_city = yes trade_goods = naval_supplies }
-700.1.1 = { discovered_by = western }
-800.1.1 = { base_tax = 3 base_production = 3 }
-1000.1.1 = { base_tax = 4 base_production = 4 }
-1200.1.1 = { base_tax = 5 base_production = 5 }
-1202.1.1 = { owner = LIV controller = LIV add_core = LIV }
-1207.1.1 = { fort_15th = yes religion = catholic }
-1225.1.1 = { owner = RIG controller = RIG add_core = RIG remove_core = LIV remove_core = LTG culture = baltic_german }
-1300.1.1 = { discovered_by = muslim discovered_by = ottoman }
+1444.11.11 = {
+discovered_by = eastern
+owner = LTG controller = LTG add_core = LTG is_city = yes trade_goods = naval_supplies
+discovered_by = western
+base_tax = 3 base_production = 3
+base_tax = 4 base_production = 4
+base_tax = 5 base_production = 5
+owner = LIV controller = LIV add_core = LIV
+fort_15th = yes religion = catholic
+owner = RIG controller = RIG add_core = RIG remove_core = LIV remove_core = LTG culture = baltic_german
+discovered_by = muslim discovered_by = ottoman
+}
+
+
+
+
+
+
+
+
+
+
 
 1522.1.1 = { religion = protestant } # Unknown date
 1581.1.14 = { owner = PLC controller = PLC add_core = PLC } # Treaty of Drohiczyn

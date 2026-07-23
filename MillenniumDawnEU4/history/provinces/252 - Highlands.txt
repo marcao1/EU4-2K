@@ -17,17 +17,30 @@ trade_goods = wool
 base_manpower = 1
 capital = "Craig Phadrig"
 
-250.1.1 = { owner = PCT controller = PCT add_core = PCT }
-550.1.1 = { religion = chalcedonism }
-843.1.1 = { owner = SCO controller = SCO add_core = SCO remove_core = PCT capital = "Inverness" }
-867.1.1 = { religion = catholic }
-880.1.1 = { culture = highland_scottish }
-900.1.1 = { base_manpower = 2 }
-950.1.1 = { discovered_by = muslim discovered_by = ottoman }
-1000.1.1 = { base_tax = 2 base_production = 2 }
-1100.1.1 = { base_manpower = 3 }
-1296.1.1 = { controller = ENG }
-1314.1.1 = { controller = SCO }
+1444.11.11 = {
+owner = PCT controller = PCT add_core = PCT
+religion = chalcedonism
+owner = SCO controller = SCO add_core = SCO remove_core = PCT capital = "Inverness"
+religion = catholic
+culture = highland_scottish
+base_manpower = 2
+discovered_by = muslim discovered_by = ottoman
+base_tax = 2 base_production = 2
+base_manpower = 3
+controller = ENG
+controller = SCO
+}
+
+
+
+
+
+
+
+
+
+
+
 
 1560.8.1  = { religion = reformed }
 1644.1.1  = { revolt = { type = revolutionary_rebels size = 2 } controller = REB }

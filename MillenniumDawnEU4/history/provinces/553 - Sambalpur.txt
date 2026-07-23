@@ -23,21 +23,38 @@ add_core = KLI
 add_core = DAK
 center_of_trade = 1
 
-120.1.1 = { owner = DAK controller = DAK remove_core = KLI }
-320.1.1 = { religion = hinduism }
-350.1.1 = { owner = SBP controller = SBP add_core = SBP remove_core = DAK }
-475.1.1 = { owner = DAK controller = DAK add_core = DAK }
-580.1.1 = { owner = SBP controller = SBP add_core = SBP remove_core = DAK }
-700.1.1 = { base_manpower = 2 }
-710.1.1 = { owner = DAK controller = DAK add_core = DAK }
-730.1.1 = { owner = SBP controller = SBP remove_core = DAK }
-800.1.1 = { discovered_by = nomad_group }
-885.1.1 = { owner = DAK controller = DAK add_core = DAK }
-900.1.1 = { base_production = 3 }
-950.1.1 = { owner = TOS controller = TOS add_core = TOS }
-1100.1.1 = { base_manpower = 3 }
-1114.1.1 = { owner = SBP controller = SBP add_core = SBP remove_core = TOS }
-1360.1.1 = { owner = PTT controller = PTT add_core = PTT }
+1444.11.11 = {
+owner = DAK controller = DAK remove_core = KLI
+religion = hinduism
+owner = SBP controller = SBP add_core = SBP remove_core = DAK
+owner = DAK controller = DAK add_core = DAK
+owner = SBP controller = SBP add_core = SBP remove_core = DAK
+base_manpower = 2
+owner = DAK controller = DAK add_core = DAK
+owner = SBP controller = SBP remove_core = DAK
+discovered_by = nomad_group
+owner = DAK controller = DAK add_core = DAK
+base_production = 3
+owner = TOS controller = TOS add_core = TOS
+base_manpower = 3
+owner = SBP controller = SBP add_core = SBP remove_core = TOS
+owner = PTT controller = PTT add_core = PTT
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1494.1.1 = {
 	owner = SBP 

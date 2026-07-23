@@ -22,14 +22,22 @@ is_city = yes
 add_core = MYT
 center_of_trade = 1
 
-1017.1.1 = { owner = CLS controller = CLS add_core = CLS }
-1070.1.1 = { owner = RAJ controller = RAJ add_core = RAJ remove_core = CLS }
-1100.1.1 = { base_tax = 3 }
-1110.1.1 = { owner = MYT controller = MYT }
-1153.1.1 = { owner = RAJ controller = RAJ add_core = RAJ }
-1341.1.1 = { owner = CEY controller = CEY add_core = CEY remove_core = RAJ }
+1444.11.11 = {
+owner = CLS controller = CLS add_core = CLS
+owner = RAJ controller = RAJ add_core = RAJ remove_core = CLS
+base_tax = 3
+owner = MYT controller = MYT
+owner = RAJ controller = RAJ add_core = RAJ
+owner = CEY controller = CEY add_core = CEY remove_core = RAJ
+discovered_by = chinese
+}
 
-1405.1.1 = { discovered_by = chinese }
+
+
+
+
+
+
 1505.1.1 = { discovered_by = POR } # Francisco de Almeida
 1542.1.1 = { add_core = POR }
 1658.1.1 = {

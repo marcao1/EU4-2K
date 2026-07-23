@@ -9,13 +9,22 @@ trade_goods = unknown
 base_manpower = 1
 capital = "Reykjavik"
 
-850.1.1 = { discovered_by = NOR discovered_by = ICE }
-874.1.1 = { owner = NOR controller = NOR add_core = NOR citysize = 500 culture = icelandic religion = norse_pagan_reformed }
-900.1.1 = { trade_goods = fish }
-930.1.1 = { owner = ICE controller = ICE add_core = ICE remove_core = NOR is_city = yes }
-950.1.1 = { discovered_by = western }
-999.1.1 = { religion = catholic }
-1262.1.1 = { owner = NOR controller = NOR add_core = NOR citysize = 800 }
+1444.11.11 = {
+discovered_by = NOR discovered_by = ICE
+owner = NOR controller = NOR add_core = NOR citysize = 500 culture = icelandic religion = norse_pagan_reformed
+trade_goods = fish
+owner = ICE controller = ICE add_core = ICE remove_core = NOR is_city = yes
+discovered_by = western
+religion = catholic
+owner = NOR controller = NOR add_core = NOR citysize = 800
+}
+
+
+
+
+
+
+
 
 1490.1.1 = {   } # Established during the 12th century
 #1500.1.1 = { citysize = 470 }

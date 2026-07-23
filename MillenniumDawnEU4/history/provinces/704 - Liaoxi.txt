@@ -20,30 +20,56 @@ fort_15th = yes
 add_core = HND
 add_core = WEI
 
-9.1.10 = { owner = XIN controller = XIN add_core = XIN }
-23.10.5 = { owner = HND controller = HND remove_core = XIN }
-189.9.28 = { owner = YOU controller = YOU add_core = YOU remove_core = HND }
-199.3.1 = { owner = JI0 controller = JI0 add_core = JI0 }
-207.10.1 = { owner = WEI controller = WEI add_core = WEI remove_core = JI0 }
-265.2.4 = { owner = JIN controller = JIN add_core = JIN remove_core = WEI }
-337.11.23 = { owner = YAN controller = YAN add_core = YAN remove_core = JIN }
-370.12.11 = { owner = QIN controller = QIN add_core = QIN }
-384.1.1 = { owner = YAN controller = YAN add_core = YAN remove_core = QIN }
-436.1.1 = { owner = WEI controller = WEI add_core = WEI remove_core = YAN }
-550.6.7 = { owner = QIC controller = QIC add_core = QIC remove_core = WEI }
-577.2.28 = { owner = CZH controller = CZH add_core = CZH remove_core = QIC }
-581.3.4 = { owner = SUI controller = SUI add_core = SUI remove_core = CZH }
-618.1.1 = { owner = YAN controller = YAN add_core = YAN remove_core = SUI }
-624.4.1 = { owner = TNG controller = TNG add_core = TNG }
-907.6.1 = { owner = YAN controller = YAN add_core = YAN remove_core = TNG }
-914.1.1 = { owner = JIN controller = JIN add_core = JIN remove_core = YAN }
-923.1.1 = { owner = LIO controller = LIO add_core = LIO remove_core = JIN }
-1115.1.1 = { owner = CJN controller = CJN add_core = CJN remove_core = LIO }
-1214.1.1 = { owner = KHA controller = KHA add_core = KHA add_core = CSH remove_core = CJN }
-1220.1.1 = { fort_15th = no }
-1271.1.1 = { owner = YUA controller = YUA add_core = YUA remove_core = KHA }
-1368.1.23 = { owner = KRC controller = KRC add_core = KRC remove_core = YUA }
-1387.7.14 = { owner = MNG controller = MNG add_core = MNG remove_core = KRC }
+1444.11.11 = {
+owner = XIN controller = XIN add_core = XIN
+owner = HND controller = HND remove_core = XIN
+owner = YOU controller = YOU add_core = YOU remove_core = HND
+owner = JI0 controller = JI0 add_core = JI0
+owner = WEI controller = WEI add_core = WEI remove_core = JI0
+owner = JIN controller = JIN add_core = JIN remove_core = WEI
+owner = YAN controller = YAN add_core = YAN remove_core = JIN
+owner = QIN controller = QIN add_core = QIN
+owner = YAN controller = YAN add_core = YAN remove_core = QIN
+owner = WEI controller = WEI add_core = WEI remove_core = YAN
+owner = QIC controller = QIC add_core = QIC remove_core = WEI
+owner = CZH controller = CZH add_core = CZH remove_core = QIC
+owner = SUI controller = SUI add_core = SUI remove_core = CZH
+owner = YAN controller = YAN add_core = YAN remove_core = SUI
+owner = TNG controller = TNG add_core = TNG
+owner = YAN controller = YAN add_core = YAN remove_core = TNG
+owner = JIN controller = JIN add_core = JIN remove_core = YAN
+owner = LIO controller = LIO add_core = LIO remove_core = JIN
+owner = CJN controller = CJN add_core = CJN remove_core = LIO
+owner = KHA controller = KHA add_core = KHA add_core = CSH remove_core = CJN
+fort_15th = no
+owner = YUA controller = YUA add_core = YUA remove_core = KHA
+owner = KRC controller = KRC add_core = KRC remove_core = YUA
+owner = MNG controller = MNG add_core = MNG remove_core = KRC
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1500.1.1 = { base_tax = 9 base_production = 9 } # Repairs of the Great Wall
 1519.1.1 = { discovered_by = POR } # Tome Pires

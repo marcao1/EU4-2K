@@ -20,31 +20,55 @@ base_manpower = 1
 is_city = yes
 add_core = ROM
 
-360.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-440.1.1 = { owner = EAL controller = EAL add_core = EAL }
-456.1.1 = { owner = GVI controller = GVI add_core = GVI remove_core = EAL }
-458.10.1 = { owner = ROW controller = ROW } #Battle of Arelate
-461.8.2 = { owner = GVI controller = GVI remove_core = ROW } #Assassination of Majorian
-711.1.1 = { owner = UMA controller = UMA add_core = UMA remove_core = GVI capital = "Yaburah" }
-750.1.1 = { base_tax = 2 base_production = 2 }
-750.8.6 = { owner = CRD controller = CRD add_core = CRD remove_core = UMA }
-770.1.1 = { religion = sunni }
-800.1.1 = { culture = andalucian }
-950.1.1 = { base_manpower = 2 }
-1011.1.1 = { owner = BDJ controller = BDJ add_core = BDJ remove_core = CRD }
-1027.1.1 = { owner = SEV controller = SEV add_core = SEV }
-1034.1.1 = { owner = BDJ controller = BDJ remove_core = SEV }
-1050.1.1 = { fort_15th = yes }
-1094.1.1 = { owner = MOR controller = MOR add_core = MOR remove_core = BDJ }
-1144.1.1 = { owner = BDJ controller = BDJ remove_core = MOR }
-1150.1.1 = { base_tax = 3 }
-1151.1.1 = { owner = MOR controller = MOR add_core = MOR }
-1165.9.1 = { owner = POR controller = POR add_core = POR remove_core = MOR capital = "Évora" culture = portugese }
-1220.1.1 = { religion = catholic }
+1444.11.11 = {
+religion = chalcedonism
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+owner = EAL controller = EAL add_core = EAL
+owner = GVI controller = GVI add_core = GVI remove_core = EAL
+owner = ROW controller = ROW
+owner = GVI controller = GVI remove_core = ROW
+owner = UMA controller = UMA add_core = UMA remove_core = GVI capital = "Yaburah"
+base_tax = 2 base_production = 2
+owner = CRD controller = CRD add_core = CRD remove_core = UMA
+religion = sunni
+culture = andalucian
+base_manpower = 2
+owner = BDJ controller = BDJ add_core = BDJ remove_core = CRD
+owner = SEV controller = SEV add_core = SEV
+owner = BDJ controller = BDJ remove_core = SEV
+fort_15th = yes
+owner = MOR controller = MOR add_core = MOR remove_core = BDJ
+owner = BDJ controller = BDJ remove_core = MOR
+base_tax = 3
+owner = MOR controller = MOR add_core = MOR
+owner = POR controller = POR add_core = POR remove_core = MOR capital = "ï¿½vora" culture = portugese
+religion = catholic
+}
+
+ # Final division of the empire
+
+
+ #Battle of Arelate
+ #Assassination of Majorian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1540.1.1 = { fort_15th = no fort_16th = yes } 
-1640.1.1 = { unrest = 8 } # Revolt headed by John of Bragança
+1640.1.1 = { unrest = 8 } # Revolt headed by John of Braganï¿½a
 1640.12.1 = { unrest = 0 }
 1642.1.1 = { fort_16th = no fort_17th = yes }
 1704.1.1 = { controller = SPA } # War of the Spanish succession

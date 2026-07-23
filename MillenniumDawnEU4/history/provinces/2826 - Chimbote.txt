@@ -15,8 +15,12 @@ base_manpower = 1
 is_city = yes
 add_core = MOC
 
-500.1.1 = { citysize = 1658 owner = HRI controller = HRI add_core = HRI remove_core = MOC }
-900.1.1 = { citysize = 2185 owner = CHM controller = CHM add_core = CHM remove_core = HRI }
+1444.11.11 = {
+citysize = 1658 owner = HRI controller = HRI add_core = HRI remove_core = MOC
+citysize = 2185 owner = CHM controller = CHM add_core = CHM remove_core = HRI
+}
+
+
 
 1470.1.1 = {
 	owner = INC

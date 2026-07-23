@@ -18,8 +18,12 @@ base_manpower = 2
 is_city = yes
 add_core = WAA
 
-650.1.1 = { owner = MNI controller = MNI add_core = MNI remove_core = WAA culture = shan religion = satsana_phi }
-1050.1.1 = { religion = buddhism }
+1444.11.11 = {
+owner = MNI controller = MNI add_core = MNI remove_core = WAA culture = shan religion = satsana_phi
+religion = buddhism
+}
+
+
 
 1535.1.1 = { discovered_by = POR }
 

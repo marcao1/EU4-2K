@@ -6,7 +6,7 @@ controller = COP
 add_core = COP
 is_city = yes
 religion = mesoamerican_religion
-capital = "Quiriguá"
+capital = "Quiriguï¿½"
 trade_goods = gems
 hre = no
 discovered_by = mesoamerican
@@ -19,9 +19,14 @@ native_ferocity = 1
 native_hostileness = 2
 center_of_trade = 1 #Nito and Naco, precolumbian international trade hubs
 
-830.1.1 = { owner = CHT controller = CHT add_core = CHT remove_core = COP }
-1050.1.1 = { owner = MAY controller = MAY add_core = CHT capital = "Chacujal" }
-1194.1.1 = { owner = KAQ controller = KAQ add_core = KAQ remove_core = MAY }
+1444.11.11 = {
+owner = CHT controller = CHT add_core = CHT remove_core = COP
+owner = MAY controller = MAY add_core = CHT capital = "Chacujal"
+owner = KAQ controller = KAQ add_core = KAQ remove_core = MAY
+}
+
+
+
 
 1524.1.1   = { discovered_by = SPA owner = SPA controller = SPA }
 1529.1.1   = { culture = castillian religion = catholic } # First settlers

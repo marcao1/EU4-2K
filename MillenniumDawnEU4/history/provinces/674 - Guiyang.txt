@@ -20,18 +20,32 @@ base_manpower = 2
 is_city = yes
 add_core = CYI
 
-60.1.1 = { owner = HND controller = HND add_core = HND add_core = WUU }
-189.9.28 = { owner = SHU controller = SHU add_core = SHU remove_core = HND }
-263.11.1 = { owner = WEI controller = WEI add_core = WEI remove_core = SHU }
-266.2.4 = { owner = JIN controller = JIN add_core = JIN remove_core = WEI }
-420.1.1 = { owner = LSO controller = LSO add_core = LSO remove_core = JIN }
-479.1.1 = { owner = QIC controller = QIC add_core = QIC remove_core = LSO }
-500.1.1 = { discovered_by = eastern_nomad_group discovered_by = nomad_group }
-502.1.1 = { owner = LNG controller = LNG add_core = LNG remove_core = QIC }
-557.1.1 = { owner = CEN controller = CEN add_core = CEN remove_core = LNG }
-580.1.1 = { owner = MUE controller = MUE add_core = MUE remove_core = CEN remove_core = CYI }
-600.1.1 = { base_tax = 3 base_production = 3 }
-1372.1.1 = { owner = MNG controller = MNG add_core = MNG }
+1444.11.11 = {
+owner = HND controller = HND add_core = HND add_core = WUU
+owner = SHU controller = SHU add_core = SHU remove_core = HND
+owner = WEI controller = WEI add_core = WEI remove_core = SHU
+owner = JIN controller = JIN add_core = JIN remove_core = WEI
+owner = LSO controller = LSO add_core = LSO remove_core = JIN
+owner = QIC controller = QIC add_core = QIC remove_core = LSO
+discovered_by = eastern_nomad_group discovered_by = nomad_group
+owner = LNG controller = LNG add_core = LNG remove_core = QIC
+owner = CEN controller = CEN add_core = CEN remove_core = LNG
+owner = MUE controller = MUE add_core = MUE remove_core = CEN remove_core = CYI
+base_tax = 3 base_production = 3
+owner = MNG controller = MNG add_core = MNG
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 1655.1.1 = { discovered_by = SPA }#Novus Atlas Sinensis
 1658.4.1 = {	owner = QNG

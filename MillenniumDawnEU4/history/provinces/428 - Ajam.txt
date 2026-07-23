@@ -23,34 +23,57 @@ is_city = yes
 add_core = PRT
 center_of_trade = 1
 
-224.4.24 = { owner = ERS controller = ERS add_core = ERS remove_core = PRT }
-642.1.1 = { owner = RSD controller = RSD add_core = RSD remove_core = ERS }
-661.7.28 = { owner = UMA controller = UMA add_core = UMA remove_core = RSD }
-700.1.1 = { base_manpower = 3 }
-750.8.6 = { owner = ABA controller = ABA add_core = ABA remove_core = UMA }
-800.1.1 = { owner = QOM controller = QOM add_core = QOM }
-801.1.1 = { base_tax = 4 base_production = 4 }
-898.1.1 = { owner = ABA controller = ABA add_core = ABA }
-931.1.1 = { owner = TAB controller = TAB add_core = TAB remove_core = ABA }
-935.1.1 = { owner = QOM controller = QOM add_core = QOM remove_core = TAB }
-1000.1.1 = { base_tax = 5 base_production = 5 }
-1029.1.1 = { owner = GHZ controller = GHZ add_core = GHZ }
-1040.5.23 = { owner = SEL controller = SEL add_core = SEL remove_core = GHZ } #Battle of Dandanaqan
-1100.1.1 = { base_manpower = 4 }
-1194.1.1 = { owner = KHW controller = KHW add_core = KHW remove_core = SEL }
-1231.1.1 = { owner = KHA controller = KHA add_core = KHA add_core = PER remove_core = KHW capital = "Tehran" }
-1260.1.1 = { owner = ILK controller = ILK add_core = ILK remove_core = KHA }
-1310.1.1 = { religion = shiite }
-1335.1.1 = { owner = JAL controller = JAL add_core = JAL remove_core = ILK }
-1357.1.1 = { owner = PER controller = PER add_core = PER remove_core = JAL }
-1380.1.1 = { add_core = TIM }
-1384.1.1 = { owner = TIM controller = TIM }
-
-1442.1.1 = { #Death of Yusuf Khwaja, governor of Rayy. Appointment of Sultan Muhammad b. Baysunghur as governor of northern Iran.
+1444.11.11 = {
+owner = ERS controller = ERS add_core = ERS remove_core = PRT
+owner = RSD controller = RSD add_core = RSD remove_core = ERS
+owner = UMA controller = UMA add_core = UMA remove_core = RSD
+base_manpower = 3
+owner = ABA controller = ABA add_core = ABA remove_core = UMA
+owner = QOM controller = QOM add_core = QOM
+base_tax = 4 base_production = 4
+owner = ABA controller = ABA add_core = ABA
+owner = TAB controller = TAB add_core = TAB remove_core = ABA
+owner = QOM controller = QOM add_core = QOM remove_core = TAB
+base_tax = 5 base_production = 5
+owner = GHZ controller = GHZ add_core = GHZ
+owner = SEL controller = SEL add_core = SEL remove_core = GHZ
+base_manpower = 4
+owner = KHW controller = KHW add_core = KHW remove_core = SEL
+owner = KHA controller = KHA add_core = KHA add_core = PER remove_core = KHW capital = "Tehran"
+owner = ILK controller = ILK add_core = ILK remove_core = KHA
+religion = shiite
+owner = JAL controller = JAL add_core = JAL remove_core = ILK
+owner = PER controller = PER add_core = PER remove_core = JAL
+add_core = TIM
+owner = TIM controller = TIM
+#Death of Yusuf Khwaja, governor of Rayy. Appointment of Sultan Muhammad b. Baysunghur as governor of northern Iran.
 	owner = QOM
 	controller = QOM
 	add_core = QOM
 }
+
+
+
+
+
+
+
+
+
+
+
+
+ #Battle of Dandanaqan
+
+
+
+
+
+
+
+
+
+
 #1446.1.1 #Revolt of Muhammad bin Baysonqor
 1451.1.1 = {
 	owner = QAR

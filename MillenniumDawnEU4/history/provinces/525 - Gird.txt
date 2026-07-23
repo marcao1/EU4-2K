@@ -23,16 +23,28 @@ base_manpower = 2
 is_city = yes
 add_core = PDM
 
-360.1.1 = { owner = GUP controller = GUP add_core = GUP capital = "Gwalior" }
-606.1.1 = { owner = HRS controller = HRS add_core = HRS remove_core = GUP }
-647.1.1 = { owner = GRP controller = GRP add_core = GRP remove_core = HRS }
-1000.1.1 = { base_tax = 3 base_production = 3 }
-1036.1.1 = { owner = CCH controller = CCH add_core = CCH remove_core = GRP }
-1192.1.1 = { owner = MLW controller = MLW add_core = MLW remove_core = CCH }
-1226.1.1 = { owner = GWA controller = GWA add_core = GWA remove_core = MLW }
-1231.1.1 = { owner = DLH controller = DLH add_core = DLH }
-1250.1.1 = { fort_15th = yes }
-1375.1.1 = { owner = GWA controller = GWA add_core = GWA remove_core = DLH }
+1444.11.11 = {
+owner = GUP controller = GUP add_core = GUP capital = "Gwalior"
+owner = HRS controller = HRS add_core = HRS remove_core = GUP
+owner = GRP controller = GRP add_core = GRP remove_core = HRS
+base_tax = 3 base_production = 3
+owner = CCH controller = CCH add_core = CCH remove_core = GRP
+owner = MLW controller = MLW add_core = MLW remove_core = CCH
+owner = GWA controller = GWA add_core = GWA remove_core = MLW
+owner = DLH controller = DLH add_core = DLH
+fort_15th = yes
+owner = GWA controller = GWA add_core = GWA remove_core = DLH
+}
+
+
+
+
+
+
+
+
+
+
 
 1518.5.1 = { owner = DLH controller = DLH } #Conquered by Ibrahim Lodi
 1526.4.21 = {

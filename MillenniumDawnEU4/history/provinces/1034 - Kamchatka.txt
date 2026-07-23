@@ -16,7 +16,10 @@ discovered_by = CHU
 discovered_by = CHV
 discovered_by = KMC
 
-1300.1.1 = { owner = KMC controller = KMC add_core = KMC is_city = yes trade_goods = fish }
+1444.11.11 = {
+owner = KMC controller = KMC add_core = KMC is_city = yes trade_goods = fish
+}
+
 
 1647.1.1 = { discovered_by = RUS } # V. Atlasov
 1732.1.1 = {	owner = RUS

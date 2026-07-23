@@ -22,27 +22,48 @@ base_manpower = 2
 center_of_trade = 2
 add_province_triggered_modifier = religious_center
 
-395.1.1 = { owner = LOM controller = LOM add_core = LOM remove_core = MRM culture = langobardi }
-400.1.1 = { base_tax = 3 base_production = 3 }
-500.1.1 = { base_manpower = 3 }
-550.1.1 = { owner = BOH controller = BOH add_core = BOH remove_core = LOM culture = czech religion = slavic }
-600.1.1 = { base_tax = 4 base_production = 4 }
-623.1.1 = { owner = SAZ controller = SAZ add_core = SAZ }
-659.1.1 = { owner = MVA controller = MVA add_core = MVA remove_core = SAZ }
-700.1.1 = { base_manpower = 4 }
-800.1.1 = { base_tax = 5 base_production = 5 }
-867.1.1 = { religion = catholic }
-880.1.1 = { fort_15th = yes religion = catholic }
-894.1.1 = { owner = BOH controller = BOH add_core = BOH remove_core = MVA }
-900.1.1 = { base_tax = 6 base_production = 6 }
-962.2.2 = { hre = yes }
-1000.1.1 = { base_tax = 7 base_production = 7 }
-1100.1.1 = { base_manpower = 5 }
-1200.1.1 = { base_tax = 8 base_production = 8 }
-1300.1.1 = { base_manpower = 6 }
+1444.11.11 = {
+owner = LOM controller = LOM add_core = LOM remove_core = MRM culture = langobardi
+base_tax = 3 base_production = 3
+base_manpower = 3
+owner = BOH controller = BOH add_core = BOH remove_core = LOM culture = czech religion = slavic
+base_tax = 4 base_production = 4
+owner = SAZ controller = SAZ add_core = SAZ
+owner = MVA controller = MVA add_core = MVA remove_core = SAZ
+base_manpower = 4
+base_tax = 5 base_production = 5
+religion = catholic
+fort_15th = yes religion = catholic
+owner = BOH controller = BOH add_core = BOH remove_core = MVA
+base_tax = 6 base_production = 6
+hre = yes
+base_tax = 7 base_production = 7
+base_manpower = 5
+base_tax = 8 base_production = 8
+base_manpower = 6
+revolt = { type = heretic_rebels size = 1 } controller = REB religion = hussite
+revolt = {} controller = BOH
+}
 
-1419.12.1  = { revolt = { type = heretic_rebels size = 1 } controller = REB religion = hussite } # Hussite Wars, Battle of Nekmir
-1436.7.5   = { revolt = {} controller = BOH } # Peace is signed in Jihlava
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ # Hussite Wars, Battle of Nekmir
+ # Peace is signed in Jihlava
 1457.1.1   = { unrest = 5   } # George of Podiebrand had to secure recognition from the German and Catholic towns
 1464.1.1   = { unrest = 1 } # The Catholic nobility still undermines the crown.
 1471.1.1   = { unrest = 0 }

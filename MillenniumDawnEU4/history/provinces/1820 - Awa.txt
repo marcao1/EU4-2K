@@ -16,15 +16,26 @@ base_manpower = 2
 is_city = yes
 add_core = SHK
 
-580.1.1 = { owner = YAM controller = YAM add_core = YAM remove_core = SHK }
-607.1.1 = { religion = mahayana }
-712.1.1 = { religion = shinto }
-794.1.1 = { owner = JAP controller = JAP add_core = JAP remove_core = YAM }
-1160.2.5 = { owner = TIA controller = TIA add_core = TIA remove_core = JAP } #Heiji Rebellion
-1185.6.19 = { owner = JAP controller = JAP remove_core = TIA } #Genpei War, Taira defeated
-1192.7.12 = { owner = AMA controller = AMA add_core = AMA remove_core = YAM } #Kamakura Shogunate, Sasaki clan
-1221.5.14 = { owner = OGS controller = OGS add_core = OGS } #Jokyu War
-1338.2.23 = { owner = HSK controller = HSK add_core = HSK remove_core = JAP } #Ashikaga Shogunate
+1444.11.11 = {
+owner = YAM controller = YAM add_core = YAM remove_core = SHK
+religion = mahayana
+religion = shinto
+owner = JAP controller = JAP add_core = JAP remove_core = YAM
+owner = TIA controller = TIA add_core = TIA remove_core = JAP
+owner = JAP controller = JAP remove_core = TIA
+owner = AMA controller = AMA add_core = AMA remove_core = YAM
+owner = OGS controller = OGS add_core = OGS
+owner = HSK controller = HSK add_core = HSK remove_core = JAP
+}
+
+
+
+
+ #Heiji Rebellion
+ #Genpei War, Taira defeated
+ #Kamakura Shogunate, Sasaki clan
+ #Jokyu War
+ #Ashikaga Shogunate
 
 1575.1.1 = { add_core = CSK }
 1580.1.1 = { owner = CSK controller = CSK remove_core = HSK }

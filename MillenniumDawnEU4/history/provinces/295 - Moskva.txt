@@ -10,20 +10,36 @@ base_manpower = 2
 capital = "Moskva"
 center_of_trade = 2
 
-500.1.1 = { discovered_by = eastern }
-550.1.1 = { owner = VYA controller = VYA add_core = VYA is_city = yes trade_goods = iron }
-650.1.1 = { discovered_by = eastern }
-700.1.1 = { base_tax = 3 base_production = 3 }
-800.1.1 = { base_manpower = 3 discovered_by = western }
-900.1.1 = { base_tax = 4 base_production = 4 }
-980.1.1 = { owner = KRU controller = KRU add_core = KRU remove_core = MRY }
-1000.1.1 = { base_manpower = 4 }
-1054.2.20 = { owner = VLA controller = VLA add_core = VLA remove_core = KRU }
-1100.1.1 = { base_tax = 6 base_production = 6 }
-1150.1.1 = { religion = orthodox }
-1156.1.1 = { fort_15th = yes }
-1200.1.1 = { base_manpower = 5 discovered_by = GLH discovered_by = nomad_group }
-1283.1.1 = { owner = MOS controller = MOS add_core = MOS remove_core = VLA }
+1444.11.11 = {
+discovered_by = eastern
+owner = VYA controller = VYA add_core = VYA is_city = yes trade_goods = iron
+discovered_by = eastern
+base_tax = 3 base_production = 3
+base_manpower = 3 discovered_by = western
+base_tax = 4 base_production = 4
+owner = KRU controller = KRU add_core = KRU remove_core = MRY
+base_manpower = 4
+owner = VLA controller = VLA add_core = VLA remove_core = KRU
+base_tax = 6 base_production = 6
+religion = orthodox
+fort_15th = yes
+base_manpower = 5 discovered_by = GLH discovered_by = nomad_group
+owner = MOS controller = MOS add_core = MOS remove_core = VLA
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1450.1.1 = { discovered_by = SIB }
 1495.1.1 = { fort_15th = no fort_16th = yes } #Kremlin

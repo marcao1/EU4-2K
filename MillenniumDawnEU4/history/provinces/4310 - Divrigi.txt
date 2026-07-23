@@ -22,20 +22,36 @@ base_manpower = 2
 is_city = yes
 add_core = CAP
 
-18.1.1 = { owner = ROM controller = ROM add_core = ROM }
-269.1.1 = { add_core = PLM revolt = { type = nationalist_rebels size = 1 } controller = REB }
-272.1.1 = { controller = ROM remove_core = PLM revolt = {} }
-310.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-500.1.1 = { culture = greek }
-615.1.1 = { controller = ERS }
-626.1.1 = { controller = BYZ }
-867.1.1 = { religion = orthodox }
-1071.8.26 = { owner = DIV controller = DIV add_core = DIV capital = "Divrigi" }
-1120.1.1 = { religion = sunni culture = turkish }
-1277.1.1 = { owner = ILK controller = ILK add_core = ILK }
-1335.1.1 = { owner = ERE controller = ERE add_core = ERE remove_core = ILK }
-1380.1.1 = { owner = DUL controller = DUL add_core = DUL remove_core = ERE }
+1444.11.11 = {
+owner = ROM controller = ROM add_core = ROM
+add_core = PLM revolt = { type = nationalist_rebels size = 1 } controller = REB
+controller = ROM remove_core = PLM revolt = {}
+religion = chalcedonism
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+culture = greek
+controller = ERS
+controller = BYZ
+religion = orthodox
+owner = DIV controller = DIV add_core = DIV capital = "Divrigi"
+religion = sunni culture = turkish
+owner = ILK controller = ILK add_core = ILK
+owner = ERE controller = ERE add_core = ERE remove_core = ILK
+owner = DUL controller = DUL add_core = DUL remove_core = ERE
+}
+
+
+
+
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
 
 1514.8.23 = {
 	owner = TUR

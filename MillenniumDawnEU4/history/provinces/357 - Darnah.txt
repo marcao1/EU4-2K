@@ -20,21 +20,38 @@ base_manpower = 1
 is_city = yes
 add_core = ROM
 
-262.1.1 = { capital = "Claudiopolis" }
-365.7.21 = { culture = eastern_berber } #Earthquake, city almost abandoned by its Greek and Roman inhabitants
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-643.1.1 = { owner = RSD controller = RSD add_core = RSD remove_core = BYZ capital = "Derna" }
-661.7.28 = { owner = UMA controller = UMA add_core = UMA remove_core = RSD }
-710.1.1 = { religion = sunni culture = al_misr_arabic }
-750.8.6 = { owner = ABA controller = ABA add_core = ABA remove_core = UMA }
-868.9.15 = { owner = EGY controller = EGY add_core = EGY remove_core = ABA }
-905.1.10 = { owner = ABA controller = ABA add_core = ABA }
-935.8.26 = { owner = EGY controller = EGY add_core = EGY remove_core = ABA }
-969.6.1  = { owner = FAT controller = FAT add_core = FAT }
-1051.1.1 = { owner = CYR controller = CYR add_core = CYR remove_core = FAT }
-1173.1.1 = { owner = MAM controller = MAM add_core = MAM }
-1190.1.1 = { owner = EGY controller = EGY add_core = EGY remove_core = MAM }
-1250.5.2 = { owner = MAM controller = MAM add_core = MAM remove_core = EGY }
+1444.11.11 = {
+capital = "Claudiopolis"
+culture = eastern_berber
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+owner = RSD controller = RSD add_core = RSD remove_core = BYZ capital = "Derna"
+owner = UMA controller = UMA add_core = UMA remove_core = RSD
+religion = sunni culture = al_misr_arabic
+owner = ABA controller = ABA add_core = ABA remove_core = UMA
+owner = EGY controller = EGY add_core = EGY remove_core = ABA
+owner = ABA controller = ABA add_core = ABA
+owner = EGY controller = EGY add_core = EGY remove_core = ABA
+owner = FAT controller = FAT add_core = FAT
+owner = CYR controller = CYR add_core = CYR remove_core = FAT
+owner = MAM controller = MAM add_core = MAM
+owner = EGY controller = EGY add_core = EGY remove_core = MAM
+owner = MAM controller = MAM add_core = MAM remove_core = EGY
+}
+
+ #Earthquake, city almost abandoned by its Greek and Roman inhabitants
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
+
 
 1517.1.1 = {	owner = TUR
 		controller = TUR

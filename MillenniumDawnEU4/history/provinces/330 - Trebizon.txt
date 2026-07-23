@@ -23,19 +23,34 @@ is_city = yes
 add_core = PON
 center_of_trade = 1
 
-62.1.1 = { owner = ROM controller = ROM add_core = ROM }
-80.1.1 = { remove_core = PON }
-100.1.1 = { capital = "Trebizond" }
-360.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-800.1.1 = { base_tax = 4 base_production = 4 }
-867.1.1 = { religion = orthodox }
-1000.1.1 = { base_manpower = 4 }
-1071.8.26 = { owner = DNI controller = DNI add_core = DNI }
-1085.1.1 = { owner = BYZ controller = BYZ remove_core = DNI } #Reconquered by Theodore Gabras
-1204.4.13 = { owner = TRE controller = TRE add_core = TRE }
-1261.1.1 = { remove_core = BYZ }
-1297.1.1 = { fort_15th = yes } #Trebizond Castle
+1444.11.11 = {
+owner = ROM controller = ROM add_core = ROM
+remove_core = PON
+capital = "Trebizond"
+religion = chalcedonism
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+base_tax = 4 base_production = 4
+religion = orthodox
+base_manpower = 4
+owner = DNI controller = DNI add_core = DNI
+owner = BYZ controller = BYZ remove_core = DNI
+owner = TRE controller = TRE add_core = TRE
+remove_core = BYZ
+fort_15th = yes
+}
+
+
+
+
+ # Final division of the empire
+
+
+
+
+ #Reconquered by Theodore Gabras
+
+
+ #Trebizond Castle
 
 1461.1.1 = {
 	owner = TUR

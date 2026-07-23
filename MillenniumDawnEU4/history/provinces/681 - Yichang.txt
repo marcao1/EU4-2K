@@ -19,23 +19,42 @@ is_city = yes
 add_core = HND
 add_core = SHU
 
-9.1.10 = { owner = XIN controller = XIN add_core = XIN }
-23.10.5 = { owner = HND controller = HND remove_core = XIN }
-189.9.28 = { owner = JNG controller = JNG add_core = JNG remove_core = HND }
-208.11.1 = { owner = SHU controller = SHU add_core = SHU }
-263.11.1 = { owner = WEI controller = WEI add_core = WEI remove_core = SHU }
-266.2.4 = { owner = JIN controller = JIN add_core = JIN remove_core = WEI }
-420.1.1 = { owner = LSO controller = LSO add_core = LSO remove_core = JIN }
-479.1.1 = { owner = QIC controller = QIC add_core = QIC remove_core = LSO }
-502.1.1 = { owner = LNG controller = LNG add_core = LNG remove_core = QIC }
-587.10.26 = { owner = SUI controller = SUI add_core = SUI remove_core = LNG }
-618.4.11 = { owner = TNG controller = TNG add_core = TNG remove_core = SUI }
-907.6.1 = { owner = JGN controller = JGN add_core = JGN remove_core = TNG }
-963.1.1 = { owner = SNG controller = SNG add_core = SNG remove_core = JGN }
-1279.3.19 = { owner = YUA controller = YUA add_core = YUA add_core = CXI remove_core = SNG }
-1361.1.1 = { owner = HND controller = HND add_core = HND } 
-1365.4.1 = { owner = MNG controller = MNG add_core = MNG }
-1368.1.23 = { remove_core = YUA }
+1444.11.11 = {
+owner = XIN controller = XIN add_core = XIN
+owner = HND controller = HND remove_core = XIN
+owner = JNG controller = JNG add_core = JNG remove_core = HND
+owner = SHU controller = SHU add_core = SHU
+owner = WEI controller = WEI add_core = WEI remove_core = SHU
+owner = JIN controller = JIN add_core = JIN remove_core = WEI
+owner = LSO controller = LSO add_core = LSO remove_core = JIN
+owner = QIC controller = QIC add_core = QIC remove_core = LSO
+owner = LNG controller = LNG add_core = LNG remove_core = QIC
+owner = SUI controller = SUI add_core = SUI remove_core = LNG
+owner = TNG controller = TNG add_core = TNG remove_core = SUI
+owner = JGN controller = JGN add_core = JGN remove_core = TNG
+owner = SNG controller = SNG add_core = SNG remove_core = JGN
+owner = YUA controller = YUA add_core = YUA add_core = CXI remove_core = SNG
+owner = HND controller = HND add_core = HND
+owner = MNG controller = MNG add_core = MNG
+remove_core = YUA
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
 
 1637.1.1 = { revolt = { type = anti_tax_rebels size = 2 } controller = REB } # Zhang Xianzhong rebellion
 1643.1.1 = { revolt = { } revolt_risk = 0 owner = CXI controller = CXI } # The Xi dynasty of Zhang Xianzhong

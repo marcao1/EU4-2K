@@ -13,7 +13,10 @@ native_size = 40
 native_ferocity = 4
 native_hostileness = 9
 
-1250.1.1 = { owner = BOR controller = BOR add_core = BOR trade_goods = tropical_wood is_city = yes }
+1444.11.11 = {
+owner = BOR controller = BOR add_core = BOR trade_goods = tropical_wood is_city = yes
+}
+
 
 1850.1.1   = { religion = sunni }
 1880.1.1   = { discovered_by = FR2 }

@@ -20,25 +20,46 @@ base_manpower = 2
 is_city = yes
 add_core = ROM
 
-300.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-480.1.1 = { owner = ITA controller = ITA add_core = ITA remove_core = ROW }
-489.1.1 = { owner = OST controller = OST add_core = OST remove_core = ITA }
-535.1.1 = { owner = BYZ controller = BYZ add_core = BYZ remove_core = OST }
-630.1.1 = { add_core = CRO }
-670.1.1 = { owner = CRO controller = CRO }
-806.1.1 = { owner = FRK controller = FRK add_core = FRK }
-812.1.1 = { owner = BYZ controller = BYZ remove_core = FRK }
-867.1.1 = { religion = catholic }
-925.1.1 = { owner = CRO controller = CRO remove_core = BYZ capital = "Zadar" }
-1000.1.1 = { base_tax = 3 }
-1030.1.1 = { owner = BYZ controller = BYZ add_core = BYZ }
-1069.1.1 = { owner = CRO controller = CRO }
-1111.1.1 = { add_core = VEN } #Limited Venetian control
-1202.11.14 = { owner = VEN controller = VEN add_core = VEN } #Fourth Crusade, Siege of Zara
-1358.2.18 = { owner = CRO controller = CRO add_core = CRO remove_core = VEN } #Treaty of Zadar
-1403.8.5 = { owner = NAP controller = NAP add_core = NAP }
-1409.7.31 = { owner = VEN controller = VEN add_core = VEN remove_core = NAP }
+1444.11.11 = {
+religion = chalcedonism
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+owner = ITA controller = ITA add_core = ITA remove_core = ROW
+owner = OST controller = OST add_core = OST remove_core = ITA
+owner = BYZ controller = BYZ add_core = BYZ remove_core = OST
+add_core = CRO
+owner = CRO controller = CRO
+owner = FRK controller = FRK add_core = FRK
+owner = BYZ controller = BYZ remove_core = FRK
+religion = catholic
+owner = CRO controller = CRO remove_core = BYZ capital = "Zadar"
+base_tax = 3
+owner = BYZ controller = BYZ add_core = BYZ
+owner = CRO controller = CRO
+add_core = VEN
+owner = VEN controller = VEN add_core = VEN
+owner = CRO controller = CRO add_core = CRO remove_core = VEN
+owner = NAP controller = NAP add_core = NAP
+owner = VEN controller = VEN add_core = VEN remove_core = NAP
+}
+
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
+
+ #Limited Venetian control
+ #Fourth Crusade, Siege of Zara
+ #Treaty of Zadar
+
+
 
 1540.10.2 = { owner = TUR controller = TUR add_core = TUR } # A large part of Dalmatia is incorporated into the Ottoman empire
 1699.1.26 = { owner = VEN controller = VEN remove_core = TUR } # Peace of Karlowitz, Dalmatian hinterland given to Venice

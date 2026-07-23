@@ -16,15 +16,26 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-560.1.1 = { owner = MMA controller = MMA add_core = MMA remove_core = AIL }
-800.1.1 = { owner = NAN controller = NAN add_core = NAN discovered_by = indian }
-810.1.1 = { religion = vajrayana }
-880.1.1 = { culture = shan }
-900.1.1 = { discovered_by = nomad_group }
-937.1.1 = { owner = CDL controller = CDL add_core = CDL remove_core = NAN }
-1000.1.1 = { base_manpower = 2 }
-1253.1.1 = { owner = MMA controller = MMA add_core = MMA add_core = CDL }
-1260.1.1 = { religion = buddhism }
+1444.11.11 = {
+owner = MMA controller = MMA add_core = MMA remove_core = AIL
+owner = NAN controller = NAN add_core = NAN discovered_by = indian
+religion = vajrayana
+culture = shan
+discovered_by = nomad_group
+owner = CDL controller = CDL add_core = CDL remove_core = NAN
+base_manpower = 2
+owner = MMA controller = MMA add_core = MMA add_core = CDL
+religion = buddhism
+}
+
+
+
+
+
+
+
+
+
 
 1449.1.1 = {
 	owner = MNG

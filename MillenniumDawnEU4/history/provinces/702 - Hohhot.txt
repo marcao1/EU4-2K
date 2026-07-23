@@ -18,27 +18,50 @@ base_manpower = 4
 is_city = yes
 add_core = XIO
 
-48.1.1 = { owner = SXI controller = SXI add_core = SXI remove_core = XIO }
-304.1.1 = { owner = ZAO controller = ZAO add_core = ZAO remove_core = SXI }
-310.1.1 = { owner = DAX controller = DAX add_core = DAX remove_core = ZAO }
-376.1.1 = { owner = QIN controller = QIN add_core = QIN remove_core = DAX }
-370.1.1 = { culture = khitan }
-386.1.1 = { owner = WEI controller = WEI add_core = WEI remove_core = QIN }
-550.6.7 = { owner = QIC controller = QIC add_core = QIC remove_core = WEI }
-577.2.28 = { owner = CZH controller = CZH add_core = CZH remove_core = QIC }
-581.3.4 = { owner = SUI controller = SUI add_core = SUI remove_core = CZH }
-617.12.18 = { owner = TNG controller = TNG add_core = TNG remove_core = SUI }
-907.6.1 = { owner = JIN controller = JIN add_core = JIN remove_core = TNG }
-923.11.19 = { owner = TNG controller = TNG add_core = TNG remove_core = JIN }
-936.1.11 = { owner = LIO controller = LIO add_core = LIO remove_core = TNG }
-950.1.1 = { religion = mahayana }
-1125.1.1 = { owner = XIA controller = XIA add_core = XIA remove_core = LIO }
-1150.1.1 = { religion = vajrayana }
-1160.1.1 = { culture = chahar }
-1227.1.1 = { owner = KHA controller = KHA add_core = KHA remove_core = XIA }
-1271.1.1 = { owner = YUA controller = YUA add_core = YUA remove_core = KHA }
-1368.1.23 = { owner = KHA controller = KHA add_core = KHA remove_core = YUA }
-1388.1.1 = { owner = MNG controller = MNG add_core = MNG }
+1444.11.11 = {
+owner = SXI controller = SXI add_core = SXI remove_core = XIO
+owner = ZAO controller = ZAO add_core = ZAO remove_core = SXI
+owner = DAX controller = DAX add_core = DAX remove_core = ZAO
+owner = QIN controller = QIN add_core = QIN remove_core = DAX
+culture = khitan
+owner = WEI controller = WEI add_core = WEI remove_core = QIN
+owner = QIC controller = QIC add_core = QIC remove_core = WEI
+owner = CZH controller = CZH add_core = CZH remove_core = QIC
+owner = SUI controller = SUI add_core = SUI remove_core = CZH
+owner = TNG controller = TNG add_core = TNG remove_core = SUI
+owner = JIN controller = JIN add_core = JIN remove_core = TNG
+owner = TNG controller = TNG add_core = TNG remove_core = JIN
+owner = LIO controller = LIO add_core = LIO remove_core = TNG
+religion = mahayana
+owner = XIA controller = XIA add_core = XIA remove_core = LIO
+religion = vajrayana
+culture = chahar
+owner = KHA controller = KHA add_core = KHA remove_core = XIA
+owner = YUA controller = YUA add_core = YUA remove_core = KHA
+owner = KHA controller = KHA add_core = KHA remove_core = YUA
+owner = MNG controller = MNG add_core = MNG
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1449.10.1 = {
 	owner = OIR

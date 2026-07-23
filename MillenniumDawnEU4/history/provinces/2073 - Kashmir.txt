@@ -24,15 +24,24 @@ base_manpower = 1
 is_city = yes
 add_core = GIL
 
-100.1.1 = { religion = mahayana }
-375.1.1 = { owner = KDT controller = KDT add_core = KDT }
-430.1.1 = { owner = KAP controller = KAP add_core = KAP remove_core = KDT }
-542.1.1 = { owner = GIL controller = GIL add_core = GIL remove_core = KAP }
-755.1.1 = { owner = TIB controller = TIB add_core = TIB }
-760.1.1 = { religion = vajrayana }
-842.1.1 = { owner = GIL controller = GIL add_core = GIL remove_core = TIB remove_core = KSH }
+1444.11.11 = {
+religion = mahayana
+owner = KDT controller = KDT add_core = KDT
+owner = KAP controller = KAP add_core = KAP remove_core = KDT
+owner = GIL controller = GIL add_core = GIL remove_core = KAP
+owner = TIB controller = TIB add_core = TIB
+religion = vajrayana
+owner = GIL controller = GIL add_core = GIL remove_core = TIB remove_core = KSH
+religion = shiite
+}
 
-1410.1.1 = { religion = shiite } #Converted to islam in early 15th century
+
+
+
+
+
+
+ #Converted to islam in early 15th century
 1479.1.1 = { owner = KSH controller = KSH add_core = KSH } #Shah Mirs
 1520.1.1 = { owner = GIL controller = GIL remove_core = KSH }
 1600.1.1 = { owner = BLT controller = BLT add_core = BLT } #Conquered by Ali Sher Khan Anchan, exact year unknown

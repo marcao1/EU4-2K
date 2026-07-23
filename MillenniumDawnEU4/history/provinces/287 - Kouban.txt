@@ -24,31 +24,56 @@ trade_goods = livestock
 base_manpower = 1
 capital = "Kouban"
 
-63.1.1 = { owner = ROM controller = ROM }
-68.1.1 = { owner = BSP controller = BSP }
-370.1.1 = { owner = HNS controller = HNS add_core = HNS remove_core = ROM }
-420.1.1 = { add_core = UTI }
-469.1.1 = { owner = UTI controller = UTI remove_core = HNS }
-632.1.1 = { owner = BUL controller = BUL add_core = BUL remove_core = UTI }
-720.1.1 = { owner = KHZ controller = KHZ add_core = KHZ remove_core = BUL }
-800.1.1 = { base_tax = 2 base_production = 2 }
-900.1.1 = { base_manpower = 2 }
-988.1.1 = { owner = TMU controller = TMU add_core = TMU remove_core = KHZ }
-1000.1.1 = { base_tax = 3 base_production = 3 }
-1035.1.1 = { owner = KRU controller = KRU add_core = KRU }
-1054.2.20 = { owner = TMU controller = TMU add_core = TMU remove_core = KRU }
-1094.1.1 = { owner = CUM controller = CUM add_core = CUM }
-1100.1.1 = { base_manpower = 3 }
-1237.1.1 = { owner = KHA controller = KHA add_core = KHA add_core = CRI remove_core = CUM }
-1250.1.1 = { culture = crimean }
-1260.1.1 = { owner = WHH controller = WHH add_core = WHH remove_core = KHA }
-1300.1.1 = { religion = sunni }
-1372.1.1 = { owner = BHO controller = BHO add_core = BHO }
-1374.1.1 = { owner = WHH controller = WHH remove_core = BHO }
-1378.1.1 = { owner = GLH controller = GLH add_core = GLH }
-1380.1.1 = { capital = "Kouban" }
+1444.11.11 = {
+owner = ROM controller = ROM
+owner = BSP controller = BSP
+owner = HNS controller = HNS add_core = HNS remove_core = ROM
+add_core = UTI
+owner = UTI controller = UTI remove_core = HNS
+owner = BUL controller = BUL add_core = BUL remove_core = UTI
+owner = KHZ controller = KHZ add_core = KHZ remove_core = BUL
+base_tax = 2 base_production = 2
+base_manpower = 2
+owner = TMU controller = TMU add_core = TMU remove_core = KHZ
+base_tax = 3 base_production = 3
+owner = KRU controller = KRU add_core = KRU
+owner = TMU controller = TMU add_core = TMU remove_core = KRU
+owner = CUM controller = CUM add_core = CUM
+base_manpower = 3
+owner = KHA controller = KHA add_core = KHA add_core = CRI remove_core = CUM
+culture = crimean
+owner = WHH controller = WHH add_core = WHH remove_core = KHA
+religion = sunni
+owner = BHO controller = BHO add_core = BHO
+owner = WHH controller = WHH remove_core = BHO
+owner = GLH controller = GLH add_core = GLH
+capital = "Kouban"
+owner = CRI controller = CRI add_core = CRI
+}
 
-1441.1.1  = { owner = CRI controller = CRI add_core = CRI } # The Crimean Khanate
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ # The Crimean Khanate
 1478.6.1  = { add_core = TUR } # Crimea becomes a vassal of the Ottoman Empire
 1774.7.21 = { owner = RUS controller = RUS remove_core = CRI add_core = RUS remove_core = TUR } # Treaty of Kuchuk-Kainarji
 1792.6.12 = { culture = ruthenian }

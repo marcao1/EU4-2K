@@ -14,18 +14,19 @@ native_size = 15
 native_ferocity = 1 
 native_hostileness = 1
 
-375.1.1 = { 
-		owner = TWN
+1444.11.11 = {
+owner = TWN
 		controller = TWN
 		add_core = TWN
 		is_city = yes
 		trade_goods = wool
-	  }
-1000.1.1 = { 	owner = CRA
+owner = CRA
 		controller = CRA
 		add_core = CRA
 		remove_core = TWN
-	   }
+}
+
+
 
 1476.1.1 = {
 	owner = INC

@@ -21,20 +21,36 @@ base_manpower = 1
 is_city = yes
 add_core = CAA
 
-253.1.1 = { add_core = ERS }
-639.1.1 = { owner = RSD controller = RSD add_core = RSD remove_core = CAA }
-654.1.1 = { owner = IBE controller = IBE add_core = IBE add_core = RSD remove_core = BYZ }
-661.1.1 = { add_core = UMA remove_core = RSD }
-750.1.1 = { add_core = ABA remove_core = UMA }
-786.1.1 = { owner = KKE controller = KKE add_core = KKE remove_core = ABA remove_core = IBE }
-820.1.1 = { religion = chalcedonism }
-867.1.1 = { religion = orthodox }
-1029.1.1 = { owner = GEO controller = GEO add_core = GEO }
-1070.1.1 = { owner = KKE controller = KKE add_core = KKE remove_core = GEO }
-1080.1.1 = { culture = azerbaijani religion = shiite }
-1110.1.1 = { owner = GEO controller = GEO add_core = GEO }
-1236.1.1 = { owner = KHA controller = KHA add_core = KHA }
-1260.1.1 = { owner = SRV controller = SRV add_core = SRV remove_core = ILK }
+1444.11.11 = {
+add_core = ERS
+owner = RSD controller = RSD add_core = RSD remove_core = CAA
+owner = IBE controller = IBE add_core = IBE add_core = RSD remove_core = BYZ
+add_core = UMA remove_core = RSD
+add_core = ABA remove_core = UMA
+owner = KKE controller = KKE add_core = KKE remove_core = ABA remove_core = IBE
+religion = chalcedonism
+religion = orthodox
+owner = GEO controller = GEO add_core = GEO
+owner = KKE controller = KKE add_core = KKE remove_core = GEO
+culture = azerbaijani religion = shiite
+owner = GEO controller = GEO add_core = GEO
+owner = KHA controller = KHA add_core = KHA
+owner = SRV controller = SRV add_core = SRV remove_core = ILK
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1499.1.1 = { revolt = { type = religious_rebels size = 0 name = "Qizilbash Tribesmen" leader = "Ismail Safavid" } controller = REB }
 1501.7.1 = {

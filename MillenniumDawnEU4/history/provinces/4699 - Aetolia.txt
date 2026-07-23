@@ -20,16 +20,28 @@ discovered_by = ottoman
 discovered_by = middle_eastern
 discovered_by = muslim
 
-360.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-800.1.1 = { capital = "Arta" }
-867.1.1 = { religion = orthodox }
-1204.1.1 = { owner = EPI controller = EPI add_core = EPI }
-1224.1.1 = { owner = THS controller = THS add_core = THS }
-1230.1.1 = { owner = EPI controller = EPI remove_core = THS }
-1338.1.1 = { owner = BYZ controller = BYZ add_core = BYZ }
-1348.1.1 = { owner = SER controller = SER add_core = SER }
-1356.1.1 = { owner = EPI controller = EPI remove_core = SER }
+1444.11.11 = {
+religion = chalcedonism
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+capital = "Arta"
+religion = orthodox
+owner = EPI controller = EPI add_core = EPI
+owner = THS controller = THS add_core = THS
+owner = EPI controller = EPI remove_core = THS
+owner = BYZ controller = BYZ add_core = BYZ
+owner = SER controller = SER add_core = SER
+owner = EPI controller = EPI remove_core = SER
+}
+
+ # Final division of the empire
+
+
+
+
+
+
+
+
 
 1449.3.24 = { capital = "Angelokastron" } # Arta falls to the Ottomans
 1460.1.1 = { capital = "Arta" owner = TUR controller = TUR add_core = TUR } # Angelokastron falls to the Ottomans, Epirus left with Vonitsa and Cephalonia

@@ -20,16 +20,28 @@ discovered_by = ottoman
 discovered_by = middle_eastern
 discovered_by = muslim
 
-360.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-800.1.1 = { capital = "Argostoli" }
-867.1.1 = { religion = orthodox }
-1204.1.1 = { owner = EPI controller = EPI add_core = EPI }
-1224.1.1 = { owner = THS controller = THS add_core = THS }
-1230.1.1 = { owner = EPI controller = EPI remove_core = THS }
-1338.1.1 = { owner = BYZ controller = BYZ add_core = BYZ }
-1348.1.1 = { owner = SER controller = SER add_core = SER remove_core = BYZ }
-1356.1.1 = { owner = EPI controller = EPI remove_core = SER }
+1444.11.11 = {
+religion = chalcedonism
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+capital = "Argostoli"
+religion = orthodox
+owner = EPI controller = EPI add_core = EPI
+owner = THS controller = THS add_core = THS
+owner = EPI controller = EPI remove_core = THS
+owner = BYZ controller = BYZ add_core = BYZ
+owner = SER controller = SER add_core = SER remove_core = BYZ
+owner = EPI controller = EPI remove_core = SER
+}
+
+ # Final division of the empire
+
+
+
+
+
+
+
+
 
 1479.1.24 = { owner = TUR controller = TUR add_core = TUR }
 1500.12.24 = { controller = VEN } # end of the Siege of the Castle of Saint George

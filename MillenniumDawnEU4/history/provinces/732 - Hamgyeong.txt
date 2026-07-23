@@ -18,17 +18,30 @@ base_manpower = 2
 is_city = yes
 add_core = OKJ
 
-56.1.1 = { owner = GOG controller = GOG add_core = GOG }
-372.1.1 = { religion = mahayana }
-555.1.1 = { owner = SLL controller = SLL add_core = SLL }
-586.1.1 = { owner = GOG controller = GOG remove_core = SLL }
-668.1.1 = { owner = SLL controller = SLL add_core = SLL remove_core = GOG }
-757.1.1 = { owner = BLH controller = BLH add_core = BLH remove_core = SLL }
-918.1.1 = { owner = GOR controller = GOR add_core = GOR remove_core = BLH }
-1235.1.1 = { owner = KHA controller = KHA add_core = KHA }
-1271.1.1 = { owner = YUA controller = YUA add_core = YUA remove_core = KHA }
-1356.1.1 = { owner = GOR controller = GOR add_core = GOR remove_core = YUA }
-1392.7.12 = { owner = KOR controller = KOR add_core = KOR remove_core = GOR religion = confucianism }
+1444.11.11 = {
+owner = GOG controller = GOG add_core = GOG
+religion = mahayana
+owner = SLL controller = SLL add_core = SLL
+owner = GOG controller = GOG remove_core = SLL
+owner = SLL controller = SLL add_core = SLL remove_core = GOG
+owner = BLH controller = BLH add_core = BLH remove_core = SLL
+owner = GOR controller = GOR add_core = GOR remove_core = BLH
+owner = KHA controller = KHA add_core = KHA
+owner = YUA controller = YUA add_core = YUA remove_core = KHA
+owner = GOR controller = GOR add_core = GOR remove_core = YUA
+owner = KOR controller = KOR add_core = KOR remove_core = GOR religion = confucianism
+}
+
+
+
+
+
+
+
+
+
+
+
 
 1542.1.1 = { discovered_by = POR }
 1592.7.18 = { controller = TYT } # Japanese invasion - Battle of Haejungchang

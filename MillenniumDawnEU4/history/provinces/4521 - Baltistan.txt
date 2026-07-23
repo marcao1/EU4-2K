@@ -24,13 +24,22 @@ base_manpower = 1
 is_city = yes
 add_core = BLT
 
-100.1.1 = { religion = mahayana }
-645.1.1 = { owner = TIB controller = TIB add_core = TIB }
-760.1.1 = { religion = vajrayana }
-842.1.1 = { owner = UTS controller = UTS add_core = UTS remove_core = TIB }
-910.1.1 = { owner = GUG controller = GUG add_core = GUG remove_core = UTS }
-930.1.1 = { owner = LDK controller = LDK add_core = LDK remove_core = GUG }
-1190.1.1 = { owner = BLT controller = BLT add_core = BLT remove_core = LDK }
+1444.11.11 = {
+religion = mahayana
+owner = TIB controller = TIB add_core = TIB
+religion = vajrayana
+owner = UTS controller = UTS add_core = UTS remove_core = TIB
+owner = GUG controller = GUG add_core = GUG remove_core = UTS
+owner = LDK controller = LDK add_core = LDK remove_core = GUG
+owner = BLT controller = BLT add_core = BLT remove_core = LDK
+}
+
+
+
+
+
+
+
 
 1580.1.1 = { religion = shiite }
 1690.1.1 = { discovered_by = ENG }

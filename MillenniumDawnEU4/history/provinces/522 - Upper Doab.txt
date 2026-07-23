@@ -25,25 +25,46 @@ is_city = yes
 add_core = NST
 center_of_trade = 2
 
-120.1.1 = { owner = KUS controller = KUS add_core = KUS remove_core = NST }
-320.1.1 = { owner = ARJ controller = ARJ add_core = ARJ remove_core = KUS }
-360.1.1 = { religion = hinduism }
-375.1.1 = { owner = GUP controller = GUP add_core = GUP remove_core = ARJ }
-540.1.1 = { owner = HRS controller = HRS add_core = HRS remove_core = GUP }
-647.1.1 = { owner = TOM controller = TOM remove_core = HRS }
-740.1.1 = { owner = KSH controller = KSH add_core = KSH }
-760.1.1 = { owner = TOM controller = TOM remove_core = KSH }
-800.1.1 = { base_tax = 4 base_production = 4 }
-900.1.1 = { base_tax = 5 base_production = 5 }
-1000.1.1 = { base_tax = 6 base_production = 6 }
-1100.1.1 = { base_manpower = 3 }
-1150.1.1 = { base_tax = 7 base_production = 7 }
-1170.1.1 = { owner = CCH controller = CCH add_core = CCH remove_core = TOM capital = "Qila Rai Pithora" }
-1175.1.1 = { base_manpower = 4 }
-1192.1.1 = { owner = GHU controller = GHU add_core = GHU remove_core = CCH capital = "Delhi" }
-1200.1.1 = { base_tax = 8 base_production = 8 }
-1206.1.1 = { owner = DLH controller = DLH add_core = DLH remove_core = GHU }
-1300.1.1 = { base_tax = 9 base_production = 9 }
+1444.11.11 = {
+owner = KUS controller = KUS add_core = KUS remove_core = NST
+owner = ARJ controller = ARJ add_core = ARJ remove_core = KUS
+religion = hinduism
+owner = GUP controller = GUP add_core = GUP remove_core = ARJ
+owner = HRS controller = HRS add_core = HRS remove_core = GUP
+owner = TOM controller = TOM remove_core = HRS
+owner = KSH controller = KSH add_core = KSH
+owner = TOM controller = TOM remove_core = KSH
+base_tax = 4 base_production = 4
+base_tax = 5 base_production = 5
+base_tax = 6 base_production = 6
+base_manpower = 3
+base_tax = 7 base_production = 7
+owner = CCH controller = CCH add_core = CCH remove_core = TOM capital = "Qila Rai Pithora"
+base_manpower = 4
+owner = GHU controller = GHU add_core = GHU remove_core = CCH capital = "Delhi"
+base_tax = 8 base_production = 8
+owner = DLH controller = DLH add_core = DLH remove_core = GHU
+base_tax = 9 base_production = 9
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1517.11.21 = { unrest = 8 } #Afghan factionalism
 1526.4.1 = { controller = TIM } #Conquered by Babur

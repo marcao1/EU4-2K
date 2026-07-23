@@ -14,25 +14,27 @@ native_size = 15
 native_ferocity = 1 
 native_hostileness = 1
 
-980.1.1 = {	owner = QTO
+1444.11.11 = {
+owner = QTO
 		controller = QTO
 		add_core = QTO
 		trade_goods = fish
 		is_city = yes
-	  }
+}
+
 
 1487.1.1  = {
 	owner = INC
 	controller = INC
 	add_core = INC
 }
-1533.1.1   = { discovered_by = SPA } # Sebastián de Benalcázar
+1533.1.1   = { discovered_by = SPA } # Sebastiï¿½n de Benalcï¿½zar
 1535.1.1   = {	owner = SPA
 		controller = SPA
 		citysize = 280
 		culture = castillian
 		religion = catholic
-	     } # Founded by Sebastián de Benalcázar
+	     } # Founded by Sebastiï¿½n de Benalcï¿½zar
 1550.1.1   = { add_core = SPA trade_goods = grain }
 1767.1.1   = { base_manpower = 2 }
 1770.1.1   = { culture = iberian_colombian }

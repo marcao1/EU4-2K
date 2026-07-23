@@ -20,36 +20,65 @@ base_manpower = 1
 capital = "Acci" 
 is_city = yes
 
-200.1.1 = { religion = hellenism }
-340.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-409.1.1 = { owner = VAN controller = VAN add_core = VAN }
-425.1.1 = { owner = ROW controller = ROW remove_core = VAN }
-448.1.1 = { owner = EAL controller = EAL add_core = EAL }
-456.1.1 = { owner = GVI controller = GVI add_core = GVI remove_core = EAL }
-458.10.1 = { owner = ROW controller = ROW } #Battle of Arelate
-461.8.2 = { owner = GVI controller = GVI remove_core = ROW } #Assassination of Majorian
-500.1.1 = { religion = arianism }
-552.1.1 = { owner = BYZ controller = BYZ add_core = BYZ }
-620.1.1 = { owner = GVI controller = GVI remove_core = BYZ }
-711.1.1 = { owner = UMA controller = UMA add_core = UMA remove_core = GVI }
-750.1.1 = { religion = sunni }
-750.8.6 = { owner = CRD controller = CRD add_core = CRD remove_core = UMA }
-800.1.1 = { culture = andalucian }
-900.1.1 = { base_tax = 2 base_production = 2 }
-955.1.1 = { capital = "Al-Mara'a" }
-1011.1.1 = { owner = ALR controller = ALR add_core = ALR remove_core = CRD }
-1038.1.1 = { owner = VAL controller = VAL add_core = VAL }
-1041.1.1 = { owner = ALR controller = ALR remove_core = VAL }
-1091.10.1 = { owner = MOR controller = MOR add_core = MOR }
-1100.1.1 = { base_manpower = 2 }
-1145.1.1 = { owner = MOR controller = MOR add_core = MOR remove_core = MOR remove_core = ALR }
-1147.10.1 = { controller = CAS }
-1149.4.1 = { controller = MOR }
-1238.1.1 = { owner = GRA controller = GRA add_core = GRA remove_core = MOR capital = "Almería" }
+1444.11.11 = {
+religion = hellenism
+religion = chalcedonism
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+owner = VAN controller = VAN add_core = VAN
+owner = ROW controller = ROW remove_core = VAN
+owner = EAL controller = EAL add_core = EAL
+owner = GVI controller = GVI add_core = GVI remove_core = EAL
+owner = ROW controller = ROW
+owner = GVI controller = GVI remove_core = ROW
+religion = arianism
+owner = BYZ controller = BYZ add_core = BYZ
+owner = GVI controller = GVI remove_core = BYZ
+owner = UMA controller = UMA add_core = UMA remove_core = GVI
+religion = sunni
+owner = CRD controller = CRD add_core = CRD remove_core = UMA
+culture = andalucian
+base_tax = 2 base_production = 2
+capital = "Al-Mara'a"
+owner = ALR controller = ALR add_core = ALR remove_core = CRD
+owner = VAL controller = VAL add_core = VAL
+owner = ALR controller = ALR remove_core = VAL
+owner = MOR controller = MOR add_core = MOR
+base_manpower = 2
+owner = MOR controller = MOR add_core = MOR remove_core = MOR remove_core = ALR
+controller = CAS
+controller = MOR
+owner = GRA controller = GRA add_core = GRA remove_core = MOR capital = "Almerï¿½a"
+}
 
-1487.1.1   = { revolt = { type = religious_rebels size = 2 } controller = REB } # After King Muhammad X pacts with the Catholic Kings, Muhammad El Zagal flees to Almería to proceed the war against the christians from there.
-1489.12.10 = { revolt = {} controller = CAS owner = CAS add_core = CAS } # After the capitulation of the town of Baza, Sultan Muhammad El Zagal gives the port of Almería to the Catholic Kings
+
+ # Final division of the empire
+
+
+
+
+ #Battle of Arelate
+ #Assassination of Majorian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1487.1.1   = { revolt = { type = religious_rebels size = 2 } controller = REB } # After King Muhammad X pacts with the Catholic Kings, Muhammad El Zagal flees to Almerï¿½a to proceed the war against the christians from there.
+1489.12.10 = { revolt = {} controller = CAS owner = CAS add_core = CAS } # After the capitulation of the town of Baza, Sultan Muhammad El Zagal gives the port of Almerï¿½a to the Catholic Kings
 1499.12.1  = { unrest = 2 } # The Inquisition forces Spanish muslims to convert back to Christianity. Occasional revolts occur.
 1502.2.1   = { unrest = 0 religion = catholic } # New capitulations where all the subjects of Granada are baptised and fully incorporated into the legal system of Castilla
 1516.1.23  = {	controller = SPA

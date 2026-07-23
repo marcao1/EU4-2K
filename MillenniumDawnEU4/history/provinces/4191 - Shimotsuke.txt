@@ -16,14 +16,24 @@ base_manpower = 2
 is_city = yes
 add_core = KEO
 
-607.1.1 = { religion = mahayana }
-650.1.1 = { owner = YAM controller = YAM add_core = YAM remove_core = KEO }
-712.1.1 = { religion = shinto }
-750.1.1 = { culture = japanese }
-794.1.1 = { owner = JAP controller = JAP add_core = JAP remove_core = YAM }
-999.9.2 = { owner = KMK controller = KMK add_core = KMK remove_core = JAP }
-1155.1.1 = { owner = ASK controller = ASK add_core = ASK remove_core = KMK } #Ashikaga clan founded
-1338.2.23 = { owner = UTN controller = UTN add_core = UTN remove_core = ASK } #Ashikaga Shogunate
+1444.11.11 = {
+religion = mahayana
+owner = YAM controller = YAM add_core = YAM remove_core = KEO
+religion = shinto
+culture = japanese
+owner = JAP controller = JAP add_core = JAP remove_core = YAM
+owner = KMK controller = KMK add_core = KMK remove_core = JAP
+owner = ASK controller = ASK add_core = ASK remove_core = KMK
+owner = UTN controller = UTN add_core = UTN remove_core = ASK
+}
+
+
+
+
+
+
+ #Ashikaga clan founded
+ #Ashikaga Shogunate
 
 1545.1.1 = { discovered_by = POR }
 1597.1.1   = { remove_core = UTN add_core = TKG owner = TKG controller = TKG } # The Utsunomiya clan was banished from Shimotsuke

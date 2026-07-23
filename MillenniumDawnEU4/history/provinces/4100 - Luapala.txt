@@ -13,8 +13,12 @@ native_ferocity = 4.5
 native_hostileness = 9 
 discovered_by = central_african
 
-300.1.1 = { culture = luba }
-1350.1.1 = { owner = KZB controller = KZB add_core = KZB is_city = yes trade_goods = copper }
+1444.11.11 = {
+culture = luba
+owner = KZB controller = KZB add_core = KZB is_city = yes trade_goods = copper
+}
+
+
 
 1890.1.1   = { discovered_by = BEL }
 1894.1.1   = { owner = BEL controller = BEL add_core = BEL religion = protestant capital = "Pweto" }

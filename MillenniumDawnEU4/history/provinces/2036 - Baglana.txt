@@ -24,18 +24,32 @@ base_manpower = 1
 is_city = yes
 add_core = WSA
 
-260.1.1 = { owner = ABH controller = ABH add_core = ABH remove_core = WSA }
-388.1.1 = { owner = KNK controller = KNK add_core = KNK remove_core = ABH }
-500.1.1 = { owner = KLC controller = KLC add_core = KLC remove_core = KNK }
-620.1.1 = { owner = CLY controller = CLY add_core = CLY remove_core = KLC }
-753.1.1 = { owner = RSH controller = RSH add_core = RSH remove_core = CLY }
-800.1.1 = { base_tax = 2 base_production = 2 }
-973.1.1 = { owner = CLY controller = CLY add_core = CLY remove_core = RSH }
-1000.1.1 = { base_manpower = 2 }
-1189.1.1 = { owner = BGA controller = BGA add_core = BGA remove_core = CLY }
-1250.1.1 = { religion = hinduism }
-1317.1.1 = { owner = DLH controller = DLH add_core = DLH }
-1391.1.1 = { owner = BGA controller = BGA add_core = BGA remove_core = DLH }
+1444.11.11 = {
+owner = ABH controller = ABH add_core = ABH remove_core = WSA
+owner = KNK controller = KNK add_core = KNK remove_core = ABH
+owner = KLC controller = KLC add_core = KLC remove_core = KNK
+owner = CLY controller = CLY add_core = CLY remove_core = KLC
+owner = RSH controller = RSH add_core = RSH remove_core = CLY
+base_tax = 2 base_production = 2
+owner = CLY controller = CLY add_core = CLY remove_core = RSH
+base_manpower = 2
+owner = BGA controller = BGA add_core = BGA remove_core = CLY
+religion = hinduism
+owner = DLH controller = DLH add_core = DLH
+owner = BGA controller = BGA add_core = BGA remove_core = DLH
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 1498.1.1 = { discovered_by = POR }
 1573.6.1 = {

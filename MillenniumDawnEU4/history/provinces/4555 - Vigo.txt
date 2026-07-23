@@ -20,28 +20,49 @@ base_manpower = 1
 capital = "Duos Pontes" 
 is_city = yes
 
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-409.6.1 = { owner = EAL controller = EAL add_core = EAL religion = germanic }
-450.1.1 = { remove_core = ROW }
-457.6.1 = { owner = GAL controller = GAL add_core = GAL }
-464.1.1 = { owner = EAL controller = EAL }
-466.1.1 = { religion = arianism }
-561.5.1 = { religion = chalcedonism }
-584.1.1 = { owner = GVI controller = GVI add_core = GVI remove_core = EAL capital = "Pontevedra" }
-650.1.1 = { base_tax = 2 base_production = 2 }
-711.1.1 = { owner = UMA controller = UMA add_core = UMA remove_core = GVI culture = galician }
-739.1.1 = { owner = ASU controller = ASU add_core = ASU remove_core = UMA }
-850.1.1 = { base_manpower = 2 }
-867.1.1 = { religion = catholic }
-910.12.10 = { owner = GAL controller = GAL remove_core = ASU }
-914.1.1 = { owner = LON controller = LON add_core = LON }
-1050.1.1 = { base_tax = 3 base_production = 3 }
-1065.6.1 = { owner = GAL controller = GAL }
-1072.1.1 = { owner = LON controller = LON }
-1230.9.23 = { owner = CAS controller = CAS add_core = CAS remove_core = LON }
+1444.11.11 = {
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+owner = EAL controller = EAL add_core = EAL religion = germanic
+remove_core = ROW
+owner = GAL controller = GAL add_core = GAL
+owner = EAL controller = EAL
+religion = arianism
+religion = chalcedonism
+owner = GVI controller = GVI add_core = GVI remove_core = EAL capital = "Pontevedra"
+base_tax = 2 base_production = 2
+owner = UMA controller = UMA add_core = UMA remove_core = GVI culture = galician
+owner = ASU controller = ASU add_core = ASU remove_core = UMA
+base_manpower = 2
+religion = catholic
+owner = GAL controller = GAL remove_core = ASU
+owner = LON controller = LON add_core = LON
+base_tax = 3 base_production = 3
+owner = GAL controller = GAL
+owner = LON controller = LON
+owner = CAS controller = CAS add_core = CAS remove_core = LON
+}
+ # Final division of the empire
 
-1467.1.1 = { unrest = 4 } # Second war of the "irmandiños"
-1470.1.1 = { unrest = 0 } # End of the Second war of the "irmandiños"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1467.1.1 = { unrest = 4 } # Second war of the "irmandiï¿½os"
+1470.1.1 = { unrest = 0 } # End of the Second war of the "irmandiï¿½os"
 1475.6.2 = { controller = POR }
 1476.3.2 = { controller = CAS }
 1479.1.1 = { remove_core = GAL }

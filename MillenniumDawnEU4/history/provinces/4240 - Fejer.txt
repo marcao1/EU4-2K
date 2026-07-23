@@ -20,22 +20,40 @@ base_manpower = 1
 is_city = yes
 add_core = ROM
 
-380.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-420.1.1 = { culture = austrian religion = germanic }
-447.1.1 = { owner = OST controller = OST add_core = OST remove_core = ROW capital = "Székesfehérvár" }
-500.1.1 = { base_manpower = 2 }
-530.1.1 = { owner = GEP controller = GEP add_core = GEP remove_core = OST }
-540.1.1 = { religion = arianism }
-567.1.1 = { owner = AVR controller = AVR add_core = AVR remove_core = GEP culture = avar }
-570.1.1 = { religion = tengri_pagan_reformed }
-700.1.1 = { base_tax = 2 base_production = 2 }
-846.1.1 = { owner = PNN controller = PNN add_core = PNN remove_core = AVR }
-850.1.1 = { religion = chalcedonism }
-867.1.1 = { religion = catholic }
-882.1.1 = { owner = MVA controller = MVA add_core = MVA }
-897.1.1 = { owner = HUN controller = HUN add_core = HUN remove_core = PNN remove_core = MVA culture = hungarian }
-900.1.1 = { base_tax = 3 base_production = 3 }
+1444.11.11 = {
+religion = chalcedonism
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+culture = austrian religion = germanic
+owner = OST controller = OST add_core = OST remove_core = ROW capital = "Szï¿½kesfehï¿½rvï¿½r"
+base_manpower = 2
+owner = GEP controller = GEP add_core = GEP remove_core = OST
+religion = arianism
+owner = AVR controller = AVR add_core = AVR remove_core = GEP culture = avar
+religion = tengri_pagan_reformed
+base_tax = 2 base_production = 2
+owner = PNN controller = PNN add_core = PNN remove_core = AVR
+religion = chalcedonism
+religion = catholic
+owner = MVA controller = MVA add_core = MVA
+owner = HUN controller = HUN add_core = HUN remove_core = PNN remove_core = MVA culture = hungarian
+base_tax = 3 base_production = 3
+}
+
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1506.1.1 = { revolt = { type = anti_tax_rebels size = 0 } controller = REB } # Szekely rebellion
 1507.1.1 = { revolt = {} controller = HUN }

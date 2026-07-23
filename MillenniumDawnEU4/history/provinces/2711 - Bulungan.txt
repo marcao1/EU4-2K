@@ -15,9 +15,14 @@ native_size = 20
 native_ferocity = 1
 native_hostileness = 5
 
-950.1.1 = { owner = TDN controller = TDN add_core = TDN is_city = yes trade_goods = tropical_wood }
-1300.1.1 = { discovered_by = indian discovered_by = muslim discovered_by = ottoman }
-1377.1.1 = { owner = BEU controller = BEU add_core = BEU }
+1444.11.11 = {
+owner = TDN controller = TDN add_core = TDN is_city = yes trade_goods = tropical_wood
+discovered_by = indian discovered_by = muslim discovered_by = ottoman
+owner = BEU controller = BEU add_core = BEU
+}
+
+
+
 
 1521.1.1 = { discovered_by = POR }
 1700.1.1 = { religion = sunni }

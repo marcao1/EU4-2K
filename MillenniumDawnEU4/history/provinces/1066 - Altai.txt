@@ -15,11 +15,18 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-1219.1.1 = { owner = KHA controller = KHA add_core = KHA }
-1250.1.1 = { culture = tuvan remove_core = YKY }
-1271.1.1 = { owner = YUA controller = YUA add_core = YUA remove_core = KHA }
-1368.1.23 = { owner = KHA controller = KHA add_core = KHA remove_core = YUA }
-1399.1.1 = { owner = OIR controller = OIR add_core = OIR remove_core = KHA }
+1444.11.11 = {
+owner = KHA controller = KHA add_core = KHA
+culture = tuvan remove_core = YKY
+owner = YUA controller = YUA add_core = YUA remove_core = KHA
+owner = KHA controller = KHA add_core = KHA remove_core = YUA
+owner = OIR controller = OIR add_core = OIR remove_core = KHA
+}
+
+
+
+
+
 
 1552.1.1 = {	owner = KHA
 		controller = KHA

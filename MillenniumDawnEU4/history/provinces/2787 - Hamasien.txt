@@ -20,12 +20,20 @@ discovered_by = east_african
 base_tax = 2
 base_production = 2
 
-60.1.1 = { owner = AKS controller = AKS add_core = AKS }
-400.1.1 = { religion = chalcedonism }
-451.11.1 = { religion = coptic }
-702.1.1 = { owner = BGN controller = BGN add_core = BGN remove_core = AKS } #decline of Aksum, various Beja kingdoms
-1137.1.1 = { owner = MED controller = MED add_core = MED }
-1300.1.1 = { culture = tigray }
+1444.11.11 = {
+owner = AKS controller = AKS add_core = AKS
+religion = chalcedonism
+religion = coptic
+owner = BGN controller = BGN add_core = BGN remove_core = AKS
+owner = MED controller = MED add_core = MED
+culture = tigray
+}
+
+
+
+ #decline of Aksum, various Beja kingdoms
+
+
 
 1499.1.1 = { discovered_by = POR }
 1550.1.1 = { citysize = 6000 discovered_by = TUR }

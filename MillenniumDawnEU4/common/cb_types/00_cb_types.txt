@@ -2061,67 +2061,6 @@ cb_spread_the_true_faith = {
 	war_goal = superiority_spread_the_true_faith
 }
 
-# Spread Communism
-cb_spread_communism = {
-	valid_for_subject = no
-	
-	prerequisites_self = {
-		is_subject = no
-		has_reform = communist_government
-		is_revolutionary = no
-	}
-	
-	prerequisites = {
-		FROM = {
-			NOT = { has_reform = communist_government }
-		}
-	}
-
-	war_goal = war_goal_spread_communism
-}
-
-# Spread Fascism
-cb_spread_fascism = {
-	valid_for_subject = no
-	
-	prerequisites_self = {
-		is_subject = no
-		has_reform = fascist_government
-		is_revolutionary = no
-	}
-	
-	prerequisites = {
-		FROM = {
-			NOT = { has_reform = fascist_government }
-		}
-	}
-
-	war_goal = war_goal_spread_fascism
-}
-
-# Export Democracy
-cb_spread_democracy = {
-	valid_for_subject = no
-	
-	prerequisites_self = {
-		is_subject = no
-		has_reform = democracy_reform
-		is_revolutionary = no
-	}
-	
-	prerequisites = {
-		FROM = {
-			OR = {
-				has_reform = dictatorial_rule
-				has_reform = authoritarian_rule
-				has_reform = single_party_system
-			}
-		}
-	}
-
-	war_goal = war_goal_change_government
-}
-
 # Imperial Rome cb
 cb_roman_imperial = {
 	valid_for_subject = no

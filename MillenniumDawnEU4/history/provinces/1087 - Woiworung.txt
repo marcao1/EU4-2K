@@ -14,13 +14,14 @@ native_hostileness = 9
 center_of_trade = 1
 discovered_by = aboriginal_tech
 
-1200.1.1 = {
-	add_core = WRU
+1444.11.11 = {
+add_core = WRU
 	owner = WRU
 	controller = WRU
 	is_city = yes
 	trade_goods = livestock
 }
+
 
 1802.2.1 = { discovered_by = GBR } #John Murray
 1835.8.30  = {

@@ -16,11 +16,18 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-800.1.1 = { discovered_by = indian }
-820.1.1 = { owner = HIR controller = HIR add_core = HIR }
-1100.1.1 = { base_manpower = 2 }
-1220.1.1 = { culture = shan religion = satsana_phi }
-1243.1.1 = { owner = KTG controller = KTG add_core = KTG remove_core = HIR }
+1444.11.11 = {
+discovered_by = indian
+owner = HIR controller = HIR add_core = HIR
+base_manpower = 2
+culture = shan religion = satsana_phi
+owner = KTG controller = KTG add_core = KTG remove_core = HIR
+}
+
+
+
+
+
 
 1580.1.1 = { religion = buddhism }
 1655.1.1 = { discovered_by = SPA }#Novus Atlas Sinensis

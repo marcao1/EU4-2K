@@ -14,9 +14,14 @@ base_tax = 3
 base_production = 3
 base_manpower = 1
 
-870.1.1 = { owner = TLT controller = TLT add_core = TLT }
-880.1.1 = { culture = aztek }
-1100.1.1 = { owner = TEO controller = TEO add_core = TEO remove_core = TLT }
+1444.11.11 = {
+owner = TLT controller = TLT add_core = TLT
+culture = aztek
+owner = TEO controller = TEO add_core = TEO remove_core = TLT
+}
+
+
+
 
 1521.8.13 = {
 	discovered_by = SPA

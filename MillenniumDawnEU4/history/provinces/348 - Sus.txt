@@ -18,23 +18,42 @@ base_production = 2
 base_manpower = 2
 is_city = yes
 
-700.1.1 = { discovered_by = western }
-789.1.1 = { owner = MOR controller = MOR add_core = MOR remove_core = SOS }
-850.1.1 = { religion = shiite }
-900.1.1 = { base_tax = 3 base_production = 3 }
-922.1.1 = { owner = FAT controller = FAT }
-925.1.1 = { owner = MOR controller = MOR }
-927.1.1 = { owner = FAT controller = FAT }
-937.1.1 = { owner = MOR controller = MOR }
-974.1.1 = { owner = SAN controller = SAN add_core = SAN remove_core = MOR }
-1000.1.1 = { base_tax = 4 base_production = 4 }
-1040.1.1 = { owner = MOR controller = MOR add_core = MOR remove_core = SAN }
-1050.1.1 = { religion = sunni }
-1100.1.1 = { base_tax = 5 base_production = 5 }
-1124.1.1 = { owner = SOS controller = SOS add_core = SOS }
-1147.4.1 = { owner = MOR controller = MOR add_core = MOR remove_core = SOS }
-1352.1.1 = { owner = ATL controller = ATL add_core = ATL } #Hintata tribes gain power, exact year unknown
-1370.1.1 = { owner = SOS controller = SOS add_core = SOS remove_core = ATL }
+1444.11.11 = {
+discovered_by = western
+owner = MOR controller = MOR add_core = MOR remove_core = SOS
+religion = shiite
+base_tax = 3 base_production = 3
+owner = FAT controller = FAT
+owner = MOR controller = MOR
+owner = FAT controller = FAT
+owner = MOR controller = MOR
+owner = SAN controller = SAN add_core = SAN remove_core = MOR
+base_tax = 4 base_production = 4
+owner = MOR controller = MOR add_core = MOR remove_core = SAN
+religion = sunni
+base_tax = 5 base_production = 5
+owner = SOS controller = SOS add_core = SOS
+owner = MOR controller = MOR add_core = MOR remove_core = SOS
+owner = ATL controller = ATL add_core = ATL
+owner = SOS controller = SOS add_core = SOS remove_core = ATL
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ #Hintata tribes gain power, exact year unknown
+
 
 1465.1.1 = { unrest = 5 } #Marinid Sultan killed by mob. Mohammed ibn Ali Amrani-Joutey (Idrisid) proclaims himself Sultan. Unrest in the entire country. 
 1472.1.1 = { owner = SOS controller = SOS unrest = 0 } #Wattasids take control over Fez, nominal ruler over much of Morocco.

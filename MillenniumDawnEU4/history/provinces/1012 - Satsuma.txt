@@ -16,12 +16,20 @@ base_manpower = 3
 is_city = yes
 add_core = HAY
 
-721.1.1 = { owner = YAM controller = YAM add_core = YAM remove_core = HAY }
-750.1.1 = { culture = japanese }
-794.1.1 = { owner = JAP controller = JAP add_core = JAP remove_core = YAM }
-1160.2.5 = { owner = TIA controller = TIA add_core = TIA remove_core = JAP } #Heiji Rebellion
-1185.6.19 = { owner = JAP controller = JAP remove_core = TIA } #Genpei War, Taira defeated
-1192.7.12 = { owner = SMZ controller = SMZ add_core = SMZ remove_core = JAP } #Kamakura Shogunate
+1444.11.11 = {
+owner = YAM controller = YAM add_core = YAM remove_core = HAY
+culture = japanese
+owner = JAP controller = JAP add_core = JAP remove_core = YAM
+owner = TIA controller = TIA add_core = TIA remove_core = JAP
+owner = JAP controller = JAP remove_core = TIA
+owner = SMZ controller = SMZ add_core = SMZ remove_core = JAP
+}
+
+
+
+ #Heiji Rebellion
+ #Genpei War, Taira defeated
+ #Kamakura Shogunate
 
 1542.1.1 = { discovered_by = POR }
 1550.1.1 = { fort_15th = yes } # Uchi Castle, the capital of the Shimazu clan

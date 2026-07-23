@@ -22,38 +22,68 @@ discovered_by = roman_group
 discovered_by = eastern
 center_of_trade = 2
 
-260.1.1 = { add_core = GLL revolt = { type = nationalist_rebels size = 1 } controller = REB culture = gallian }
-274.1.1 = { controller = ROM remove_core = GLL revolt = {} culture = frankish }
-320.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-459.1.1 = { owner = FRK controller = FRK add_core = FRK capital = "Köln" }
-480.6.1 = { remove_core = ROW }
-511.11.27 = { owner = AUT controller = AUT add_core = AUT }
-555.1.1 = { owner = SOI controller = SOI add_core = SOI }
-558.12.23 = { owner = FRK controller = FRK add_core = FRK remove_core = SOI }
-561.11.29 = { owner = AUT controller = AUT }
-613.10.10 = { owner = FRK controller = FRK add_core = FRK }
-623.1.1 = { owner = AUT controller = AUT }
-629.10.18 = { owner = FRK controller = FRK }
-634.1.1 = { owner = AUT controller = AUT }
-679.12.23 = { owner = FRK controller = FRK }
-700.1.1 = { culture = hessian }
-800.1.1 = { base_manpower = 3 }
-840.6.21 = { owner = FRD controller = FRD add_core = FRD remove_core = FRK }
-855.9.30 = { owner = LOT controller = LOT add_core = LOT remove_core = FRD }
-867.1.1 = { religion = catholic }
-870.8.8 = { owner = FRE controller = FRE add_core = FRE remove_core = LOT }
-911.11.10 = { owner = LOT controller = LOT add_core = LOT remove_core = FRE }
-953.1.1 = { owner = KOL controller = KOL add_core = KOL remove_core = LOT }
-962.2.2 = { hre = yes }
-1000.1.1 = { base_tax = 4 base_production = 4 }
-1050.1.1 = { trade_goods = paper }
-1100.1.1 = { base_tax = 5 base_production = 5 }
-1200.1.1 = { base_tax = 6 base_production = 6 }
+1444.11.11 = {
+add_core = GLL revolt = { type = nationalist_rebels size = 1 } controller = REB culture = gallian
+controller = ROM remove_core = GLL revolt = {} culture = frankish
+religion = chalcedonism
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+owner = FRK controller = FRK add_core = FRK capital = "Kï¿½ln"
+remove_core = ROW
+owner = AUT controller = AUT add_core = AUT
+owner = SOI controller = SOI add_core = SOI
+owner = FRK controller = FRK add_core = FRK remove_core = SOI
+owner = AUT controller = AUT
+owner = FRK controller = FRK add_core = FRK
+owner = AUT controller = AUT
+owner = FRK controller = FRK
+owner = AUT controller = AUT
+owner = FRK controller = FRK
+culture = hessian
+base_manpower = 3
+owner = FRD controller = FRD add_core = FRD remove_core = FRK
+owner = LOT controller = LOT add_core = LOT remove_core = FRD
+religion = catholic
+owner = FRE controller = FRE add_core = FRE remove_core = LOT
+owner = LOT controller = LOT add_core = LOT remove_core = FRE
+owner = KOL controller = KOL add_core = KOL remove_core = LOT
+hre = yes
+base_tax = 4 base_production = 4
+trade_goods = paper
+base_tax = 5 base_production = 5
+base_tax = 6 base_production = 6
+}
+
+
+
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1583.12.17 = { fort_15th = no }
 1638.1.1 = { base_tax = 10 
-base_production = 10 } # Köln manages to stay neutral in the 30 years war and prospers through weapon sales. 
+base_production = 10 } # Kï¿½ln manages to stay neutral in the 30 years war and prospers through weapon sales. 
 1716.1.1 = { base_tax = 12 
 base_production = 12 } # Farnia begins exporting "Eau de Cologne" 
 1766.1.1 = { base_production = 13 base_manpower = 6 }
@@ -62,7 +92,7 @@ base_production = 12 } # Farnia begins exporting "Eau de Cologne"
 1801.2.9 = {
 	owner = FRA
 	add_core = FRA
-}# Treaty of Lunéville
+}# Treaty of Lunï¿½ville
 1806.7.12 = { hre = no } # The Holy Roman Empire is dissolved
 1815.6.9 = {
 	owner = PRU

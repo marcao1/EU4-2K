@@ -21,19 +21,34 @@ discovered_by = roman_group
 discovered_by = eastern
 center_of_trade = 1
 
-360.1.1 = { owner = ALM controller = ALM add_core = ALM remove_core = ROM capital = "Konstanz" }
-600.1.1 = { religion = chalcedonism }
-700.1.1 = { base_tax = 2 base_production = 2 }
-746.1.1 = { owner = FRK controller = FRK add_core = FRK }
-840.6.21 = { owner = FRE controller = FRE add_core = FRE remove_core = FRK }
-867.1.1 = { religion = catholic }
-900.1.1 = { base_tax = 3 base_production = 3 }
-911.11.10 = { owner = SWA controller = SWA add_core = SWA remove_core = FRE remove_core = ALM }
-962.2.2 = { hre = yes }
-1100.1.1 = { base_tax = 4 base_production = 4 }
-1155.1.1 = { owner = KNZ controller = KNZ add_core = KNZ remove_core = SWA }
-1200.1.1 = { base_tax = 5 base_production = 5 }
-1300.1.1 = { base_tax = 6 base_production = 6 }
+1444.11.11 = {
+owner = ALM controller = ALM add_core = ALM remove_core = ROM capital = "Konstanz"
+religion = chalcedonism
+base_tax = 2 base_production = 2
+owner = FRK controller = FRK add_core = FRK
+owner = FRE controller = FRE add_core = FRE remove_core = FRK
+religion = catholic
+base_tax = 3 base_production = 3
+owner = SWA controller = SWA add_core = SWA remove_core = FRE remove_core = ALM
+hre = yes
+base_tax = 4 base_production = 4
+owner = KNZ controller = KNZ add_core = KNZ remove_core = SWA
+base_tax = 5 base_production = 5
+base_tax = 6 base_production = 6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1525.1.1 = { religion = reformed }
 1548.09.13 = {

@@ -14,9 +14,9 @@ native_hostileness = 9
 discovered_by = central_african
 discovered_by = east_african
 
-300.1.1 = { culture = swahili }
-850.1.1 = { 
-	discovered_by = indian
+1444.11.11 = {
+culture = swahili
+discovered_by = indian
 	discovered_by = asian
 	discovered_by = muslim
 	discovered_by = ottoman
@@ -27,6 +27,8 @@ discovered_by = east_african
 	is_city = yes 
 	trade_goods = fish
 }
+
+
 
 1498.3.2 = { discovered_by = POR } # Vasco Da Gama
 1501.1.1 = { unrest = 3 } # Portuguese visit, brief skirmish with sultans

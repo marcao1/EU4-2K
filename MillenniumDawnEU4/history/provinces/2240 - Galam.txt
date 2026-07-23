@@ -13,15 +13,19 @@ native_size = 40
 native_ferocity = 4
 native_hostileness = 9
 
-800.1.1 = { owner = TKR controller = TKR add_core = TKR trade_goods = gold is_city = yes }
-1240.1.1 = { owner = MAL controller = MAL add_core = MAL remove_core = TKR }
+1444.11.11 = {
+owner = TKR controller = TKR add_core = TKR trade_goods = gold is_city = yes
+owner = MAL controller = MAL add_core = MAL remove_core = TKR
+}
+
+
 
 1490.1.1  = { owner = FUL controller = FUL add_core = FUL remove_core = MAL } #Rise of Great Fulo
 1780.1.1  = { religion = sunni }
 
 1861.1.1   = { owner = SOF controller = SOF add_core = SOF } # Futa Toro annexed by the Toucouleur Empire
 1880.1.1   = { discovered_by = western }
-1890.1.1   = { owner = FR2 controller = FR2 add_core = FR2 capital = "Kédougou" }
+1890.1.1   = { owner = FR2 controller = FR2 add_core = FR2 capital = "Kï¿½dougou" }
 1940.1.1   = {  discovered_by = eastern
 		discovered_by = muslim
 		discovered_by = ottoman

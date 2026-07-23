@@ -13,11 +13,18 @@ native_size = 40
 native_ferocity = 4
 native_hostileness = 9
 
-350.1.1 = { owner = GHA controller = GHA add_core = GHA is_city = yes trade_goods = wool }
-1077.1.1 = { owner = TKR controller = TKR add_core = TKR }
-1140.1.1 = { owner = GHA controller = GHA add_core = GHA remove_core = TKR }
-1230.1.1 = { owner = MAL controller = MAL add_core = MAL remove_core = GHA }
-1389.1.1 = { owner = ZAF controller = ZAF add_core = ZAF remove_core = MAL }
+1444.11.11 = {
+owner = GHA controller = GHA add_core = GHA is_city = yes trade_goods = wool
+owner = TKR controller = TKR add_core = TKR
+owner = GHA controller = GHA add_core = GHA remove_core = TKR
+owner = MAL controller = MAL add_core = MAL remove_core = GHA
+owner = ZAF controller = ZAF add_core = ZAF remove_core = MAL
+}
+
+
+
+
+
 
 1503.1.1 = { owner = SON controller = SON add_core = SON } #Askiya Muhammad of Songhai seizes control 
 1591.3.15 = { owner = FUL controller = FUL add_core = FUL } #Songhai collapse after Tondibi

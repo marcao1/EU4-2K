@@ -18,12 +18,20 @@ base_tax = 2
 base_production = 2
 base_manpower = 2
 
-700.1.1 = { discovered_by = muslim discovered_by = ottoman }
-770.1.1 = { owner = SRI controller = SRI add_core = SRI }
-1180.1.1 = { religion = sunni }
-1183.1.1 = { owner = PAH controller = PAH add_core = PAH remove_core = SRI }
-1200.1.1 = { base_tax = 3 base_production = 3 }
-1400.1.1 = { owner = MLC controller = MLC add_core = MLC remove_core = PAH }
+1444.11.11 = {
+discovered_by = muslim discovered_by = ottoman
+owner = SRI controller = SRI add_core = SRI
+religion = sunni
+owner = PAH controller = PAH add_core = PAH remove_core = SRI
+base_tax = 3 base_production = 3
+owner = MLC controller = MLC add_core = MLC remove_core = PAH
+}
+
+
+
+
+
+
 
 1516.1.1 = { discovered_by = POR } # Godinho de Eredia
 1528.1.1 = {

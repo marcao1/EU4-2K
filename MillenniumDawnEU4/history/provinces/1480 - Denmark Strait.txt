@@ -1,6 +1,9 @@
 #1480 - Denmark Strait
 
-870.1.1 = { discovered_by = NOR }
+1444.11.11 = {
+discovered_by = NOR
+}
+
 
 
 

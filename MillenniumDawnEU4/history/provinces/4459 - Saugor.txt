@@ -24,20 +24,34 @@ base_manpower = 2
 is_city = yes
 add_core = GDW
 
-360.1.1 = { owner = BND controller = BND add_core = BND remove_core = GDW }
-510.1.1 = { owner = MLW controller = MLW add_core = MLW remove_core = BND }
-610.1.1 = { owner = GUJ controller = GUJ add_core = GUJ }
-620.1.1 = { religion = hinduism }
-745.1.1 = { owner = GRP controller = GRP add_core = GRP remove_core = GUJ }
-780.1.1 = { owner = RSH controller = RSH add_core = RSH remove_core = GRP }
-815.1.1 = { owner = MLW controller = MLW add_core = MLW remove_core = RSH }
-1151.1.1 = { owner = GUJ controller = GUJ }
-1160.1.1 = { owner = MLW controller = MLW }
-1305.1.1 = { owner = DLH controller = DLH add_core = DLH }
-1340.1.1 = { owner = GDW controller = GDW add_core = GDW remove_core = DLH }
+1444.11.11 = {
+owner = BND controller = BND add_core = BND remove_core = GDW
+owner = MLW controller = MLW add_core = MLW remove_core = BND
+owner = GUJ controller = GUJ add_core = GUJ
+religion = hinduism
+owner = GRP controller = GRP add_core = GRP remove_core = GUJ
+owner = RSH controller = RSH add_core = RSH remove_core = GRP
+owner = MLW controller = MLW add_core = MLW remove_core = RSH
+owner = GUJ controller = GUJ
+owner = MLW controller = MLW
+owner = DLH controller = DLH add_core = DLH
+owner = GDW controller = GDW add_core = GDW remove_core = DLH
+controller = MLW
+controller = GDW
+}
 
-1439.1.1 = { controller = MLW }
-1441.1.1 = { controller = GDW }
+
+
+
+
+
+
+
+
+
+
+
+
 1467.1.1 = {
 	owner = BAH
 	controller = BAH

@@ -18,8 +18,12 @@ base_manpower = 1
 is_city = yes
 add_core = MLB
 
-800.1.1 = { discovered_by = nomad_group }
-1000.1.1 = { base_tax = 2 }
+1444.11.11 = {
+discovered_by = nomad_group
+base_tax = 2
+}
+
+
 
 1597.1.1 = { fort_15th = yes } #Kangla
 1732.1.1 = {

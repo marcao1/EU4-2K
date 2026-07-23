@@ -16,15 +16,26 @@ base_manpower = 2
 is_city = yes
 add_core = OWA
 
-320.1.1 = { owner = YAM controller = YAM add_core = YAM remove_core = OWA }
-500.1.1 = { culture = japanese }
-607.1.1 = { religion = mahayana }
-712.1.1 = { religion = shinto }
-794.1.1 = { owner = JAP controller = JAP add_core = JAP remove_core = YAM }
-1160.2.5 = { owner = KMK controller = KMK add_core = KMK remove_core = JAP } #Heiji Rebellion
-1192.7.12 = { owner = OGS controller = OGS add_core = OGS remove_core = KMK } #Kamakura Shogunate (Actually Hiki clan, but no tag for it)
-1203.9.2 = { owner = HJO controller = HJO add_core = HJO } #Hiki clan ended by Hojo
-1333.5.18 = { owner = OGS controller = OGS add_core = OGS remove_core = HJO } #Kenmu restoration
+1444.11.11 = {
+owner = YAM controller = YAM add_core = YAM remove_core = OWA
+culture = japanese
+religion = mahayana
+religion = shinto
+owner = JAP controller = JAP add_core = JAP remove_core = YAM
+owner = KMK controller = KMK add_core = KMK remove_core = JAP
+owner = OGS controller = OGS add_core = OGS remove_core = KMK
+owner = HJO controller = HJO add_core = HJO
+owner = OGS controller = OGS add_core = OGS remove_core = HJO
+}
+
+
+
+
+
+ #Heiji Rebellion
+ #Kamakura Shogunate (Actually Hiki clan, but no tag for it)
+ #Hiki clan ended by Hojo
+ #Kenmu restoration
 
 1542.1.1   = { discovered_by = POR }
 1542.6.1 = { add_core = TKD } # Takeda Shingen expands into Shinano

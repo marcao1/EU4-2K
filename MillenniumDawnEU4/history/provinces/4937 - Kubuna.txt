@@ -13,13 +13,14 @@ native_ferocity = 1
 native_hostileness = 2
 discovered_by = polynesian_tech
 
-900.1.1 = { 	
-	owner = LAI
+1444.11.11 = {
+owner = LAI
 	controller = LAI
 	add_core = LAI
 	is_city = yes
 	trade_goods = livestock
 }
+
 
 1643.1.1 = { discovered_by = NED } # Abel Tasman
 

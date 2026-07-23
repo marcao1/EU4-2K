@@ -24,21 +24,38 @@ is_city = yes
 add_core = BSP
 add_core = ROM
 
-63.1.1 = { owner = ROM controller = ROM }
-68.1.1 = { owner = BSP controller = BSP }
-250.1.1 = { owner = ROM controller = ROM add_core = ROM remove_core = BSP }
-370.1.1 = { owner = GCR controller = GCR add_core = GCR remove_core = ROM religion = germanic }
-400.1.1 = { culture = gothic }
-550.1.1 = { owner = BYZ controller = BYZ add_core = BYZ }
-600.1.1 = { religion = chalcedonism }
-750.1.1 = { owner = KHZ controller = KHZ add_core = KHZ remove_core = GCR }
-800.1.1 = { base_manpower = 2 }
-833.1.1 = { owner = BYZ controller = BYZ add_core = BYZ remove_core = KHZ }
-867.1.1 = { religion = orthodox }
-1000.1.1 = { base_tax = 3 base_production = 3 }
-1200.1.1 = { base_manpower = 3 }
-1204.4.13 = { owner = TRE controller = TRE add_core = TRE }
-1340.1.1 = { owner = FEO controller = FEO add_core = FEO remove_core = TRE capital = "Mangul" }
+1444.11.11 = {
+owner = ROM controller = ROM
+owner = BSP controller = BSP
+owner = ROM controller = ROM add_core = ROM remove_core = BSP
+owner = GCR controller = GCR add_core = GCR remove_core = ROM religion = germanic
+culture = gothic
+owner = BYZ controller = BYZ add_core = BYZ
+religion = chalcedonism
+owner = KHZ controller = KHZ add_core = KHZ remove_core = GCR
+base_manpower = 2
+owner = BYZ controller = BYZ add_core = BYZ remove_core = KHZ
+religion = orthodox
+base_tax = 3 base_production = 3
+base_manpower = 3
+owner = TRE controller = TRE add_core = TRE
+owner = FEO controller = FEO add_core = FEO remove_core = TRE capital = "Mangul"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1475.5.1 = { owner = TUR controller = TUR add_core = TUR } # Seized by Gedik Ahmet Pasha
 1500.1.1 = { culture = crimean }

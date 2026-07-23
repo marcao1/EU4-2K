@@ -20,28 +20,52 @@ add_core = HND
 add_core = SHU
 center_of_trade = 1
 
-9.1.10 = { owner = XIN controller = XIN add_core = XIN }
-23.10.5 = { owner = SHU controller = SHU add_core = SHU remove_core = XIN }
-36.12.25 = { owner = HND controller = HND add_core = HND }
-189.9.28 = { owner = SHU controller = SHU add_core = SHU remove_core = HND }
-263.11.1 = { owner = WEI controller = WEI add_core = WEI remove_core = SHU }
-266.2.4 = { owner = JIN controller = JIN add_core = JIN remove_core = WEI }
-420.1.1 = { owner = LSO controller = LSO add_core = LSO remove_core = JIN }
-479.1.1 = { owner = QIC controller = QIC add_core = QIC remove_core = LSO }
-502.1.1 = { owner = LNG controller = LNG add_core = LNG remove_core = QIC }
-557.1.1 = { owner = CZH controller = CZH add_core = CZH remove_core = LNG }
-581.3.4 = { owner = SUI controller = SUI add_core = SUI remove_core = CZH }
-618.4.11 = { owner = TNG controller = TNG add_core = TNG remove_core = SUI }
-700.1.1 = { base_tax = 7 base_production = 7 }
-900.1.1 = { base_tax = 8 base_production = 8 }
-907.6.1 = { owner = SHU controller = SHU add_core = SHU remove_core = TNG }
-925.12.15 = { owner = TNG controller = TNG add_core = TNG remove_core = SHU }
-934.3.16 = { owner = SHU controller = SHU add_core = SHU remove_core = TNG }
-965.2.23 = { owner = SNG controller = SNG add_core = SNG remove_core = SHU }
-1279.3.19 = { owner = YUA controller = YUA add_core = YUA add_core = CXI remove_core = SNG }
-1361.1.1 = { owner = XIA controller = XIA add_core = XIA } 
-1368.1.23 = { remove_core = YUA }
-1371.1.1 = { owner = MNG controller = MNG add_core = MNG }
+1444.11.11 = {
+owner = XIN controller = XIN add_core = XIN
+owner = SHU controller = SHU add_core = SHU remove_core = XIN
+owner = HND controller = HND add_core = HND
+owner = SHU controller = SHU add_core = SHU remove_core = HND
+owner = WEI controller = WEI add_core = WEI remove_core = SHU
+owner = JIN controller = JIN add_core = JIN remove_core = WEI
+owner = LSO controller = LSO add_core = LSO remove_core = JIN
+owner = QIC controller = QIC add_core = QIC remove_core = LSO
+owner = LNG controller = LNG add_core = LNG remove_core = QIC
+owner = CZH controller = CZH add_core = CZH remove_core = LNG
+owner = SUI controller = SUI add_core = SUI remove_core = CZH
+owner = TNG controller = TNG add_core = TNG remove_core = SUI
+base_tax = 7 base_production = 7
+base_tax = 8 base_production = 8
+owner = SHU controller = SHU add_core = SHU remove_core = TNG
+owner = TNG controller = TNG add_core = TNG remove_core = SHU
+owner = SHU controller = SHU add_core = SHU remove_core = TNG
+owner = SNG controller = SNG add_core = SNG remove_core = SHU
+owner = YUA controller = YUA add_core = YUA add_core = CXI remove_core = SNG
+owner = XIA controller = XIA add_core = XIA
+remove_core = YUA
+owner = MNG controller = MNG add_core = MNG
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
 
 1644.10.1 = {	owner = CXI
 				controller = CXI

@@ -19,25 +19,46 @@ is_city = yes
 add_core = HND
 add_core = WUU
 
-9.1.10 = { owner = XIN controller = XIN add_core = XIN }
-23.10.5 = { owner = HND controller = HND remove_core = XIN }
-189.9.28 = { owner = JNG controller = JNG add_core = JNG remove_core = HND }
-208.11.1 = { owner = WUU controller = WUU add_core = WUU }
-280.3.15 = { owner = JIN controller = JIN add_core = JIN remove_core = WUU }
-420.1.1 = { owner = LSO controller = LSO add_core = LSO remove_core = JIN }
-479.1.1 = { owner = QIC controller = QIC add_core = QIC remove_core = LSO }
-502.1.1 = { owner = LNG controller = LNG add_core = LNG remove_core = QIC }
-557.1.1 = { owner = CEN controller = CEN add_core = CEN remove_core = LNG }
-589.3.4 = { owner = SUI controller = SUI add_core = SUI remove_core = CEN }
-617.1.1 = { owner = LNG controller = LNG add_core = LNG remove_core = SUI }
-621.12.1 = { owner = TNG controller = TNG add_core = TNG remove_core = LNG }
-907.6.1 = { owner = CHC controller = CHC add_core = CHC remove_core = TNG }
-951.11.16 = { owner = TNG controller = TNG add_core = TNG remove_core = CHC }
-971.1.1 = { owner = SNG controller = SNG add_core = SNG remove_core = TNG }
-1279.3.19 = { owner = YUA controller = YUA add_core = YUA add_core = CXI remove_core = SNG }
-1361.1.1 = { owner = HND controller = HND add_core = HND } 
-1365.4.1 = { owner = MNG controller = MNG add_core = MNG }
-1368.1.23 = { remove_core = YUA }
+1444.11.11 = {
+owner = XIN controller = XIN add_core = XIN
+owner = HND controller = HND remove_core = XIN
+owner = JNG controller = JNG add_core = JNG remove_core = HND
+owner = WUU controller = WUU add_core = WUU
+owner = JIN controller = JIN add_core = JIN remove_core = WUU
+owner = LSO controller = LSO add_core = LSO remove_core = JIN
+owner = QIC controller = QIC add_core = QIC remove_core = LSO
+owner = LNG controller = LNG add_core = LNG remove_core = QIC
+owner = CEN controller = CEN add_core = CEN remove_core = LNG
+owner = SUI controller = SUI add_core = SUI remove_core = CEN
+owner = LNG controller = LNG add_core = LNG remove_core = SUI
+owner = TNG controller = TNG add_core = TNG remove_core = LNG
+owner = CHC controller = CHC add_core = CHC remove_core = TNG
+owner = TNG controller = TNG add_core = TNG remove_core = CHC
+owner = SNG controller = SNG add_core = SNG remove_core = TNG
+owner = YUA controller = YUA add_core = YUA add_core = CXI remove_core = SNG
+owner = HND controller = HND add_core = HND
+owner = MNG controller = MNG add_core = MNG
+remove_core = YUA
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
 
 1595.1.1 = { discovered_by = SPA }
 1643.1.1 = { controller = CXI } # The Xi dynasty of Zhang Xianzhong

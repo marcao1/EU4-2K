@@ -20,14 +20,15 @@ native_ferocity = 4
 native_hostileness = 5
 center_of_trade = 2
 
-1200.1.1 = {
-	owner = CEB
+1444.11.11 = {
+owner = CEB
 	controller = CEB
 	add_core = CEB
 	is_city = yes
 	religion = hinduism
 	trade_goods = gems #Pearls
 }
+
 
 1521.1.1 = { discovered_by = SPA } # Ferdinand Magellan
 1565.6.4 = {

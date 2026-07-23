@@ -19,25 +19,46 @@ discovered_by = western
 discovered_by = roman_group
 discovered_by = eastern
 
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-400.1.1 = { base_tax = 2 base_production = 2 }
-450.1.1 = { owner = BAV controller = BAV add_core = BAV capital = "München" } # Unspecified German peoples
-480.6.1 = { remove_core = ROW }
-580.1.1 = { fort_15th = yes }
-600.1.1 = { base_tax = 3 base_production = 3 }
-720.1.1 = { religion = chalcedonism }
-750.1.1 = { base_manpower = 2 }
-788.1.1 = { owner = FRK controller = FRK add_core = FRK }
-817.1.1 = { owner = BAV controller = BAV add_core = BAV remove_core = FRK }
-867.1.1 = { religion = catholic }
-880.3.22 = { owner = FRE controller = FRE add_core = FRE }
-900.1.1 = { base_tax = 4 base_production = 4 }
-911.11.10 = { owner = BAV controller = BAV add_core = BAV remove_core = FRE remove_core = ALM }
-962.2.2 = { hre = yes }
-1000.1.1 = { base_manpower = 3 }
-1200.1.1 = { base_tax = 5 base_production = 5 }
-1300.1.1 = { base_tax = 6 base_manpower = 4 }
-1392.1.1 = { owner = UBV controller = UBV add_core = UBV remove_core = BAV }
+1444.11.11 = {
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+base_tax = 2 base_production = 2
+owner = BAV controller = BAV add_core = BAV capital = "Mï¿½nchen"
+remove_core = ROW
+fort_15th = yes
+base_tax = 3 base_production = 3
+religion = chalcedonism
+base_manpower = 2
+owner = FRK controller = FRK add_core = FRK
+owner = BAV controller = BAV add_core = BAV remove_core = FRK
+religion = catholic
+owner = FRE controller = FRE add_core = FRE
+base_tax = 4 base_production = 4
+owner = BAV controller = BAV add_core = BAV remove_core = FRE remove_core = ALM
+hre = yes
+base_manpower = 3
+base_tax = 5 base_production = 5
+base_tax = 6 base_manpower = 4
+owner = UBV controller = UBV add_core = UBV remove_core = BAV
+}
+ # Final division of the empire
+
+ # Unspecified German peoples
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1503.12.1 = {
 	owner = BAV

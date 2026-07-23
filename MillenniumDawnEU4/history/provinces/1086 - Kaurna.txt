@@ -14,13 +14,14 @@ native_hostileness = 9
 center_of_trade = 1
 discovered_by = aboriginal_tech
 
-1200.1.1 = {
-	add_core = KAU
+1444.11.11 = {
+add_core = KAU
 	owner = KAU
 	controller = KAU
 	is_city = yes
 	trade_goods = fish
 }
+
 
 1836.12.28 = {	
 	discovered_by = GBR

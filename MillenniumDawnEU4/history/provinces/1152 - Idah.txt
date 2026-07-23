@@ -13,7 +13,10 @@ native_size = 50
 native_ferocity = 4
 native_hostileness = 9 
 
-1300.1.1 = { owner = IDH controller = IDH add_core = IDH is_city = yes trade_goods = ivory }
+1444.11.11 = {
+owner = IDH controller = IDH add_core = IDH is_city = yes trade_goods = ivory
+}
+
 
 1700.1.1 = { trade_goods = slaves } #Source of Slaves for Trade In Calabar-Bonny region
 1750.1.1 = { base_tax = 2 base_manpower = 2 }

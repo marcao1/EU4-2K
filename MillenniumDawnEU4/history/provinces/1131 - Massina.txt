@@ -14,11 +14,18 @@ native_ferocity = 4
 native_hostileness = 9
 center_of_trade = 1
 
-350.1.1 = { owner = GHA controller = GHA add_core = GHA is_city = yes trade_goods = grain }
-1077.1.1 = { owner = ZAF controller = ZAF add_core = ZAF }
-1121.1.1 = { owner = GHA controller = GHA remove_core = ZAF }
-1240.1.1 = { owner = MAL controller = MAL add_core = MAL remove_core = GHA }
-1389.1.1 = { owner = ZAF controller = ZAF add_core = ZAF remove_core = MAL }
+1444.11.11 = {
+owner = GHA controller = GHA add_core = GHA is_city = yes trade_goods = grain
+owner = ZAF controller = ZAF add_core = ZAF
+owner = GHA controller = GHA remove_core = ZAF
+owner = MAL controller = MAL add_core = MAL remove_core = GHA
+owner = ZAF controller = ZAF add_core = ZAF remove_core = MAL
+}
+
+
+
+
+
 
 1460.1.1   = { citysize = 5000 } #Songhai raids devastate region
 # 1466.1.1   = { unrest = 3 } #Songhai raids devastate region

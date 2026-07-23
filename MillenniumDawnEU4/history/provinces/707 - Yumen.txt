@@ -20,45 +20,86 @@ add_core = HND
 add_core = WEI
 center_of_trade = 2
 
-9.1.10 = { owner = XIN controller = XIN add_core = XIN }
-23.10.5 = { owner = HND controller = HND remove_core = XIN }
-107.1.1 = { revolt = { type = nationalist_rebels size = 2 } controller = REB add_core = LNG } #Qiang Rebellion
-118.1.1 = { revolt = {} controller = HND }
-184.1.1 = { revolt = { type = nationalist_rebels size = 1 } controller = REB } #Liang Province Rebellion
-189.5.13 = { revolt = {} owner = LNG controller = LNG }
-189.9.28 = { remove_core = HND }
-214.1.1 = { owner = WEI controller = WEI add_core = WEI }
-266.2.4 = { owner = JIN controller = JIN add_core = JIN remove_core = WEI }
-272.1.1 = { revolt = { type = nationalist_rebels size = 1 } controller = REB add_core = LNG } #Tufa Shujineng's rebellion
-276.1.1 = { revolt = {} controller = JIN }
-279.1.1 = { owner = LNG controller = LNG }
-279.12.1 = { owner = JIN controller = JIN }
-314.3.4 = { owner = LNG controller = LNG remove_core = JIN }
-376.9.26 = { owner = QIN controller = QIN add_core = QIN }
-386.1.1 = { owner = LNG controller = LNG remove_core = QIN }
-398.1.1 = { owner = NLI controller = NLI add_core = NLI remove_core = LNG }
-400.1.1 = { owner = WLI controller = WLI add_core = WLI remove_core = NLI }
-421.1.1 = { owner = NLI controller = NLI add_core = NLI remove_core = WLI }
-439.1.1 = { owner = WEI controller = WEI add_core = WEI remove_core = NLI }
-520.1.1 = { owner = TUY controller = TUY add_core = TUY remove_core = WEI }
-581.1.1 = { capital = "Yumen" }
-590.1.1 = { owner = SUI controller = SUI add_core = SUI remove_core = TUY }
-617.5.13 = { owner = WLI controller = WLI add_core = WLI remove_core = SUI }
-619.6.29 = { owner = TNG controller = TNG add_core = TNG remove_core = WLI }
-763.1.1 = { owner = TIB controller = TIB add_core = TIB remove_core = TNG }
-800.1.1 = { religion = vajrayana }
-840.1.1 = { culture = uyghur }
-842.1.1 = { owner = PHA controller = PHA add_core = PHA remove_core = TIB }
-843.1.1 = { owner = UIG controller = UIG add_core = UIG remove_core = UTS }
-848.1.1 = { owner = GYI controller = GYI add_core = GYI remove_core = UIG }
-1036.1.1 = { owner = TAG controller = TAG add_core = TAG remove_core = GYI }
-1038.1.1 = { owner = XIA controller = XIA add_core = XIA remove_core = TAG }
-1227.1.1 = { owner = KHA controller = KHA add_core = KHA add_core = CSH remove_core = XIA }
-1271.1.1 = { owner = YUA controller = YUA add_core = YUA remove_core = KHA }
-1300.1.1 = { culture = xibei }
-1368.1.23 = { owner = KHA controller = KHA add_core = KHA remove_core = YUA }
-1382.1.1 = { owner = MNG controller = MNG add_core = MNG remove_core = KHA }
-1440.1.1 = { owner = HMI controller = HMI add_core = HMI remove_core = MNG }
+1444.11.11 = {
+owner = XIN controller = XIN add_core = XIN
+owner = HND controller = HND remove_core = XIN
+revolt = { type = nationalist_rebels size = 2 } controller = REB add_core = LNG
+revolt = {} controller = HND
+revolt = { type = nationalist_rebels size = 1 } controller = REB
+revolt = {} owner = LNG controller = LNG
+remove_core = HND
+owner = WEI controller = WEI add_core = WEI
+owner = JIN controller = JIN add_core = JIN remove_core = WEI
+revolt = { type = nationalist_rebels size = 1 } controller = REB add_core = LNG
+revolt = {} controller = JIN
+owner = LNG controller = LNG
+owner = JIN controller = JIN
+owner = LNG controller = LNG remove_core = JIN
+owner = QIN controller = QIN add_core = QIN
+owner = LNG controller = LNG remove_core = QIN
+owner = NLI controller = NLI add_core = NLI remove_core = LNG
+owner = WLI controller = WLI add_core = WLI remove_core = NLI
+owner = NLI controller = NLI add_core = NLI remove_core = WLI
+owner = WEI controller = WEI add_core = WEI remove_core = NLI
+owner = TUY controller = TUY add_core = TUY remove_core = WEI
+capital = "Yumen"
+owner = SUI controller = SUI add_core = SUI remove_core = TUY
+owner = WLI controller = WLI add_core = WLI remove_core = SUI
+owner = TNG controller = TNG add_core = TNG remove_core = WLI
+owner = TIB controller = TIB add_core = TIB remove_core = TNG
+religion = vajrayana
+culture = uyghur
+owner = PHA controller = PHA add_core = PHA remove_core = TIB
+owner = UIG controller = UIG add_core = UIG remove_core = UTS
+owner = GYI controller = GYI add_core = GYI remove_core = UIG
+owner = TAG controller = TAG add_core = TAG remove_core = GYI
+owner = XIA controller = XIA add_core = XIA remove_core = TAG
+owner = KHA controller = KHA add_core = KHA add_core = CSH remove_core = XIA
+owner = YUA controller = YUA add_core = YUA remove_core = KHA
+culture = xibei
+owner = KHA controller = KHA add_core = KHA remove_core = YUA
+owner = MNG controller = MNG add_core = MNG remove_core = KHA
+owner = HMI controller = HMI add_core = HMI remove_core = MNG
+}
+
+
+ #Qiang Rebellion
+
+ #Liang Province Rebellion
+
+
+
+
+ #Tufa Shujineng's rebellion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1513.1.1 = { owner = TPN controller = TPN add_core = TPN }
 1570.1.1 = { owner = KAS controller = KAS add_core = KAS remove_core = TPN }

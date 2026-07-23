@@ -14,10 +14,16 @@ discovered_by = east_african
 base_tax = 1
 base_production = 1
 
-350.1.1 = { owner = MAK controller = MAK add_core = MAK remove_core = MEO capital = "Berber" religion = chalcedonism }
-451.11.1 = { religion = coptic }
-1200.1.1 = { discovered_by = muslim discovered_by = ottoman }
-1276.1.1 = { owner = ABW controller = ABW add_core = ABW remove_core = MAK }
+1444.11.11 = {
+owner = MAK controller = MAK add_core = MAK remove_core = MEO capital = "Berber" religion = chalcedonism
+religion = coptic
+discovered_by = muslim discovered_by = ottoman
+owner = ABW controller = ABW add_core = ABW remove_core = MAK
+}
+
+
+
+
 1480.1.1 = { religion = sunni }
 
 1503.1.1 = {

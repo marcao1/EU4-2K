@@ -20,21 +20,36 @@ base_tax = 2
 base_production = 2
 base_manpower = 1
 
-395.1.1 = { owner = VAN controller = VAN add_core = VAN remove_core = MRM culture = vandal }
-417.1.1 = { owner = BAV controller = BAV add_core = BAV remove_core = VAN culture = bavarian }
-450.1.1 = { owner = RGL controller = RGL add_core = RGL remove_core = BAV }
-454.1.1 = { owner = LOM controller = LOM add_core = LOM remove_core = RGL culture = langobardi }
-550.1.1 = { owner = BOH controller = BOH add_core = BOH remove_core = LOM culture = czech religion = slavic }
-800.1.1 = { base_tax = 3 base_production = 3 }
-833.1.1 = { owner = MVA controller = MVA add_core = MVA }
-894.1.1 = { owner = BOH controller = BOH remove_core = MVA }
-900.1.1 = { religion = catholic }
-962.2.2 = { hre = yes }
-1000.1.1 = { base_tax = 4 base_production = 4 }
-1200.1.1 = { base_tax = 5 base_production = 5 }
+1444.11.11 = {
+owner = VAN controller = VAN add_core = VAN remove_core = MRM culture = vandal
+owner = BAV controller = BAV add_core = BAV remove_core = VAN culture = bavarian
+owner = RGL controller = RGL add_core = RGL remove_core = BAV
+owner = LOM controller = LOM add_core = LOM remove_core = RGL culture = langobardi
+owner = BOH controller = BOH add_core = BOH remove_core = LOM culture = czech religion = slavic
+base_tax = 3 base_production = 3
+owner = MVA controller = MVA add_core = MVA
+owner = BOH controller = BOH remove_core = MVA
+religion = catholic
+hre = yes
+base_tax = 4 base_production = 4
+base_tax = 5 base_production = 5
+unrest = 5
+unrest = 0
+}
 
-1419.12.1 = { unrest = 5 } # Hussite Wars, Battle of Nekmir
-1436.7.5  = { unrest = 0 } # Peace is signed in Jihlava
+
+
+
+
+
+
+
+
+
+
+
+ # Hussite Wars, Battle of Nekmir
+ # Peace is signed in Jihlava
 1457.1.1  = { unrest = 5 } # George of Podiebrand had to secure recognition from the German and Catholic towns. Pilsen is very hostile towards him, the Roman church being dominant throughout Pilsen's history.
 1466.1.1  = {	owner = HUN
 		controller = HUN

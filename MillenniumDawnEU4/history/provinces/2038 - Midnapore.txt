@@ -21,20 +21,36 @@ base_manpower = 3
 is_city = yes
 add_core = SUH
 
-315.1.1 = { owner = MBL controller = MBL add_core = MBL }
-355.1.1 = { owner = GUP controller = GUP add_core = GUP remove_core = MBL }
-580.1.1 = { owner = NIZ controller = NIZ add_core = NIZ remove_core = GUP }
-626.1.1 = { owner = HRS controller = HRS add_core = HRS remove_core = NIZ }
-647.1.1 = { owner = SUH controller = SUH add_core = SUH remove_core = HRS }
-780.1.1 = { owner = MBL controller = MBL add_core = MBL remove_core = SUH }
-814.1.1 = { owner = PAA controller = PAA add_core = PAA remove_core = MBL }
-950.1.1 = { owner = VGA controller = VGA add_core = VGA remove_core = PAA }
-980.1.1 = { owner = SEA controller = SEA add_core = SEA remove_core = VGA }
-1000.1.1 = { base_tax = 4 base_production = 4 }
-1070.1.1 = { owner = NIZ controller = NIZ add_core = NIZ remove_core = VGA }
-1120.1.1 = { owner = KLI controller = KLI add_core = KLI remove_core = NIZ }
-1200.1.1 = { religion = hinduism }
-1434.1.1 = { owner = ORI controller = ORI add_core = ORI remove_core = KLI }
+1444.11.11 = {
+owner = MBL controller = MBL add_core = MBL
+owner = GUP controller = GUP add_core = GUP remove_core = MBL
+owner = NIZ controller = NIZ add_core = NIZ remove_core = GUP
+owner = HRS controller = HRS add_core = HRS remove_core = NIZ
+owner = SUH controller = SUH add_core = SUH remove_core = HRS
+owner = MBL controller = MBL add_core = MBL remove_core = SUH
+owner = PAA controller = PAA add_core = PAA remove_core = MBL
+owner = VGA controller = VGA add_core = VGA remove_core = PAA
+owner = SEA controller = SEA add_core = SEA remove_core = VGA
+base_tax = 4 base_production = 4
+owner = NIZ controller = NIZ add_core = NIZ remove_core = VGA
+owner = KLI controller = KLI add_core = KLI remove_core = NIZ
+religion = hinduism
+owner = ORI controller = ORI add_core = ORI remove_core = KLI
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1500.1.1 = { discovered_by = POR }
 1568.1.1 = {

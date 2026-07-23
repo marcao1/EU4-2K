@@ -14,9 +14,12 @@ native_ferocity = 2
 native_hostileness = 5 
 tribal_owner = HOH
 
-1375.1.1 = { owner = APA controller = APA add_core = APA culture = apache }
+1444.11.11 = {
+owner = APA controller = APA add_core = APA culture = apache
+}
 
-1541.1.1  = { discovered_by = SPA } # Francisco Vásquez de Coronado
+
+1541.1.1  = { discovered_by = SPA } # Francisco Vï¿½squez de Coronado
 
 1860.1.1   = { 	
 	owner = USA 

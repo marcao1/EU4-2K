@@ -13,7 +13,10 @@ native_ferocity = 4.5
 native_hostileness = 9 
 discovered_by = central_african
 
-1350.1.1 = { owner = BUU controller = BUU add_core = BUU is_city = yes trade_goods = iron }
+1444.11.11 = {
+owner = BUU controller = BUU add_core = BUU is_city = yes trade_goods = iron
+}
+
 
 1858.1.1   = { discovered_by = GBR }
 1885.2.27  = { discovered_by = GER }

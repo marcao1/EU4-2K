@@ -20,19 +20,31 @@ base_manpower = 1
 is_city = yes
 add_core = MSQ
 
-350.1.1 = { owner = ERS controller = ERS add_core = ERS }
-600.1.1 = { owner = OMA controller = OMA add_core = OMA remove_core = ERS }
-634.1.1 = { owner = RSD controller = RSD add_core = RSD religion = islam }
-661.7.28 = { owner = UMA controller = UMA add_core = UMA remove_core = RSD religion = sunni }
-750.8.6 = { owner = ABA controller = ABA add_core = ABA remove_core = UMA }
-760.1.1 = { religion = ibadi }
-800.1.1 = { discovered_by = nomad_group }
-840.1.1 = { owner = OMA controller = OMA add_core = OMA remove_core = ABA }
-1073.5.16 = { owner = KRM controller = KRM add_core = KRM }
-1154.1.1 = { owner = OMA controller = OMA remove_core = KRM }
+1444.11.11 = {
+owner = ERS controller = ERS add_core = ERS
+owner = OMA controller = OMA add_core = OMA remove_core = ERS
+owner = RSD controller = RSD add_core = RSD religion = islam
+owner = UMA controller = UMA add_core = UMA remove_core = RSD religion = sunni
+owner = ABA controller = ABA add_core = ABA remove_core = UMA
+religion = ibadi
+discovered_by = nomad_group
+owner = OMA controller = OMA add_core = OMA remove_core = ABA
+owner = KRM controller = KRM add_core = KRM
+owner = OMA controller = OMA remove_core = KRM
+}
+
+
+
+
+
+
+
+
+
+
 
 1480.1.1 = { discovered_by = TUR }
-1488.1.1 = { discovered_by = POR } # Pêro da Covilhã
+1488.1.1 = { discovered_by = POR } # Pï¿½ro da Covilhï¿½
 1507.6.1 = {
 	owner = POR
 	controller = POR

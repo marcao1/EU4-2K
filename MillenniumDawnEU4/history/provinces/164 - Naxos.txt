@@ -20,13 +20,20 @@ base_manpower = 2
 is_city = yes
 add_core = ROM
 
-320.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-867.1.1 = { religion = orthodox }
-1204.4.13 = { owner = LAE controller = LAE add_core = LAE }
-1207.1.1 = { owner = NAX controller = NAX add_core = NAX remove_core = LAE }
+1444.11.11 = {
+religion = chalcedonism
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+religion = orthodox
+owner = LAE controller = LAE add_core = LAE
+owner = NAX controller = NAX add_core = NAX remove_core = LAE
+add_core = BYZ
+}
 
-1399.1.1  = { add_core = BYZ }
+ # Final division of the empire
+
+
+
+
 1502.1.1  = { remove_core = BYZ }
 1555.1.1  = { unrest = 5 } # General discontent with the Janissaries' dominance
 1556.1.1  = { unrest = 0 }

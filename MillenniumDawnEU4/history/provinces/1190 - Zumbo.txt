@@ -14,9 +14,14 @@ native_hostileness = 9
 discovered_by = east_african
 discovered_by = central_african
 
-300.1.1 = { culture = tonga }
-1350.1.1 = { owner = TGA controller = TGA add_core = TGA is_city = yes trade_goods = ivory }
-1430.1.1 = { owner = ZIM controller = ZIM add_core = ZIM }
+1444.11.11 = {
+culture = tonga
+owner = TGA controller = TGA add_core = TGA is_city = yes trade_goods = ivory
+owner = ZIM controller = ZIM add_core = ZIM
+}
+
+
+
 
 1513.1.1 = { discovered_by = POR } #Travels of Antonio Fernandes in hinterland of Sofala
 1575.1.1 = { unrest = 8 } # Portuguese invasion of Mutapa via this region, fail to secure it & withdraw

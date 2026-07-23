@@ -1,8 +1,13 @@
 #3069
 
-750.1.1 = { discovered_by = SMI discovered_by = KRL }
-1300.1.1 = { discovered_by = eastern }
-1440.1.1 = { discovered_by = western }
+1444.11.11 = {
+discovered_by = SMI discovered_by = KRL
+discovered_by = eastern
+discovered_by = western
+}
+
+
+
 
 
 

@@ -22,30 +22,56 @@ base_manpower = 2
 is_city = yes
 add_core = PES
 
-207.1.1 = { owner = ERS controller = ERS add_core = ERS remove_core = PES }
-643.1.1 = { owner = RSD controller = RSD add_core = RSD remove_core = ERS }
-661.7.28 = { owner = UMA controller = UMA add_core = UMA remove_core = RSD }
-680.1.1 = { religion = sunni }
-750.8.6 = { owner = ABA controller = ABA add_core = ABA remove_core = UMA }
-800.1.1 = { culture = gulf_arabic }
-870.1.1 = { owner = FRS controller = FRS add_core = FRS }
-875.8.1 = { owner = SIS controller = SIS add_core = SIS }
-912.1.1 = { owner = ABA controller = ABA remove_core = SIS }
-934.5.1 = { owner = FRS controller = FRS remove_core = ABA }
-978.3.1 = { owner = PER controller = PER add_core = PER }
-989.9.7 = { owner = FRS controller = FRS }
-998.12.1 = { owner = PER controller = PER }
-1062.1.1 = { owner = SHB controller = SHB add_core = SHB }
-1064.1.1 = { owner = SEL controller = SEL add_core = SEL }
-1148.1.1 = { owner = FRS controller = FRS add_core = FRS }
-1157.5.8 = { remove_core = SEL }
-1282.1.1 = { owner = ILK controller = ILK add_core = ILK }
-1335.1.1 = { owner = FRS controller = FRS add_core = FRS remove_core = ILK }
-1353.1.1 = { owner = YZD controller = YZD add_core = YZD }
-1357.1.1 = { owner = PER controller = PER add_core = PER remove_core = YZD }
-1380.1.1 = { add_core = TIM }
-1393.5.1 = { owner = TIM controller = TIM }
-1442.1.1 = { owner = FRS controller = FRS add_core = FRS }
+1444.11.11 = {
+owner = ERS controller = ERS add_core = ERS remove_core = PES
+owner = RSD controller = RSD add_core = RSD remove_core = ERS
+owner = UMA controller = UMA add_core = UMA remove_core = RSD
+religion = sunni
+owner = ABA controller = ABA add_core = ABA remove_core = UMA
+culture = gulf_arabic
+owner = FRS controller = FRS add_core = FRS
+owner = SIS controller = SIS add_core = SIS
+owner = ABA controller = ABA remove_core = SIS
+owner = FRS controller = FRS remove_core = ABA
+owner = PER controller = PER add_core = PER
+owner = FRS controller = FRS
+owner = PER controller = PER
+owner = SHB controller = SHB add_core = SHB
+owner = SEL controller = SEL add_core = SEL
+owner = FRS controller = FRS add_core = FRS
+remove_core = SEL
+owner = ILK controller = ILK add_core = ILK
+owner = FRS controller = FRS add_core = FRS remove_core = ILK
+owner = YZD controller = YZD add_core = YZD
+owner = PER controller = PER add_core = PER remove_core = YZD
+add_core = TIM
+owner = TIM controller = TIM
+owner = FRS controller = FRS add_core = FRS
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1447.3.13 = { #Shah Rokh dies in the field trying to put down the rebellion of Muhammad bin Baysonqor
 	owner = QOM

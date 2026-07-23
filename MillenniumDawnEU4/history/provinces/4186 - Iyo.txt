@@ -16,14 +16,24 @@ base_manpower = 2
 is_city = yes
 add_core = SHK
 
-580.1.1 = { owner = YAM controller = YAM add_core = YAM remove_core = SHK }
-607.1.1 = { religion = mahayana }
-712.1.1 = { religion = shinto }
-794.1.1 = { owner = JAP controller = JAP add_core = JAP remove_core = YAM }
-940.1.1 = { owner = FUJ controller = FUJ add_core = FUJ remove_core = JAP }
-941.7.21 = { owner = KNO controller = KNO add_core = KNO remove_core = FUJ }
-1018.1.1 = { owner = FUJ controller = FUJ add_core = FUJ }
-1028.1.1 = { owner = KNO controller = KNO remove_core = FUJ }
+1444.11.11 = {
+owner = YAM controller = YAM add_core = YAM remove_core = SHK
+religion = mahayana
+religion = shinto
+owner = JAP controller = JAP add_core = JAP remove_core = YAM
+owner = FUJ controller = FUJ add_core = FUJ remove_core = JAP
+owner = KNO controller = KNO add_core = KNO remove_core = FUJ
+owner = FUJ controller = FUJ add_core = FUJ
+owner = KNO controller = KNO remove_core = FUJ
+}
+
+
+
+
+
+
+
+
 
 1586.1.1 = { add_core = MRI owner = MRI controller = MRI remove_core = KNO } # Fall of the Kono Clan
 1600.10.21 = { owner = TKG controller = TKG add_core = TKG remove_core = MRI }

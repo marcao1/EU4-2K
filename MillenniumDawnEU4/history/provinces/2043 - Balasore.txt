@@ -21,19 +21,32 @@ base_manpower = 2
 is_city = yes
 add_core = KLI
 
-150.1.1 = { owner = KJH controller = KJH add_core = KJH }
-355.1.1 = { owner = GUP controller = GUP add_core = GUP }
-580.1.1 = { owner = KJH controller = KJH add_core = KJH remove_core = GUP }
-600.1.1 = { religion = hinduism }
-620.1.1 = { owner = TOS controller = TOS add_core = TOS remove_core = KJH }
-680.1.1 = { owner = KGD controller = KGD add_core = KGD }
-736.1.1 = { owner = TOS controller = TOS remove_core = KGD }
-800.1.1 = { base_tax = 4 base_production = 4 }
-1118.1.1 = { owner = KLI controller = KLI add_core = KLI }
-1250.1.1 = { fort_15th = yes } #Raibania
-1434.1.1 = { owner = ORI controller = ORI add_core = ORI remove_core = KLI }
+1444.11.11 = {
+owner = KJH controller = KJH add_core = KJH
+owner = GUP controller = GUP add_core = GUP
+owner = KJH controller = KJH add_core = KJH remove_core = GUP
+religion = hinduism
+owner = TOS controller = TOS add_core = TOS remove_core = KJH
+owner = KGD controller = KGD add_core = KGD
+owner = TOS controller = TOS remove_core = KGD
+base_tax = 4 base_production = 4
+owner = KLI controller = KLI add_core = KLI
+fort_15th = yes
+owner = ORI controller = ORI add_core = ORI remove_core = KLI
+discovered_by = MNG
+}
 
-1405.1.1 = { discovered_by = MNG }
+
+
+
+
+
+
+
+
+ #Raibania
+
+
 1500.1.1 = { discovered_by = POR }
 1568.1.1 = {
 	owner = BNG

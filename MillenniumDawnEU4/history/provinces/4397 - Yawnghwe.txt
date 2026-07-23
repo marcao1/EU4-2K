@@ -18,9 +18,14 @@ base_manpower = 2
 is_city = yes
 add_core = PLN
 
-1050.1.1 = { religion = buddhism }
-1200.1.1 = { culture = shan }
-1296.1.1 = { owner = HSI controller = HSI add_core = HSI remove_core = PLN }
+1444.11.11 = {
+religion = buddhism
+culture = shan
+owner = HSI controller = HSI add_core = HSI remove_core = PLN
+}
+
+
+
 
 1527.1.1 = {
 	controller = SST

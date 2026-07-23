@@ -13,10 +13,16 @@ native_size = 40
 native_ferocity = 4.5
 native_hostileness = 10
 
-850.1.1 = { owner = SAN controller = SAN add_core = SAN is_city = yes trade_goods = wool }
-900.1.1 = { owner = TMB controller = TMB add_core = TMB remove_core = SAN }
-950.1.1 = { religion = sunni }
-1430.1.1 = { owner = SON controller = SON add_core = SON remove_core = TMB }
+1444.11.11 = {
+owner = SAN controller = SAN add_core = SAN is_city = yes trade_goods = wool
+owner = TMB controller = TMB add_core = TMB remove_core = SAN
+religion = sunni
+owner = SON controller = SON add_core = SON remove_core = TMB
+}
+
+
+
+
 
 1543.1.1  = { discovered_by = MOR }
 1591.3.15 = { owner = AIR controller = AIR add_core = AIR } # Songahi defeat at Tondibi leaves Tuareg free

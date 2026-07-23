@@ -21,16 +21,28 @@ base_manpower = 1
 is_city = yes
 add_core = KLI
 
-150.1.1 = { owner = KJH controller = KJH add_core = KJH remove_core = KLI }
-355.1.1 = { owner = GUP controller = GUP add_core = GUP }
-380.1.1 = { owner = KJH controller = KJH remove_core = GUP }
-700.1.1 = { capital = "Khijjinga Kota" }
-710.1.1 = { owner = DAK controller = DAK add_core = DAK }
-736.1.1 = { owner = KJH controller = KJH remove_core = DAK }
-800.1.1 = { base_manpower = 2 }
-968.1.1 = { owner = TOS controller = TOS add_core = TOS capital = "Khiching" }
-1118.1.1 = { owner = KLI controller = KLI add_core = KLI remove_core = TOS }
-1228.1.1 = { owner = KJH controller = KJH add_core = KJH remove_core = KLI }
+1444.11.11 = {
+owner = KJH controller = KJH add_core = KJH remove_core = KLI
+owner = GUP controller = GUP add_core = GUP
+owner = KJH controller = KJH remove_core = GUP
+capital = "Khijjinga Kota"
+owner = DAK controller = DAK add_core = DAK
+owner = KJH controller = KJH remove_core = DAK
+base_manpower = 2
+owner = TOS controller = TOS add_core = TOS capital = "Khiching"
+owner = KLI controller = KLI add_core = KLI remove_core = TOS
+owner = KJH controller = KJH add_core = KJH remove_core = KLI
+}
+
+
+
+
+
+
+
+
+
+
 
 1627.1.1 = { discovered_by = POR }
 1688.1.1 = { capital = "Baripada" }

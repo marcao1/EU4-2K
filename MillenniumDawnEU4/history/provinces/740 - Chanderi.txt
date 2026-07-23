@@ -24,19 +24,34 @@ base_manpower = 1
 is_city = yes
 add_core = MLW
 
-375.1.1 = { owner = BND controller = BND add_core = BND }
-510.1.1 = { owner = MLW controller = MLW add_core = MLW remove_core = BND }
-610.1.1 = { owner = GUJ controller = GUJ add_core = GUJ }
-745.1.1 = { owner = GRP controller = GRP add_core = GRP remove_core = GUJ }
-780.1.1 = { owner = RSH controller = RSH add_core = RSH }
-815.1.1 = { owner = GRP controller = GRP remove_core = RSH }
-860.1.1 = { owner = BND controller = BND add_core = BND remove_core = GRP }
-900.1.1 = { base_tax = 3 }
-920.1.1 = { owner = MLW controller = MLW add_core = MLW remove_core = BND }
-1151.1.1 = { owner = GUJ controller = GUJ }
-1160.1.1 = { owner = MLW controller = MLW }
-1305.1.1 = { owner = DLH controller = DLH add_core = DLH }
-1392.1.1 = { owner = MLW controller = MLW remove_core = DLH } # Dilawar Khan declares Malwa independent
+1444.11.11 = {
+owner = BND controller = BND add_core = BND
+owner = MLW controller = MLW add_core = MLW remove_core = BND
+owner = GUJ controller = GUJ add_core = GUJ
+owner = GRP controller = GRP add_core = GRP remove_core = GUJ
+owner = RSH controller = RSH add_core = RSH
+owner = GRP controller = GRP remove_core = RSH
+owner = BND controller = BND add_core = BND remove_core = GRP
+base_tax = 3
+owner = MLW controller = MLW add_core = MLW remove_core = BND
+owner = GUJ controller = GUJ
+owner = MLW controller = MLW
+owner = DLH controller = DLH add_core = DLH
+owner = MLW controller = MLW remove_core = DLH
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ # Dilawar Khan declares Malwa independent
 
 1498.1.1 = { discovered_by = POR }
 1519.1.1 = {

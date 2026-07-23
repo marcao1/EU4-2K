@@ -22,32 +22,53 @@ base_manpower = 1
 is_city = yes
 add_core = PRT
 
-224.4.24 = { owner = ERS controller = ERS add_core = ERS remove_core = PRT }
-643.1.1 = { owner = RSD controller = RSD add_core = RSD remove_core = ERS }
-661.7.28 = { owner = UMA controller = UMA add_core = UMA remove_core = RSD }
-680.1.1 = { religion = sunni }
-750.8.6 = { owner = ABA controller = ABA add_core = ABA remove_core = UMA }
-800.1.1 = { owner = QOM controller = QOM add_core = QOM }
-879.1.1 = { owner = SIS controller = SIS add_core = SIS remove_core = ABA }
-900.1.1 = { owner = ABA controller = ABA add_core = ABA remove_core = SIS }
-933.1.1 = { owner = TAB controller = TAB add_core = TAB remove_core = ABA }
-935.1.1 = { owner = QOM controller = QOM add_core = QOM remove_core = TAB }
-1029.1.1 = { owner = ISF controller = ISF add_core = ISF remove_core = QOM }
-1051.1.1 = { owner = SEL controller = SEL add_core = SEL }
-1194.1.1 = { owner = KHW controller = KHW add_core = KHW remove_core = SEL }
-1231.1.1 = { owner = KHA controller = KHA add_core = KHA add_core = PER remove_core = KHW }
-1260.1.1 = { owner = ILK controller = ILK add_core = ILK remove_core = KHA }
-1280.1.1 = { religion = shiite }
-1335.1.1 = { owner = YZD controller = YZD add_core = YZD remove_core = ILK }
-1357.1.1 = { owner = PER controller = PER add_core = PER remove_core = YZD }
-1380.1.1 = { add_core = TIM }
-1387.1.1 = { owner = TIM controller = TIM add_core = TIM }
-
-1442.1.1 = { #Death of Yusuf Khwaja, governor of Rayy. Appointment of Sultan Muhammad b. Baysunghur as governor of northern Iran.
+1444.11.11 = {
+owner = ERS controller = ERS add_core = ERS remove_core = PRT
+owner = RSD controller = RSD add_core = RSD remove_core = ERS
+owner = UMA controller = UMA add_core = UMA remove_core = RSD
+religion = sunni
+owner = ABA controller = ABA add_core = ABA remove_core = UMA
+owner = QOM controller = QOM add_core = QOM
+owner = SIS controller = SIS add_core = SIS remove_core = ABA
+owner = ABA controller = ABA add_core = ABA remove_core = SIS
+owner = TAB controller = TAB add_core = TAB remove_core = ABA
+owner = QOM controller = QOM add_core = QOM remove_core = TAB
+owner = ISF controller = ISF add_core = ISF remove_core = QOM
+owner = SEL controller = SEL add_core = SEL
+owner = KHW controller = KHW add_core = KHW remove_core = SEL
+owner = KHA controller = KHA add_core = KHA add_core = PER remove_core = KHW
+owner = ILK controller = ILK add_core = ILK remove_core = KHA
+religion = shiite
+owner = YZD controller = YZD add_core = YZD remove_core = ILK
+owner = PER controller = PER add_core = PER remove_core = YZD
+add_core = TIM
+owner = TIM controller = TIM add_core = TIM
+#Death of Yusuf Khwaja, governor of Rayy. Appointment of Sultan Muhammad b. Baysunghur as governor of northern Iran.
 	owner = QOM
 	controller = QOM
 	add_core = QOM
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #1446.1.1 #Revolt of Muhammad bin Baysonqor
 1451.1.1 = {
 	owner = QAR

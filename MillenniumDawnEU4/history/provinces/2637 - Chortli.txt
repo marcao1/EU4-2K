@@ -6,7 +6,7 @@ add_core = COP
 is_city = yes
 culture = highland_mayan
 religion = mesoamerican_religion
-capital = "Copán"
+capital = "Copï¿½n"
 trade_goods = naval_supplies
 hre = no
 discovered_by = mesoamerican
@@ -16,8 +16,12 @@ base_manpower = 1
 
 add_province_triggered_modifier = MAY_obsidian_source
 
-830.1.1 = { owner = CHT controller = CHT add_core = CHT remove_core = COP }
-850.1.1 = { capital = "Chortli" base_tax = 1 base_production = 1 }
+1444.11.11 = {
+owner = CHT controller = CHT add_core = CHT remove_core = COP
+capital = "Chortli" base_tax = 1 base_production = 1
+}
+
+
 
 1502.1.1   = { discovered_by = CAS } # Christopher Columbus 
 1516.1.23  = { discovered_by = SPA }

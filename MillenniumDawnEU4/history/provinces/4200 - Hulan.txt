@@ -17,13 +17,22 @@ native_size = 20
 native_ferocity = 1
 native_hostileness = 3
 
-410.1.1 = { owner = DKR controller = DKR add_core = DKR is_city = yes trade_goods = livestock }
-726.1.1 = { owner = BLH controller = BLH add_core = BLH }
-907.6.1 = { owner = LIO controller = LIO add_core = LIO remove_core = BLH }
-1115.1.1 = { owner = CJN controller = CJN add_core = CJN remove_core = LIO }
-1214.1.1 = { owner = KHA controller = KHA add_core = KHA remove_core = CJN }
-1271.1.1 = { owner = YUA controller = YUA add_core = YUA remove_core = KHA }
-1368.1.1 = { owner = MYR controller = MYR add_core = MYR remove_core = YUA }
+1444.11.11 = {
+owner = DKR controller = DKR add_core = DKR is_city = yes trade_goods = livestock
+owner = BLH controller = BLH add_core = BLH
+owner = LIO controller = LIO add_core = LIO remove_core = BLH
+owner = CJN controller = CJN add_core = CJN remove_core = LIO
+owner = KHA controller = KHA add_core = KHA remove_core = CJN
+owner = YUA controller = YUA add_core = YUA remove_core = KHA
+owner = MYR controller = MYR add_core = MYR remove_core = YUA
+}
+
+
+
+
+
+
+
 
 1613.2.1 = {
 	owner = MJZ

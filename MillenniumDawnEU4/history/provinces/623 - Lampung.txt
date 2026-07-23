@@ -17,15 +17,24 @@ native_size = 30
 native_ferocity = 9
 native_hostileness = 7
 
-683.1.1 = { owner = SRI controller = SRI add_core = SRI is_city = yes trade_goods = spices }
-700.1.1 = { discovered_by = muslim discovered_by = ottoman }
-1288.1.1 = { owner = SIN controller = SIN add_core = SIN remove_core = SRI }
-1293.1.1 = { owner = MAJ controller = MAJ add_core = MAJ remove_core = SIN }
-1340.1.1 = { religion = sunni }
-1350.1.1 = { culture = javanese }
-1377.1.1 = { owner = PLB controller = PLB add_core = PLB remove_core = MAJ }
+1444.11.11 = {
+owner = SRI controller = SRI add_core = SRI is_city = yes trade_goods = spices
+discovered_by = muslim discovered_by = ottoman
+owner = SIN controller = SIN add_core = SIN remove_core = SRI
+owner = MAJ controller = MAJ add_core = MAJ remove_core = SIN
+religion = sunni
+culture = javanese
+owner = PLB controller = PLB add_core = PLB remove_core = MAJ
+discovered_by = MNG
+}
 
-1405.1.1 = { discovered_by = MNG }
+
+
+
+
+
+
+
 1509.1.1 = { discovered_by = POR }
 1550.1.1  = {
 		owner = BAN

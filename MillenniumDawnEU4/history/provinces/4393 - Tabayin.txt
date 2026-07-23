@@ -18,12 +18,20 @@ base_manpower = 2
 is_city = yes
 add_core = TGN
 
-650.1.1 = { culture = burmese }
-1045.1.1 = { owner = PAG controller = PAG add_core = PAG capital = "Tabayin" }
-1287.7.1 = { owner = MYI controller = MYI add_core = MYI add_core = SAG }
-1297.12.17 = { remove_core = PAG }
-1315.5.15 = { owner = SAG controller = SAG remove_core = MYI }
-1365.2.26 = { owner = AVA controller = AVA add_core = AVA }
+1444.11.11 = {
+culture = burmese
+owner = PAG controller = PAG add_core = PAG capital = "Tabayin"
+owner = MYI controller = MYI add_core = MYI add_core = SAG
+remove_core = PAG
+owner = SAG controller = SAG remove_core = MYI
+owner = AVA controller = AVA add_core = AVA
+}
+
+
+
+
+
+
 
 1527.1.1 = {
 	owner = SST

@@ -20,21 +20,38 @@ capital = "Durobrivae"
 is_city = yes
 add_core = ICN
 
-43.1.1 = { owner = ROM controller = ROM add_core = ROM }
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-410.1.1 = { owner = EAN controller = EAN add_core = EAN remove_core = ROW remove_core = ICN culture = anglo_saxon religion = germanic capital = "Cambridge" }
-616.1.1 = { religion = chalcedonism }
-794.1.1 = { owner = MRC controller = MRC add_core = MRC }
-827.1.1 = { owner = EAN controller = EAN remove_core = MRC }
-850.1.1 = { base_tax = 2 base_production = 2 }
-867.1.1 = { religion = catholic }
-869.1.1 = { owner = DAN controller = DAN add_core = DAN }
-918.1.1 = { owner = WSX controller = WSX add_core = WSX remove_core = DAN }
-927.1.1 = { owner = ENG controller = ENG add_core = ENG remove_core = WSX }
-1050.1.1 = { remove_core = EAN }
-1066.12.25 = { culture = english }
-1150.1.1 = { base_manpower = 2 }
-1350.1.1 = { base_tax = 3 base_production = 3 }
+1444.11.11 = {
+owner = ROM controller = ROM add_core = ROM
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+owner = EAN controller = EAN add_core = EAN remove_core = ROW remove_core = ICN culture = anglo_saxon religion = germanic capital = "Cambridge"
+religion = chalcedonism
+owner = MRC controller = MRC add_core = MRC
+owner = EAN controller = EAN remove_core = MRC
+base_tax = 2 base_production = 2
+religion = catholic
+owner = DAN controller = DAN add_core = DAN
+owner = WSX controller = WSX add_core = WSX remove_core = DAN
+owner = ENG controller = ENG add_core = ENG remove_core = WSX
+remove_core = EAN
+culture = english
+base_manpower = 2
+base_tax = 3 base_production = 3
+}
+
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1453.1.1 = { unrest = 5 } # Start of the War of the Roses
 1461.6.1 = { unrest = 2 } # Coronation of Edward IV

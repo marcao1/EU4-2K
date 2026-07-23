@@ -21,21 +21,38 @@ discovered_by = roman_group
 discovered_by = eastern
 center_of_trade = 1
 
-350.1.1 = { owner = ALM controller = ALM add_core = ALM remove_core = ROM remove_core = EAL capital = "Ulm" }
-500.1.1 = { base_tax = 2 base_production = 2 }
-550.1.1 = { religion = chalcedonism }
-700.1.1 = { base_tax = 3 base_production = 3 }
-746.1.1 = { owner = FRK controller = FRK add_core = FRK }
-800.1.1 = { base_tax = 4 base_production = 4 }
-840.6.21 = { owner = FRE controller = FRE add_core = FRE remove_core = FRK }
-867.1.1 = { religion = catholic }
-900.1.1 = { base_manpower = 3 }
-911.11.10 = { owner = SWA controller = SWA add_core = SWA remove_core = FRE }
-962.2.2 = { hre = yes }
-1000.1.1 = { base_tax = 5 base_production = 5 }
-1100.1.1 = { base_manpower = 4 }
-1181.1.1 = { owner = ULM controller = ULM add_core = ULM remove_core = SWA }
-1200.1.1 = { base_production = 6 }
+1444.11.11 = {
+owner = ALM controller = ALM add_core = ALM remove_core = ROM remove_core = EAL capital = "Ulm"
+base_tax = 2 base_production = 2
+religion = chalcedonism
+base_tax = 3 base_production = 3
+owner = FRK controller = FRK add_core = FRK
+base_tax = 4 base_production = 4
+owner = FRE controller = FRE add_core = FRE remove_core = FRK
+religion = catholic
+base_manpower = 3
+owner = SWA controller = SWA add_core = SWA remove_core = FRE
+hre = yes
+base_tax = 5 base_production = 5
+base_manpower = 4
+owner = ULM controller = ULM add_core = ULM remove_core = SWA
+base_production = 6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1800.1.1 = { base_manpower = 5 }
 1803.1.1 = {

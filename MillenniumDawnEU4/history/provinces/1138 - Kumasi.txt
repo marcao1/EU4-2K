@@ -13,7 +13,10 @@ native_size = 60
 native_ferocity = 4
 native_hostileness = 9
 
-1400.1.1 = { owner = DNK controller = DNK add_core = DNK is_city = yes trade_goods = gold }
+1444.11.11 = {
+owner = DNK controller = DNK add_core = DNK is_city = yes trade_goods = gold
+}
+
 1701.1.1 = { owner = ASH controller = ASH add_core = ASH remove_core = DNK capital = "Kumasi" } #Akan migrations, Denkyira establishd (Ashanti is a subject)
 1713.1.1 = { unrest = 2 } #Dagomba uprising against Gonja domination  
 1715.1.1 = { unrest = 5 } #Ashante-Aowin War  

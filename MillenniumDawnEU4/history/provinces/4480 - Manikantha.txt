@@ -24,18 +24,32 @@ base_manpower = 1
 is_city = yes
 add_core = WSA
 
-405.1.1 = { owner = GUP controller = GUP add_core = GUP remove_core = WSA }
-475.1.1 = { owner = GUJ controller = GUJ add_core = GUJ remove_core = GUP }
-776.1.1 = { owner = GRP controller = GRP add_core = GRP }
-800.1.1 = { owner = MER controller = MER add_core = MER remove_core = GRP }
-953.1.1 = { owner = MLW controller = MLW add_core = MLW remove_core = MER }
-1110.1.1 = { owner = GUJ controller = GUJ add_core = GUJ remove_core = MLW }
-1150.1.1 = { religion = jainism }
-1171.1.1 = { religion = hinduism }
-1257.1.1 = { owner = IDR controller = IDR add_core = IDR remove_core = GUJ }
-1300.1.1 = { owner = DLH controller = DLH add_core = DLH }
-1391.1.1 = { owner = GUJ controller = GUJ add_core = GUJ remove_core = DLH }
-1393.1.1 = { owner = IDR controller = IDR add_core = IDR remove_core = GUJ }
+1444.11.11 = {
+owner = GUP controller = GUP add_core = GUP remove_core = WSA
+owner = GUJ controller = GUJ add_core = GUJ remove_core = GUP
+owner = GRP controller = GRP add_core = GRP
+owner = MER controller = MER add_core = MER remove_core = GRP
+owner = MLW controller = MLW add_core = MLW remove_core = MER
+owner = GUJ controller = GUJ add_core = GUJ remove_core = MLW
+religion = jainism
+religion = hinduism
+owner = IDR controller = IDR add_core = IDR remove_core = GUJ
+owner = DLH controller = DLH add_core = DLH
+owner = GUJ controller = GUJ add_core = GUJ remove_core = DLH
+owner = IDR controller = IDR add_core = IDR remove_core = GUJ
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 1515.1.1 = {
 	owner = GUJ

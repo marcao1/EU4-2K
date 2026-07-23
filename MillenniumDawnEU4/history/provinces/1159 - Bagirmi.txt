@@ -10,11 +10,18 @@ discovered_by = sub_saharan
 base_tax = 2
 base_production = 2
 
-523.1.1 = { owner = SA0 controller = SA0 add_core = SA0 is_city = yes trade_goods = ivory }
-900.1.1 = { owner = KBO controller = KBO add_core = KBO }
-1000.1.1 = { remove_core = SA0 }
-1200.1.1 = { base_tax = 3 base_production = 3 }
-1380.1.1 = { owner = YAO controller = YAO add_core = YAO }
+1444.11.11 = {
+owner = SA0 controller = SA0 add_core = SA0 is_city = yes trade_goods = ivory
+owner = KBO controller = KBO add_core = KBO
+remove_core = SA0
+base_tax = 3 base_production = 3
+owner = YAO controller = YAO add_core = YAO
+}
+
+
+
+
+
 
 1522.1.1 = { owner = BAG controller = BAG add_core = BAG remove_core = YAO }
 1580.1.1 = { religion = sunni } #rulers of Baguirmi declare Islam state religion

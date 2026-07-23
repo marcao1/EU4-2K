@@ -13,11 +13,18 @@ native_size = 40
 native_ferocity = 4
 native_hostileness = 9
 
-350.1.1 = { owner = TMB controller = TMB add_core = TMB is_city = yes trade_goods = fish }
-1324.1.1 = { owner = MAL controller = MAL add_core = MAL }
-1389.1.1 = { owner = TMB controller = TMB remove_core = MAL }
-1400.1.1 = { owner = SON controller = SON add_core = SON remove_core = TMB }
-1200.1.1 = { religion = sunni }
+1444.11.11 = {
+owner = TMB controller = TMB add_core = TMB is_city = yes trade_goods = fish
+owner = MAL controller = MAL add_core = MAL
+owner = TMB controller = TMB remove_core = MAL
+owner = SON controller = SON add_core = SON remove_core = TMB
+religion = sunni
+}
+
+
+
+
+
 
 1591.3.15 = { discovered_by = MOR owner = MOR controller = MOR add_core = MOR } # Moroccan victory at Tondibi
 1618.1.1 = { owner = TMB controller = TMB add_core = TMB remove_core = MOR } # Moroccans no longer appoint governors, local Moroccans, the Arma, rule on their own

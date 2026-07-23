@@ -21,12 +21,20 @@ base_manpower = 1
 is_city = yes
 add_core = NGP
 
-710.1.1 = { owner = DAK controller = DAK add_core = DAK }
-715.1.1 = { owner = NGP controller = NGP remove_core = DAK }
-800.1.1 = { discovered_by = nomad_group }
-900.1.1 = { base_production = 2 }
-1048.1.1 = { owner = KLC controller = KLC add_core = KLC }
-1073.1.1 = { owner = NGP controller = NGP remove_core = KLC }
+1444.11.11 = {
+owner = DAK controller = DAK add_core = DAK
+owner = NGP controller = NGP remove_core = DAK
+discovered_by = nomad_group
+base_production = 2
+owner = KLC controller = KLC add_core = KLC
+owner = NGP controller = NGP remove_core = KLC
+}
+
+
+
+
+
+
 
 1627.1.1 = { discovered_by = POR }
 1674.1.1 = {

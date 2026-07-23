@@ -16,13 +16,22 @@ base_manpower = 3
 is_city = yes
 add_core = EMI
 
-607.1.1 = { religion = mahayana }
-712.1.1 = { religion = shinto }
-802.1.1 = { owner = JAP controller = JAP add_core = JAP remove_core = EMI }
-950.1.1 = { culture = japanese }
-1040.1.1 = { owner = FUJ controller = FUJ add_core = FUJ remove_core = JAP }
-1189.8.22 = { owner = KMK controller = KMK add_core = KMK } #Conquered by Minamoto clan
-1192.7.12 = { owner = DTE controller = DTE add_core = DTE remove_core = KMK } #Date clan
+1444.11.11 = {
+religion = mahayana
+religion = shinto
+owner = JAP controller = JAP add_core = JAP remove_core = EMI
+culture = japanese
+owner = FUJ controller = FUJ add_core = FUJ remove_core = JAP
+owner = KMK controller = KMK add_core = KMK
+owner = DTE controller = DTE add_core = DTE remove_core = KMK
+}
+
+
+
+
+
+ #Conquered by Minamoto clan
+ #Date clan
 
 1520.1.1 = { fort_15th = yes } # Iwadeyama Castle, Estimation
 1542.1.1 = { discovered_by = POR }

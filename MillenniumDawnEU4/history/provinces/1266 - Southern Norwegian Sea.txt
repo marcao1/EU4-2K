@@ -3,8 +3,12 @@
 discovered_by = JUT
 discovered_by = HER
 
-400.1.1 = { discovered_by = western discovered_by = barbarian }
-500.1.1 = { discovered_by = eastern }
+1444.11.11 = {
+discovered_by = western discovered_by = barbarian
+discovered_by = eastern
+}
+
+
 
 
 

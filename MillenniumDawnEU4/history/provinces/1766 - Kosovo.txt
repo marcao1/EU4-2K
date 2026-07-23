@@ -24,24 +24,44 @@ base_manpower = 1
 is_city = yes
 add_core = ROM
 
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-610.1.1 = { add_core = SER capital = "Prizren" culture = serbian religion = slavic }
-630.1.1 = { owner = SER controller = SER remove_core = BYZ }
-700.1.1 = { religion = chalcedonism }
-800.1.1 = { base_tax = 2 base_production = 2 }
-842.1.1 = { owner = BUL controller = BUL add_core = BUL remove_core = BYZ }
-867.1.1 = { religion = orthodox }
-930.1.1 = { owner = SER controller = SER remove_core = BUL }
-969.1.1 = { owner = BYZ controller = BYZ add_core = BYZ }
-976.1.1 = { owner = BUL controller = BUL add_core = BUL }
-1000.1.1 = { base_manpower = 2 }
-1014.1.1 = { owner = BYZ controller = BYZ remove_core = BUL }
-1100.1.1 = { base_production = 3 }
-1166.1.1 = { owner = SER controller = SER add_core = SER remove_core = BYZ }
-1300.1.1 = { base_tax = 3 }
-1346.1.1 = { capital = "Pristina" }
-1371.12.4 = { owner = KOS controller = KOS add_core = KOS } #District of Brankovic
-1412.1.1 = { owner = SER controller = SER remove_core = KOS }
+1444.11.11 = {
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+add_core = SER capital = "Prizren" culture = serbian religion = slavic
+owner = SER controller = SER remove_core = BYZ
+religion = chalcedonism
+base_tax = 2 base_production = 2
+owner = BUL controller = BUL add_core = BUL remove_core = BYZ
+religion = orthodox
+owner = SER controller = SER remove_core = BUL
+owner = BYZ controller = BYZ add_core = BYZ
+owner = BUL controller = BUL add_core = BUL
+base_manpower = 2
+owner = BYZ controller = BYZ remove_core = BUL
+base_production = 3
+owner = SER controller = SER add_core = SER remove_core = BYZ
+base_tax = 3
+capital = "Pristina"
+owner = KOS controller = KOS add_core = KOS
+owner = SER controller = SER remove_core = KOS
+}
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ #District of Brankovic
+
 
 1456.1.1 = {
 	owner = TUR

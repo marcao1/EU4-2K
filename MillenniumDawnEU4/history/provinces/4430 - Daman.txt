@@ -21,18 +21,32 @@ base_manpower = 1
 is_city = yes
 add_core = WSA
 
-260.1.1 = { owner = ABH controller = ABH add_core = ABH remove_core = WSA }
-388.1.1 = { owner = KNK controller = KNK add_core = KNK remove_core = ABH }
-500.1.1 = { owner = KLC controller = KLC add_core = KLC remove_core = KNK }
-620.1.1 = { owner = CLY controller = CLY add_core = CLY remove_core = KLC }
-660.1.1 = { religion = zoroastrian } #Zoroastrian refugees fleeing from Islam
-753.1.1 = { owner = RSH controller = RSH add_core = RSH remove_core = CLY }
-800.1.1 = { owner = KNK controller = KNK add_core = KNK remove_core = RSH discovered_by = nomad_group }
-1000.1.1 = { base_tax = 3 base_production = 3 }
-1200.1.1 = { base_tax = 4 base_production = 4 }
-1265.1.1 = { owner = YAD controller = YAD add_core = YAD remove_core = KNK }
-1317.1.1 = { owner = DLH controller = DLH add_core = DLH remove_core = YAD }
-1391.1.1 = { owner = GUJ controller = GUJ add_core = GUJ remove_core = DLH }
+1444.11.11 = {
+owner = ABH controller = ABH add_core = ABH remove_core = WSA
+owner = KNK controller = KNK add_core = KNK remove_core = ABH
+owner = KLC controller = KLC add_core = KLC remove_core = KNK
+owner = CLY controller = CLY add_core = CLY remove_core = KLC
+religion = zoroastrian
+owner = RSH controller = RSH add_core = RSH remove_core = CLY
+owner = KNK controller = KNK add_core = KNK remove_core = RSH discovered_by = nomad_group
+base_tax = 3 base_production = 3
+base_tax = 4 base_production = 4
+owner = YAD controller = YAD add_core = YAD remove_core = KNK
+owner = DLH controller = DLH add_core = DLH remove_core = YAD
+owner = GUJ controller = GUJ add_core = GUJ remove_core = DLH
+}
+
+
+
+
+ #Zoroastrian refugees fleeing from Islam
+
+
+
+
+
+
+
 
 1498.1.1 = { discovered_by = POR }
 1531.12.23 = {

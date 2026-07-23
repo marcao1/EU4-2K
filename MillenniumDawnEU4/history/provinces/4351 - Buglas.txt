@@ -15,13 +15,14 @@ native_size = 70
 native_ferocity = 2
 native_hostileness = 9
 
-1200.1.1 = {
-	add_core = MAS
+1444.11.11 = {
+add_core = MAS
 	owner = MAS
 	controller = MAS
 	is_city = yes
 	trade_goods = sugar
 }
+
 
 1521.1.1 = { discovered_by = SPA } # Ferdinand Magellan 
 1565.1.1 = {

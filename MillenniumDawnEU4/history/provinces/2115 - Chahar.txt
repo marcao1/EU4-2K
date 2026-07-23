@@ -18,16 +18,28 @@ base_manpower = 3
 is_city = yes
 add_core = WUH
 
-207.10.1 = { owner = KMX controller = KMX add_core = KMX remove_core = WUH }
-847.1.1 = { owner = KHT controller = KHT add_core = KHT remove_core = KMX }
-907.1.1 = { owner = LIO controller = LIO add_core = LIO remove_core = KHT }
-1120.1.1 = { culture = chahar }
-1125.1.1 = { owner = TAT controller = TAT add_core = TAT remove_core = LIO }
-1206.1.1 = { owner = KHA controller = KHA add_core = KHA remove_core = TAT }
-1265.1.1 = { religion = vajrayana }
-1271.1.1 = { owner = YUA controller = YUA add_core = YUA remove_core = KHA }
-1368.1.23 = { owner = KRC controller = KRC add_core = KRC remove_core = YUA }
-1387.7.14 = { owner = KHA controller = KHA add_core = KHA add_core = CHH remove_core = KRC }
+1444.11.11 = {
+owner = KMX controller = KMX add_core = KMX remove_core = WUH
+owner = KHT controller = KHT add_core = KHT remove_core = KMX
+owner = LIO controller = LIO add_core = LIO remove_core = KHT
+culture = chahar
+owner = TAT controller = TAT add_core = TAT remove_core = LIO
+owner = KHA controller = KHA add_core = KHA remove_core = TAT
+religion = vajrayana
+owner = YUA controller = YUA add_core = YUA remove_core = KHA
+owner = KRC controller = KRC add_core = KRC remove_core = YUA
+owner = KHA controller = KHA add_core = KHA add_core = CHH remove_core = KRC
+}
+
+
+
+
+
+
+
+
+
+
 
 1552.1.1 = {	owner = KHA
 		controller = KHA

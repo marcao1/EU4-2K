@@ -16,17 +16,28 @@ base_manpower = 3
 is_city = yes
 add_core = KIB
 
-580.1.1 = { owner = YAM controller = YAM add_core = YAM remove_core = KIB }
-607.1.1 = { religion = mahayana }
-712.1.1 = { religion = shinto }
-794.1.1 = { owner = JAP controller = JAP add_core = JAP remove_core = YAM }
-1160.2.5 = { owner = TIA controller = TIA add_core = TIA remove_core = JAP } #Heiji Rebellion
-1185.6.19 = { owner = JAP controller = JAP remove_core = TIA } #Genpei War, Taira defeated
-1221.5.14 = { owner = HJO controller = HJO add_core = HJO remove_core = JAP } #Jokyu War
-1333.5.18 = { owner = TKD controller = TKD add_core = TKD remove_core = HJO } #Kenmu restoration, granted to Takeda Nobutake
-1359.8.7 = { owner = HSK controller = HSK add_core = HSK remove_core = TKD } #Death of Takeda Nobutake
+1444.11.11 = {
+owner = YAM controller = YAM add_core = YAM remove_core = KIB
+religion = mahayana
+religion = shinto
+owner = JAP controller = JAP add_core = JAP remove_core = YAM
+owner = TIA controller = TIA add_core = TIA remove_core = JAP
+owner = JAP controller = JAP remove_core = TIA
+owner = HJO controller = HJO add_core = HJO remove_core = JAP
+owner = TKD controller = TKD add_core = TKD remove_core = HJO
+owner = HSK controller = HSK add_core = HSK remove_core = TKD
+add_core = OUC
+}
 
-1420.1.1 = { add_core = OUC }
+
+
+
+ #Heiji Rebellion
+ #Genpei War, Taira defeated
+ #Jokyu War
+ #Kenmu restoration, granted to Takeda Nobutake
+ #Death of Takeda Nobutake
+
 1466.1.1 = { add_core = MRI remove_core = HSK }
 1470.1.1 = { owner = OUC controller = OUC }
 1520.1.1 = { add_core = AMA }

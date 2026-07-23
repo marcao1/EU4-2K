@@ -13,7 +13,10 @@ native_size = 40
 native_ferocity = 4
 native_hostileness = 9
 
-1250.1.1 = { owner = DGB controller = DGB add_core = DGB is_city = yes trade_goods = tropical_wood }
+1444.11.11 = {
+owner = DGB controller = DGB add_core = DGB is_city = yes trade_goods = tropical_wood
+}
+
 
 1820.1.1   = { religion = sunni }
 1880.1.1   = { discovered_by = FR2 discovered_by = GBR }

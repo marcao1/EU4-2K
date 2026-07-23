@@ -17,8 +17,12 @@ native_size = 5
 native_ferocity = 1 
 native_hostileness = 2
 
-567.1.1 = { owner = TLT controller = TLT add_core = TLT } # Treaty between Toltecs and Chichimeca
-1122.1.1 = { owner = GAM controller = GAM add_core = GAM remove_core = TLT }
+1444.11.11 = {
+owner = TLT controller = TLT add_core = TLT
+owner = GAM controller = GAM add_core = GAM remove_core = TLT
+}
+ # Treaty between Toltecs and Chichimeca
+
 
 1532.1.1 = { 
 	discovered_by = SPA

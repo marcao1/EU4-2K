@@ -20,19 +20,34 @@ base_manpower = 1
 is_city = yes
 add_core = ROM
 
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-455.1.1 = { owner = OST controller = OST add_core = OST remove_core = ROW }
-480.1.1 = { religion = arianism }
-530.1.1 = { owner = GEP controller = GEP add_core = GEP remove_core = OST }
-567.1.1 = { owner = AVR controller = AVR add_core = AVR remove_core = GEP }
-600.1.1 = { base_tax = 2 base_production = 2 religion = tengri_pagan_reformed }
-630.1.1 = { add_core = CRO capital = "Bjelovar" culture = croatian religion = slavic }
-790.1.1 = { owner = PNN controller = PNN add_core = PNN remove_core = AVR }
-800.1.1 = { base_production = 3 }
-870.1.1 = { religion = catholic }
-897.1.1 = { owner = CRO controller = CRO add_core = CRO remove_core = PNN }
-1387.1.1 = { owner = BOS controller = BOS add_core = BOS }
-1390.1.1 = { owner = CRO controller = CRO remove_core = BOS }
+1444.11.11 = {
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+owner = OST controller = OST add_core = OST remove_core = ROW
+religion = arianism
+owner = GEP controller = GEP add_core = GEP remove_core = OST
+owner = AVR controller = AVR add_core = AVR remove_core = GEP
+base_tax = 2 base_production = 2 religion = tengri_pagan_reformed
+add_core = CRO capital = "Bjelovar" culture = croatian religion = slavic
+owner = PNN controller = PNN add_core = PNN remove_core = AVR
+base_production = 3
+religion = catholic
+owner = CRO controller = CRO add_core = CRO remove_core = PNN
+owner = BOS controller = BOS add_core = BOS
+owner = CRO controller = CRO remove_core = BOS
+}
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
+
 
 1526.8.30 = {
 	owner = HAB

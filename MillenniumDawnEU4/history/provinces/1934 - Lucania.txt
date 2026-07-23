@@ -20,18 +20,32 @@ capital = "Potentia"
 is_city = yes 
 add_core = ROM
 
-380.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-476.9.4 = { owner = ITA controller = ITA add_core = ITA capital = "Potenza" }
-480.1.1 = { remove_core = ROW }
-489.1.1 = { owner = OST controller = OST add_core = OST remove_core = ITA }
-536.1.1 = { owner = BYZ controller = BYZ add_core = BYZ remove_core = OST }
-600.1.1 = { culture = griko }
-847.1.1 = { owner = BAE controller = BAE add_core = BAE remove_core = BYZ }
-867.1.1 = { religion = catholic }
-871.1.1 = { owner = SAE controller = SAE add_core = SAE remove_core = BAE }
-1076.12.13 = { owner = SIC controller = SIC add_core = SIC culture = neapolitan }
-1282.1.1 = { owner = NAP controller = NAP add_core = NAP remove_core = SIC }
+1444.11.11 = {
+religion = chalcedonism
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+owner = ITA controller = ITA add_core = ITA capital = "Potenza"
+remove_core = ROW
+owner = OST controller = OST add_core = OST remove_core = ITA
+owner = BYZ controller = BYZ add_core = BYZ remove_core = OST
+culture = griko
+owner = BAE controller = BAE add_core = BAE remove_core = BYZ
+religion = catholic
+owner = SAE controller = SAE add_core = SAE remove_core = BAE
+owner = SIC controller = SIC add_core = SIC culture = neapolitan
+owner = NAP controller = NAP add_core = NAP remove_core = SIC
+}
+
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
 
 1494.1.1  = { add_core = FRA } # Angevine claims
 1495.2.22 = { controller = FRA } # Charles VIII invades Naples

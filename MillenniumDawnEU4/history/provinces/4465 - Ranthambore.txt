@@ -23,14 +23,24 @@ base_manpower = 1
 is_city = yes
 add_core = PDM
 
-360.1.1 = { owner = GUP controller = GUP add_core = GUP }
-540.1.1 = { owner = HRS controller = HRS add_core = HRS remove_core = GUP }
-647.1.1 = { owner = GRP controller = GRP add_core = GRP remove_core = HRS }
-1036.1.1 = { owner = CCH controller = CCH add_core = CCH remove_core = GRP }
-1192.1.1 = { owner = RAN controller = RAN add_core = RAN remove_core = CCH }
-1250.1.1 = { fort_15th = yes }
-1301.7.10 = { owner = DLH controller = DLH add_core = DLH }
-1350.1.1 = { owner = MER controller = MER add_core = MER remove_core = DLH }
+1444.11.11 = {
+owner = GUP controller = GUP add_core = GUP
+owner = HRS controller = HRS add_core = HRS remove_core = GUP
+owner = GRP controller = GRP add_core = GRP remove_core = HRS
+owner = CCH controller = CCH add_core = CCH remove_core = GRP
+owner = RAN controller = RAN add_core = RAN remove_core = CCH
+fort_15th = yes
+owner = DLH controller = DLH add_core = DLH
+owner = MER controller = MER add_core = MER remove_core = DLH
+}
+
+
+
+
+
+
+
+
 
 1456.1.1 = {
 	owner = MLW

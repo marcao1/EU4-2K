@@ -22,20 +22,34 @@ base_manpower = 2
 is_city = yes
 add_core = ROM
 
-340.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-867.1.1 = { religion = orthodox }
-900.1.1 = { base_manpower = 3 }
-1100.1.1 = { base_tax = 4 base_production = 4 }
-1204.4.13 = { owner = NCA controller = NCA add_core = NCA }
-1205.1.1 = { owner = LAE controller = LAE add_core = LAE }
-1225.1.1 = { owner = NCA controller = NCA remove_core = LAE }
-1261.1.1 = { owner = BYZ controller = BYZ remove_core = NCA }
-1326.1.1 = { owner = TUR controller = TUR add_core = TUR capital = "Biga" }
-1340.1.1 = { religion = sunni culture = turkish remove_core = BYZ }
+1444.11.11 = {
+religion = chalcedonism
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+religion = orthodox
+base_manpower = 3
+base_tax = 4 base_production = 4
+owner = NCA controller = NCA add_core = NCA
+owner = LAE controller = LAE add_core = LAE
+owner = NCA controller = NCA remove_core = LAE
+owner = BYZ controller = BYZ remove_core = NCA
+owner = TUR controller = TUR add_core = TUR capital = "Biga"
+religion = sunni culture = turkish remove_core = BYZ
+revolt = { type = pretender_rebels size = 0 } controller = REB
+revolt = {} controller = TUR
+}
 
-1402.1.1 = { revolt = { type = pretender_rebels size = 0 } controller = REB } # Interregnum
-1404.1.1 = { revolt = {} controller = TUR }
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+ # Interregnum
+
 1462.1.1 = { fort_15th = yes } #Kala-i Sultaniye was completed
 1482.7.26 = { revolt = {} controller = TUR } # Jem escapes to Rhodes
 1509.1.1 = { revolt = { type = revolutionary_rebels size = 0 } controller = REB } # Civil war

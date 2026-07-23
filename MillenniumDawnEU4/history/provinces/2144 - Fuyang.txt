@@ -19,26 +19,48 @@ is_city = yes
 add_core = HND
 add_core = WEI
 
-9.1.10 = { owner = XIN controller = XIN add_core = XIN }
-23.10.5 = { owner = HND controller = HND remove_core = XIN }
-189.9.28 = { owner = ZHO controller = ZHO add_core = ZHO remove_core = HND }
-199.6.1 = { owner = WEI controller = WEI add_core = WEI remove_core = ZHO }
-265.2.4 = { owner = JIN controller = JIN add_core = JIN remove_core = WEI }
-420.1.1 = { owner = LSO controller = LSO add_core = LSO remove_core = JIN }
-479.1.1 = { owner = QIC controller = QIC add_core = QIC remove_core = LSO }
-577.2.28 = { owner = CZH controller = CZH add_core = CZH remove_core = QIC }
-581.3.4 = { owner = SUI controller = SUI add_core = SUI remove_core = CZH }
-621.6.4 = { owner = TNG controller = TNG add_core = TNG remove_core = SUI }
-907.6.1 = { owner = LNG controller = LNG add_core = LNG remove_core = TNG }
-923.11.19 = { owner = TNG controller = TNG add_core = TNG remove_core = LNG }
-975.1.1 = { owner = SNG controller = SNG add_core = SNG remove_core = TNG }
-1127.1.1 = { owner = CJN controller = CJN add_core = CJN remove_core = SNG }
-1234.2.9 = { owner = KHA controller = KHA add_core = KHA add_core = CSH remove_core = CJN }
-1271.1.1 = { owner = YUA controller = YUA add_core = YUA remove_core = KHA }
-1351.1.1 = { revolt = { type = nationalist_rebels size = 3 } controller = REB } # Red Turban Rebellion
-1361.1.1 = { revolt = {} owner = CZH controller = CZH add_core = CZH } 
-1367.10.1 = { owner = MNG controller = MNG add_core = MNG }
-1368.1.23 = { remove_core = YUA }
+1444.11.11 = {
+owner = XIN controller = XIN add_core = XIN
+owner = HND controller = HND remove_core = XIN
+owner = ZHO controller = ZHO add_core = ZHO remove_core = HND
+owner = WEI controller = WEI add_core = WEI remove_core = ZHO
+owner = JIN controller = JIN add_core = JIN remove_core = WEI
+owner = LSO controller = LSO add_core = LSO remove_core = JIN
+owner = QIC controller = QIC add_core = QIC remove_core = LSO
+owner = CZH controller = CZH add_core = CZH remove_core = QIC
+owner = SUI controller = SUI add_core = SUI remove_core = CZH
+owner = TNG controller = TNG add_core = TNG remove_core = SUI
+owner = LNG controller = LNG add_core = LNG remove_core = TNG
+owner = TNG controller = TNG add_core = TNG remove_core = LNG
+owner = SNG controller = SNG add_core = SNG remove_core = TNG
+owner = CJN controller = CJN add_core = CJN remove_core = SNG
+owner = KHA controller = KHA add_core = KHA add_core = CSH remove_core = CJN
+owner = YUA controller = YUA add_core = YUA remove_core = KHA
+revolt = { type = nationalist_rebels size = 3 } controller = REB
+revolt = {} owner = CZH controller = CZH add_core = CZH
+owner = MNG controller = MNG add_core = MNG
+remove_core = YUA
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ # Red Turban Rebellion
+ 
+
+
 
 1608.1.1 = { discovered_by = SPA }
 1645.6.1 = {	owner = QNG

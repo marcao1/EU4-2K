@@ -14,9 +14,9 @@ native_hostileness = 9
 discovered_by = east_african
 discovered_by = central_african
 
-300.1.1 = { culture = swahili }
-850.1.1 = { 	
-	discovered_by = early_indian
+1444.11.11 = {
+culture = swahili
+discovered_by = early_indian
 	discovered_by = indian
 	discovered_by = asian
 	discovered_by = muslim
@@ -27,8 +27,11 @@ discovered_by = central_african
 	is_city = yes 
 	trade_goods = ivory 
 	add_local_autonomy = 25
+religion = sunni
 }
-1200.1.1 = { religion = sunni }
+
+
+
 
 1498.3.15 = { discovered_by = POR } #Vasco Da Gama
 1511.1.1 = { unrest = 8 } #unrest against presence of Portuguese by Angoche sultans

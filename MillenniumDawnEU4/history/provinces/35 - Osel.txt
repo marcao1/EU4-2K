@@ -12,11 +12,18 @@ native_hostileness = 3
 native_size = 10
 native_ferocity = 2
 
-500.1.1 = { discovered_by = eastern }
-550.1.1 = { owner = EST controller = EST add_core = EST is_city = yes trade_goods = grain }
-700.1.1 = { discovered_by = western }
-1227.1.1 = { owner = LIV controller = LIV add_core = LIV religion = catholic }
-1300.1.1 = { remove_core = EST }
+1444.11.11 = {
+discovered_by = eastern
+owner = EST controller = EST add_core = EST is_city = yes trade_goods = grain
+discovered_by = western
+owner = LIV controller = LIV add_core = LIV religion = catholic
+remove_core = EST
+}
+
+
+
+
+
 
 1542.1.1   = { religion = protestant } # Unknown date
 1559.1.1   = {	owner = DAN
@@ -30,7 +37,7 @@ native_ferocity = 2
 		controller = SWE
 		add_core = SWE
 		remove_core = DAN
-		} # The Peace of Brömsebro
+		} # The Peace of Brï¿½msebro
 1710.9.20  = { controller = RUS } # Estimated date
 1721.8.30  = {	owner = RUS
 		add_core = RUS 

@@ -18,13 +18,22 @@ base_manpower = 1
 is_city = yes
 add_core = KUY
 
-450.1.1 = { owner = CNA controller = CNA add_core = CNA remove_core = KUY }
-700.1.1 = { religion = mahayana }
-707.2.6 = { owner = KUY controller = KUY add_core = KUY remove_core = CNA }
-800.1.1 = { base_tax = 2 base_production = 2 }
-810.1.1 = { owner = CMB controller = CMB add_core = CMB remove_core = KUY }
-1310.1.1 = { religion = buddhism }
-1354.1.1 = { owner = LXA controller = LXA add_core = LXA remove_core = CMB }
+1444.11.11 = {
+owner = CNA controller = CNA add_core = CNA remove_core = KUY
+religion = mahayana
+owner = KUY controller = KUY add_core = KUY remove_core = CNA
+base_tax = 2 base_production = 2
+owner = CMB controller = CMB add_core = CMB remove_core = KUY
+religion = buddhism
+owner = LXA controller = LXA add_core = LXA remove_core = CMB
+}
+
+
+
+
+
+
+
 
 1535.1.1 = { discovered_by = POR }
 1579.1.1 = { unrest = 5 } # Revolt against vassalization

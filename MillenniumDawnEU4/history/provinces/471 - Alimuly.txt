@@ -16,20 +16,34 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-160.1.1 = { owner = HNS controller = HNS add_core = HNS is_city = yes trade_goods = livestock }
-370.1.1 = { add_core = OGH culture = turkmeni }
-448.1.1 = { owner = OGH controller = OGH remove_core = HNS }
-593.1.1 = { owner = WGO controller = WGO add_core = WGO remove_core = OGH }
-659.1.1 = { owner = KGA controller = KGA add_core = KGA remove_core = WGO }
-750.1.1 = { owner = OGH controller = OGH add_core = OGH remove_core = KGA }
-900.1.1 = { religion = sunni }
-1043.1.1 = { owner = CUM controller = CUM add_core = CUM remove_core = OGH }
-1236.1.1 = { owner = KHA controller = KHA add_core = KHA remove_core = CUM culture = nogaybak }
-1260.1.1 = { owner = BHO controller = BHO add_core = BHO remove_core = KHA }
-1378.1.1 = { owner = GLH controller = GLH add_core = GLH }
-1394.1.1 = { owner = KZH controller = KZH add_core = KZH remove_core = GLH }
+1444.11.11 = {
+owner = HNS controller = HNS add_core = HNS is_city = yes trade_goods = livestock
+add_core = OGH culture = turkmeni
+owner = OGH controller = OGH remove_core = HNS
+owner = WGO controller = WGO add_core = WGO remove_core = OGH
+owner = KGA controller = KGA add_core = KGA remove_core = WGO
+owner = OGH controller = OGH add_core = OGH remove_core = KGA
+religion = sunni
+owner = CUM controller = CUM add_core = CUM remove_core = OGH
+owner = KHA controller = KHA add_core = KHA remove_core = CUM culture = nogaybak
+owner = BHO controller = BHO add_core = BHO remove_core = KHA
+owner = GLH controller = GLH add_core = GLH
+owner = KZH controller = KZH add_core = KZH remove_core = GLH
+owner = NOG controller = NOG add_core = NOG remove_core = KZH
+}
 
-1406.1.1 = { owner = NOG controller = NOG add_core = NOG remove_core = KZH }
+
+
+
+
+
+
+
+
+
+
+
+
 1520.1.1  = { owner = KZH controller = KZH add_core = KZH remove_core = NOG culture = khazak } # Qasim Khan conquers Nogai lands
 1622.1.1 = { discovered_by = RUS }
 

@@ -16,17 +16,30 @@ base_manpower = 3
 is_city = yes
 add_core = OWA
 
-320.1.1 = { owner = YAM controller = YAM add_core = YAM remove_core = OWA }
-607.1.1 = { religion = mahayana }
-712.1.1 = { religion = shinto }
-794.1.1 = { owner = JAP controller = JAP add_core = JAP remove_core = YAM }
-1160.2.5 = { owner = TIA controller = TIA add_core = TIA remove_core = JAP } #Heiji Rebellion
-1185.6.19 = { owner = ADC controller = ADC add_core = ADC remove_core = TIA } #Genpei War, Taira defeated
-1203.9.2 = { owner = HJO controller = HJO add_core = HJO remove_core = KMK } #Hiki clan ended by Hojo
-1333.5.18 = { owner = JAP controller = JAP add_core = JAP remove_core = HJO } #Kenmu restoration
-1338.2.23 = { owner = ASK controller = ASK add_core = ASK remove_core = JAP } #Ashikaga Shogunate (Actually Ko clan, but no tag for it)
-1352.1.1 = { owner = ISK controller = ISK add_core = ISK remove_core = ASK } #Kanno Disturbance
-1441.7.12 = { owner = TKG controller = TKG add_core = TKG } #Decreased Isshiki influence after death of Ashikaga Yoshinori
+1444.11.11 = {
+owner = YAM controller = YAM add_core = YAM remove_core = OWA
+religion = mahayana
+religion = shinto
+owner = JAP controller = JAP add_core = JAP remove_core = YAM
+owner = TIA controller = TIA add_core = TIA remove_core = JAP
+owner = ADC controller = ADC add_core = ADC remove_core = TIA
+owner = HJO controller = HJO add_core = HJO remove_core = KMK
+owner = JAP controller = JAP add_core = JAP remove_core = HJO
+owner = ASK controller = ASK add_core = ASK remove_core = JAP
+owner = ISK controller = ISK add_core = ISK remove_core = ASK
+owner = TKG controller = TKG add_core = TKG
+}
+
+
+
+
+ #Heiji Rebellion
+ #Genpei War, Taira defeated
+ #Hiki clan ended by Hojo
+ #Kenmu restoration
+ #Ashikaga Shogunate (Actually Ko clan, but no tag for it)
+ #Kanno Disturbance
+ #Decreased Isshiki influence after death of Ashikaga Yoshinori
 
 1549.4.3 = { owner = IMG controller = IMG add_core = IMG }
 1560.6.12 = { owner = TKG controller = TKG remove_core = IMG }

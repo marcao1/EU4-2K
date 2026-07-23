@@ -16,13 +16,22 @@ base_manpower = 2
 is_city = yes
 add_core = KEO
 
-500.1.1 = { owner = YAM controller = YAM add_core = YAM remove_core = KEO culture = japanese }
-607.1.1 = { religion = mahayana }
-712.1.1 = { religion = shinto }
-794.1.1 = { owner = JAP controller = JAP add_core = JAP remove_core = YAM }
-800.1.1 = { base_tax = 3 base_production = 3 }
-1000.1.1 = { base_manpower = 3 }
-1130.1.1 = { owner = TKD controller = TKD add_core = TKD remove_core = JAP } #Takeda clan established
+1444.11.11 = {
+owner = YAM controller = YAM add_core = YAM remove_core = KEO culture = japanese
+religion = mahayana
+religion = shinto
+owner = JAP controller = JAP add_core = JAP remove_core = YAM
+base_tax = 3 base_production = 3
+base_manpower = 3
+owner = TKD controller = TKD add_core = TKD remove_core = JAP
+}
+
+
+
+
+
+
+ #Takeda clan established
 
 1498.1.1 = { trade_goods = gold } # Kurokawa gold mine discovered
 1542.1.1 = { discovered_by = POR }

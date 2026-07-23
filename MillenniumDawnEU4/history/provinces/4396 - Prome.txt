@@ -18,11 +18,18 @@ base_manpower = 3
 is_city = yes
 add_core = SRK
 
-900.1.1 = { culture = burmese }
-901.1.1 = { base_tax = 4 base_production = 4 }
-1044.1.1 = { owner = PAG controller = PAG add_core = PAG }
-1057.1.1 = { capital = "Prome" }
-1275.1.1 = { owner = BPR controller = BPR add_core = BPR remove_core = PAG }
+1444.11.11 = {
+culture = burmese
+base_tax = 4 base_production = 4
+owner = PAG controller = PAG add_core = PAG
+capital = "Prome"
+owner = BPR controller = BPR add_core = BPR remove_core = PAG
+}
+
+
+
+
+
 
 1535.1.1 = { discovered_by = POR }
 1542.1.1 = {

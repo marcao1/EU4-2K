@@ -16,14 +16,24 @@ base_manpower = 2
 is_city = yes
 add_core = KIB
 
-530.1.1 = { owner = YAM controller = YAM add_core = YAM remove_core = KIB }
-607.1.1 = { religion = mahayana }
-712.1.1 = { religion = shinto }
-794.1.1 = { owner = JAP controller = JAP add_core = JAP remove_core = YAM }
-1160.2.5 = { owner = AKM controller = AKM add_core = AKM remove_core = YAM } #Heiji Rebellion
-1370.1.1 = { owner = YMN controller = YMN add_core = YMN } #Date uncertain
-1392.1.1 = { owner = AKM controller = AKM add_core = AKM } #Meitoku rebellion
-1441.1.1  = { owner = YMN controller = YMN add_core = YMN } #Ashikaga Shogunate
+1444.11.11 = {
+owner = YAM controller = YAM add_core = YAM remove_core = KIB
+religion = mahayana
+religion = shinto
+owner = JAP controller = JAP add_core = JAP remove_core = YAM
+owner = AKM controller = AKM add_core = AKM remove_core = YAM
+owner = YMN controller = YMN add_core = YMN
+owner = AKM controller = AKM add_core = AKM
+owner = YMN controller = YMN add_core = YMN
+}
+
+
+
+
+ #Heiji Rebellion
+ #Date uncertain
+ #Meitoku rebellion
+ #Ashikaga Shogunate
 
 1468.1.1 = { owner = AKM controller = AKM }
 1488.1.1 = { remove_core = YMN }

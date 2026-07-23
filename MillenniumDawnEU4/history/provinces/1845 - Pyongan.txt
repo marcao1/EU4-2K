@@ -19,22 +19,40 @@ is_city = yes
 add_core = HND
 add_core = WEI
 
-9.1.10 = { owner = XIN controller = XIN add_core = XIN }
-23.10.5 = { owner = HND controller = HND remove_core = XIN }
-189.9.28 = { owner = YAN controller = YAN add_core = YAN remove_core = HND }
-238.1.1 = { owner = WEI controller = WEI add_core = WEI }
-265.2.4 = { owner = JIN controller = JIN add_core = JIN remove_core = WEI }
-329.1.1 = { owner = GOG controller = GOG add_core = GOG remove_core = JIN }
-372.1.1 = { religion = mahayana }
-668.1.1 = { owner = TNG controller = TNG add_core = TNG }
-676.1.1 = { owner = SLL controller = SLL add_core = SLL remove_core = TNG remove_core = GOG }
-820.1.1 = { owner = BLH controller = BLH add_core = BLH remove_core = SLL }
-918.1.1 = { owner = GOR controller = GOR add_core = GOR remove_core = BLH }
-1000.1.1 = { base_manpower = 3 }
-1235.1.1 = { owner = KHA controller = KHA add_core = KHA }
-1271.1.1 = { owner = YUA controller = YUA add_core = YUA remove_core = KHA }
-1290.1.1 = { owner = GOR controller = GOR add_core = GOR remove_core = YUA }
-1392.7.12 = { owner = KOR controller = KOR add_core = KOR remove_core = GOR religion = confucianism }
+1444.11.11 = {
+owner = XIN controller = XIN add_core = XIN
+owner = HND controller = HND remove_core = XIN
+owner = YAN controller = YAN add_core = YAN remove_core = HND
+owner = WEI controller = WEI add_core = WEI
+owner = JIN controller = JIN add_core = JIN remove_core = WEI
+owner = GOG controller = GOG add_core = GOG remove_core = JIN
+religion = mahayana
+owner = TNG controller = TNG add_core = TNG
+owner = SLL controller = SLL add_core = SLL remove_core = TNG remove_core = GOG
+owner = BLH controller = BLH add_core = BLH remove_core = SLL
+owner = GOR controller = GOR add_core = GOR remove_core = BLH
+base_manpower = 3
+owner = KHA controller = KHA add_core = KHA
+owner = YUA controller = YUA add_core = YUA remove_core = KHA
+owner = GOR controller = GOR add_core = GOR remove_core = YUA
+owner = KOR controller = KOR add_core = KOR remove_core = GOR religion = confucianism
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1519.1.1 = { discovered_by = POR } # Tome Pires
 1592.7.19 = { unrest = 5 } # Japanese invasion

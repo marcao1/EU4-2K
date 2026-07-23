@@ -18,9 +18,14 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-372.1.1 = { religion = mahayana }
-1105.1.1 = { owner = GOR controller = GOR add_core = GOR }
-1392.7.12 = { owner = KOR controller = KOR add_core = KOR remove_core = GOR religion = confucianism }
+1444.11.11 = {
+religion = mahayana
+owner = GOR controller = GOR add_core = GOR
+owner = KOR controller = KOR add_core = KOR remove_core = GOR religion = confucianism
+}
+
+
+
 
 1542.1.1 = { discovered_by = POR }
 1597.9.26 = { controller = TYT } # Second Japanese invasion - Battle of Namwon

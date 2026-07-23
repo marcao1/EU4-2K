@@ -18,15 +18,26 @@ base_manpower = 1
 is_city = yes
 add_core = JNT
 
-600.1.1 = { base_tax = 2 base_production = 2 }
-610.1.1 = { religion = hinduism }
-630.1.1 = { owner = GOU controller = GOU add_core = GOU remove_core = JNT }
-800.1.1 = { base_manpower = 2 discovered_by = nomad_group }
-1000.1.1 = { base_tax = 3 base_production = 3 }
-1303.1.1 = { owner = BNG controller = BNG add_core = BNG }
-1324.1.1 = { owner = DLH controller = DLH add_core = DLH }
-1338.1.1 = { owner = BNG controller = BNG remove_core = DLH }
-1350.1.1 = { culture = bengali }
+1444.11.11 = {
+base_tax = 2 base_production = 2
+religion = hinduism
+owner = GOU controller = GOU add_core = GOU remove_core = JNT
+base_manpower = 2 discovered_by = nomad_group
+base_tax = 3 base_production = 3
+owner = BNG controller = BNG add_core = BNG
+owner = DLH controller = DLH add_core = DLH
+owner = BNG controller = BNG remove_core = DLH
+culture = bengali
+}
+
+
+
+
+
+
+
+
+
 
 1576.7.12 = {
 	owner = MUG

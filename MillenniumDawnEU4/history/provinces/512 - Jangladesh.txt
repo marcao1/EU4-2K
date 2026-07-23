@@ -24,17 +24,30 @@ base_manpower = 1
 is_city = yes
 add_core = YAU
 
-180.1.1 = { owner = KUS controller = KUS add_core = KUS }
-270.1.1 = { owner = YAU controller = YAU add_core = YAU remove_core = KUS }
-375.1.1 = { owner = GUP controller = GUP add_core = GUP remove_core = YAU }
-498.1.1 = { owner = KAP controller = KAP add_core = HRS remove_core = GUP }
-528.1.1 = { owner = MLW controller = MLW }
-540.1.1 = { owner = HRS controller = HRS }
-647.1.1 = { owner = GRP controller = GRP add_core = GRP remove_core = HRS }
-1002.1.1 = { owner = GHZ controller = GHZ add_core = GHZ remove_core = GRP }
-1187.1.1 = { owner = GHU controller = GHU add_core = GHU remove_core = GHZ }
-1206.1.1 = { owner = DLH controller = DLH add_core = DLH add_core = JAN remove_core = GHU }
-1226.1.1 = { owner = JAN controller = JAN remove_core = DLH }
+1444.11.11 = {
+owner = KUS controller = KUS add_core = KUS
+owner = YAU controller = YAU add_core = YAU remove_core = KUS
+owner = GUP controller = GUP add_core = GUP remove_core = YAU
+owner = KAP controller = KAP add_core = HRS remove_core = GUP
+owner = MLW controller = MLW
+owner = HRS controller = HRS
+owner = GRP controller = GRP add_core = GRP remove_core = HRS
+owner = GHZ controller = GHZ add_core = GHZ remove_core = GRP
+owner = GHU controller = GHU add_core = GHU remove_core = GHZ
+owner = DLH controller = DLH add_core = DLH add_core = JAN remove_core = GHU
+owner = JAN controller = JAN remove_core = DLH
+}
+
+
+
+
+
+
+
+
+
+
+
 
 1485.1.1 = { capital = "Rati Ghati" }
 1488.1.1 = { capital = "Bikaner" }

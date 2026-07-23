@@ -20,12 +20,20 @@ discovered_by = east_african
 base_tax = 1
 base_production = 1
 
-220.1.1 = { owner = AKS controller = AKS add_core = AKS }
-630.1.1 = { owner = AFR controller = AFR add_core = AFR remove_core = AKS }
-840.1.1 = { owner = ADA controller = ADA add_core = ADA remove_core = AFR }
-1150.1.1 = { religion = sunni }
-1185.1.1 = { owner = IFA controller = IFA add_core = IFA remove_core = ADA }
-1415.1.1 = { owner = ADA controller = ADA add_core = ADA remove_core = IFA }
+1444.11.11 = {
+owner = AKS controller = AKS add_core = AKS
+owner = AFR controller = AFR add_core = AFR remove_core = AKS
+owner = ADA controller = ADA add_core = ADA remove_core = AFR
+religion = sunni
+owner = IFA controller = IFA add_core = IFA remove_core = ADA
+owner = ADA controller = ADA add_core = ADA remove_core = IFA
+}
+
+
+
+
+
+
 
 1499.1.1 = { discovered_by = POR }
 1550.1.1 = { discovered_by = TUR }

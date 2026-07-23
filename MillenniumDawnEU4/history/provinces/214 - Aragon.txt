@@ -21,24 +21,44 @@ capital = "Caesaraugusta"
 is_city = yes
 center_of_trade = 1
 
-380.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-456.1.1 = { owner = GVI controller = GVI add_core = GVI }
-458.10.1 = { owner = ROW controller = ROW } #Battle of Arelate
-476.9.4 = { owner = GVI controller = GVI remove_core = ROW }
-700.1.1 = { base_tax = 3 base_production = 3 }
-711.1.1 = { owner = UMA controller = UMA add_core = UMA remove_core = GVI capital = "Saraqusta" fort_15th = yes }
-750.8.6 = { owner = CRD controller = CRD add_core = CRD remove_core = UMA }
-800.1.1 = { base_manpower = 3 }
-867.1.1 = { religion = catholic }
-880.1.1 = { religion = sunni }
-900.1.1 = { base_tax = 4 base_production = 4 culture = andalucian }
-1013.1.1 = { owner = ZAR controller = ZAR add_core = ZAR remove_core = CRD }
-1100.1.1 = { base_tax = 5 base_production = 5 }
-1110.1.1 = { owner = MOR controller = MOR add_core = MOR }
-1118.12.18 = { owner = ARA controller = ARA add_core = ARA remove_core = ZAR remove_core = MOR capital = "Zaragoza" culture = aragonese }
-1120.1.1 = { fort_15th = no }
-1140.1.1 = { religion = catholic }
+1444.11.11 = {
+religion = chalcedonism
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+owner = GVI controller = GVI add_core = GVI
+owner = ROW controller = ROW
+owner = GVI controller = GVI remove_core = ROW
+base_tax = 3 base_production = 3
+owner = UMA controller = UMA add_core = UMA remove_core = GVI capital = "Saraqusta" fort_15th = yes
+owner = CRD controller = CRD add_core = CRD remove_core = UMA
+base_manpower = 3
+religion = catholic
+religion = sunni
+base_tax = 4 base_production = 4 culture = andalucian
+owner = ZAR controller = ZAR add_core = ZAR remove_core = CRD
+base_tax = 5 base_production = 5
+owner = MOR controller = MOR add_core = MOR
+owner = ARA controller = ARA add_core = ARA remove_core = ZAR remove_core = MOR capital = "Zaragoza" culture = aragonese
+fort_15th = no
+religion = catholic
+}
+
+ # Final division of the empire
+
+ #Battle of Arelate
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1516.1.23  = {	controller = SPA
 		owner = SPA

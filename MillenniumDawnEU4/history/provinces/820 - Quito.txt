@@ -15,14 +15,18 @@ native_ferocity = 1
 native_hostileness = 1
 center_of_trade = 1
 
-980.1.1 = {	owner = QTO
+1444.11.11 = {
+owner = QTO
 		controller = QTO
 		add_core = QTO
 		trade_goods = cloth
 		is_city = yes
-	  }
-1000.1.1 = { base_tax = 5 base_production = 5 }
-1100.1.1 = { base_tax = 6 base_production = 6 }
+base_tax = 5 base_production = 5
+base_tax = 6 base_production = 6
+}
+
+
+
 
 1487.1.1  = {
 	owner = INC
@@ -37,7 +41,7 @@ center_of_trade = 1
 		culture = castillian
 		religion = catholic
 	    }# The death of Atahualpa
-1534.12.6  = { capital = "Quito" } # Founded by Sebastián de Belalcázar
+1534.12.6  = { capital = "Quito" } # Founded by Sebastiï¿½n de Belalcï¿½zar
 1558.8.29  = { add_core = SPA }
 1750.1.1   = { add_core = SPA } 
 1751.1.1   = { base_manpower = 3 }

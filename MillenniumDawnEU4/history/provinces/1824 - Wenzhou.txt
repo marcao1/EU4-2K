@@ -19,25 +19,46 @@ is_city = yes
 add_core = HND
 add_core = WUU
 
-9.1.10 = { owner = XIN controller = XIN add_core = XIN }
-23.10.5 = { owner = HND controller = HND remove_core = XIN }
-189.9.28 = { owner = WUU controller = WUU add_core = WUU remove_core = HND }
-280.3.15 = { owner = JIN controller = JIN add_core = JIN remove_core = WUU }
-420.1.1 = { owner = LSO controller = LSO add_core = LSO remove_core = JIN }
-479.1.1 = { owner = QIC controller = QIC add_core = QIC remove_core = LSO }
-502.1.1 = { owner = LNG controller = LNG add_core = LNG remove_core = QIC }
-557.1.1 = { owner = CEN controller = CEN add_core = CEN remove_core = LNG }
-589.3.4 = { owner = SUI controller = SUI add_core = SUI remove_core = CEN }
-618.4.1 = { owner = WUU controller = WUU add_core = WUU remove_core = SUI }
-621.1.1 = { owner = TNG controller = TNG add_core = TNG }
-623.9.1 = { owner = SNG controller = SNG add_core = SNG }
-624.3.1 = { owner = TNG controller = TNG remove_core = SNG }
-700.1.1 = { base_tax = 3 base_production = 3 }
-907.6.1 = { owner = WUY controller = WUY add_core = WUY remove_core = TNG }
-978.1.1 = { owner = SNG controller = SNG add_core = SNG remove_core = WUY }
-1279.3.19 = { owner = YUA controller = YUA add_core = YUA add_core = CZH remove_core = SNG }
-1361.1.1 = { owner = MNG controller = MNG add_core = MNG } 
-1368.1.23 = { remove_core = YUA }
+1444.11.11 = {
+owner = XIN controller = XIN add_core = XIN
+owner = HND controller = HND remove_core = XIN
+owner = WUU controller = WUU add_core = WUU remove_core = HND
+owner = JIN controller = JIN add_core = JIN remove_core = WUU
+owner = LSO controller = LSO add_core = LSO remove_core = JIN
+owner = QIC controller = QIC add_core = QIC remove_core = LSO
+owner = LNG controller = LNG add_core = LNG remove_core = QIC
+owner = CEN controller = CEN add_core = CEN remove_core = LNG
+owner = SUI controller = SUI add_core = SUI remove_core = CEN
+owner = WUU controller = WUU add_core = WUU remove_core = SUI
+owner = TNG controller = TNG add_core = TNG
+owner = SNG controller = SNG add_core = SNG
+owner = TNG controller = TNG remove_core = SNG
+base_tax = 3 base_production = 3
+owner = WUY controller = WUY add_core = WUY remove_core = TNG
+owner = SNG controller = SNG add_core = SNG remove_core = WUY
+owner = YUA controller = YUA add_core = YUA add_core = CZH remove_core = SNG
+owner = MNG controller = MNG add_core = MNG
+remove_core = YUA
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
 
 1519.1.1 = { discovered_by = POR } # Tome Pires
 1646.8.28 = {	owner = QNG

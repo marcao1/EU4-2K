@@ -25,23 +25,42 @@ is_city = yes
 add_core = IPA
 add_core = BAL
 
-46.1.1 = { owner = BAL controller = BAL remove_core = IPA }
-76.1.1 = { owner = KUS controller = KUS add_core = KUS remove_core = BAL }
-270.1.1 = { owner = ABH controller = ABH add_core = ABH remove_core = KUS }
-460.1.1 = { owner = KAP controller = KAP add_core = KAP remove_core = ABH }
-510.1.1 = { owner = SND controller = SND add_core = SND remove_core = KAP }
-711.1.1 = { owner = UMA controller = UMA add_core = UMA remove_core = SND }
-750.8.6 = { owner = ABA controller = ABA add_core = ABA remove_core = UMA }
-800.1.1 = { religion = sunni }
-841.1.1 = { owner = SND controller = SND add_core = SND remove_core = ABA }
-875.1.1 = { owner = SIS controller = SIS add_core = SIS remove_core = SND }
-910.1.1 = { owner = SND controller = SND add_core = SND remove_core = SIS }
-1002.1.1 = { owner = GHZ controller = GHZ add_core = GHZ remove_core = SND }
-1175.1.1 = { owner = GHU controller = GHU add_core = GHU remove_core = GHZ }
-1206.1.1 = { owner = SND controller = SND add_core = SND remove_core = GHU }
-1231.1.1 = { owner = KHA controller = KHA add_core = KHA add_core = BAL remove_core = SND }
-1260.1.1 = { owner = ILK controller = ILK add_core = ILK remove_core = KHA }
-1335.1.1 = { owner = BAL controller = BAL remove_core = ILK }
+1444.11.11 = {
+owner = BAL controller = BAL remove_core = IPA
+owner = KUS controller = KUS add_core = KUS remove_core = BAL
+owner = ABH controller = ABH add_core = ABH remove_core = KUS
+owner = KAP controller = KAP add_core = KAP remove_core = ABH
+owner = SND controller = SND add_core = SND remove_core = KAP
+owner = UMA controller = UMA add_core = UMA remove_core = SND
+owner = ABA controller = ABA add_core = ABA remove_core = UMA
+religion = sunni
+owner = SND controller = SND add_core = SND remove_core = ABA
+owner = SIS controller = SIS add_core = SIS remove_core = SND
+owner = SND controller = SND add_core = SND remove_core = SIS
+owner = GHZ controller = GHZ add_core = GHZ remove_core = SND
+owner = GHU controller = GHU add_core = GHU remove_core = GHZ
+owner = SND controller = SND add_core = SND remove_core = GHU
+owner = KHA controller = KHA add_core = KHA add_core = BAL remove_core = SND
+owner = ILK controller = ILK add_core = ILK remove_core = KHA
+owner = BAL controller = BAL remove_core = ILK
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1595.1.1 = {
 	owner = MUG

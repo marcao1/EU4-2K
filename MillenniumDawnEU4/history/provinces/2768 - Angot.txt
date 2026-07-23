@@ -20,10 +20,16 @@ discovered_by = east_african
 base_tax = 1
 base_production = 1
 
-318.1.1 = { owner = AKS controller = AKS add_core = AKS }
-356.1.1 = { religion = chalcedonism }
-451.11.1 = { religion = coptic }
-960.1.1 = { owner = ETH controller = ETH add_core = ETH remove_core = AKS }
+1444.11.11 = {
+owner = AKS controller = AKS add_core = AKS
+religion = chalcedonism
+religion = coptic
+owner = ETH controller = ETH add_core = ETH remove_core = AKS
+}
+
+
+
+
 
 1475.1.1   = { unrest = 5 } #Repression against the Falasha by Baeda Maryam
 1476.1.1   = { unrest = 0 }

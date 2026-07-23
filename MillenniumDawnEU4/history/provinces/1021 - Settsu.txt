@@ -17,16 +17,28 @@ is_city = yes
 add_core = YAM
 center_of_trade = 1
 
-607.1.1 = { religion = mahayana }
-712.1.1 = { religion = shinto }
-794.1.1 = { owner = JAP controller = JAP add_core = JAP remove_core = YAM }
-800.1.1 = { base_tax = 5 base_production = 5 }
-1000.1.1 = { base_tax = 6 base_production = 6 }
-1040.1.1 = { owner = KMK controller = KMK add_core = KMK remove_core = JAP }
-1192.7.12 = { owner = FUJ controller = FUJ add_core = FUJ remove_core = YAM } #Kamakura Shogunate
-1252.4.1 = { owner = HJO controller = HJO add_core = HJO }
-1333.5.18 = { owner = TAC controller = TAC add_core = TAC remove_core = KMK } #Kenmu restoration, Kusunoki clan
-1390.1.1 = { owner = HSK controller = HSK add_core = HSK remove_core = TAC } #Death of Kusunoki Masanori
+1444.11.11 = {
+religion = mahayana
+religion = shinto
+owner = JAP controller = JAP add_core = JAP remove_core = YAM
+base_tax = 5 base_production = 5
+base_tax = 6 base_production = 6
+owner = KMK controller = KMK add_core = KMK remove_core = JAP
+owner = FUJ controller = FUJ add_core = FUJ remove_core = YAM
+owner = HJO controller = HJO add_core = HJO
+owner = TAC controller = TAC add_core = TAC remove_core = KMK
+owner = HSK controller = HSK add_core = HSK remove_core = TAC
+}
+
+
+
+
+
+
+ #Kamakura Shogunate
+
+ #Kenmu restoration, Kusunoki clan
+ #Death of Kusunoki Masanori
 
 1478.1.1 = { capital = "Sakai" }
 1542.1.1 = { discovered_by = POR }

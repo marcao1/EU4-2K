@@ -18,18 +18,32 @@ discovered_by = PCT
 discovered_by = DMS
 discovered_by = ORD
 
-300.1.1 = { discovered_by = western }
-450.1.1 = { owner = MTH controller = MTH add_core = MTH remove_core = CNN }
-507.1.1 = { owner = FLY controller = FLY add_core = FLY remove_core = MTH }
-600.1.1 = { discovered_by = eastern }
-700.1.1 = { religion = chalcedonism }
-867.1.1 = { religion = catholic }
-897.1.1 = { owner = MTH controller = MTH add_core = MTH }
-900.1.1 = { base_tax = 2 base_production = 2 }
-996.1.1 = { owner = DMS controller = DMS add_core = DMS }
-1002.1.1 = { owner = IRE controller = IRE add_core = IRE remove_core = DMS }
-1014.4.23 = { owner = FLY controller = FLY add_core = FLY remove_core = IRE }
-1100.1.1 = { discovered_by = muslim discovered_by = ottoman }
+1444.11.11 = {
+discovered_by = western
+owner = MTH controller = MTH add_core = MTH remove_core = CNN
+owner = FLY controller = FLY add_core = FLY remove_core = MTH
+discovered_by = eastern
+religion = chalcedonism
+religion = catholic
+owner = MTH controller = MTH add_core = MTH
+base_tax = 2 base_production = 2
+owner = DMS controller = DMS add_core = DMS
+owner = IRE controller = IRE add_core = IRE remove_core = DMS
+owner = FLY controller = FLY add_core = FLY remove_core = IRE
+discovered_by = muslim discovered_by = ottoman
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 1525.1.1 = {
 	owner = ENG

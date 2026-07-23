@@ -13,8 +13,8 @@ native_size = 15
 native_ferocity = 2
 native_hostileness = 5
 
-1200.1.1 = {
-	owner = LIP
+1444.11.11 = {
+owner = LIP
 	controller = LIP
 	add_core = LIP
 	is_city = yes
@@ -22,8 +22,9 @@ native_hostileness = 5
 	trade_goods = grain
 }
 
+
 1519.1.1 = { discovered_by = SPA } # Alonso Alvarez de Pineda
-1685.2.18 = { discovered_by = FRA } # René-Robert Cavelier
+1685.2.18 = { discovered_by = FRA } # Renï¿½-Robert Cavelier
 1718.5.1  = { 	
 	owner = SPA
 	controller = SPA

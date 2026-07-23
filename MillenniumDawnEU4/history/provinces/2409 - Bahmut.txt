@@ -23,23 +23,40 @@ trade_goods = iron
 base_manpower = 1
 capital = "Belgorod"
 
-370.1.1 = { owner = HNS controller = HNS add_core = HNS remove_core = SRT culture = hunnic }
-420.1.1 = { add_core = ONG culture = bulgar }
-469.1.1 = { owner = ONG controller = ONG remove_core = HNS }
-632.1.1 = { owner = BUL controller = BUL add_core = BUL remove_core = ONG }
-720.1.1 = { owner = HUN controller = HUN add_core = HUN remove_core = BUL culture = hungarian }
-840.1.1 = { owner = KHZ controller = KHZ add_core = KHZ remove_core = HUN culture = khazar }
-969.1.1 = { owner = PEC controller = PEC add_core = PEC remove_core = KHZ culture = pecheneg }
-1000.1.1 = { base_tax = 2 base_production = 2 }
-1060.1.1 = { owner = CUM controller = CUM add_core = CUM remove_core = PEC culture = cuman }
-1230.1.1 = { religion = sunni }
-1241.1.1 = { owner = KHA controller = KHA add_core = KHA add_core = ZAZ remove_core = CUM culture = mishary }
-1260.1.1 = { owner = WHH controller = WHH add_core = WHH remove_core = KHA }
-1372.1.1 = { owner = BHO controller = BHO add_core = BHO }
-1374.1.1 = { owner = WHH controller = WHH remove_core = BHO }
-1378.1.1 = { owner = GLH controller = GLH add_core = GLH }
+1444.11.11 = {
+owner = HNS controller = HNS add_core = HNS remove_core = SRT culture = hunnic
+add_core = ONG culture = bulgar
+owner = ONG controller = ONG remove_core = HNS
+owner = BUL controller = BUL add_core = BUL remove_core = ONG
+owner = HUN controller = HUN add_core = HUN remove_core = BUL culture = hungarian
+owner = KHZ controller = KHZ add_core = KHZ remove_core = HUN culture = khazar
+owner = PEC controller = PEC add_core = PEC remove_core = KHZ culture = pecheneg
+base_tax = 2 base_production = 2
+owner = CUM controller = CUM add_core = CUM remove_core = PEC culture = cuman
+religion = sunni
+owner = KHA controller = KHA add_core = KHA add_core = ZAZ remove_core = CUM culture = mishary
+owner = WHH controller = WHH add_core = WHH remove_core = KHA
+owner = BHO controller = BHO add_core = BHO
+owner = WHH controller = WHH remove_core = BHO
+owner = GLH controller = GLH add_core = GLH
+owner = GOL controller = GOL add_core = GOL remove_core = GLH
+}
 
-1442.1.1 = { owner = GOL controller = GOL add_core = GOL remove_core = GLH }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 1502.6.1 = { owner = CRI controller = CRI add_core = CRI remove_core = GOL } # Golden Horde destroyed by Crimea
 1572.1.1 = { owner = RUS controller = RUS add_core = RUS remove_core = CRI } # Battle of Molodi
 1670.3.1   = { revolt = { type = anti_tax_rebels size = 2 name = "Stepan Razin" } controller = REB unrest = 6 } # Razin rebellion

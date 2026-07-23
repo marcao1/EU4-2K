@@ -11,10 +11,16 @@ base_tax = 2
 base_production = 2
 center_of_trade = 1
 
-523.1.1 = { owner = KBO controller = KBO add_core = KBO is_city = yes trade_goods = paper }
-1064.1.1 = { religion = sunni }
-1200.1.1 = { base_tax = 3 base_production = 3 }
-1380.1.1 = { owner = YAO controller = YAO add_core = YAO }
+1444.11.11 = {
+owner = KBO controller = KBO add_core = KBO is_city = yes trade_goods = paper
+religion = sunni
+base_tax = 3 base_production = 3
+owner = YAO controller = YAO add_core = YAO
+}
+
+
+
+
 
 1505.1.1 = { owner = KBO controller = KBO add_core = KBO remove_core = YAO } #Idris Katakarmabe retakes Kanem
 1562.1.1 = { controller = YAO } #Bulaba eject Borno from the region
@@ -25,7 +31,7 @@ center_of_trade = 1
 
 1851.1.1   = { discovered_by = GER discovered_by = PRU } #Heinrich Barth
 1890.1.1   = { discovered_by = FR2 }
-1900.4.22  = { owner = FR2 controller = FR2 add_core = FR2 citysize = 18000 } # Battle of Kousséri
+1900.4.22  = { owner = FR2 controller = FR2 add_core = FR2 citysize = 18000 } # Battle of Koussï¿½ri
 1910.1.1   = { discovered_by = western }
 1940.1.1   = {  discovered_by = eastern
 		discovered_by = muslim

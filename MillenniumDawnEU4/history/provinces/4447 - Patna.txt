@@ -21,18 +21,32 @@ base_manpower = 1
 is_city = yes
 add_core = KLI
 
-120.1.1 = { owner = STV controller = STV add_core = STV }
-175.1.1 = { owner = DAK controller = DAK add_core = DAK remove_core = STV }
-355.1.1 = { owner = BAA controller = BAA add_core = BAA }
-475.1.1 = { owner = DAK controller = DAK remove_core = BAA }
-610.1.1 = { capital = "Shripura" }
-790.1.1 = { owner = BST controller = BST add_core = BST }
-800.1.1 = { discovered_by = nomad_group capital = "Balangir" }
-885.1.1 = { owner = DAK controller = DAK remove_core = BST }
-950.1.1 = { owner = TOS controller = TOS add_core = TOS }
-1023.1.1 = { owner = DAK controller = DAK add_core = DAK remove_core = TOS }
-1114.1.1 = { owner = RTT controller = RTT add_core = RTT }
-1226.1.1 = { owner = PTT controller = PTT add_core = PTT remove_core = RTT }
+1444.11.11 = {
+owner = STV controller = STV add_core = STV
+owner = DAK controller = DAK add_core = DAK remove_core = STV
+owner = BAA controller = BAA add_core = BAA
+owner = DAK controller = DAK remove_core = BAA
+capital = "Shripura"
+owner = BST controller = BST add_core = BST
+discovered_by = nomad_group capital = "Balangir"
+owner = DAK controller = DAK remove_core = BST
+owner = TOS controller = TOS add_core = TOS
+owner = DAK controller = DAK add_core = DAK remove_core = TOS
+owner = RTT controller = RTT add_core = RTT
+owner = PTT controller = PTT add_core = PTT remove_core = RTT
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 1498.1.1 = { discovered_by = POR }
 

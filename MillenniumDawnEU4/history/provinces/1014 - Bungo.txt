@@ -16,12 +16,20 @@ base_manpower = 3
 is_city = yes
 add_core = KYU
 
-607.1.1 = { religion = mahayana }
-650.1.1 = { owner = YAM controller = YAM add_core = YAM remove_core = KYU }
-712.1.1 = { religion = shinto }
-794.1.1 = { owner = JAP controller = JAP add_core = JAP remove_core = YAM }
-1040.1.1 = { owner = OGA controller = OGA add_core = OGA remove_core = JAP }
-1185.6.19 = { owner = OTM controller = OTM add_core = OTM } #Genpei War
+1444.11.11 = {
+religion = mahayana
+owner = YAM controller = YAM add_core = YAM remove_core = KYU
+religion = shinto
+owner = JAP controller = JAP add_core = JAP remove_core = YAM
+owner = OGA controller = OGA add_core = OGA remove_core = JAP
+owner = OTM controller = OTM add_core = OTM
+}
+
+
+
+
+
+ #Genpei War
 
 1542.1.1 = { discovered_by = POR }
 1599.1.1 = { owner = HSK controller = HSK add_core = HSK remove_core = OTM }

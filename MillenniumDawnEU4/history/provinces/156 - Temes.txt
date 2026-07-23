@@ -20,19 +20,34 @@ base_manpower = 2
 is_city = yes
 add_core = DAC
 
-106.1.1 = { owner = ROM controller = ROM add_core = ROM }
-160.1.1 = { remove_core = DAC }
-273.1.1 = { owner = GVI controller = GVI add_core = GVI remove_core = ROM capital = "Timisoara" culture = gothic religion = germanic }
-376.1.1 = { owner = HNS controller = HNS add_core = HNS remove_core = GVI }
-469.1.1 = { owner = GEP controller = GEP add_core = GEP remove_core = HNS culture = gepid }
-567.1.1 = { owner = AVR controller = AVR add_core = AVR remove_core = GEP religion = tengri_pagan_reformed }
-800.1.1 = { base_tax = 3 base_production = 3 }
-804.1.1 = { owner = BUL controller = BUL add_core = BUL remove_core = AVR culture = romanian }
-890.1.1 = { religion = orthodox }
-930.1.1 = { owner = BNT controller = BNT add_core = BNT remove_core = BUL }
-1003.1.1 = { owner = HUN controller = HUN add_core = HUN }
-1010.1.1 = { religion = catholic }
-1307.1.1 = { fort_15th = yes }
+1444.11.11 = {
+owner = ROM controller = ROM add_core = ROM
+remove_core = DAC
+owner = GVI controller = GVI add_core = GVI remove_core = ROM capital = "Timisoara" culture = gothic religion = germanic
+owner = HNS controller = HNS add_core = HNS remove_core = GVI
+owner = GEP controller = GEP add_core = GEP remove_core = HNS culture = gepid
+owner = AVR controller = AVR add_core = AVR remove_core = GEP religion = tengri_pagan_reformed
+base_tax = 3 base_production = 3
+owner = BUL controller = BUL add_core = BUL remove_core = AVR culture = romanian
+religion = orthodox
+owner = BNT controller = BNT add_core = BNT remove_core = BUL
+owner = HUN controller = HUN add_core = HUN
+religion = catholic
+fort_15th = yes
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1514.1.1 = { revolt = { type = anti_tax_rebels size = 2 } controller = REB } # Rebel peasant troops led by Gheorghe Doja
 1514.6.1 = { revolt = {} controller = HUN } # Estimated

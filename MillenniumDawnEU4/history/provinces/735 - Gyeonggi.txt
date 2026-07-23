@@ -20,18 +20,32 @@ add_core = BKJ
 add_core = MHN
 center_of_trade = 1
 
-360.1.1 = { remove_core = MHN }
-372.1.1 = { religion = mahayana }
-475.1.1 = { capital = "Hanseong" }
-555.1.1 = { owner = SLL controller = SLL add_core = SLL }
-660.1.1 = { remove_core = BKJ }
-800.1.1 = { base_tax = 4 base_production = 4 }
-901.1.1 = { owner = GOG controller = GOG add_core = GOG remove_core = SLL }
-918.1.1 = { owner = GOR controller = GOR add_core = GOR remove_core = GOG }
-1050.1.1 = { fort_15th = yes }
-1232.1.1 = { capital = "Gangwha" }
-1260.1.1 = { capital = "Hanseong" }
-1392.7.12 = { owner = KOR controller = KOR add_core = KOR remove_core = GOR religion = confucianism }
+1444.11.11 = {
+remove_core = MHN
+religion = mahayana
+capital = "Hanseong"
+owner = SLL controller = SLL add_core = SLL
+remove_core = BKJ
+base_tax = 4 base_production = 4
+owner = GOG controller = GOG add_core = GOG remove_core = SLL
+owner = GOR controller = GOR add_core = GOR remove_core = GOG
+fort_15th = yes
+capital = "Gangwha"
+capital = "Hanseong"
+owner = KOR controller = KOR add_core = KOR remove_core = GOR religion = confucianism
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 1519.1.1 = { discovered_by = POR } # Tome Pires
 1592.6.11 = { controller = TYT unrest = 5 } # Japanese invasion

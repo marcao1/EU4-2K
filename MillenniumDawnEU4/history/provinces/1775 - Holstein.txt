@@ -16,18 +16,32 @@ base_manpower = 2
 capital = "Kiel"
 center_of_trade = 1
 
-600.1.1 = { discovered_by = eastern }
-700.1.1 = { owner = SAX controller = SAX add_core = SAX remove_core = ANI }
-804.1.1 = { owner = OBO controller = OBO add_core = OBO }
-900.1.1 = { religion = catholic }
-911.11.10 = { owner = SAX controller = SAX add_core = SAX remove_core = OBO }
-962.2.2 = { hre = yes }
-1000.1.1 = { discovered_by = muslim discovered_by = ottoman }
-1100.1.1 = { base_tax = 3 base_production = 3 }
-1111.1.1 = { owner = SHL controller = SHL add_core = SHL remove_core = SAX }
-1200.1.1 = { base_tax = 4 base_production = 4 }
-1201.1.1 = { owner = DAN controller = DAN add_core = DAN }
-1227.1.1 = { owner = SHL controller = SHL remove_core = DAN }
+1444.11.11 = {
+discovered_by = eastern
+owner = SAX controller = SAX add_core = SAX remove_core = ANI
+owner = OBO controller = OBO add_core = OBO
+religion = catholic
+owner = SAX controller = SAX add_core = SAX remove_core = OBO
+hre = yes
+discovered_by = muslim discovered_by = ottoman
+base_tax = 3 base_production = 3
+owner = SHL controller = SHL add_core = SHL remove_core = SAX
+base_tax = 4 base_production = 4
+owner = DAN controller = DAN add_core = DAN
+owner = SHL controller = SHL remove_core = DAN
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 1460.3.5 = { owner = DAN controller = DAN add_core = DAN }
 1529.1.1 = { religion = protestant }

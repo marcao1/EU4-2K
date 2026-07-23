@@ -26,24 +26,44 @@ base_tax = 4
 base_production = 4
 base_manpower = 4
 
-320.1.1 = { owner = KDT controller = KDT add_core = KDT remove_core = KGJ }
-380.1.1 = { owner = HEP controller = HEP add_core = HEP remove_core = KDT }
-567.1.1 = { owner = GOK controller = GOK add_core = GOK remove_core = HEP }
-593.1.1 = { owner = WGO controller = WGO add_core = WGO remove_core = GOK }
-659.1.1 = { owner = FRG controller = FRG add_core = FRG remove_core = WGO }
-739.1.1 = { owner = TRG controller = TRG add_core = TRG }
-760.1.1 = { religion = mahayana }
-766.1.1 = { owner = KLU controller = KLU add_core = KLU remove_core = TRG }
-819.1.1 = { owner = KOK controller = KOK add_core = KOK remove_core = KLU }
-820.1.1 = { culture = kirgiz }
-892.8.1 = { owner = BUK controller = BUK add_core = BUK }
-992.1.1 = { owner = KKH controller = KKH add_core = KKH remove_core = BUK }
-1060.1.1 = { owner = TRS controller = TRS add_core = TRS remove_core = KKH }
-1200.1.1 = { religion = sunni }
-1211.1.1 = { owner = KKT controller = KKT add_core = KKT }
-1219.1.1 = { owner = KHA controller = KHA add_core = KHA remove_core = KKT }
-1260.1.1 = { owner = CGT controller = CGT add_core = CGT remove_core = KHA }
-1347.1.1 = { owner = CHG controller = CHG add_core = CHG remove_core = CGT }
+1444.11.11 = {
+owner = KDT controller = KDT add_core = KDT remove_core = KGJ
+owner = HEP controller = HEP add_core = HEP remove_core = KDT
+owner = GOK controller = GOK add_core = GOK remove_core = HEP
+owner = WGO controller = WGO add_core = WGO remove_core = GOK
+owner = FRG controller = FRG add_core = FRG remove_core = WGO
+owner = TRG controller = TRG add_core = TRG
+religion = mahayana
+owner = KLU controller = KLU add_core = KLU remove_core = TRG
+owner = KOK controller = KOK add_core = KOK remove_core = KLU
+culture = kirgiz
+owner = BUK controller = BUK add_core = BUK
+owner = KKH controller = KKH add_core = KKH remove_core = BUK
+owner = TRS controller = TRS add_core = TRS remove_core = KKH
+religion = sunni
+owner = KKT controller = KKT add_core = KKT
+owner = KHA controller = KHA add_core = KHA remove_core = KKT
+owner = CGT controller = CGT add_core = CGT remove_core = KHA
+owner = CHG controller = CHG add_core = CHG remove_core = CGT
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1462.1.1 = {
 	owner = KAS

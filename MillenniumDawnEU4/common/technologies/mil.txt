@@ -74,11 +74,6 @@ technology = {
 technology = {
 	# Tech 4
 	year = 91
-	
-	expects_institution = {
-		writing = 0.15
-	}
-
 	#Chariot
 	cavalry_shock  		= 	0.05
 
@@ -89,12 +84,6 @@ technology = {
 technology = {
 	# Tech 5
 	year = 133
-	
-	expects_institution = {
-		writing = 0.3
-	}
-
-
 	#Battle Axe
 	infantry_fire		= 	0.02
 	military_tactics 	= 	0.05
@@ -105,11 +94,6 @@ technology = {
 technology = {
 	# Tech 6
 	year = 156
-	
-	expects_institution = {
-		writing = 0.5
-	}
-
 	#Broadsword
 	infantry_shock		= 	0.02
 
@@ -120,12 +104,6 @@ technology = {
 technology = {
 	# Tech 7
 	year = 176
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.25
-	}
-
 	#Classical Cavalry
 	cavalry_shock  		= 	0.05
 
@@ -136,12 +114,6 @@ technology = {
 technology = {
 	# Tech 8
 	year = 211
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-	}
-
 	#Parthian Tactics
 	land_morale 		= 	0.05
 	military_tactics 	= 	0.05
@@ -152,13 +124,6 @@ technology = {
 technology = {
 	# Tech 9
 	year = 226
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.25
-	}
-
 	#Standing Army
 	infantry_shock		= 	0.02
 	may_drill = yes
@@ -174,13 +139,6 @@ technology = {
 technology = {
 	# Tech 10
 	year = 276
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-	}
-
 	#War Elephants
 	land_morale 		= 	0.05
 
@@ -191,13 +149,6 @@ technology = {
 technology = {
 	# Tech 11
 	year = 294
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-	}
-
 	#Horse Armor
 	cavalry_shock  		= 	0.05
 
@@ -212,14 +163,6 @@ technology = {
 technology = {
 	# Tech 12
 	year = 312
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		caste_system = 0.25
-	}
-
 	#Raiding
 	cavalry_shock  		= 	0.05
 
@@ -238,14 +181,6 @@ technology = {
 technology = {
 	# Tech 13
 	year = 335
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		caste_system = 0.25
-	}
-
 	#Composite Bow
 	infantry_fire		= 	0.02
 
@@ -258,14 +193,6 @@ technology = {
 technology = {
 	# Tech 14
 	year = 352
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		caste_system = 0.5
-	}
-
 	#Scale Armor
 	infantry_shock 		= 	0.02
 	enable = roman_praetorian
@@ -280,14 +207,6 @@ technology = {
 technology = {
 	# Tech 15
 	year = 385
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		caste_system = 0.5
-	}
-
 	#Horde Tactics
 	cavalry_shock  		= 	0.05
 
@@ -302,14 +221,6 @@ technology = {
 technology = {
 	# Tech 16
 	year = 403
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.25
-	}
-
 	#Heavy Cavalry
 	cavalry_shock  		= 	0.1
 
@@ -328,14 +239,6 @@ technology = {
 technology = {
 	# Tech 17
 	year = 449
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.25
-	}
-
 	#Fortifications
 	fort_15th = yes
 
@@ -345,14 +248,6 @@ technology = {
 technology = {
 	# Tech 18
 	year = 491
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-	}
-
 	#Leadership
 	military_tactics 	= 	0.05
 	land_morale 		= 	0.1
@@ -369,15 +264,6 @@ technology = {
 technology = {
 	# Tech 19
 	year = 536
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.25
-	}
-
 	#Stirrup
 	cavalry_shock  		= 	0.1
 
@@ -397,15 +283,6 @@ technology = {
 technology = {
 	# Tech 20
 	year = 597
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-	}
-
 	#Military Training
 	land_morale 		= 	0.1
 
@@ -425,16 +302,6 @@ technology = {
 technology = {
 	# Tech 21
 	year = 647
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.25
-	}
-
 	#Ring Armor
 	infantry_shock 		= 	0.02
 
@@ -447,16 +314,6 @@ technology = {
 technology = {
 	# Tech 22
 	year = 691
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-	}
-
 	#Improved Swords
 	infantry_shock 		= 	0.05
 
@@ -469,17 +326,6 @@ technology = {
 technology = {
 	# Tech 23
 	year = 708
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.25
-	}
-
 	#Mounted Archery Tactics
 	cavalry_shock  		= 	0.1
 	military_tactics 	= 	0.05
@@ -496,17 +342,6 @@ technology = {
 technology = {
 	# Tech 24
 	year = 732
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.25
-	}
-
 	#Military Organization
 	land_morale 		= 	0.1
 
@@ -521,17 +356,6 @@ technology = {
 technology = {
 	# Tech 25
 	year = 774
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-	}
-
 	#Lance
 	cavalry_shock  		= 	0.1
 
@@ -542,17 +366,6 @@ technology = {
 technology = {
 	# Tech 26
 	year = 793
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-	}
-
 	#Camelry
 	enable = camel_riders_i
 	enable = camel_riders_m
@@ -563,18 +376,6 @@ technology = {
 technology = {
 	# Tech 27
 	year = 815
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.25
-	}
-
 	#Tempered Steel
 	infantry_shock 		= 	0.05
 	enable = slavic_infantry
@@ -586,18 +387,6 @@ technology = {
 technology = {
 	# Tech 28
 	year = 855
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-	}
-
 	#Skirmish Tactics
 	infantry_fire		= 	0.05
 
@@ -622,18 +411,6 @@ technology = {
 technology = {
 	# Tech 29
 	year = 876
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-	}
-
 	#Noble Soldiers
 	infantry_shock 		= 	0.02
 	enable = early_knights
@@ -643,19 +420,6 @@ technology = {
 technology = {
 	# Tech 30
 	year = 922
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.25
-	}
-
 	#Bodkin Arrow
 	infantry_fire		= 	0.05
 
@@ -665,19 +429,6 @@ technology = {
 technology = {
 	# Tech 31
 	year = 967
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-	}
-
 	#Royal Guard
 	land_morale 		= 	0.1
 
@@ -696,19 +447,6 @@ technology = {
 technology = {
 	# Tech 32
 	year = 987
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-	}
-
 	#Chivalry
 	combat_width = 1
 
@@ -724,20 +462,6 @@ technology = {
 technology = {
 	# Tech 33
 	year = 1005
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.25
-	}
-
 	#Hit and Run Tactics
 	land_morale 		= 	0.1
 	military_tactics 	= 	0.1
@@ -750,20 +474,6 @@ technology = {
 technology = {
 	# Tech 34
 	year = 1026
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.25
-	}
-
 	#Shield Wall
 	infantry_shock 		= 	0.02
 }
@@ -771,20 +481,6 @@ technology = {
 technology = {
 	# Tech 35
 	year = 1046
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-	}
-
 	#Crossbow
 	infantry_fire		= 	0.05
 
@@ -795,20 +491,6 @@ technology = {
 technology = {
 	# Tech 36
 	year = 1064
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-	}
-
 	#Crossguard
 	infantry_shock 		= 	0.02	
 
@@ -820,20 +502,6 @@ technology = {
 technology = {
 	# Tech 37
 	year = 1088
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-	}
-
 	#Holy Warriors
 	land_morale 		= 	0.1
 
@@ -848,21 +516,6 @@ technology = {
 technology = {
 	# Tech 38
 	year = 1126
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.25
-	}
-
 	#Mace
 	infantry_shock 		= 	0.02
 	armory = yes	
@@ -874,21 +527,6 @@ technology = {
 technology = {
 	# Tech 39
 	year = 1149
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-	}
-
 	#Advanced Cavalry
 	military_tactics 	= 	0.10
 	combat_width = 2
@@ -907,21 +545,6 @@ technology = {
 technology = {
 	# Tech 40
 	year = 1196
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-	}
-
 	#Longbow
 	infantry_fire		= 	0.05
 
@@ -938,22 +561,6 @@ technology = {
 technology = {
 	# Tech 41
 	year = 1235
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.25
-	}
-
 	#Longsword
 	land_morale = 	0.2
 	military_tactics 	= 	0.1
@@ -968,22 +575,6 @@ technology = {
 technology = {
 	# Tech 42
 	year = 1259
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-	}
-
 	#Brigandine
 	infantry_shock 		= 	0.04
 
@@ -1000,22 +591,6 @@ technology = {
 technology = {
 	# Tech 43
 	year = 1306
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-	}
-
 	#Pike
 	artillery_shock 	=	0.05
 	land_morale = 	0.2
@@ -1032,23 +607,6 @@ technology = {
 technology = {
 	# Tech 44
 	year = 1329
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.25
-	}
-
 	# Plate Armor
 	military_tactics 	= 	0.10
 
@@ -1067,23 +625,6 @@ technology = {
 technology = {
 	# Tech 45
 	year = 1350
-	
-	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
-	}
-	
 	#Cavalry Plate Armor
 	sprite_level = 1
 
@@ -1105,19 +646,6 @@ technology = {
 	year = 1390
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.25
 	}
 	
@@ -1144,19 +672,6 @@ technology = {
 	year = 1420
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 	}
 	
@@ -1174,19 +689,6 @@ technology = {
 	year = 1430
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 	}
 	
@@ -1199,19 +701,6 @@ technology = {
 	year = 1453
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 	}
 	
@@ -1225,19 +714,6 @@ technology = {
 	year = 1466
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.15
 	}
@@ -1283,19 +759,6 @@ technology = {
 	year = 1479
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.3
 	}
@@ -1329,19 +792,6 @@ technology = {
 	year = 1492
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 	}
@@ -1359,19 +809,6 @@ technology = {
 	year = 1505
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 	}
@@ -1391,19 +828,6 @@ technology = {
 	year = 1518
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.15
@@ -1428,19 +852,6 @@ technology = {
 	year = 1531
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.3
@@ -1481,19 +892,6 @@ technology = {
 	year = 1544
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.5
@@ -1513,19 +911,6 @@ technology = {
 	year = 1557
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.5
@@ -1559,19 +944,6 @@ technology = {
 	year = 1570
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.5
@@ -1591,19 +963,6 @@ technology = {
 	year = 1583
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.5
@@ -1648,19 +1007,6 @@ technology = {
 	year = 1596
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.5
@@ -1689,19 +1035,6 @@ technology = {
 	year = 1609
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.5
@@ -1724,19 +1057,6 @@ technology = {
 	year = 1622
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.5
@@ -1757,19 +1077,6 @@ technology = {
 	year = 1635
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.5
@@ -1802,19 +1109,6 @@ technology = {
 	year = 1648
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.5
@@ -1852,19 +1146,6 @@ technology = {
 	year = 1661
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.5
@@ -1886,19 +1167,6 @@ technology = {
 	year = 1674
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.5
@@ -1918,19 +1186,6 @@ technology = {
 	year = 1687
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.5
@@ -1956,19 +1211,6 @@ technology = {
 	year = 1700
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.5
@@ -2016,19 +1258,6 @@ technology = {
 	year = 1715
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.5
@@ -2050,19 +1279,6 @@ technology = {
 	year = 1730
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.5
@@ -2084,19 +1300,6 @@ technology = {
 	year = 1745
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.5
@@ -2149,19 +1352,6 @@ technology = {
 	year = 1760
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.5
@@ -2181,19 +1371,6 @@ technology = {
 	year = 1775
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.5
@@ -2233,19 +1410,6 @@ technology = {
 	year = 1790
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.5
@@ -2266,19 +1430,6 @@ technology = {
 	year = 1805
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.5
@@ -2318,19 +1469,6 @@ technology = {
 	year = 1820
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.5
@@ -2354,19 +1492,6 @@ technology = {
 	year = 1835
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.5
@@ -2391,19 +1516,6 @@ technology = {
 	year = 1850
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.5
@@ -2428,19 +1540,6 @@ technology = {
 	year = 1870
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.5
@@ -2466,19 +1565,6 @@ technology = {
 	year = 1890
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.5
@@ -2507,19 +1593,6 @@ technology = {
 	year = 1910
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.5
@@ -2548,19 +1621,6 @@ technology = {
 	year = 1930
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.5
@@ -2590,19 +1650,6 @@ technology = {
 	year = 1945
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.5
@@ -2635,19 +1682,6 @@ technology = {
 	year = 1960
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.5
@@ -2673,19 +1707,6 @@ technology = {
 	year = 1975
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.5
@@ -2713,19 +1734,6 @@ technology = {
 	year = 1990
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.5
@@ -2751,19 +1759,6 @@ technology = {
 	year = 2005
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.5
@@ -2788,19 +1783,6 @@ technology = {
 	year = 2020
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.5
@@ -2827,19 +1809,6 @@ technology = {
 	year = 2035
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.5
@@ -2863,19 +1832,6 @@ technology = {
 	year = 2050
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.5
@@ -2900,19 +1856,6 @@ technology = {
 	year = 2065
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.5
@@ -2937,19 +1880,6 @@ technology = {
 	year = 2080
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.5
@@ -2977,19 +1907,6 @@ technology = {
 	year = 2090
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.5
@@ -3016,19 +1933,6 @@ technology = {
 	year = 2100
 	
 	expects_institution = {
-		writing = 0.5
-		legalism = 0.5
-		ancient_imperialism = 0.5
-		organized_religion = 0.5
-		serfdom = 0.5
-		manorialism = 0.5
-		early_feudalism = 0.5
-		crop_rotation = 0.5
-		civil_service = 0.5
-		manuscripts = 0.5
-		scholasticism = 0.5
-		guilds = 0.5
-		medicine = 0.5
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.5

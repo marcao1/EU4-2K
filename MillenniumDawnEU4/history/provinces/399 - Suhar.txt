@@ -23,27 +23,47 @@ base_manpower = 1
 is_city = yes
 add_core = MSQ
 
-325.1.1 = { owner = ERS controller = ERS add_core = ERS remove_core = MSQ }
-634.1.1 = { owner = RSD controller = RSD add_core = RSD remove_core = ERS religion = islam }
-661.7.28 = { owner = UMA controller = UMA add_core = UMA remove_core = RSD religion = sunni }
-750.8.6 = { owner = ABA controller = ABA add_core = ABA remove_core = UMA }
-751.1.1 = { religion = ibadi }
-840.1.1 = { owner = OMA controller = OMA add_core = OMA remove_core = ABA }
-900.1.1 = { base_tax = 2 base_production = 2 }
-967.1.1 = { owner = FRS controller = FRS add_core = FRS }
-978.3.1 = { owner = PER controller = PER add_core = PER }
-989.9.7 = { owner = FRS controller = FRS }
-998.12.1 = { owner = PER controller = PER }
-1000.1.1 = { base_manpower = 2 }
-1053.1.1 = { owner = OMA controller = OMA add_core = OMA remove_core = PER remove_core = FRS }
-1073.5.16 = { owner = KRM controller = KRM add_core = KRM }
-1100.1.1 = { base_tax = 3 base_production = 3 }
-1154.1.1 = { owner = OMA controller = OMA remove_core = KRM }
-1200.1.1 = { base_manpower = 3 }
-1360.1.1 = { owner = ORM controller = ORM add_core = ORM }
+1444.11.11 = {
+owner = ERS controller = ERS add_core = ERS remove_core = MSQ
+owner = RSD controller = RSD add_core = RSD remove_core = ERS religion = islam
+owner = UMA controller = UMA add_core = UMA remove_core = RSD religion = sunni
+owner = ABA controller = ABA add_core = ABA remove_core = UMA
+religion = ibadi
+owner = OMA controller = OMA add_core = OMA remove_core = ABA
+base_tax = 2 base_production = 2
+owner = FRS controller = FRS add_core = FRS
+owner = PER controller = PER add_core = PER
+owner = FRS controller = FRS
+owner = PER controller = PER
+base_manpower = 2
+owner = OMA controller = OMA add_core = OMA remove_core = PER remove_core = FRS
+owner = KRM controller = KRM add_core = KRM
+base_tax = 3 base_production = 3
+owner = OMA controller = OMA remove_core = KRM
+base_manpower = 3
+owner = ORM controller = ORM add_core = ORM
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1480.1.1 = { discovered_by = TUR }
-1488.1.1 = { discovered_by = POR } # Pêro da Covilhã
+1488.1.1 = { discovered_by = POR } # Pï¿½ro da Covilhï¿½
 1500.1.1 = { discovered_by = TUR }
 1507.6.1 = {
 	owner = POR

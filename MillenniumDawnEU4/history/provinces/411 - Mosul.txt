@@ -23,38 +23,65 @@ base_manpower = 2
 is_city = yes
 add_core = ADB
 
-30.1.1 = { religion = jewish }
-116.1.1 = { owner = ROM controller = ROM add_core = ROM }
-118.1.1 = { owner = PRT controller = PRT add_core = PRT remove_core = ROM remove_core = ADB }
-150.1.1 = { religion = chalcedonism }
-224.4.24 = { owner = ERS controller = ERS add_core = ERS remove_core = PRT }
-431.7.1 = { religion = nestorian }
-637.1.1 = { owner = RSD controller = RSD add_core = RSD remove_core = ERS capital = "Mosul" }
-661.7.28 = { owner = UMA controller = UMA add_core = UMA remove_core = RSD }
-750.8.6 = { owner = ABA controller = ABA add_core = ABA remove_core = UMA }
-850.1.1 = { religion = ibadi }
-866.1.1 = { revolt = { type = ibadi_rebels size = 2 } controller = REB } #Kharijite Rebellion
-869.1.1 = { revolt = {} controller = ABA religion = shiite }
-900.1.1 = { base_tax = 3 base_production = 3 fort_15th = yes }
-911.1.1 = { owner = ZNG controller = ZNG add_core = ZNG remove_core = ABA }
-979.1.1 = { owner = ABA controller = ABA add_core = ABA }
-981.1.1 = { owner = ZNG controller = ZNG add_core = ZNG remove_core = ABA }
-1000.1.1 = { base_manpower = 3 }
-1100.1.1 = { base_tax = 4 base_production = 4 }
-1096.1.1 = { owner = SEL controller = SEL add_core = SEL }
-1100.1.1 = { religion = sunni }
-1127.1.1 = { owner = ZNG controller = ZNG add_core = ZNG remove_core = SEL }
-1200.1.1 = { base_manpower = 4 culture = kurdish }
-1250.1.1 = { owner = KHA controller = KHA add_core = KHA add_core = IRQ remove_core = ZNG }
-1260.1.1 = { owner = ILK controller = ILK add_core = ILK remove_core = KHA }
-1335.1.1 = { owner = JAL controller = JAL add_core = JAL remove_core = ILK }
-
-1399.1.1   = { add_core = TIM }
-1405.1.1   = {	owner = QAR
+1444.11.11 = {
+religion = jewish
+owner = ROM controller = ROM add_core = ROM
+owner = PRT controller = PRT add_core = PRT remove_core = ROM remove_core = ADB
+religion = chalcedonism
+owner = ERS controller = ERS add_core = ERS remove_core = PRT
+religion = nestorian
+owner = RSD controller = RSD add_core = RSD remove_core = ERS capital = "Mosul"
+owner = UMA controller = UMA add_core = UMA remove_core = RSD
+owner = ABA controller = ABA add_core = ABA remove_core = UMA
+religion = ibadi
+revolt = { type = ibadi_rebels size = 2 } controller = REB
+revolt = {} controller = ABA religion = shiite
+base_tax = 3 base_production = 3 fort_15th = yes
+owner = ZNG controller = ZNG add_core = ZNG remove_core = ABA
+owner = ABA controller = ABA add_core = ABA
+owner = ZNG controller = ZNG add_core = ZNG remove_core = ABA
+base_manpower = 3
+base_tax = 4 base_production = 4
+owner = SEL controller = SEL add_core = SEL
+religion = sunni
+owner = ZNG controller = ZNG add_core = ZNG remove_core = SEL
+base_manpower = 4 culture = kurdish
+owner = KHA controller = KHA add_core = KHA add_core = IRQ remove_core = ZNG
+owner = ILK controller = ILK add_core = ILK remove_core = KHA
+owner = JAL controller = JAL add_core = JAL remove_core = ILK
+add_core = TIM
+owner = QAR
 		controller = QAR
 		add_core = QAR
 		remove_core = JAL
-	     } # The Qara Koyunlu
+}
+
+
+
+
+
+
+
+
+
+
+ #Kharijite Rebellion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ # The Qara Koyunlu
 1469.2.4  = {	owner = AKK
 		controller = AKK
 		add_core = AKK

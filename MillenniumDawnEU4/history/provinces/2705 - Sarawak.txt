@@ -15,10 +15,16 @@ native_size = 60
 native_ferocity = 1
 native_hostileness = 5
 
-600.1.1 = { owner = SRW controller = SRW add_core = SRW is_city = yes trade_goods = gems }
-1300.1.1 = { discovered_by = indian discovered_by = muslim discovered_by = ottoman }
-1340.1.1 = { owner = BEI controller = BEI add_core = BEI }
-1380.1.1 = { religion = sunni }
+1444.11.11 = {
+owner = SRW controller = SRW add_core = SRW is_city = yes trade_goods = gems
+discovered_by = indian discovered_by = muslim discovered_by = ottoman
+owner = BEI controller = BEI add_core = BEI
+religion = sunni
+}
+
+
+
+
 
 1521.1.1 = { discovered_by = SPA }
 1578.4.16 = { owner = SPA controller = SPA } # Captured by Spain

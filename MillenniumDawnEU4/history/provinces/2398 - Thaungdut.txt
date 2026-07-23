@@ -18,10 +18,16 @@ base_manpower = 1
 is_city = yes
 add_core = TGN
 
-1000.1.1 = { base_tax = 2 base_production = 2 }
-1044.1.1 = { owner = PAG controller = PAG add_core = PAG } #Conquests of Anawratha
-1287.7.1 = { owner = MYA controller = MYA add_core = MYA remove_core = PAG }
-1395.1.1 = { owner = KAL controller = KAL add_core = KAL remove_core = MYA }
+1444.11.11 = {
+base_tax = 2 base_production = 2
+owner = PAG controller = PAG add_core = PAG
+owner = MYA controller = MYA add_core = MYA remove_core = PAG
+owner = KAL controller = KAL add_core = KAL remove_core = MYA
+}
+
+ #Conquests of Anawratha
+
+
 
 1502.1.1 = { owner = SST controller = SST add_core = SST }
 1554.1.1 = { add_core = TAU }

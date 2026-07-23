@@ -834,11 +834,9 @@ shu_han_missions_4 = {
 		position = 2
 		provinces_to_highlight = {
 			owned_by = ROOT
-			NOT = { writing = 50 }
 		}
 		trigger = {
 			all_owned_province = {
-				writing = 50
 			}
 			custom_trigger_tooltip = {
 				tooltip = shu_meritocratic_education_mission.tt
@@ -866,7 +864,6 @@ shu_han_missions_4 = {
 			meritocracy = 90
 			harmony = 90
 			all_owned_province = {
-				legalism = 90
 			}
 		}
 		effect = {

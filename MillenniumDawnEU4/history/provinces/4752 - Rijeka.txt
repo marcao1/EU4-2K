@@ -21,17 +21,30 @@ is_city = yes
 add_core = ROM
 center_of_trade = 1
 
-340.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-480.1.1 = { owner = ITA controller = ITA add_core = ITA remove_core = ROW }
-489.1.1 = { owner = OST controller = OST add_core = OST remove_core = ITA }
-490.1.1 = { religion = arianism }
-540.1.1 = { owner = BYZ controller = BYZ add_core = BYZ remove_core = OST }
-550.1.1 = { religion = chalcedonism }
-620.1.1 = { add_core = CRO religion = slavic culture = croatian capital = "Rijeka" }
-630.1.1 = { owner = CRO controller = CRO remove_core = BYZ }
-800.1.1 = { religion = chalcedonism }
-867.1.1 = { religion = catholic }
+1444.11.11 = {
+religion = chalcedonism
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+owner = ITA controller = ITA add_core = ITA remove_core = ROW
+owner = OST controller = OST add_core = OST remove_core = ITA
+religion = arianism
+owner = BYZ controller = BYZ add_core = BYZ remove_core = OST
+religion = chalcedonism
+add_core = CRO religion = slavic culture = croatian capital = "Rijeka"
+owner = CRO controller = CRO remove_core = BYZ
+religion = chalcedonism
+religion = catholic
+}
+
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
 
 1466.1.1 = { # City of Rijeka itself now directly Habsburg
 	owner = HAB

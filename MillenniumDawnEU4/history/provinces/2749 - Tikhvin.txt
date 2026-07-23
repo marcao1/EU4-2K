@@ -9,23 +9,36 @@ trade_goods = unknown
 base_manpower = 1
 capital = "Tikhvin"
 
-549.1.1 = { discovered_by = EST discovered_by = CUD }
-750.1.1 = { owner = VEP controller = VEP add_core = VEP is_city = yes trade_goods = iron }
-750.1.1 = { 	discovered_by = VES 
+1444.11.11 = {
+discovered_by = EST discovered_by = CUD
+owner = VEP controller = VEP add_core = VEP is_city = yes trade_goods = iron
+discovered_by = VES 
 		discovered_by = AGD 
 		discovered_by = HAL 
 		discovered_by = NOR 
-		discovered_by = KRU 
-	  }
-800.1.1 = { base_tax = 2 base_production = 2 discovered_by = eastern }
-862.1.1 = { owner = NOV controller = NOV add_core = NOV remove_core = VEP }
-882.1.1 = { owner = KRU controller = KRU add_core = KRU remove_core = NOV }
-900.1.1 = { base_manpower = 2 discovered_by = western culture = novgorodian religion = slavic }
-960.1.1 = { religion = orthodox }
-1000.1.1 = { base_tax = 3 base_production = 3 }
-1054.2.20 = { owner = NOV controller = NOV add_core = NOV remove_core = KRU }
-1200.1.1 = { base_tax = 4 base_production = 4 discovered_by = nomad_group }
-1300.1.1 = { base_production = 5 }
+		discovered_by = KRU
+base_tax = 2 base_production = 2 discovered_by = eastern
+owner = NOV controller = NOV add_core = NOV remove_core = VEP
+owner = KRU controller = KRU add_core = KRU remove_core = NOV
+base_manpower = 2 discovered_by = western culture = novgorodian religion = slavic
+religion = orthodox
+base_tax = 3 base_production = 3
+owner = NOV controller = NOV add_core = NOV remove_core = KRU
+base_tax = 4 base_production = 4 discovered_by = nomad_group
+base_production = 5
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 1478.1.15 = {	owner = MOS controller = MOS add_core = MOS remove_core = NOV }
 1484.1.1  = { unrest = 6 } # Massacres and deportation of leading citizens to inland Russia

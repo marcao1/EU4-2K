@@ -16,20 +16,36 @@ base_manpower = 1
 is_city = yes
 add_core = KO0
 
-500.1.1 = { owner = YAM controller = YAM add_core = YAM remove_core = KO0 culture = japanese }
-600.1.1 = { base_tax = 2 base_production = 2 }
-607.1.1 = { religion = mahayana }
-712.1.1 = { religion = shinto }
-750.1.1 = { culture = japanese }
-794.1.1 = { owner = JAP controller = JAP add_core = JAP remove_core = YAM }
-800.1.1 = { base_manpower = 2 }
-1000.1.1 = { base_tax = 3 base_production = 3 }
-1040.1.1 = { owner = JOO controller = JOO add_core = JOO remove_core = JAP } #Jo clan
-1100.1.1 = { base_manpower = 3 }
-1200.1.1 = { base_tax = 4 base_production = 4 }
-1192.7.12 = { owner = AMA controller = AMA add_core = AMA } #Kamakura Shogunate, Sasaki clan
-1221.5.14 = { owner = HJO controller = HJO add_core = HJO } #Jokyu War
-1333.5.18 = { owner = UES controller = UES add_core = UES remove_core = HJO } #Kenmu restoration
+1444.11.11 = {
+owner = YAM controller = YAM add_core = YAM remove_core = KO0 culture = japanese
+base_tax = 2 base_production = 2
+religion = mahayana
+religion = shinto
+culture = japanese
+owner = JAP controller = JAP add_core = JAP remove_core = YAM
+base_manpower = 2
+base_tax = 3 base_production = 3
+owner = JOO controller = JOO add_core = JOO remove_core = JAP
+base_manpower = 3
+base_tax = 4 base_production = 4
+owner = AMA controller = AMA add_core = AMA
+owner = HJO controller = HJO add_core = HJO
+owner = UES controller = UES add_core = UES remove_core = HJO
+}
+
+
+
+
+
+
+
+
+ #Jo clan
+
+
+ #Kamakura Shogunate, Sasaki clan
+ #Jokyu War
+ #Kenmu restoration
 
 1507.7.1 = { fort_15th = yes } # Kasugayama Castle, the capital of the Nagao(Uesugi) clan
 1542.1.1 = { discovered_by = POR }

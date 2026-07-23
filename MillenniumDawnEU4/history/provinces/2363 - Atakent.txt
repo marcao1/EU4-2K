@@ -19,30 +19,56 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-320.1.1 = { owner = KDT controller = KDT add_core = KDT remove_core = KGJ }
-380.1.1 = { owner = HEP controller = HEP add_core = HEP remove_core = KDT }
-567.1.1 = { owner = GOK controller = GOK add_core = GOK remove_core = HEP }
-593.1.1 = { owner = WGO controller = WGO add_core = WGO remove_core = GOK }
-600.1.1 = { religion = zoroastrian }
-642.1.1 = { owner = SOG controller = SOG add_core = SOG remove_core = WGO }
-700.1.1 = { religion = manichaeism }
-740.1.1 = { owner = UMA controller = UMA add_core = UMA }
-750.8.6 = { owner = ABA controller = ABA add_core = ABA remove_core = UMA }
-800.1.1 = { religion = sunni }
-819.1.1 = { owner = CAC controller = CAC add_core = CAC remove_core = ABA culture = tajik }
-855.1.1 = { owner = KOK controller = KOK add_core = KOK }
-867.1.1 = { owner = BUK controller = BUK add_core = BUK remove_core = KOK }
-991.1.1 = { owner = TRS controller = TRS add_core = TRS remove_core = BUK }
-1000.1.1 = { culture = khazak }
-1212.1.1 = { owner = KHW controller = KHW add_core = KHW }
-1220.1.1 = { owner = KHA controller = KHA add_core = KHA remove_core = KHW }
-1260.1.1 = { owner = CGT controller = CGT add_core = CGT remove_core = KHA }
-1347.1.1 = { owner = TRS controller = TRS add_core = TRS remove_core = CGT }
-1360.1.1 = { owner = CHG controller = CHG add_core = CHG }
-1363.1.1 = { owner = TRS controller = TRS add_core = TRS remove_core = CHG }
-1370.1.1 = { owner = TIM controller = TIM add_core = TIM }
-1409.5.13 = { owner = TRS controller = TRS add_core = TRS }#Ulugh Beg is made Governor of Samarkand
-1430.1.1 = { owner = SHY controller = SHY add_core = SHY remove_core = TIM }
+1444.11.11 = {
+owner = KDT controller = KDT add_core = KDT remove_core = KGJ
+owner = HEP controller = HEP add_core = HEP remove_core = KDT
+owner = GOK controller = GOK add_core = GOK remove_core = HEP
+owner = WGO controller = WGO add_core = WGO remove_core = GOK
+religion = zoroastrian
+owner = SOG controller = SOG add_core = SOG remove_core = WGO
+religion = manichaeism
+owner = UMA controller = UMA add_core = UMA
+owner = ABA controller = ABA add_core = ABA remove_core = UMA
+religion = sunni
+owner = CAC controller = CAC add_core = CAC remove_core = ABA culture = tajik
+owner = KOK controller = KOK add_core = KOK
+owner = BUK controller = BUK add_core = BUK remove_core = KOK
+owner = TRS controller = TRS add_core = TRS remove_core = BUK
+culture = khazak
+owner = KHW controller = KHW add_core = KHW
+owner = KHA controller = KHA add_core = KHA remove_core = KHW
+owner = CGT controller = CGT add_core = CGT remove_core = KHA
+owner = TRS controller = TRS add_core = TRS remove_core = CGT
+owner = CHG controller = CHG add_core = CHG
+owner = TRS controller = TRS add_core = TRS remove_core = CHG
+owner = TIM controller = TIM add_core = TIM
+owner = TRS controller = TRS add_core = TRS
+owner = SHY controller = SHY add_core = SHY remove_core = TIM
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Ulugh Beg is made Governor of Samarkand
+
 
 1502.1.1 = { 
 	owner = BUK 

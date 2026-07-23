@@ -19,21 +19,38 @@ is_city = yes
 add_core = HND
 add_core = WUU
 
-9.1.10 = { owner = XIN controller = XIN add_core = XIN }
-23.10.5 = { owner = SHU controller = SHU add_core = SHU remove_core = XIN }
-36.12.25 = { owner = HND controller = HND add_core = HND }
-189.9.28 = { owner = SHU controller = SHU add_core = SHU remove_core = HND }
-263.11.1 = { owner = WEI controller = WEI add_core = WEI remove_core = SHU }
-266.2.4 = { owner = JIN controller = JIN add_core = JIN remove_core = WEI }
-420.1.1 = { owner = LSO controller = LSO add_core = LSO remove_core = JIN }
-479.1.1 = { owner = QIC controller = QIC add_core = QIC remove_core = LSO }
-502.1.1 = { owner = LNG controller = LNG add_core = LNG remove_core = QIC }
-557.1.1 = { owner = CEN controller = CEN add_core = CEN remove_core = LNG }
-588.1.1 = { owner = BOZ controller = BOZ add_core = BOZ remove_core = CEN }
-622.1.1 = { owner = TNG controller = TNG add_core = TNG }
-750.1.1 = { owner = NAN controller = NAN add_core = NAN remove_core = TNG }
-876.1.1 = { owner = BOZ controller = BOZ add_core = BOZ remove_core = NAN }
-1371.1.1 = { owner = MNG controller = MNG add_core = MNG }
+1444.11.11 = {
+owner = XIN controller = XIN add_core = XIN
+owner = SHU controller = SHU add_core = SHU remove_core = XIN
+owner = HND controller = HND add_core = HND
+owner = SHU controller = SHU add_core = SHU remove_core = HND
+owner = WEI controller = WEI add_core = WEI remove_core = SHU
+owner = JIN controller = JIN add_core = JIN remove_core = WEI
+owner = LSO controller = LSO add_core = LSO remove_core = JIN
+owner = QIC controller = QIC add_core = QIC remove_core = LSO
+owner = LNG controller = LNG add_core = LNG remove_core = QIC
+owner = CEN controller = CEN add_core = CEN remove_core = LNG
+owner = BOZ controller = BOZ add_core = BOZ remove_core = CEN
+owner = TNG controller = TNG add_core = TNG
+owner = NAN controller = NAN add_core = NAN remove_core = TNG
+owner = BOZ controller = BOZ add_core = BOZ remove_core = NAN
+owner = MNG controller = MNG add_core = MNG
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1644.10.1 = {	owner = CXI
 		controller = CXI

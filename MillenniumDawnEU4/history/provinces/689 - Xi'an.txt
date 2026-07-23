@@ -23,36 +23,68 @@ is_city = yes
 add_core = HND
 add_core = SHU
 
-9.1.10 = { owner = XIN controller = XIN add_core = XIN }
-23.10.5 = { owner = SHU controller = SHU add_core = SHU remove_core = XIN }
-36.12.25 = { owner = HND controller = HND add_core = HND }
-198.6.1 = { owner = WEI controller = WEI add_core = WEI remove_core = HND }
-219.6.1 = { owner = SHU controller = SHU add_core = SHU remove_core = WEI } #Hanzhong Campaign
-263.11.1 = { owner = WEI controller = WEI add_core = WEI remove_core = SHU }
-266.2.4 = { owner = JIN controller = JIN add_core = JIN remove_core = WEI }
-296.1.1 = { owner = COU controller = COU add_core = COU remove_core = JIN culture = di }
-371.1.1 = { owner = QIN controller = QIN add_core = QIN }
-385.1.1 = { owner = COU controller = COU add_core = COU remove_core = QIN }
-442.1.1 = { owner = LSO controller = LSO add_core = LSO }
-448.1.1 = { owner = COU controller = COU add_core = COU remove_core = LSO }
-553.1.1 = { owner = WEI controller = WEI add_core = WEI }
-557.1.1 = { owner = CZH controller = CZH add_core = CZH remove_core = WEI }
-580.1.1 = { culture = zhongyuan }
-581.3.4 = { owner = SUI controller = SUI add_core = SUI remove_core = CEN }
-617.12.18 = { owner = TNG controller = TNG add_core = TNG remove_core = SUI }
-800.1.1 = { base_tax = 3 base_production = 3 }
-907.6.1 = { owner = SHU controller = SHU add_core = SHU remove_core = TNG }
-925.12.15 = { owner = TNG controller = TNG add_core = TNG remove_core = SHU }
-936.1.11 = { owner = JIN controller = JIN add_core = JIN remove_core = TNG }
-947.1.1 = { owner = HND controller = HND add_core = HND remove_core = JIN }
-951.2.13 = { owner = CZH controller = CZH add_core = CZH remove_core = HND }
-960.1.1 = { owner = SNG controller = SNG add_core = SNG remove_core = CZH }
-1000.1.1 = { base_manpower = 3 }
-1200.1.1 = { base_tax = 4 base_production = 4 }
-1279.3.19 = { owner = YUA controller = YUA add_core = YUA add_core = CSH remove_core = SNG }
-1361.1.1 = { owner = XIA controller = XIA add_core = XIA } 
-1368.1.23 = { remove_core = YUA }
-1371.1.1 = { owner = MNG controller = MNG add_core = MNG }
+1444.11.11 = {
+owner = XIN controller = XIN add_core = XIN
+owner = SHU controller = SHU add_core = SHU remove_core = XIN
+owner = HND controller = HND add_core = HND
+owner = WEI controller = WEI add_core = WEI remove_core = HND
+owner = SHU controller = SHU add_core = SHU remove_core = WEI
+owner = WEI controller = WEI add_core = WEI remove_core = SHU
+owner = JIN controller = JIN add_core = JIN remove_core = WEI
+owner = COU controller = COU add_core = COU remove_core = JIN culture = di
+owner = QIN controller = QIN add_core = QIN
+owner = COU controller = COU add_core = COU remove_core = QIN
+owner = LSO controller = LSO add_core = LSO
+owner = COU controller = COU add_core = COU remove_core = LSO
+owner = WEI controller = WEI add_core = WEI
+owner = CZH controller = CZH add_core = CZH remove_core = WEI
+culture = zhongyuan
+owner = SUI controller = SUI add_core = SUI remove_core = CEN
+owner = TNG controller = TNG add_core = TNG remove_core = SUI
+base_tax = 3 base_production = 3
+owner = SHU controller = SHU add_core = SHU remove_core = TNG
+owner = TNG controller = TNG add_core = TNG remove_core = SHU
+owner = JIN controller = JIN add_core = JIN remove_core = TNG
+owner = HND controller = HND add_core = HND remove_core = JIN
+owner = CZH controller = CZH add_core = CZH remove_core = HND
+owner = SNG controller = SNG add_core = SNG remove_core = CZH
+base_manpower = 3
+base_tax = 4 base_production = 4
+owner = YUA controller = YUA add_core = YUA add_core = CSH remove_core = SNG
+owner = XIA controller = XIA add_core = XIA
+remove_core = YUA
+owner = MNG controller = MNG add_core = MNG
+}
+
+
+
+
+ #Hanzhong Campaign
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
 
 1628.1.1  = { revolt_risk = 6 } # Li Zicheng rebellion
 1644.1.1 = {	revolt_risk = 0

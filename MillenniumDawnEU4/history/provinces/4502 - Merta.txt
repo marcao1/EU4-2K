@@ -24,17 +24,30 @@ base_manpower = 1
 is_city = yes
 add_core = YAU
 
-150.1.1 = { owner = WSA controller = WSA add_core = WSA }
-405.1.1 = { owner = GUP controller = GUP add_core = GUP remove_core = WSA }
-498.1.1 = { owner = KAP controller = KAP add_core = GRP remove_core = GUP }
-528.1.1 = { owner = MLW controller = MLW }
-540.1.1 = { owner = GRP controller = GRP }
-620.1.1 = { owner = HRS controller = HRS add_core = HRS }
-647.1.1 = { owner = GRP controller = GRP remove_core = HRS }
-950.1.1 = { owner = CCH controller = CCH add_core = CCH remove_core = GRP }
-1180.1.1 = { owner = MAW controller = MAW add_core = MAW remove_core = GUJ }
-1303.1.1 = { owner = DLH controller = DLH add_core = DLH }
-1388.1.1 = { owner = NGA controller = NGA add_core = NGA remove_core = GUJ }
+1444.11.11 = {
+owner = WSA controller = WSA add_core = WSA
+owner = GUP controller = GUP add_core = GUP remove_core = WSA
+owner = KAP controller = KAP add_core = GRP remove_core = GUP
+owner = MLW controller = MLW
+owner = GRP controller = GRP
+owner = HRS controller = HRS add_core = HRS
+owner = GRP controller = GRP remove_core = HRS
+owner = CCH controller = CCH add_core = CCH remove_core = GRP
+owner = MAW controller = MAW add_core = MAW remove_core = GUJ
+owner = DLH controller = DLH add_core = DLH
+owner = NGA controller = NGA add_core = NGA remove_core = GUJ
+}
+
+
+
+
+
+
+
+
+
+
+
 
 1456.1.1 = {
 	owner = MER

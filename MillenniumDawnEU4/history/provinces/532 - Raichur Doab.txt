@@ -21,28 +21,45 @@ base_manpower = 2
 is_city = yes
 add_core = STV
 
-220.1.1 = { owner = PUZ controller = PUZ add_core = PUZ remove_core = STV }
-240.1.1 = { religion = jainism }
-275.1.1 = { owner = PLL controller = PLL add_core = PLL remove_core = PUZ }
-345.1.1 = { owner = KAD controller = KAD add_core = KAD remove_core = PLL }
-500.1.1 = { base_tax = 3 base_production = 3 }
-543.1.1 = { owner = CLY controller = CLY add_core = CLY remove_core = KAD }
-700.1.1 = { base_tax = 4 base_production = 4 }
-753.1.1 = { owner = RSH controller = RSH add_core = RSH remove_core = CLY }
-800.1.1 = { discovered_by = nomad_group }
-900.1.1 = { base_manpower = 3 }
-982.1.1 = { owner = CLY controller = CLY add_core = CLY remove_core = RSH }
-1100.1.1 = { base_tax = 5 base_production = 5 }
-1186.1.1 = { owner = HOY controller = HOY add_core = HOY remove_core = CLY }
-1220.1.1 = { religion = hinduism }
-1325.1.1 = { owner = DLH controller = DLH add_core = DLH add_core = BIJ remove_core = HOY }
-1336.1.1 = { owner = VIJ controller = VIJ add_core = VIJ remove_core = DLH }
-
-1378.1.1 = {
-	controller = BAH
+1444.11.11 = {
+owner = PUZ controller = PUZ add_core = PUZ remove_core = STV
+religion = jainism
+owner = PLL controller = PLL add_core = PLL remove_core = PUZ
+owner = KAD controller = KAD add_core = KAD remove_core = PLL
+base_tax = 3 base_production = 3
+owner = CLY controller = CLY add_core = CLY remove_core = KAD
+base_tax = 4 base_production = 4
+owner = RSH controller = RSH add_core = RSH remove_core = CLY
+discovered_by = nomad_group
+base_manpower = 3
+owner = CLY controller = CLY add_core = CLY remove_core = RSH
+base_tax = 5 base_production = 5
+owner = HOY controller = HOY add_core = HOY remove_core = CLY
+religion = hinduism
+owner = DLH controller = DLH add_core = DLH add_core = BIJ remove_core = HOY
+owner = VIJ controller = VIJ add_core = VIJ remove_core = DLH
+controller = BAH
 	owner = BAH
+add_core = BAH
 }
-1428.1.1 = { add_core = BAH }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 1493.1.1 = {
 	owner = VIJ
 	controller = VIJ

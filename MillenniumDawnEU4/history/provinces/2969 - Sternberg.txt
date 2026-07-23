@@ -15,16 +15,28 @@ trade_goods = cloth
 base_manpower = 1
 capital = "Lubusz"
 
-395.1.1 = { owner = VEL controller = VEL add_core = VEL remove_core = BUR culture = polabian religion = slavic }
-600.1.1 = { discovered_by = eastern }
-900.1.1 = { base_tax = 2 base_production = 2 }
-920.1.1 = { owner = POM controller = POM add_core = POM remove_core = VEL }
-950.1.1 = { owner = POL controller = POL add_core = POL remove_core = POM religion = catholic }
-1000.1.1 = { discovered_by = muslim discovered_by = ottoman }
-1100.1.1 = { base_tax = 3 base_production = 3 }
-1138.10.28 = { owner = GPO controller = GPO add_core = GPO }
-1252.1.1 = { owner = BRA controller = BRA add_core = BRA remove_core = POL hre = yes capital = "Sternberg" }
-1260.1.1 = { culture = saxon }
+1444.11.11 = {
+owner = VEL controller = VEL add_core = VEL remove_core = BUR culture = polabian religion = slavic
+discovered_by = eastern
+base_tax = 2 base_production = 2
+owner = POM controller = POM add_core = POM remove_core = VEL
+owner = POL controller = POL add_core = POL remove_core = POM religion = catholic
+discovered_by = muslim discovered_by = ottoman
+base_tax = 3 base_production = 3
+owner = GPO controller = GPO add_core = GPO
+owner = BRA controller = BRA add_core = BRA remove_core = POL hre = yes capital = "Sternberg"
+culture = saxon
+}
+
+
+
+
+
+
+
+
+
+
 
 1539.1.1 = { religion = protestant }
 1650.1.1 = { culture = prussian }

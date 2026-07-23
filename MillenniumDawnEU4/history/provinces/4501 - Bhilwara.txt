@@ -24,16 +24,28 @@ base_manpower = 1
 is_city = yes
 add_core = WSA
 
-360.1.1 = { owner = GUP controller = GUP add_core = GUP remove_core = WSA }
-498.1.1 = { owner = KAP controller = KAP add_core = MLW remove_core = GUP }
-528.1.1 = { owner = MLW controller = MLW add_core = GRP }
-560.1.1 = { owner = GRP controller = GRP remove_core = MLW }
-620.1.1 = { owner = HRS controller = HRS add_core = HRS }
-647.1.1 = { owner = GRP controller = GRP remove_core = HRS }
-950.1.1 = { owner = CCH controller = CCH add_core = CCH remove_core = GRP }
-1194.1.1 = { owner = GHU controller = GHU add_core = GHU }
-1206.1.1 = { owner = DLH controller = DLH add_core = DLH add_core = MER add_core = MAW remove_core = GHU }
-1370.1.1 = { owner = MER controller = MER add_core = MER remove_core = DLH }
+1444.11.11 = {
+owner = GUP controller = GUP add_core = GUP remove_core = WSA
+owner = KAP controller = KAP add_core = MLW remove_core = GUP
+owner = MLW controller = MLW add_core = GRP
+owner = GRP controller = GRP remove_core = MLW
+owner = HRS controller = HRS add_core = HRS
+owner = GRP controller = GRP remove_core = HRS
+owner = CCH controller = CCH add_core = CCH remove_core = GRP
+owner = GHU controller = GHU add_core = GHU
+owner = DLH controller = DLH add_core = DLH add_core = MER add_core = MAW remove_core = GHU
+owner = MER controller = MER add_core = MER remove_core = DLH
+}
+
+
+
+
+
+
+
+
+
+
 
 1534.1.1 = { controller = GUJ } # War with Gujarat
 1536.1.1 = { controller = MER } # War with Gujarat ends

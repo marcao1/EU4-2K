@@ -15,14 +15,16 @@ native_size = 30
 native_ferocity = 2
 native_hostileness = 9
 
-1368.1.1 = {	
-	owner = BEI
+1444.11.11 = {
+owner = BEI
 	controller = BEI
 	add_core = BEI
 	is_city = yes
 	trade_goods = sugar
-} # Brunei kingdom, Bolkiah
-1400.1.1 = { religion = sunni }
+religion = sunni
+}
+ # Brunei kingdom, Bolkiah
+
 
 1521.1.1 = { discovered_by = SPA } # Ferdinand Magellan 
 1749.1.1 = {

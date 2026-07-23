@@ -23,23 +23,39 @@ base_manpower = 1
 is_city = yes
 add_core = ROM
 
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-700.1.1 = { religion = chalcedonism }
-842.1.1 = { owner = BUL controller = BUL add_core = BUL culture = bulgarian }
-867.1.1 = { religion = orthodox }
-900.1.1 = { base_tax = 3 }
-1014.1.1 = { owner = BYZ controller = BYZ remove_core = BUL }
-1100.1.1 = { base_production = 3 }
-1162.1.1 = { owner = SER controller = SER add_core = SER capital = "Nis" culture = serbian }
-1203.1.1 = { owner = BUL controller = BUL add_core = BUL remove_core = BYZ }
-1220.1.1 = { owner = SER controller = SER remove_core = BUL }
-1385.1.1 = { owner = TUR controller = TUR add_core = TUR }
+1444.11.11 = {
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+religion = chalcedonism
+owner = BUL controller = BUL add_core = BUL culture = bulgarian
+religion = orthodox
+base_tax = 3
+owner = BYZ controller = BYZ remove_core = BUL
+base_production = 3
+owner = SER controller = SER add_core = SER capital = "Nis" culture = serbian
+owner = BUL controller = BUL add_core = BUL remove_core = BYZ
+owner = SER controller = SER remove_core = BUL
+owner = TUR controller = TUR add_core = TUR
+revolt = { type = pretender_rebels size = 0 } controller = REB
+revolt = {} controller = TUR
+owner = SER controller = SER remove_core = TUR
+}
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
 
 #Country breaks
 #1402.1.1  = { revolt = { type = pretender_rebels size = 0 } controller = REB } # Interregnum
-1404.1.1  = { revolt = { type = pretender_rebels size = 0 } controller = REB }
-1413.1.1  = { revolt = {} controller = TUR }
-1443.1.1  = { owner = SER controller = SER remove_core = TUR }
+
+
+
 1448.1.1  = { owner = TUR controller = TUR add_core = TUR }
 1453.5.29 = { remove_core = BYZ }
 1555.1.1  = { unrest = 5 } # General discontent against the Janissaries' dominance

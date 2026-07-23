@@ -21,10 +21,16 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-932.1.1 = { religion = orthodox }
-1236.1.1 = { owner = KHA controller = KHA add_core = KHA capital = "Dzaudzhikau" }
-1260.1.1 = { owner = WHH controller = WHH add_core = WHH remove_core = KHA }
-1314.1.1 = { owner = ALN controller = ALN add_core = ALN remove_core = WHH }
+1444.11.11 = {
+religion = orthodox
+owner = KHA controller = KHA add_core = KHA capital = "Dzaudzhikau"
+owner = WHH controller = WHH add_core = WHH remove_core = KHA
+owner = ALN controller = ALN add_core = ALN remove_core = WHH
+}
+
+
+
+
 
 1800.1.1 = { base_tax = 2 }
 1774.1.1 = { owner = RUS controller = RUS add_core = RUS capital = "Vladikavkaz" } # North Ossetia came to be dominated by Russia

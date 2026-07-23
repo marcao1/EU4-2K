@@ -20,29 +20,54 @@ add_core = HND
 add_core = WUU
 center_of_trade = 1
 
-9.1.10 = { owner = XIN controller = XIN add_core = XIN }
-23.10.5 = { owner = HND controller = HND remove_core = XIN }
-189.9.28 = { owner = ZHO controller = ZHO add_core = ZHO remove_core = HND }
-199.6.1 = { owner = WUU controller = WUU add_core = WUU remove_core = ZHO }
-280.3.15 = { owner = JIN controller = JIN add_core = JIN remove_core = WUU }
-420.1.1 = { owner = LSO controller = LSO add_core = LSO remove_core = JIN }
-479.1.1 = { owner = QIC controller = QIC add_core = QIC remove_core = LSO }
-502.1.1 = { owner = LNG controller = LNG add_core = LNG remove_core = QIC }
-557.1.1 = { owner = CEN controller = CEN add_core = CEN remove_core = LNG }
-589.3.4 = { owner = SUI controller = SUI add_core = SUI remove_core = CEN }
-619.5.23 = { owner = TNG controller = TNG add_core = TNG remove_core = SUI }
-900.1.1 = { base_tax = 6 base_production = 6 }
-907.6.1 = { owner = WUU controller = WUU add_core = WUU remove_core = TNG }
-937.1.1 = { owner = TNG controller = TNG add_core = TNG remove_core = WUU }
-975.1.1 = { owner = SNG controller = SNG add_core = SNG remove_core = TNG }
-1000.1.1 = { base_tax = 7 base_production = 7 }
-1100.1.1 = { base_tax = 8 base_production = 8 }
-1279.3.19 = { owner = YUA controller = YUA add_core = YUA add_core = CXI remove_core = SNG }
-1351.1.1 = { revolt = { type = nationalist_rebels size = 3 } controller = REB } # Red Turban Rebellion
-1361.1.1 = { revolt = {} owner = HND controller = HND add_core = HND } 
-1365.4.1 = { owner = MNG controller = MNG add_core = MNG }
-1368.1.23 = { remove_core = YUA }
-1370.1.1 = { fort_15th = yes }
+1444.11.11 = {
+owner = XIN controller = XIN add_core = XIN
+owner = HND controller = HND remove_core = XIN
+owner = ZHO controller = ZHO add_core = ZHO remove_core = HND
+owner = WUU controller = WUU add_core = WUU remove_core = ZHO
+owner = JIN controller = JIN add_core = JIN remove_core = WUU
+owner = LSO controller = LSO add_core = LSO remove_core = JIN
+owner = QIC controller = QIC add_core = QIC remove_core = LSO
+owner = LNG controller = LNG add_core = LNG remove_core = QIC
+owner = CEN controller = CEN add_core = CEN remove_core = LNG
+owner = SUI controller = SUI add_core = SUI remove_core = CEN
+owner = TNG controller = TNG add_core = TNG remove_core = SUI
+base_tax = 6 base_production = 6
+owner = WUU controller = WUU add_core = WUU remove_core = TNG
+owner = TNG controller = TNG add_core = TNG remove_core = WUU
+owner = SNG controller = SNG add_core = SNG remove_core = TNG
+base_tax = 7 base_production = 7
+base_tax = 8 base_production = 8
+owner = YUA controller = YUA add_core = YUA add_core = CXI remove_core = SNG
+revolt = { type = nationalist_rebels size = 3 } controller = REB
+revolt = {} owner = HND controller = HND add_core = HND
+owner = MNG controller = MNG add_core = MNG
+remove_core = YUA
+fort_15th = yes
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ # Red Turban Rebellion
+ 
+
+
+
 
 1608.1.1 = { discovered_by = SPA }
 1642.1.1 = { revolt = { type = anti_tax_rebels size = 2 } controller = REB } # Zhang Xianzhong rebellion

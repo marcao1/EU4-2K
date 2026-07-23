@@ -24,31 +24,58 @@ trade_goods = grain
 base_manpower = 1
 add_core = ROM
 
-260.1.1 = { add_core = GLL revolt = { type = nationalist_rebels size = 1 } controller = REB culture = gallian }
-274.1.1 = { controller = ROM remove_core = GLL revolt = {} culture = belgae }
-360.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-456.1.1 = { owner = FRK controller = FRK add_core = FRK remove_core = ROW capital = "Cambray" culture = wallonian }
-511.11.27 = { owner = SOI controller = SOI add_core = SOI }
-558.12.23 = { owner = FRK controller = FRK add_core = FRK }
-561.11.29 = { owner = SOI controller = SOI }
-567.12.1 = { owner = NEU controller = NEU add_core = NEU remove_core = SOI }
-600.1.1 = { base_tax = 2 base_production = 2 }
-613.10.10 = { owner = FRK controller = FRK add_core = FRK remove_core = NEU }
-634.1.1 = { owner = NEU controller = NEU }
-679.12.23 = { owner = FRK controller = FRK }
-800.1.1 = { base_tax = 3 base_production = 3 }
-840.6.21 = { owner = FRW controller = FRW add_core = FRW remove_core = FRK }
-867.1.1 = { religion = catholic }
-925.1.1 = { owner = LOT controller = LOT add_core = LOT remove_core = FRW }
-948.1.1 = { owner = CBR controller = CBR add_core = CBR remove_core = LOT }
-962.2.2 = { hre = yes }
-1000.1.1 = { base_manpower = 2 }
-1200.1.1 = { base_tax = 4 base_production = 4 }
-1300.1.1 = { base_tax = 5 base_production = 5 }
-1349.1.1 = { owner = BUR controller = BUR add_core = BUR hre = no }
-1382.1.1 = { owner = FLA controller = FLA }
-1384.1.30 = { owner = BUR controller = BUR }
+1444.11.11 = {
+add_core = GLL revolt = { type = nationalist_rebels size = 1 } controller = REB culture = gallian
+controller = ROM remove_core = GLL revolt = {} culture = belgae
+religion = chalcedonism
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+owner = FRK controller = FRK add_core = FRK remove_core = ROW capital = "Cambray" culture = wallonian
+owner = SOI controller = SOI add_core = SOI
+owner = FRK controller = FRK add_core = FRK
+owner = SOI controller = SOI
+owner = NEU controller = NEU add_core = NEU remove_core = SOI
+base_tax = 2 base_production = 2
+owner = FRK controller = FRK add_core = FRK remove_core = NEU
+owner = NEU controller = NEU
+owner = FRK controller = FRK
+base_tax = 3 base_production = 3
+owner = FRW controller = FRW add_core = FRW remove_core = FRK
+religion = catholic
+owner = LOT controller = LOT add_core = LOT remove_core = FRW
+owner = CBR controller = CBR add_core = CBR remove_core = LOT
+hre = yes
+base_manpower = 2
+base_tax = 4 base_production = 4
+base_tax = 5 base_production = 5
+owner = BUR controller = BUR add_core = BUR hre = no
+owner = FLA controller = FLA
+owner = BUR controller = BUR
+}
+
+
+
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1477.1.5 = { owner = FRA controller = FRA add_core = FRA remove_core = BUR } # Charles the Bold dies and Louis XII takes Artois
 1543.1.1 = { owner = SPA controller = SPA add_core = SPA remove_core = FRA } # Conquered by Charles V

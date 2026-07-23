@@ -20,24 +20,44 @@ capital = "Histonium"
 is_city = yes
 add_core = ROM
 
-380.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-476.9.4 = { owner = ITA controller = ITA add_core = ITA }
-480.1.1 = { remove_core = ROW }
-489.1.1 = { owner = OST controller = OST add_core = OST remove_core = ITA }
-538.1.1 = { controller = BYZ }
-554.1.1 = { owner = BYZ add_core = BYZ remove_core = OST }
-569.6.1 = { owner = LOM controller = LOM add_core = LOM remove_core = OST capital = "Campobasso" }
-571.1.1 = { owner = BNV controller = BNV add_core = BNV }
-774.1.1 = { remove_core = LOM }
-800.1.1 = { base_tax = 3 }
-867.1.1 = { religion = catholic }
-891.1.1 = { owner = BYZ controller = BYZ }
-895.1.1 = { owner = BNV controller = BNV remove_core = BYZ }
-1000.1.1 = { base_manpower = 2 }
-1053.1.1 = { owner = SIC controller = SIC add_core = SIC remove_core = BNV culture = neapolitan }
-1100.1.1 = { trade_goods = paper }
-1282.3.30 = { owner = NAP controller = NAP add_core = NAP remove_core = SIC }
+1444.11.11 = {
+religion = chalcedonism
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+owner = ITA controller = ITA add_core = ITA
+remove_core = ROW
+owner = OST controller = OST add_core = OST remove_core = ITA
+controller = BYZ
+owner = BYZ add_core = BYZ remove_core = OST
+owner = LOM controller = LOM add_core = LOM remove_core = OST capital = "Campobasso"
+owner = BNV controller = BNV add_core = BNV
+remove_core = LOM
+base_tax = 3
+religion = catholic
+owner = BYZ controller = BYZ
+owner = BNV controller = BNV remove_core = BYZ
+base_manpower = 2
+owner = SIC controller = SIC add_core = SIC remove_core = BNV culture = neapolitan
+trade_goods = paper
+owner = NAP controller = NAP add_core = NAP remove_core = SIC
+}
+
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1494.1.1 = { add_core = FRA } # Angevine claims
 1495.2.22 = { controller = FRA } # Charles VIII invades Naples

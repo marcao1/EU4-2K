@@ -15,10 +15,14 @@ native_size = 20
 native_ferocity = 1
 native_hostileness = 5
 
-600.1.1 = { owner = TNP controller = TNP add_core = TNP is_city = yes trade_goods = naval_supplies }
-1300.1.1 = { discovered_by = indian discovered_by = muslim discovered_by = ottoman }
+1444.11.11 = {
+owner = TNP controller = TNP add_core = TNP is_city = yes trade_goods = naval_supplies
+discovered_by = indian discovered_by = muslim discovered_by = ottoman
+culture = malayan
+}
 
-1400.1.1 = { culture = malayan }
+
+
 1487.1.1 = { capital = "Sukadana" }
 1504.1.1 = { religion = sunni }
 1521.1.1 = { discovered_by = POR }

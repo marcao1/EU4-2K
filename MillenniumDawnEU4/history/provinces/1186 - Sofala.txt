@@ -15,11 +15,18 @@ discovered_by = east_african
 discovered_by = central_african
 center_of_trade = 1
 
-300.1.1 = { culture = shona }
-850.1.1 = { owner = SFA controller = SFA add_core = SFA is_city = yes trade_goods = gold }
-915.1.1 = { religion = sunni discovered_by = muslim discovered_by = ottoman }
-1180.1.1 = { owner = ZAN controller = ZAN add_core = ZAN }
-1300.1.1 = { owner = SFA controller = SFA remove_core = ZAN }
+1444.11.11 = {
+culture = shona
+owner = SFA controller = SFA add_core = SFA is_city = yes trade_goods = gold
+religion = sunni discovered_by = muslim discovered_by = ottoman
+owner = ZAN controller = ZAN add_core = ZAN
+owner = SFA controller = SFA remove_core = ZAN
+}
+
+
+
+
+
 
 1498.1.25 = { discovered_by = POR } #Vasco Da Gama
 1505.1.1 = { owner = POR controller = POR add_core = POR unrest = 3 } #Portuguese establish first East African base at Sofala

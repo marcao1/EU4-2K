@@ -18,7 +18,10 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-610.1.1 = { religion = hinduism }
+1444.11.11 = {
+religion = hinduism
+}
+
 
 1627.1.1 = { discovered_by = POR }
 

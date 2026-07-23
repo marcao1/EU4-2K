@@ -14,8 +14,12 @@ native_size = 15
 native_ferocity = 1 
 native_hostileness = 1
 
-500.1.1 = { owner = HRI controller = HRI add_core = HRI is_city = yes trade_goods = grain }
-1200.1.1 = { owner = HJA controller = HJA add_core = HJA remove_core = HRI }
+1444.11.11 = {
+owner = HRI controller = HRI add_core = HRI is_city = yes trade_goods = grain
+owner = HJA controller = HJA add_core = HJA remove_core = HRI
+}
+
+
 
 1465.1.1 = {
 	owner = CSU

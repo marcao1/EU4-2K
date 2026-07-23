@@ -16,17 +16,30 @@ base_manpower = 2
 is_city = yes
 add_core = KO0
 
-500.1.1 = { owner = YAM controller = YAM add_core = YAM remove_core = KO0 culture = japanese }
-580.1.1 = { religion = mahayana }
-712.1.1 = { religion = shinto }
-794.1.1 = { owner = JAP controller = JAP add_core = JAP remove_core = YAM }
-900.1.1 = { trade_goods = paper }
-940.1.1 = { owner = SAI controller = SAI add_core = SAI remove_core = JAP } #Saito clan
-1000.1.1 = { base_tax = 3 base_production = 3 }
-1200.1.1 = { base_production = 4 }
-1192.7.12 = { owner = AMA controller = AMA add_core = AMA } #Kamakura Shogunate, Sasaki clan
-1366.1.1 = { owner = HTK controller = HTK add_core = HTK }
-1380.1.1 = { owner = SBA controller = SBA add_core = SBA remove_core = HTK }
+1444.11.11 = {
+owner = YAM controller = YAM add_core = YAM remove_core = KO0 culture = japanese
+religion = mahayana
+religion = shinto
+owner = JAP controller = JAP add_core = JAP remove_core = YAM
+trade_goods = paper
+owner = SAI controller = SAI add_core = SAI remove_core = JAP
+base_tax = 3 base_production = 3
+base_production = 4
+owner = AMA controller = AMA add_core = AMA
+owner = HTK controller = HTK add_core = HTK
+owner = SBA controller = SBA add_core = SBA remove_core = HTK
+}
+
+
+
+
+
+ #Saito clan
+
+
+ #Kamakura Shogunate, Sasaki clan
+
+
 
 1460.1.1 = { add_core = ASA }
 1471.7.1 = { owner = ASA controller = ASA }

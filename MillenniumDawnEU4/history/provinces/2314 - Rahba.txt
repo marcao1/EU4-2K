@@ -23,46 +23,75 @@ base_manpower = 1
 is_city = yes
 add_core = OSR
 
-91.1.1 = { owner = ARM controller = ARM add_core = ARM }
-109.1.1 = { owner = OSR controller = OSR remove_core = ARM }
-110.1.1 = { religion = zoroastrian }
-116.1.1 = { owner = ROM controller = ROM add_core = ROM }
-118.1.1 = { owner = OSR controller = OSR remove_core = ROM }
-190.1.1 = { religion = chalcedonism }
-244.1.1 = { owner = ROM controller = ROM add_core = ROM remove_core = OSR }
-260.1.1 = { add_core = PLM revolt = { type = nationalist_rebels size = 2 } controller = REB }
-272.1.1 = { controller = ROM remove_core = PLM revolt = {} }
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-512.11.16 = { religion = coptic } #Syrian Orthodox Church
-613.1.1 = { controller = ERS }
-627.1.1 = { controller = BYZ }
-635.9.1 = { owner = RSD controller = RSD add_core = RSD capital = "Deir ez-Zor" }
-661.7.28 = { owner = UMA controller = UMA add_core = UMA remove_core = RSD remove_core = BYZ }
-750.8.6 = { owner = ABA controller = ABA add_core = ABA remove_core = UMA }
-860.1.1 = { religion = sunni culture = al_suryah_arabic }
-911.1.1 = { owner = ZNG controller = ZNG add_core = ZNG remove_core = ABA }
-979.1.1 = { owner = ABA controller = ABA add_core = ABA }
-981.1.1 = { owner = ZNG controller = ZNG add_core = ZNG remove_core = ABA }
-990.1.1 = { owner = HRN controller = HRN add_core = HRN remove_core = ZNG }
-1081.1.1 = { owner = ZNG controller = ZNG add_core = ZNG }
-1089.1.1 = { owner = SEL controller = SEL add_core = SEL }
-1127.1.1 = { owner = ZNG controller = ZNG add_core = ZNG remove_core = SEL }
-1183.1.1 = { owner = EGY controller = EGY add_core = EGY remove_core = ZNG }
-1250.1.1 = { owner = KHA controller = KHA add_core = KHA remove_core = EGY }
-1260.1.1 = { owner = ILK controller = ILK add_core = ILK remove_core = KHA }
-1335.1.1 = { owner = JAL controller = JAL add_core = JAL remove_core = ILK }
-
-1405.2.20 = {	owner = MAM
+1444.11.11 = {
+owner = ARM controller = ARM add_core = ARM
+owner = OSR controller = OSR remove_core = ARM
+religion = zoroastrian
+owner = ROM controller = ROM add_core = ROM
+owner = OSR controller = OSR remove_core = ROM
+religion = chalcedonism
+owner = ROM controller = ROM add_core = ROM remove_core = OSR
+add_core = PLM revolt = { type = nationalist_rebels size = 2 } controller = REB
+controller = ROM remove_core = PLM revolt = {}
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+religion = coptic
+controller = ERS
+controller = BYZ
+owner = RSD controller = RSD add_core = RSD capital = "Deir ez-Zor"
+owner = UMA controller = UMA add_core = UMA remove_core = RSD remove_core = BYZ
+owner = ABA controller = ABA add_core = ABA remove_core = UMA
+religion = sunni culture = al_suryah_arabic
+owner = ZNG controller = ZNG add_core = ZNG remove_core = ABA
+owner = ABA controller = ABA add_core = ABA
+owner = ZNG controller = ZNG add_core = ZNG remove_core = ABA
+owner = HRN controller = HRN add_core = HRN remove_core = ZNG
+owner = ZNG controller = ZNG add_core = ZNG
+owner = SEL controller = SEL add_core = SEL
+owner = ZNG controller = ZNG add_core = ZNG remove_core = SEL
+owner = EGY controller = EGY add_core = EGY remove_core = ZNG
+owner = KHA controller = KHA add_core = KHA remove_core = EGY
+owner = ILK controller = ILK add_core = ILK remove_core = KHA
+owner = JAL controller = JAL add_core = JAL remove_core = ILK
+owner = MAM
 		controller = MAM
 		add_core = MAM
 		remove_core = JAL
-	    } # Given to the Mameluks
-1411.1.1  = {	owner = QAR
+owner = QAR
 		controller = QAR
 		add_core = QAR
 		remove_core = MAM
 		add_claim = MAM
-	    } # The Qara Koyunlu
+}
+
+
+
+
+
+
+
+
+
+ # Final division of the empire
+ #Syrian Orthodox Church
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ # Given to the Mameluks
+ # The Qara Koyunlu
 1469.2.4  = {	owner = AKK
 		controller = AKK
 		add_core = AKK

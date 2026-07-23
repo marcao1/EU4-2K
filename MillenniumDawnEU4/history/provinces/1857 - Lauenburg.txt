@@ -15,15 +15,26 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-600.1.1 = { discovered_by = eastern }
-804.1.1 = { owner = OBO controller = OBO add_core = OBO }
-900.1.1 = { religion = catholic }
-911.11.10 = { owner = SAX controller = SAX add_core = SAX remove_core = OBO }
-962.2.2 = { hre = yes }
-1000.1.1 = { discovered_by = muslim discovered_by = ottoman }
-1100.1.1 = { base_tax = 2 base_production = 2 }
-1200.1.1 = { culture = lower_saxon }
-1296.1.1 = { owner = LAU controller = LAU add_core = LAU remove_core = SAX }
+1444.11.11 = {
+discovered_by = eastern
+owner = OBO controller = OBO add_core = OBO
+religion = catholic
+owner = SAX controller = SAX add_core = SAX remove_core = OBO
+hre = yes
+discovered_by = muslim discovered_by = ottoman
+base_tax = 2 base_production = 2
+culture = lower_saxon
+owner = LAU controller = LAU add_core = LAU remove_core = SAX
+}
+
+
+
+
+
+
+
+
+
 
 1529.1.1 = { religion = protestant }
 1550.1.1 = { base_tax = 4 base_production = 4 }

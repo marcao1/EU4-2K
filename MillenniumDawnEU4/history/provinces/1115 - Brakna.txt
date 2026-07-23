@@ -13,9 +13,10 @@ native_size = 50
 native_ferocity = 4
 native_hostileness = 9
 
-800.1.1   = { owner = TKR controller = TKR add_core = TKR is_city = yes trade_goods = slaves }
-1285.1.1  = { owner = MAL controller = MAL add_core = MAL }
-1350.1.1  = { 	owner = XXX 
+1444.11.11 = {
+owner = TKR controller = TKR add_core = TKR is_city = yes trade_goods = slaves
+owner = MAL controller = MAL add_core = MAL
+owner = XXX 
 		controller = XXX 
 		remove_core = MAL 
 		remove_core = TKR
@@ -24,14 +25,17 @@ native_hostileness = 9
 		native_size = 50
 		native_ferocity = 4
 		native_hostileness = 9
-	    }
+}
+
+
+
 
 1490.1.1  = { owner = FUL controller = FUL add_core = FUL is_city = yes trade_goods = slaves } #Rise of Great Fulo
 1770.1.1  = { religion = sunni }
 
 1860.1.1   = { discovered_by = FR2 }
 1861.1.1   = { owner = SOF controller = SOF add_core = SOF }
-1877.1.1   = { owner = FR2 controller = FR2 add_core = FR2 remove_core = SOF capital = "Kaédi" }
+1877.1.1   = { owner = FR2 controller = FR2 add_core = FR2 remove_core = SOF capital = "Kaï¿½di" }
 1920.1.1   = { discovered_by = western }
 1940.1.1   = {  discovered_by = eastern
 		discovered_by = muslim

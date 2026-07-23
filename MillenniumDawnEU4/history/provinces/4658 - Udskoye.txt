@@ -53,7 +53,10 @@ discovered_by = UTN
 discovered_by = TTI
 discovered_by = ASK
 
-1206.1.1 = { owner = NVK controller = NVK add_core = NVK is_city = yes trade_goods = fish }
+1444.11.11 = {
+owner = NVK controller = NVK add_core = NVK is_city = yes trade_goods = fish
+}
+
 
 1542.1.1 = { discovered_by = POR }
 1640.1.1  = { discovered_by = RUS } # Ivan Moskvitin

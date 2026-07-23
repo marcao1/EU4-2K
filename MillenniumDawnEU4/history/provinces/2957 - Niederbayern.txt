@@ -21,21 +21,38 @@ discovered_by = roman_group
 discovered_by = eastern
 center_of_trade = 2
 
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-450.1.1 = { owner = BAV controller = BAV add_core = BAV capital = "Regensburg" culture = bavarian }
-600.1.1 = { religion = chalcedonism }
-788.1.1 = { owner = FRK controller = FRK add_core = FRK }
-817.1.1 = { owner = BAV controller = BAV add_core = BAV remove_core = FRK }
-800.1.1 = { base_tax = 3 base_production = 3 }
-867.1.1 = { religion = catholic }
-880.3.22 = { owner = FRE controller = FRE add_core = FRE }
-911.11.10 = { owner = BAV controller = BAV add_core = BAV remove_core = FRE }
-962.2.2 = { hre = yes }
-1000.1.1 = { base_tax = 4 base_production = 4 }
-1100.1.1 = { base_tax = 5 base_production = 5 }
-1200.1.1 = { base_manpower = 2 }
-1245.1.1 = { owner = REG controller = REG add_core = REG remove_core = BAV }
-1300.1.1 = { base_manpower = 3 }
+1444.11.11 = {
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+owner = BAV controller = BAV add_core = BAV capital = "Regensburg" culture = bavarian
+religion = chalcedonism
+owner = FRK controller = FRK add_core = FRK
+owner = BAV controller = BAV add_core = BAV remove_core = FRK
+base_tax = 3 base_production = 3
+religion = catholic
+owner = FRE controller = FRE add_core = FRE
+owner = BAV controller = BAV add_core = BAV remove_core = FRE
+hre = yes
+base_tax = 4 base_production = 4
+base_tax = 5 base_production = 5
+base_manpower = 2
+owner = REG controller = REG add_core = REG remove_core = BAV
+base_manpower = 3
+}
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1542.10.15 = {
 	religion = protestant

@@ -16,7 +16,10 @@ native_size = 5
 native_ferocity = 1
 native_hostileness = 3
 
-1300.1.1 = { owner = CHV controller = CHV add_core = CHV is_city = yes trade_goods = fur }
+1444.11.11 = {
+owner = CHV controller = CHV add_core = CHV is_city = yes trade_goods = fur
+}
+
 
 1647.1.1 = { discovered_by = RUS } # V. Atlasov
 1732.1.1 = {	owner = RUS

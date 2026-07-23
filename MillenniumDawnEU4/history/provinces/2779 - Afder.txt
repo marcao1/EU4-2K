@@ -13,14 +13,15 @@ native_ferocity = 4
 native_hostileness = 9 
 discovered_by = east_african
 
-1200.1.1 = { 
-	owner = OGD
+1444.11.11 = {
+owner = OGD
 	controller = OGD
 	add_core = OGD
 	is_city = yes
 	religion = sunni 
 	trade_goods = livestock
 }
+
 
 1850.1.1   = { discovered_by = ITA }
 1897.1.1   = { owner = ETH controller = ETH add_core = ETH }

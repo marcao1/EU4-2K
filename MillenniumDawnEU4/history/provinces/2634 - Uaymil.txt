@@ -15,8 +15,12 @@ base_production = 3
 base_manpower = 1
 add_local_autonomy = 25
 
-987.1.1 = { owner = MAY controller = MAY add_core = MAY remove_core = TIK }
-1441.1.1 = { owner = CTM controller = CTM add_core = CTM }
+1444.11.11 = {
+owner = MAY controller = MAY add_core = MAY remove_core = TIK
+owner = CTM controller = CTM add_core = CTM
+}
+
+
 
 1547.1.1 = {
 	discovered_by = SPA

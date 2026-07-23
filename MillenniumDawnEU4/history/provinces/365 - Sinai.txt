@@ -27,23 +27,42 @@ base_manpower = 1
 is_city = yes
 add_core = NAB
 
-106.6.1 = { owner = ROM controller = ROM add_core = ROM remove_core = NAB }
-120.1.1 = { religion = jewish }
-272.1.1 = { culture = bedouin_arabic }
-380.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-618.1.1 = { controller = ERS }
-628.1.1 = { controller = BYZ }
-635.1.1 = { owner = RSD controller = RSD add_core = RSD remove_core = BYZ }
-661.7.28 = { owner = UMA controller = UMA add_core = UMA remove_core = RSD }
-680.1.1 = { religion = sunni }
-750.8.6 = { owner = ABA controller = ABA add_core = ABA remove_core = UMA }
-868.9.15 = { owner = EGY controller = EGY add_core = EGY remove_core = ABA }
-905.1.10 = { owner = ABA controller = ABA add_core = ABA }
-935.8.26 = { owner = EGY controller = EGY add_core = EGY remove_core = ABA }
-969.6.1  = { owner = FAT controller = FAT add_core = FAT }
-1171.1.1 = { owner = EGY controller = EGY add_core = EGY remove_core = FAT }
-1250.5.2 = { owner = MAM controller = MAM add_core = MAM remove_core = EGY }
+1444.11.11 = {
+owner = ROM controller = ROM add_core = ROM remove_core = NAB
+religion = jewish
+culture = bedouin_arabic
+religion = chalcedonism
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+controller = ERS
+controller = BYZ
+owner = RSD controller = RSD add_core = RSD remove_core = BYZ
+owner = UMA controller = UMA add_core = UMA remove_core = RSD
+religion = sunni
+owner = ABA controller = ABA add_core = ABA remove_core = UMA
+owner = EGY controller = EGY add_core = EGY remove_core = ABA
+owner = ABA controller = ABA add_core = ABA
+owner = EGY controller = EGY add_core = EGY remove_core = ABA
+owner = FAT controller = FAT add_core = FAT
+owner = EGY controller = EGY add_core = EGY remove_core = FAT
+owner = MAM controller = MAM add_core = MAM remove_core = EGY
+}
+
+
+
+
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
+
 
 1517.1.1 = { owner = TUR controller = TUR add_core = TUR } # Conquered by the Ottomans
 1805.5.17 = { owner = EGY controller = EGY add_core = EGY remove_core = MAM }

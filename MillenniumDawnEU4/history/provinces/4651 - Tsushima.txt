@@ -20,10 +20,16 @@ base_manpower = 1
 is_city = yes
 add_core = KYU
 
-650.1.1 = { owner = YAM controller = YAM add_core = YAM remove_core = KYU }
-794.1.1 = { owner = JAP controller = JAP add_core = JAP remove_core = YAM }
-1192.7.12 = { owner = OTM controller = OTM add_core = OTM remove_core = JAP } #Kamakura Shogunate
-1245.1.1 = { owner = SOO controller = SOO add_core = SOO remove_core = OTM } #So Clan
+1444.11.11 = {
+owner = YAM controller = YAM add_core = YAM remove_core = KYU
+owner = JAP controller = JAP add_core = JAP remove_core = YAM
+owner = OTM controller = OTM add_core = OTM remove_core = JAP
+owner = SOO controller = SOO add_core = SOO remove_core = OTM
+}
+
+
+ #Kamakura Shogunate
+ #So Clan
 
 1542.1.1   = { discovered_by = POR }
 1550.1.1   = { add_core = OTM }

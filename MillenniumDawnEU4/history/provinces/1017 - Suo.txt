@@ -17,11 +17,18 @@ is_city = yes
 add_core = KYU
 center_of_trade = 1
 
-550.1.1 = { religion = mahayana }
-650.1.1 = { owner = YAM controller = YAM add_core = YAM remove_core = KYU }
-712.1.1 = { religion = shinto }
-794.1.1 = { owner = JAP controller = JAP add_core = JAP remove_core = YAM }
-940.1.1 = { owner = OUC controller = OUC add_core = OUC remove_core = JAP } #Ouchi clan
+1444.11.11 = {
+religion = mahayana
+owner = YAM controller = YAM add_core = YAM remove_core = KYU
+religion = shinto
+owner = JAP controller = JAP add_core = JAP remove_core = YAM
+owner = OUC controller = OUC add_core = OUC remove_core = JAP
+}
+
+
+
+
+ #Ouchi clan
 
 1542.1.1 = { discovered_by = POR }
 1555.10.1 = { add_core = MRI }

@@ -22,27 +22,41 @@ is_city = yes
 add_core = STV
 center_of_trade = 1
 
-80.1.1 = { owner = WSA controller = WSA add_core = WSA }
-130.1.1 = { owner = STV controller = STV add_core = STV }
-180.1.1 = { remove_core = WSA }
-220.1.1 = { owner = ABH controller = ABH add_core = ABH remove_core = STV }
-388.1.1 = { owner = KNK controller = KNK add_core = KNK remove_core = ABH }
-500.1.1 = { owner = KLC controller = KLC add_core = KLC remove_core = KNK }
-620.1.1 = { owner = CLY controller = CLY add_core = CLY remove_core = KLC }
-753.1.1 = { owner = RSH controller = RSH add_core = RSH remove_core = CLY }
-800.1.1 = { owner = KNK controller = KNK add_core = KNK remove_core = RSH discovered_by = nomad_group }
-820.1.1 = { religion = hinduism }
-900.1.1 = { base_tax = 4 base_production = 4 }
-1265.1.1 = { owner = YAD controller = YAD add_core = YAD remove_core = KNK }
-1317.1.1 = { owner = DLH controller = DLH add_core = DLH remove_core = YAD }
-1347.1.1 = { owner = BAH controller = BAH add_core = BAH add_core = AHM remove_core = DLH }
-
-1432.1.1 = {
-	owner = GUJ
+1444.11.11 = {
+owner = WSA controller = WSA add_core = WSA
+owner = STV controller = STV add_core = STV
+remove_core = WSA
+owner = ABH controller = ABH add_core = ABH remove_core = STV
+owner = KNK controller = KNK add_core = KNK remove_core = ABH
+owner = KLC controller = KLC add_core = KLC remove_core = KNK
+owner = CLY controller = CLY add_core = CLY remove_core = KLC
+owner = RSH controller = RSH add_core = RSH remove_core = CLY
+owner = KNK controller = KNK add_core = KNK remove_core = RSH discovered_by = nomad_group
+religion = hinduism
+base_tax = 4 base_production = 4
+owner = YAD controller = YAD add_core = YAD remove_core = KNK
+owner = DLH controller = DLH add_core = DLH remove_core = YAD
+owner = BAH controller = BAH add_core = BAH add_core = AHM remove_core = DLH
+owner = GUJ
 	add_core = GUJ
 	controller = GUJ
 	add_core = BAH
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 1498.1.1 = { discovered_by = POR }
 1534.12.23 = {
 	owner = POR

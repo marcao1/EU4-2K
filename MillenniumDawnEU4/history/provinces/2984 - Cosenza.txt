@@ -20,17 +20,30 @@ capital = "Cosentia"
 is_city = yes 
 add_core = ROM
 
-380.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-476.9.4 = { owner = ITA controller = ITA add_core = ITA }
-480.1.1 = { remove_core = ROW }
-489.1.1 = { owner = OST controller = OST add_core = OST remove_core = ITA }
-536.1.1 = { owner = BYZ controller = BYZ add_core = BYZ remove_core = OST }
-847.1.1 = { owner = BAE controller = BAE add_core = BAE }
-867.1.1 = { religion = catholic }
-871.1.1 = { owner = BYZ controller = BYZ remove_core = BAE }
-1060.1.1 = { owner = SIC controller = SIC add_core = SIC remove_core = BYZ capital = "Cosenza" culture = neapolitan }
-1282.1.1 = { owner = NAP controller = NAP add_core = NAP remove_core = SIC }
+1444.11.11 = {
+religion = chalcedonism
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+owner = ITA controller = ITA add_core = ITA
+remove_core = ROW
+owner = OST controller = OST add_core = OST remove_core = ITA
+owner = BYZ controller = BYZ add_core = BYZ remove_core = OST
+owner = BAE controller = BAE add_core = BAE
+religion = catholic
+owner = BYZ controller = BYZ remove_core = BAE
+owner = SIC controller = SIC add_core = SIC remove_core = BYZ capital = "Cosenza" culture = neapolitan
+owner = NAP controller = NAP add_core = NAP remove_core = SIC
+}
+
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
 
 1494.1.1 = { add_core = FRA } # Angevine claims
 1495.2.22 = { controller = FRA } # Charles VIII invades Naples

@@ -271,7 +271,7 @@ wessex_missions_2 = {
 		}
 		position = 2
 		trigger = {
-			has_institution = early_feudalism
+			always = yes
 			has_reform = feudalism_reform
 		}
 		effect = {

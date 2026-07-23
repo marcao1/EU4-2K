@@ -115,7 +115,7 @@ guiTypes = {
 			OverlappingElementsBoxType = {
 				name = "institutions"
 				position = { x = -24 y = 79 } #Changed ET
-				size = { x = 596 y = 128 }
+				size = { x = 596 y = 64 }
 				Orientation = "UPPER_LEFT"
 				format = center
 				spacing = 1

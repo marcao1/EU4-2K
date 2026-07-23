@@ -24,13 +24,22 @@ base_manpower = 1
 is_city = yes
 add_core = KSH
 
-375.1.1 = { owner = KDT controller = KDT add_core = KDT }
-515.1.1 = { owner = KAP controller = KAP add_core = KAP remove_core = KDT }
-530.1.1 = { owner = GND controller = GND add_core = GND remove_core = KAP }
-542.1.1 = { owner = KSH controller = KSH add_core = KSH remove_core = GND }
-600.1.1 = { base_tax = 3 base_production = 3 }
-700.1.1 = { trade_goods = paper }
-1003.1.1 = { religion = hinduism }
+1444.11.11 = {
+owner = KDT controller = KDT add_core = KDT
+owner = KAP controller = KAP add_core = KAP remove_core = KDT
+owner = GND controller = GND add_core = GND remove_core = KAP
+owner = KSH controller = KSH add_core = KSH remove_core = GND
+base_tax = 3 base_production = 3
+trade_goods = paper
+religion = hinduism
+}
+
+
+
+
+
+
+
 
 1500.1.1 = { religion = shiite }
 1589.7.28 = {

@@ -20,23 +20,42 @@ capital = "Coriunum"
 is_city = yes
 add_core = CTV
 
-43.1.1 = { owner = ROM controller = ROM add_core = ROM }
-380.1.1 = { add_core = ERG }
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-410.1.1 = { owner = ERG controller = ERG add_core = ERG remove_core = ROW culture = welsh }
-519.1.1 = { owner = WSX controller = WSX add_core = WSX remove_core = ERG culture = anglo_saxon religion = germanic }
-600.1.1 = { base_tax = 2 base_production = 2 }
-645.1.1 = { owner = MRC controller = MRC add_core = MRC }
-650.1.1 = { religion = chalcedonism }
-750.1.1 = { capital = "Oxford" }
-800.1.1 = { base_manpower = 2 }
-825.1.1 = { owner = WSX controller = WSX add_core = WSX }
-867.1.1 = { religion = catholic }
-927.1.1 = { owner = ENG controller = ENG add_core = ENG }
-1000.1.1 = { base_tax = 3 base_production = 3 }
-1027.1.1 = { remove_core = WSX }
-1066.12.25 = { culture = english }
-1200.1.1 = { base_tax = 4 base_production = 4 }
+1444.11.11 = {
+owner = ROM controller = ROM add_core = ROM
+add_core = ERG
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+owner = ERG controller = ERG add_core = ERG remove_core = ROW culture = welsh
+owner = WSX controller = WSX add_core = WSX remove_core = ERG culture = anglo_saxon religion = germanic
+base_tax = 2 base_production = 2
+owner = MRC controller = MRC add_core = MRC
+religion = chalcedonism
+capital = "Oxford"
+base_manpower = 2
+owner = WSX controller = WSX add_core = WSX
+religion = catholic
+owner = ENG controller = ENG add_core = ENG
+base_tax = 3 base_production = 3
+remove_core = WSX
+culture = english
+base_tax = 4 base_production = 4
+}
+
+
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1453.1.1 = { unrest = 5 } # Start of the War of the Roses
 1461.6.1 = { unrest = 2 } # Coronation of Edward IV

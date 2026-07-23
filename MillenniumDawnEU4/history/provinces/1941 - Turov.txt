@@ -9,19 +9,34 @@ trade_goods = unknown
 base_manpower = 1
 capital = "Turov"
 
-500.1.1 = { discovered_by = eastern }
-550.1.1 = { owner = DRV controller = DRV add_core = DRV is_city = yes trade_goods = wool }
-700.1.1 = { discovered_by = western }
-860.1.1 = { owner = KRU controller = KRU add_core = KRU add_core = UKR remove_core = DRV }
-1000.1.1 = { religion = orthodox discovered_by = nomad_group }
-1054.2.20 = { owner = KIE controller = KIE add_core = KIE remove_core = KRU }
-1100.1.1 = { discovered_by = muslim discovered_by = ottoman }
-1162.1.1 = { owner = TRV controller = TRV add_core = TRV remove_core = KIE }
-1230.1.1 = { owner = VOL controller = VOL add_core = VOL }
-1240.1.1 = { owner = TRV controller = TRV add_core = TRV }
-1320.1.1 = { owner = LIT controller = LIT add_core = LIT }
-1349.1.1 = { remove_core = VOL }
-1350.1.1 = { religion = orthodox }
+1444.11.11 = {
+discovered_by = eastern
+owner = DRV controller = DRV add_core = DRV is_city = yes trade_goods = wool
+discovered_by = western
+owner = KRU controller = KRU add_core = KRU add_core = UKR remove_core = DRV
+religion = orthodox discovered_by = nomad_group
+owner = KIE controller = KIE add_core = KIE remove_core = KRU
+discovered_by = muslim discovered_by = ottoman
+owner = TRV controller = TRV add_core = TRV remove_core = KIE
+owner = VOL controller = VOL add_core = VOL
+owner = TRV controller = TRV add_core = TRV
+owner = LIT controller = LIT add_core = LIT
+remove_core = VOL
+religion = orthodox
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1569.7.1 = {
 	owner = PLC

@@ -23,24 +23,44 @@ is_city = yes
 add_core = IPA
 add_core = BAL
 
-46.1.1 = { owner = BAL controller = BAL remove_core = IPA }
-300.1.1 = { owner = ERS controller = ERS add_core = ERS }
-620.1.1 = { owner = BAL controller = BAL add_core = BAL remove_core = ERS }
-636.1.1 = { owner = SND controller = SND add_core = SND }
-652.1.1 = { owner = RSD controller = RSD add_core = RSD remove_core = SND }
-661.7.28 = { owner = UMA controller = UMA add_core = UMA remove_core = RSD }
-750.8.6 = { owner = ABA controller = ABA add_core = ABA remove_core = UMA }
-800.1.1 = { religion = sunni }
-841.1.1 = { owner = SND controller = SND add_core = SND remove_core = ABA }
-875.1.1 = { owner = SIS controller = SIS add_core = SIS remove_core = SND }
-913.5.24 = { owner = BUK controller = BUK }
-922.5.1 = { owner = SIS controller = SIS }
-1002.1.1 = { owner = GHZ controller = GHZ add_core = GHZ remove_core = SIS }
-1175.1.1 = { owner = GHU controller = GHU add_core = GHU remove_core = GHZ }
-1206.1.1 = { owner = BAL controller = BAL add_core = BAL remove_core = GHU }
-1231.1.1 = { owner = KHA controller = KHA add_core = KHA }
-1260.1.1 = { owner = ILK controller = ILK add_core = ILK remove_core = KHA }
-1335.1.1 = { owner = BAL controller = BAL remove_core = ILK }
+1444.11.11 = {
+owner = BAL controller = BAL remove_core = IPA
+owner = ERS controller = ERS add_core = ERS
+owner = BAL controller = BAL add_core = BAL remove_core = ERS
+owner = SND controller = SND add_core = SND
+owner = RSD controller = RSD add_core = RSD remove_core = SND
+owner = UMA controller = UMA add_core = UMA remove_core = RSD
+owner = ABA controller = ABA add_core = ABA remove_core = UMA
+religion = sunni
+owner = SND controller = SND add_core = SND remove_core = ABA
+owner = SIS controller = SIS add_core = SIS remove_core = SND
+owner = BUK controller = BUK
+owner = SIS controller = SIS
+owner = GHZ controller = GHZ add_core = GHZ remove_core = SIS
+owner = GHU controller = GHU add_core = GHU remove_core = GHZ
+owner = BAL controller = BAL add_core = BAL remove_core = GHU
+owner = KHA controller = KHA add_core = KHA
+owner = ILK controller = ILK add_core = ILK remove_core = KHA
+owner = BAL controller = BAL remove_core = ILK
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1547.1.1 = { owner = MUG controller = MUG add_core = MUG } #Conquered by Humayun with Persian aid
 1558.1.1 = { controller = PER owner = PER add_core = PER } #Seized by Safavids

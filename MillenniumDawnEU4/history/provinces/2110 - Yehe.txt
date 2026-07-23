@@ -18,17 +18,30 @@ base_production = 3
 base_manpower = 3
 is_city = yes
 
-390.1.1 = { religion = mahayana }
-410.1.1 = { owner = GOG controller = GOG add_core = GOG }
-698.1.1 = { owner = BLH controller = BLH add_core = BLH remove_core = GOG }
-907.6.1 = { owner = LIO controller = LIO add_core = LIO remove_core = BLH }
-920.1.1 = { culture = khitan }
-1115.1.1 = { owner = CJN controller = CJN add_core = CJN remove_core = LIO }
-1120.1.1 = { religion = confucianism }
-1200.1.1 = { culture = manchu }
-1214.1.1 = { owner = KHA controller = KHA add_core = KHA remove_core = CJN }
-1271.1.1 = { owner = YUA controller = YUA add_core = YUA remove_core = KHA }
-1368.1.1 = { owner = MHX controller = MHX add_core = MHX remove_core = YUA }
+1444.11.11 = {
+religion = mahayana
+owner = GOG controller = GOG add_core = GOG
+owner = BLH controller = BLH add_core = BLH remove_core = GOG
+owner = LIO controller = LIO add_core = LIO remove_core = BLH
+culture = khitan
+owner = CJN controller = CJN add_core = CJN remove_core = LIO
+religion = confucianism
+culture = manchu
+owner = KHA controller = KHA add_core = KHA remove_core = CJN
+owner = YUA controller = YUA add_core = YUA remove_core = KHA
+owner = MHX controller = MHX add_core = MHX remove_core = YUA
+}
+
+
+
+
+
+
+
+
+
+
+
 
 1619.9.1 = {
 	owner = MCH

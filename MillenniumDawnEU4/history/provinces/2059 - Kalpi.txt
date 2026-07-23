@@ -21,21 +21,38 @@ base_manpower = 1
 is_city = yes
 add_core = VAT
 
-120.1.1 = { owner = KUS controller = KUS add_core = KUS remove_core = VAT }
-270.1.1 = { owner = PDM controller = PDM add_core = PDM remove_core = KUS }
-360.1.1 = { owner = GUP controller = GUP add_core = GUP remove_core = PDM }
-600.1.1 = { owner = KNN controller = KNN add_core = KNN remove_core = GUP }
-620.1.1 = { owner = HRS controller = HRS add_core = HRS }
-647.1.1 = { owner = KNN controller = KNN remove_core = HRS }
-750.1.1 = { owner = GRP controller = GRP add_core = GRP remove_core = KNN }
-800.1.1 = { owner = RSH controller = RSH add_core = RSH remove_core = GRP discovered_by = nomad_group }
-815.1.1 = { owner = GRP controller = GRP add_core = GRP remove_core = RSH }
-900.1.1 = { base_tax = 3 base_production = 3 }
-920.1.1 = { owner = BND controller = BND add_core = BND remove_core = GRP }
-1100.1.1 = { base_tax = 4 base_production = 4 }
-1315.1.1 = { owner = DLH controller = DLH add_core = DLH }
-1400.1.1 = { owner = KLP controller = KLP add_core = KLP }
-1437.1.1 = { add_core = JNP }
+1444.11.11 = {
+owner = KUS controller = KUS add_core = KUS remove_core = VAT
+owner = PDM controller = PDM add_core = PDM remove_core = KUS
+owner = GUP controller = GUP add_core = GUP remove_core = PDM
+owner = KNN controller = KNN add_core = KNN remove_core = GUP
+owner = HRS controller = HRS add_core = HRS
+owner = KNN controller = KNN remove_core = HRS
+owner = GRP controller = GRP add_core = GRP remove_core = KNN
+owner = RSH controller = RSH add_core = RSH remove_core = GRP discovered_by = nomad_group
+owner = GRP controller = GRP add_core = GRP remove_core = RSH
+base_tax = 3 base_production = 3
+owner = BND controller = BND add_core = BND remove_core = GRP
+base_tax = 4 base_production = 4
+owner = DLH controller = DLH add_core = DLH
+owner = KLP controller = KLP add_core = KLP
+add_core = JNP
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1479.1.1 = { controller = DLH } # Conquered by Delhi
 1480.1.1 = { owner = DLH } # Conquered by Delhi

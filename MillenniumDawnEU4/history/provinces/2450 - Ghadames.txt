@@ -17,11 +17,18 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-660.1.1 = { owner = AUR controller = AUR add_core = AUR add_core = FZA remove_core = GAR }
-702.1.1 = { owner = FZA controller = FZA remove_core = AUR }
-850.1.1 = { religion = sunni culture = tunisian capital = "Ghadames" }
-1173.1.1 = { owner = MAM controller = MAM add_core = MAM }
-1212.1.1 = { owner = GHD controller = GHD add_core = GHD remove_core = FZA remove_core = MAM }
+1444.11.11 = {
+owner = AUR controller = AUR add_core = AUR add_core = FZA remove_core = GAR
+owner = FZA controller = FZA remove_core = AUR
+religion = sunni culture = tunisian capital = "Ghadames"
+owner = MAM controller = MAM add_core = MAM
+owner = GHD controller = GHD add_core = GHD remove_core = FZA remove_core = MAM
+}
+
+
+
+
+
 
 1830.1.1   = { owner = FZA controller = FZA add_core = FZA remove_core = GHD }
 1910.1.1 = { discovered_by = western discovered_by = eastern discovered_by = asian }

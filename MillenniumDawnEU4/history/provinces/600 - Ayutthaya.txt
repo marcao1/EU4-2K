@@ -18,24 +18,44 @@ base_manpower = 1
 is_city = yes
 add_core = MNX
 
-150.1.1 = { owner = FUN controller = FUN add_core = FUN remove_core = MNX }
-500.1.1 = { base_manpower = 2 }
-450.1.1 = { owner = DVA controller = DVA add_core = DVA remove_core = FUN } 
-600.1.1 = { religion = buddhism }
-661.1.1 = { owner = LAV controller = LAV add_core = LAV remove_core = DVA }
-700.1.1 = { base_manpower = 3 }
-800.1.1 = { base_tax = 3 base_production = 3 }
-880.1.1 = { owner = CMB controller = CMB add_core = CMB }
-900.1.1 = { base_tax = 4 base_production = 4 }
-1000.1.1 = { base_manpower = 4 }
-1050.1.1 = { culture = central_thai } #Sometime in the 11th century
-1060.1.1 = { owner = LAV controller = LAV remove_core = CMB }
-1087.1.1 = { fort_15th = yes }
-1100.1.1 = { base_tax = 5 base_production = 5 }
-1200.1.1 = { base_tax = 6 base_production = 6 }
-1290.1.1 = { religion = buddhism }
-1300.1.1 = { base_tax = 7 base_production = 7 }
-1350.1.1 = { owner = AYU controller = AYU add_core = AYU remove_core = LAV capital = "Ayutthaya" base_tax = 8 base_production = 8 }
+1444.11.11 = {
+owner = FUN controller = FUN add_core = FUN remove_core = MNX
+base_manpower = 2
+owner = DVA controller = DVA add_core = DVA remove_core = FUN
+religion = buddhism
+owner = LAV controller = LAV add_core = LAV remove_core = DVA
+base_manpower = 3
+base_tax = 3 base_production = 3
+owner = CMB controller = CMB add_core = CMB
+base_tax = 4 base_production = 4
+base_manpower = 4
+culture = central_thai
+owner = LAV controller = LAV remove_core = CMB
+fort_15th = yes
+base_tax = 5 base_production = 5
+base_tax = 6 base_production = 6
+religion = buddhism
+base_tax = 7 base_production = 7
+owner = AYU controller = AYU add_core = AYU remove_core = LAV capital = "Ayutthaya" base_tax = 8 base_production = 8
+}
+
+
+ 
+
+
+
+
+
+
+
+ #Sometime in the 11th century
+
+
+
+
+
+
+
 
 1535.1.1 = { discovered_by = POR }
 1767.4.8 = { owner = THB controller = THB add_core = THB } # Fall of the Ayutthaya kingdom

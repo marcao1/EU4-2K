@@ -12,13 +12,14 @@ native_size = 60
 native_ferocity = 4
 native_hostileness = 9
 
-1400.1.1 = { 
-	owner = KWA
+1444.11.11 = {
+owner = KWA
 	controller = KWA
 	add_core = KWA
 	is_city = yes
 	trade_goods = grain
 }
+
 
 1685.1.1 = { unrest = 3 } #Displaced Jukun fleeing invasion from Borno disturb region
 1690.1.1 = { unrest = 0 }

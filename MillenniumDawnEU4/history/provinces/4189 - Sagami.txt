@@ -16,16 +16,28 @@ base_manpower = 2
 is_city = yes
 add_core = KEO
 
-500.1.1 = { owner = YAM controller = YAM add_core = YAM remove_core = KEO culture = japanese }
-607.1.1 = { religion = mahayana }
-712.1.1 = { religion = shinto }
-794.1.1 = { owner = JAP controller = JAP add_core = JAP remove_core = YAM }
-800.1.1 = { base_manpower = 3 }
-900.1.1 = { base_tax = 3 }
-1156.8.16 = { owner = KMK controller = KMK add_core = KMK remove_core = JAP } #Hogen Rebellion
-1219.2.13 = { owner = FUJ controller = FUJ add_core = FUJ } 
-1252.4.1 = { owner = YAM controller = YAM add_core = YAM remove_core = FUJ }
-1333.5.18 = { owner = ASK controller = ASK add_core = ASK remove_core = YAM } #Kenmu restoration
+1444.11.11 = {
+owner = YAM controller = YAM add_core = YAM remove_core = KEO culture = japanese
+religion = mahayana
+religion = shinto
+owner = JAP controller = JAP add_core = JAP remove_core = YAM
+base_manpower = 3
+base_tax = 3
+owner = KMK controller = KMK add_core = KMK remove_core = JAP
+owner = FUJ controller = FUJ add_core = FUJ
+owner = YAM controller = YAM add_core = YAM remove_core = FUJ
+owner = ASK controller = ASK add_core = ASK remove_core = YAM
+}
+
+
+
+
+
+
+ #Hogen Rebellion
+ 
+
+ #Kenmu restoration
 
 1493.1.1 = { owner = HJO controller = HJO add_core = HJO remove_core = ASK } # Hojo Soun took Izu
 1495.1.1 = { fort_15th = yes capital = "Odawara" } # Odawara Castle

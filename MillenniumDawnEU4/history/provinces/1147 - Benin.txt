@@ -14,15 +14,17 @@ native_ferocity = 4.5
 native_hostileness = 9 
 center_of_trade = 1
 
-2.1.1   = {
-		add_permanent_province_modifier = {
+1444.11.11 = {
+add_permanent_province_modifier = {
 			name = niger_estuary_modifier
 			duration = -1
 		}
+owner = BEN controller = BEN add_core = BEN is_city = yes trade_goods = ivory
+fort_15th = yes
 }
 
-523.1.1 = { owner = BEN controller = BEN add_core = BEN is_city = yes trade_goods = ivory } #note - Benin not major slaving center until rise of Lagos trade in 1750s
-1300.1.1 = { fort_15th = yes }
+ #note - Benin not major slaving center until rise of Lagos trade in 1750s
+
 
 1472.1.1 = { discovered_by = POR } 
 #1486.1.1 - Portuguese mission to Benin - trade post(?)

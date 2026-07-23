@@ -13,14 +13,24 @@ trade_goods = unknown
 base_manpower = 1
 capital = "Ustyug"
 
-750.1.1 = { discovered_by = PRM owner = PRM controller = PRM add_core = PRM is_city = yes trade_goods = fur }
-900.1.1 = { discovered_by = eastern }
-1200.1.1 = { discovered_by = western }
-1207.1.1 = { owner = VLA controller = VLA add_core = VLA add_core = NOV }
-1212.1.1 = { religion = orthodox culture = novgorodian }
-1250.1.1 = { base_tax = 2 base_production = 2 }
-1300.1.1 = { discovered_by = nomad_group }
-1328.1.1 = { owner = MOS controller = MOS add_core = MOS remove_core = VLA } # was part of Ustyug principality, annexed by Muscovy in 1474 
+1444.11.11 = {
+discovered_by = PRM owner = PRM controller = PRM add_core = PRM is_city = yes trade_goods = fur
+discovered_by = eastern
+discovered_by = western
+owner = VLA controller = VLA add_core = VLA add_core = NOV
+religion = orthodox culture = novgorodian
+base_tax = 2 base_production = 2
+discovered_by = nomad_group
+owner = MOS controller = MOS add_core = MOS remove_core = VLA
+}
+
+
+
+
+
+
+
+ # was part of Ustyug principality, annexed by Muscovy in 1474 
 
 1478.1.15 = { remove_core = NOV } # Novgorod conquered
 1503.4.1  = { owner = RUS controller = RUS add_core = RUS remove_core = MOS }

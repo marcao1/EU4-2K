@@ -16,9 +16,14 @@ base_manpower = 1
 
 add_province_triggered_modifier = MAY_obsidian_source
 
-400.1.1 = { base_tax = 3 base_production = 3 }
-496.1.1 = { owner = TLT controller = TLT add_core = TLT remove_core = TTH }
-1250.1.1 = { owner = AZT controller = AZT add_core = AZT remove_core = TLT }
+1444.11.11 = {
+base_tax = 3 base_production = 3
+owner = TLT controller = TLT add_core = TLT remove_core = TTH
+owner = AZT controller = AZT add_core = AZT remove_core = TLT
+}
+
+
+
 
 1519.1.1  = { discovered_by = SPA } 
 1521.8.13 = {	owner = SPA 
@@ -29,7 +34,7 @@ add_province_triggered_modifier = MAY_obsidian_source
 	    } # The last Aztec emperor surrendered, end of the Aztec Empire
 1801.1.1  = { base_manpower = 2 }
 1810.9.16 = { owner = MEX add_core = MEX controller = SPA } # Mexican War of Independence
-1812.8.10 = { controller = MEX } # Conquered by José María Morelos
+1812.8.10 = { controller = MEX } # Conquered by Josï¿½ Marï¿½a Morelos
 
 1821.9.27  = { controller = MEX remove_core = SPA }
 1825.1.1 = { base_production = 4 base_manpower = 3 }

@@ -12,9 +12,12 @@ native_size = 50
 native_ferocity = 4
 native_hostileness = 9
 
-1250.1.1  = { religion = sunni }
+1444.11.11 = {
+religion = sunni
+discovered_by = POR
+}
 
-1443.1.1 = { discovered_by = POR }
+
 #No direct colonization, but tradepost changed hands many times
 #1453.1.1 Portuguese Tradepost
 #1633.2.5 Dutch seize tradepost from Portugues

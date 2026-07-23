@@ -13,8 +13,12 @@ native_size = 40
 native_ferocity = 4
 native_hostileness = 9
 
-1050.1.1 = { owner = TEN controller = TEN add_core = TEN trade_goods = livestock is_city = yes }
-1182.1.1 = { owner = WGD controller = WGD add_core = WGD remove_core = TEN }
+1444.11.11 = {
+owner = TEN controller = TEN add_core = TEN trade_goods = livestock is_city = yes
+owner = WGD controller = WGD add_core = WGD remove_core = TEN
+}
+
+
 
 1540.1.1  = { owner = YAT controller = YAT add_core = YAT } #Yatenga established as distinct kingdom
 1600.1.1 = { religion = sunni }

@@ -13,7 +13,10 @@ native_ferocity = 2
 native_hostileness = 9
 discovered_by = central_african
 
-1350.1.1 = { owner = KUB controller = KUB add_core = KUB is_city = yes trade_goods = tropical_wood }
+1444.11.11 = {
+owner = KUB controller = KUB add_core = KUB is_city = yes trade_goods = tropical_wood
+}
+
 
 1884.1.1   = { discovered_by = BEL discovered_by = GER }
 1892.1.1   = { owner = BEL controller = BEL add_core = BEL is_city = yes capital = "Ilebo" religion = protestant }

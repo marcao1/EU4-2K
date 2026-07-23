@@ -12,7 +12,10 @@ base_manpower = 1
 native_ferocity = 4.5
 native_hostileness = 9 
 
-400.1.1 = { culture = nguni }
+1444.11.11 = {
+culture = nguni
+}
+
 1700.1.1   = { discovered_by = ZUL discovered_by = SWZ discovered_by = LES }
 1822.1.1   = { owner = LES controller = LES add_core = LES is_city = yes trade_goods = grain }
 1830.1.1   = { discovered_by = GBR }

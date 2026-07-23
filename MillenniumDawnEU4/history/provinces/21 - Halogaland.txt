@@ -12,16 +12,23 @@ native_hostileness = 4
 native_size = 5
 native_ferocity = 2
 
-699.1.1 = { discovered_by = HAL discovered_by = AGD discovered_by = VES discovered_by = NOR }
-700.1.1 = { owner = HAL controller = HAL add_core = HAL is_city = yes trade_goods = fish }
-872.1.1 = { owner = NOR controller = NOR add_core = NOR remove_core = HAL }
-950.1.1 = { discovered_by = western discovered_by = eastern }
-1000.1.1 = { religion = catholic }
+1444.11.11 = {
+discovered_by = HAL discovered_by = AGD discovered_by = VES discovered_by = NOR
+owner = HAL controller = HAL add_core = HAL is_city = yes trade_goods = fish
+owner = NOR controller = NOR add_core = NOR remove_core = HAL
+discovered_by = western discovered_by = eastern
+religion = catholic
+}
+
+
+
+
+
 
 1531.11.15 = { unrest = 10 } # The Return of Christian II
 1532.7.15  = { unrest = 0 } # The Capture of Christian II
 1536.1.1   = { religion = protestant} # Unknown date
-1536.1.1   = { owner = DAN controller = DAN add_core = DAN } # 'Handfästningen'(Unknown date)
+1536.1.1   = { owner = DAN controller = DAN add_core = DAN } # 'Handfï¿½stningen'(Unknown date)
 1814.1.14  = {	owner = SWE
 		revolt = { type = nationalist_rebels size = 1 }
 		controller = REB
@@ -30,7 +37,7 @@ native_ferocity = 2
 1814.5.17 = { revolt = {} owner = NOR controller = NOR } # Norway declares itself independent and elects Christian Frederik as king
 
 1815.1.1 = { base_tax = 3 }
-1838.1.1   = { capital = "Bodø" }
+1838.1.1   = { capital = "Bodï¿½" }
 1845.1.1 = { base_production = 3 }
 1875.1.1 = { base_tax = 4 }
 1905.1.1 = { base_production = 4 }

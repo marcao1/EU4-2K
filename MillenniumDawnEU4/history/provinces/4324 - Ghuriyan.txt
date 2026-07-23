@@ -22,25 +22,46 @@ base_manpower = 1
 is_city = yes
 add_core = PRT
 
-224.4.24 = { owner = ERS controller = ERS add_core = ERS remove_core = PRT }
-484.1.1 = { owner = HEP controller = HEP add_core = HEP } #Hephthalite–Sasanian War of 484
-512.1.1 = { owner = ERS controller = ERS remove_core = HEP } #Regained by Sassanids during Kavad I's reign, exact year unknown
-647.1.1 = { owner = RSD controller = RSD add_core = RSD remove_core = ERS }
-650.1.1 = { culture = khorasani }
-661.7.28 = { owner = UMA controller = UMA add_core = UMA remove_core = RSD }
-750.8.6 = { owner = ABA controller = ABA add_core = ABA remove_core = UMA }
-770.1.1 = { religion = sunni }
-819.1.1 = { owner = KRT controller = KRT add_core = KRT remove_core = ABA }
-870.1.1 = { owner = SIS controller = SIS add_core = SIS }
-900.1.1 = { owner = BUK controller = BUK add_core = BUK remove_core = SIS }
-998.1.1 = { owner = GHZ controller = GHZ add_core = GHZ remove_core = BUK }
-1040.5.23 = { owner = SEL controller = SEL add_core = SEL remove_core = GHZ } #Battle of Dandanaqan
-1152.1.1 = { owner = GHU controller = GHU add_core = GHU remove_core = SEL }
-1207.1.1 = { owner = KHW controller = KHW add_core = KHW remove_core = GHU }
-1221.1.1 = { owner = KHA controller = KHA add_core = KHA add_core = PER remove_core = KHW }
-1260.1.1 = { owner = ILK controller = ILK add_core = ILK remove_core = KHA }
-1335.1.1 = { owner = KRT controller = KRT add_core = KRT remove_core = ILK }
-1380.1.1 = { owner = TIM controller = TIM add_core = TIM add_core = KHO remove_core = KRT }
+1444.11.11 = {
+owner = ERS controller = ERS add_core = ERS remove_core = PRT
+owner = HEP controller = HEP add_core = HEP
+owner = ERS controller = ERS remove_core = HEP
+owner = RSD controller = RSD add_core = RSD remove_core = ERS
+culture = khorasani
+owner = UMA controller = UMA add_core = UMA remove_core = RSD
+owner = ABA controller = ABA add_core = ABA remove_core = UMA
+religion = sunni
+owner = KRT controller = KRT add_core = KRT remove_core = ABA
+owner = SIS controller = SIS add_core = SIS
+owner = BUK controller = BUK add_core = BUK remove_core = SIS
+owner = GHZ controller = GHZ add_core = GHZ remove_core = BUK
+owner = SEL controller = SEL add_core = SEL remove_core = GHZ
+owner = GHU controller = GHU add_core = GHU remove_core = SEL
+owner = KHW controller = KHW add_core = KHW remove_core = GHU
+owner = KHA controller = KHA add_core = KHA add_core = PER remove_core = KHW
+owner = ILK controller = ILK add_core = ILK remove_core = KHA
+owner = KRT controller = KRT add_core = KRT remove_core = ILK
+owner = TIM controller = TIM add_core = TIM add_core = KHO remove_core = KRT
+}
+
+ #Hephthalite–Sasanian War of 484
+ #Regained by Sassanids during Kavad I's reign, exact year unknown
+
+
+
+
+
+
+
+
+
+ #Battle of Dandanaqan
+
+
+
+
+
+
 
 1449.2.1 = { #Conquered by Babur bin Baysunkur
 	owner = KHO

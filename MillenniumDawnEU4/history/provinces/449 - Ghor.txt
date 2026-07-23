@@ -22,24 +22,44 @@ base_manpower = 4
 is_city = yes
 add_core = PRT
 
-50.1.1 = { owner = KUS controller = KUS add_core = KUS remove_core = PRT }
-230.1.1 = { owner = KSA controller = KSA add_core = KSA remove_core = KUS }
-350.1.1 = { owner = KDT controller = KDT add_core = KDT remove_core = KSA }
-430.1.1 = { owner = KAP controller = KAP add_core = KAP remove_core = KDT }
-484.1.1 = { owner = GHZ controller = GHZ add_core = GHZ remove_core = KAP }
-530.1.1 = { owner = KAP controller = KAP add_core = KAP remove_core = GHZ }
-589.1.1 = { owner = ERS controller = ERS add_core = ERS remove_core = KAP }
-647.1.1 = { owner = ZAB controller = ZAB add_core = ZAB remove_core = ERS }
-760.1.1 = { owner = GHU controller = GHU add_core = GHU remove_core = ZAB }
-962.1.1 = { owner = GHZ controller = GHZ add_core = GHZ }
-980.1.1 = { culture = hazara }
-1012.1.1 = { religion = sunni }
-1041.1.1 = { owner = GHU controller = GHU add_core = GHU remove_core = GHZ }
-1215.1.1 = { owner = KHW controller = KHW add_core = KHW remove_core = GHU }
-1221.1.1 = { owner = KHA controller = KHA add_core = KHA add_core = AFG remove_core = KHW }
-1260.1.1 = { owner = ILK controller = ILK add_core = ILK remove_core = KHA }
-1335.1.1 = { owner = KRT controller = KRT add_core = KRT remove_core = ILK }
-1380.1.1 = { owner = TIM controller = TIM add_core = TIM add_core = KHO remove_core = KRT }
+1444.11.11 = {
+owner = KUS controller = KUS add_core = KUS remove_core = PRT
+owner = KSA controller = KSA add_core = KSA remove_core = KUS
+owner = KDT controller = KDT add_core = KDT remove_core = KSA
+owner = KAP controller = KAP add_core = KAP remove_core = KDT
+owner = GHZ controller = GHZ add_core = GHZ remove_core = KAP
+owner = KAP controller = KAP add_core = KAP remove_core = GHZ
+owner = ERS controller = ERS add_core = ERS remove_core = KAP
+owner = ZAB controller = ZAB add_core = ZAB remove_core = ERS
+owner = GHU controller = GHU add_core = GHU remove_core = ZAB
+owner = GHZ controller = GHZ add_core = GHZ
+culture = hazara
+religion = sunni
+owner = GHU controller = GHU add_core = GHU remove_core = GHZ
+owner = KHW controller = KHW add_core = KHW remove_core = GHU
+owner = KHA controller = KHA add_core = KHA add_core = AFG remove_core = KHW
+owner = ILK controller = ILK add_core = ILK remove_core = KHA
+owner = KRT controller = KRT add_core = KRT remove_core = ILK
+owner = TIM controller = TIM add_core = TIM add_core = KHO remove_core = KRT
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1449.2.1 = { #Conquered by Babur bin Baysunkur
 	owner = KHO

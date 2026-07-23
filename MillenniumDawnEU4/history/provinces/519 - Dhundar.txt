@@ -25,18 +25,32 @@ is_city = yes
 add_core = NST
 center_of_trade = 1
 
-120.1.1 = { owner = PDM controller = PDM add_core = PDM remove_core = NST }
-360.1.1 = { owner = GUP controller = GUP add_core = GUP }
-498.1.1 = { owner = KAP controller = KAP add_core = MLW remove_core = GUP }
-528.1.1 = { owner = MLW controller = MLW add_core = GRP }
-540.1.1 = { owner = HRS controller = HRS add_core = HRS remove_core = MLW }
-647.1.1 = { owner = GRP controller = GRP add_core = GRP remove_core = HRS }
-1036.1.1 = { owner = CCH controller = CCH add_core = CCH remove_core = GRP }
-1146.1.1 = { capital = "Amber" }
-1160.1.1 = { owner = DHU controller = DHU add_core = DHU remove_core = CCH }
-1192.1.1 = { owner = GHU controller = GHU add_core = GHU }
-1206.1.1 = { owner = DLH controller = DLH add_core = DLH remove_core = GHU }
-1226.1.1 = { owner = DHU controller = DHU remove_core = DLH }
+1444.11.11 = {
+owner = PDM controller = PDM add_core = PDM remove_core = NST
+owner = GUP controller = GUP add_core = GUP
+owner = KAP controller = KAP add_core = MLW remove_core = GUP
+owner = MLW controller = MLW add_core = GRP
+owner = HRS controller = HRS add_core = HRS remove_core = MLW
+owner = GRP controller = GRP add_core = GRP remove_core = HRS
+owner = CCH controller = CCH add_core = CCH remove_core = GRP
+capital = "Amber"
+owner = DHU controller = DHU add_core = DHU remove_core = CCH
+owner = GHU controller = GHU add_core = GHU
+owner = DLH controller = DLH add_core = DLH remove_core = GHU
+owner = DHU controller = DHU remove_core = DLH
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 1530.1.1 = {
 	owner = MUG

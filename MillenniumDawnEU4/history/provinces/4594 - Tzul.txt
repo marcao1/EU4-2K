@@ -14,8 +14,12 @@ base_manpower = 1
 is_city = yes
 add_core = TIK
 
-987.1.1 = { owner = MAY controller = MAY add_core = MAY remove_core = TIK }
-1194.1.1 = { owner = ITZ controller = ITZ add_core = ITZ remove_core = MAY }
+1444.11.11 = {
+owner = MAY controller = MAY add_core = MAY remove_core = TIK
+owner = ITZ controller = ITZ add_core = ITZ remove_core = MAY
+}
+
+
 
 1522.1.1 = { discovered_by = SPA }
 1697.3.14 = { unrest = 5 } # Spanish attack

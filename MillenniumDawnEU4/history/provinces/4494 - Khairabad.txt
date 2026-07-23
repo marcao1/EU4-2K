@@ -21,22 +21,40 @@ base_manpower = 1
 is_city = yes
 add_core = PNC
 
-120.1.1 = { owner = KUS controller = KUS add_core = KUS remove_core = PNC }
-270.1.1 = { owner = PNC controller = PNC add_core = PNC remove_core = KUS }
-375.1.1 = { owner = GUP controller = GUP add_core = GUP remove_core = PNC }
-440.1.1 = { religion = hinduism }
-540.1.1 = { owner = KNN controller = KNN add_core = KNN remove_core = GUP }
-620.1.1 = { owner = HRS controller = HRS add_core = HRS }
-647.1.1 = { owner = KNN controller = KNN remove_core = HRS }
-800.1.1 = { religion = mahayana discovered_by = nomad_group }
-820.1.1 = { owner = GRP controller = GRP add_core = GRP remove_core = KNN }
-890.1.1 = { religion = hinduism }
-900.1.1 = { base_tax = 3 base_production = 3 }
-1036.1.1 = { owner = KLC controller = KLC add_core = KLC remove_core = GRP }
-1068.1.1 = { owner = GAH controller = GAH add_core = GAH remove_core = KLC }
-1192.1.1 = { owner = GHU controller = GHU add_core = GHU remove_core = GAH }
-1206.1.1 = { owner = DLH controller = DLH add_core = DLH remove_core = GHU }
-1394.1.1 = { owner = JNP controller = JNP add_core = JNP remove_core = DLH }
+1444.11.11 = {
+owner = KUS controller = KUS add_core = KUS remove_core = PNC
+owner = PNC controller = PNC add_core = PNC remove_core = KUS
+owner = GUP controller = GUP add_core = GUP remove_core = PNC
+religion = hinduism
+owner = KNN controller = KNN add_core = KNN remove_core = GUP
+owner = HRS controller = HRS add_core = HRS
+owner = KNN controller = KNN remove_core = HRS
+religion = mahayana discovered_by = nomad_group
+owner = GRP controller = GRP add_core = GRP remove_core = KNN
+religion = hinduism
+base_tax = 3 base_production = 3
+owner = KLC controller = KLC add_core = KLC remove_core = GRP
+owner = GAH controller = GAH add_core = GAH remove_core = KLC
+owner = GHU controller = GHU add_core = GHU remove_core = GAH
+owner = DLH controller = DLH add_core = DLH remove_core = GHU
+owner = JNP controller = JNP add_core = JNP remove_core = DLH
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1486.1.1 = {
 	owner = DLH

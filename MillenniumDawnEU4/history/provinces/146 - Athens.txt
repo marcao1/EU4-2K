@@ -22,18 +22,30 @@ fort_15th = yes
 add_core = ROM
 center_of_trade = 1
 
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-430.1.1 = { religion = chalcedonism }
-867.1.1 = { religion = orthodox }
-900.1.1 = { fort_15th = no }
-1205.1.1 = { owner = ATH controller = ATH add_core = ATH }
-1312.1.1 = { owner = SIC controller = SIC add_core = SIC add_core = ARA }
-1379.1.1 = { owner = ARA controller = ARA add_core = ARA }
-1388.1.1 = { owner = ATH controller = ATH add_core = ATH }
-1395.1.1 = { owner = VEN controller = VEN add_core = VEN }
+1444.11.11 = {
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+religion = chalcedonism
+religion = orthodox
+fort_15th = no
+owner = ATH controller = ATH add_core = ATH
+owner = SIC controller = SIC add_core = SIC add_core = ARA
+owner = ARA controller = ARA add_core = ARA
+owner = ATH controller = ATH add_core = ATH
+owner = VEN controller = VEN add_core = VEN
+add_core = BYZ
+owner = ATH controller = ATH remove_core = VEN
+}
+ # Final division of the empire
 
-1399.1.1 = { add_core = BYZ }
-1402.1.1 = { owner = ATH controller = ATH remove_core = VEN }
+
+
+
+
+
+
+
+
+
 1453.5.30 = { add_core = TUR } # The fall of the Byzantine Empire
 1458.1.1 = { owner = TUR controller = TUR }
 1502.1.1 = { remove_core = BYZ }

@@ -1,6 +1,9 @@
 #1621 - Chagos Archipelago
 
-1350.1.1 = { discovered_by = indian discovered_by = asian }
+1444.11.11 = {
+discovered_by = indian discovered_by = asian
+}
+
 1498.1.1 = { discovered_by = POR }
 
 

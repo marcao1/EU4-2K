@@ -15,14 +15,15 @@ native_size = 30
 native_ferocity = 4
 native_hostileness = 5
 
-1200.1.1 = {
-	owner = MGD
+1444.11.11 = {
+owner = MGD
 	controller = MGD
 	add_core = MGD
 	add_core = LNO
 	is_city = yes
 	trade_goods = spices
 }
+
 
 1450.1.1 = { religion = sunni }
 1520.1.1 = {

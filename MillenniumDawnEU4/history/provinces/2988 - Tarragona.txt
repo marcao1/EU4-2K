@@ -26,25 +26,44 @@ add_permanent_province_modifier = {
 	duration = -1
 }
 
-360.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-456.1.1 = { owner = GVI controller = GVI add_core = GVI }
-458.10.1 = { owner = ROW controller = ROW } #Battle of Arelate
-476.9.4 = { owner = GVI controller = GVI add_core = GVI remove_core = ROW religion = arianism }
-500.1.1 = { fort_15th = no }
-570.1.1 = { religion = chalcedonism }
-711.1.1 = { owner = UMA controller = UMA add_core = UMA remove_core = GVI culture = catalan }
-750.8.6 = { owner = CRD controller = CRD add_core = CRD remove_core = UMA }
-867.1.1 = { religion = catholic }
-1010.1.1 = { owner = TTA controller = TTA add_core = TTA remove_core = CRD capital = "Tortosa" }
-1060.1.1 = { owner = ZAR controller = ZAR add_core = ZAR }
-1081.1.1 = { owner = TTA controller = TTA remove_core = ZAR }
-1115.1.1 = { owner = MOR controller = MOR add_core = MOR }
-1117.1.1 = { owner = CAT controller = CAT add_core = CAT remove_core = MOR remove_core = TTA capital = "Tarragona" }
-1137.8.11 = { owner = ARA controller = ARA add_core = ARA }
+1444.11.11 = {
+religion = chalcedonism
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+owner = GVI controller = GVI add_core = GVI
+owner = ROW controller = ROW
+owner = GVI controller = GVI add_core = GVI remove_core = ROW religion = arianism
+fort_15th = no
+religion = chalcedonism
+owner = UMA controller = UMA add_core = UMA remove_core = GVI culture = catalan
+owner = CRD controller = CRD add_core = CRD remove_core = UMA
+religion = catholic
+owner = TTA controller = TTA add_core = TTA remove_core = CRD capital = "Tortosa"
+owner = ZAR controller = ZAR add_core = ZAR
+owner = TTA controller = TTA remove_core = ZAR
+owner = MOR controller = MOR add_core = MOR
+owner = CAT controller = CAT add_core = CAT remove_core = MOR remove_core = TTA capital = "Tarragona"
+owner = ARA controller = ARA add_core = ARA
+revolt = { type = pretender_rebels size = 0 } controller = REB
+revolt = {} controller = ARA
+}
 
-1412.6.29 = { revolt = { type = pretender_rebels size = 0 } controller = REB } # Jaime d'Urgell Uprising
-1413.1.1 = { revolt = {} controller = ARA }
+ # Final division of the empire
+
+ #Battle of Arelate
+
+
+
+
+
+
+
+
+
+
+
+
+ # Jaime d'Urgell Uprising
+
 1461.9.23 = { revolt = { type = revolutionary_rebels size = 2 } controller = REB } # Catalan nobility revolts against King Joan, later the "Remensa" peasant revolt erupts, which is used by the King to erode the Catalan nobility. 
 1462.4.11 = { revolt = {} controller = CAS } # The Generalitat capitulates to King Joan, the civil war ends. Succession war
 1463.1.1 = { revolt = { type = pretender_rebels size = 1 } controller = REB } # Uprising

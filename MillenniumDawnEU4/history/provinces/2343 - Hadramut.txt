@@ -20,16 +20,25 @@ base_manpower = 2
 is_city = yes
 add_core = HDR
 
-635.1.1 = { owner = RSD controller = RSD add_core = RSD religion = islam }
-661.7.28 = { owner = UMA controller = UMA add_core = UMA remove_core = RSD religion = sunni }
-750.8.6 = { owner = ABA controller = ABA add_core = ABA remove_core = UMA }
-800.1.1 = { discovered_by = nomad_group }
-845.1.1 = { owner = HDR controller = HDR add_core = HDR remove_core = ABA }
-1278.1.1 = { owner = YEM controller = YEM add_core = YEM }
-1395.1.1 = { owner = HDR controller = HDR add_core = HDR remove_core = YEM }
+1444.11.11 = {
+owner = RSD controller = RSD add_core = RSD religion = islam
+owner = UMA controller = UMA add_core = UMA remove_core = RSD religion = sunni
+owner = ABA controller = ABA add_core = ABA remove_core = UMA
+discovered_by = nomad_group
+owner = HDR controller = HDR add_core = HDR remove_core = ABA
+owner = YEM controller = YEM add_core = YEM
+owner = HDR controller = HDR add_core = HDR remove_core = YEM
+}
+
+
+
+
+
+
+
 
 1480.1.1 = { discovered_by = TUR }
-1488.1.1 = { discovered_by = POR } # Pêro da Covilhã
+1488.1.1 = { discovered_by = POR } # Pï¿½ro da Covilhï¿½
 1654.1.1 = {
 	owner = RAS
 	controller = RAS

@@ -15,10 +15,16 @@ base_production = 3
 base_manpower = 1
 add_local_autonomy = 25
 
-930.1.1 = { owner = TLT controller = TLT add_core = TLT }
-970.1.1 = { owner = XIU controller = XIU add_core = XIU remove_core = TLT }
-987.1.1 = { owner = MAY controller = MAY add_core = MAY remove_core = XIU capital = "Ah Canul" }
-1441.1.1 = { owner = XIU controller = XIU add_core = XIU }
+1444.11.11 = {
+owner = TLT controller = TLT add_core = TLT
+owner = XIU controller = XIU add_core = XIU remove_core = TLT
+owner = MAY controller = MAY add_core = MAY remove_core = XIU capital = "Ah Canul"
+owner = XIU controller = XIU add_core = XIU
+}
+
+
+
+
 
 1542.1.23  = {	
 	discovered_by = SPA

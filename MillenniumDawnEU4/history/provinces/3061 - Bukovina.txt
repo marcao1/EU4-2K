@@ -23,19 +23,34 @@ capital = "Czernowitz"
 trade_goods = wool
 base_manpower = 1
 
-150.1.1 = { owner = BAS controller = BAS add_core = BAS remove_core = DAC culture = gothic religion = germanic }
-271.1.1 = { owner = GVI controller = GVI add_core = GVI remove_core = BAS }
-370.1.1 = { owner = HNS controller = HNS add_core = HNS remove_core = GVI culture = hunnic }
-400.1.1 = { religion = tengri_pagan_reformed }
-520.1.1 = { owner = ANE controller = ANE add_core = ANE remove_core = HNS culture = ruthenian }
-560.1.1 = { owner = WHC controller = WHC add_core = WHC remove_core = ANE }
-780.1.1 = { owner = HUN controller = HUN add_core = HUN }
-940.1.1 = { religion = orthodox }
-950.1.1 = { owner = PEC controller = PEC add_core = PEC remove_core = HUN }
-960.1.1 = { culture = romanian remove_core = WHC }
-1000.1.1 = { base_tax = 2 base_production = 2 }
-1054.2.20 = { owner = VOL controller = VOL add_core = VOL remove_core = PEC }
-1349.1.1 = { owner = MOL controller = MOL add_core = MOL remove_core = VOL }
+1444.11.11 = {
+owner = BAS controller = BAS add_core = BAS remove_core = DAC culture = gothic religion = germanic
+owner = GVI controller = GVI add_core = GVI remove_core = BAS
+owner = HNS controller = HNS add_core = HNS remove_core = GVI culture = hunnic
+religion = tengri_pagan_reformed
+owner = ANE controller = ANE add_core = ANE remove_core = HNS culture = ruthenian
+owner = WHC controller = WHC add_core = WHC remove_core = ANE
+owner = HUN controller = HUN add_core = HUN
+religion = orthodox
+owner = PEC controller = PEC add_core = PEC remove_core = HUN
+culture = romanian remove_core = WHC
+base_tax = 2 base_production = 2
+owner = VOL controller = VOL add_core = VOL remove_core = PEC
+owner = MOL controller = MOL add_core = MOL remove_core = VOL
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1484.1.1  = { controller = TUR } #Turkish invasion
 1489.1.1  = { controller = MOL } # Treaty with Sultan Bezayd II.

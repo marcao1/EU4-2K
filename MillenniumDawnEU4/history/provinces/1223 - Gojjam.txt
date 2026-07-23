@@ -17,10 +17,16 @@ trade_goods = coffee
 hre = no
 discovered_by = east_african
 
-350.1.1 = { owner = GOJ controller = GOJ add_core = GOJ remove_core = AWI culture = amhara }
-1240.1.1 = { religion = coptic }
-1317.1.1 = { owner = ETH controller = ETH add_core = ETH }
-1300.1.1 = { discovered_by = muslim discovered_by = ottoman discovered_by = indian discovered_by = asian }
+1444.11.11 = {
+owner = GOJ controller = GOJ add_core = GOJ remove_core = AWI culture = amhara
+religion = coptic
+owner = ETH controller = ETH add_core = ETH
+discovered_by = muslim discovered_by = ottoman discovered_by = indian discovered_by = asian
+}
+
+
+
+
 
 1535.1.1   = { unrest = 7 } #Raids by Ahmad Gran
 1536.1.1   = { unrest = 0 }

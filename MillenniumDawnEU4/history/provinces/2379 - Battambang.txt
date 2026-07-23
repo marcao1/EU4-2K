@@ -18,13 +18,22 @@ base_production = 2
 base_manpower = 2
 is_city = yes
 
-68.1.1 = { owner = FUN controller = FUN add_core = FUN }
-450.1.1 = { religion = mahayana }
-500.1.1 = { culture = khmer }
-550.1.1 = { owner = CNA controller = CNA add_core = CNA remove_core = FUN }
-802.1.1 = { owner = CMB controller = CMB add_core = CMB remove_core = CNA }
-1295.1.1 = { religion = buddhism }
-1431.1.1 = { owner = KHM controller = KHM add_core = KHM remove_core = CMB }
+1444.11.11 = {
+owner = FUN controller = FUN add_core = FUN
+religion = mahayana
+culture = khmer
+owner = CNA controller = CNA add_core = CNA remove_core = FUN
+owner = CMB controller = CMB add_core = CMB remove_core = CNA
+religion = buddhism
+owner = KHM controller = KHM add_core = KHM remove_core = CMB
+}
+
+
+
+
+
+
+
 
 1535.1.1 = { discovered_by = POR }
 1795.1.1 = { owner = RTN controller = RTN add_core = RTN }

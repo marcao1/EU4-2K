@@ -22,23 +22,42 @@ is_city = yes
 add_core = STV
 center_of_trade = 1
 
-220.1.1 = { owner = PUZ controller = PUZ add_core = PUZ remove_core = STV }
-275.1.1 = { owner = PLL controller = PLL add_core = PLL remove_core = PUZ }
-300.1.1 = { base_tax = 3 base_production = 3 }
-345.1.1 = { owner = KAD controller = KAD add_core = KAD remove_core = PLL }
-500.1.1 = { base_manpower = 3 }
-543.1.1 = { owner = CLY controller = CLY add_core = CLY remove_core = KAD }
-700.1.1 = { base_tax = 4 base_production = 4 }
-753.1.1 = { owner = RSH controller = RSH add_core = RSH remove_core = CLY }
-800.1.1 = { discovered_by = nomad_group }
-850.1.1 = { owner = GAN controller = GAN add_core = GAN remove_core = RSH }
-880.1.1 = { religion = hinduism }
-900.1.1 = { base_manpower = 4 }
-1000.1.1 = { owner = CLS controller = CLS add_core = CLS remove_core = GAN }
-1026.1.1 = { owner = HOY controller = HOY add_core = HOY remove_core = CLS }
-1100.1.1 = { base_tax = 5 base_production = 5 }
-1300.1.1 = { base_tax = 6 base_production = 6 }
-1336.1.1 = { owner = VIJ controller = VIJ add_core = VIJ remove_core = HOY }
+1444.11.11 = {
+owner = PUZ controller = PUZ add_core = PUZ remove_core = STV
+owner = PLL controller = PLL add_core = PLL remove_core = PUZ
+base_tax = 3 base_production = 3
+owner = KAD controller = KAD add_core = KAD remove_core = PLL
+base_manpower = 3
+owner = CLY controller = CLY add_core = CLY remove_core = KAD
+base_tax = 4 base_production = 4
+owner = RSH controller = RSH add_core = RSH remove_core = CLY
+discovered_by = nomad_group
+owner = GAN controller = GAN add_core = GAN remove_core = RSH
+religion = hinduism
+base_manpower = 4
+owner = CLS controller = CLS add_core = CLS remove_core = GAN
+owner = HOY controller = HOY add_core = HOY remove_core = CLS
+base_tax = 5 base_production = 5
+base_tax = 6 base_production = 6
+owner = VIJ controller = VIJ add_core = VIJ remove_core = HOY
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1498.1.1 = { discovered_by = POR }
 1565.1.26 = { controller = BIJ }

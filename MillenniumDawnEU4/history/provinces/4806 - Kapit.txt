@@ -15,9 +15,14 @@ native_size = 60
 native_ferocity = 1
 native_hostileness = 5
 
-620.1.1 = { owner = BEI controller = BEI add_core = BEI is_city = yes trade_goods = tropical_wood }
-1300.1.1 = { discovered_by = indian discovered_by = muslim discovered_by = ottoman }
-1330.1.1 = { religion = sunni }
+1444.11.11 = {
+owner = BEI controller = BEI add_core = BEI is_city = yes trade_goods = tropical_wood
+discovered_by = indian discovered_by = muslim discovered_by = ottoman
+religion = sunni
+}
+
+
+
 
 1521.1.1 = { discovered_by = SPA }
 1580.1.1 = { owner = SPA controller = SPA } # Captured by Spain

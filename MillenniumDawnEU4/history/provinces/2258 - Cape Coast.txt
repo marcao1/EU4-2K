@@ -13,8 +13,11 @@ native_ferocity = 4
 native_hostileness = 9
 center_of_trade = 1
 
-1400.1.1 = { owner = DNK controller = DNK add_core = DNK is_city = yes trade_goods = gold }
-1471.1.1 = { discovered_by = POR } # Frenão do Pó
+1444.11.11 = {
+owner = DNK controller = DNK add_core = DNK is_city = yes trade_goods = gold
+}
+
+1471.1.1 = { discovered_by = POR } # Frenï¿½o do Pï¿½
 1482.1.19 = { owner = POR controller = POR capital = "Sao Jorge da Mina" } #Portuguese trading post
 1532.1.1 = { add_core = POR religion = catholic }
 1600.1.1 = { trade_goods = slaves } #Trade good change

@@ -19,18 +19,32 @@ base_tax = 3
 base_production = 3
 base_manpower = 3
 
-160.1.1 = { owner = HNS controller = HNS add_core = HNS is_city = yes trade_goods = salt }
-370.1.1 = { add_core = OGH culture = turkmeni }
-448.1.1 = { owner = OGH controller = OGH remove_core = HNS }
-593.1.1 = { owner = WGO controller = WGO add_core = WGO remove_core = OGH }
-659.1.1 = { owner = OGH controller = OGH add_core = OGH remove_core = WGO }
-800.1.1 = { religion = sunni }
-870.1.1 = { culture = nogaybak }
-1037.1.1 = { owner = CUM controller = CUM add_core = CUM remove_core = PEC }
-1200.1.1 = { discovered_by = eastern }
-1236.1.1 = { owner = KHA controller = KHA add_core = KHA remove_core = CUM }
-1260.1.1 = { owner = BHO controller = BHO add_core = BHO remove_core = KHA }
-1262.1.1 = { owner = NOG controller = NOG add_core = NOG remove_core = BHO }
+1444.11.11 = {
+owner = HNS controller = HNS add_core = HNS is_city = yes trade_goods = salt
+add_core = OGH culture = turkmeni
+owner = OGH controller = OGH remove_core = HNS
+owner = WGO controller = WGO add_core = WGO remove_core = OGH
+owner = OGH controller = OGH add_core = OGH remove_core = WGO
+religion = sunni
+culture = nogaybak
+owner = CUM controller = CUM add_core = CUM remove_core = PEC
+discovered_by = eastern
+owner = KHA controller = KHA add_core = KHA remove_core = CUM
+owner = BHO controller = BHO add_core = BHO remove_core = KHA
+owner = NOG controller = NOG add_core = NOG remove_core = BHO
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 1520.1.1  = { owner = KZH controller = KZH add_core = KZH remove_core = NOG culture = khazak } # Qasim Khan crushes the Nogais
 1645.1.1  = { owner = RUS controller = RUS add_core = RUS remove_core = KZH capital = "Nizhny Yaitsky Gorodok" } # Yaik Cossacks settle the area

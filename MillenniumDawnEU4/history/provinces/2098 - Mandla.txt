@@ -21,11 +21,18 @@ base_manpower = 1
 is_city = yes
 add_core = DAS
 
-350.1.1 = { owner = GUP controller = GUP add_core = GUP remove_core = DAS }
-500.1.1 = { owner = DAK controller = DAK add_core = DAK remove_core = GUP }
-700.1.1 = { owner = KLC controller = KLC add_core = KLC remove_core = DAK }
-800.1.1 = { discovered_by = nomad_group }
-1200.1.1 = { owner = NGP controller = NGP add_core = NGP remove_core = KLC }
+1444.11.11 = {
+owner = GUP controller = GUP add_core = GUP remove_core = DAS
+owner = DAK controller = DAK add_core = DAK remove_core = GUP
+owner = KLC controller = KLC add_core = KLC remove_core = DAK
+discovered_by = nomad_group
+owner = NGP controller = NGP add_core = NGP remove_core = KLC
+}
+
+
+
+
+
 
 1562.1.1 = {
 	owner = SRG

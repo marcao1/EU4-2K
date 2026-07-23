@@ -14,7 +14,10 @@ native_hostileness = 9
 discovered_by = central_african
 center_of_trade = 1
 
-1350.1.1 = { owner = LND controller = LND add_core = LND is_city = yes trade_goods = ivory }
+1444.11.11 = {
+owner = LND controller = LND add_core = LND is_city = yes trade_goods = ivory
+}
+
 
 1887.1.1   = { owner = CKW controller = CKW add_core = CKW }
 1890.1.1   = { discovered_by = BEL }

@@ -20,28 +20,52 @@ discovered_by = western
 discovered_by = roman_group
 discovered_by = eastern
 
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-459.1.1 = { owner = FRK controller = FRK add_core = FRK capital = "Zweibrücken" remove_core = BUR }
-500.1.1 = { base_tax = 2 base_production = 2 }
-511.11.27 = { owner = AUT controller = AUT add_core = AUT }
-555.1.1 = { owner = SOI controller = SOI add_core = SOI }
-558.12.23 = { owner = FRK controller = FRK add_core = FRK remove_core = SOI }
-561.11.29 = { owner = AUT controller = AUT }
-600.1.1 = { religion = chalcedonism }
-613.10.10 = { owner = FRK controller = FRK add_core = FRK }
-623.1.1 = { owner = AUT controller = AUT }
-629.10.18 = { owner = FRK controller = FRK }
-634.1.1 = { owner = AUT controller = AUT }
-679.12.23 = { owner = FRK controller = FRK }
-700.1.1 = { base_manpower = 2 }
-800.1.1 = { base_tax = 3 base_production = 3 }
-840.6.21 = { owner = FRE controller = FRE add_core = FRE remove_core = FRK }
-867.1.1 = { religion = catholic }
-911.11.10 = { owner = LOT controller = LOT add_core = LOT remove_core = FRE }
-959.1.1 = { owner = LOR controller = LOR add_core = LOR remove_core = LOT }
-962.2.2 = { hre = yes }
-1137.12.4 = { owner = FKN controller = FKN add_core = FKN } #Imperial land
-1250.12.13 = { owner = PAL controller = PAL add_core = PAL remove_core = FKN }
+1444.11.11 = {
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+owner = FRK controller = FRK add_core = FRK capital = "Zweibrücken" remove_core = BUR
+base_tax = 2 base_production = 2
+owner = AUT controller = AUT add_core = AUT
+owner = SOI controller = SOI add_core = SOI
+owner = FRK controller = FRK add_core = FRK remove_core = SOI
+owner = AUT controller = AUT
+religion = chalcedonism
+owner = FRK controller = FRK add_core = FRK
+owner = AUT controller = AUT
+owner = FRK controller = FRK
+owner = AUT controller = AUT
+owner = FRK controller = FRK
+base_manpower = 2
+base_tax = 3 base_production = 3
+owner = FRE controller = FRE add_core = FRE remove_core = FRK
+religion = catholic
+owner = LOT controller = LOT add_core = LOT remove_core = FRE
+owner = LOR controller = LOR add_core = LOR remove_core = LOT
+hre = yes
+owner = FKN controller = FKN add_core = FKN
+owner = PAL controller = PAL add_core = PAL remove_core = FKN
+}
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ #Imperial land
+
 
 1533.1.1 = { religion = reformed }
 1557.1.1 = { religion = protestant } # Rise of Lutheran influence under Duke Wolfgang and Chancellor Ulrich Sitzinger

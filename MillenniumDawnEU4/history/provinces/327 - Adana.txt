@@ -24,30 +24,56 @@ add_core = CAP
 add_core = CIL
 center_of_trade = 1
 
-18.1.1 = { owner = ROM controller = ROM add_core = ROM }
-40.1.1 = { religion = chalcedonism }
-269.1.1 = { add_core = PLM revolt = { type = nationalist_rebels size = 1 } controller = REB }
-272.1.1 = { controller = ROM remove_core = PLM revolt = {} }
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-500.1.1 = { culture = greek }
-650.1.1 = { owner = RSD controller = RSD add_core = RSD }
-661.7.28 = { owner = UMA controller = UMA add_core = UMA remove_core = RSD }
-750.8.6 = { owner = ABA controller = ABA add_core = ABA remove_core = UMA }
-867.1.1 = { religion = orthodox }
-868.9.15 = { owner = EGY controller = EGY add_core = EGY }
-905.1.10 = { owner = ABA controller = ABA add_core = ABA }
-935.8.26 = { owner = EGY controller = EGY add_core = EGY remove_core = ABA }
-945.1.1  = { owner = SYR controller = SYR add_core = SYR remove_core = EGY }
-962.1.1  = { owner = BYZ controller = BYZ add_core = BYZ }
-1000.1.1 = { base_manpower = 4 }
-1055.1.1 = { remove_core = ABA }
-1084.1.1 = { owner = RUM controller = RUM add_core = RUM capital = "Adana" }
-1120.1.1 = { religion = coptic }
-1129.1.1 = { owner = CIL controller = CIL add_core = CIL remove_core = RUM culture = armenian }
-1137.1.1 = { owner = BYZ controller = BYZ }
-1170.1.1 = { owner = CIL controller = CIL remove_core = BYZ }
-1359.1.1 = { owner = RAM controller = RAM add_core = RAM culture = turkish }
-1370.1.1 = { religion = sunni }
+1444.11.11 = {
+owner = ROM controller = ROM add_core = ROM
+religion = chalcedonism
+add_core = PLM revolt = { type = nationalist_rebels size = 1 } controller = REB
+controller = ROM remove_core = PLM revolt = {}
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+culture = greek
+owner = RSD controller = RSD add_core = RSD
+owner = UMA controller = UMA add_core = UMA remove_core = RSD
+owner = ABA controller = ABA add_core = ABA remove_core = UMA
+religion = orthodox
+owner = EGY controller = EGY add_core = EGY
+owner = ABA controller = ABA add_core = ABA
+owner = EGY controller = EGY add_core = EGY remove_core = ABA
+owner = SYR controller = SYR add_core = SYR remove_core = EGY
+owner = BYZ controller = BYZ add_core = BYZ
+base_manpower = 4
+remove_core = ABA
+owner = RUM controller = RUM add_core = RUM capital = "Adana"
+religion = coptic
+owner = CIL controller = CIL add_core = CIL remove_core = RUM culture = armenian
+owner = BYZ controller = BYZ
+owner = CIL controller = CIL remove_core = BYZ
+owner = RAM controller = RAM add_core = RAM culture = turkish
+religion = sunni
+}
+
+
+
+
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1608.1.1 = { owner = TUR controller = TUR add_core = TUR estate = estate_nobles }
 1623.1.1 = { revolt = { type = revolutionary_rebels size = 0 } controller = REB } # The empire fell into anarchy, Janissaries stormed the palace

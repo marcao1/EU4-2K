@@ -20,17 +20,30 @@ capital = "Aristanis"
 is_city = yes
 add_core = ROM
 
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-456.1.1 = { owner = VAN controller = VAN add_core = VAN remove_core = ROW }
-534.1.1 = { owner = BYZ controller = BYZ add_core = BYZ remove_core = VAN }
-594.1.1 = { religion = chalcedonism }
-700.1.1 = { base_tax = 2 base_production = 2 }
-867.1.1 = { religion = catholic }
-900.1.1 = { base_manpower = 2 }
-1015.1.1 = { owner = LOG controller = LOG add_core = LOG remove_core = BYZ capital = "Oristano" }
-1060.1.1 = { owner = ABR controller = ABR add_core = ABR remove_core = LOG }
-1410.1.1 = { controller = ARA }
-1420.8.17 = { owner = ARA add_core = ARA add_core = SAR } # Sold to Aragon
+1444.11.11 = {
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+owner = VAN controller = VAN add_core = VAN remove_core = ROW
+owner = BYZ controller = BYZ add_core = BYZ remove_core = VAN
+religion = chalcedonism
+base_tax = 2 base_production = 2
+religion = catholic
+base_manpower = 2
+owner = LOG controller = LOG add_core = LOG remove_core = BYZ capital = "Oristano"
+owner = ABR controller = ABR add_core = ABR remove_core = LOG
+controller = ARA
+owner = ARA add_core = ARA add_core = SAR
+}
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+ # Sold to Aragon
 
 1516.1.23 = {	owner = SPA
 	controller = SPA

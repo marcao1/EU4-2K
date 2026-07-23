@@ -15,16 +15,28 @@ trade_goods = livestock
 base_manpower = 1
 capital = "Dramburg"
 
-395.1.1 = { owner = VEL controller = VEL add_core = VEL remove_core = LEM religion = slavic culture = polabian }
-600.1.1 = { discovered_by = eastern }
-900.1.1 = { base_tax = 2 base_production = 2 }
-920.1.1 = { owner = POM controller = POM add_core = POM remove_core = VEL }
-950.1.1 = { owner = POL controller = POL add_core = POL remove_core = POM religion = catholic }
-1000.1.1 = { discovered_by = muslim discovered_by = ottoman }
-1138.10.28 = { owner = GPO controller = GPO add_core = GPO }
-1252.1.1 = { owner = BRA controller = BRA add_core = BRA remove_core = GPO hre = yes }
-1260.1.1 = { culture = saxon }
-1402.1.1 = { owner = TEU controller = TEU add_core = TEU }
+1444.11.11 = {
+owner = VEL controller = VEL add_core = VEL remove_core = LEM religion = slavic culture = polabian
+discovered_by = eastern
+base_tax = 2 base_production = 2
+owner = POM controller = POM add_core = POM remove_core = VEL
+owner = POL controller = POL add_core = POL remove_core = POM religion = catholic
+discovered_by = muslim discovered_by = ottoman
+owner = GPO controller = GPO add_core = GPO
+owner = BRA controller = BRA add_core = BRA remove_core = GPO hre = yes
+culture = saxon
+owner = TEU controller = TEU add_core = TEU
+}
+
+
+
+
+
+
+
+
+
+
 
 1453.1.1 = { owner = BRA controller = BRA add_core = BRA remove_core = TEU }
 1536.1.1 = { religion = protestant }

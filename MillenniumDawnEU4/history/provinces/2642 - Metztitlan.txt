@@ -15,8 +15,12 @@ base_production = 1
 base_manpower = 1
 add_local_autonomy = 25
 
-496.1.1 = { owner = TLT controller = TLT add_core = TLT remove_core = OTO }
-1122.1.1 = { owner = OTO controller = OTO add_core = OTO remove_core = TLT }
+1444.11.11 = {
+owner = TLT controller = TLT add_core = TLT remove_core = OTO
+owner = OTO controller = OTO add_core = OTO remove_core = TLT
+}
+
+
 
 1521.8.13  = {
 		discovered_by = SPA

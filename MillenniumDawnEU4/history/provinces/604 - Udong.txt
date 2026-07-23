@@ -18,13 +18,22 @@ base_manpower = 2
 is_city = yes
 add_core = FUN
 
-550.1.1 = { owner = CNA controller = CNA add_core = CNA remove_core = FUN }
-802.1.1 = { owner = CMB controller = CMB add_core = CMB remove_core = CNA }
-820.1.1 = { religion = mahayana }
-900.1.1 = { base_tax = 3 base_production = 3 }
-1100.1.1 = { base_tax = 4 base_production = 4 }
-1295.1.1 = { religion = buddhism }
-1431.1.1 = { owner = KHM controller = KHM add_core = KHM remove_core = CMB }
+1444.11.11 = {
+owner = CNA controller = CNA add_core = CNA remove_core = FUN
+owner = CMB controller = CMB add_core = CMB remove_core = CNA
+religion = mahayana
+base_tax = 3 base_production = 3
+base_tax = 4 base_production = 4
+religion = buddhism
+owner = KHM controller = KHM add_core = KHM remove_core = CMB
+}
+
+
+
+
+
+
+
 
 1535.1.1 = { discovered_by = POR }
 1618.1.1 = { capital = "Oudong" }

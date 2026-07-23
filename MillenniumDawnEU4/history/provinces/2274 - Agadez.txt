@@ -6,7 +6,7 @@ latent_trade_goods = {
 
 culture = tuareg
 religion = shamanism
-capital = "Asodé"
+capital = "Asodï¿½"
 trade_goods = unknown
 hre = no
 discovered_by = sub_saharan
@@ -17,9 +17,14 @@ native_size = 40
 native_ferocity = 4
 native_hostileness = 9
 
-1250.1.1 = { owner = TDD controller = TDD add_core = TDD trade_goods = iron is_city = yes }
-1400.1.1 = { fort_15th = yes religion = sunni }
-1404.1.1 = { owner = AIR controller = AIR add_core = AIR remove_core = TDD }
+1444.11.11 = {
+owner = TDD controller = TDD add_core = TDD trade_goods = iron is_city = yes
+fort_15th = yes religion = sunni
+owner = AIR controller = AIR add_core = AIR remove_core = TDD
+}
+
+
+
 
 1449.1.1 = { capital = "Agadez" }
 1500.1.1 = { owner = SON controller = SON add_core = SON } #Askiya Muhammad of Songhai seizes control 

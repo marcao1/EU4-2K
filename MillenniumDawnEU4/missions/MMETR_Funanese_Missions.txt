@@ -339,8 +339,8 @@ funanese_missions_2 = {
 		position = 3
 		trigger = {
 			OR = {
-				has_institution = ancient_imperialism
-				has_institution = caste_system
+				always = yes
+				always = yes
 			}
 			OR = {
 				full_idea_group = early_adm_ideas

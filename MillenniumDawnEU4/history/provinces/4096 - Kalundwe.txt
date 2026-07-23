@@ -13,7 +13,10 @@ native_ferocity = 4.5
 native_hostileness = 9 
 discovered_by = central_african
 
-1350.1.1 = { owner = KLD controller = KLD add_core = KLD is_city = yes trade_goods = livestock }
+1444.11.11 = {
+owner = KLD controller = KLD add_core = KLD is_city = yes trade_goods = livestock
+}
+
 
 1600.1.1 = { owner = LUB controller = LUB add_core = LUB }
 1700.1.1 = { owner = LND controller = LND add_core = LND }

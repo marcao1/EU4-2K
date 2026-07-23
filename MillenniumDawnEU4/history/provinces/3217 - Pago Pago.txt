@@ -13,13 +13,14 @@ native_ferocity = 2
 native_hostileness = 9
 discovered_by = polynesian_tech
 
-900.1.1 = { 	
-	owner = SAM
+1444.11.11 = {
+owner = SAM
 	controller = SAM
 	add_core = SAM
 	is_city = yes
 	trade_goods = fish
 }
+
 
 1722.1.1 = { discovered_by = NED } # Jacob Roggeveen
 1768.1.1 = { discovered_by = GBR } # James Cook

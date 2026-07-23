@@ -22,18 +22,32 @@ base_tax = 1
 base_production = 1
 base_manpower = 2
 
-495.1.1 = { owner = HEP controller = HEP add_core = HEP remove_core = WUS }
-560.1.1 = { owner = GOK controller = GOK add_core = GOK remove_core = HEP } #Battle of Bukhara
-593.1.1 = { owner = WGO controller = WGO add_core = WGO remove_core = GOK }
-659.1.1 = { owner = TRG controller = TRG add_core = TRG remove_core = WGO }
-766.1.1 = { owner = KLU controller = KLU add_core = KLU remove_core = TRG }
-840.1.1 = { owner = KKH controller = KKH add_core = KKH remove_core = KLU capital = "Balasagun" culture = khitan }
-1100.1.1 = { religion = sunni }
-1137.1.1 = { owner = KKT controller = KKT add_core = KKT remove_core = KKH }
-1218.1.1 = { capital = "Chuy" culture = kirgiz }
-1219.1.1 = { owner = KHA controller = KHA add_core = KHA remove_core = KKT }
-1260.1.1 = { owner = CGT controller = CGT add_core = CGT remove_core = KHA }
-1347.1.1 = { owner = CHG controller = CHG add_core = CHG remove_core = CGT }
+1444.11.11 = {
+owner = HEP controller = HEP add_core = HEP remove_core = WUS
+owner = GOK controller = GOK add_core = GOK remove_core = HEP
+owner = WGO controller = WGO add_core = WGO remove_core = GOK
+owner = TRG controller = TRG add_core = TRG remove_core = WGO
+owner = KLU controller = KLU add_core = KLU remove_core = TRG
+owner = KKH controller = KKH add_core = KKH remove_core = KLU capital = "Balasagun" culture = khitan
+religion = sunni
+owner = KKT controller = KKT add_core = KKT remove_core = KKH
+capital = "Chuy" culture = kirgiz
+owner = KHA controller = KHA add_core = KHA remove_core = KKT
+owner = CGT controller = CGT add_core = CGT remove_core = KHA
+owner = CHG controller = CHG add_core = CHG remove_core = CGT
+}
+
+ #Battle of Bukhara
+
+
+
+
+
+
+
+
+
+
 
 1462.1.1 = {
 	owner = KAS

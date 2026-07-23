@@ -1,10 +1,9 @@
-
 bookmark =
 {
 	name = "WWI_NAME"
 	desc = "WWI_DESC"
 	date = 1914.7.28
-	
+
 	country = GER
 	country = GBR
 	country = FR2

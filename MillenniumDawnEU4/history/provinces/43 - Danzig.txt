@@ -21,25 +21,44 @@ add_permanent_province_modifier = {
 	duration = -1
 }
 
-140.1.1 = { owner = LEM controller = LEM add_core = LEM remove_core = GCR culture = pommeranian }
-500.1.1 = { owner = PMR controller = PMR add_core = PMR remove_core = LEM culture = kashubian religion = romuva discovered_by = eastern }
-700.1.1 = { discovered_by = western }
-880.1.1 = { religion = slavic }
-900.1.1 = { base_tax = 3 base_production = 3 }
-965.1.1 = { owner = POL controller = POL add_core = POL } #Conquered by Mieszko, exact date unknown
-1000.1.1 = { base_tax = 4 base_production = 4 }
-1026.1.1 = { owner = PMR controller = PMR remove_core = POL } #Boleslaw the Brave dies; Dynastic crisis results in Pomerania seceding. Pagan reaction.
-1047.1.1 = { owner = POL controller = POL add_core = POL } #Casimir I the Restorer reconquers East Pomerania
-1050.1.1 = { religion = catholic }
-1060.1.1 = { owner = PMR controller = PMR remove_core = POL } #Boleslaw the Bold looses control over Pomerania. Again.
-1100.1.1 = { base_tax = 5 base_production = 5 }
+1444.11.11 = {
+owner = LEM controller = LEM add_core = LEM remove_core = GCR culture = pommeranian
+owner = PMR controller = PMR add_core = PMR remove_core = LEM culture = kashubian religion = romuva discovered_by = eastern
+discovered_by = western
+religion = slavic
+base_tax = 3 base_production = 3
+owner = POL controller = POL add_core = POL
+base_tax = 4 base_production = 4
+owner = PMR controller = PMR remove_core = POL
+owner = POL controller = POL add_core = POL
+religion = catholic
+owner = PMR controller = PMR remove_core = POL
+base_tax = 5 base_production = 5
+base_tax = 6 base_production = 6 discovered_by = muslim discovered_by = ottoman
+owner = POL controller = POL add_core = POL
+base_tax = 7 base_production = 7
+owner = TEU controller = TEU add_core = TEU
+culture = prussian remove_core = POL capital = "Danzig"
+}
+
+
+
+
+
+ #Conquered by Mieszko, exact date unknown
+
+ #Boleslaw the Brave dies; Dynastic crisis results in Pomerania seceding. Pagan reaction.
+ #Casimir I the Restorer reconquers East Pomerania
+
+ #Boleslaw the Bold looses control over Pomerania. Again.
+
 #1150 East Pomerania becomes vassal of Poland
-1200.1.1 = { base_tax = 6 base_production = 6 discovered_by = muslim discovered_by = ottoman }
+
 #1227.1.1 The Gąsawa Bloodbath. No more a polish vassal.
-1294.12.29 = { owner = POL controller = POL add_core = POL } #East Pomerania rejoins Poland
-1300.1.1 = { base_tax = 7 base_production = 7 }
-1308.11.13 = { owner = TEU controller = TEU add_core = TEU } #Teutonic takeover of Danzig
-1310.1.1 = { culture = prussian remove_core = POL capital = "Danzig" } #Gdansk Massacre
+ #East Pomerania rejoins Poland
+
+ #Teutonic takeover of Danzig
+ #Gdansk Massacre
 
 1454.2.10  = { add_core = POL revolt = { type = revolutionary_rebels size = 0 } controller = REB }  # Thirteen Years War
 1466.10.19 = {	revolt = {}

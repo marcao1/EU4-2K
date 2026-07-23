@@ -13,13 +13,22 @@ native_size = 10
 native_ferocity = 2
 discovered_by = CUR
 
-450.1.1 = { owner = CUR controller = CUR add_core = CUR is_city = yes trade_goods = naval_supplies }
-500.1.1 = { discovered_by = eastern }
-700.1.1 = { discovered_by = western }
-1000.1.1 = { base_tax = 3 base_production = 3 }
-1200.1.1 = { discovered_by = muslim discovered_by = ottoman }
-1212.1.1 = { owner = LIV controller = LIV add_core = LIV religion = catholic }
-1300.1.1 = { remove_core = CUR }
+1444.11.11 = {
+owner = CUR controller = CUR add_core = CUR is_city = yes trade_goods = naval_supplies
+discovered_by = eastern
+discovered_by = western
+base_tax = 3 base_production = 3
+discovered_by = muslim discovered_by = ottoman
+owner = LIV controller = LIV add_core = LIV religion = catholic
+remove_core = CUR
+}
+
+
+
+
+
+
+
 
 #1561.11.28
 1561.1.1   = { owner = KUR

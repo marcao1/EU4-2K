@@ -23,28 +23,45 @@ base_manpower = 2
 is_city = yes
 add_core = PRT
 
-224.4.24 = { owner = ERS controller = ERS add_core = ERS remove_core = PRT }
-460.1.1 = { religion = nestorian }
-643.1.1 = { owner = RSD controller = RSD add_core = RSD remove_core = ERS }
-661.7.28 = { owner = UMA controller = UMA add_core = UMA remove_core = RSD }
-750.8.6 = { owner = ABA controller = ABA add_core = ABA remove_core = UMA }
-880.1.1 = { religion = sunni }
-934.1.1 = { owner = QOM controller = QOM add_core = QOM remove_core = ABA }
-950.1.1 = { culture = kurdish }
-961.1.1 = { owner = ARD controller = ARD add_core = ARD remove_core = QOM }
-1055.1.1 = { owner = SEL controller = SEL add_core = SEL }
-1127.1.1 = { owner = ZNG controller = ZNG add_core = ZNG remove_core = SEL }
-1250.1.1 = { owner = KHA controller = KHA add_core = KHA add_core = PER remove_core = ZNG }
-1260.1.1 = { owner = ILK controller = ILK add_core = ILK remove_core = KHA }
-1335.1.1 = { owner = JAL controller = JAL add_core = JAL remove_core = ILK }
-1380.1.1 = { add_core = TIM }
-1393.1.1 = { owner = TIM controller = TIM remove_core = JAL }
-
-1405.1.1   = {	owner = QAR
+1444.11.11 = {
+owner = ERS controller = ERS add_core = ERS remove_core = PRT
+religion = nestorian
+owner = RSD controller = RSD add_core = RSD remove_core = ERS
+owner = UMA controller = UMA add_core = UMA remove_core = RSD
+owner = ABA controller = ABA add_core = ABA remove_core = UMA
+religion = sunni
+owner = QOM controller = QOM add_core = QOM remove_core = ABA
+culture = kurdish
+owner = ARD controller = ARD add_core = ARD remove_core = QOM
+owner = SEL controller = SEL add_core = SEL
+owner = ZNG controller = ZNG add_core = ZNG remove_core = SEL
+owner = KHA controller = KHA add_core = KHA add_core = PER remove_core = ZNG
+owner = ILK controller = ILK add_core = ILK remove_core = KHA
+owner = JAL controller = JAL add_core = JAL remove_core = ILK
+add_core = TIM
+owner = TIM controller = TIM remove_core = JAL
+owner = QAR
 		controller = QAR
 		add_core = QAR
 		remove_core = TIM
-	     } # The Qara Koyunlu
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ # The Qara Koyunlu
 1469.2.4  = {	owner = AKK
 		controller = AKK
 		add_core = AKK

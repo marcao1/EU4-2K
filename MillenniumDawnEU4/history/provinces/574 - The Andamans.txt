@@ -15,29 +15,30 @@ native_size = 5
 native_ferocity = 1
 native_hostileness = 7
 
-1030.1.1   = { 	
-	discovered_by = indian
+1444.11.11 = {
+discovered_by = indian
 	owner = CLS
 	controller = CLS
 	add_core = CLS
 	citysize = 300
-} # Chola base
-1100.1.1   = { citysize = 600 }
-1200.1.1   = { 	
-	owner = ---
+citysize = 600
+owner = ---
 	controller = ---
 	remove_core = CLS
 	is_city = no
 	native_size = 5
 	native_ferocity = 1
-} # Abandoned
+}
+ # Chola base
+
+ # Abandoned
 
 1502.1.1  = { discovered_by = POR }
 1755.12.2 = {
 	owner = DAN
 	controller = DAN
 	add_core = DAN
-	capital = "Frederiksøerne"
+	capital = "Frederiksï¿½erne"
 	citysize = 150
 }
 1759.4.14 ={
@@ -54,7 +55,7 @@ native_hostileness = 7
 	controller = DAN
 	add_core = DAN
 	citysize = 150
-	capital = "Frederiksøerne"
+	capital = "Frederiksï¿½erne"
 }
 1778.6.1 = {
 	owner = HAB #Austrians occupy the island, thinking the danes have abandoned it again (they are in fact still around though weakened by Malaria)
@@ -67,7 +68,7 @@ native_hostileness = 7
 	controller = DAN
 	add_core = DAN
 	remove_core = HAB
-	capital = "Frederiksøerne"
+	capital = "Frederiksï¿½erne"
 }
 1787.1.1 = {
 	citysize = 0 #Abandoned due to Malaria
@@ -83,7 +84,7 @@ native_hostileness = 7
 	controller = DAN
 	add_core = DAN
 	citysize = 150
-	capital = "Frederiksøerne"
+	capital = "Frederiksï¿½erne"
 }
 1792.1.1 = {
 	citysize = 0 #Abandoned due to Malaria
@@ -100,7 +101,7 @@ native_hostileness = 7
 	add_core = GBR
 	add_core = DAN
 	citysize = 150
-	capital = "Frederiksøerne"
+	capital = "Frederiksï¿½erne"
 }
 1814.4.11 = {
 	citysize = 0 #Abandoned by the British, Danes won't return to the islands again until the 1830s.

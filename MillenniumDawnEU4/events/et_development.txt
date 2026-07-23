@@ -20,7 +20,7 @@ province_event = {
 			}
 			development = 28
 		}
-		owner = { NOT = { has_institution = medicine } }
+		owner = { always = yes }
 		owner = { NOT = { adm_tech = 55 } }
 		owner = { NOT = { has_country_modifier = et_plague_tribal } }
 		NOT = { has_province_modifier = et_plague }
@@ -124,7 +124,7 @@ province_event = {
 
 	trigger = {	
 		development = 16
-		owner = { NOT = { has_institution = medicine } }
+		owner = { always = yes }
 		owner = { NOT = { adm_tech = 55 } }
 		NOT = { has_province_modifier = et_famine }
 		owner = { NOT = { has_country_modifier = et_famine_tribal } }
@@ -235,7 +235,7 @@ province_event = {
 
 	trigger = {	
 		development = 10
-		owner = { NOT = { has_institution = medicine } }
+		owner = { always = yes }
 		owner = { NOT = { adm_tech = 55 } }
 		owner = { NOT = { has_country_modifier = et_drought_tribal } }
 		OR = {

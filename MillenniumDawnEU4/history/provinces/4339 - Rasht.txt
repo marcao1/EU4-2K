@@ -24,20 +24,36 @@ base_manpower = 2
 is_city = yes
 add_core = PRT
 
-135.1.1 = { owner = ATR controller = ATR add_core = ATR remove_core = PRT }
-226.1.1 = { owner = ERS controller = ERS add_core = ERS }
-642.1.1 = { owner = TAB controller = TAB add_core = TAB remove_core = ERS }
-791.1.1 = { owner = KRY controller = KRY add_core = KRY remove_core = TAB }
-864.1.1 = { religion = shiite }
-890.1.1 = { owner = AZE controller = AZE add_core = AZE }
-1000.1.1 = { base_tax = 4 base_production = 4 }
-1062.1.1 = { owner = SEL controller = SEL add_core = SEL remove_core = AZE }
-1100.1.1 = { religion = sunni }
-1157.5.8 = { owner = AZE controller = AZE add_core = AZE remove_core = SEL }
-1225.1.1 = { owner = KHW controller = KHW add_core = KHW remove_core = AZE }
-1231.1.1 = { owner = KHA controller = KHA add_core = KHA add_core = PER remove_core = KHW }
-1260.1.1 = { owner = ILK controller = ILK add_core = ILK remove_core = KHA }
-1335.1.1 = { owner = BPI controller = BPI add_core = BPI remove_core = ILK }
+1444.11.11 = {
+owner = ATR controller = ATR add_core = ATR remove_core = PRT
+owner = ERS controller = ERS add_core = ERS
+owner = TAB controller = TAB add_core = TAB remove_core = ERS
+owner = KRY controller = KRY add_core = KRY remove_core = TAB
+religion = shiite
+owner = AZE controller = AZE add_core = AZE
+base_tax = 4 base_production = 4
+owner = SEL controller = SEL add_core = SEL remove_core = AZE
+religion = sunni
+owner = AZE controller = AZE add_core = AZE remove_core = SEL
+owner = KHW controller = KHW add_core = KHW remove_core = AZE
+owner = KHA controller = KHA add_core = KHA add_core = PER remove_core = KHW
+owner = ILK controller = ILK add_core = ILK remove_core = KHA
+owner = BPI controller = BPI add_core = BPI remove_core = ILK
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1579.1.1 = {
 	owner = KRY

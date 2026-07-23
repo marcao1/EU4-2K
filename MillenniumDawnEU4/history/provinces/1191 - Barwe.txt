@@ -15,9 +15,14 @@ discovered_by = east_african
 discovered_by = central_african
 center_of_trade = 2
 
-300.1.1 = { culture = tonga }
-1350.1.1 = { owner = TVR controller = TVR add_core = TVR is_city = yes trade_goods = ivory }
-1430.1.1 = { owner = ZIM controller = ZIM add_core = ZIM }
+1444.11.11 = {
+culture = tonga
+owner = TVR controller = TVR add_core = TVR is_city = yes trade_goods = ivory
+owner = ZIM controller = ZIM add_core = ZIM
+}
+
+
+
 
 1513.1.1 = { discovered_by = POR } #Travels of Antonio Fernandes in hinterland of Sofala
 1532.1.1 = { unrest = 5 } #Tonga revolts against Mutapa overlordship

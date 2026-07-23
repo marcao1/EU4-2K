@@ -20,26 +20,40 @@ capital = "Akragas"
 is_city = yes
 add_core = ROM
 
-360.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-468.1.1 = { owner = VAN controller = VAN add_core = VAN capital = "Girgenti" }
-480.1.1 = { remove_core = ROW }
-489.1.1 = { owner = OST controller = OST add_core = OST remove_core = VAN }
-535.1.1 = { owner = BYZ controller = BYZ add_core = BYZ }
-550.1.1 = { owner = OST controller = OST }
-552.1.1 = { owner = BYZ controller = BYZ remove_core = OST }
-831.9.1 = { owner = SCL controller = SCL add_core = SCL }
-840.1.1 = { religion = sunni }
-900.1.1 = { base_tax = 3 }
-1072.1.1 = { owner = SIC controller = SIC add_core = SIC remove_core = SCL add_core = NAP remove_core = BYZ culture = sicilian }
-1080.1.1 = { religion = catholic }
-1100.1.1 = { base_production = 3 }
-
-1409.7.25 = {
-	owner = ARA
+1444.11.11 = {
+religion = chalcedonism
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+owner = VAN controller = VAN add_core = VAN capital = "Girgenti"
+remove_core = ROW
+owner = OST controller = OST add_core = OST remove_core = VAN
+owner = BYZ controller = BYZ add_core = BYZ
+owner = OST controller = OST
+owner = BYZ controller = BYZ remove_core = OST
+owner = SCL controller = SCL add_core = SCL
+religion = sunni
+base_tax = 3
+owner = SIC controller = SIC add_core = SIC remove_core = SCL add_core = NAP remove_core = BYZ culture = sicilian
+religion = catholic
+base_production = 3
+owner = ARA
 	controller = ARA
 	add_core = ARA
-} # Martin I inherits Sicily from his son
+}
+
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
+
+ # Martin I inherits Sicily from his son
 1516.1.23 = {
 	owner = SPA
 	controller = SPA

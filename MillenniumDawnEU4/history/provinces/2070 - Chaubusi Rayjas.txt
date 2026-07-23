@@ -21,11 +21,18 @@ base_manpower = 2
 is_city = yes
 add_core = KTU
 
-800.1.1 = { discovered_by = nomad_group }
-1000.1.1 = { base_tax = 3 base_production = 3 }
-1093.1.1 = { owner = KHS controller = KHS add_core = KHS }
-1100.1.1 = { religion = hinduism }
-1380.1.1 = { owner = GRK controller = GRK add_core = GRK }
+1444.11.11 = {
+discovered_by = nomad_group
+base_tax = 3 base_production = 3
+owner = KHS controller = KHS add_core = KHS
+religion = hinduism
+owner = GRK controller = GRK add_core = GRK
+}
+
+
+
+
+
 
 1690.1.1 = { discovered_by = ENG }
 1707.5.12 = { discovered_by = GBR }

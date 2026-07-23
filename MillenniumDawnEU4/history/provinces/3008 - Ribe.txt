@@ -15,28 +15,47 @@ trade_goods = grain
 base_manpower = 1
 capital = "Aabenraa"
 
-600.1.1 = { discovered_by = eastern }
-737.1.1 = { owner = SCH controller = SCH add_core = SCH remove_core = ANI culture = danish religion = norse_pagan_reformed }
-770.1.1 = { owner = DAN controller = DAN add_core = DAN }
-900.1.1 = { religion = catholic }
-1100.1.1 = { discovered_by = muslim discovered_by = ottoman }
-1115.1.1 = { owner = SCH controller = SCH add_core = SCH }
-1134.6.4 = { owner = DAN controller = DAN }
-1183.1.1 = { owner = SCH controller = SCH }
-1202.11.12 = { owner = DAN controller = DAN }
-1209.1.1 = { owner = SCH controller = SCH }
-1250.8.9 = { owner = DAN controller = DAN }
-1254.1.1 = { owner = SCH controller = SCH }
-1272.5.27 = { owner = DAN controller = DAN }
-1283.1.1 = { owner = SCH controller = SCH }
-1325.3.12 = { owner = SHL controller = SHL add_core = SHL }
-1330.1.1 = { owner = SCH controller = SCH remove_core = SHL }
-1375.8.1 = { owner = SHL controller = SHL add_core = SHL }
+1444.11.11 = {
+discovered_by = eastern
+owner = SCH controller = SCH add_core = SCH remove_core = ANI culture = danish religion = norse_pagan_reformed
+owner = DAN controller = DAN add_core = DAN
+religion = catholic
+discovered_by = muslim discovered_by = ottoman
+owner = SCH controller = SCH add_core = SCH
+owner = DAN controller = DAN
+owner = SCH controller = SCH
+owner = DAN controller = DAN
+owner = SCH controller = SCH
+owner = DAN controller = DAN
+owner = SCH controller = SCH
+owner = DAN controller = DAN
+owner = SCH controller = SCH
+owner = SHL controller = SHL add_core = SHL
+owner = SCH controller = SCH remove_core = SHL
+owner = SHL controller = SHL add_core = SHL
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1460.3.5  = { owner = DAN controller = DAN add_core = DAN }
 1536.1.1   = { religion = protestant }
 1644.1.12  = { controller = SWE } #Torstenssons War-Captured by Lennart Torstensson
-1645.8.13  = { controller = SHL } #The Peace of Brömsebro
+1645.8.13  = { controller = SHL } #The Peace of Brï¿½msebro
 1657.10.23 = { controller = SWE } #Karl X Gustavs First Danish War-Captured by Wrangel
 1658.2.26  = { owner = SHL controller = SHL } #The Peace of Roskilde
 1720.7.3   = { owner = DAN controller = DAN } # Treaty of Frederiksborg

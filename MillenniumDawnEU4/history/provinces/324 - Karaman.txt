@@ -22,20 +22,36 @@ base_manpower = 2
 is_city = yes
 add_core = CAP
 
-18.1.1 = { owner = ROM controller = ROM add_core = ROM }
-350.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-600.1.1 = { base_tax = 3 base_production = 3 }
-700.1.1 = { base_manpower = 3 }
-800.1.1 = { base_tax = 4 base_production = 4 }
-867.1.1 = { religion = orthodox }
-900.1.1 = { base_manpower = 4 }
-950.1.1 = { culture = greek }
-1000.1.1 = { base_tax = 5 base_production = 5 }
-1084.1.1 = { owner = RUM controller = RUM add_core = RUM capital = "Karaman" }
-1120.1.1 = { culture = turkish }
-1270.1.1 = { religion = sunni remove_core = BYZ }
-1275.1.1 = { owner = KAR controller = KAR add_core = KAR remove_core = RUM }
+1444.11.11 = {
+owner = ROM controller = ROM add_core = ROM
+religion = chalcedonism
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+base_tax = 3 base_production = 3
+base_manpower = 3
+base_tax = 4 base_production = 4
+religion = orthodox
+base_manpower = 4
+culture = greek
+base_tax = 5 base_production = 5
+owner = RUM controller = RUM add_core = RUM capital = "Karaman"
+culture = turkish
+religion = sunni remove_core = BYZ
+owner = KAR controller = KAR add_core = KAR remove_core = RUM
+}
+
+
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
 
 1483.1.1 = {
 	owner = TUR

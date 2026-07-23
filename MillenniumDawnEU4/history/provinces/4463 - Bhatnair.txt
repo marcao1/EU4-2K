@@ -24,21 +24,38 @@ base_manpower = 1
 is_city = yes
 add_core = NST
 
-120.1.1 = { owner = KUS controller = KUS add_core = KUS remove_core = NST }
-375.1.1 = { owner = GUP controller = GUP add_core = GUP remove_core = KUS }
-460.1.1 = { owner = KAP controller = KAP add_core = KAP remove_core = GUP }
-528.1.1 = { owner = MLW controller = MLW add_core = HRS remove_core = KAP }
-540.1.1 = { owner = HRS controller = HRS }
-600.1.1 = { base_tax = 3 base_production = 3 }
-647.1.1 = { owner = TAA controller = TAA add_core = TAA remove_core = HRS }
-730.1.1 = { owner = KSH controller = KSH add_core = KSH remove_core = TAA }
-780.1.1 = { owner = TAA controller = TAA add_core = TAA remove_core = KSH }
-800.1.1 = { base_manpower = 2 }
-880.1.1 = { owner = TOM controller = TOM add_core = TOM remove_core = TAA }
-1002.1.1 = { owner = GHZ controller = GHZ add_core = GHZ remove_core = TOM }
-1187.1.1 = { owner = GHU controller = GHU add_core = GHU remove_core = GHZ }
-1206.1.1 = { owner = DLH controller = DLH add_core = DLH add_core = PUN remove_core = GHU }
-1431.1.1 = { owner = SRH controller = SRH add_core = SRH }
+1444.11.11 = {
+owner = KUS controller = KUS add_core = KUS remove_core = NST
+owner = GUP controller = GUP add_core = GUP remove_core = KUS
+owner = KAP controller = KAP add_core = KAP remove_core = GUP
+owner = MLW controller = MLW add_core = HRS remove_core = KAP
+owner = HRS controller = HRS
+base_tax = 3 base_production = 3
+owner = TAA controller = TAA add_core = TAA remove_core = HRS
+owner = KSH controller = KSH add_core = KSH remove_core = TAA
+owner = TAA controller = TAA add_core = TAA remove_core = KSH
+base_manpower = 2
+owner = TOM controller = TOM add_core = TOM remove_core = TAA
+owner = GHZ controller = GHZ add_core = GHZ remove_core = TOM
+owner = GHU controller = GHU add_core = GHU remove_core = GHZ
+owner = DLH controller = DLH add_core = DLH add_core = PUN remove_core = GHU
+owner = SRH controller = SRH add_core = SRH
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1451.4.20 = {
 	controller = DLH

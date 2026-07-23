@@ -16,7 +16,10 @@ add_core = KNJ
 
 add_province_triggered_modifier = MAY_obsidian_source
 
-1194.1.1 = { owner = KIC controller = KIC add_core = KIC remove_core = KNJ }
+1444.11.11 = {
+owner = KIC controller = KIC add_core = KIC remove_core = KNJ
+}
+
 
 1470.1.1 = { unrest = 0 revolt = { type = noble_rebels size = 2 } controller = REB } # Kaqchikel lords withdraws from Kiche kingdom after attempted coup d'etat
 1524.1.1   = { discovered_by = SPA owner = SPA controller = SPA } #Alvarado crushes the last of Guatemala mayans

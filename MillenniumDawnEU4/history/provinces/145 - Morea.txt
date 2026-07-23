@@ -20,12 +20,20 @@ base_manpower = 1
 is_city = yes
 add_core = ROM
 
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-460.1.1 = { religion = chalcedonism }
-867.1.1 = { religion = orthodox }
-1200.1.1 = { fort_15th = yes }
-1205.1.1 = { owner = ACH controller = ACH add_core = ACH capital = "Nafplio" }
-1349.1.1 = { owner = BYZ controller = BYZ add_core = MOE }
+1444.11.11 = {
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+religion = chalcedonism
+religion = orthodox
+fort_15th = yes
+owner = ACH controller = ACH add_core = ACH capital = "Nafplio"
+owner = BYZ controller = BYZ add_core = MOE
+}
+ # Final division of the empire
+
+
+
+
+
 
 1453.5.29 = {
 	owner = MOE

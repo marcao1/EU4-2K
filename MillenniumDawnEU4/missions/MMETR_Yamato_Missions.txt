@@ -614,7 +614,7 @@ yamato_missions_4 = {
 		position = 5
 		trigger = {
 			stability = 3
-			has_institution = legalism
+			always = yes
 			monthly_adm = 8
 		}
 		effect = {
@@ -746,7 +746,7 @@ yamato_missions_5 = {
 		required_missions = { yam_overseas_expedition_mission }
 		position = 5
 		trigger = {
-			has_institution = legalism
+			always = yes
 			OR = {
 				philosopher = 2
 				treasurer = 2

@@ -21,17 +21,30 @@ base_manpower = 1
 is_city = yes
 add_core = KKR
 
-120.1.1 = { owner = STV controller = STV add_core = STV }
-175.1.1 = { owner = DAK controller = DAK add_core = DAK remove_core = STV }
-300.1.1 = { religion = hinduism }
-320.1.1 = { owner = VAK controller = VAK add_core = VAK }
-355.1.1 = { owner = BAA controller = BAA add_core = BAA remove_core = VAK }
-525.1.1 = { owner = DAK controller = DAK add_core = DAK capital = "Raipur" }
-800.1.1 = { base_tax = 3 base_production = 3 }
-810.1.1 = { owner = BST controller = BST add_core = BST }
-815.1.1 = { owner = RSH controller = RSH add_core = RSH remove_core = BST }
-850.1.1 = { owner = KLC controller = KLC add_core = KLC remove_core = RSH }
-1000.1.1 = { owner = RTT controller = RTT add_core = RTT remove_core = KLC }
+1444.11.11 = {
+owner = STV controller = STV add_core = STV
+owner = DAK controller = DAK add_core = DAK remove_core = STV
+religion = hinduism
+owner = VAK controller = VAK add_core = VAK
+owner = BAA controller = BAA add_core = BAA remove_core = VAK
+owner = DAK controller = DAK add_core = DAK capital = "Raipur"
+base_tax = 3 base_production = 3
+owner = BST controller = BST add_core = BST
+owner = RSH controller = RSH add_core = RSH remove_core = BST
+owner = KLC controller = KLC add_core = KLC remove_core = RSH
+owner = RTT controller = RTT add_core = RTT remove_core = KLC
+}
+
+
+
+
+
+
+
+
+
+
+
 
 1690.1.1 = { discovered_by = ENG }
 1707.5.12 = { discovered_by = GBR }

@@ -18,10 +18,16 @@ base_manpower = 2
 is_city = yes
 add_core = HUY
 
-192.1.1 = { owner = CHA controller = CHA add_core = CHA remove_core = HUY }
-700.1.1 = { discovered_by = muslim discovered_by = ottoman }
-900.1.1 = { base_tax = 3 base_production = 3 }
-1000.1.1 = { base_tax = 4 }
+1444.11.11 = {
+owner = CHA controller = CHA add_core = CHA remove_core = HUY
+discovered_by = muslim discovered_by = ottoman
+base_tax = 3 base_production = 3
+base_tax = 4
+}
+
+
+
+
 
 1472.1.1 = {	owner = DAI
 		controller = DAI

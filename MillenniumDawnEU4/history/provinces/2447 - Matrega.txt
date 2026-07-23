@@ -23,28 +23,50 @@ trade_goods = livestock
 base_manpower = 1
 capital = "Phanagoria"
 
-63.1.1 = { owner = ROM controller = ROM }
-68.1.1 = { owner = BSP controller = BSP }
-370.1.1 = { owner = HNS controller = HNS add_core = HNS remove_core = ROM }
-380.1.1 = { base_tax = 2 base_production = 2 }
-420.1.1 = { add_core = UTI }
-450.1.1 = { religion = tengri_pagan_reformed }
-469.1.1 = { owner = UTI controller = UTI remove_core = HNS }
-632.1.1 = { owner = BUL controller = BUL add_core = BUL remove_core = UTI }
-700.1.1 = { is_city = yes }
-720.1.1 = { owner = KHZ controller = KHZ add_core = KHZ remove_core = BUL capital = "Tamantarkhan" culture = khazar }
-988.1.1 = { owner = TMU controller = TMU add_core = TMU remove_core = KHZ capital = "Tmutarakan" }
-990.1.1 = { religion = orthodox }
-1035.1.1 = { owner = KRU controller = KRU add_core = KRU }
-1054.2.20 = { owner = TMU controller = TMU add_core = TMU remove_core = KRU }
-1094.1.1 = { owner = CUM controller = CUM add_core = CUM culture = cuman }
-1120.1.1 = { culture = crimean }
-1240.1.1 = { culture = circassian add_core = CIR }
-1237.1.1 = { owner = KHA controller = KHA add_core = KHA add_core = CRI remove_core = CUM culture = crimean }
-1260.1.1 = { owner = WHH controller = WHH add_core = WHH remove_core = KHA }
-1300.1.1 = { owner = GEN controller = GEN add_core = GEN remove_core = WHH capital = "Mantrega" }
+1444.11.11 = {
+owner = ROM controller = ROM
+owner = BSP controller = BSP
+owner = HNS controller = HNS add_core = HNS remove_core = ROM
+base_tax = 2 base_production = 2
+add_core = UTI
+religion = tengri_pagan_reformed
+owner = UTI controller = UTI remove_core = HNS
+owner = BUL controller = BUL add_core = BUL remove_core = UTI
+is_city = yes
+owner = KHZ controller = KHZ add_core = KHZ remove_core = BUL capital = "Tamantarkhan" culture = khazar
+owner = TMU controller = TMU add_core = TMU remove_core = KHZ capital = "Tmutarakan"
+religion = orthodox
+owner = KRU controller = KRU add_core = KRU
+owner = TMU controller = TMU add_core = TMU remove_core = KRU
+owner = CUM controller = CUM add_core = CUM culture = cuman
+culture = crimean
+culture = circassian add_core = CIR
+owner = KHA controller = KHA add_core = KHA add_core = CRI remove_core = CUM culture = crimean
+owner = WHH controller = WHH add_core = WHH remove_core = KHA
+owner = GEN controller = GEN add_core = GEN remove_core = WHH capital = "Mantrega"
+add_core = CRI
+}
 
-1441.1.1  = { add_core = CRI } # The Crimean Khanate
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ # The Crimean Khanate
 1475.5.1 = { owner = TUR controller = TUR add_core = TUR }
 1781.6.24  = { capital = "Anapa" }
 1784.1.2  = { culture = nogaybak religion = sunni }

@@ -20,29 +20,54 @@ add_core = HND
 add_core = WEI
 fort_15th = yes #The Great Wall
 
-9.1.10 = { owner = XIN controller = XIN add_core = XIN }
-23.10.5 = { owner = HND controller = HND remove_core = XIN }
-189.9.28 = { owner = YOU controller = YOU add_core = YOU remove_core = HND }
-199.3.1 = { owner = JI0 controller = JI0 add_core = JI0 }
-207.10.1 = { owner = WEI controller = WEI add_core = WEI remove_core = JI0 }
-265.2.4 = { owner = JIN controller = JIN add_core = JIN remove_core = WUU }
-304.1.1 = { owner = ZAO controller = ZAO add_core = ZAO remove_core = SXI }
-310.1.1 = { owner = DAX controller = DAX add_core = DAX remove_core = ZAO }
-376.1.1 = { owner = QIN controller = QIN add_core = QIN remove_core = DAX }
-386.1.1 = { owner = WEI controller = WEI add_core = WEI remove_core = QIN }
-550.6.7 = { owner = QIC controller = QIC add_core = QIC remove_core = WEI }
-577.2.28 = { owner = CZH controller = CZH add_core = CZH remove_core = QIC }
-581.3.4 = { owner = SUI controller = SUI add_core = SUI remove_core = CZH }
-617.12.18 = { owner = TNG controller = TNG add_core = TNG remove_core = SUI }
-650.1.1 = { culture = jin }
-907.6.1 = { owner = JIN controller = JIN add_core = JIN remove_core = TNG }
-923.11.19 = { owner = TNG controller = TNG add_core = TNG remove_core = JIN }
-936.1.11 = { owner = LIO controller = LIO add_core = LIO remove_core = TNG }
-1125.1.1 = { owner = CJN controller = CJN add_core = CJN remove_core = LIO }
-1234.1.1 = { owner = KHA controller = KHA add_core = KHA add_core = CSH remove_core = CJN }
-1271.1.1 = { owner = YUA controller = YUA add_core = YUA remove_core = KHA }
-1368.1.23 = { owner = KHA controller = KHA add_core = KHA remove_core = YUA }
-1369.3.3 = { owner = MNG controller = MNG add_core = MNG remove_core = KHA }
+1444.11.11 = {
+owner = XIN controller = XIN add_core = XIN
+owner = HND controller = HND remove_core = XIN
+owner = YOU controller = YOU add_core = YOU remove_core = HND
+owner = JI0 controller = JI0 add_core = JI0
+owner = WEI controller = WEI add_core = WEI remove_core = JI0
+owner = JIN controller = JIN add_core = JIN remove_core = WUU
+owner = ZAO controller = ZAO add_core = ZAO remove_core = SXI
+owner = DAX controller = DAX add_core = DAX remove_core = ZAO
+owner = QIN controller = QIN add_core = QIN remove_core = DAX
+owner = WEI controller = WEI add_core = WEI remove_core = QIN
+owner = QIC controller = QIC add_core = QIC remove_core = WEI
+owner = CZH controller = CZH add_core = CZH remove_core = QIC
+owner = SUI controller = SUI add_core = SUI remove_core = CZH
+owner = TNG controller = TNG add_core = TNG remove_core = SUI
+culture = jin
+owner = JIN controller = JIN add_core = JIN remove_core = TNG
+owner = TNG controller = TNG add_core = TNG remove_core = JIN
+owner = LIO controller = LIO add_core = LIO remove_core = TNG
+owner = CJN controller = CJN add_core = CJN remove_core = LIO
+owner = KHA controller = KHA add_core = KHA add_core = CSH remove_core = CJN
+owner = YUA controller = YUA add_core = YUA remove_core = KHA
+owner = KHA controller = KHA add_core = KHA remove_core = YUA
+owner = MNG controller = MNG add_core = MNG remove_core = KHA
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1608.1.1 = { discovered_by = SPA }
 1628.1.1  = { revolt_risk = 6 } # Li Zicheng rebellion

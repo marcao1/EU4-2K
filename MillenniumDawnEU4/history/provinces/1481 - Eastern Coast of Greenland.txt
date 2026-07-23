@@ -1,6 +1,9 @@
 #1481 - Eastern Coast of Greenland
 
-950.1.1 = { discovered_by = NOR discovered_by = ICE }
+1444.11.11 = {
+discovered_by = NOR discovered_by = ICE
+}
+
 1453.1.1 = { discovered_by = western }
 
 

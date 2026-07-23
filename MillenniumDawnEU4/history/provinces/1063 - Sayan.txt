@@ -14,13 +14,14 @@ native_size = 10
 native_ferocity = 1
 native_hostileness = 3
 
-550.1.1 = { owner = YKY controller = YKY add_core = YKY is_city = yes trade_goods = fur }
-800.1.1 = { culture = tuvan }
-848.1.1 = { owner = TUV controller = TUV add_core = TUV }
-1207.1.1 = { owner = KHA controller = KHA add_core = KHA remove_core = TUV }
-1250.1.1 = { remove_core = YKY }
-1271.1.1 = { owner = YUA controller = YUA add_core = YUA remove_core = KHA }
-1368.1.1 = { 	owner = ---
+1444.11.11 = {
+owner = YKY controller = YKY add_core = YKY is_city = yes trade_goods = fur
+culture = tuvan
+owner = TUV controller = TUV add_core = TUV
+owner = KHA controller = KHA add_core = KHA remove_core = TUV
+remove_core = YKY
+owner = YUA controller = YUA add_core = YUA remove_core = KHA
+owner = ---
 		controller = ---
 		remove_core = YUA
 		citysize = 0
@@ -28,7 +29,14 @@ native_hostileness = 3
 		native_size = 10
 		native_ferocity = 1
 		native_hostileness = 3
-	   }
+}
+
+
+
+
+
+
+
 
 1618.1.1 = { discovered_by = RUS }
 1618.2.1 = {	owner = RUS

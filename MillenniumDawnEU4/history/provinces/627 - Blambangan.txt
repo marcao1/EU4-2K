@@ -15,15 +15,26 @@ native_size = 30
 native_ferocity = 2
 native_hostileness = 6
 
-1016.1.1 = { owner = BLM controller = BLM add_core = BLM is_city = yes trade_goods = cotton }
-1019.1.1 = { owner = KAH controller = KAH add_core = KAH }
-1045.1.1 = { owner = JGL controller = JGL add_core = JGL remove_core = KAH }
-1100.1.1 = { base_tax = 4 base_production = 4 }
-1136.1.1 = { owner = KDR controller = KDR add_core = KDR }
-1200.1.1 = { base_tax = 5 base_production = 5 }
-1222.1.1 = { owner = SIN controller = SIN add_core = SIN remove_core = KDR }
-1293.1.1 = { owner = MAJ controller = MAJ add_core = MAJ remove_core = SIN }
-1300.1.1 = { discovered_by = indian discovered_by = muslim discovered_by = ottoman }
+1444.11.11 = {
+owner = BLM controller = BLM add_core = BLM is_city = yes trade_goods = cotton
+owner = KAH controller = KAH add_core = KAH
+owner = JGL controller = JGL add_core = JGL remove_core = KAH
+base_tax = 4 base_production = 4
+owner = KDR controller = KDR add_core = KDR
+base_tax = 5 base_production = 5
+owner = SIN controller = SIN add_core = SIN remove_core = KDR
+owner = MAJ controller = MAJ add_core = MAJ remove_core = SIN
+discovered_by = indian discovered_by = muslim discovered_by = ottoman
+}
+
+
+
+
+
+
+
+
+
 
 1509.1.1 = { discovered_by = POR }
 1527.1.1  = {

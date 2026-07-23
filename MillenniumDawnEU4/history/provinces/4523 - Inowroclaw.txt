@@ -16,20 +16,34 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-140.1.1 = { owner = RGL controller = RGL add_core = RGL remove_core = SCI culture = pommeranian }
-150.1.1 = { owner = LEM controller = LEM add_core = LEM remove_core = RGL }
-500.1.1 = { owner = POL controller = POL add_core = POL remove_core = LEM culture = polish religion = slavic }
-500.1.1 = { discovered_by = eastern }
-966.1.1 = { religion = catholic } # Cathedral Basilica of St. Peter and St. Paul
-1000.1.1 = { discovered_by = muslim discovered_by = ottoman }
-1200.1.1 = { base_tax = 2 base_production = 2 }
-1231.11.3 = { owner = MAZ controller = MAZ add_core = MAZ remove_core = POL }
-1233.1.1 = { owner = KYV controller = KYV add_core = KYV remove_core = MAZ }
+1444.11.11 = {
+owner = RGL controller = RGL add_core = RGL remove_core = SCI culture = pommeranian
+owner = LEM controller = LEM add_core = LEM remove_core = RGL
+owner = POL controller = POL add_core = POL remove_core = LEM culture = polish religion = slavic
+discovered_by = eastern
+religion = catholic
+discovered_by = muslim discovered_by = ottoman
+base_tax = 2 base_production = 2
+owner = MAZ controller = MAZ add_core = MAZ remove_core = POL
+owner = KYV controller = KYV add_core = KYV remove_core = MAZ
+owner = GPO controller = GPO add_core = GPO
+owner = KYV controller = KYV add_core = KYV remove_core = GPO
+owner = POL controller = POL add_core = POL
+}
+
+
+
+
+ # Cathedral Basilica of St. Peter and St. Paul
+
+
+
+
 #1267.12.14 independent
-1271.1.1 = { owner = GPO controller = GPO add_core = GPO }
-1273.1.1 = { owner = KYV controller = KYV add_core = KYV remove_core = GPO }
+
+
 #1278 independent until 1314
-1279.12.7 = { owner = POL controller = POL add_core = POL }
+
 
 1569.7.1 = {
 	owner = PLC

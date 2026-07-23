@@ -12,10 +12,16 @@ native_hostileness = 3
 native_size = 15
 native_ferocity = 2
 
-750.1.1 = { discovered_by = KVE owner = KVE controller = KVE add_core = KVE is_city = yes trade_goods = fur }
-950.1.1 = { discovered_by = western discovered_by = eastern }
-1314.1.1 = { owner = SWE controller = SWE add_core = SWE remove_core = KVE religion = catholic }
-1320.1.1 = { culture = swedish }
+1444.11.11 = {
+discovered_by = KVE owner = KVE controller = KVE add_core = KVE is_city = yes trade_goods = fur
+discovered_by = western discovered_by = eastern
+owner = SWE controller = SWE add_core = SWE remove_core = KVE religion = catholic
+culture = swedish
+}
+
+
+
+
 
 1527.6.1  = { religion = protestant }
 1650.1.1  = { trade_goods = naval_supplies } # Estimated Date

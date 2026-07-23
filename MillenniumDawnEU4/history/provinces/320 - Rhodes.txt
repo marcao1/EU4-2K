@@ -22,19 +22,34 @@ base_manpower = 2
 is_city = yes
 add_core = ROM
 
-300.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-672.1.1 = { controller = UMA }
-675.1.1 = { controller = BYZ }
-867.1.1 = { religion = orthodox }
-1000.1.1 = { base_manpower = 3 }
-1090.1.1 = { owner = RUM controller = RUM add_core = RUM }
-1098.1.1 = { owner = BYZ controller = BYZ remove_core = RUM }
-1200.1.1 = { base_tax = 4 base_production = 4 }
-1204.4.13 = { owner = NCA controller = NCA add_core = NCA }
-1261.1.1 = { owner = BYZ controller = BYZ remove_core = NCA }
-1300.1.1 = { owner = MEN controller = MEN add_core = MEN }
-1309.1.1 = { owner = KNI controller = KNI add_core = KNI remove_core = MEN fort_15th = yes }
+1444.11.11 = {
+religion = chalcedonism
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+controller = UMA
+controller = BYZ
+religion = orthodox
+base_manpower = 3
+owner = RUM controller = RUM add_core = RUM
+owner = BYZ controller = BYZ remove_core = RUM
+base_tax = 4 base_production = 4
+owner = NCA controller = NCA add_core = NCA
+owner = BYZ controller = BYZ remove_core = NCA
+owner = MEN controller = MEN add_core = MEN
+owner = KNI controller = KNI add_core = KNI remove_core = MEN fort_15th = yes
+}
+
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
 
 1453.5.29  = { remove_core = BYZ }
 1522.12.21 = {	owner = TUR

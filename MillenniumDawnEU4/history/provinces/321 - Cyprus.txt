@@ -22,26 +22,48 @@ base_manpower = 2
 is_city = yes
 add_core = ROM
 
-115.1.1 = { revolt = { type = jewish_rebels size = 2 } controller = REB }
-117.1.1 = { revolt = {} controller = ROM }
-330.1.1 = { religion = chalcedonism }
-350.1.1 = { capital = "Constantia" }
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-400.1.1 = { base_tax = 4 base_production = 4 }
-600.1.1 = { base_manpower = 3 }
-647.1.1 = { owner = RSD controller = RSD add_core = RSD }
-661.7.28 = { owner = UMA controller = UMA add_core = UMA remove_core = RSD }
-683.1.1 = { owner = BYZ controller = BYZ remove_core = UMA }
-688.1.1 = { base_tax = 4 } # All taxes collected were to be divided between the Arabs and the Emperor
-800.1.1 = { base_tax = 5 base_production = 5 }
-867.1.1 = { religion = orthodox }
-1000.1.1 = { base_tax = 6 base_production = 6 }
-1185.1.1 = { owner = CYP controller = CYP add_core = CYP capital = "Nicosia" }
-1191.5.1 = { owner = ENG controller = ENG add_core = ENG }
-1191.8.1 = { owner = KNI controller = KNI add_core = KNI remove_core = ENG }
-1192.1.1 = { owner = CYP controller = CYP remove_core = KNI }
-1200.1.1 = { fort_15th = yes }
-1204.4.13 = { remove_core = BYZ }
+1444.11.11 = {
+revolt = { type = jewish_rebels size = 2 } controller = REB
+revolt = {} controller = ROM
+religion = chalcedonism
+capital = "Constantia"
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+base_tax = 4 base_production = 4
+base_manpower = 3
+owner = RSD controller = RSD add_core = RSD
+owner = UMA controller = UMA add_core = UMA remove_core = RSD
+owner = BYZ controller = BYZ remove_core = UMA
+base_tax = 4
+base_tax = 5 base_production = 5
+religion = orthodox
+base_tax = 6 base_production = 6
+owner = CYP controller = CYP add_core = CYP capital = "Nicosia"
+owner = ENG controller = ENG add_core = ENG
+owner = KNI controller = KNI add_core = KNI remove_core = ENG
+owner = CYP controller = CYP remove_core = KNI
+fort_15th = yes
+remove_core = BYZ
+}
+
+
+
+
+ # Final division of the empire
+
+
+
+
+
+ # All taxes collected were to be divided between the Arabs and the Emperor
+
+
+
+
+
+
+
+
+
 
 1489.1.1 = {
 	owner = VEN

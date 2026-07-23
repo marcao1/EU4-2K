@@ -24,16 +24,28 @@ base_manpower = 1
 is_city = yes
 add_core = MLW
 
-375.1.1 = { owner = GUP controller = GUP add_core = GUP }
-498.1.1 = { owner = KAP controller = KAP add_core = MLW remove_core = GUP }
-528.1.1 = { owner = MLW controller = MLW add_core = GRP }
-560.1.1 = { owner = GRP controller = GRP remove_core = MLW }
-606.1.1 = { owner = HRS controller = HRS add_core = HRS }
-647.1.1 = { owner = GRP controller = GRP remove_core = HRS }
-1036.1.1 = { owner = CCH controller = CCH add_core = CCH remove_core = GRP }
-1192.1.1 = { owner = MLW controller = MLW add_core = MLW remove_core = CCH }
-1226.1.1 = { owner = MER controller = MER add_core = MER remove_core = MLW }
-1342.1.1 = { owner = HAD controller = HAD add_core = HAD remove_core = MER }
+1444.11.11 = {
+owner = GUP controller = GUP add_core = GUP
+owner = KAP controller = KAP add_core = MLW remove_core = GUP
+owner = MLW controller = MLW add_core = GRP
+owner = GRP controller = GRP remove_core = MLW
+owner = HRS controller = HRS add_core = HRS
+owner = GRP controller = GRP remove_core = HRS
+owner = CCH controller = CCH add_core = CCH remove_core = GRP
+owner = MLW controller = MLW add_core = MLW remove_core = CCH
+owner = MER controller = MER add_core = MER remove_core = MLW
+owner = HAD controller = HAD add_core = HAD remove_core = MER
+}
+
+
+
+
+
+
+
+
+
+
 
 1455.1.1 = { controller = MLW } # Conquest by Malwa
 1456.1.1 = {

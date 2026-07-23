@@ -23,25 +23,46 @@ base_manpower = 2
 is_city = yes
 add_core = CDU
 
-130.1.1 = { owner = ROM controller = ROM add_core = ROM }
-252.1.1 = { owner = ERS controller = ERS add_core = ERS remove_core = ROM }
-287.1.1 = { owner = ROM controller = ROM add_core = ROM remove_core = ERS }
-360.1.1 = { religion = chalcedonism }
-384.1.1 = { owner = ARM controller = ARM add_core = ARM remove_core = ROM }
-428.1.1 = { owner = ERS controller = ERS add_core = ERS remove_core = ARM }
-431.7.1 = { religion = nestorian }
-637.1.1 = { owner = RSD controller = RSD add_core = RSD remove_core = ERS capital = "Bitlis" }
-661.7.28 = { owner = UMA controller = UMA add_core = UMA remove_core = RSD }
-750.8.6 = { owner = ABA controller = ABA add_core = ABA remove_core = UMA }
-780.1.1 = { religion = sunni }
-885.1.1 = { owner = ARM controller = ARM add_core = ARM remove_core = ABA }
-983.1.1 = { owner = KRD controller = KRD add_core = KRD remove_core = ARM }
-1071.8.26 = { owner = SEL controller = SEL add_core = SEL }
-1100.1.1 = { owner = ARS controller = ARS add_core = ARS remove_core = SEL }
-1160.1.1 = { owner = BTL controller = BTL add_core = BTL remove_core = ARS }
-1250.1.1 = { owner = KHA controller = KHA add_core = KHA add_core = IRQ }
-1260.1.1 = { owner = ILK controller = ILK add_core = ILK remove_core = KHA }
-1335.1.1 = { owner = BTL controller = BTL add_core = BTL remove_core = ILK }
+1444.11.11 = {
+owner = ROM controller = ROM add_core = ROM
+owner = ERS controller = ERS add_core = ERS remove_core = ROM
+owner = ROM controller = ROM add_core = ROM remove_core = ERS
+religion = chalcedonism
+owner = ARM controller = ARM add_core = ARM remove_core = ROM
+owner = ERS controller = ERS add_core = ERS remove_core = ARM
+religion = nestorian
+owner = RSD controller = RSD add_core = RSD remove_core = ERS capital = "Bitlis"
+owner = UMA controller = UMA add_core = UMA remove_core = RSD
+owner = ABA controller = ABA add_core = ABA remove_core = UMA
+religion = sunni
+owner = ARM controller = ARM add_core = ARM remove_core = ABA
+owner = KRD controller = KRD add_core = KRD remove_core = ARM
+owner = SEL controller = SEL add_core = SEL
+owner = ARS controller = ARS add_core = ARS remove_core = SEL
+owner = BTL controller = BTL add_core = BTL remove_core = ARS
+owner = KHA controller = KHA add_core = KHA add_core = IRQ
+owner = ILK controller = ILK add_core = ILK remove_core = KHA
+owner = BTL controller = BTL add_core = BTL remove_core = ILK
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1469.2.4 = {
 	owner = AKK

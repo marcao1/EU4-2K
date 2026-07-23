@@ -14,8 +14,12 @@ native_size = 40
 native_ferocity = 4
 native_hostileness = 9
 
-1050.1.1 = { owner = TEN controller = TEN add_core = TEN trade_goods = grain is_city = yes }
-1182.1.1 = { owner = WGD controller = WGD add_core = WGD remove_core = TEN }
+1444.11.11 = {
+owner = TEN controller = TEN add_core = TEN trade_goods = grain is_city = yes
+owner = WGD controller = WGD add_core = WGD remove_core = TEN
+}
+
+
 
 1539.1.1 = { unrest = 8  } #Civil War between Kumdumye and Yadega for throne
 1540.1.1 = { unrest = 0  } #Yadega defeated, flees northward to create new Mossi state in Yatenga

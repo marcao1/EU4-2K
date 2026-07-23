@@ -20,23 +20,42 @@ base_manpower = 1
 capital = "Urbs Vitrix Osca" 
 is_city = yes
 
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-420.1.1 = { religion = chalcedonism }
-456.1.1 = { owner = GVI controller = GVI add_core = GVI }
-458.10.1 = { owner = ROW controller = ROW } #Battle of Arelate
-461.8.2 = { owner = GVI controller = GVI remove_core = ROW } #Assassination of Majorian
-480.1.1 = { religion = arianism }
-570.1.1 = { religion = chalcedonism }
-711.1.1 = { owner = UMA controller = UMA add_core = UMA remove_core = GVI capital = "Wasqah" }
-750.8.6 = { owner = CRD controller = CRD add_core = CRD remove_core = UMA }
-795.1.1 = { owner = ARA controller = ARA add_core = ARA remove_core = CRD capital = "Ribagorza" culture = aragonese }
-800.1.1 = { base_tax = 2 base_production = 2 fort_15th = yes }
-867.1.1 = { religion = catholic }
-922.1.1 = { owner = NAV controller = NAV add_core = NAV }
-1000.1.1 = { base_manpower = 2 }
-1035.10.18 = { owner = ARA controller = ARA remove_core = NAV }
-1096.1.1 = { capital = "Huesca" }
-1200.1.1 = { base_tax = 3 }
+1444.11.11 = {
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+religion = chalcedonism
+owner = GVI controller = GVI add_core = GVI
+owner = ROW controller = ROW
+owner = GVI controller = GVI remove_core = ROW
+religion = arianism
+religion = chalcedonism
+owner = UMA controller = UMA add_core = UMA remove_core = GVI capital = "Wasqah"
+owner = CRD controller = CRD add_core = CRD remove_core = UMA
+owner = ARA controller = ARA add_core = ARA remove_core = CRD capital = "Ribagorza" culture = aragonese
+base_tax = 2 base_production = 2 fort_15th = yes
+religion = catholic
+owner = NAV controller = NAV add_core = NAV
+base_manpower = 2
+owner = ARA controller = ARA remove_core = NAV
+capital = "Huesca"
+base_tax = 3
+}
+ # Final division of the empire
+
+
+ #Battle of Arelate
+ #Assassination of Majorian
+
+
+
+
+
+
+
+
+
+
+
+
 
 1516.1.23 = {	controller = SPA
 	owner = SPA

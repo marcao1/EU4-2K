@@ -13,13 +13,14 @@ native_ferocity = 2
 native_hostileness = 9
 discovered_by = polynesian_tech
 
-1060.1.1 = { 
-	owner = HAW
+1444.11.11 = {
+owner = HAW
 	controller = HAW
 	add_core = HAW
 	is_city = yes
 	trade_goods = livestock
 }
+
 
 1555.1.1 = { discovered_by = SPA }
 1778.1.1 = { discovered_by = GBR }

@@ -21,26 +21,40 @@ base_manpower = 2
 is_city = yes
 add_core = VAT
 
-120.1.1 = { owner = KUS controller = KUS add_core = KUS remove_core = VAT }
-270.1.1 = { owner = PNC controller = PNC add_core = PNC remove_core = KUS }
-320.1.1 = { owner = GUP controller = GUP add_core = GUP remove_core = PNC }
-540.1.1 = { owner = KNN controller = KNN add_core = KNN remove_core = GUP }
-620.1.1 = { owner = HRS controller = HRS add_core = HRS }
-647.1.1 = { owner = KNN controller = KNN remove_core = HRS }
-800.1.1 = { discovered_by = nomad_group }
-820.1.1 = { owner = GRP controller = GRP add_core = GRP remove_core = KNN }
-1000.1.1 = { base_manpower = 3 }
-1036.1.1 = { owner = CCH controller = CCH add_core = CCH remove_core = GRP }
-1100.1.1 = { base_tax = 4 base_production = 4 }
-1192.1.1 = { owner = GHU controller = GHU add_core = GHU remove_core = CCH }
-1200.1.1 = { base_tax = 5 base_production = 5 }
-1206.1.1 = { owner = DLH controller = DLH add_core = DLH remove_core = GHU }
-
-1437.1.1 = {
-	owner = JNP
+1444.11.11 = {
+owner = KUS controller = KUS add_core = KUS remove_core = VAT
+owner = PNC controller = PNC add_core = PNC remove_core = KUS
+owner = GUP controller = GUP add_core = GUP remove_core = PNC
+owner = KNN controller = KNN add_core = KNN remove_core = GUP
+owner = HRS controller = HRS add_core = HRS
+owner = KNN controller = KNN remove_core = HRS
+discovered_by = nomad_group
+owner = GRP controller = GRP add_core = GRP remove_core = KNN
+base_manpower = 3
+owner = CCH controller = CCH add_core = CCH remove_core = GRP
+base_tax = 4 base_production = 4
+owner = GHU controller = GHU add_core = GHU remove_core = CCH
+base_tax = 5 base_production = 5
+owner = DLH controller = DLH add_core = DLH remove_core = GHU
+owner = JNP
 	controller = JNP
 	add_core = JNP
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 1478.1.1 = {
 	owner = DLH
 	controller = DLH

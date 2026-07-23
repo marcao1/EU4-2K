@@ -12,17 +12,30 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-550.1.1 = { owner = SGH controller = SGH add_core = SGH is_city = yes trade_goods = livestock }
-620.1.1 = { religion = buddhism }
-638.1.1 = { owner = HIR controller = HIR add_core = HIR remove_core = SGH culture = northern_thai }
-700.1.1 = { base_tax = 2 base_production = 2 }
-800.1.1 = { discovered_by = indian }
-900.1.1 = { base_manpower = 2 }
-1094.1.1 = { owner = PHY controller = PHY add_core = PHY remove_core = HIR }
-1100.1.1 = { base_tax = 3 base_production = 3 }
-1150.1.1 = { religion = buddhism }
-1238.1.1 = { owner = SUK controller = SUK add_core = SUK remove_core = PHY }
-1350.1.1 = { owner = LNA controller = LNA add_core = LNA remove_core = SUK }
+1444.11.11 = {
+owner = SGH controller = SGH add_core = SGH is_city = yes trade_goods = livestock
+religion = buddhism
+owner = HIR controller = HIR add_core = HIR remove_core = SGH culture = northern_thai
+base_tax = 2 base_production = 2
+discovered_by = indian
+base_manpower = 2
+owner = PHY controller = PHY add_core = PHY remove_core = HIR
+base_tax = 3 base_production = 3
+religion = buddhism
+owner = SUK controller = SUK add_core = SUK remove_core = PHY
+owner = LNA controller = LNA add_core = LNA remove_core = SUK
+}
+
+
+
+
+
+
+
+
+
+
+
 
 1535.1.1 = { discovered_by = POR }
 

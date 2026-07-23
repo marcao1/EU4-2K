@@ -28,18 +28,32 @@ is_city = yes
 add_core = NAB
 add_core = LIH
 
-106.1.1 = { owner = LIH controller = LIH add_core = LIH remove_core = NAB }
-220.1.1 = { owner = GHS controller = GHS add_core = GHS capital = "Tayma" culture = bedouin_arabic }
-320.1.1 = { owner = GTF controller = GTF add_core = GTF remove_core = GHS }
-630.10.1 = { owner = RSD controller = RSD add_core = RSD remove_core = GTF } #Battle of Tabouk
-650.1.1 = { religion = islam }
-661.7.28 = { owner = UMA controller = UMA add_core = UMA remove_core = RSD religion = sunni }
-750.8.6 = { owner = ABA controller = ABA add_core = ABA remove_core = UMA }
-868.9.15 = { owner = EGY controller = EGY add_core = EGY remove_core = ABA }
-905.1.10 = { owner = ABA controller = ABA add_core = ABA }
-935.8.26 = { owner = EGY controller = EGY add_core = EGY remove_core = ABA }
-970.3.1  = { owner = FAT controller = FAT add_core = FAT remove_core = EGY }
-1070.1.1 = { owner = ANZ controller = ANZ add_core = ANZ remove_core = FAT }
+1444.11.11 = {
+owner = LIH controller = LIH add_core = LIH remove_core = NAB
+owner = GHS controller = GHS add_core = GHS capital = "Tayma" culture = bedouin_arabic
+owner = GTF controller = GTF add_core = GTF remove_core = GHS
+owner = RSD controller = RSD add_core = RSD remove_core = GTF
+religion = islam
+owner = UMA controller = UMA add_core = UMA remove_core = RSD religion = sunni
+owner = ABA controller = ABA add_core = ABA remove_core = UMA
+owner = EGY controller = EGY add_core = EGY remove_core = ABA
+owner = ABA controller = ABA add_core = ABA
+owner = EGY controller = EGY add_core = EGY remove_core = ABA
+owner = FAT controller = FAT add_core = FAT remove_core = EGY
+owner = ANZ controller = ANZ add_core = ANZ remove_core = FAT
+}
+
+
+
+ #Battle of Tabouk
+
+
+
+
+
+
+
+
 
 1515.1.1 = { discovered_by = POR }
 1772.1.1 = { owner = HED controller = HED }

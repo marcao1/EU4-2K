@@ -15,13 +15,14 @@ native_size = 70
 native_ferocity = 2
 native_hostileness = 9
 
-900.1.1 = {
-	add_core = TDO
+1444.11.11 = {
+add_core = TDO
 	owner = TDO
 	controller = TDO
 	is_city = yes
 	trade_goods = grain
 }
+
 
 1521.1.1 = { discovered_by = SPA } # Ferdinand Magellan 
 1570.5.1 = {

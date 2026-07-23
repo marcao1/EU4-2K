@@ -18,15 +18,26 @@ base_manpower = 1
 is_city = yes
 add_core = KUY
 
-400.1.1 = { culture = khmer }
-450.1.1 = { owner = CNA controller = CNA add_core = CNA remove_core = KUY }
-550.1.1 = { religion = mahayana }
-707.2.6 = { owner = LCH controller = LCH add_core = LCH remove_core = CNA }
-810.1.1 = { owner = CMB controller = CMB add_core = CMB remove_core = LCH }
-1000.1.1 = { base_tax = 2 base_production = 2 }
-1200.1.1 = { base_manpower = 2 }
-1295.1.1 = { religion = buddhism }
-1420.1.1 = { owner = LXA controller = LXA add_core = LXA remove_core = CMB }
+1444.11.11 = {
+culture = khmer
+owner = CNA controller = CNA add_core = CNA remove_core = KUY
+religion = mahayana
+owner = LCH controller = LCH add_core = LCH remove_core = CNA
+owner = CMB controller = CMB add_core = CMB remove_core = LCH
+base_tax = 2 base_production = 2
+base_manpower = 2
+religion = buddhism
+owner = LXA controller = LXA add_core = LXA remove_core = CMB
+}
+
+
+
+
+
+
+
+
+
 
 1490.1.1 = { culture = lao }
 1535.1.1 = { discovered_by = POR }

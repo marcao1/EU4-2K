@@ -18,9 +18,14 @@ base_manpower = 1
 is_city = yes
 add_core = POG
 
-1050.1.1 = { owner = PAG controller = PAG add_core = PAG remove_core = POG } #Conquests of Anawratha
-1100.1.1 = { culture = kachin }
-1215.1.1 = { owner = MKA controller = MKA add_core = MKA remove_core = PAG }
+1444.11.11 = {
+owner = PAG controller = PAG add_core = PAG remove_core = POG
+culture = kachin
+owner = MKA controller = MKA add_core = MKA remove_core = PAG
+}
+ #Conquests of Anawratha
+
+
 
 1502.1.1 = { owner = SST controller = SST add_core = SST }
 1557.3.11 = { owner = MKA controller = MKA add_core = MKA remove_core = SST }

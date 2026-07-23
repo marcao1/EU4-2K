@@ -24,16 +24,28 @@ base_manpower = 1
 is_city = yes
 add_core = WSA
 
-76.1.1 = { owner = KUS controller = KUS add_core = KUS remove_core = WSA }
-270.1.1 = { owner = ABH controller = ABH add_core = ABH remove_core = KUS }
-375.1.1 = { owner = GUP controller = GUP add_core = GUP remove_core = ABH }
-498.1.1 = { owner = KAP controller = KAP add_core = GRP remove_core = GUP }
-528.1.1 = { owner = MLW controller = MLW }
-540.1.1 = { owner = GRP controller = GRP }
-620.1.1 = { owner = HRS controller = HRS add_core = HRS }
-647.1.1 = { owner = GRP controller = GRP remove_core = HRS }
-950.1.1 = { owner = MAW controller = MAW add_core = MAW remove_core = GRP }
-1156.1.1 = { owner = JSL controller = JSL add_core = JSL remove_core = MAW capital = "Jaisalmer" }
+1444.11.11 = {
+owner = KUS controller = KUS add_core = KUS remove_core = WSA
+owner = ABH controller = ABH add_core = ABH remove_core = KUS
+owner = GUP controller = GUP add_core = GUP remove_core = ABH
+owner = KAP controller = KAP add_core = GRP remove_core = GUP
+owner = MLW controller = MLW
+owner = GRP controller = GRP
+owner = HRS controller = HRS add_core = HRS
+owner = GRP controller = GRP remove_core = HRS
+owner = MAW controller = MAW add_core = MAW remove_core = GRP
+owner = JSL controller = JSL add_core = JSL remove_core = MAW capital = "Jaisalmer"
+}
+
+
+
+
+
+
+
+
+
+
 
 1544.1.1 = {
 	owner = BNG

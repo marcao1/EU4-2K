@@ -22,17 +22,30 @@ is_city = yes
 add_core = KLI
 center_of_trade = 1
 
-150.1.1 = { owner = TOS controller = TOS add_core = TOS }
-355.1.1 = { owner = GUP controller = GUP add_core = GUP }
-570.1.1 = { religion = hinduism }
-575.1.1 = { owner = TOS controller = TOS add_core = TOS remove_core = GUP }
-680.1.1 = { owner = KGD controller = KGD add_core = KGD }
-736.1.1 = { owner = TOS controller = TOS remove_core = KGD }
-800.1.1 = { discovered_by = nomad_group }
-900.1.1 = { base_tax = 5 base_production = 5 }
-1100.1.1 = { base_tax = 6 base_production = 6 }
-1118.1.1 = { owner = KLI controller = KLI add_core = KLI capital = "Kataka" }
-1434.1.1 = { owner = ORI controller = ORI add_core = ORI remove_core = KLI capital = "Cuttack" }
+1444.11.11 = {
+owner = TOS controller = TOS add_core = TOS
+owner = GUP controller = GUP add_core = GUP
+religion = hinduism
+owner = TOS controller = TOS add_core = TOS remove_core = GUP
+owner = KGD controller = KGD add_core = KGD
+owner = TOS controller = TOS remove_core = KGD
+discovered_by = nomad_group
+base_tax = 5 base_production = 5
+base_tax = 6 base_production = 6
+owner = KLI controller = KLI add_core = KLI capital = "Kataka"
+owner = ORI controller = ORI add_core = ORI remove_core = KLI capital = "Cuttack"
+}
+
+
+
+
+
+
+
+
+
+
+
 
 1568.1.1 = {
 	owner = BNG

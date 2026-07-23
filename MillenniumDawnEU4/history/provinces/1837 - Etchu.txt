@@ -16,19 +16,32 @@ base_manpower = 2
 is_city = yes
 add_core = KO0
 
-500.1.1 = { owner = YAM controller = YAM add_core = YAM remove_core = KO0 culture = japanese }
-607.1.1 = { religion = mahayana }
-700.1.1 = { base_tax = 3 base_production = 3 }
-712.1.1 = { religion = shinto }
-794.1.1 = { owner = JAP controller = JAP add_core = JAP remove_core = YAM }
-900.1.1 = { base_manpower = 3 }
-940.1.1 = { owner = SAI controller = SAI add_core = SAI remove_core = JAP } #Saito clan
-1192.7.12 = { owner = KMK controller = KMK add_core = KMK } #Kamakura Shogunate (Actually Hiki clan, but no tag for it)
-1203.9.2 = { owner = HJO controller = HJO add_core = HJO remove_core = KMK } #Hiki clan ended by Hojo
-1333.5.18 = { owner = SBA controller = SBA add_core = SBA remove_core = HJO } #Kenmu restoration
+1444.11.11 = {
+owner = YAM controller = YAM add_core = YAM remove_core = KO0 culture = japanese
+religion = mahayana
+base_tax = 3 base_production = 3
+religion = shinto
+owner = JAP controller = JAP add_core = JAP remove_core = YAM
+base_manpower = 3
+owner = SAI controller = SAI add_core = SAI remove_core = JAP
+owner = KMK controller = KMK add_core = KMK
+owner = HJO controller = HJO add_core = HJO remove_core = KMK
+owner = SBA controller = SBA add_core = SBA remove_core = HJO
+owner = HTK controller = HTK add_core = HTK remove_core = SBA
+fort_15th = yes
+}
 
-1380.1.1 = { owner = HTK controller = HTK add_core = HTK remove_core = SBA }
-1400.1.1 = { fort_15th = yes } #Nanao Castle
+
+
+
+
+
+ #Saito clan
+ #Kamakura Shogunate (Actually Hiki clan, but no tag for it)
+ #Hiki clan ended by Hojo
+ #Kenmu restoration
+
+ #Nanao Castle
 1542.1.1 = { discovered_by = POR }
 1562.7.1 = { add_core = UES }
 1576.1.1 = { owner = UES controller = UES remove_core = HTK }

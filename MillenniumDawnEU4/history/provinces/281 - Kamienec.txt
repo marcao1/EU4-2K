@@ -23,24 +23,44 @@ trade_goods = livestock
 base_manpower = 1
 capital = "Kamienec"
 
-150.1.1 = { owner = BAS controller = BAS add_core = BAS remove_core = ANE religion = germanic }
-380.1.1 = { owner = HNS controller = HNS add_core = HNS remove_core = BAS religion = tengri_pagan_reformed }
-469.1.1 = { owner = ANE controller = ANE add_core = ANE remove_core = HNS religion = slavic }
-560.1.1 = { owner = AVR controller = AVR add_core = AVR remove_core = ANE }
-567.1.1 = { owner = TIV controller = TIV add_core = TIV remove_core = AVR }
-700.1.1 = { base_tax = 2 base_production = 2 }
-760.1.1 = { owner = HUN controller = HUN add_core = HUN remove_core = TIV religion = tengri_pagan_reformed }
-850.1.1 = { base_manpower = 2 }
-900.1.1 = { owner = KRU controller = KRU add_core = KRU add_core = UKR remove_core = HUN }
-930.1.1 = { owner = PEC controller = PEC add_core = PEC remove_core = KRU }
-960.1.1 = { religion = orthodox }
-980.1.1 = { owner = KRU controller = KRU add_core = KRU remove_core = PEC }
-1054.2.20 = { owner = VOL controller = VOL add_core = VOL add_core = KIE remove_core = KRU }
-1150.1.1 = { fort_15th = yes }
-1199.1.1 = { remove_core = KIE }
-1325.1.1 = { owner = LIT controller = LIT add_core = LIT } # The eastern part remained in Lituania 
-1350.1.1 = { religion = orthodox }
-1352.1.1 = { owner = POL controller = POL add_core = POL remove_core = LIT }
+1444.11.11 = {
+owner = BAS controller = BAS add_core = BAS remove_core = ANE religion = germanic
+owner = HNS controller = HNS add_core = HNS remove_core = BAS religion = tengri_pagan_reformed
+owner = ANE controller = ANE add_core = ANE remove_core = HNS religion = slavic
+owner = AVR controller = AVR add_core = AVR remove_core = ANE
+owner = TIV controller = TIV add_core = TIV remove_core = AVR
+base_tax = 2 base_production = 2
+owner = HUN controller = HUN add_core = HUN remove_core = TIV religion = tengri_pagan_reformed
+base_manpower = 2
+owner = KRU controller = KRU add_core = KRU add_core = UKR remove_core = HUN
+owner = PEC controller = PEC add_core = PEC remove_core = KRU
+religion = orthodox
+owner = KRU controller = KRU add_core = KRU remove_core = PEC
+owner = VOL controller = VOL add_core = VOL add_core = KIE remove_core = KRU
+fort_15th = yes
+remove_core = KIE
+owner = LIT controller = LIT add_core = LIT
+religion = orthodox
+owner = POL controller = POL add_core = POL remove_core = LIT
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ # The eastern part remained in Lituania 
+
+
 
 1569.7.1 = {
 	owner = PLC

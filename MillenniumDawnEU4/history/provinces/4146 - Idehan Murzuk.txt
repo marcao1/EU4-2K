@@ -1,7 +1,9 @@
-1200.1.1   = { 
-	discovered_by = ottoman
+
+1444.11.11 = {
+discovered_by = ottoman
 	discovered_by = muslim
 }
+
 
 1850.1.1   = { discovered_by = FRA }
 1890.1.1   = { discovered_by = western }

@@ -21,16 +21,28 @@ base_manpower = 1
 is_city = yes
 add_core = VGA
 
-355.1.1 = { owner = GUP controller = GUP add_core = GUP }
-525.1.1 = { owner = VGA controller = VGA add_core = VGA remove_core = GUP }
-750.1.1 = { owner = HRK controller = HRK add_core = HRK remove_core = VGA }
-800.1.1 = { discovered_by = nomad_group }
-1150.1.1 = { owner = NIZ controller = NIZ add_core = NIZ remove_core = HRK }
-1200.1.1 = { religion = hinduism }
-1230.1.1 = { owner = HRK controller = HRK add_core = HRK remove_core = NIZ }
-1305.1.1 = { owner = BNG controller = BNG add_core = BNG }
-1324.1.1 = { owner = DLH controller = DLH add_core = DLH }
-1338.1.1 = { owner = BNG controller = BNG remove_core = DLH }
+1444.11.11 = {
+owner = GUP controller = GUP add_core = GUP
+owner = VGA controller = VGA add_core = VGA remove_core = GUP
+owner = HRK controller = HRK add_core = HRK remove_core = VGA
+discovered_by = nomad_group
+owner = NIZ controller = NIZ add_core = NIZ remove_core = HRK
+religion = hinduism
+owner = HRK controller = HRK add_core = HRK remove_core = NIZ
+owner = BNG controller = BNG add_core = BNG
+owner = DLH controller = DLH add_core = DLH
+owner = BNG controller = BNG remove_core = DLH
+}
+
+
+
+
+
+
+
+
+
+
 
 1500.1.1 = { discovered_by = POR }
 1560.1.1 = { religion = sunni }

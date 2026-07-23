@@ -16,14 +16,24 @@ base_manpower = 2
 is_city = yes
 add_core = KEO
 
-607.1.1 = { religion = mahayana }
-650.1.1 = { owner = YAM controller = YAM add_core = YAM remove_core = KEO culture = japanese }
-712.1.1 = { religion = shinto }
-794.1.1 = { owner = JAP controller = JAP add_core = JAP remove_core = YAM }
-1000.1.1 = { base_production = 3 }
-1110.1.1 = { owner = KMK controller = KMK add_core = KMK remove_core = JAP }
-1155.1.1 = { owner = NIT controller = NIT add_core = NIT remove_core = KMK } #Nitta can founded
-1368.1.1 = { owner = UES controller = UES add_core = UES }
+1444.11.11 = {
+religion = mahayana
+owner = YAM controller = YAM add_core = YAM remove_core = KEO culture = japanese
+religion = shinto
+owner = JAP controller = JAP add_core = JAP remove_core = YAM
+base_production = 3
+owner = KMK controller = KMK add_core = KMK remove_core = JAP
+owner = NIT controller = NIT add_core = NIT remove_core = KMK
+owner = UES controller = UES add_core = UES
+}
+
+
+
+
+
+
+ #Nitta can founded
+
 
 1542.1.1 = { discovered_by = POR }
 1546.5.19 = { add_core = HJO }

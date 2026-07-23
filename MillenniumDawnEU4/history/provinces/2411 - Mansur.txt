@@ -23,27 +23,48 @@ trade_goods = livestock
 base_manpower = 1
 capital = "Mansur"
 
-220.1.1 = { owner = OST controller = OST add_core = OST remove_core = SRT }
-370.1.1 = { owner = HNS controller = HNS add_core = HNS remove_core = OST culture = hunnic }
-420.1.1 = { add_core = KTR culture = bulgar }
-469.1.1 = { owner = KTR controller = KTR remove_core = HNS }
-600.1.1 = { base_manpower = 2 }
-632.1.1 = { owner = BUL controller = BUL add_core = BUL remove_core = KTR }
-750.1.1 = { owner = HUN controller = HUN add_core = HUN remove_core = BUL culture = hungarian }
-800.1.1 = { base_tax = 2 base_production = 2 }
-840.1.1 = { owner = KHZ controller = KHZ add_core = KHZ remove_core = HUN }
-969.1.1 = { owner = PEC controller = PEC add_core = PEC remove_core = KHZ culture = pecheneg }
-1060.1.1 = { owner = CUM controller = CUM add_core = CUM remove_core = PEC }
-1200.1.1 = { base_tax = 3 base_production = 3 }
-1220.1.1 = { culture = crimean }
-1241.1.1 = { owner = KHA controller = KHA add_core = KHA add_core = ZAZ remove_core = CUM }
-1260.1.1 = { owner = WHH controller = WHH add_core = WHH remove_core = KHA }
-1280.1.1 = { religion = sunni }
-1372.1.1 = { owner = BHO controller = BHO add_core = BHO }
-1374.1.1 = { owner = WHH controller = WHH remove_core = BHO }
-1378.1.1 = { owner = GLH controller = GLH add_core = GLH }
+1444.11.11 = {
+owner = OST controller = OST add_core = OST remove_core = SRT
+owner = HNS controller = HNS add_core = HNS remove_core = OST culture = hunnic
+add_core = KTR culture = bulgar
+owner = KTR controller = KTR remove_core = HNS
+base_manpower = 2
+owner = BUL controller = BUL add_core = BUL remove_core = KTR
+owner = HUN controller = HUN add_core = HUN remove_core = BUL culture = hungarian
+base_tax = 2 base_production = 2
+owner = KHZ controller = KHZ add_core = KHZ remove_core = HUN
+owner = PEC controller = PEC add_core = PEC remove_core = KHZ culture = pecheneg
+owner = CUM controller = CUM add_core = CUM remove_core = PEC
+base_tax = 3 base_production = 3
+culture = crimean
+owner = KHA controller = KHA add_core = KHA add_core = ZAZ remove_core = CUM
+owner = WHH controller = WHH add_core = WHH remove_core = KHA
+religion = sunni
+owner = BHO controller = BHO add_core = BHO
+owner = WHH controller = WHH remove_core = BHO
+owner = GLH controller = GLH add_core = GLH
+owner = CRI controller = CRI add_core = CRI
+}
 
-1441.1.1  = { owner = CRI controller = CRI add_core = CRI } # The Crimean Khanate
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ # The Crimean Khanate
 1555.1.1  = { owner = ZAZ controller = ZAZ remove_core = CRI culture = ruthenian religion = orthodox } # Fortified military camp, independent state
 1700.7.14  = { owner = RUS add_core = RUS } # Treaty of Constantinople
 1713.6.24  = { owner = TUR controller = TUR add_core = TUR remove_core = RUS } # Treaty of Adrianople

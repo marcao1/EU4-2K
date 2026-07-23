@@ -15,19 +15,34 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-160.1.1 = { owner = HNS controller = HNS add_core = HNS is_city = yes trade_goods = livestock }
-376.1.1 = { add_core = KHZ culture = khazar }
-448.1.1 = { owner = KHZ controller = KHZ remove_core = HNS }
-820.1.1 = { owner = PEC controller = PEC add_core = PEC remove_core = KHZ culture = pecheneg }
-870.1.1 = { owner = CUM controller = CUM add_core = CUM remove_core = PEC culture = cuman }
-1000.1.1 = { discovered_by = eastern }
-1100.1.1 = { religion = sunni }
-1236.1.1 = { owner = KHA controller = KHA add_core = KHA remove_core = CUM culture = nogaybak }
-1260.1.1 = { owner = WHH controller = WHH add_core = WHH remove_core = KHA }
-1372.1.1 = { owner = BHO controller = BHO add_core = BHO }
-1374.1.1 = { owner = WHH controller = WHH remove_core = BHO }
-1378.1.1 = { owner = GLH controller = GLH add_core = GLH }
-1430.1.1 = { owner = NOG controller = NOG add_core = NOG remove_core = GLH }
+1444.11.11 = {
+owner = HNS controller = HNS add_core = HNS is_city = yes trade_goods = livestock
+add_core = KHZ culture = khazar
+owner = KHZ controller = KHZ remove_core = HNS
+owner = PEC controller = PEC add_core = PEC remove_core = KHZ culture = pecheneg
+owner = CUM controller = CUM add_core = CUM remove_core = PEC culture = cuman
+discovered_by = eastern
+religion = sunni
+owner = KHA controller = KHA add_core = KHA remove_core = CUM culture = nogaybak
+owner = WHH controller = WHH add_core = WHH remove_core = KHA
+owner = BHO controller = BHO add_core = BHO
+owner = WHH controller = WHH remove_core = BHO
+owner = GLH controller = GLH add_core = GLH
+owner = NOG controller = NOG add_core = NOG remove_core = GLH
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1634.1.1  = {	owner = RUS controller = RUS add_core = RUS remove_core = NOG culture = khazak } # Kalmuk invasion and Russian annexation
 

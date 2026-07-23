@@ -17,10 +17,16 @@ native_size = 15
 native_ferocity = 1
 native_hostileness = 3
 
-450.1.1 = { owner = SHI controller = SHI add_core = SHI is_city = yes trade_goods = livestock }
-1206.1.1 = { owner = KHA controller = KHA add_core = KHA }
-1271.1.1 = { owner = YUA controller = YUA add_core = YUA remove_core = KHA }
-1368.1.23 = { owner = KRC controller = KRC add_core = KRC remove_core = YUA }
+1444.11.11 = {
+owner = SHI controller = SHI add_core = SHI is_city = yes trade_goods = livestock
+owner = KHA controller = KHA add_core = KHA
+owner = YUA controller = YUA add_core = YUA remove_core = KHA
+owner = KRC controller = KRC add_core = KRC remove_core = YUA
+}
+
+
+
+
 
 1552.1.1 = {
 	owner = KHA

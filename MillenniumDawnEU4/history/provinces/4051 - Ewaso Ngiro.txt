@@ -14,7 +14,10 @@ native_hostileness = 9
 discovered_by = east_african
 discovered_by = central_african
 
-1300.1.1 = { religion = sunni }
+1444.11.11 = {
+religion = sunni
+}
+
 
 1705.1.1 = { discovered_by = OMA }
 

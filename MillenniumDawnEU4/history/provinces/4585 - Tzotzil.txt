@@ -15,7 +15,10 @@ base_production = 2
 base_manpower = 1
 add_local_autonomy = 25
 
-850.1.1 = { owner = LAC controller = LAC add_core = LAC remove_core = PLQ } #Palenque declines
+1444.11.11 = {
+owner = LAC controller = LAC add_core = LAC remove_core = PLQ
+}
+ #Palenque declines
 
 1517.1.1 = { discovered_by = SPA }
 1528.1.1 = {

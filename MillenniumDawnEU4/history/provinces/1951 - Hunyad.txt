@@ -25,18 +25,32 @@ discovered_by = eastern
 discovered_by = barbarian
 discovered_by = western
 
-106.1.1 = { owner = ROM controller = ROM add_core = ROM }
-160.1.1 = { remove_core = DAC }
-271.1.1 = { owner = GVI controller = GVI add_core = GVI remove_core = ROM culture = gothic religion = germanic }
-360.1.1 = { religion = chalcedonism }
-376.1.1 = { owner = HNS controller = HNS add_core = HNS remove_core = GVI capital = "Alba Iulia" fort_15th = no }
-469.1.1 = { owner = GEP controller = GEP add_core = GEP remove_core = HNS culture = gepid }
-567.1.1 = { owner = AVR controller = AVR add_core = AVR remove_core = GEP religion = tengri_pagan_reformed }
-700.1.1 = { culture = romanian }
-804.1.1 = { owner = BUL controller = BUL add_core = BUL remove_core = AVR }
-930.1.1 = { owner = TRA controller = TRA add_core = TRA remove_core = BUL }
-1003.1.1 = { owner = HUN controller = HUN add_core = HUN }
-1020.1.1 = { religion = orthodox }
+1444.11.11 = {
+owner = ROM controller = ROM add_core = ROM
+remove_core = DAC
+owner = GVI controller = GVI add_core = GVI remove_core = ROM culture = gothic religion = germanic
+religion = chalcedonism
+owner = HNS controller = HNS add_core = HNS remove_core = GVI capital = "Alba Iulia" fort_15th = no
+owner = GEP controller = GEP add_core = GEP remove_core = HNS culture = gepid
+owner = AVR controller = AVR add_core = AVR remove_core = GEP religion = tengri_pagan_reformed
+culture = romanian
+owner = BUL controller = BUL add_core = BUL remove_core = AVR
+owner = TRA controller = TRA add_core = TRA remove_core = BUL
+owner = HUN controller = HUN add_core = HUN
+religion = orthodox
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 1506.1.1 = { revolt = { type = nationalist_rebels size = 2 } controller = REB } # Szekely rebellion
 1507.1.1 = { revolt = {} controller = TRA } # Estimated

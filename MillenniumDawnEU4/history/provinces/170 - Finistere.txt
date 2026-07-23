@@ -1,4 +1,4 @@
-# 170 Finistère - Principal cities: Brest
+# 170 Finistï¿½re - Principal cities: Brest
 
 owner = ROM
 controller = ROM
@@ -21,26 +21,48 @@ base_manpower = 1
 add_core = ROM
 center_of_trade = 1
 
-260.1.1 = { add_core = GLL revolt = { type = nationalist_rebels size = 1 } controller = REB }
-268.1.1 = { controller = ROM remove_core = GLL revolt = {} }
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-420.1.1 = { religion = chalcedonism }
-430.1.1 = { owner = BRO controller = BRO add_core = BRO capital = "Brest" culture = breton }
-480.6.1 = { remove_core = ROW }
-700.1.1 = { base_manpower = 2 }
-800.1.1 = { fort_15th = yes }
-846.1.1 = { controller = BRI owner = BRI add_core = BRI remove_core = BRO }
-867.1.1 = { religion = catholic }
-876.1.1 = { revolt = { type = pretender_rebels size = 2 leader = "Judicaël" } controller = REB }
-890.1.1 = { revolt = {} controller = BRI }
-900.1.1 = { base_tax = 2 base_production = 2 }
-907.1.1 = { owner = DAN controller = DAN }
-937.1.1 = { owner = BRI controller = BRI }
-1100.1.1 = { base_manpower = 3 }
-1200.1.1 = { base_tax = 3 base_production = 3 }
-1300.1.1 = { base_manpower = 4 }
-1359.1.1 = { controller = ENG } # Hundred years' war
-1360.5.9 = { controller = BRI } # Treaty of Bretigny
+1444.11.11 = {
+add_core = GLL revolt = { type = nationalist_rebels size = 1 } controller = REB
+controller = ROM remove_core = GLL revolt = {}
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+religion = chalcedonism
+owner = BRO controller = BRO add_core = BRO capital = "Brest" culture = breton
+remove_core = ROW
+base_manpower = 2
+fort_15th = yes
+controller = BRI owner = BRI add_core = BRI remove_core = BRO
+religion = catholic
+revolt = { type = pretender_rebels size = 2 leader = "Judicaï¿½l" } controller = REB
+revolt = {} controller = BRI
+base_tax = 2 base_production = 2
+owner = DAN controller = DAN
+owner = BRI controller = BRI
+base_manpower = 3
+base_tax = 3 base_production = 3
+base_manpower = 4
+controller = ENG
+controller = BRI
+}
+
+
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ # Hundred years' war
+ # Treaty of Bretigny
 
 1453.1.1 = { add_core = FRA }
 1532.8.4 = { owner = FRA controller = FRA } # Union Treaty

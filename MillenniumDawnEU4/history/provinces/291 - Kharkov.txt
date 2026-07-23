@@ -27,22 +27,40 @@ trade_goods = iron
 base_manpower = 1
 capital = "Belgorod"
 
-370.1.1 = { owner = HNS controller = HNS add_core = HNS remove_core = SRT culture = hunnic }
-420.1.1 = { add_core = KTR culture = bulgar }
-469.1.1 = { owner = KTR controller = KTR remove_core = HNS }
-567.1.1 = { owner = ONG controller = ONG add_core = ONG remove_core = KTR }
-632.1.1 = { owner = BUL controller = BUL add_core = BUL remove_core = ONG }
-720.1.1 = { owner = HUN controller = HUN add_core = HUN remove_core = BUL culture = hungarian }
-840.1.1 = { owner = KHZ controller = KHZ add_core = KHZ remove_core = HUN }
-900.1.1 = { base_tax = 2 base_production = 2 }
-969.1.1 = { owner = PEC controller = PEC add_core = PEC remove_core = KHZ culture = pecheneg }
-1060.1.1 = { owner = CUM controller = CUM add_core = CUM remove_core = PEC }
-1220.1.1 = { culture = crimean }
-1230.1.1 = { religion = sunni }
-1241.1.1 = { owner = KHA controller = KHA add_core = KHA add_core = ZAZ remove_core = CUM }
-1260.1.1 = { owner = WHH controller = WHH add_core = WHH remove_core = KHA }
-1360.1.1 = { owner = LIT controller = LIT add_core = LIT remove_core = WHH }
-1420.1.1 = { culture = ruthenian religion = orthodox }
+1444.11.11 = {
+owner = HNS controller = HNS add_core = HNS remove_core = SRT culture = hunnic
+add_core = KTR culture = bulgar
+owner = KTR controller = KTR remove_core = HNS
+owner = ONG controller = ONG add_core = ONG remove_core = KTR
+owner = BUL controller = BUL add_core = BUL remove_core = ONG
+owner = HUN controller = HUN add_core = HUN remove_core = BUL culture = hungarian
+owner = KHZ controller = KHZ add_core = KHZ remove_core = HUN
+base_tax = 2 base_production = 2
+owner = PEC controller = PEC add_core = PEC remove_core = KHZ culture = pecheneg
+owner = CUM controller = CUM add_core = CUM remove_core = PEC
+culture = crimean
+religion = sunni
+owner = KHA controller = KHA add_core = KHA add_core = ZAZ remove_core = CUM
+owner = WHH controller = WHH add_core = WHH remove_core = KHA
+owner = LIT controller = LIT add_core = LIT remove_core = WHH
+culture = ruthenian religion = orthodox
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1555.1.1  = { owner = ZAZ controller = ZAZ add_core = ZAZ remove_core = CRI } # Fortified military camp, independent state
 1657.1.1  = { owner = RUS controller = RUS add_core = RUS remove_core = ZAZ capital = "Kharkov" } 

@@ -25,20 +25,36 @@ is_city = yes
 add_core = WSA
 add_core = MLW
 
-405.1.1 = { owner = GUP controller = GUP add_core = GUP remove_core = WSA }
-500.1.1 = { owner = MLW controller = MLW add_core = MLW remove_core = GUP }
-610.1.1 = { owner = GUJ controller = GUJ add_core = GUJ }
-620.1.1 = { religion = hinduism }
-700.1.1 = { base_tax = 3 base_production = 3 }
-745.1.1 = { owner = GRP controller = GRP add_core = GRP remove_core = GUJ }
-800.1.1 = { owner = MLW controller = MLW add_core = MLW remove_core = GRP }
-900.1.1 = { base_manpower = 3 }
-1100.1.1 = { base_tax = 4 base_production = 4 }
-1151.1.1 = { owner = GUJ controller = GUJ }
-1160.1.1 = { owner = MLW controller = MLW }
-1300.1.1 = { base_tax = 5 base_production = 5 }
-1305.1.1 = { owner = DLH controller = DLH add_core = DLH capital = "Mandu" }
-1392.1.1 = { owner = MLW controller = MLW remove_core = DLH } # Dilawar Khan declares Malwa independent
+1444.11.11 = {
+owner = GUP controller = GUP add_core = GUP remove_core = WSA
+owner = MLW controller = MLW add_core = MLW remove_core = GUP
+owner = GUJ controller = GUJ add_core = GUJ
+religion = hinduism
+base_tax = 3 base_production = 3
+owner = GRP controller = GRP add_core = GRP remove_core = GUJ
+owner = MLW controller = MLW add_core = MLW remove_core = GRP
+base_manpower = 3
+base_tax = 4 base_production = 4
+owner = GUJ controller = GUJ
+owner = MLW controller = MLW
+base_tax = 5 base_production = 5
+owner = DLH controller = DLH add_core = DLH capital = "Mandu"
+owner = MLW controller = MLW remove_core = DLH
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ # Dilawar Khan declares Malwa independent
 
 1498.1.1 = { discovered_by = POR }
 1531.1.1 = { controller = GUJ } # Conquered by Ahmad Shahis

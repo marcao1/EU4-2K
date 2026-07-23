@@ -21,22 +21,38 @@ is_city = yes
 add_core = ROM
 center_of_trade = 1
 
-380.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-476.9.4 = { owner = ITA controller = ITA add_core = ITA }
-480.1.1 = { remove_core = ROW }
-489.1.1 = { owner = OST controller = OST add_core = OST remove_core = ITA capital = "Urbino" }
-538.1.1 = { owner = BYZ controller = BYZ add_core = BYZ }
-754.6.1 = { owner = PAP controller = PAP add_core = PAP remove_core = BYZ }
-800.1.1 = { base_manpower = 2 }
-867.1.1 = { religion = catholic }
-900.1.1 = { base_tax = 3 base_production = 3 }
-1000.1.1 = { base_tax = 4 base_production = 4 }
-1100.1.1 = { base_tax = 5 base_production = 5 }
-1213.1.1 = { owner = URB controller = URB add_core = URB remove_core = PAP }
+1444.11.11 = {
+religion = chalcedonism
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+owner = ITA controller = ITA add_core = ITA
+remove_core = ROW
+owner = OST controller = OST add_core = OST remove_core = ITA capital = "Urbino"
+owner = BYZ controller = BYZ add_core = BYZ
+owner = PAP controller = PAP add_core = PAP remove_core = BYZ
+base_manpower = 2
+religion = catholic
+base_tax = 3 base_production = 3
+base_tax = 4 base_production = 4
+base_tax = 5 base_production = 5
+owner = URB controller = URB add_core = URB remove_core = PAP
+owner = NAP controller = NAP add_core = NAP
+owner = URB controller = URB remove_core = NAP
+}
 
-1408.1.1 = { owner = NAP controller = NAP add_core = NAP } # Ladislas takes control of Ancona
-1414.8.6 = { owner = URB controller = URB remove_core = NAP }
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
+ # Ladislas takes control of Ancona
+
 1523.1.1 = { capital = "Pesaro" }
 1626.1.1 = { controller = PAP owner = PAP add_core = PAP } # Annexed to the Holy See
 1750.1.1 = { add_core = ITA }

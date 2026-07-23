@@ -21,28 +21,52 @@ is_city = yes
 add_core = ROM
 center_of_trade = 2
 
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-420.1.1 = { religion = chalcedonism }
-439.1.1 = { owner = VAN controller = VAN add_core = VAN remove_core = ROW }
-523.1.1 = { owner = LAG controller = LAG add_core = LAG remove_core = VAN }
-533.1.1 = { owner = BYZ controller = BYZ add_core = BYZ }
-645.1.1 = { capital = "Tripoli" }
-666.1.1 = { owner = UMA controller = UMA add_core = UMA remove_core = BYZ }
-700.1.1 = { religion = sunni culture = tunisian }
-745.1.1 = { owner = TUN controller = TUN add_core = TUN remove_core = UMA }
-757.6.1 = { owner = ABA controller = ABA add_core = ABA }
-800.1.1 = { owner = TUN controller = TUN add_core = TUN remove_core = ABA }
-909.1.1 = { owner = FAT controller = FAT add_core = FAT }
-973.1.1 = { owner = TUN controller = TUN add_core = TUN remove_core = FAT }
-1027.1.1 = { owner = TRP controller = TRP add_core = TRP }
-1146.1.1 = { owner = SIC controller = SIC add_core = SIC }
-1158.1.1 = { owner = MOR controller = MOR add_core = MOR remove_core = SIC }
-1174.1.1 = { owner = MAM controller = MAM add_core = MAM }
-1191.1.1 = { owner = TUN controller = TUN add_core = TUN }
-1212.1.1 = { owner = MOR controller = MOR remove_core = MAM }
-1229.1.1 = { owner = TUN controller = TUN add_core = TUN remove_core = MOR }
-1321.1.1 = { owner = TRP controller = TRP add_core = TRP }
-1401.1.1 = { owner = TUN controller = TUN add_core = TUN }
+1444.11.11 = {
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+religion = chalcedonism
+owner = VAN controller = VAN add_core = VAN remove_core = ROW
+owner = LAG controller = LAG add_core = LAG remove_core = VAN
+owner = BYZ controller = BYZ add_core = BYZ
+capital = "Tripoli"
+owner = UMA controller = UMA add_core = UMA remove_core = BYZ
+religion = sunni culture = tunisian
+owner = TUN controller = TUN add_core = TUN remove_core = UMA
+owner = ABA controller = ABA add_core = ABA
+owner = TUN controller = TUN add_core = TUN remove_core = ABA
+owner = FAT controller = FAT add_core = FAT
+owner = TUN controller = TUN add_core = TUN remove_core = FAT
+owner = TRP controller = TRP add_core = TRP
+owner = SIC controller = SIC add_core = SIC
+owner = MOR controller = MOR add_core = MOR remove_core = SIC
+owner = MAM controller = MAM add_core = MAM
+owner = TUN controller = TUN add_core = TUN
+owner = MOR controller = MOR remove_core = MAM
+owner = TUN controller = TUN add_core = TUN remove_core = MOR
+owner = TRP controller = TRP add_core = TRP
+owner = TUN controller = TUN add_core = TUN
+}
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1510.1.1  = { owner = CAS controller = CAS add_core = CAS }
 1516.1.23 = {	owner = SPA	

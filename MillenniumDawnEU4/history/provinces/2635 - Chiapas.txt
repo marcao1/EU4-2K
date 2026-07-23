@@ -6,7 +6,7 @@ controller = YAX
 add_core = YAX
 is_city = yes
 religion = mesoamerican_religion
-capital = "Yaxchilán"
+capital = "Yaxchilï¿½n"
 trade_goods = cocoa
 hre = no
 discovered_by = mesoamerican
@@ -15,11 +15,13 @@ base_production = 2
 base_manpower = 2
 add_local_autonomy = 25
 
-300.1.1 = { base_tax = 4 base_production = 4 }
-900.1.1 = { 
-	owner = LAC controller = LAC add_core = LAC remove_core = YAX 
-	base_tax = 2 base_production = 2 base_manpower = 1 capital = "Chiapas" 
-} #Yaxchilan abandoned
+1444.11.11 = {
+base_tax = 4 base_production = 4
+owner = LAC controller = LAC add_core = LAC remove_core = YAX 
+	base_tax = 2 base_production = 2 base_manpower = 1 capital = "Chiapas"
+}
+
+ #Yaxchilan abandoned
 
 1528.1.1 = {
 	discovered_by = SPA 

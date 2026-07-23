@@ -21,18 +21,30 @@ discovered_by = western
 discovered_by = roman_group
 discovered_by = eastern
 
-39.1.1 = { owner = AGR controller = AGR add_core = AGR remove_core = SCB }
-600.1.1 = { owner = SAX controller = SAX add_core = SAX }
-620.1.1 = { religion = chalcedonism }
-804.1.1 = { owner = FRK controller = FRK add_core = FRK }
-840.6.21 = { owner = FRE controller = FRE add_core = FRE remove_core = FRK }
-867.1.1 = { religion = catholic }
-911.11.10 = { owner = SAX controller = SAX remove_core = FRE }
-962.2.2 = { hre = yes }
-1140.1.1 = { owner = LPP controller = LPP add_core = LPP remove_core = SAX }
-1346.1.1 = { owner = BRG controller = BRG add_core = BRG }
+1444.11.11 = {
+owner = AGR controller = AGR add_core = AGR remove_core = SCB
+owner = SAX controller = SAX add_core = SAX
+religion = chalcedonism
+owner = FRK controller = FRK add_core = FRK
+owner = FRE controller = FRE add_core = FRE remove_core = FRK
+religion = catholic
+owner = SAX controller = SAX remove_core = FRE
+hre = yes
+owner = LPP controller = LPP add_core = LPP remove_core = SAX
+owner = BRG controller = BRG add_core = BRG
+}
 
-1511.9.6 = { owner = KLE controller = KLE add_core = KLE } # John III of Cleves inherits Berg through his marriage to Maria of Jülich-Berg
+
+
+
+
+
+
+
+
+
+
+1511.9.6 = { owner = KLE controller = KLE add_core = KLE } # John III of Cleves inherits Berg through his marriage to Maria of Jï¿½lich-Berg
 1610.1.1 = { owner = BRA controller = BRA add_core = BRA }
 1701.1.18 = {
 	owner = PRU

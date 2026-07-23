@@ -15,14 +15,16 @@ native_size = 70
 native_ferocity = 2
 native_hostileness = 9
 
-900.1.1 = {
-	add_core = TDO
+1444.11.11 = {
+add_core = TDO
 	owner = TDO
 	controller = TDO
 	is_city = yes
 	trade_goods = gems
+religion = mahayana
 }
-1200.1.1 = { religion = mahayana }
+
+
 
 1500.1.1 = {
 	owner = BEI

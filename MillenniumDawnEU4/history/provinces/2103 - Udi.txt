@@ -16,7 +16,10 @@ native_size = 10
 native_ferocity = 1
 native_hostileness = 3
 
-1206.1.1 = { owner = SOL controller = SOL add_core = SOL is_city = yes trade_goods = fur }
+1444.11.11 = {
+owner = SOL controller = SOL add_core = SOL is_city = yes trade_goods = fur
+}
+
 
 1643.1.1 = { discovered_by = RUS } # Vasily Poyarkov
 1653.1.1 = {

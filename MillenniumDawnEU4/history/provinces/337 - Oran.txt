@@ -20,31 +20,58 @@ base_manpower = 1
 is_city = yes
 add_core = MRN
 
-40.1.1 = { owner = ROM controller = ROM add_core = ROM }
-360.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-429.1.1 = { owner = VAN controller = VAN add_core = VAN remove_core = ROW }
-460.1.1 = { owner = ATV controller = ATV add_core = ATV remove_core = VAN }
-708.1.1 = { owner = UMA controller = UMA add_core = UMA capital = "Oran" }
-725.1.1 = { religion = sunni }
-739.1.1 = { religion = ibadi } #Many Berbers become Kharijite
-740.1.1 = { revolt = { type = nationalist_rebels size = 2 } controller = REB } #Great Berber revolt
-743.1.1 = { owner = TLC controller = TLC add_core = TLC remove_core = UMA revolt = {} } #Caliphate loses control of the region
-777.1.1 = { owner = MZB controller = MZB add_core = MZB remove_core = TLC religion = ibadi }
-790.1.1 = { culture = algerian }
-909.1.1 = { owner = FAT controller = FAT add_core = FAT remove_core = MZB }
-920.1.1 = { religion = shiite }
-973.1.1 = { owner = TUN controller = TUN add_core = TUN remove_core = FAT }
-1000.1.1 = { base_tax = 3 base_production = 3 }
-1018.1.1 = { owner = KBA controller = KBA add_core = KBA remove_core = TUN }
-1060.1.1 = { religion = sunni }
-1070.1.1 = { owner = MOR controller = MOR add_core = MOR remove_core = ALG }
-1147.1.1 = { owner = MOR controller = MOR add_core = MOR remove_core = MOR }
-1235.1.1 = { owner = TLC controller = TLC add_core = TLC remove_core = MOR }
-1337.1.1 = { owner = MOR controller = MOR }
-1348.1.1 = { owner = TLC controller = TLC }
-1352.1.1 = { owner = MOR controller = MOR }
-1359.1.1 = { owner = TLC controller = TLC }
+1444.11.11 = {
+owner = ROM controller = ROM add_core = ROM
+religion = chalcedonism
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+owner = VAN controller = VAN add_core = VAN remove_core = ROW
+owner = ATV controller = ATV add_core = ATV remove_core = VAN
+owner = UMA controller = UMA add_core = UMA capital = "Oran"
+religion = sunni
+religion = ibadi
+revolt = { type = nationalist_rebels size = 2 } controller = REB
+owner = TLC controller = TLC add_core = TLC remove_core = UMA revolt = {}
+owner = MZB controller = MZB add_core = MZB remove_core = TLC religion = ibadi
+culture = algerian
+owner = FAT controller = FAT add_core = FAT remove_core = MZB
+religion = shiite
+owner = TUN controller = TUN add_core = TUN remove_core = FAT
+base_tax = 3 base_production = 3
+owner = KBA controller = KBA add_core = KBA remove_core = TUN
+religion = sunni
+owner = MOR controller = MOR add_core = MOR remove_core = ALG
+owner = MOR controller = MOR add_core = MOR remove_core = MOR
+owner = TLC controller = TLC add_core = TLC remove_core = MOR
+owner = MOR controller = MOR
+owner = TLC controller = TLC
+owner = MOR controller = MOR
+owner = TLC controller = TLC
+}
+
+
+ # Final division of the empire
+
+
+
+
+ #Many Berbers become Kharijite
+ #Great Berber revolt
+ #Caliphate loses control of the region
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1509.5.17 = {
 	owner = CAS

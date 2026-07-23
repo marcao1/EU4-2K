@@ -20,21 +20,38 @@ base_manpower = 1
 is_city = yes
 add_core = ROM
 
-320.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-432.1.1 = { owner = VAN controller = VAN add_core = VAN remove_core = ROW religion = arianism }
-534.3.1 = { owner = BYZ controller = BYZ add_core = BYZ remove_core = VAN }
-560.1.1 = { religion = chalcedonism }
-697.1.1 = { owner = UMA controller = UMA add_core = UMA remove_core = BYZ capital = "Annaba" }
-740.1.1 = { religion = sunni }
-745.1.1 = { owner = TUN controller = TUN add_core = TUN remove_core = UMA }
-757.6.1 = { owner = ABA controller = ABA add_core = ABA }
-800.1.1 = { owner = TUN controller = TUN add_core = TUN remove_core = ABA }
-909.1.1 = { owner = FAT controller = FAT add_core = FAT remove_core = TUN }
-973.1.1 = { owner = TUN controller = TUN add_core = TUN remove_core = FAT }
-1018.1.1 = { owner = KBA controller = KBA add_core = KBA remove_core = TUN }
-1152.1.1 = { owner = MOR controller = MOR add_core = MOR remove_core = KBA }
-1229.1.1 = { owner = TUN controller = TUN add_core = TUN remove_core = MOR }
+1444.11.11 = {
+religion = chalcedonism
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+owner = VAN controller = VAN add_core = VAN remove_core = ROW religion = arianism
+owner = BYZ controller = BYZ add_core = BYZ remove_core = VAN
+religion = chalcedonism
+owner = UMA controller = UMA add_core = UMA remove_core = BYZ capital = "Annaba"
+religion = sunni
+owner = TUN controller = TUN add_core = TUN remove_core = UMA
+owner = ABA controller = ABA add_core = ABA
+owner = TUN controller = TUN add_core = TUN remove_core = ABA
+owner = FAT controller = FAT add_core = FAT remove_core = TUN
+owner = TUN controller = TUN add_core = TUN remove_core = FAT
+owner = KBA controller = KBA add_core = KBA remove_core = TUN
+owner = MOR controller = MOR add_core = MOR remove_core = KBA
+owner = TUN controller = TUN add_core = TUN remove_core = MOR
+}
+
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1522.1.1 = {
 	owner = ALG

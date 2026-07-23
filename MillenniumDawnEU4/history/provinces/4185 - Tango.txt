@@ -16,15 +16,26 @@ base_manpower = 2
 is_city = yes
 add_core = IZU
 
-530.1.1 = { owner = YAM controller = YAM add_core = YAM remove_core = IZU }
-580.1.1 = { religion = mahayana }
-712.1.1 = { religion = shinto }
-794.1.1 = { owner = JAP controller = JAP add_core = JAP remove_core = YAM }
-1160.2.5 = { owner = TIA controller = TIA add_core = TIA remove_core = JAP } #Heiji Rebellion
-1185.6.19 = { owner = JAP controller = JAP remove_core = TIA } #Genpei War, Taira defeated
-1221.5.14 = { owner = HJO controller = HJO add_core = HJO remove_core = JAP } #Jokyu War
-1333.5.18 = { owner = YMN controller = YMN add_core = YMN remove_core = HJO } #Kenmu restoration
-1392.1.1 = { owner = ISK controller = ISK add_core = ISK remove_core = YMN } #Meitoku rebellion
+1444.11.11 = {
+owner = YAM controller = YAM add_core = YAM remove_core = IZU
+religion = mahayana
+religion = shinto
+owner = JAP controller = JAP add_core = JAP remove_core = YAM
+owner = TIA controller = TIA add_core = TIA remove_core = JAP
+owner = JAP controller = JAP remove_core = TIA
+owner = HJO controller = HJO add_core = HJO remove_core = JAP
+owner = YMN controller = YMN add_core = YMN remove_core = HJO
+owner = ISK controller = ISK add_core = ISK remove_core = YMN
+}
+
+
+
+
+ #Heiji Rebellion
+ #Genpei War, Taira defeated
+ #Jokyu War
+ #Kenmu restoration
+ #Meitoku rebellion
 
 1545.1.1 = { discovered_by = POR }
 1569.1.1 = { add_core = ODA }

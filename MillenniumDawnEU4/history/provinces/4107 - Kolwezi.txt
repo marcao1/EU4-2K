@@ -13,7 +13,10 @@ native_ferocity = 4.5
 native_hostileness = 9 
 discovered_by = central_african
 
-1350.1.1 = { owner = KIK controller = KIK add_core = KIK is_city = yes trade_goods = copper }
+1444.11.11 = {
+owner = KIK controller = KIK add_core = KIK is_city = yes trade_goods = copper
+}
+
 
 1700.1.1 = { owner = LND controller = LND add_core = LND }
 

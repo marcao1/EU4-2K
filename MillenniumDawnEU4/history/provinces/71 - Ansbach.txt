@@ -20,19 +20,34 @@ discovered_by = western
 discovered_by = roman_group
 discovered_by = eastern
 
-400.1.1 = { owner = ALM controller = ALM add_core = ALM remove_core = VAR }
-600.1.1 = { religion = chalcedonism }
-746.1.1 = { owner = FRK controller = FRK add_core = FRK }
-800.1.1 = { base_tax = 2 base_production = 2 }
-840.6.21 = { owner = FRE controller = FRE add_core = FRE remove_core = FRK }
-867.1.1 = { religion = catholic }
-911.11.10 = { owner = SWA controller = SWA add_core = SWA remove_core = FRE remove_core = ALM }
-962.2.2 = { hre = yes }
-1000.1.1 = { base_tax = 3 base_production = 3 }
-1147.1.1 = { owner = OET controller = OET add_core = OET remove_core = SWA }
-1200.1.1 = { base_manpower = 2 }
-1331.1.1 = { owner = NUM controller = NUM add_core = NUM }
-1398.1.1 = { owner = ANS controller = ANS add_core = ANS remove_core = NUM remove_core = OET }
+1444.11.11 = {
+owner = ALM controller = ALM add_core = ALM remove_core = VAR
+religion = chalcedonism
+owner = FRK controller = FRK add_core = FRK
+base_tax = 2 base_production = 2
+owner = FRE controller = FRE add_core = FRE remove_core = FRK
+religion = catholic
+owner = SWA controller = SWA add_core = SWA remove_core = FRE remove_core = ALM
+hre = yes
+base_tax = 3 base_production = 3
+owner = OET controller = OET add_core = OET remove_core = SWA
+base_manpower = 2
+owner = NUM controller = NUM add_core = NUM
+owner = ANS controller = ANS add_core = ANS remove_core = NUM remove_core = OET
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1522.1.1   = { religion = protestant }
 1525.1.1   = { unrest = 6 }
@@ -48,7 +63,7 @@ discovered_by = eastern
 		controller = FRA
 		add_core = FRA
 		remove_core = PRU
-	     } # Treaty of Schönbrunn
+	     } # Treaty of Schï¿½nbrunn
 1806.1.1   = {	owner = BAV
 		controller = BAV
 		add_core = BAV

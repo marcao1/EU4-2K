@@ -20,10 +20,16 @@ base_manpower = 2
 is_city = yes
 add_core = ROM
 
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-430.1.1 = { religion = chalcedonism }
-867.1.1 = { religion = orthodox }
-1205.1.1 = { owner = VEN controller = VEN add_core = VEN capital = "Negroponte" }
+1444.11.11 = {
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+religion = chalcedonism
+religion = orthodox
+owner = VEN controller = VEN add_core = VEN capital = "Negroponte"
+}
+ # Final division of the empire
+
+
+
 
 1470.7.1 = {
 	owner = TUR

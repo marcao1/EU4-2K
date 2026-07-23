@@ -20,29 +20,52 @@ base_manpower = 1
 is_city = yes
 add_core = ROM
 
-320.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-429.1.1 = { owner = VAN controller = VAN add_core = VAN remove_core = ROW }
-534.3.1 = { owner = BYZ controller = BYZ add_core = BYZ remove_core = VAN }
-710.1.1 = { owner = UMA controller = UMA add_core = UMA remove_core = BYZ capital = "Cebta" }
-715.1.1 = { religion = sunni }
-740.1.1 = { revolt = { type = nationalist_rebels size = 2 } controller = REB } #Great Berber revolt
-743.1.1 = { owner = NEK controller = NEK add_core = NEK remove_core = UMA revolt = {} } #Caliphate loses control of the region
-789.1.1 = { owner = MOR controller = MOR add_core = MOR remove_core = NEK }
-790.1.1 = { culture = moroccan }
-800.1.1 = { base_tax = 3 base_production = 3 }
-922.1.1 = { owner = FAT controller = FAT }
-925.1.1 = { owner = MOR controller = MOR }
-927.1.1 = { owner = FAT controller = FAT }
-937.1.1 = { owner = MOR controller = MOR }
-974.1.1 = { owner = CRD controller = CRD add_core = CRD remove_core = MOR }
-1026.1.1 = { owner = MGA controller = MGA add_core = MGA remove_core = CRD }
-1061.1.1 = { owner = BGW controller = BGW add_core = BGW remove_core = MGA }
-1078.1.1 = { owner = MOR controller = MOR add_core = MOR remove_core = BGW }
-1300.1.1 = { fort_15th = yes }
+1444.11.11 = {
+religion = chalcedonism
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+owner = VAN controller = VAN add_core = VAN remove_core = ROW
+owner = BYZ controller = BYZ add_core = BYZ remove_core = VAN
+owner = UMA controller = UMA add_core = UMA remove_core = BYZ capital = "Cebta"
+religion = sunni
+revolt = { type = nationalist_rebels size = 2 } controller = REB
+owner = NEK controller = NEK add_core = NEK remove_core = UMA revolt = {}
+owner = MOR controller = MOR add_core = MOR remove_core = NEK
+culture = moroccan
+base_tax = 3 base_production = 3
+owner = FAT controller = FAT
+owner = MOR controller = MOR
+owner = FAT controller = FAT
+owner = MOR controller = MOR
+owner = CRD controller = CRD add_core = CRD remove_core = MOR
+owner = MGA controller = MGA add_core = MGA remove_core = CRD
+owner = BGW controller = BGW add_core = BGW remove_core = MGA
+owner = MOR controller = MOR add_core = MOR remove_core = BGW
+fort_15th = yes
+controller = POR add_core = POR
+owner = POR capital = "Ceuta"
+}
 
-1415.8.21   = { controller = POR add_core = POR }
-1415.9.1 = { owner = POR capital = "Ceuta" }
+ # Final division of the empire
+
+
+
+
+ #Great Berber revolt
+ #Caliphate loses control of the region
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 1500.1.1   = { religion = catholic }
 1640.1.1   = {	
 	owner = SPA

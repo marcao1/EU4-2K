@@ -19,16 +19,28 @@ is_city = yes
 add_core = XIO
 add_core = XIB
 
-46.1.1 = { owner = XIB controller = XIB remove_core = XIO }
-207.1.1 = { owner = KMX controller = KMX add_core = KMX remove_core = XIB }
-847.1.1 = { owner = KHT controller = KHT add_core = KHT remove_core = KMX }
-907.1.1 = { owner = LIO controller = LIO add_core = LIO remove_core = KHT }
-1115.1.1 = { owner = CJN controller = CJN add_core = CJN remove_core = LIO }
-1214.1.1 = { owner = KHA controller = KHA add_core = KHA remove_core = CJN }
-1220.1.1 = { culture = chahar }
-1265.1.1 = { religion = vajrayana }
-1271.1.1 = { owner = YUA controller = YUA add_core = YUA remove_core = KHA }
-1368.1.23 = { owner = KRC controller = KRC add_core = KRC remove_core = YUA }
+1444.11.11 = {
+owner = XIB controller = XIB remove_core = XIO
+owner = KMX controller = KMX add_core = KMX remove_core = XIB
+owner = KHT controller = KHT add_core = KHT remove_core = KMX
+owner = LIO controller = LIO add_core = LIO remove_core = KHT
+owner = CJN controller = CJN add_core = CJN remove_core = LIO
+owner = KHA controller = KHA add_core = KHA remove_core = CJN
+culture = chahar
+religion = vajrayana
+owner = YUA controller = YUA add_core = YUA remove_core = KHA
+owner = KRC controller = KRC add_core = KRC remove_core = YUA
+}
+
+
+
+
+
+
+
+
+
+
 
 1552.1.1 = {
 	owner = KHA

@@ -23,14 +23,24 @@ is_city = yes
 add_core = ROM
 center_of_trade = 2
 
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-440.1.1 = { religion = chalcedonism }
-867.1.1 = { religion = orthodox }
-1200.1.1 = { fort_15th = yes }
-1204.1.1 = { owner = TRE controller = TRE add_core = TRE }
-1214.1.1 = { owner = RUM controller = RUM add_core = RUM capital = "Sinope" }
-1260.1.1 = { remove_core = BYZ }
-1261.1.1 = { owner = CND controller = CND add_core = CND remove_core = RUM }
+1444.11.11 = {
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+religion = chalcedonism
+religion = orthodox
+fort_15th = yes
+owner = TRE controller = TRE add_core = TRE
+owner = RUM controller = RUM add_core = RUM capital = "Sinope"
+remove_core = BYZ
+owner = CND controller = CND add_core = CND remove_core = RUM
+}
+ # Final division of the empire
+
+
+
+
+
+
+
 1450.1.1  = { religion = sunni }
 
 1458.1.1 = {

@@ -14,7 +14,10 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-830.1.1 = { owner = CHT controller = CHT add_core = CHT remove_core = COP }
+1444.11.11 = {
+owner = CHT controller = CHT add_core = CHT remove_core = COP
+}
+
 
 1522.5.31  = { discovered_by = SPA } # Andres Nino 
 1525.1.1   = {	owner = SPA

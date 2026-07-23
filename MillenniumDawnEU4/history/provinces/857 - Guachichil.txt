@@ -14,10 +14,14 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-567.1.1 = { owner = TLT controller = TLT add_core = TLT } # Treaty between Toltecs and Chichimeca
-1122.1.1 = { owner = CCM controller = CCM add_core = CCM remove_core = TLT }
+1444.11.11 = {
+owner = TLT controller = TLT add_core = TLT
+owner = CCM controller = CCM add_core = CCM remove_core = TLT
+}
+ # Treaty between Toltecs and Chichimeca
 
-1530.1.1  = { discovered_by = SPA } # Pedro Alm’ndez Chirinos 
+
+1530.1.1  = { discovered_by = SPA } # Pedro Almï¿½ndez Chirinos 
 1583.1.1 = {
 	owner = SPA
 	controller = SPA

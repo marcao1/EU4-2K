@@ -14,8 +14,8 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-1370.1.1 = { 	
-	owner = ---
+1444.11.11 = {
+owner = ---
 	controller = ---
 	remove_core = MOG
 	is_city = no
@@ -27,7 +27,8 @@ base_manpower = 1
 	tribal_owner = APA
 }
 
-1541.1.1  = { discovered_by = SPA } # Francisco Vásquez de Coronado
+
+1541.1.1  = { discovered_by = SPA } # Francisco Vï¿½squez de Coronado
 1598.1.1 = {
 	owner = SPA
 	controller = SPA

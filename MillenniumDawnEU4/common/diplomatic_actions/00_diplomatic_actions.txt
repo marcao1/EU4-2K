@@ -233,16 +233,6 @@ declarewar = {
                 country_event = { id = flavor_ita.7 }
             }
         }
-		if = {
-			limit = {
-				OR = {
-					has_casus_belli = { type = cb_spread_communism target = FROM }
-					has_casus_belli = { type = cb_spread_fascism target = FROM }
-					has_casus_belli = { type = cb_spread_democracy target = FROM }
-				}
-			}
-			set_country_flag = forcing_government
-		}
 	}
 }
 

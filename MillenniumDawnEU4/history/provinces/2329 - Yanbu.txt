@@ -28,21 +28,38 @@ is_city = yes
 add_core = NAB
 add_core = LIH
 
-106.1.1 = { owner = LIH controller = LIH add_core = LIH remove_core = NAB }
-220.1.1 = { owner = BNA controller = BNA add_core = BNA capital = "Yanbu" religion = jewish }
-622.1.1 = { owner = RSD controller = RSD add_core = RSD remove_core = BNA religion = islam }
-661.7.28 = { owner = UMA controller = UMA add_core = UMA remove_core = RSD religion = sunni }
-700.1.1 = { trade_goods = cloth }
-750.8.6 = { owner = ABA controller = ABA add_core = ABA remove_core = UMA }
-800.1.1 = { discovered_by = western }
-868.9.15 = { owner = EGY controller = EGY add_core = EGY remove_core = ABA }
-905.1.10 = { owner = ABA controller = ABA add_core = ABA }
-935.8.26 = { owner = EGY controller = EGY add_core = EGY remove_core = ABA }
-970.3.1  = { owner = FAT controller = FAT add_core = FAT remove_core = EGY }
-1171.1.1 = { owner = EGY controller = EGY add_core = EGY remove_core = FAT }
-1200.1.1 = { fort_15th = yes }
-1230.1.1 = { owner = HED controller = HED add_core = HED remove_core = EGY }
-1427.10.1 = { owner = MDA controller = MDA add_core = MDA remove_core = HED }
+1444.11.11 = {
+owner = LIH controller = LIH add_core = LIH remove_core = NAB
+owner = BNA controller = BNA add_core = BNA capital = "Yanbu" religion = jewish
+owner = RSD controller = RSD add_core = RSD remove_core = BNA religion = islam
+owner = UMA controller = UMA add_core = UMA remove_core = RSD religion = sunni
+trade_goods = cloth
+owner = ABA controller = ABA add_core = ABA remove_core = UMA
+discovered_by = western
+owner = EGY controller = EGY add_core = EGY remove_core = ABA
+owner = ABA controller = ABA add_core = ABA
+owner = EGY controller = EGY add_core = EGY remove_core = ABA
+owner = FAT controller = FAT add_core = FAT remove_core = EGY
+owner = EGY controller = EGY add_core = EGY remove_core = FAT
+fort_15th = yes
+owner = HED controller = HED add_core = HED remove_core = EGY
+owner = MDA controller = MDA add_core = MDA remove_core = HED
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1482.6.1 = { #Mamluks place all Hejaz under Mecca
 	owner = HED

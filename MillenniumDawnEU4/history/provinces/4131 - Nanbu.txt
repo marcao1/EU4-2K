@@ -16,15 +16,26 @@ discovered_by = chinese
 discovered_by = asian
 discovered_by = early_chinese
 
-650.1.1 = { owner = EMI controller = EMI add_core = EMI remove_core = ANU culture = emishi }
-802.1.1 = { owner = JAP controller = JAP add_core = JAP remove_core = EMI }
-820.1.1 = { religion = shinto }
-940.1.1 = { owner = AB0 controller = AB0 add_core = AB0 remove_core = JAP } #Abe clan
-1050.1.1 = { culture = japanese }
-1062.10.22 = { owner = KIY controller = KIY add_core = KIY } #Zenkunen War
-1087.12.11 = { owner = FUJ controller = FUJ add_core = FUJ remove_core = KIY } #Gosannen War
-1189.8.22 = { owner = KMK controller = KMK add_core = KMK } #Conquered by Minamoto clan
-1192.7.12 = { owner = RFR controller = RFR add_core = RFR remove_core = KMK } #Nanbu clan
+1444.11.11 = {
+owner = EMI controller = EMI add_core = EMI remove_core = ANU culture = emishi
+owner = JAP controller = JAP add_core = JAP remove_core = EMI
+religion = shinto
+owner = AB0 controller = AB0 add_core = AB0 remove_core = JAP
+culture = japanese
+owner = KIY controller = KIY add_core = KIY
+owner = FUJ controller = FUJ add_core = FUJ remove_core = KIY
+owner = KMK controller = KMK add_core = KMK
+owner = RFR controller = RFR add_core = RFR remove_core = KMK
+}
+
+
+
+ #Abe clan
+
+ #Zenkunen War
+ #Gosannen War
+ #Conquered by Minamoto clan
+ #Nanbu clan
 
 1542.1.1 = { discovered_by = POR }
 1576.1.1 = { capital = "Morioka" }

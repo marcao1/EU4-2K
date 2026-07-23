@@ -24,17 +24,30 @@ base_manpower = 1
 is_city = yes
 add_core = STV
 
-220.1.1 = { owner = ABH controller = ABH add_core = ABH remove_core = STV }
-250.1.1 = { owner = VAK controller = VAK add_core = VAK remove_core = ABH }
-500.1.1 = { owner = KLC controller = KLC add_core = KLC remove_core = VAK }
-620.1.1 = { owner = CLY controller = CLY add_core = CLY remove_core = KLC }
-753.1.1 = { owner = RSH controller = RSH add_core = RSH remove_core = CLY }
-973.1.1 = { owner = CLY controller = CLY add_core = CLY remove_core = RSH }
-1100.1.1 = { base_tax = 3 base_production = 3 }
-1189.1.1 = { owner = YAD controller = YAD add_core = YAD remove_core = CLY }
-1250.1.1 = { religion = hinduism }
-1317.1.1 = { owner = DLH controller = DLH add_core = DLH add_core = KHD remove_core = YAD }
-1388.1.1 = { owner = KHD controller = KHD remove_core = DLH }
+1444.11.11 = {
+owner = ABH controller = ABH add_core = ABH remove_core = STV
+owner = VAK controller = VAK add_core = VAK remove_core = ABH
+owner = KLC controller = KLC add_core = KLC remove_core = VAK
+owner = CLY controller = CLY add_core = CLY remove_core = KLC
+owner = RSH controller = RSH add_core = RSH remove_core = CLY
+owner = CLY controller = CLY add_core = CLY remove_core = RSH
+base_tax = 3 base_production = 3
+owner = YAD controller = YAD add_core = YAD remove_core = CLY
+religion = hinduism
+owner = DLH controller = DLH add_core = DLH add_core = KHD remove_core = YAD
+owner = KHD controller = KHD remove_core = DLH
+}
+
+
+
+
+
+
+
+
+
+
+
 
 1498.1.1 = { discovered_by = POR }
 1508.1.1 = { owner = GUJ controller = GUJ } # Conquered by the Ahmad Shahis

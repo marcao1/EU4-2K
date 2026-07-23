@@ -13,14 +13,15 @@ native_size = 5
 native_ferocity = 1
 native_hostileness = 4
 
-900.1.1 = {
-	owner = TSC
+1444.11.11 = {
+owner = TSC
 	controller = TSC
 	add_core = TSC
 	is_city = yes
 	culture = iroquois
 	trade_goods = tobacco
 }
+
 
 1607.1.1  = { discovered_by = ENG } # John Smith
 1707.5.12 = { discovered_by = GBR } 

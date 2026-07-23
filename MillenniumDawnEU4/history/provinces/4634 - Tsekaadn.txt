@@ -2,7 +2,7 @@
 
 culture = piman
 religion = totemism
-capital = "Tsékaadn"
+capital = "Tsï¿½kaadn"
 trade_goods = unknown 
 hre = no 
 discovered_by = north_american
@@ -11,9 +11,12 @@ base_production = 1
 base_manpower = 1
 tribal_owner = HOH
 
-1350.1.1 = { culture = apache tribal_owner = APA }
+1444.11.11 = {
+culture = apache tribal_owner = APA
+}
 
-1541.1.1  = { discovered_by = SPA } # Francisco Vásquez de Coronado
+
+1541.1.1  = { discovered_by = SPA } # Francisco Vï¿½squez de Coronado
 
 1860.1.1   = { 	
 	owner = USA 

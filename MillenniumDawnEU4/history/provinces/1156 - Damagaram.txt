@@ -10,18 +10,24 @@ base_manpower = 1
 base_tax = 1
 base_production = 1
 
-1200.1.1 = { religion = sunni }
-1230.1.1 = { owner = KBO controller = KBO add_core = KBO is_city = yes trade_goods = livestock }
-1350.1.1 = { owner = TDD controller = TDD add_core = TDD remove_core = KBO }
-1404.1.1 = { owner = AIR controller = AIR add_core = AIR remove_core = TDD }
+1444.11.11 = {
+religion = sunni
+owner = KBO controller = KBO add_core = KBO is_city = yes trade_goods = livestock
+owner = TDD controller = TDD add_core = TDD remove_core = KBO
+owner = AIR controller = AIR add_core = AIR remove_core = TDD
+add_core = KBO
+}
 
-1444.1.1 = { add_core = KBO }
+
+
+
+
 1590.1.1 = { owner = KBO controller = KBO add_core = KBO }
 1760.1.1 = { unrest = 7 } #Tuareg raids in wake of fall of Agades
 1804.1.1 = { discovered_by = SOK }
 
 1890.1.1   = { discovered_by = FR2 }
-1900.4.22  = { owner = FR2 controller = FR2 add_core = FR2 remove_core = KBO capital = "Tesker" } # Battle of Kousséri
+1900.4.22  = { owner = FR2 controller = FR2 add_core = FR2 remove_core = KBO capital = "Tesker" } # Battle of Koussï¿½ri
 1910.1.1   = { discovered_by = western }
 1940.1.1   = {  discovered_by = eastern
 		discovered_by = muslim

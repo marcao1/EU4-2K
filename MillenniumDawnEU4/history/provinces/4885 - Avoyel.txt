@@ -13,15 +13,17 @@ native_size = 20
 native_ferocity = 3
 native_hostileness = 9
 
-1200.1.1  = { owner = PLA controller = PLA add_core = PLA is_city = yes trade_goods = cotton }
-1420.1.1  = {	
-	owner = ---
+1444.11.11 = {
+owner = PLA controller = PLA add_core = PLA is_city = yes trade_goods = cotton
+owner = ---
 	controller = ---
 	remove_core = PLA
 	is_city = no
 	trade_goods = unknown
 	tribal_owner = NTC
 }
+
+
 
 1541.1.1  = { discovered_by = SPA } # Hernando de Soto
 1670.1.1  = { discovered_by = FRA } # Robert Cavelier de La Salle

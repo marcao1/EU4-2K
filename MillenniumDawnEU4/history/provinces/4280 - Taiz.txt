@@ -20,18 +20,32 @@ base_manpower = 2
 is_city = yes
 add_core = HIM
 
-525.1.1 = { owner = AKS controller = AKS add_core = AKS remove_core = HIM }
-560.1.1 = { owner = YEM controller = YEM add_core = YEM remove_core = AKS }
-628.1.1 = { owner = RSD controller = RSD add_core = RSD religion = islam }
-661.7.28 = { owner = UMA controller = UMA add_core = UMA remove_core = RSD religion = sunni }
-750.8.6 = { owner = ABA controller = ABA add_core = ABA remove_core = UMA }
-800.1.1 = { discovered_by = nomad_group }
-866.1.1 = { owner = YEM controller = YEM add_core = YEM remove_core = ABA }
-900.1.1 = { base_tax = 3 base_production = 3 }
-1100.1.1 = { base_tax = 4 base_production = 4 }
-1120.1.1 = { fort_15th = yes }
-1174.1.1 = { owner = EGY controller = EGY add_core = EGY }
-1229.1.1 = { owner = YEM controller = YEM add_core = YEM remove_core = EGY }
+1444.11.11 = {
+owner = AKS controller = AKS add_core = AKS remove_core = HIM
+owner = YEM controller = YEM add_core = YEM remove_core = AKS
+owner = RSD controller = RSD add_core = RSD religion = islam
+owner = UMA controller = UMA add_core = UMA remove_core = RSD religion = sunni
+owner = ABA controller = ABA add_core = ABA remove_core = UMA
+discovered_by = nomad_group
+owner = YEM controller = YEM add_core = YEM remove_core = ABA
+base_tax = 3 base_production = 3
+base_tax = 4 base_production = 4
+fort_15th = yes
+owner = EGY controller = EGY add_core = EGY
+owner = YEM controller = YEM add_core = YEM remove_core = EGY
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 #1454.1.1 - End of the Rasulids
 1454.1.1 = {

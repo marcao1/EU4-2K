@@ -22,17 +22,30 @@ is_city = yes
 add_core = PUZ
 center_of_trade = 2
 
-250.1.1 = { owner = VAK controller = VAK add_core = VAK remove_core = PUZ }
-480.1.1 = { owner = KAD controller = KAD add_core = KAD remove_core = VAK }
-543.1.1 = { owner = CLY controller = CLY add_core = CLY remove_core = KAD }
-753.1.1 = { owner = RSH controller = RSH add_core = RSH remove_core = CLY }
-800.1.1 = { discovered_by = nomad_group }
-960.1.1 = { owner = KAD controller = KAD add_core = KAD remove_core = RSH }
-1000.1.1 = { base_tax = 3 base_production = 3 }
-1200.1.1 = { base_tax = 4 base_production = 4 }
-1310.1.1 = { owner = DLH controller = DLH add_core = DLH remove_core = KAD capital = "Goa" }
-1320.1.1 = { religion = hinduism }
-1336.1.1 = { owner = VIJ controller = VIJ add_core = VIJ remove_core = DLH }
+1444.11.11 = {
+owner = VAK controller = VAK add_core = VAK remove_core = PUZ
+owner = KAD controller = KAD add_core = KAD remove_core = VAK
+owner = CLY controller = CLY add_core = CLY remove_core = KAD
+owner = RSH controller = RSH add_core = RSH remove_core = CLY
+discovered_by = nomad_group
+owner = KAD controller = KAD add_core = KAD remove_core = RSH
+base_tax = 3 base_production = 3
+base_tax = 4 base_production = 4
+owner = DLH controller = DLH add_core = DLH remove_core = KAD capital = "Goa"
+religion = hinduism
+owner = VIJ controller = VIJ add_core = VIJ remove_core = DLH
+}
+
+
+
+
+
+
+
+
+
+
+
 
 1469.1.1 = { controller = BAH } # Conquered by the Bahmani sultans
 1470.1.1 = { owner = BAH }

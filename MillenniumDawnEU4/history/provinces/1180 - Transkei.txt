@@ -12,7 +12,10 @@ native_size = 70
 native_ferocity = 4
 native_hostileness = 9 
 
-400.1.1 = { culture = nguni }
+1444.11.11 = {
+culture = nguni
+}
+
 1497.12.17 = { discovered_by = POR } #Vasco Da Gama
 1700.1.1   = { discovered_by = ZUL discovered_by = SWZ discovered_by = LES discovered_by = XHO }
 1727.1.1   = { owner = XHO controller = XHO add_core = XHO trade_goods = grain is_city = yes }

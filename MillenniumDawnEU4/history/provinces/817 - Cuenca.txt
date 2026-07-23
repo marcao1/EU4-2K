@@ -14,12 +14,14 @@ native_size = 20
 native_ferocity = 1 
 native_hostileness = 1
 
-980.1.1 = {	owner = QTO
+1444.11.11 = {
+owner = QTO
 		controller = QTO
 		add_core = QTO
 		trade_goods = wool
 		is_city = yes
-	  }
+}
+
 
 1487.1.1  = {
 	owner = INC

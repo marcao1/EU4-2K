@@ -23,24 +23,44 @@ base_manpower = 1
 is_city = yes
 add_core = DAC
 
-106.1.1 = { owner = ROM controller = ROM add_core = ROM capital = "Romula" }
-160.1.1 = { remove_core = DAC }
-271.1.1 = { owner = GVI controller = GVI add_core = GVI remove_core = ROM culture = gothic }
-290.1.1 = { religion = germanic }
-376.1.1 = { owner = HNS controller = HNS add_core = HNS remove_core = GVI }
-400.1.1 = { religion = tengri_pagan_reformed }
-469.1.1 = { owner = GEP controller = GEP add_core = GEP remove_core = HNS }
-567.1.1 = { owner = AVR controller = AVR add_core = AVR remove_core = GEP }
-600.1.1 = { base_tax = 2 base_production = 2 }
-681.1.1 = { owner = BUL controller = BUL add_core = BUL remove_core = AVR capital = "Craiova" culture = romanian }
-800.1.1 = { base_manpower = 2 }
-867.1.1 = { religion = orthodox }
-1000.1.1 = { base_tax = 3 base_production = 3 }
-1003.1.1 = { owner = HUN controller = HUN add_core = HUN remove_core = BUL }
-1015.1.1 = { owner = PEC controller = PEC add_core = PEC remove_core = HUN }
-1094.1.1 = { owner = CUM controller = CUM add_core = CUM remove_core = PEC }
-1185.1.1 = { owner = BUL controller = BUL add_core = BUL remove_core = CUM }
-1330.1.1 = { owner = WAL controller = WAL add_core = WAL remove_core = BUL }
+1444.11.11 = {
+owner = ROM controller = ROM add_core = ROM capital = "Romula"
+remove_core = DAC
+owner = GVI controller = GVI add_core = GVI remove_core = ROM culture = gothic
+religion = germanic
+owner = HNS controller = HNS add_core = HNS remove_core = GVI
+religion = tengri_pagan_reformed
+owner = GEP controller = GEP add_core = GEP remove_core = HNS
+owner = AVR controller = AVR add_core = AVR remove_core = GEP
+base_tax = 2 base_production = 2
+owner = BUL controller = BUL add_core = BUL remove_core = AVR capital = "Craiova" culture = romanian
+base_manpower = 2
+religion = orthodox
+base_tax = 3 base_production = 3
+owner = HUN controller = HUN add_core = HUN remove_core = BUL
+owner = PEC controller = PEC add_core = PEC remove_core = HUN
+owner = CUM controller = CUM add_core = CUM remove_core = PEC
+owner = BUL controller = BUL add_core = BUL remove_core = CUM
+owner = WAL controller = WAL add_core = WAL remove_core = BUL
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1650.1.1 = { revolt = { type = noble_rebels size = 2 } controller = REB } # Boyar rebellions
 1658.1.1 = { revolt = {} controller = WAL }

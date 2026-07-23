@@ -22,15 +22,26 @@ base_manpower = 2
 is_city = yes
 add_core = ROM
 
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-440.1.1 = { religion = chalcedonism }
-750.1.1 = { culture = greek }
-867.1.1 = { religion = orthodox }
-1071.8.26 = { owner = DNI controller = DNI add_core = DNI capital = "Aksaray" }
-1077.1.1 = { owner = RUM controller = RUM add_core = RUM remove_core = DNI }
-1120.1.1 = { culture = turkish religion = sunni remove_core = BYZ }
-1307.1.1 = { owner = KNY controller = KNY add_core = KNY remove_core = RUM }
-1322.1.1 = { owner = KAR controller = KAR add_core = KAR remove_core = KNY }
+1444.11.11 = {
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+religion = chalcedonism
+culture = greek
+religion = orthodox
+owner = DNI controller = DNI add_core = DNI capital = "Aksaray"
+owner = RUM controller = RUM add_core = RUM remove_core = DNI
+culture = turkish religion = sunni remove_core = BYZ
+owner = KNY controller = KNY add_core = KNY remove_core = RUM
+owner = KAR controller = KAR add_core = KAR remove_core = KNY
+}
+ # Final division of the empire
+
+
+
+
+
+
+
+
 
 1469.1.1 = { owner = TUR controller = TUR add_core = TUR } # Incorporated into the Ottoman Empire
 1481.6.1 = { revolt = { type = pretender_rebels size = 0 } controller = REB } # Civil war, Bayezid & Jem

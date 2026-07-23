@@ -24,34 +24,52 @@ base_manpower = 1
 is_city = yes
 add_core = YAU
 
-180.1.1 = { owner = KUS controller = KUS add_core = KUS }
-270.1.1 = { owner = YAU controller = YAU add_core = YAU remove_core = KUS }
-375.1.1 = { owner = GUP controller = GUP add_core = GUP remove_core = YAU }
-460.1.1 = { owner = KAP controller = KAP add_core = KAP remove_core = GUP }
-528.1.1 = { owner = MLW controller = MLW add_core = SND remove_core = GUP }
-540.1.1 = { owner = SND controller = SND }
-654.1.1 = { owner = TAA controller = TAA add_core = TAA remove_core = SND }
-711.1.1 = { owner = UMA controller = UMA add_core = UMA remove_core = SND }
-750.8.6 = { owner = ABA controller = ABA add_core = ABA remove_core = UMA }
-841.1.1 = { owner = SND controller = SND add_core = SND remove_core = ABA }
-861.1.1 = { owner = MUL controller = MUL add_core = MUL remove_core = SND }
-965.1.1 = { religion = sunni }
-1005.1.1 = { owner = GHZ controller = GHZ add_core = GHZ }
-1026.1.1 = { religion = shiite }
-1175.1.1 = { owner = GHU controller = GHU add_core = GHU remove_core = GHZ }
-1180.1.1 = { religion = sunni }
-1210.1.1 = { owner = MUL controller = MUL add_core = MUL remove_core = GHU }
-1228.1.1 = { owner = DLH controller = DLH add_core = DLH }
-1398.1.1 = { owner = MUL controller = MUL add_core = MUL remove_core = DLH }
-
-1414.1.1 = {
-	owner = DLH
+1444.11.11 = {
+owner = KUS controller = KUS add_core = KUS
+owner = YAU controller = YAU add_core = YAU remove_core = KUS
+owner = GUP controller = GUP add_core = GUP remove_core = YAU
+owner = KAP controller = KAP add_core = KAP remove_core = GUP
+owner = MLW controller = MLW add_core = SND remove_core = GUP
+owner = SND controller = SND
+owner = TAA controller = TAA add_core = TAA remove_core = SND
+owner = UMA controller = UMA add_core = UMA remove_core = SND
+owner = ABA controller = ABA add_core = ABA remove_core = UMA
+owner = SND controller = SND add_core = SND remove_core = ABA
+owner = MUL controller = MUL add_core = MUL remove_core = SND
+religion = sunni
+owner = GHZ controller = GHZ add_core = GHZ
+religion = shiite
+owner = GHU controller = GHU add_core = GHU remove_core = GHZ
+religion = sunni
+owner = MUL controller = MUL add_core = MUL remove_core = GHU
+owner = DLH controller = DLH add_core = DLH
+owner = MUL controller = MUL add_core = MUL remove_core = DLH
+owner = DLH
 	controller = DLH
-}
-1437.1.1 = {
-	owner = MUL
+owner = MUL
 	controller = MUL
-} # Captured by Langas and separated from Sultanate
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ # Captured by Langas and separated from Sultanate
 1526.1.1 = {
 	owner = SND
 	controller = SND

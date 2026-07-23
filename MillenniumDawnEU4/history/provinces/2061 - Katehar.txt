@@ -21,26 +21,41 @@ base_manpower = 1
 is_city = yes
 add_core = ARJ
 
-120.1.1 = { owner = KUS controller = KUS add_core = KUS }
-270.1.1 = { owner = ARJ controller = ARJ add_core = ARJ remove_core = KUS }
-375.1.1 = { owner = GUP controller = GUP add_core = GUP remove_core = ARJ }
-440.1.1 = { religion = hinduism }
-540.1.1 = { owner = KNN controller = KNN add_core = KNN remove_core = GUP }
-600.1.1 = { base_tax = 3 base_production = 3 }
-620.1.1 = { owner = HRS controller = HRS add_core = HRS }
-647.1.1 = { owner = KNN controller = KNN remove_core = HRS }
-740.1.1 = { owner = KSH controller = KSH add_core = KSH }
-760.1.1 = { owner = TOM controller = TOM add_core = TOM remove_core = KSH remove_core = KNN }
-800.1.1 = { base_manpower = 2 religion = mahayana discovered_by = nomad_group }
-890.1.1 = { religion = hinduism }
-1068.1.1 = { owner = GAH controller = GAH add_core = GAH remove_core = TOM }
-1192.1.1 = { owner = GHU controller = GHU add_core = GHU remove_core = GAH }
-1206.1.1 = { owner = DLH controller = DLH add_core = DLH remove_core = GHU }
-
-1437.1.1 = {
-	owner = JNP
+1444.11.11 = {
+owner = KUS controller = KUS add_core = KUS
+owner = ARJ controller = ARJ add_core = ARJ remove_core = KUS
+owner = GUP controller = GUP add_core = GUP remove_core = ARJ
+religion = hinduism
+owner = KNN controller = KNN add_core = KNN remove_core = GUP
+base_tax = 3 base_production = 3
+owner = HRS controller = HRS add_core = HRS
+owner = KNN controller = KNN remove_core = HRS
+owner = KSH controller = KSH add_core = KSH
+owner = TOM controller = TOM add_core = TOM remove_core = KSH remove_core = KNN
+base_manpower = 2 religion = mahayana discovered_by = nomad_group
+religion = hinduism
+owner = GAH controller = GAH add_core = GAH remove_core = TOM
+owner = GHU controller = GHU add_core = GHU remove_core = GAH
+owner = DLH controller = DLH add_core = DLH remove_core = GHU
+owner = JNP
 	controller = JNP
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 1452.1.1 = {
 	owner = DLH
 	controller = DLH

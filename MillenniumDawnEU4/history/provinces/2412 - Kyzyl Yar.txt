@@ -23,31 +23,56 @@ capital = "Kyzyl-Yar"
 is_city = yes
 add_core = SRT
 
-220.1.1 = { owner = OST controller = OST add_core = OST remove_core = SRT }
-300.1.1 = { religion = germanic culture = gothic }
-370.1.1 = { owner = HNS controller = HNS add_core = HNS remove_core = OST }
-420.1.1 = { add_core = ONG }
-469.1.1 = { owner = ONG controller = ONG remove_core = HNS }
-600.1.1 = { base_tax = 2 base_production = 2 }
-620.1.1 = { religion = chalcedonism }
-632.1.1 = { owner = BUL controller = BUL add_core = BUL remove_core = ONG }
-750.1.1 = { owner = KHZ controller = KHZ add_core = KHZ remove_core = BUL }
-800.1.1 = { base_manpower = 2 culture = khazar }
-867.1.1 = { religion = orthodox }
-969.1.1 = { owner = PEC controller = PEC add_core = PEC remove_core = KHZ culture = pecheneg }
-1000.1.1 = { base_tax = 3 base_production = 3 }
-1060.1.1 = { owner = CUM controller = CUM add_core = CUM remove_core = PEC }
-1100.1.1 = { base_manpower = 3 }
-1120.1.1 = { culture = crimean }
-1200.1.1 = { base_tax = 4 base_production = 4 }
-1237.1.1 = { owner = KHA controller = KHA add_core = KHA add_core = CRI remove_core = CUM }
-1260.1.1 = { owner = WHH controller = WHH add_core = WHH remove_core = KHA }
-1300.1.1 = { religion = sunni }
-1372.1.1 = { owner = BHO controller = BHO add_core = BHO }
-1374.1.1 = { owner = WHH controller = WHH remove_core = BHO }
-1378.1.1 = { owner = GLH controller = GLH add_core = GLH }
+1444.11.11 = {
+owner = OST controller = OST add_core = OST remove_core = SRT
+religion = germanic culture = gothic
+owner = HNS controller = HNS add_core = HNS remove_core = OST
+add_core = ONG
+owner = ONG controller = ONG remove_core = HNS
+base_tax = 2 base_production = 2
+religion = chalcedonism
+owner = BUL controller = BUL add_core = BUL remove_core = ONG
+owner = KHZ controller = KHZ add_core = KHZ remove_core = BUL
+base_manpower = 2 culture = khazar
+religion = orthodox
+owner = PEC controller = PEC add_core = PEC remove_core = KHZ culture = pecheneg
+base_tax = 3 base_production = 3
+owner = CUM controller = CUM add_core = CUM remove_core = PEC
+base_manpower = 3
+culture = crimean
+base_tax = 4 base_production = 4
+owner = KHA controller = KHA add_core = KHA add_core = CRI remove_core = CUM
+owner = WHH controller = WHH add_core = WHH remove_core = KHA
+religion = sunni
+owner = BHO controller = BHO add_core = BHO
+owner = WHH controller = WHH remove_core = BHO
+owner = GLH controller = GLH add_core = GLH
+owner = CRI controller = CRI add_core = CRI
+}
 
-1441.1.1  = { owner = CRI controller = CRI add_core = CRI } # The Crimean Khanate
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ # The Crimean Khanate
 1478.6.1  = { add_core = TUR } # Crimea becomes a vassal of the Ottoman Empire
 1736.6.1  = { controller = RUS } # Russian occupation
 1739.9.29  = { controller = CRI } # Treaty of Nish

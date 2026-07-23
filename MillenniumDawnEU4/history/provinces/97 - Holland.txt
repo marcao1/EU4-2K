@@ -21,25 +21,46 @@ trade_goods = cloth
 base_manpower = 2
 center_of_trade = 2
 
-400.1.1 = { capital = "Aemstelredamme" }
-700.1.1 = { base_tax = 3 base_production = 3 }
-734.1.1 = { owner = FRK controller = FRK add_core = FRK }
-780.1.1 = { religion = chalcedonism }
-840.6.21 = { owner = FRD controller = FRD add_core = FRD remove_core = FRK }
-850.4.1 = { owner = FRY controller = FRY add_core = FRY }
-856.1.30 = { add_core = LOT remove_core = FRD }
-867.1.1 = { religion = catholic }
-870.8.8 = { add_core = FRE remove_core = LOT }
-885.6.1 = { owner = FRI controller = FRI add_core = FRI remove_core = FRE }
-922.1.1 = { owner = HOL controller = HOL add_core = HOL remove_core = FRI }
-900.1.1 = { base_tax = 4 base_production = 4 }
-962.2.2 = { hre = yes }
-1000.1.1 = { base_manpower = 3 }
-1100.1.1 = { base_tax = 5 base_production = 5 }
-1120.1.1 = { culture = dutch }
-1200.1.1 = { base_manpower = 4 }
-1300.1.1 = { base_tax = 6 base_production = 6 }
-1327.1.1 = { capital = "Amsterdam" }
+1444.11.11 = {
+capital = "Aemstelredamme"
+base_tax = 3 base_production = 3
+owner = FRK controller = FRK add_core = FRK
+religion = chalcedonism
+owner = FRD controller = FRD add_core = FRD remove_core = FRK
+owner = FRY controller = FRY add_core = FRY
+add_core = LOT remove_core = FRD
+religion = catholic
+add_core = FRE remove_core = LOT
+owner = FRI controller = FRI add_core = FRI remove_core = FRE
+owner = HOL controller = HOL add_core = HOL remove_core = FRI
+base_tax = 4 base_production = 4
+hre = yes
+base_manpower = 3
+base_tax = 5 base_production = 5
+culture = dutch
+base_manpower = 4
+base_tax = 6 base_production = 6
+capital = "Amsterdam"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1477.1.5 = { owner = HAB controller = HAB add_core = HAB }
 1519.1.12 = { owner = SPA controller = SPA add_core = SPA remove_core = HAB }

@@ -18,13 +18,22 @@ base_manpower = 2
 is_city = yes
 add_core = CMB
 
-220.1.1 = { owner = FUN controller = FUN add_core = FUN remove_core = CMB }
-300.1.1 = { religion = hinduism }
-550.1.1 = { owner = CNA controller = CNA add_core = CNA remove_core = FUN }
-802.1.1 = { owner = CMB controller = CMB add_core = CMB remove_core = CNA capital = "Kampom Pous Thom" }
-820.1.1 = { religion = mahayana }
-1295.1.1 = { religion = buddhism }
-1431.1.1 = { owner = KHM controller = KHM add_core = KHM remove_core = CMB }
+1444.11.11 = {
+owner = FUN controller = FUN add_core = FUN remove_core = CMB
+religion = hinduism
+owner = CNA controller = CNA add_core = CNA remove_core = FUN
+owner = CMB controller = CMB add_core = CMB remove_core = CNA capital = "Kampom Pous Thom"
+religion = mahayana
+religion = buddhism
+owner = KHM controller = KHM add_core = KHM remove_core = CMB
+}
+
+
+
+
+
+
+
 
 1535.1.1 = { discovered_by = POR }
 1811.1.1 = { unrest = 5 } # The Siamese-Cambodian Rebellion

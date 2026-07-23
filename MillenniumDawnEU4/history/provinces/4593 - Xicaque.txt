@@ -14,8 +14,8 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-830.1.1 = { 	
-	owner = XXX
+1444.11.11 = {
+owner = XXX
 	controller = XXX
 	remove_core = COP
 	is_city = no
@@ -24,6 +24,7 @@ base_manpower = 1
 	native_hostileness = 2
 	trade_goods = unknown
 }
+
 
 1502.1.1   = { discovered_by = CAS } # Christopher Columbus 
 1516.1.23  = { discovered_by = SPA }

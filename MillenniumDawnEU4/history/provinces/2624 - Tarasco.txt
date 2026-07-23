@@ -14,10 +14,16 @@ base_tax = 3
 base_production = 3
 base_manpower = 1
 
-200.1.1 = { owner = TTH controller = TTH add_core = TTH }
-800.1.1 = { owner = TLT controller = TLT add_core = TLT remove_core = TTH }
-1000.1.1 = { owner = TAR controller = TAR add_core = TAR remove_core = TLT }
-1300.1.1 = { base_tax = 4 base_production = 4 }
+1444.11.11 = {
+owner = TTH controller = TTH add_core = TTH
+owner = TLT controller = TLT add_core = TLT remove_core = TTH
+owner = TAR controller = TAR add_core = TAR remove_core = TLT
+base_tax = 4 base_production = 4
+}
+
+
+
+
 
 1530.1.1   = {	
 	discovered_by = SPA

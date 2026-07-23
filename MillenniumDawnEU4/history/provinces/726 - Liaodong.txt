@@ -18,24 +18,44 @@ base_manpower = 2
 is_city = yes
 add_core = WUH
 
-207.10.1 = { owner = YAN controller = YAN add_core = YAN add_core = WEI } #Battle of White Wolf Mountain
-238.1.1 = { owner = WEI controller = WEI add_core = WEI }
-240.1.1 = { fort_15th = yes }
-265.2.4 = { owner = JIN controller = JIN add_core = JIN remove_core = WEI }
-337.11.23 = { owner = YAN controller = YAN add_core = YAN remove_core = JIN }
-370.12.11 = { owner = QIN controller = QIN add_core = QIN }
-384.1.1 = { owner = YAN controller = YAN add_core = YAN remove_core = QIN }
-436.1.1 = { owner = GOG controller = GOG add_core = GOG remove_core = YAN }
-668.10.1 = { owner = TNG controller = TNG add_core = TNG }
-699.1.1 = { owner = GOG controller = GOG add_core = GOG remove_core = TNG }
-820.1.1 = { owner = BLH controller = BLH add_core = BLH remove_core = GOG }
-907.6.1 = { owner = LIO controller = LIO add_core = LIO remove_core = BLH }
-1115.1.1 = { owner = CJN controller = CJN add_core = CJN remove_core = LIO }
-1200.1.1 = { culture = manchu }
-1214.1.1 = { owner = KHA controller = KHA add_core = KHA add_core = CSH remove_core = CJN }
-1271.1.1 = { owner = YUA controller = YUA add_core = YUA remove_core = KHA }
-1368.1.23 = { owner = KRC controller = KRC add_core = KRC remove_core = YUA }
-1387.7.14 = { owner = MNG controller = MNG add_core = MNG remove_core = KRC }
+1444.11.11 = {
+owner = YAN controller = YAN add_core = YAN add_core = WEI
+owner = WEI controller = WEI add_core = WEI
+fort_15th = yes
+owner = JIN controller = JIN add_core = JIN remove_core = WEI
+owner = YAN controller = YAN add_core = YAN remove_core = JIN
+owner = QIN controller = QIN add_core = QIN
+owner = YAN controller = YAN add_core = YAN remove_core = QIN
+owner = GOG controller = GOG add_core = GOG remove_core = YAN
+owner = TNG controller = TNG add_core = TNG
+owner = GOG controller = GOG add_core = GOG remove_core = TNG
+owner = BLH controller = BLH add_core = BLH remove_core = GOG
+owner = LIO controller = LIO add_core = LIO remove_core = BLH
+owner = CJN controller = CJN add_core = CJN remove_core = LIO
+culture = manchu
+owner = KHA controller = KHA add_core = KHA add_core = CSH remove_core = CJN
+owner = YUA controller = YUA add_core = YUA remove_core = KHA
+owner = KRC controller = KRC add_core = KRC remove_core = YUA
+owner = MNG controller = MNG add_core = MNG remove_core = KRC
+}
+ #Battle of White Wolf Mountain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1519.1.1 = { discovered_by = POR } # Tome Pires
 1621.1.1 = {

@@ -13,9 +13,14 @@ native_size = 40
 native_ferocity = 4
 native_hostileness = 9 
 
-523.1.1 = { owner = RNO controller = RNO add_core = RNO is_city = yes trade_goods = slaves }
-1010.1.1 = { owner = KAN controller = KAN add_core = KAN remove_core = RNO }
-1355.1.1 = { religion = sunni }
+1444.11.11 = {
+owner = RNO controller = RNO add_core = RNO is_city = yes trade_goods = slaves
+owner = KAN controller = KAN add_core = KAN remove_core = RNO
+religion = sunni
+}
+
+
+
 
 1785.1.1 = { base_manpower = 2 }
 1806.1.1 = {	

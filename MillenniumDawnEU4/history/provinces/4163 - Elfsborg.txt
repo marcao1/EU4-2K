@@ -13,14 +13,24 @@ native_size = 15
 native_ferocity = 2
 center_of_trade = 1
 
-350.1.1 = { owner = GEW controller = GEW add_core = GEW is_city = yes discovered_by = barbarian trade_goods = grain }
-550.1.1 = { discovered_by = western }
-750.1.1 = { discovered_by = eastern }
-970.1.1 = { owner = SWE controller = SWE add_core = SWE remove_core = GEW }
-980.1.1 = { culture = swedish }
-1000.1.1 = { religion = catholic }
-1200.1.1 = { discovered_by = muslim discovered_by = ottoman }
-1300.1.1 = { fort_15th = yes } #Old Älvsborg Castle
+1444.11.11 = {
+owner = GEW controller = GEW add_core = GEW is_city = yes discovered_by = barbarian trade_goods = grain
+discovered_by = western
+discovered_by = eastern
+owner = SWE controller = SWE add_core = SWE remove_core = GEW
+culture = swedish
+religion = catholic
+discovered_by = muslim discovered_by = ottoman
+fort_15th = yes
+}
+
+
+
+
+
+
+
+ #Old Älvsborg Castle
 
 1527.6.1 = { religion = protestant }
 1598.8.15 = { controller = PLC } # Sigismund tries to reconquer his crown

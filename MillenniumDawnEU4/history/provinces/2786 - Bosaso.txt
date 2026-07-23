@@ -20,8 +20,12 @@ base_tax = 3
 base_production = 3
 base_manpower = 2
 
-1050.1.1 = { religion = sunni }
-1200.1.1 = { owner = WAR controller = WAR add_core = WAR }
+1444.11.11 = {
+religion = sunni
+owner = WAR controller = WAR add_core = WAR
+}
+
+
 
 1499.1.1 = { discovered_by = POR } 
 1526.1.1 = { owner = ADA controller = ADA } #Ahmad Gran secures control over Marehan

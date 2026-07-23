@@ -17,7 +17,10 @@ native_size = 30
 native_ferocity = 4
 native_hostileness = 9
 
-750.1.1 = { religion = vajrayana }
+1444.11.11 = {
+religion = vajrayana
+}
+
 
 1850.1.1   = { 	owner = GBR
 		controller = GBR

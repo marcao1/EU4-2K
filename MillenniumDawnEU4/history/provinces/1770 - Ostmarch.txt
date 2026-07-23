@@ -20,29 +20,54 @@ discovered_by = eastern
 discovered_by = barbarian
 discovered_by = western
 
-173.1.1 = { owner = MRM controller = MRM add_core = MRM remove_core = GTN culture = bavarian religion = germanic }
-454.1.1 = { owner = RGL controller = RGL add_core = RGL remove_core = MRM }
-460.1.1 = { culture = austrian religion = arianism }
-487.1.1 = { owner = ITA controller = ITA }
-489.1.1 = { owner = LOM controller = LOM add_core = LOM remove_core = RGL culture = langobardi }
-568.1.1 = { owner = AVR controller = AVR add_core = AVR remove_core = LOM }
-580.1.1 = { religion = chalcedonism }
-600.1.1 = { base_tax = 2 base_production = 2 }
-623.1.1 = { owner = SAZ controller = SAZ add_core = SAZ remove_core = AVR culture = czech }
-659.1.1 = { owner = SLO controller = SLO add_core = SLO remove_core = SAZ }
-700.1.1 = { base_manpower = 3 }
-790.1.1 = { owner = FRK controller = FRK add_core = FRK remove_core = SLO }
-800.1.1 = { base_tax = 3 base_production = 3 }
-817.1.1 = { owner = BAV controller = BAV add_core = BAV remove_core = FRK }
-867.1.1 = { religion = catholic }
-880.1.1 = { owner = MVA controller = MVA add_core = MVA remove_core = BAV }
-894.1.1 = { owner = BOH controller = BOH add_core = BOH }
-900.1.1 = { base_manpower = 4 }
-950.1.1 = { culture = austrian }
-960.1.1 = { owner = HAB controller = HAB add_core = HAB remove_core = MVA remove_core = BOH }
-962.2.2 = { hre = yes }
-1260.7.1 = { owner = BOH controller = BOH add_core = BOH } #Battle of Kressenbrunn
-1278.8.26 = { owner = HAB controller = HAB remove_core = BOH } #Death of Ottokar II
+1444.11.11 = {
+owner = MRM controller = MRM add_core = MRM remove_core = GTN culture = bavarian religion = germanic
+owner = RGL controller = RGL add_core = RGL remove_core = MRM
+culture = austrian religion = arianism
+owner = ITA controller = ITA
+owner = LOM controller = LOM add_core = LOM remove_core = RGL culture = langobardi
+owner = AVR controller = AVR add_core = AVR remove_core = LOM
+religion = chalcedonism
+base_tax = 2 base_production = 2
+owner = SAZ controller = SAZ add_core = SAZ remove_core = AVR culture = czech
+owner = SLO controller = SLO add_core = SLO remove_core = SAZ
+base_manpower = 3
+owner = FRK controller = FRK add_core = FRK remove_core = SLO
+base_tax = 3 base_production = 3
+owner = BAV controller = BAV add_core = BAV remove_core = FRK
+religion = catholic
+owner = MVA controller = MVA add_core = MVA remove_core = BAV
+owner = BOH controller = BOH add_core = BOH
+base_manpower = 4
+culture = austrian
+owner = HAB controller = HAB add_core = HAB remove_core = MVA remove_core = BOH
+hre = yes
+owner = BOH controller = BOH add_core = BOH
+owner = HAB controller = HAB remove_core = BOH
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ #Battle of Kressenbrunn
+ #Death of Ottokar II
 
 1545.1.1 = { base_manpower = 3 }
 1650.1.1 = { base_manpower = 4 }

@@ -13,7 +13,10 @@ native_size = 40
 native_ferocity = 4
 native_hostileness = 9 
 
-1050.1.1 = { owner = BON controller = BON add_core = BON is_city = yes trade_goods = coffee }
+1444.11.11 = {
+owner = BON controller = BON add_core = BON is_city = yes trade_goods = coffee
+}
+
 1735.1.1 = { owner = ASH controller = ASH add_core = ASH } #Ashanti conquest
 
 1880.1.1   = { discovered_by = FR2 }

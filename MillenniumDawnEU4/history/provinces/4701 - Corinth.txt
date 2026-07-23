@@ -20,13 +20,20 @@ base_manpower = 2
 is_city = yes
 add_core = ROM
 
-360.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-867.1.1 = { religion = orthodox }
-1205.1.1 = { owner = ACH controller = ACH add_core = ACH }
-1349.1.1 = { add_core = MOE }
+1444.11.11 = {
+religion = chalcedonism
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+religion = orthodox
+owner = ACH controller = ACH add_core = ACH
+add_core = MOE
+owner = BYZ controller = BYZ
+}
 
-1432.1.1 = { owner = BYZ controller = BYZ } # To Morea
+ # Final division of the empire
+
+
+
+ # To Morea
 1453.5.29 = { owner = ACH controller = ACH } # The fall of the Byzantine Empire
 1455.1.1 = { owner = MOE controller = MOE remove_core = ACH }
 1460.1.1 = { owner = TUR controller = TUR add_core = TUR }

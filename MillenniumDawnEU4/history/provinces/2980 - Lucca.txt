@@ -21,27 +21,50 @@ is_city = yes
 add_core = ROM
 center_of_trade = 1
 
-250.1.1 = { culture = roman }
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-420.1.1 = { religion = chalcedonism }
-476.9.4 = { owner = ITA controller = ITA add_core = ITA }
-480.1.1 = { remove_core = ROW }
-489.1.1 = { owner = OST controller = OST add_core = OST remove_core = ITA }
-540.1.1 = { owner = BYZ controller = BYZ add_core = BYZ }
-569.6.1 = { owner = LOM controller = LOM add_core = LOM remove_core = OST remove_core = BYZ culture = tuscan }
-774.1.1 = { owner = FRK controller = FRK add_core = FRK remove_core = LOM }
-840.6.21 = { owner = FRD controller = FRD add_core = FRD remove_core = FRK }
-846.1.1 = { owner = TUS controller = TUS add_core = TUS remove_core = FRD }
-867.1.1 = { religion = catholic }
-900.1.1 = { base_tax = 4 base_production = 4 }
-962.2.2 = { hre = yes }
-1050.1.1 = { base_tax = 5 base_production = 5 }
-1115.7.24 = { owner = LUC controller = LUC add_core = LUC remove_core = TUS }
-1200.1.1 = { base_tax = 6 base_production = 6 }
-1314.1.1 = { owner = PIS controller = PIS add_core = PIS } #Uguccione della Faggiuola
-1316.6.12 = { owner = LUC controller = LUC remove_core = PIS }
-1399.1.1 = { owner = MLO controller = MLO add_core = MLO }
-1402.9.3 = { owner = LUC controller = LUC remove_core = MLO }
+1444.11.11 = {
+culture = roman
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+religion = chalcedonism
+owner = ITA controller = ITA add_core = ITA
+remove_core = ROW
+owner = OST controller = OST add_core = OST remove_core = ITA
+owner = BYZ controller = BYZ add_core = BYZ
+owner = LOM controller = LOM add_core = LOM remove_core = OST remove_core = BYZ culture = tuscan
+owner = FRK controller = FRK add_core = FRK remove_core = LOM
+owner = FRD controller = FRD add_core = FRD remove_core = FRK
+owner = TUS controller = TUS add_core = TUS remove_core = FRD
+religion = catholic
+base_tax = 4 base_production = 4
+hre = yes
+base_tax = 5 base_production = 5
+owner = LUC controller = LUC add_core = LUC remove_core = TUS
+base_tax = 6 base_production = 6
+owner = PIS controller = PIS add_core = PIS
+owner = LUC controller = LUC remove_core = PIS
+owner = MLO controller = MLO add_core = MLO
+owner = LUC controller = LUC remove_core = MLO
+}
+
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ #Uguccione della Faggiuola
+
+
+
 
 1495.1.1 = { hre = no }
 1805.6.10 = {

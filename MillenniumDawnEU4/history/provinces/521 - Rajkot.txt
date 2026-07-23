@@ -24,13 +24,22 @@ base_manpower = 1
 is_city = yes
 add_core = WSA
 
-405.1.1 = { owner = GUP controller = GUP add_core = GUP remove_core = WSA }
-475.1.1 = { owner = GUJ controller = GUJ add_core = GUJ remove_core = GUP }
-734.1.1 = { owner = PRB controller = PRB add_core = PRB remove_core = GUJ }
-875.1.1 = { owner = JGD controller = JGD add_core = JGD remove_core = PRB }
-1080.1.1 = { religion = jainism }
-1147.1.1 = { owner = KAT controller = KAT add_core = KAT remove_core = JGD }
-1190.1.1 = { religion = hinduism }
+1444.11.11 = {
+owner = GUP controller = GUP add_core = GUP remove_core = WSA
+owner = GUJ controller = GUJ add_core = GUJ remove_core = GUP
+owner = PRB controller = PRB add_core = PRB remove_core = GUJ
+owner = JGD controller = JGD add_core = JGD remove_core = PRB
+religion = jainism
+owner = KAT controller = KAT add_core = KAT remove_core = JGD
+religion = hinduism
+}
+
+
+
+
+
+
+
 
 1470.1.1 = {
 	owner = GUJ

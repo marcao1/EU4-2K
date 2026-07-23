@@ -13,9 +13,12 @@ native_ferocity = 4.5
 native_hostileness = 9 
 discovered_by = central_african
 
-1350.1.1 = { owner = KSJ controller = KSJ add_core = KSJ is_city = yes trade_goods = slaves }
+1444.11.11 = {
+owner = KSJ controller = KSJ add_core = KSJ is_city = yes trade_goods = slaves
+}
 
-1680.1.1 = { discovered_by = POR } #António de Oliveira de Cadornega
+
+1680.1.1 = { discovered_by = POR } #Antï¿½nio de Oliveira de Cadornega
 
 1910.1.1 = { discovered_by = western }
 1910.1.1   = { religion = protestant owner = POR controller = POR add_core = POR capital = "Andulo" }

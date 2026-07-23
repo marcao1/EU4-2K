@@ -20,15 +20,26 @@ base_manpower = 1
 is_city = yes
 add_core = IAZ
 
-300.1.1 = { owner = GEP controller = GEP add_core = GEP remove_core = IAZ culture = gepid religion = germanic }
-400.1.1 = { religion = arianism }
-567.1.1 = { owner = AVR controller = AVR add_core = AVR remove_core = GEP culture = avar religion = tengri_pagan_reformed }
-800.1.1 = { base_tax = 2 base_production = 2 }
-804.1.1 = { owner = BUL controller = BUL add_core = BUL remove_core = AVR }
-850.1.1 = { owner = HUN controller = HUN add_core = HUN remove_core = BUL culture = hungarian }
-1000.1.1 = { base_manpower = 2 }
-1050.1.1 = { religion = catholic }
-1200.1.1 = { base_tax = 3 base_production = 3 }
+1444.11.11 = {
+owner = GEP controller = GEP add_core = GEP remove_core = IAZ culture = gepid religion = germanic
+religion = arianism
+owner = AVR controller = AVR add_core = AVR remove_core = GEP culture = avar religion = tengri_pagan_reformed
+base_tax = 2 base_production = 2
+owner = BUL controller = BUL add_core = BUL remove_core = AVR
+owner = HUN controller = HUN add_core = HUN remove_core = BUL culture = hungarian
+base_manpower = 2
+religion = catholic
+base_tax = 3 base_production = 3
+}
+
+
+
+
+
+
+
+
+
 
 1506.1.1 = { revolt = { type = anti_tax_rebels size = 1.5 } controller = REB } # Szekely rebellion
 1507.1.1 = { revolt = {} controller = HUN } # Estimated
@@ -41,7 +52,7 @@ add_core = IAZ
 	controller = HAB
 	add_core = HAB
 	add_core = TRA
-} # Battle of Mohács, the end of the independent Kingdom of Hungary
+} # Battle of Mohï¿½cs, the end of the independent Kingdom of Hungary
 1540.1.1 = { religion = reformed }
 1542.1.1 = { controller = TRA } # Controlled by John II Sigusmund Zapolya
 1545.8.1 = { owner = TRA remove_core = HAB } # End of Ottoman-Habsburg War

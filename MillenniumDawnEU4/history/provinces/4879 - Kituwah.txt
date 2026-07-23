@@ -13,14 +13,15 @@ native_size = 10
 native_ferocity = 7
 native_hostileness = 2
 
-1000.1.1 = { 
-	owner = CHE
+1444.11.11 = {
+owner = CHE
 	controller = CHE
 	add_core = CHE
 	is_city = yes
 	culture = cherokee
 	trade_goods = tobacco
 }
+
 
 1673.1.1  = { discovered_by = ENG } # James Needham and Gabriel Arthur
 1707.5.12 = { discovered_by = GBR }

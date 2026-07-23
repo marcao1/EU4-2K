@@ -27,25 +27,46 @@ base_manpower = 2
 is_city = yes
 add_core = ROM
 
-220.1.1 = { religion = hellenism }
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-420.1.1 = { religion = chalcedonism }
-451.11.1 = { religion = coptic }
-618.1.1 = { controller = ERS }
-628.1.1 = { controller = BYZ }
-641.1.1 = { owner = RSD controller = RSD add_core = RSD remove_core = BYZ capital = "Girga" }
-661.7.28 = { owner = UMA controller = UMA add_core = UMA remove_core = RSD }
-720.1.1 = { culture = saidi }
-750.8.6 = { owner = ABA controller = ABA add_core = ABA remove_core = UMA }
-868.9.15 = { owner = EGY controller = EGY add_core = EGY remove_core = ABA }
-900.1.1 = { base_tax = 3 base_production = 3 }
-905.1.10 = { owner = ABA controller = ABA add_core = ABA }
-920.1.1 = { religion = sunni }
-935.8.26 = { owner = EGY controller = EGY add_core = EGY remove_core = ABA }
-969.6.1  = { owner = FAT controller = FAT add_core = FAT }
-1100.1.1 = { base_manpower = 3 }
-1171.1.1 = { owner = EGY controller = EGY add_core = EGY remove_core = FAT }
-1250.5.2 = { owner = MAM controller = MAM add_core = MAM remove_core = EGY }
+1444.11.11 = {
+religion = hellenism
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+religion = chalcedonism
+religion = coptic
+controller = ERS
+controller = BYZ
+owner = RSD controller = RSD add_core = RSD remove_core = BYZ capital = "Girga"
+owner = UMA controller = UMA add_core = UMA remove_core = RSD
+culture = saidi
+owner = ABA controller = ABA add_core = ABA remove_core = UMA
+owner = EGY controller = EGY add_core = EGY remove_core = ABA
+base_tax = 3 base_production = 3
+owner = ABA controller = ABA add_core = ABA
+religion = sunni
+owner = EGY controller = EGY add_core = EGY remove_core = ABA
+owner = FAT controller = FAT add_core = FAT
+base_manpower = 3
+owner = EGY controller = EGY add_core = EGY remove_core = FAT
+owner = MAM controller = MAM add_core = MAM remove_core = EGY
+}
+
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1517.1.1 = {
 	owner = TUR

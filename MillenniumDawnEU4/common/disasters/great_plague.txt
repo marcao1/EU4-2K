@@ -2,7 +2,7 @@ great_plague = {
 	potential = {
 		has_global_flag = great_plague_started
 		NOT = { has_country_flag = had_the_great_plague }
-		NOT = { has_institution = medicine }
+		always = yes
 	}
 	
 	can_start = {

@@ -18,17 +18,30 @@ base_production = 2
 base_manpower = 1
 is_city = yes
 
-372.1.1 = { religion = mahayana }
-698.1.1 = { owner = BLH controller = BLH add_core = BLH remove_core = GOG }
-926.1.14 = { owner = LIO controller = LIO add_core = LIO remove_core = BLH }
-935.1.1 = { owner = JEO controller = JEO add_core = JEO }
-986.1.1 = { owner = LIO controller = LIO add_core = LIO remove_core = JEO }
-990.1.1 = { owner = GOR controller = GOR add_core = GOR remove_core = LIO }
-1235.1.1 = { owner = KHA controller = KHA add_core = KHA }
-1271.1.1 = { owner = YUA controller = YUA add_core = YUA remove_core = KHA }
-1290.1.1 = { owner = GOR controller = GOR add_core = GOR remove_core = YUA }
-1300.1.1 = { fort_15th = yes }
-1392.7.12 = { owner = KOR controller = KOR add_core = KOR remove_core = GOR religion = confucianism }
+1444.11.11 = {
+religion = mahayana
+owner = BLH controller = BLH add_core = BLH remove_core = GOG
+owner = LIO controller = LIO add_core = LIO remove_core = BLH
+owner = JEO controller = JEO add_core = JEO
+owner = LIO controller = LIO add_core = LIO remove_core = JEO
+owner = GOR controller = GOR add_core = GOR remove_core = LIO
+owner = KHA controller = KHA add_core = KHA
+owner = YUA controller = YUA add_core = YUA remove_core = KHA
+owner = GOR controller = GOR add_core = GOR remove_core = YUA
+fort_15th = yes
+owner = KOR controller = KOR add_core = KOR remove_core = GOR religion = confucianism
+}
+
+
+
+
+
+
+
+
+
+
+
 
 1519.1.1 = { discovered_by = POR } # Tome Pires
 1592.7.19 = { controller = TYT unrest = 5 } # Japanese invasion

@@ -23,34 +23,57 @@ base_manpower = 2
 is_city = yes
 add_core = ARM
 
-114.1.1 = { owner = ROM controller = ROM add_core = ROM }
-117.1.1 = { owner = ARM controller = ARM remove_core = ROM }
-428.1.1 = { owner = ERS controller = ERS add_core = ERS }
-460.1.1 = { religion = chalcedonism }
-506.1.1 = { religion = coptic }
-639.1.1 = { owner = RSD controller = RSD add_core = RSD remove_core = ERS capital = "Urmiyeh" }
-661.7.28 = { owner = UMA controller = UMA add_core = UMA remove_core = RSD }
-750.8.6 = { owner = ABA controller = ABA add_core = ABA remove_core = UMA }
-889.1.1 = { owner = AZE controller = AZE add_core = AZE remove_core = ABA }
-900.1.1 = { culture = kurdish }
-955.1.1 = { owner = TBR controller = TBR add_core = TBR }
-1054.1.1 = { owner = SEL controller = SEL add_core = SEL }
-1120.1.1 = { religion = sunni }
-1157.5.8 = { owner = MGR controller = MGR add_core = MGR remove_core = SEL }
-1225.1.1 = { owner = KHW controller = KHW add_core = KHW }
-1231.1.1 = { owner = KHA controller = KHA add_core = KHA add_core = PER remove_core = KHW }
-1260.1.1 = { owner = ILK controller = ILK add_core = ILK remove_core = KHA }
-1335.1.1 = { owner = TBR controller = TBR add_core = TBR remove_core = ILK }
-1358.1.1 = { owner = JAL controller = JAL add_core = JAL }
-1380.1.1 = { add_core = TIM }
-1375.1.1 = { owner = QAR controller = QAR add_core = QAR remove_core = JAL }
-1392.1.1 = { owner = TIM controller = TIM }
-
-1402.1.1   = {	owner = QAR
+1444.11.11 = {
+owner = ROM controller = ROM add_core = ROM
+owner = ARM controller = ARM remove_core = ROM
+owner = ERS controller = ERS add_core = ERS
+religion = chalcedonism
+religion = coptic
+owner = RSD controller = RSD add_core = RSD remove_core = ERS capital = "Urmiyeh"
+owner = UMA controller = UMA add_core = UMA remove_core = RSD
+owner = ABA controller = ABA add_core = ABA remove_core = UMA
+owner = AZE controller = AZE add_core = AZE remove_core = ABA
+culture = kurdish
+owner = TBR controller = TBR add_core = TBR
+owner = SEL controller = SEL add_core = SEL
+religion = sunni
+owner = MGR controller = MGR add_core = MGR remove_core = SEL
+owner = KHW controller = KHW add_core = KHW
+owner = KHA controller = KHA add_core = KHA add_core = PER remove_core = KHW
+owner = ILK controller = ILK add_core = ILK remove_core = KHA
+owner = TBR controller = TBR add_core = TBR remove_core = ILK
+owner = JAL controller = JAL add_core = JAL
+add_core = TIM
+owner = QAR controller = QAR add_core = QAR remove_core = JAL
+owner = TIM controller = TIM
+owner = QAR
 		controller = QAR
 		add_core = QAR
 		remove_core = TIM
-	     } # Qara Koyunlu
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ # Qara Koyunlu
 1458.9.1 = { revolt = { type = pretender_rebels size = 0 name = "Hasan Ali's Faction" leader = "Hasan Ali" } controller = REB } # Civil war in Qara Quyunlu
 1458.12.1 = { revolt = {} controller = QAR }
 1468.1.1 = {

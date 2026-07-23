@@ -18,13 +18,22 @@ base_tax = 2
 base_production = 2
 base_manpower = 3
 
-500.1.1 = { owner = GOG controller = GOG add_core = GOG }
-698.1.1 = { owner = BLH controller = BLH add_core = BLH remove_core = GOG }
-926.1.14 = { owner = LIO controller = LIO add_core = LIO remove_core = BLH capital = "Yaran" }
-1115.1.1 = { owner = CJN controller = CJN add_core = CJN remove_core = LIO }
-1214.1.1 = { owner = KHA controller = KHA add_core = KHA remove_core = CJN }
-1271.1.1 = { owner = YUA controller = YUA add_core = YUA remove_core = KHA }
-1368.1.1 = { owner = NHX controller = NHX add_core = NHX remove_core = YUA }
+1444.11.11 = {
+owner = GOG controller = GOG add_core = GOG
+owner = BLH controller = BLH add_core = BLH remove_core = GOG
+owner = LIO controller = LIO add_core = LIO remove_core = BLH capital = "Yaran"
+owner = CJN controller = CJN add_core = CJN remove_core = LIO
+owner = KHA controller = KHA add_core = KHA remove_core = CJN
+owner = YUA controller = YUA add_core = YUA remove_core = KHA
+owner = NHX controller = NHX add_core = NHX remove_core = YUA
+}
+
+
+
+
+
+
+
 
 1542.1.1 = { discovered_by = POR }
 1616.1.1 = {	owner = MCH

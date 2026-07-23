@@ -24,29 +24,42 @@ base_manpower = 1
 is_city = yes
 add_core = IPA
 
-76.1.1 = { owner = KUS controller = KUS add_core = KUS remove_core = IPA }
-270.1.1 = { owner = ABH controller = ABH add_core = ABH remove_core = KUS }
-350.1.1 = { owner = KDT controller = KDT add_core = KDT remove_core = ABH }
-430.1.1 = { owner = KAP controller = KAP add_core = KAP remove_core = KDT }
-530.1.1 = { owner = GND controller = GND add_core = GND remove_core = KAP }
-590.1.1 = { owner = SHH controller = SHH add_core = SHH remove_core = KAP }
-870.1.1 = { owner = SIS controller = SIS add_core = SIS remove_core = SHH }
-900.1.1 = { owner = SHH controller = SHH add_core = SHH remove_core = SIS }
-1002.1.1 = { owner = GHZ controller = GHZ add_core = GHZ }
-1150.1.1 = { religion = sunni }
-1175.1.1 = { owner = GHU controller = GHU add_core = GHU remove_core = GHZ }
-1210.1.1 = { owner = MUL controller = MUL add_core = MUL remove_core = GHU }
-1228.1.1 = { owner = DLH controller = DLH add_core = DLH add_core = PUN }
-1398.1.1 = { owner = MUL controller = MUL add_core = MUL remove_core = DLH }
-
-1414.1.1 = {
-	owner = DLH
+1444.11.11 = {
+owner = KUS controller = KUS add_core = KUS remove_core = IPA
+owner = ABH controller = ABH add_core = ABH remove_core = KUS
+owner = KDT controller = KDT add_core = KDT remove_core = ABH
+owner = KAP controller = KAP add_core = KAP remove_core = KDT
+owner = GND controller = GND add_core = GND remove_core = KAP
+owner = SHH controller = SHH add_core = SHH remove_core = KAP
+owner = SIS controller = SIS add_core = SIS remove_core = SHH
+owner = SHH controller = SHH add_core = SHH remove_core = SIS
+owner = GHZ controller = GHZ add_core = GHZ
+religion = sunni
+owner = GHU controller = GHU add_core = GHU remove_core = GHZ
+owner = MUL controller = MUL add_core = MUL remove_core = GHU
+owner = DLH controller = DLH add_core = DLH add_core = PUN
+owner = MUL controller = MUL add_core = MUL remove_core = DLH
+owner = DLH
 	controller = DLH
-}
-1437.1.1 = {
-	owner = MUL
+owner = MUL
 	controller = MUL
-} # Captured by Langas and separated from Sultanate
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ # Captured by Langas and separated from Sultanate
 1526.1.1 = {
 	owner = SND
 	controller = SND

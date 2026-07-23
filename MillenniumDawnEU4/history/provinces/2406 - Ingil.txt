@@ -23,23 +23,40 @@ trade_goods = wine
 base_manpower = 1
 capital = "Kyzy-Kermen"
 
-220.1.1 = { owner = OST controller = OST add_core = OST remove_core = SRT }
-370.1.1 = { owner = HNS controller = HNS add_core = HNS remove_core = OST culture = hunnic }
-469.1.1 = { owner = AVR controller = AVR add_core = AVR remove_core = HNS culture = avar }
-567.1.1 = { owner = KTR controller = KTR add_core = KTR remove_core = AVR culture = bulgar }
-632.1.1 = { owner = BUL controller = BUL add_core = BUL remove_core = KTR }
-750.1.1 = { owner = HUN controller = HUN add_core = HUN remove_core = BUL culture = hungarian }
-870.1.1 = { owner = PEC controller = PEC add_core = PEC remove_core = HUN culture = pecheneg }
-1060.1.1 = { owner = CUM controller = CUM add_core = CUM remove_core = PEC }
-1220.1.1 = { culture = ruthenian religion = orthodox }
-1241.1.1 = { owner = KHA controller = KHA add_core = KHA add_core = ZAZ remove_core = CUM culture = crimean }
-1260.1.1 = { owner = WHH controller = WHH add_core = WHH remove_core = KHA }
-1372.1.1 = { owner = BHO controller = BHO add_core = BHO }
-1374.1.1 = { owner = WHH controller = WHH remove_core = BHO }
-1378.1.1 = { owner = GLH controller = GLH }
-1380.1.1 = { owner = LIT controller = LIT add_core = LIT }
+1444.11.11 = {
+owner = OST controller = OST add_core = OST remove_core = SRT
+owner = HNS controller = HNS add_core = HNS remove_core = OST culture = hunnic
+owner = AVR controller = AVR add_core = AVR remove_core = HNS culture = avar
+owner = KTR controller = KTR add_core = KTR remove_core = AVR culture = bulgar
+owner = BUL controller = BUL add_core = BUL remove_core = KTR
+owner = HUN controller = HUN add_core = HUN remove_core = BUL culture = hungarian
+owner = PEC controller = PEC add_core = PEC remove_core = HUN culture = pecheneg
+owner = CUM controller = CUM add_core = CUM remove_core = PEC
+culture = ruthenian religion = orthodox
+owner = KHA controller = KHA add_core = KHA add_core = ZAZ remove_core = CUM culture = crimean
+owner = WHH controller = WHH add_core = WHH remove_core = KHA
+owner = BHO controller = BHO add_core = BHO
+owner = WHH controller = WHH remove_core = BHO
+owner = GLH controller = GLH
+owner = LIT controller = LIT add_core = LIT
+add_core = CRI
+}
 
-1441.1.1  = { add_core = CRI } # The Crimean Khanate
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ # The Crimean Khanate
 1569.7.1   = {	owner = PLC
 	     	controller = PLC
 			remove_core = LIT

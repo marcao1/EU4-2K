@@ -16,12 +16,20 @@ base_manpower = 2
 is_city = yes
 add_core = EMI
 
-607.1.1 = { religion = mahayana }
-650.1.1 = { owner = YAM controller = YAM add_core = YAM remove_core = EMI }
-712.1.1 = { religion = shinto }
-750.1.1 = { culture = japanese }
-794.1.1 = { owner = JAP controller = JAP add_core = JAP remove_core = YAM }
-940.1.1 = { owner = CBA controller = CBA add_core = CBA remove_core = JAP } #Taira branch of Shimousa
+1444.11.11 = {
+religion = mahayana
+owner = YAM controller = YAM add_core = YAM remove_core = EMI
+religion = shinto
+culture = japanese
+owner = JAP controller = JAP add_core = JAP remove_core = YAM
+owner = CBA controller = CBA add_core = CBA remove_core = JAP
+}
+
+
+
+
+
+ #Taira branch of Shimousa
 
 1542.1.1 = { discovered_by = POR }
 1570.1.1 = { add_core = HJO } # The Hojo expands the territory into Shimousa

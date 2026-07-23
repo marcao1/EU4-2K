@@ -18,16 +18,28 @@ base_manpower = 3
 is_city = yes
 add_core = BUY
 
-410.1.1 = { owner = GOG controller = GOG add_core = GOG }
-420.1.1 = { religion = mahayana }
-668.1.1 = { owner = SMM controller = SMM add_core = SMM }
-726.1.1 = { owner = BLH controller = BLH add_core = BLH remove_core = SMM remove_core = GOG }
-926.1.14 = { owner = LIO controller = LIO add_core = LIO remove_core = BLH capital = "Alchuka" }
-1115.1.1 = { owner = CJN controller = CJN add_core = CJN remove_core = LIO }
-1120.1.1 = { religion = tengri_pagan_reformed culture = manchu }
-1214.1.1 = { owner = KHA controller = KHA add_core = KHA remove_core = CJN }
-1271.1.1 = { owner = YUA controller = YUA add_core = YUA remove_core = KHA }
-1368.1.1 = { owner = MHX controller = MHX add_core = MHX remove_core = YUA }
+1444.11.11 = {
+owner = GOG controller = GOG add_core = GOG
+religion = mahayana
+owner = SMM controller = SMM add_core = SMM
+owner = BLH controller = BLH add_core = BLH remove_core = SMM remove_core = GOG
+owner = LIO controller = LIO add_core = LIO remove_core = BLH capital = "Alchuka"
+owner = CJN controller = CJN add_core = CJN remove_core = LIO
+religion = tengri_pagan_reformed culture = manchu
+owner = KHA controller = KHA add_core = KHA remove_core = CJN
+owner = YUA controller = YUA add_core = YUA remove_core = KHA
+owner = MHX controller = MHX add_core = MHX remove_core = YUA
+}
+
+
+
+
+
+
+
+
+
+
 
 1613.2.1 = {
 	owner = MJZ

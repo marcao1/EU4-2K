@@ -18,16 +18,28 @@ discovered_by = PCT
 discovered_by = DMS
 discovered_by = ORD
 
-300.1.1 = { discovered_by = western }
-600.1.1 = { religion = chalcedonism discovered_by = eastern }
-850.1.1 = { base_manpower = 2 }
-867.1.1 = { religion = catholic }
-1002.1.1 = { owner = IRE controller = IRE add_core = IRE }
-1014.4.23 = { owner = DMS controller = DMS remove_core = IRE }
-1050.1.1 = { base_tax = 2 base_production = 2 }
-1100.1.1 = { discovered_by = muslim discovered_by = ottoman }
-1118.1.1 = { owner = MNS controller = MNS add_core = MNS remove_core = DMS }
-1250.1.1 = { base_tax = 3 base_production = 3 }
+1444.11.11 = {
+discovered_by = western
+religion = chalcedonism discovered_by = eastern
+base_manpower = 2
+religion = catholic
+owner = IRE controller = IRE add_core = IRE
+owner = DMS controller = DMS remove_core = IRE
+base_tax = 2 base_production = 2
+discovered_by = muslim discovered_by = ottoman
+owner = MNS controller = MNS add_core = MNS remove_core = DMS
+base_tax = 3 base_production = 3
+}
+
+
+
+
+
+
+
+
+
+
 
 1583.1.1 = { owner = ENG controller = ENG add_core = ENG }
 1642.1.1 = { revolt = { type = nationalist_rebels size = 1 } controller = REB }

@@ -21,27 +21,50 @@ is_city = yes
 add_core = ROM
 center_of_trade = 1
 
-300.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-439.1.1 = { owner = VAN controller = VAN add_core = VAN remove_core = ROW }
-534.3.1 = { owner = BYZ controller = BYZ add_core = BYZ remove_core = VAN }
-694.1.1 = { owner = UMA controller = UMA add_core = UMA remove_core = MOO remove_core = BYZ capital = "Djerba" }
-745.1.1 = { owner = TUN controller = TUN add_core = TUN remove_core = UMA }
-757.6.1 = { owner = ABA controller = ABA add_core = ABA }
-800.1.1 = { owner = TUN controller = TUN add_core = TUN remove_core = ABA }
-820.1.1 = { religion = ibadi }
-909.1.1 = { owner = FAT controller = FAT add_core = FAT }
-973.1.1 = { owner = TUN controller = TUN add_core = TUN remove_core = FAT }
-1000.1.1 = { fort_15th = yes }
-1059.1.1 = { owner = MHD controller = MHD add_core = MHD }
-1063.1.1 = { owner = GBS controller = GBS add_core = GBS remove_core = MHD }
-1135.1.1 = { owner = SIC controller = SIC add_core = SIC }
-1158.1.1 = { owner = MOR controller = MOR add_core = MOR remove_core = SIC }
-1187.1.1 = { owner = TUN controller = TUN add_core = TUN }
-1212.1.1 = { owner = MOR controller = MOR }
-1229.1.1 = { owner = TUN add_core = TUN controller = TUN remove_core = MOR }
-1284.1.1 = { owner = SIC controller = SIC add_core = SIC }
-1333.1.1 = { owner = TUN add_core = TUN controller = TUN remove_core = SIC }
+1444.11.11 = {
+religion = chalcedonism
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+owner = VAN controller = VAN add_core = VAN remove_core = ROW
+owner = BYZ controller = BYZ add_core = BYZ remove_core = VAN
+owner = UMA controller = UMA add_core = UMA remove_core = MOO remove_core = BYZ capital = "Djerba"
+owner = TUN controller = TUN add_core = TUN remove_core = UMA
+owner = ABA controller = ABA add_core = ABA
+owner = TUN controller = TUN add_core = TUN remove_core = ABA
+religion = ibadi
+owner = FAT controller = FAT add_core = FAT
+owner = TUN controller = TUN add_core = TUN remove_core = FAT
+fort_15th = yes
+owner = MHD controller = MHD add_core = MHD
+owner = GBS controller = GBS add_core = GBS remove_core = MHD
+owner = SIC controller = SIC add_core = SIC
+owner = MOR controller = MOR add_core = MOR remove_core = SIC
+owner = TUN controller = TUN add_core = TUN
+owner = MOR controller = MOR
+owner = TUN add_core = TUN controller = TUN remove_core = MOR
+owner = SIC controller = SIC add_core = SIC
+owner = TUN add_core = TUN controller = TUN remove_core = SIC
+}
+
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1489.1.1 = { unrest = 4 } # Abu Zikriya Yahya overthrown by Abul Mumin
 1490.1.1 = { unrest = 0 } # Abu Yahya recaptures the power

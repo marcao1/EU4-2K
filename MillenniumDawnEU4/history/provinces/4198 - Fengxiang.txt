@@ -19,26 +19,48 @@ is_city = yes
 add_core = HND
 add_core = SHU
 
-9.1.10 = { owner = XIN controller = XIN add_core = XIN }
-23.10.5 = { owner = HND controller = HND remove_core = XIN }
-198.6.1 = { owner = WEI controller = WEI add_core = WEI remove_core = HND }
-266.2.4 = { owner = JIN controller = JIN add_core = JIN remove_core = WEI }
-304.1.1 = { owner = ZAO controller = ZAO add_core = ZAO remove_core = JIN }
-351.1.1 = { owner = QIN controller = QIN add_core = QIN remove_core = ZAO }
-431.1.1 = { owner = WEI controller = WEI add_core = WEI remove_core = QIN }
-557.1.1 = { owner = CZH controller = CZH add_core = CZH remove_core = WEI }
-581.3.4 = { owner = SUI controller = SUI add_core = SUI remove_core = CZH }
-617.12.18 = { owner = TNG controller = TNG add_core = TNG remove_core = SUI }
-907.6.1 = { owner = QIC controller = QIC add_core = QIC remove_core = TNG }
-924.1.1 = { owner = TNG controller = TNG add_core = TNG remove_core = QIC }
-936.1.11 = { owner = JIN controller = JIN add_core = JIN remove_core = TNG }
-947.1.1 = { owner = HND controller = HND add_core = HND remove_core = JIN }
-951.2.13 = { owner = CZH controller = CZH add_core = CZH remove_core = HND }
-960.1.1 = { owner = SNG controller = SNG add_core = SNG remove_core = CZH }
-1127.1.1 = { owner = CJN controller = CJN add_core = CJN remove_core = SNG }
-1234.1.1 = { owner = KHA controller = KHA add_core = KHA add_core = CSH remove_core = CJN }
-1271.1.1 = { owner = YUA controller = YUA add_core = YUA remove_core = KHA }
-1368.1.23 = { owner = MNG controller = MNG add_core = MNG remove_core = YUA }
+1444.11.11 = {
+owner = XIN controller = XIN add_core = XIN
+owner = HND controller = HND remove_core = XIN
+owner = WEI controller = WEI add_core = WEI remove_core = HND
+owner = JIN controller = JIN add_core = JIN remove_core = WEI
+owner = ZAO controller = ZAO add_core = ZAO remove_core = JIN
+owner = QIN controller = QIN add_core = QIN remove_core = ZAO
+owner = WEI controller = WEI add_core = WEI remove_core = QIN
+owner = CZH controller = CZH add_core = CZH remove_core = WEI
+owner = SUI controller = SUI add_core = SUI remove_core = CZH
+owner = TNG controller = TNG add_core = TNG remove_core = SUI
+owner = QIC controller = QIC add_core = QIC remove_core = TNG
+owner = TNG controller = TNG add_core = TNG remove_core = QIC
+owner = JIN controller = JIN add_core = JIN remove_core = TNG
+owner = HND controller = HND add_core = HND remove_core = JIN
+owner = CZH controller = CZH add_core = CZH remove_core = HND
+owner = SNG controller = SNG add_core = SNG remove_core = CZH
+owner = CJN controller = CJN add_core = CJN remove_core = SNG
+owner = KHA controller = KHA add_core = KHA add_core = CSH remove_core = CJN
+owner = YUA controller = YUA add_core = YUA remove_core = KHA
+owner = MNG controller = MNG add_core = MNG remove_core = YUA
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1644.1.1 = {
 	owner = CSH

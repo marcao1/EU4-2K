@@ -14,8 +14,8 @@ base_production = 1
 base_manpower = 1
 is_city = yes
 
-1375.1.1 = { 
-	owner = --- 
+1444.11.11 = {
+owner = --- 
 	controller = --- 
 	remove_core = HOH 
 	trade_goods = unknown
@@ -25,7 +25,8 @@ is_city = yes
 	is_city = no
 }
 
-1541.1.1 = { discovered_by = SPA } # Francisco Vásquez de Coronado
+
+1541.1.1 = { discovered_by = SPA } # Francisco Vï¿½squez de Coronado
 1731.1.1 = {
 	owner = SPA
 	controller = SPA

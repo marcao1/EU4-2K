@@ -18,23 +18,42 @@ base_manpower = 1
 is_city = yes
 add_core = WUH
 
-207.10.1 = { owner = WEI controller = WEI add_core = WEI add_core = WEI } #Battle of White Wolf Mountain
-240.1.1 = { fort_15th = yes }
-265.2.4 = { owner = JIN controller = JIN add_core = JIN remove_core = WEI }
-337.11.23 = { owner = YAN controller = YAN add_core = YAN remove_core = JIN }
-370.12.11 = { owner = QIN controller = QIN add_core = QIN }
-384.1.1 = { owner = YAN controller = YAN add_core = YAN remove_core = QIN }
-436.1.1 = { owner = WEI controller = WEI add_core = WEI remove_core = YAN }
-550.1.1 = { owner = KMX controller = KMX add_core = KMX remove_core = WEI }
-625.1.1 = { owner = TNG controller = TNG add_core = TNG }
-907.6.1 = { owner = LIO controller = LIO add_core = LIO remove_core = TNG }
-920.1.1 = { fort_15th = no }
-950.1.1 = { religion = mahayana }
-1115.1.1 = { owner = CJN controller = CJN add_core = CJN remove_core = LIO }
-1214.1.1 = { owner = KHA controller = KHA add_core = KHA add_core = CSH remove_core = CJN }
-1220.1.1 = { culture = chahar }
-1271.1.1 = { owner = YUA controller = YUA add_core = YUA remove_core = KHA }
-1368.1.23 = { owner = KRC controller = KRC add_core = KRC remove_core = YUA }
+1444.11.11 = {
+owner = WEI controller = WEI add_core = WEI add_core = WEI
+fort_15th = yes
+owner = JIN controller = JIN add_core = JIN remove_core = WEI
+owner = YAN controller = YAN add_core = YAN remove_core = JIN
+owner = QIN controller = QIN add_core = QIN
+owner = YAN controller = YAN add_core = YAN remove_core = QIN
+owner = WEI controller = WEI add_core = WEI remove_core = YAN
+owner = KMX controller = KMX add_core = KMX remove_core = WEI
+owner = TNG controller = TNG add_core = TNG
+owner = LIO controller = LIO add_core = LIO remove_core = TNG
+fort_15th = no
+religion = mahayana
+owner = CJN controller = CJN add_core = CJN remove_core = LIO
+owner = KHA controller = KHA add_core = KHA add_core = CSH remove_core = CJN
+culture = chahar
+owner = YUA controller = YUA add_core = YUA remove_core = KHA
+owner = KRC controller = KRC add_core = KRC remove_core = YUA
+}
+ #Battle of White Wolf Mountain
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1552.1.1 = {	owner = KHA
 		controller = KHA

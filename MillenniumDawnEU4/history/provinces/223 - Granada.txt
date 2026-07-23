@@ -20,30 +20,56 @@ base_manpower = 1
 capital = "Illiberis"
 is_city = yes
 
-320.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-409.1.1 = { owner = VAN controller = VAN add_core = VAN religion = arianism }
-425.1.1 = { owner = ROW controller = ROW remove_core = VAN }
-448.1.1 = { owner = EAL controller = EAL add_core = EAL }
-456.1.1 = { owner = GVI controller = GVI add_core = GVI remove_core = EAL }
-458.10.1 = { owner = ROW controller = ROW } #Battle of Arelate
-461.8.2 = { owner = GVI controller = GVI remove_core = ROW } #Assassination of Majorian
-500.1.1 = { base_tax = 3 base_production = 3 }
-552.1.1 = { owner = BYZ controller = BYZ add_core = BYZ religion = chalcedonism }
-620.1.1 = { owner = GVI controller = GVI remove_core = BYZ }
-700.1.1 = { base_manpower = 2 }
-711.1.1 = { owner = UMA controller = UMA add_core = UMA remove_core = GVI capital = "Granada" }
-740.1.1 = { religion = sunni fort_15th = yes }
-750.1.1 = { culture = andalucian }
-750.8.6 = { owner = CRD controller = CRD add_core = CRD remove_core = UMA }
-900.1.1 = { base_tax = 4 base_production = 4 }
-1000.1.1 = { base_manpower = 3 }
-1013.1.1 = { owner = GRA controller = GRA add_core = GRA remove_core = CRD }
-1090.1.1 = { owner = MOR controller = MOR add_core = MOR }
-1100.1.1 = { base_tax = 5 }
-1200.1.1 = { base_tax = 6 }
-1238.1.1 = { owner = GRA controller = GRA add_core = GRA remove_core = MOR fort_15th = no }
-1300.1.1 = { base_manpower = 4 }
+1444.11.11 = {
+religion = chalcedonism
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+owner = VAN controller = VAN add_core = VAN religion = arianism
+owner = ROW controller = ROW remove_core = VAN
+owner = EAL controller = EAL add_core = EAL
+owner = GVI controller = GVI add_core = GVI remove_core = EAL
+owner = ROW controller = ROW
+owner = GVI controller = GVI remove_core = ROW
+base_tax = 3 base_production = 3
+owner = BYZ controller = BYZ add_core = BYZ religion = chalcedonism
+owner = GVI controller = GVI remove_core = BYZ
+base_manpower = 2
+owner = UMA controller = UMA add_core = UMA remove_core = GVI capital = "Granada"
+religion = sunni fort_15th = yes
+culture = andalucian
+owner = CRD controller = CRD add_core = CRD remove_core = UMA
+base_tax = 4 base_production = 4
+base_manpower = 3
+owner = GRA controller = GRA add_core = GRA remove_core = CRD
+owner = MOR controller = MOR add_core = MOR
+base_tax = 5
+base_tax = 6
+owner = GRA controller = GRA add_core = GRA remove_core = MOR fort_15th = no
+base_manpower = 4
+}
+
+ # Final division of the empire
+
+
+
+
+ #Battle of Arelate
+ #Assassination of Majorian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1482.7.1 = { revolt = { type = revolutionary_rebels size = 2 } controller = REB } # While his father is absent becuase of the war, prince Boabdil stages a coup and the Kingdom of Granada is split in two halves, both at war with Castilla
 1484.5.1 = { revolt = {} controller = GRA } # Boabdil is captured by the christians and forced to a truce, Muhammad el Zagal returns to Granada and retakes power, extending the war with Castilla.

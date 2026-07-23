@@ -11,21 +11,36 @@ trade_goods = unknown
 base_manpower = 1
 capital = "Etkara"
 
-599.1.1 = { discovered_by = MUR discovered_by = MRY discovered_by = MA0 discovered_by = MES discovered_by = MRD }
-600.1.1 = { owner = MRD controller = MRD add_core = MRD is_city = yes trade_goods = livestock }
-800.1.1 = { discovered_by = eastern }
-900.1.1 = { base_tax = 2 base_production = 2 }
-1100.1.1 = { base_manpower = 2 }
-1200.1.1 = { discovered_by = western }
-1240.1.1 = { owner = KHA controller = KHA add_core = KHA }
-1250.1.1 = { culture = mishary religion = sunni }
-1260.1.1 = { owner = WHH controller = WHH add_core = WHH remove_core = KHA remove_core = VBU }
-1372.1.1 = { owner = BHO controller = BHO add_core = BHO }
-1374.1.1 = { owner = WHH controller = WHH remove_core = BHO }
-1378.1.1 = { owner = GLH controller = GLH add_core = GLH }
-1300.1.1 = { base_tax = 3 base_production = 3 }
+1444.11.11 = {
+discovered_by = MUR discovered_by = MRY discovered_by = MA0 discovered_by = MES discovered_by = MRD
+owner = MRD controller = MRD add_core = MRD is_city = yes trade_goods = livestock
+discovered_by = eastern
+base_tax = 2 base_production = 2
+base_manpower = 2
+discovered_by = western
+owner = KHA controller = KHA add_core = KHA
+culture = mishary religion = sunni
+owner = WHH controller = WHH add_core = WHH remove_core = KHA remove_core = VBU
+owner = BHO controller = BHO add_core = BHO
+owner = WHH controller = WHH remove_core = BHO
+owner = GLH controller = GLH add_core = GLH
+base_tax = 3 base_production = 3
+owner = GOL controller = GOL add_core = GOL remove_core = GLH
+}
 
-1442.1.1  = { owner = GOL controller = GOL add_core = GOL remove_core = GLH }
+
+
+
+
+
+
+
+
+
+
+
+
+
 1502.6.1  = { owner = CRI controller = CRI add_core = CRI remove_core = GOL } # Golden Horde destroyed by Crimea
 1572.8.2  = { owner = RUS controller = RUS add_core = RUS remove_core = CRI } # Battle of Molodi
 1650.1.1  = { culture = russian religion = orthodox }

@@ -18,24 +18,44 @@ base_manpower = 3
 is_city = yes
 add_core = XIO
 
-91.2.1 = { owner = XIB controller = XIB add_core = XIB remove_core = XIO }
-330.1.1 = { owner = ROU controller = ROU add_core = ROU remove_core = XIB }
-555.1.1 = { owner = GOK controller = GOK add_core = GOK remove_core = ROU }
-560.1.1 = { culture = tuvan }
-627.1.1 = { owner = XUE controller = XUE add_core = XUE }
-646.10.1 = { owner = UIG controller = UIG add_core = UIG remove_core = XUE }
-681.1.1 = { owner = GOK controller = GOK add_core = GOK }
-700.1.1 = { culture = oirats }
-744.1.1 = { owner = UIG controller = UIG add_core = UIG remove_core = GOK }
-745.1.1 = { religion = manichaeism }
-848.1.1 = { owner = NAI controller = NAI add_core = NAI remove_core = UIG }
-860.1.1 = { religion = nestorian }
-1204.1.1 = { owner = KMO controller = KMO add_core = KMO remove_core = NAI }
-1206.1.1 = { owner = KHA controller = KHA add_core = KHA remove_core = KMO }
-1240.1.1 = { religion = tengri_pagan_reformed }
-1271.1.1 = { owner = YUA controller = YUA add_core = YUA remove_core = KHA }
-1368.1.23 = { owner = KHA controller = KHA add_core = KHA remove_core = YUA }
-1399.1.1 = { owner = OIR controller = OIR add_core = OIR remove_core = KHA } # The Oirads united much of Mongolia
+1444.11.11 = {
+owner = XIB controller = XIB add_core = XIB remove_core = XIO
+owner = ROU controller = ROU add_core = ROU remove_core = XIB
+owner = GOK controller = GOK add_core = GOK remove_core = ROU
+culture = tuvan
+owner = XUE controller = XUE add_core = XUE
+owner = UIG controller = UIG add_core = UIG remove_core = XUE
+owner = GOK controller = GOK add_core = GOK
+culture = oirats
+owner = UIG controller = UIG add_core = UIG remove_core = GOK
+religion = manichaeism
+owner = NAI controller = NAI add_core = NAI remove_core = UIG
+religion = nestorian
+owner = KMO controller = KMO add_core = KMO remove_core = NAI
+owner = KHA controller = KHA add_core = KHA remove_core = KMO
+religion = tengri_pagan_reformed
+owner = YUA controller = YUA add_core = YUA remove_core = KHA
+owner = KHA controller = KHA add_core = KHA remove_core = YUA
+owner = OIR controller = OIR add_core = OIR remove_core = KHA
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ # The Oirads united much of Mongolia
 
 1552.1.1 = {	owner = KHA
 		controller = KHA

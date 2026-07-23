@@ -25,16 +25,28 @@ discovered_by = ottoman
 discovered_by = middle_eastern
 discovered_by = muslim
 
-330.1.1 = { religion = chalcedonism }
-340.1.1 = { culture = nubian }
-350.1.1 = { owner = BLE controller = BLE add_core = BLE remove_core = MEO }
-425.1.1 = { owner = NOB controller = NOB add_core = NOB remove_core = BLE }
-451.11.1 = { religion = coptic }
-680.1.1 = { capital = "Qasr Ibrim" }
-701.1.1 = { owner = MAK controller = MAK add_core = MAK remove_core = NOB }
-1276.1.1 = { owner = MAM controller = MAM add_core = MAM }
-1286.1.1 = { owner = MAK controller = MAK }
-1300.1.1 = { religion = sunni }
+1444.11.11 = {
+religion = chalcedonism
+culture = nubian
+owner = BLE controller = BLE add_core = BLE remove_core = MEO
+owner = NOB controller = NOB add_core = NOB remove_core = BLE
+religion = coptic
+capital = "Qasr Ibrim"
+owner = MAK controller = MAK add_core = MAK remove_core = NOB
+owner = MAM controller = MAM add_core = MAM
+owner = MAK controller = MAK
+religion = sunni
+}
+
+
+
+
+
+
+
+
+
+
 
 1484.1.1 = {
 	owner = ABB

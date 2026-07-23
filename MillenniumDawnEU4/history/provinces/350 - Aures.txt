@@ -17,14 +17,24 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-400.1.1 = { discovered_by = VAN }
-430.1.1 = { owner = ATV controller = ATV add_core = ATV remove_core = GAE }
-578.1.1 = { owner = OUA controller = OUA add_core = OUA remove_core = ATV }
-660.1.1 = { owner = AUR controller = AUR add_core = AUR remove_core = OUA }
-702.1.1 = { owner = MZB controller = MZB add_core = MZB remove_core = TGT }
-777.1.1 = { religion = ibadi }
-800.1.1 = { discovered_by = western }
-1100.1.1 = { culture = algerian }
+1444.11.11 = {
+discovered_by = VAN
+owner = ATV controller = ATV add_core = ATV remove_core = GAE
+owner = OUA controller = OUA add_core = OUA remove_core = ATV
+owner = AUR controller = AUR add_core = AUR remove_core = OUA
+owner = MZB controller = MZB add_core = MZB remove_core = TGT
+religion = ibadi
+discovered_by = western
+culture = algerian
+}
+
+
+
+
+
+
+
+
 
 1785.1.1 = { base_tax = 2 }
 1845.1.1 = { base_tax = 3 }

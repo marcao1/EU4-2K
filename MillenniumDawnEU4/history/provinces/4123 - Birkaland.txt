@@ -7,15 +7,21 @@ base_tax = 1
 base_production = 1
 trade_goods = unknown
 base_manpower = 1
-capital = "Messukylä"
+capital = "Messukylï¿½"
 native_hostileness = 3
 native_size = 10
 native_ferocity = 2
 
-749.1.1 = { discovered_by = KKS discovered_by = TAV discovered_by = SMI }
-750.1.1 = { owner = TAV controller = TAV add_core = TAV is_city = yes trade_goods = fur }
-1100.1.1 = { discovered_by = western discovered_by = eastern }
-1239.1.1 = { owner = SWE controller = SWE add_core = SWE add_core = FIN remove_core = TAV religion = catholic }
+1444.11.11 = {
+discovered_by = KKS discovered_by = TAV discovered_by = SMI
+owner = TAV controller = TAV add_core = TAV is_city = yes trade_goods = fur
+discovered_by = western discovered_by = eastern
+owner = SWE controller = SWE add_core = SWE add_core = FIN remove_core = TAV religion = catholic
+}
+
+
+
+
 
 1527.6.1 = { religion = protestant }
 1596.11.1 = { revolt = { type = anti_tax_rebels size = 1 } controller = REB }
@@ -26,7 +32,7 @@ native_ferocity = 2
 1713.10.6 = { controller = RUS } # The Great Nordic War-Captured by Apraksin
 1721.8.30 = { controller = SWE } # The Peace of Nystad
 1742.10.30 = { controller = RUS } # The War of the Hats-Estimated date
-1743.8.7 = { controller = SWE } # The Peace of Åbo
+1743.8.7 = { controller = SWE } # The Peace of ï¿½bo
 1779.1.1 = { capital "Tammerfors" }
 1808.2.21 = { controller = RUS } # Conquered by Friedrich Wilhelm von Buxhoevden
 1809.9.17 = {

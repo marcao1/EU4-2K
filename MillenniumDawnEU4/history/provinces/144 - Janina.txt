@@ -20,26 +20,46 @@ base_manpower = 1
 is_city = yes
 add_core = ROM
 
-360.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-867.1.1 = { religion = orthodox }
-879.1.1 = { capital = "Ioannina" }
-920.1.1 = { controller = BUL }
-922.1.1 = { controller = BYZ }
-977.1.1 = { controller = BUL }
-983.1.1 = { controller = BYZ }
-996.1.1 = { controller = BUL }
-997.1.1 = { controller = BYZ }
-1082.1.1 = { controller = SIC }
-1085.7.15 = { controller = BYZ }
-1204.1.1 = { owner = EPI controller = EPI add_core = EPI }
-1224.1.1 = { owner = THS controller = THS add_core = THS }
-1230.1.1 = { owner = EPI controller = EPI remove_core = THS }
-1348.1.1 = { owner = SER controller = SER add_core = SER }
-1356.1.1 = { owner = EPI controller = EPI remove_core = SER }
-1395.1.1 = { add_core = TUR }
+1444.11.11 = {
+religion = chalcedonism
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+religion = orthodox
+capital = "Ioannina"
+controller = BUL
+controller = BYZ
+controller = BUL
+controller = BYZ
+controller = BUL
+controller = BYZ
+controller = SIC
+controller = BYZ
+owner = EPI controller = EPI add_core = EPI
+owner = THS controller = THS add_core = THS
+owner = EPI controller = EPI remove_core = THS
+owner = SER controller = SER add_core = SER
+owner = EPI controller = EPI remove_core = SER
+add_core = TUR
+owner = TUR add_core = TUR controller = TUR capital = "Janina"
+}
 
-1430.1.1 = { owner = TUR add_core = TUR controller = TUR capital = "Janina" }
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 1502.1.1 = { remove_core = BYZ remove_core = EPI }
 1555.1.1 = { unrest = 5 } # General discontent against the Janissaries' dominance
 1556.1.1 = { unrest = 0 }

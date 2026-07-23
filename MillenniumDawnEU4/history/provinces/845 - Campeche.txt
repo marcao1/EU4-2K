@@ -14,10 +14,14 @@ base_manpower = 1
 is_city = yes
 add_core = CLK
 
-987.1.1 = { owner = MAY controller = MAY add_core = MAY remove_core = CLK capital = "Campeche" }
-1441.1.1 = { owner = CNP controller = CNP add_core = CNP }
+1444.11.11 = {
+owner = MAY controller = MAY add_core = MAY remove_core = CLK capital = "Campeche"
+owner = CNP controller = CNP add_core = CNP
+}
 
-1519.1.1  = { discovered_by = SPA } # Hernán Cortés 
+
+
+1519.1.1  = { discovered_by = SPA } # Hernï¿½n Cortï¿½s 
 1542.1.23 = {	
 	owner = SPA
 	controller = SPA

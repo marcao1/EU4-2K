@@ -20,23 +20,40 @@ base_tax = 1
 base_production = 1
 base_manpower = 2
 
-395.1.1 = { owner = MRM controller = MRM add_core = MRM remove_core = QUA culture = bavarian }
-454.1.1 = { owner = HER controller = HER add_core = HER remove_core = MRM }
-500.1.1 = { base_tax = 2 base_production = 2 }
-509.1.1 = { owner = LOM controller = LOM add_core = LOM remove_core = HER culture = langobardi }
-569.1.1 = { owner = MVA controller = MVA add_core = MVA remove_core = LOM culture = czech religion = slavic }
-623.1.1 = { owner = SAZ controller = SAZ add_core = SAZ }
-659.1.1 = { owner = MVA controller = MVA remove_core = SAZ }
-700.1.1 = { base_tax = 3 base_production = 3 }
-831.1.1 = { religion = chalcedonism }
-867.1.1 = { religion = catholic }
-907.1.1 = { owner = BOH controller = BOH add_core = BOH }
-962.2.2 = { hre = yes }
-999.1.1 = { owner = POL controller = POL add_core = POL }
-1019.1.1 = { owner = BOH controller = BOH remove_core = POL }
+1444.11.11 = {
+owner = MRM controller = MRM add_core = MRM remove_core = QUA culture = bavarian
+owner = HER controller = HER add_core = HER remove_core = MRM
+base_tax = 2 base_production = 2
+owner = LOM controller = LOM add_core = LOM remove_core = HER culture = langobardi
+owner = MVA controller = MVA add_core = MVA remove_core = LOM culture = czech religion = slavic
+owner = SAZ controller = SAZ add_core = SAZ
+owner = MVA controller = MVA remove_core = SAZ
+base_tax = 3 base_production = 3
+religion = chalcedonism
+religion = catholic
+owner = BOH controller = BOH add_core = BOH
+hre = yes
+owner = POL controller = POL add_core = POL
+owner = BOH controller = BOH remove_core = POL
+revolt = { type = heretic_rebels size = 2 } controller = REB religion = hussite
+revolt = {} controller = BOH
+}
 
-1419.12.1 = { revolt = { type = heretic_rebels size = 2 } controller = REB religion = hussite } # Hussite Wars, Battle of Nekmir
-1436.7.5 = { revolt = {} controller = BOH } # Peace is signed in Jihlava
+
+
+
+
+
+
+
+
+
+
+
+
+
+ # Hussite Wars, Battle of Nekmir
+ # Peace is signed in Jihlava
 1457.1.1 = { unrest = 5 } # George of Podiebrand had to secure recognition from the German and Catholic towns
 1464.1.1 = { unrest = 1 } # The Catholic nobility is still undermines the crown.
 1471.1.1 = { unrest = 0 }

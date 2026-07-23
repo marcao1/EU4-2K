@@ -15,10 +15,16 @@ is_city = yes
 add_local_autonomy = 25
 add_core = NAR
 
-820.1.1 = { owner = TIK controller = TIK add_core = TIK capital = "Moran" }
-850.1.1 = { base_tax = 2 base_production = 2 }
-987.1.1 = { owner = MAY controller = MAY add_core = MAY remove_core = TIK }
-1194.1.1 = { owner = CTM controller = CTM add_core = CTM remove_core = MAY }
+1444.11.11 = {
+owner = TIK controller = TIK add_core = TIK capital = "Moran"
+base_tax = 2 base_production = 2
+owner = MAY controller = MAY add_core = MAY remove_core = TIK
+owner = CTM controller = CTM add_core = CTM remove_core = MAY
+}
+
+
+
+
 
 1450.1.1 = { 
 	owner = ITZ

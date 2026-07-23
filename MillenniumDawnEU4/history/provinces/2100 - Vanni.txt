@@ -21,23 +21,30 @@ base_manpower = 1
 is_city = yes
 add_core = RAJ
 
-993.1.1 = { owner = CLS controller = CLS add_core = CLS }
-1000.1.1 = { culture = tamil }
-1070.1.1 = { owner = RAJ controller = RAJ remove_core = CLS }
-1100.1.1 = { base_production = 3 }
-1215.1.1 = { owner = JFN controller = JFN add_core = JFN remove_core = RAJ religion = hinduism }
-1255.1.1 = { owner = LIG controller = LIG add_core = LIG }
-1263.1.1 = { owner = PND controller = PND add_core = PND remove_core = LIG }
-1277.1.1 = { owner = JFN controller = JFN add_core = JFN remove_core = PND }
-
-1411.1.1 = {
-	owner = CEY
+1444.11.11 = {
+owner = CLS controller = CLS add_core = CLS
+culture = tamil
+owner = RAJ controller = RAJ remove_core = CLS
+base_production = 3
+owner = JFN controller = JFN add_core = JFN remove_core = RAJ religion = hinduism
+owner = LIG controller = LIG add_core = LIG
+owner = PND controller = PND add_core = PND remove_core = LIG
+owner = JFN controller = JFN add_core = JFN remove_core = PND
+owner = CEY
 	controller = CEY
-}	#Sangamas expelled by Zheng He
-1432.1.1 = {
-	owner = JFN
+owner = JFN
 	controller = JFN
-}	#Reconquest by Vijayanagar
+}
+
+
+
+
+
+
+
+
+	#Sangamas expelled by Zheng He
+	#Reconquest by Vijayanagar
 1505.1.1 = { discovered_by = POR } # Francisco de Almeida
 1619.1.1 = {
 	owner = POR

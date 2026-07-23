@@ -18,9 +18,14 @@ base_manpower = 2
 is_city = yes
 add_core = SST
 
-620.1.1 = { owner = HSI controller = HSI add_core = HSI remove_core = SST }
-1050.1.1 = { religion = buddhism }
-1200.1.1 = { base_tax = 3 base_production = 3 }
+1444.11.11 = {
+owner = HSI controller = HSI add_core = HSI remove_core = SST
+religion = buddhism
+base_tax = 3 base_production = 3
+}
+
+
+
 
 1527.1.1 = {
 	controller = SST

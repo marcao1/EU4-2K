@@ -14,14 +14,13 @@ native_size = 5
 native_ferocity = 2
 native_hostileness = 1
 
-375.1.1 = { 
-		owner = TWN
+1444.11.11 = {
+owner = TWN
 		controller = TWN
 		add_core = TWN
 		is_city = yes
 		trade_goods = copper
-	  }
-1000.1.1 = { 	owner = XXX
+owner = XXX
 		controller = XXX
 		remove_core = TWN
 		citysize = 0
@@ -29,7 +28,9 @@ native_hostileness = 1
 		native_size = 10
 		native_ferocity = 1
 		native_hostileness = 1
-	   }
+}
+
+
 
 1477.1.1 = {
 	owner = INC

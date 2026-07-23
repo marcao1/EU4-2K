@@ -20,15 +20,26 @@ discovered_by = middle_eastern
 discovered_by = muslim
 discovered_by = east_african
 
-60.1.1 = { owner = AKS controller = AKS add_core = AKS }
-400.1.1 = { religion = chalcedonism }
-451.11.1 = { religion = coptic }
-702.1.1 = { owner = UMA controller = UMA add_core = UMA }
-740.1.1 = { religion = sunni culture = yemeni_culture }
-750.8.6 = { owner = ABA controller = ABA add_core = ABA remove_core = UMA }
-800.1.1 = { owner = AKS controller = AKS add_core = AKS remove_core = ABA }
-900.1.1 = { owner = YEM controller = YEM add_core = YEM remove_core = AKS }
-1061.1.1 = { owner = DHL controller = DHL add_core = DHL remove_core = YEM }
+1444.11.11 = {
+owner = AKS controller = AKS add_core = AKS
+religion = chalcedonism
+religion = coptic
+owner = UMA controller = UMA add_core = UMA
+religion = sunni culture = yemeni_culture
+owner = ABA controller = ABA add_core = ABA remove_core = UMA
+owner = AKS controller = AKS add_core = AKS remove_core = ABA
+owner = YEM controller = YEM add_core = YEM remove_core = AKS
+owner = DHL controller = DHL add_core = DHL remove_core = YEM
+}
+
+
+
+
+
+
+
+
+
 
 1499.1.1 = { discovered_by = POR }
 1500.1.1 = { discovered_by = TUR }

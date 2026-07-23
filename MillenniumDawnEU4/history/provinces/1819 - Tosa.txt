@@ -16,16 +16,28 @@ base_manpower = 3
 is_city = yes
 add_core = SHK
 
-580.1.1 = { owner = YAM controller = YAM add_core = YAM remove_core = SHK }
-607.1.1 = { religion = mahayana }
-712.1.1 = { religion = shinto }
-794.1.1 = { owner = JAP controller = JAP add_core = JAP remove_core = YAM }
-1160.2.5 = { owner = KMK controller = KMK add_core = KMK remove_core = JAP } #Heiji Rebellion
-1185.6.19 = { owner = AMA controller = AMA add_core = AMA remove_core = KMK } #Genpei War
-1221.5.14 = { owner = HJO controller = HJO add_core = HJO } #Jokyu War
-1333.5.18 = { owner = JAP controller = JAP add_core = JAP remove_core = HJO } #Kenmu restoration
-1338.2.23 = { owner = YAM controller = YAM add_core = YAM remove_core = JAP } #Southern Court
-1392.8.11 = { owner = HSK controller = HSK add_core = HSK remove_core = YAM } #Re-unification of imperial courts
+1444.11.11 = {
+owner = YAM controller = YAM add_core = YAM remove_core = SHK
+religion = mahayana
+religion = shinto
+owner = JAP controller = JAP add_core = JAP remove_core = YAM
+owner = KMK controller = KMK add_core = KMK remove_core = JAP
+owner = AMA controller = AMA add_core = AMA remove_core = KMK
+owner = HJO controller = HJO add_core = HJO
+owner = JAP controller = JAP add_core = JAP remove_core = HJO
+owner = YAM controller = YAM add_core = YAM remove_core = JAP
+owner = HSK controller = HSK add_core = HSK remove_core = YAM
+}
+
+
+
+
+ #Heiji Rebellion
+ #Genpei War
+ #Jokyu War
+ #Kenmu restoration
+ #Southern Court
+ #Re-unification of imperial courts
 
 1490.1.1 = { add_core = CSK }
 1542.1.1 = { discovered_by = POR }

@@ -10,13 +10,22 @@ base_manpower = 1
 capital = "Soroka"
 center_of_trade = 2
 
-749.1.1 = { discovered_by = KKS discovered_by = VEP discovered_by = BJA discovered_by = SMY }
-750.1.1 = { owner = KRL controller = KRL add_core = KRL is_city = yes trade_goods = fur }
-900.1.1 = { discovered_by = eastern }
-1000.1.1 = { discovered_by = western }
-1150.1.1 = { owner = NOV controller = NOV add_core = NOV remove_core = KRL }
-1180.1.1 = { culture = novgorodian }
-1200.1.1 = { base_tax = 2 base_production = 2 religion = orthodox discovered_by = nomad_group }
+1444.11.11 = {
+discovered_by = KKS discovered_by = VEP discovered_by = BJA discovered_by = SMY
+owner = KRL controller = KRL add_core = KRL is_city = yes trade_goods = fur
+discovered_by = eastern
+discovered_by = western
+owner = NOV controller = NOV add_core = NOV remove_core = KRL
+culture = novgorodian
+base_tax = 2 base_production = 2 religion = orthodox discovered_by = nomad_group
+}
+
+
+
+
+
+
+
 
 1478.1.15 = { owner = MOS controller = MOS add_core = MOS remove_core = NOV } # Passed to Muscovy with the rest of Novgorod republic
 1503.4.1  = { owner = RUS controller = RUS add_core = RUS remove_core = MOS }

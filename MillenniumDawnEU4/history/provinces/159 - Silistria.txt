@@ -24,18 +24,33 @@ is_city = yes
 add_core = ROM
 
 #Durostolon at split
-388.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-680.1.1 = { owner = BUL controller = BUL add_core = BUL culture = bulgar }
-864.1.1 = { culture = bulgarian }
-867.1.1 = { religion = orthodox }
-969.1.1 = { controller = KRU }
-971.1.1 = { owner = BYZ controller = BYZ capital = "Theodoropolis" }
-976.1.1 = { owner = BUL controller = BUL }
-1000.1.1 = { base_manpower = 2 }
-1001.1.1 = { owner = BYZ controller = BYZ }
-1185.1.1 = { owner = BUL controller = BUL capital = "Silistra" }
-1396.1.1 = { owner = TUR controller = TUR add_core = TUR remove_core = BYZ }
+
+1444.11.11 = {
+religion = chalcedonism
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+owner = BUL controller = BUL add_core = BUL culture = bulgar
+culture = bulgarian
+religion = orthodox
+controller = KRU
+owner = BYZ controller = BYZ capital = "Theodoropolis"
+owner = BUL controller = BUL
+base_manpower = 2
+owner = BYZ controller = BYZ
+owner = BUL controller = BUL capital = "Silistra"
+owner = TUR controller = TUR add_core = TUR remove_core = BYZ
+}
+
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
 
 1481.6.1  = { unrest = 6 } # Civil war, Bayezid & Jem
 1482.7.26 = { unrest = 0 } # Jem escapes to Rhodes

@@ -20,19 +20,32 @@ base_manpower = 2
 is_city = yes
 add_core = ROM
 
-380.1.1 = { religion = chalcedonism }
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-600.1.1 = { culture = greek }
-867.1.1  = { religion = orthodox }
-1100.1.1 = { base_tax = 3 base_production = 3 }
-1092.1.1 = { owner = RUM controller = RUM add_core = RUM capital = "Burdur" }
-1211.1.1 = { culture = turkish religion = sunni remove_core = BYZ }
-1307.1.1 = { owner = HMD controller = HMD add_core = HMD remove_core = RUM }
-1391.1.1 = { owner = TUR controller = TUR add_core = TUR }
-1402.7.20 = { owner = HMD controller = HMD } #Lost after battle of Ankara
-1423.1.1 = { owner = TUR controller = TUR }
+1444.11.11 = {
+religion = chalcedonism
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+culture = greek
+religion = orthodox
+base_tax = 3 base_production = 3
+owner = RUM controller = RUM add_core = RUM capital = "Burdur"
+culture = turkish religion = sunni remove_core = BYZ
+owner = HMD controller = HMD add_core = HMD remove_core = RUM
+owner = TUR controller = TUR add_core = TUR
+owner = HMD controller = HMD
+owner = TUR controller = TUR
+owner = TUR add_core = TUR controller = TUR
+}
 
-1420.1.1 = { owner = TUR add_core = TUR controller = TUR } # Incorporated into the Ottoman Empire
+ # Final division of the empire
+
+
+
+
+
+
+
+ #Lost after battle of Ankara
+
+ # Incorporated into the Ottoman Empire
 1481.6.1 = { revolt = { type = pretender_rebels size = 0 } controller = REB } # Civil war, Bayezid & Jem
 1482.7.26 = { revolt = {} controller = TUR } # Jem escapes to Rhodes
 1509.1.1 = { revolt = { type = revolutionary_rebels size = 0 } controller = REB } # Civil war

@@ -22,22 +22,40 @@ base_manpower = 2
 is_city = yes
 add_core = BAL
 
-300.1.1 = { owner = ERS controller = ERS add_core = ERS }
-636.1.1 = { owner = SND controller = SND add_core = SND remove_core = ERS }
-652.1.1 = { owner = RSD controller = RSD add_core = RSD remove_core = SND capital = "Kharan" }
-661.7.28 = { owner = UMA controller = UMA add_core = UMA remove_core = RSD }
-740.1.1 = { religion = sunni }
-750.8.6 = { owner = ABA controller = ABA add_core = ABA remove_core = UMA }
-820.1.1 = { owner = BAL controller = BAL add_core = BAL religion = ibadi } #Overrun by Kharijites
-861.1.1 = { remove_core = ABA }
-867.1.1 = { owner = SIS controller = SIS add_core = SIS }
-910.1.1 = { owner = BAL controller = BAL add_core = BAL remove_core = SIS }
-1188.1.1 = { owner = GHU controller = GHU add_core = GHU }
-1210.1.1 = { religion = sunni }
-1206.1.1 = { owner = BAL controller = BAL remove_core = GHU }
-1231.1.1 = { owner = KHA controller = KHA add_core = KHA }
-1260.1.1 = { owner = ILK controller = ILK add_core = ILK remove_core = KHA }
-1335.1.1 = { owner = BAL controller = BAL remove_core = ILK }
+1444.11.11 = {
+owner = ERS controller = ERS add_core = ERS
+owner = SND controller = SND add_core = SND remove_core = ERS
+owner = RSD controller = RSD add_core = RSD remove_core = SND capital = "Kharan"
+owner = UMA controller = UMA add_core = UMA remove_core = RSD
+religion = sunni
+owner = ABA controller = ABA add_core = ABA remove_core = UMA
+owner = BAL controller = BAL add_core = BAL religion = ibadi
+remove_core = ABA
+owner = SIS controller = SIS add_core = SIS
+owner = BAL controller = BAL add_core = BAL remove_core = SIS
+owner = GHU controller = GHU add_core = GHU
+religion = sunni
+owner = BAL controller = BAL remove_core = GHU
+owner = KHA controller = KHA add_core = KHA
+owner = ILK controller = ILK add_core = ILK remove_core = KHA
+owner = BAL controller = BAL remove_core = ILK
+}
+
+
+
+
+
+
+ #Overrun by Kharijites
+
+
+
+
+
+
+
+
+
 
 1649.1.1 = { controller = PER }
 1650.1.1 = { owner = PER }

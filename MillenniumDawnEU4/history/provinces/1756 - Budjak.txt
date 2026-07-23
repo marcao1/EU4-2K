@@ -23,37 +23,61 @@ trade_goods = wool
 base_manpower = 1
 add_core = DAC
 
-2.1.1 = {
-		add_permanent_province_modifier = {
+1444.11.11 = {
+add_permanent_province_modifier = {
 			name = danube_estuary_modifier
 			duration = -1
 		}
+owner = ROM controller = ROM add_core = ROM
+remove_core = DAC
+owner = HNS controller = HNS add_core = HNS religion = tengri_pagan_reformed
+remove_core = ROM add_core = BYZ
+owner = BYZ controller = BYZ remove_core = HNS
+owner = AVR controller = AVR add_core = AVR remove_core = BYZ
+owner = KTR controller = KTR add_core = KTR remove_core = AVR culture = bulgar
+base_tax = 2 base_production = 2
+owner = BUL controller = BUL add_core = BUL remove_core = KTR
+base_manpower = 2
+religion = chalcedonism culture = bulgarian
+religion = orthodox
+capital = "Tigheci" culture = romanian
+owner = PEC controller = PEC add_core = PEC remove_core = HUN
+base_tax = 3 base_production = 3
+owner = CUM controller = CUM add_core = CUM remove_core = PEC
+base_tax = 4 base_production = 4
+owner = BUL controller = BUL add_core = BUL remove_core = CUM
+base_tax = 5
+fort_15th = yes
+owner = KHA controller = KHA add_core = KHA remove_core = BUL
+owner = WHH controller = WHH add_core = WHH remove_core = KHA
+capital = "Kilia"
+owner = MOL controller = MOL add_core = MOL remove_core = WHH
 }
 
-106.1.1 = { owner = ROM controller = ROM add_core = ROM }
-160.1.1 = { remove_core = DAC }
-370.1.1 = { owner = HNS controller = HNS add_core = HNS religion = tengri_pagan_reformed }
-395.1.17 = { remove_core = ROM add_core = BYZ } # Final division of the empire
-469.1.1 = { owner = BYZ controller = BYZ remove_core = HNS }
-558.1.1 = { owner = AVR controller = AVR add_core = AVR remove_core = BYZ }
-567.1.1 = { owner = KTR controller = KTR add_core = KTR remove_core = AVR culture = bulgar }
-600.1.1 = { base_tax = 2 base_production = 2 }
-632.1.1 = { owner = BUL controller = BUL add_core = BUL remove_core = KTR }
-800.1.1 = { base_manpower = 2 }
-864.1.1 = { religion = chalcedonism culture = bulgarian }
-867.1.1 = { religion = orthodox }
-900.1.1 = { capital = "Tigheci" culture = romanian }
-969.1.1 = { owner = PEC controller = PEC add_core = PEC remove_core = HUN }
-1000.1.1 = { base_tax = 3 base_production = 3 }
-1094.1.1 = { owner = CUM controller = CUM add_core = CUM remove_core = PEC }
-1100.1.1 = { base_tax = 4 base_production = 4 }
-1185.1.1 = { owner = BUL controller = BUL add_core = BUL remove_core = CUM }
-1200.1.1 = { base_tax = 5 }
-1230.1.1 = { fort_15th = yes }
-1242.1.1 = { owner = KHA controller = KHA add_core = KHA remove_core = BUL }
-1260.1.1 = { owner = WHH controller = WHH add_core = WHH remove_core = KHA }
-1330.1.1 = { capital = "Kilia" }
-1346.1.1 = { owner = MOL controller = MOL add_core = MOL remove_core = WHH }
+
+
+
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1472.1.1  = { owner = TUR controller = TUR add_core = TUR } # Turkish invasion
 1593.1.1  = { add_core = WAL } # Ruled by Michael the brave

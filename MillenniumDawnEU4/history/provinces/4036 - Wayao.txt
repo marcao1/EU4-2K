@@ -14,7 +14,10 @@ native_hostileness = 9
 discovered_by = east_african
 discovered_by = central_african
 
-300.1.1 = { culture = makua }
+1444.11.11 = {
+culture = makua
+}
+
 1710.1.1 = { discovered_by = OMA }
 1730.1.1 = {
 	owner = MKU

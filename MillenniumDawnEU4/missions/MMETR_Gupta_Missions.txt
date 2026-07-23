@@ -287,7 +287,7 @@ gupta_missions_2 = {
 		position = 1
 		trigger = {
 			prestige = 50
-			has_institution = organized_religion
+			always = yes
 			religion = hinduism
 		}
 		effect = {

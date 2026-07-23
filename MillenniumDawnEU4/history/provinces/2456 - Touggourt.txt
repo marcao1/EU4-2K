@@ -17,12 +17,20 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 
-430.1.1    = { owner = AUR controller = AUR add_core = AUR remove_core = GAE }
-550.1.1    = { religion = chalcedonism }
-702.1.1    = { religion = sunni }
-777.1.1    = { owner = MZB controller = MZB add_core = MZB }
-909.1.1    = { owner = TGT controller = TGT add_core = TGT remove_core = MZB }
-1100.1.1   = { culture = algerian }
+1444.11.11 = {
+owner = AUR controller = AUR add_core = AUR remove_core = GAE
+religion = chalcedonism
+religion = sunni
+owner = MZB controller = MZB add_core = MZB
+owner = TGT controller = TGT add_core = TGT remove_core = MZB
+culture = algerian
+}
+
+
+
+
+
+
 
 1825.1.1 = { base_tax = 2 }
 1860.1.1   = {  owner = FRA controller = FRA add_core = FRA add_core = ALG } # Conquered by France

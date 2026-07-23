@@ -28,28 +28,52 @@ is_city = yes
 add_core = ROM
 center_of_trade = 2
 
-395.1.17 = { controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM } # Final division of the empire
-420.1.1 = { religion = chalcedonism }
-451.11.1 = { religion = coptic }
-500.1.1 = { base_manpower = 4 }
-600.1.1 = { base_manpower = 5 }
-618.1.1 = { controller = ERS }
-628.1.1 = { controller = BYZ }
-641.1.1 = { owner = RSD controller = RSD add_core = RSD remove_core = BYZ capital = "Fustat" fort_15th = yes }
-661.7.28 = { owner = UMA controller = UMA add_core = UMA remove_core = RSD }
-700.1.1 = { base_tax = 6 base_production = 6 }
-750.8.6 = { owner = ABA controller = ABA add_core = ABA remove_core = UMA }
-800.1.1 = { base_tax = 7 base_production = 7 }
-830.1.1 = { religion = sunni culture = al_misr_arabic }
-868.9.15 = { owner = EGY controller = EGY add_core = EGY remove_core = ABA capital = "Al-Qatta'i" }
-900.1.1 = { base_tax = 8 base_production = 8 }
-905.1.10 = { owner = ABA controller = ABA add_core = ABA capital = "Fustat" }
-935.8.26 = { owner = EGY controller = EGY add_core = EGY remove_core = ABA }
-969.6.1 = { owner = FAT controller = FAT add_core = FAT capital = "Cairo" }
-1000.1.1 = { base_manpower = 6 }
-1100.1.1 = { base_tax = 9 base_production = 9 }
-1171.1.1 = { owner = EGY controller = EGY add_core = EGY remove_core = FAT }
-1250.5.2 = { owner = MAM controller = MAM add_core = MAM remove_core = EGY }
+1444.11.11 = {
+controller = BYZ owner = BYZ add_core = BYZ remove_core = ROM
+religion = chalcedonism
+religion = coptic
+base_manpower = 4
+base_manpower = 5
+controller = ERS
+controller = BYZ
+owner = RSD controller = RSD add_core = RSD remove_core = BYZ capital = "Fustat" fort_15th = yes
+owner = UMA controller = UMA add_core = UMA remove_core = RSD
+base_tax = 6 base_production = 6
+owner = ABA controller = ABA add_core = ABA remove_core = UMA
+base_tax = 7 base_production = 7
+religion = sunni culture = al_misr_arabic
+owner = EGY controller = EGY add_core = EGY remove_core = ABA capital = "Al-Qatta'i"
+base_tax = 8 base_production = 8
+owner = ABA controller = ABA add_core = ABA capital = "Fustat"
+owner = EGY controller = EGY add_core = EGY remove_core = ABA
+owner = FAT controller = FAT add_core = FAT capital = "Cairo"
+base_manpower = 6
+base_tax = 9 base_production = 9
+owner = EGY controller = EGY add_core = EGY remove_core = FAT
+owner = MAM controller = MAM add_core = MAM remove_core = EGY
+}
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 1517.1.1 = {	owner = TUR
 	controller = TUR

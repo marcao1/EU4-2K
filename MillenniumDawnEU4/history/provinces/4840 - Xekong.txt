@@ -17,13 +17,22 @@ native_size = 30
 native_ferocity = 1
 native_hostileness = 5
 
-550.1.1 = { owner = KTN controller = KTN add_core = KTN is_city = yes trade_goods = ivory }
-700.1.1 = { base_tax = 2 base_production = 2 }
-880.1.1 = { owner = KHM controller = KHM add_core = KHM }
-1050.1.1 = { owner = KTN controller = KTN add_core = KTN remove_core = KHM } #Tai migrations, decline of Khmer influence
-1185.1.1 = { owner = KHM controller = KHM add_core = KHM } #Conquests of Jayavarman
-1195.1.1 = { owner = KTN controller = KTN remove_core = KHM }
-1354.1.1 = { owner = LXA controller = LXA add_core = LXA culture = lao religion = satsana_phi }
+1444.11.11 = {
+owner = KTN controller = KTN add_core = KTN is_city = yes trade_goods = ivory
+base_tax = 2 base_production = 2
+owner = KHM controller = KHM add_core = KHM
+owner = KTN controller = KTN add_core = KTN remove_core = KHM
+owner = KHM controller = KHM add_core = KHM
+owner = KTN controller = KTN remove_core = KHM
+owner = LXA controller = LXA add_core = LXA culture = lao religion = satsana_phi
+}
+
+
+
+ #Tai migrations, decline of Khmer influence
+ #Conquests of Jayavarman
+
+
 
 1483.1.1 = { add_core = DAI } # Vietnamese Invasion
 1535.1.1 = { discovered_by = POR }

@@ -20,19 +20,34 @@ capital = "Anderitum"
 is_city = yes
 add_core = KEN
 
-20.1.1 = { owner = CTV controller = CTV add_core = CTV }
-43.1.1 = { owner = ROM controller = ROM add_core = ROM remove_core = CTV }
-395.1.17 = { controller = ROW owner = ROW add_core = ROW remove_core = ROM } # Final division of the empire
-420.1.1 = { owner = SSX controller = SSX add_core = SSX remove_core = ROW culture = anglo_saxon religion = germanic capital = "Hastings" }
-450.1.1 = { base_tax = 2 base_production = 2 }
-650.1.1 = { base_tax = 3 base_production = 3 }
-675.1.1 = { religion = chalcedonism }
-827.1.1 = { owner = WSX controller = WSX add_core = WSX }
-850.1.1 = { base_manpower = 2 }
-867.1.1 = { religion = catholic }
-927.1.1 = { owner = ENG controller = ENG add_core = ENG remove_core = WSX }
-1050.1.1 = { remove_core = SSX base_tax = 4 base_production = 4 }
-1066.12.25 = { culture = english }
+1444.11.11 = {
+owner = CTV controller = CTV add_core = CTV
+owner = ROM controller = ROM add_core = ROM remove_core = CTV
+controller = ROW owner = ROW add_core = ROW remove_core = ROM
+owner = SSX controller = SSX add_core = SSX remove_core = ROW culture = anglo_saxon religion = germanic capital = "Hastings"
+base_tax = 2 base_production = 2
+base_tax = 3 base_production = 3
+religion = chalcedonism
+owner = WSX controller = WSX add_core = WSX
+base_manpower = 2
+religion = catholic
+owner = ENG controller = ENG add_core = ENG remove_core = WSX
+remove_core = SSX base_tax = 4 base_production = 4
+culture = english
+}
+
+
+ # Final division of the empire
+
+
+
+
+
+
+
+
+
+
 
 1450.5.1 = { revolt = { type = anti_tax_rebels size = 2 } controller = REB } # Jack Cade's rebellion
 1450.7.12 = { revolt = {} controller = ENG }

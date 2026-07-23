@@ -2,7 +2,7 @@
 
 culture = dagomba
 religion = shamanism
-capital = "Sansanné Mango"
+capital = "Sansannï¿½ Mango"
 trade_goods = unknown
 hre = no
 discovered_by = sub_saharan
@@ -13,10 +13,13 @@ native_size = 60
 native_ferocity = 4.5
 native_hostileness = 9
 
-1250.1.1 = { owner = DGB controller = DGB add_core = DGB is_city = yes trade_goods = tropical_wood }
+1444.11.11 = {
+owner = DGB controller = DGB add_core = DGB is_city = yes trade_goods = tropical_wood
+}
+
 
 1880.1.1   = { discovered_by = western }
-1899.11.14 = { owner = GER controller = GER add_core = GER capital = "Sokodé" }
+1899.11.14 = { owner = GER controller = GER add_core = GER capital = "Sokodï¿½" }
 1919.6.28  = { owner = FR2 controller = FR2 add_core = FR2 remove_core = GER }
 1940.1.1   = {  discovered_by = eastern
 		discovered_by = muslim
