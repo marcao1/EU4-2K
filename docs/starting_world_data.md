@@ -50,12 +50,15 @@ Ordinary generation and checks treat existing CSVs as authoritative. Use `--rebu
 The first pass is deterministic and uses country technology region, explicit major-power overrides, owned development, manpower development, and coastal access. Technology capacity is deliberately separate from political stability: for example, Yugoslavia and Iraq may start unstable without being assigned medieval technology.
 
 The financial and reserve values are integrated into the generated country
-snapshots. Treasury uses ducats, manpower is converted from recorded people to
-EU4's thousands, and sailors use EU4's individual-sailor scale. Stability,
-prestige, inflation, corruption, and legitimacy or republican tradition are
-reset before the canonical value is applied, preventing EU4's automatic
-scenario defaults from being added a second time. Formation quantity remains
-the intended number of EU4 regiments or ships.
+snapshots. Starting treasury is inverse to total owned development: countries
+with at least 500 development receive 50 ducats, countries with 150-499 receive
+200, and countries below 150 receive 600. Treasury uses EU4's exact setter;
+this avoids the extreme negative balances caused by attempting to reset cash
+with a large negative additive effect. Manpower is converted from recorded
+people to EU4's thousands, and sailors use EU4's individual-sailor scale.
+Stability, prestige, inflation, corruption, and legitimacy or republican
+tradition are reset before the canonical value is applied. Formation quantity
+remains the intended number of EU4 regiments or ships.
 
 Economic and infrastructure tiers are also stored as stable country flags
 (`eu4_2k_economic_tier_1` through `_5` and
@@ -120,6 +123,7 @@ The non-mutating check rejects:
 - Missing or duplicate country setup records
 - Unknown country tags
 - Invalid technology, institution, financial, or tier fields
+- Starting treasury that does not match the 50/200/600 size rule
 - Diplomacy with inactive or self-referencing endpoints
 - Duplicate or inactive-at-start relationships
 - Malformed organization membership

@@ -20,7 +20,7 @@ Step 3 canonical inputs are now established for all 188 active countries: countr
 
 Province development is gameplay-balanced for the modern start: extreme city values use diminishing returns with a 60-development cap, while underrepresented Balkan capitals receive regional floors. Trade nodes and connections use the complete vanilla EU4 network, with visual paths aligned to the imported Extended Timeline map.
 
-Starting infrastructure is generated from country infrastructure tiers and province development. Capitals, trade centers, productive provinces, tax centers, and manpower centers receive a restrained baseline of vanilla economic and administrative buildings; forts and naval infrastructure remain separate balance passes.
+Starting infrastructure is generated from country infrastructure tiers and province development. Capitals, trade centers, productive provinces, tax centers, manpower centers, and confirmed ports receive a restrained baseline of vanilla economic, administrative, and naval buildings. Twelve modern global trade hubs receive level-three centers of trade; forts remain a separate balance pass.
 
 The institution system now uses eight modern institutions from Globalized Economy (`2000.4.1`) through Space Marines (`2350.4.1`), spaced fifty years apart. Their vanilla internal IDs are retained only for EU4 compatibility; names, bonuses, emergence rules, descriptions, and spread rules are replaced.
 

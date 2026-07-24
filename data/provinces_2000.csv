@@ -48,7 +48,7 @@
 47,Stralsund,GER,GER,GER,pommeranian,protestant,Stralsund,fish,4,2,2,yes,no,1,0,0,0,et:history/provinces/47 - Stralsund.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 48,Kolberg,POL,POL,POL,polish,catholic,Kolobrzeg,fish,4,4,2,yes,no,0,0,0,0,et:history/provinces/48 - Kolberg.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 49,Neumark,POL,POL,POL,polish,catholic,Gorzów Wielkopolski,livestock,6,6,4,yes,no,0,0,0,0,et:history/provinces/49 - Neumark.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-50,Brandenburg,GER,GER,GER,prussian,protestant,Berlin,cloth,16,16,15,yes,no,1,0,0,0,et:history/provinces/50 - Brandenburg.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+50,Brandenburg,GER,GER,GER,prussian,protestant,Berlin,cloth,16,16,15,yes,no,2,0,0,0,et:history/provinces/50 - Brandenburg.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 51,Ruppin,GER,GER,GER,prussian,protestant,Neuruppin,livestock,6,6,4,yes,no,0,0,0,0,et:history/provinces/51 - Ruppin.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 52,Magdeburg,GER,GER,GER,prussian,protestant,Magdeburg,cloth,8,8,5,yes,no,2,0,0,0,et:history/provinces/52 - Magdeburg.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 53,Luneburg,GER,GER,GER,lower_saxon,protestant,Lüneburg,salt,5,5,4,yes,no,0,0,0,0,et:history/provinces/53 - Luneburg.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -90,16 +90,16 @@
 89,Picardie,FR2,FR2,FR2,cosmopolitan_french,catholic,Amiens,grain,7,7,6,yes,no,0,0,0,0,et:history/provinces/89 - Picardie.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 90,Vlaanderen,BEL,BEL,BEL,flemish,catholic,Brugge,cloth,9,9,8,yes,no,2,0,0,0,et:history/provinces/90 - Vlaanderen.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 91,Hainaut,BEL,BEL,BEL,wallonian,catholic,Mons,iron,8,8,5,yes,no,0,0,0,0,et:history/provinces/91 - Hainaut.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-92,Brabant,BEL,BEL,BEL,flemish,catholic,Brussel,iron,13,12,11,yes,no,0,0,0,0,et:history/provinces/92 - Brabant.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+92,Brabant,BEL,BEL,BEL,flemish,catholic,Brussel,iron,13,12,11,yes,no,2,0,0,0,et:history/provinces/92 - Brabant.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 93,Liege,BEL,BEL,BEL,wallonian,catholic,Liège,glass,9,9,6,yes,no,0,0,0,0,et:history/provinces/93 - Liege.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 94,Luxemburg,LUX,LUX,LUX,hessian,catholic,Luxemburg,iron,11,11,8,yes,no,0,0,0,0,et:history/provinces/94 - Luxemburg.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 95,Breda,NED,NED,NED,dutch,reformed,Breda,cloth,8,8,4,yes,no,0,0,0,0,et:history/provinces/95 - Breda.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 96,Zeeland,NED,NED,NED,dutch,reformed,Middelburg,salt,7,7,6,yes,no,0,0,0,0,et:history/provinces/96 - Zeeland.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-97,Holland,NED,NED,NED,dutch,reformed,Amsterdam,glass,18,8,16,yes,no,2,0,0,0,et:history/provinces/97 - Holland.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+97,Holland,NED,NED,NED,dutch,reformed,Amsterdam,glass,18,8,16,yes,no,3,0,0,0,et:history/provinces/97 - Holland.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 98,Utrecht,NED,NED,NED,dutch,reformed,Utrecht,cloth,11,11,10,yes,no,0,0,0,0,et:history/provinces/98 - Utrecht.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 99,Gelre,NED,NED,NED,dutch,catholic,Arnhem,livestock,11,10,8,yes,no,0,0,0,0,et:history/provinces/99 - Gelre.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 100,Friesland,NED,NED,NED,frisian,reformed,Leeuwarden,livestock,9,9,2,yes,no,0,0,0,0,et:history/provinces/100 - Friesland.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-101,Liguria,ITA,ITA,ITA,ligurian,catholic,Genova,paper,10,10,5,yes,no,3,0,0,0,et:history/provinces/101 - Liguria.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+101,Liguria,ITA,ITA,ITA,ligurian,catholic,Genova,paper,10,10,5,yes,no,2,0,0,0,et:history/provinces/101 - Liguria.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 102,Nice,FR2,FR2,FR2,cosmopolitan_french,catholic,Nice,fish,10,9,8,yes,no,0,0,0,0,et:history/provinces/102 - Nice.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 103,Piedmont,ITA,ITA,ITA,piedmontese,catholic,Torino,iron,13,13,10,yes,no,0,0,0,0,et:history/provinces/103 - Piedmont.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 104,Lombardia,ITA,ITA,ITA,lombard,catholic,Milano,glass,14,13,11,yes,no,2,0,0,0,et:history/provinces/104 - Lombardia.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -110,13 +110,13 @@
 109,Mantua,ITA,ITA,ITA,romagnan,catholic,Mantova,livestock,8,8,3,yes,no,1,0,0,0,et:history/provinces/109 - Mantua.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 110,Trent,ITA,ITA,ITA,venetian,catholic,Trento,iron,5,5,4,yes,no,0,0,0,0,et:history/provinces/110 - Trent.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 111,Friuli,ITA,ITA,ITA,venetian,catholic,Udine,wine,6,6,5,yes,no,0,0,0,0,et:history/provinces/111 - Friuli.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-112,Venezia,ITA,ITA,ITA,venetian,catholic,Venezia,glass,10,12,5,yes,no,3,0,0,0,et:history/provinces/112 - Venezia.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+112,Venezia,ITA,ITA,ITA,venetian,catholic,Venezia,glass,10,12,5,yes,no,2,0,0,0,et:history/provinces/112 - Venezia.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 113,Ferrara,ITA,ITA,ITA,romagnan,catholic,Ferrara,salt,6,6,4,yes,no,0,0,0,0,et:history/provinces/113 - Ferrara.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 114,Romagna,ITA,ITA,ITA,romagnan,catholic,Ravenna,salt,8,8,5,yes,no,0,0,0,0,et:history/provinces/114 - Romagna.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 115,Pisa,ITA,ITA,ITA,tuscan,catholic,Pisa,wine,6,6,3,yes,no,1,0,0,0,et:history/provinces/115 - Pisa.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 116,Firenze,ITA,ITA,ITA,tuscan,catholic,Firenze,wine,10,12,6,yes,no,2,0,0,0,et:history/provinces/116 - Firenze.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 117,Siena,ITA,ITA,ITA,tuscan,catholic,Siena,glass,8,8,4,yes,no,0,0,0,0,et:history/provinces/117 - Siena.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-118,Roma,ITA,ITA,ITA,umbrian,catholic,Roma,paper,15,15,13,yes,no,1,0,0,0,et:history/provinces/118 - Roma.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+118,Roma,ITA,ITA,ITA,umbrian,catholic,Roma,paper,15,15,13,yes,no,2,0,0,0,et:history/provinces/118 - Roma.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 119,Ancona,ITA,ITA,ITA,umbrian,catholic,Ancona,paper,7,7,6,yes,no,0,0,0,0,et:history/provinces/119 - Ancona.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 120,Abbruzzi,ITA,ITA,ITA,neapolitan,catholic,L'Aquia,wine,6,6,4,yes,no,0,0,0,0,et:history/provinces/120 - Abbruzzi.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 121,Napoli,ITA,ITA,ITA,neapolitan,catholic,Napoli,iron,13,13,9,yes,no,2,0,0,0,et:history/provinces/121 - Napoli.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -181,7 +181,7 @@
 180,Poitou,FR2,FR2,FR2,cosmopolitan_french,catholic,Poitiers,livestock,7,7,6,yes,no,0,0,0,0,et:history/provinces/180 - Poitou.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 181,Valenciennes,FR2,FR2,FR2,cosmopolitan_french,catholic,Rethel,cloth,10,10,2,yes,no,0,0,0,0,et:history/provinces/181 - Valenciennes.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 182,Vermandois,FR2,FR2,FR2,cosmopolitan_french,catholic,Compiègne,livestock,7,7,6,yes,no,0,0,0,0,et:history/provinces/182 - Vermandois.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-183,Ile-de-France,FR2,FR2,FR2,cosmopolitan_french,catholic,Paris,iron,16,15,15,yes,no,0,0,0,0,et:history/provinces/183 - Ile-de-France.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+183,Ile-de-France,FR2,FR2,FR2,cosmopolitan_french,catholic,Paris,iron,16,15,15,yes,no,3,0,0,0,et:history/provinces/183 - Ile-de-France.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 184,Orleanais,FR2,FR2,FR2,cosmopolitan_french,catholic,Orléans,grain,6,6,5,yes,no,1,0,0,0,et:history/provinces/184 - Orleanais.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 185,Othe,FR2,FR2,FR2,cosmopolitan_french,catholic,Troyes,paper,8,8,5,yes,no,0,0,0,0,et:history/provinces/185 - Othe.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 186,Champagne,FR2,FR2,FR2,cosmopolitan_french,catholic,Reims,wine,11,11,4,yes,no,2,0,0,0,et:history/provinces/186 - Champagne.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -215,7 +215,7 @@
 214,Aragon,SPA,SPA,SPA,aragonese,catholic,Zaragoza,iron,5,5,3,yes,no,1,0,0,0,et:history/provinces/214 - Aragon.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 215,Castilla La Vieja,SPA,SPA,SPA,castillian,catholic,Valladolid,wool,5,5,4,yes,no,0,0,0,0,et:history/provinces/215 - Castilla La Vieja.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 216,Salamanca,SPA,SPA,SPA,leonese,catholic,Salamanca,livestock,4,4,4,yes,no,0,0,0,0,et:history/provinces/216 - Salamanca.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-217,Madrid,SPA,SPA,SPA,castillian,catholic,Madrid,glass,14,14,13,yes,no,0,0,0,0,et:history/provinces/217 - Madrid.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+217,Madrid,SPA,SPA,SPA,castillian,catholic,Madrid,glass,14,14,13,yes,no,2,0,0,0,et:history/provinces/217 - Madrid.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 218,Badajoz,SPA,SPA,SPA,castillian,catholic,Badajoz,livestock,3,3,2,yes,no,0,0,0,0,et:history/provinces/218 - Badajoz.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 219,Toledo,SPA,SPA,SPA,castillian,catholic,Toledo,iron,5,5,4,yes,no,1,0,0,0,et:history/provinces/219 - Toledo.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 220,Valencia,SPA,SPA,SPA,catalan,catholic,València,paper,11,11,10,yes,no,2,0,0,0,et:history/provinces/220 - Valencia.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -234,7 +234,7 @@
 233,Cornwall,GBR,GBR,GBR,cornish,reformed,Truro,copper,6,6,5,yes,no,0,0,0,0,et:history/provinces/233 - Cornwall.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 234,Wessex,GBR,GBR,GBR,english,anglican,Southampton,fish,12,12,11,yes,no,0,0,0,0,et:history/provinces/234 - Wessex.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 235,Kent,GBR,GBR,GBR,english,reformed,Canterbury,cloth,12,11,11,yes,no,0,0,0,0,et:history/provinces/235 - Kent.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-236,London,GBR,GBR,GBR,english,anglican,London,glass,16,16,14,yes,no,2,0,0,0,et:history/provinces/236 - London.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+236,London,GBR,GBR,GBR,english,anglican,London,glass,16,16,14,yes,no,3,0,0,0,et:history/provinces/236 - London.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 237,Oxfordshire,GBR,GBR,GBR,english,anglican,Oxford,iron,13,12,12,yes,no,0,0,0,0,et:history/provinces/237 - Oxfordshire.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 238,Essex,GBR,GBR,GBR,english,anglican,Chelmsford,cloth,13,12,11,yes,no,0,0,0,0,et:history/provinces/238 - Essex.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 239,Gloucestershire,GBR,GBR,GBR,english,anglican,Bristol,iron,13,12,11,yes,no,1,0,0,0,et:history/provinces/239 - Gloucestershire.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -395,7 +395,7 @@
 394,El Qatif,SAU,SAU,SAU,gulf_arabic,shiite,Dammam,coal,15,23,14,yes,no,1,0,0,0,et:history/provinces/394 - El Qatif.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 395,Qatar,QTR,QTR,QTR,gulf_arabic,sunni,Doha,coal,17,21,15,yes,no,0,0,0,0,et:history/provinces/395 - Qatar.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 396,Bahrain,BHR,BHR,BHR,gulf_arabic,shiite,Manama,coal,6,10,4,yes,no,0,0,0,0,et:history/provinces/396 - Bahrain.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-397,Beni Yas,UAE,UAE,UAE,gulf_arabic,sunni,Dubayy,coal,16,22,15,yes,no,0,0,0,0,et:history/provinces/397 - Beni Yas.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+397,Beni Yas,UAE,UAE,UAE,gulf_arabic,sunni,Dubayy,coal,16,22,15,yes,no,3,0,0,0,et:history/provinces/397 - Beni Yas.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 398,Qawasim,UAE,UAE,UAE,gulf_arabic,shiite,Fujairah,coal,12,19,8,yes,no,0,0,0,0,et:history/provinces/398 - Qawasim.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 399,Suhar,OMA,OMA,OMA,omani_culture,ibadi,Suhar,grain,4,4,3,yes,no,0,0,0,0,et:history/provinces/399 - Suhar.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 400,Muscat,OMA,OMA,OMA,omani_culture,ibadi,Muscat,gems,7,7,7,yes,no,2,0,0,0,et:history/provinces/400 - Muscat.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -566,7 +566,7 @@
 565,Bhutan,BHU,BHU,BHU,kochi,vajrayana,Thimphu,wool,2,2,1,yes,no,0,0,0,0,et:history/provinces/565 - Bhutan.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 566,Assam,INI,INI,INI,assamese,hinduism,Golaghat,grain,6,6,5,yes,no,0,0,0,0,et:history/provinces/566 - Assam.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 567,Silhet,BGD,BGD,BGD,bengali,sunni,Sylhet,cotton,6,6,5,yes,no,0,0,0,0,et:history/provinces/567 - Silhet.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-568,Chittagong,BGD,BGD,BGD,bengali,sunni,Chittagong,cotton,11,11,10,yes,no,3,0,0,0,et:history/provinces/568 - Chittagong.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+568,Chittagong,BGD,BGD,BGD,bengali,sunni,Chittagong,cotton,11,11,10,yes,no,2,0,0,0,et:history/provinces/568 - Chittagong.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 569,Bijapur,INI,INI,INI,kannada,hinduism,Bijapur,cotton,6,5,4,yes,no,1,0,0,0,et:history/provinces/569 - Bijapur.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 570,Naga,INI,INI,INI,chin,protestant,Kohima,tropical_wood,3,3,3,yes,no,0,0,0,0,et:history/provinces/570 - Naga.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 571,Darrang,INI,INI,INI,assamese,hinduism,Nagaon,silk,10,10,10,yes,no,0,0,0,0,et:history/provinces/571 - Darrang.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -733,7 +733,7 @@
 732,Hamgyeong,NOK,NOK,NOK,korean,catholic,Hamheung,fish,1,1,2,yes,no,0,0,0,0,et:history/provinces/732 - Hamgyeong.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 733,Hwanghae,NOK,NOK,NOK,korean,confucianism,Sariwon,fish,2,2,2,yes,no,0,0,0,0,et:history/provinces/733 - Hwanghae.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 734,West Gangwon,SKO,SKO,SKO,korean,protestant,Wonju,chinaware,12,12,10,yes,no,0,0,0,0,et:history/provinces/734 - West Gangwon.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-735,Gyeonggi,SKO,SKO,SKO,korean,protestant,Seoul,glass,17,17,17,yes,no,1,0,0,0,et:history/provinces/735 - Gyeonggi.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+735,Gyeonggi,SKO,SKO,SKO,korean,protestant,Seoul,glass,17,17,17,yes,no,2,0,0,0,et:history/provinces/735 - Gyeonggi.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 736,Sangju,SKO,SKO,SKO,korean,mahayana,Andong,cotton,11,11,10,yes,no,0,0,0,0,et:history/provinces/736 - Sangju.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 737,Jeolla,SKO,SKO,SKO,korean,protestant,Gwangju,chinaware,12,11,11,yes,no,0,0,0,0,et:history/provinces/737 - Jeolla.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 738,Taiwan,FRM,FRM,FRM,taiwanese,mahayana,Kaohsiung,chinaware,17,17,18,yes,no,0,0,0,0,et:history/provinces/738 - Taiwan.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -866,7 +866,7 @@
 865,Cochimi,MEX,MEX,MEX,mexican,catholic,Santa Rosalía,fish,2,2,1,yes,no,0,5,1,3,et:history/provinces/865 - Cochimi.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 866,Guaycura,MEX,MEX,MEX,mexican,catholic,La Paz,fish,3,3,2,yes,no,0,5,1,2,et:history/provinces/866 - Guaycura.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 867,Mojave,USA,USA,USA,british_californian,catholic,Palm Springs,wool,3,3,3,yes,no,0,5,1,4,et:history/provinces/867 - Mojave.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-868,Chumash,USA,USA,USA,british_californian,catholic,Los Angeles,coal,18,22,18,yes,no,0,5,1,4,et:history/provinces/868 - Chumash.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+868,Chumash,USA,USA,USA,british_californian,catholic,Los Angeles,coal,18,22,18,yes,no,2,5,1,4,et:history/provinces/868 - Chumash.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 869,Salinan,USA,USA,USA,british_californian,catholic,Salinas,wool,12,12,11,yes,no,0,5,1,3,et:history/provinces/869 - Salinan.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 870,Yorkuts,USA,USA,USA,british_californian,catholic,Fresno,gold,11,11,11,yes,no,0,50,3,5,et:history/provinces/870 - Yorkuts.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 871,Pomo,USA,USA,USA,british_californian,protestant,Santa Rosa,wool,12,12,10,yes,no,0,20,1,4,et:history/provinces/871 - Pomo.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -951,7 +951,7 @@
 950,Powhatan,USA,USA,USA,british_louisianan,protestant,Norfolk,glass,15,14,13,yes,no,0,10,2,7,et:history/provinces/950 - Powhatan.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 951,Kanawha,USA,USA,USA,american,protestant,Charleston,iron,8,8,6,yes,no,0,5,1,4,et:history/provinces/951 - Kanawha.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 952,Powhatan,USA,USA,USA,british_louisianan,protestant,Richmond,tobacco,13,12,11,yes,no,0,10,6,2,et:history/provinces/952 - Powhatan.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-953,Conoy,USA,USA,USA,american,protestant,Washington,glass,17,17,16,yes,no,0,15,2,7,et:history/provinces/953 - Conoy.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+953,Conoy,USA,USA,USA,american,protestant,Washington,glass,17,17,16,yes,no,2,15,2,7,et:history/provinces/953 - Conoy.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 954,Allegheny,USA,USA,USA,american,protestant,Erie,grain,12,12,10,yes,no,0,5,1,4,et:history/provinces/954 - Allegheny.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 955,Susquehanna,USA,USA,USA,american,protestant,Harrisburg,grain,11,11,9,yes,no,0,5,1,4,et:history/provinces/955 - Susquehanna.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 956,Lenape,USA,USA,USA,american,protestant,Philadelphia,fur,15,14,14,yes,no,0,5,1,4,et:history/provinces/956 - Lenape.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -963,7 +963,7 @@
 962,Unami,USA,USA,USA,american,catholic,Trenton,tobacco,12,12,10,yes,no,0,15,2,8,et:history/provinces/962 - Unami.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 963,Mahican,USA,USA,USA,american,protestant,Albany,fur,12,12,11,yes,no,0,5,1,4,et:history/provinces/963 - Mahican.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 964,Mohawk,USA,USA,USA,american,protestant,Gloversville,fur,4,4,3,yes,no,0,15,7,3,et:history/provinces/964 - Mohawk.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-965,Manhattan,USA,USA,USA,american,catholic,New York,glass,20,19,19,yes,no,0,25,2,8,et:history/provinces/965 - Manhattan.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+965,Manhattan,USA,USA,USA,american,catholic,New York,glass,20,19,19,yes,no,3,25,2,8,et:history/provinces/965 - Manhattan.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 966,Nipmuc,USA,USA,USA,american,catholic,Worcester,unknown,11,11,11,yes,no,0,5,1,3,et:history/provinces/966 - Nipmuc.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 967,Narraganset,USA,USA,USA,american,catholic,Providence,fish,13,13,12,yes,no,0,15,2,7,et:history/provinces/967 - Narraganset.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 968,Massachusetts,USA,USA,USA,american,catholic,Boston,glass,16,16,15,yes,no,1,25,3,7,et:history/provinces/968 - Massachusetts.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -1026,7 +1026,7 @@
 1025,Dewa,JAP,JAP,JAP,japanese,shinto,Yamagata,grain,7,7,4,yes,no,0,0,0,0,et:history/provinces/1025 - Dewa.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1026,Mutsu,JAP,JAP,JAP,japanese,shinto,Sendai,iron,14,14,13,yes,no,0,0,0,0,et:history/provinces/1026 - Mutsu.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1027,Hitachi,JAP,JAP,JAP,japanese,shinto,Mito,fish,9,9,7,yes,no,0,0,0,0,et:history/provinces/1027 - Hitachi.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-1028,Musashi,JAP,JAP,JAP,japanese,shinto,Tokyo,glass,20,19,19,yes,no,2,0,0,0,et:history/provinces/1028 - Musashi.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+1028,Musashi,JAP,JAP,JAP,japanese,shinto,Tokyo,glass,20,19,19,yes,no,3,0,0,0,et:history/provinces/1028 - Musashi.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1029,Kai,JAP,JAP,JAP,japanese,shinto,Kofu,gold,6,6,3,yes,no,0,0,0,0,et:history/provinces/1029 - Kai.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1030,Owari,JAP,JAP,JAP,japanese,shinto,Nagoya,iron,17,17,16,yes,no,0,0,0,0,et:history/provinces/1030 - Owari.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1031,Kamikawa,JAP,JAP,JAP,japanese,shinto,Asahikawa,fish,10,10,7,yes,no,0,0,0,0,et:history/provinces/1031 - Kamikawa.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -1088,7 +1088,7 @@
 1087,Woiworung,AUS,AUS,AUS,british_australian,protestant,Melbourne,livestock,11,11,10,yes,no,1,10,1,9,et:history/provinces/1087 - Woiworung.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1088,Wergaia,AUS,AUS,AUS,british_australian,protestant,Bendigo,coal,5,5,5,yes,no,0,10,7,5,et:history/provinces/1088 - Wergaia.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1089,Wiradjuri,AUS,AUS,AUS,british_australian,protestant,Bathurst,wool,3,3,2,yes,no,0,20,7,5,et:history/provinces/1089 - Wiradjuri.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-1090,Eora,AUS,AUS,AUS,british_australian,protestant,Sydney,glass,12,12,12,yes,no,1,10,1,2,et:history/provinces/1090 - Eora.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+1090,Eora,AUS,AUS,AUS,british_australian,protestant,Sydney,glass,12,12,12,yes,no,2,10,1,2,et:history/provinces/1090 - Eora.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1091,Kamilaroi,AUS,AUS,AUS,british_australian,protestant,Walgett,grain,1,1,1,yes,no,0,10,1,2,et:history/provinces/1091 - Kamilaroi.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1092,Bundjalung,AUS,AUS,AUS,british_australian,protestant,Port Macquarie,naval_supplies,4,4,3,yes,no,0,10,1,2,et:history/provinces/1092 - Bundjalung.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1093,Barunggam,AUS,AUS,AUS,british_australian,protestant,Emerald,grain,1,1,1,yes,no,0,10,4,3,et:history/provinces/1093 - Barunggam.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -1325,13 +1325,13 @@
 1813,Saskatoon,CAN,CAN,CAN,plains_cree,catholic,Nipawin,copper,1,1,1,yes,no,0,10,1,3,et:history/provinces/1813 - Saskatoon.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1814,Columbia,CAN,CAN,CAN,british_canadian,protestant,Hazelton,fur,1,1,1,yes,no,0,10,2,9,et:history/provinces/1814 - Columbia.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1815,Ayeyarwady,MNM,MNM,MNM,burmese,buddhism,Pathein,grain,3,3,2,yes,no,0,0,0,0,et:history/provinces/1815 - Ayeyarwady.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-1816,Beijing,CHN,CHN,CHN,chihan,confucianism,Beijing,glass,17,21,17,yes,no,2,0,0,0,et:history/provinces/1816 - Beijing.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+1816,Beijing,CHN,CHN,CHN,chihan,confucianism,Beijing,glass,17,21,17,yes,no,3,0,0,0,et:history/provinces/1816 - Beijing.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1817,Nan,SIA,SIA,SIA,northern_thai,buddhism,Nan,livestock,4,4,3,yes,no,0,0,0,0,et:history/provinces/1817 - Nan.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1818,Chikuzen,JAP,JAP,JAP,japanese,shinto,Fukuoka,glass,16,16,15,yes,no,2,0,0,0,et:history/provinces/1818 - Chikuzen.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1819,Tosa,JAP,JAP,JAP,japanese,shinto,Kochi,naval_supplies,8,8,6,yes,no,0,0,0,0,et:history/provinces/1819 - Tosa.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1820,Awa,JAP,JAP,JAP,japanese,shinto,Tokushima,fish,8,8,6,yes,no,0,0,0,0,et:history/provinces/1820 - Awa.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1821,Nanjing,CHN,CHN,CHN,jianghuai,confucianism,Nanjing,silk,19,19,17,yes,no,0,0,0,0,et:history/provinces/1821 - Nanjing.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-1822,Suzhou,CHN,CHN,CHN,wu,confucianism,Shanghai,iron,19,19,18,yes,no,0,0,0,0,et:history/provinces/1822 - Suzhou.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+1822,Suzhou,CHN,CHN,CHN,wu,confucianism,Shanghai,iron,19,19,18,yes,no,3,0,0,0,et:history/provinces/1822 - Suzhou.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1823,Stung Treng,KHM,KHM,KHM,bahnaric,animism,Stung Treng,grain,4,4,2,yes,no,0,0,0,0,et:history/provinces/1823 - Stung Treng.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1824,Wenzhou,CHN,CHN,CHN,wu,confucianism,Wenzhou,chinaware,14,15,11,yes,no,0,0,0,0,et:history/provinces/1824 - Wenzhou.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1825,Aki,JAP,JAP,JAP,japanese,shinto,Hiroshima,iron,15,15,14,yes,no,0,0,0,0,et:history/provinces/1825 - Aki.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -1385,7 +1385,7 @@
 1873,Chur,SWI,SWI,SWI,swiss,reformed,Chur,livestock,6,6,6,yes,no,0,0,0,0,et:history/provinces/1873 - Chur.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1874,Bremen,GER,GER,GER,lower_saxon,protestant,Bremen,fish,7,7,7,yes,no,1,0,0,0,et:history/provinces/1874 - Bremen.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1875,Turin,ITA,ITA,ITA,piedmontese,catholic,Cuneo,grain,4,4,4,yes,no,0,0,0,0,et:history/provinces/1875 - Turin.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-1876,Frankfurt,GER,GER,GER,hessian,protestant,Frankfurt,paper,12,12,10,yes,no,2,0,0,0,et:history/provinces/1876 - Frankfurt.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+1876,Frankfurt,GER,GER,GER,hessian,protestant,Frankfurt,paper,12,12,10,yes,no,3,0,0,0,et:history/provinces/1876 - Frankfurt.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1877,Charolais,FR2,FR2,FR2,burgundian,catholic,Chalon-sur-Saône,salt,5,5,4,yes,no,0,0,0,0,et:history/provinces/1877 - Charolais.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1878,Aachen,GER,GER,GER,hessian,catholic,Aachen,grain,12,13,9,yes,no,0,0,0,0,et:history/provinces/1878 - Aachen.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1879,Alencon,FR2,FR2,FR2,cosmopolitan_french,catholic,Alençon,livestock,6,6,3,yes,no,0,0,0,0,et:history/provinces/1879 - Alencon.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -2126,7 +2126,7 @@
 2667,Cacaxtes,MEX,MEX,MEX,mexican,catholic,Nuevo Laredo,wool,4,4,3,yes,no,0,5,1,2,et:history/provinces/2667 - Cacaxtes.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 2668,Borrado,MEX,MEX,MEX,mexican,catholic,Matamoros,wool,6,6,4,yes,no,0,5,1,2,et:history/provinces/2668 - Borrado.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 2669,Hasinai,USA,USA,USA,british_louisianan,catholic,Longview,unknown,7,7,5,yes,no,0,5,1,2,et:history/provinces/2669 - Hasinai.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-2670,Tkaronto,CAN,CAN,CAN,british_canadian,protestant,Toronto,iron,14,14,12,yes,no,0,5,1,2,et:history/provinces/2670 - Tkaronto.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+2670,Tkaronto,CAN,CAN,CAN,british_canadian,protestant,Toronto,iron,14,14,12,yes,no,2,5,1,2,et:history/provinces/2670 - Tkaronto.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 2671,Missisage,CAN,CAN,CAN,british_canadian,protestant,Parry Sound,fur,3,3,2,yes,no,0,5,1,2,et:history/provinces/2671 - Missisage.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 2672,Kitkehaki,USA,USA,USA,american,protestant,Hays,grain,4,3,2,yes,no,0,5,1,2,et:history/provinces/2672 - Kitkehaki.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 2673,Pasai,IDN,IDN,IDN,acehnese,sunni,Lhokseumawe,spices,6,6,3,yes,no,2,40,2,7,et:history/provinces/2673 - Pasai.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -2460,7 +2460,7 @@
 3002,Visoki,BHE,BHE,BHE,bosnian,sunni,Sarajevo,grain,11,11,6,yes,no,0,0,0,0,et:history/provinces/3002 - Visoki.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 3003,Euboea,GRE,GRE,GRE,greek,orthodox,Chalcis,fish,2,2,2,yes,no,0,0,0,0,et:history/provinces/3003 - Euboea.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 3004,Arlon,BEL,BEL,BEL,wallonian,catholic,Arlon,iron,9,5,4,yes,no,0,0,0,0,et:history/provinces/3004 - Arlon.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-3005,Hongkong,CHN,CHN,CHN,cantonese,confucianism,Hongkong,glass,19,19,18,yes,no,0,0,0,0,et:history/provinces/3005 - Hongkong.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+3005,Hongkong,CHN,CHN,CHN,cantonese,confucianism,Hongkong,glass,19,19,18,yes,no,3,0,0,0,et:history/provinces/3005 - Hongkong.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 3006,Gambia,GMB,GMB,GMB,senegambian,sunni,Banjul,grain,2,2,1,yes,no,0,50,4.5,9,et:history/provinces/3006 - Gambia.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 3007,Togo,TGO,TGO,TGO,fon,catholic,Lomé,ivory,2,1,1,yes,no,0,60,4.5,9,et:history/provinces/3007 - Togo.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 3008,Ribe,DAN,DAN,DAN,danish,protestant,Aabenraa,grain,4,4,3,yes,no,0,0,0,0,et:history/provinces/3008 - Ribe.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -3038,7 +3038,7 @@
 4454,Porbandar,INI,INI,INI,gujarati,hinduism,Porbandar,cotton,3,3,2,yes,no,0,0,0,0,et:history/provinces/4454 - Porbandar.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4455,Diu,INI,INI,INI,gujarati,hinduism,Diu,sugar,3,3,2,yes,no,0,0,0,0,et:history/provinces/4455 - Diu.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4456,Jhalavad,INI,INI,INI,gujarati,hinduism,Dhrangadhra,cotton,3,3,2,yes,no,0,0,0,0,et:history/provinces/4456 - Jhalavad.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-4457,Khambhat,INI,INI,INI,gujarati,hinduism,Khambhat,cloth,6,6,5,yes,no,3,0,0,0,et:history/provinces/4457 - Khambhat.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+4457,Khambhat,INI,INI,INI,gujarati,hinduism,Khambhat,cloth,6,6,5,yes,no,2,0,0,0,et:history/provinces/4457 - Khambhat.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4458,Narbada,INI,INI,INI,bagheli,hinduism,Narsinghpur,tropical_wood,4,4,3,yes,no,0,0,0,0,et:history/provinces/4458 - Narbada.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4459,Saugor,INI,INI,INI,vindhyan,hinduism,Sagar,grain,7,7,6,yes,no,0,0,0,0,et:history/provinces/4459 - Saugor.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4460,Handia,INI,INI,INI,malvi,hinduism,Hoshangabad,cotton,4,4,3,yes,no,0,0,0,0,et:history/provinces/4460 - Handia.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -3396,7 +3396,7 @@
 4812,Gerik,MLA,MLA,MLA,malayan,sunni,Gerik,tropical_wood,3,3,2,yes,no,0,0,0,0,et:history/provinces/4812 - Gerik.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4813,Penang,MLA,MLA,MLA,malayan,sunni,Penang,tropical_wood,7,7,7,yes,no,0,0,0,0,et:history/provinces/4813 - Penang.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4814,Semantan,MLA,MLA,MLA,malayan,sunni,Temerloh,tropical_wood,4,4,3,yes,no,0,10,1,5,et:history/provinces/4814 - Semantan.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-4815,Singapore,SGA,SGA,SGA,chimin,mahayana,Singapore,glass,20,20,20,yes,no,0,20,1,5,et:history/provinces/4815 - Singapore.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+4815,Singapore,SGA,SGA,SGA,chimin,mahayana,Singapore,glass,20,20,20,yes,no,3,20,1,5,et:history/provinces/4815 - Singapore.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4816,Rengat,IDN,IDN,IDN,malayan,sunni,Rengat,coal,3,3,3,yes,no,0,5,3,2,et:history/provinces/4816 - Rengat.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4817,Padang,IDN,IDN,IDN,minangkabau,sunni,Padang,grain,7,6,5,yes,no,0,20,2,7,et:history/provinces/4817 - Padang.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4818,Indrapura,IDN,IDN,IDN,minangkabau,sunni,Indrapura,grain,2,2,2,yes,no,0,20,2,7,et:history/provinces/4818 - Indrapura.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -3483,7 +3483,7 @@
 4900,Otoe,USA,USA,USA,american,protestant,Sioux City,livestock,4,4,3,yes,no,0,25,2,7,et:history/provinces/4900 - Otoe.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4901,Saone,USA,USA,USA,american,protestant,Marshall,unknown,4,3,2,yes,no,0,5,1,6,et:history/provinces/4901 - Saone.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4902,Makandwewin,USA,USA,USA,american,protestant,International Falls,fur,3,3,2,yes,no,0,5,1,6,et:history/provinces/4902 - Makandwewin.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-4903,Chinko,USA,USA,USA,american,protestant,Chicago,iron,19,18,17,yes,no,0,5,1,6,et:history/provinces/4903 - Chinko.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+4903,Chinko,USA,USA,USA,american,protestant,Chicago,iron,19,18,17,yes,no,2,5,1,6,et:history/provinces/4903 - Chinko.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4904,Espeminkia,USA,USA,USA,american,protestant,Belleville,fur,8,8,6,yes,no,0,5,1,6,et:history/provinces/4904 - Espeminkia.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4905,Tapouaro,USA,USA,USA,american,protestant,Cedar Rapids,grain,8,7,6,yes,no,0,5,1,6,et:history/provinces/4905 - Tapouaro.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4906,Coiracoentanon,USA,USA,USA,american,protestant,Columbia,tobacco,11,11,10,yes,no,0,5,1,6,et:history/provinces/4906 - Coiracoentanon.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.

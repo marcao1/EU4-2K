@@ -12,6 +12,7 @@ base_manpower = 8
 is_city = yes
 hre = no
 marketplace = yes
+shipyard = yes
 temple = yes
 discovered_by = western
 discovered_by = eastern

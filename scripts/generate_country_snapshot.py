@@ -1210,8 +1210,8 @@ def starting_economy_history(
     """Render exact 2000 economy and reserve values as history effects.
 
     EU4 derives cash and reserve pools from development before country history
-    effects are applied. Resetting each bounded value first prevents those
-    engine defaults from being added to the canonical scenario values.
+    effects are applied. Treasury has an exact setter; the remaining bounded
+    values are reset before their canonical scenario values are added.
     """
     manpower_thousands = setup["manpower"] / 1000
     manpower_value = f"{manpower_thousands:.3f}".rstrip("0").rstrip(".")
@@ -1225,8 +1225,7 @@ def starting_economy_history(
         "# Canonical 2000 economy and reserves from data/country_setup_2000.csv",
         f"set_country_flag = eu4_2k_economic_tier_{setup['economic_tier']}",
         f"set_country_flag = eu4_2k_infrastructure_tier_{setup['infrastructure_tier']}",
-        "add_treasury = -1000000",
-        f"add_treasury = {setup['treasury']}",
+        f"set_treasury = {setup['treasury']}",
         "add_inflation = -100",
         f"add_inflation = {setup['inflation']}",
         "add_stability = -3",
@@ -1392,7 +1391,7 @@ def text_outputs(
         MOD / "common" / "event_modifiers" / "zz_eu4_2k_institution_origins.txt": (institution_modifiers_text(), "cp1252"),
         MOD / "events" / "eu4_2k_institution_events.txt": (institution_events_text(), "cp1252"),
         MOD / "common" / "defines" / "zz_eu4_2k_dates.lua": ('NDefines.NGame.START_DATE = "2000.1.1"\nNDefines.NGame.END_DATE = "9999.12.31"\n', "ascii"),
-        MOD / "common" / "bookmarks" / "00_eu4_2k_2000.txt": ("bookmark = {\n\tname = \"EU4_2K_2000_NAME\"\n\tdesc = \"EU4_2K_2000_DESC\"\n\tdate = 2000.1.1\n\tcountry = USA\n\tcountry = RUS\n\tcountry = CHN\n\tcountry = GER\n\tcountry = FR2\n\tcountry = GBR\n\tcountry = YUG\n}\n", "cp1252"),
+        MOD / "common" / "bookmarks" / "00_eu4_2k_2000.txt": ("bookmark = {\n\tname = \"EU4_2K_2000_NAME\"\n\tdesc = \"EU4_2K_2000_DESC\"\n\tdate = 2000.1.1\n\tcountry = GER\n\tcountry = RUS\n\tcountry = CHN\n\tcountry = USA\n\tcountry = FR2\n\tcountry = GBR\n\tcountry = YUG\n}\n", "cp1252"),
         MOD / "localisation" / "replace" / "zz_eu4_2k_countries_l_english.yml": (country_localisation(rows), "utf-8-sig"),
         MOD / "localisation" / "eu4_2k_framework_l_english.yml": (framework_localisation(rows), "utf-8-sig"),
         MOD / "localisation" / "eu4_2k_cultures_l_english.yml": (culture_localisation(rows, game), "utf-8-sig"),
@@ -1496,6 +1495,13 @@ def check_outputs(
             errors.append(f"dated history block found: {path.name}")
         if "secularism" in text or "irreligious" in text:
             errors.append(f"forbidden religion found: {path.name}")
+        tag = path.name[:3]
+        if tag in technology_setup:
+            expected_treasury = technology_setup[tag]["treasury"]
+            if text.count(f"set_treasury = {expected_treasury}") != 1:
+                errors.append(f"missing exact starting treasury: {path.name}")
+            if "add_treasury" in text:
+                errors.append(f"unsafe additive starting treasury found: {path.name}")
     tech = expected[MOD / "common" / "technology.txt"][0]
     costs = re.findall(r"(?s)(modern_[a-z0-9_]+)\s*=\s*\{.*?start_cost_modifier\s*=\s*([0-9.]+)", tech)
     if len(costs) != len(all_modern_technology_groups()) or {cost for _, cost in costs} != {"0"}:

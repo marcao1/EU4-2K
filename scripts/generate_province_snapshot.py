@@ -61,6 +61,17 @@ BALKAN_CAPITAL_FLOORS = {
     4239: 32,  # Belgrade
 }
 
+MODERN_CENTER_OF_TRADE_OVERRIDES = {
+    # Global financial, shipping, and commercial hubs.
+    97: 3, 183: 3, 236: 3, 397: 3, 667: 3, 965: 3, 1028: 3,
+    1816: 3, 1822: 3, 1876: 3, 3005: 3, 4815: 3,
+    # Major national and regional hubs.
+    50: 2, 92: 2, 118: 2, 151: 2, 217: 2, 295: 2, 735: 2,
+    868: 2, 953: 2, 1090: 2, 2670: 2, 4637: 2, 4903: 2,
+    # Former ET level-three centers retained as important regional markets.
+    101: 2, 112: 2, 568: 2, 4457: 2,
+}
+
 
 @dataclass
 class ProvinceState:
@@ -174,6 +185,12 @@ def apply_development_balance(row: dict[str, str]) -> None:
     )
 
 
+def apply_trade_center_balance(row: dict[str, str]) -> None:
+    level = MODERN_CENTER_OF_TRADE_OVERRIDES.get(int(row["province_id"]))
+    if level is not None:
+        row["center_of_trade"] = str(level)
+
+
 def bootstrap_rows(game: Path) -> list[dict[str, str]]:
     non_land = countries.non_land_provinces()
     active_tags = {
@@ -222,6 +239,7 @@ def bootstrap_rows(game: Path) -> list[dict[str, str]]:
             "verification_notes": "Effective ET state on 2000.1.1; clean generated baseline.",
         }
         apply_development_balance(row)
+        apply_trade_center_balance(row)
         rows.append(row)
     return rows
 
@@ -263,7 +281,10 @@ def infrastructure_context() -> tuple[dict[str, int], dict[str, int]]:
 
 
 def starting_buildings(
-    row: dict[str, str], tiers: dict[str, int], capitals: dict[str, int]
+    row: dict[str, str],
+    tiers: dict[str, int],
+    capitals: dict[str, int],
+    coastal: set[int],
 ) -> list[str]:
     """Assign a restrained first-pass infrastructure set from canonical tiers."""
     owner = row["owner"]
@@ -277,6 +298,7 @@ def starting_buildings(
     manpower = int(float(row["base_manpower"]))
     total = tax + production + manpower
     center_of_trade = int(row["center_of_trade"] or 0)
+    has_port = province_id in coastal
 
     candidates: list[str] = []
     if is_capital or center_of_trade > 0 or total >= 34 - 4 * tier:
@@ -291,6 +313,20 @@ def starting_buildings(
         candidates.append("barracks")
     if tier >= 3 and (is_capital or total >= 38 - 4 * tier):
         candidates.append("courthouse")
+    if tier >= 2 and has_port and (
+        is_capital or center_of_trade > 0 or production >= 13 - tier
+    ):
+        candidates.append("dock")
+    if tier >= 3 and has_port and (
+        is_capital or center_of_trade >= 2 or total >= 34 - 3 * tier
+    ):
+        candidates.append("shipyard")
+
+    priority = {
+        "marketplace": 0, "workshop": 1, "courthouse": 2,
+        "dock": 3, "shipyard": 4, "temple": 5, "barracks": 6,
+    }
+    candidates.sort(key=priority.__getitem__)
 
     # Keep the starting set within a conservative approximation of available
     # building slots. Capitals receive one additional administrative slot.
@@ -443,11 +479,13 @@ def outputs(rows: Sequence[dict[str, str]], game: Path) -> dict[Path, tuple[str,
     result: dict[Path, tuple[str, str]] = {}
     localization = ["l_english:"]
     tiers, capitals = infrastructure_context()
+    import generate_starting_world as starting_world
+    coastal = starting_world.coastal_land_provinces()
     for row in rows:
         province_id = row["province_id"]
         path = MOD / "history" / "provinces" / f"{province_id} - {safe_name(row['name'])}.txt"
         result[path] = (
-            province_history(row, starting_buildings(row, tiers, capitals)),
+            province_history(row, starting_buildings(row, tiers, capitals, coastal)),
             "cp1252",
         )
         display = row["name"].replace('"', r'\"')
@@ -492,6 +530,12 @@ def validate_rows(rows: Sequence[dict[str, str]], game: Path) -> None:
                 errors.append(f"province {province_id}: missing culture or non-vanilla religion")
         if row["trade_goods"] not in trade_goods:
             errors.append(f"province {province_id}: undefined trade good {row['trade_goods']}")
+        try:
+            center_level = int(row["center_of_trade"] or 0)
+            if not 0 <= center_level <= 3:
+                raise ValueError
+        except ValueError:
+            errors.append(f"province {province_id}: invalid center of trade")
         for field_name in ("base_tax", "base_production", "base_manpower"):
             try:
                 if float(row[field_name]) < 0:
@@ -523,6 +567,12 @@ def validate_rows(rows: Sequence[dict[str, str]], game: Path) -> None:
         capital = by_id.get(country["capital"])
         if not capital or capital["owner"] != tag:
             errors.append(f"{tag}: capital {country['capital']} is not owned at start")
+    for province_id, required_level in MODERN_CENTER_OF_TRADE_OVERRIDES.items():
+        row = by_id.get(str(province_id))
+        if not row or row["center_of_trade"] != str(required_level):
+            errors.append(
+                f"province {province_id}: modern trade-center level must be {required_level}"
+            )
     if errors:
         raise RuntimeError("Province data validation failed:\n- " + "\n- ".join(errors[:100]))
 
@@ -562,6 +612,18 @@ def check_outputs(rows: Sequence[dict[str, str]], game: Path) -> None:
         text = path.read_text(encoding="cp1252", errors="replace")
         if re.search(r"(?m)^\s*-?\d+\.\d+\.\d+\s*=", text):
             errors.append(f"dated history block found: {path.name}")
+    import generate_starting_world as starting_world
+    coastal = starting_world.coastal_land_provinces()
+    for path in expected_history:
+        match = re.match(r"^(\d+)", path.name)
+        if not match:
+            continue
+        province_id = int(match.group(1))
+        text = path.read_text(encoding="cp1252", errors="replace")
+        if province_id not in coastal and re.search(
+            r"(?m)^(dock|shipyard) = yes$", text
+        ):
+            errors.append(f"inland province {province_id} has a naval building")
     if errors:
         raise RuntimeError("Province output check failed:\n- " + "\n- ".join(errors[:100]))
 
@@ -577,10 +639,15 @@ def main() -> int:
         action="store_true",
         help="recalculate development from the ET 2000 baseline while preserving other CSV edits",
     )
+    parser.add_argument(
+        "--rebalance-trade-centers",
+        action="store_true",
+        help="apply the modern center-of-trade audit while preserving other CSV edits",
+    )
     args = parser.parse_args()
     game = countries.find_game_root(args.game_root)
-    if args.check and args.rebalance_development:
-        raise SystemExit("--check cannot be combined with --rebalance-development")
+    if args.check and (args.rebalance_development or args.rebalance_trade_centers):
+        raise SystemExit("--check cannot be combined with rebalance options")
     if args.rebuild_data or not DATA.exists():
         if args.check:
             raise SystemExit("Canonical province dataset is missing; run generate first")
@@ -596,6 +663,11 @@ def main() -> int:
                 "base_tax", "base_production", "base_manpower", "verification_notes"
             ):
                 row[field] = source[field]
+        write_manifest(rows)
+    elif args.rebalance_trade_centers:
+        rows = load_manifest()
+        for row in rows:
+            apply_trade_center_balance(row)
         write_manifest(rows)
     rows = load_manifest()
     validate_rows(rows, game)

@@ -13,8 +13,7 @@ set_country_flag = eu4_2k_ruling_group_bot_independent_or_nonpartisan
 # Canonical 2000 economy and reserves from data/country_setup_2000.csv
 set_country_flag = eu4_2k_economic_tier_2
 set_country_flag = eu4_2k_infrastructure_tier_2
-add_treasury = -1000000
-add_treasury = 25
+set_treasury = 600
 add_inflation = -100
 add_inflation = 0
 add_stability = -3

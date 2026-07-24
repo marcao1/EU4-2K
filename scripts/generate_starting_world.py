@@ -35,6 +35,20 @@ COUNTRY_FIELDS = [
     "army_quality_tier", "navy_quality_tier", "economic_tier",
     "infrastructure_tier", "source", "verification_notes",
 ]
+
+# Starting cash is deliberately inverse to country size. Large states already
+# have much higher monthly income, while small states need a larger reserve to
+# survive the opening years without being forced into immediate loans.
+LARGE_COUNTRY_DEVELOPMENT = 500
+MEDIUM_COUNTRY_DEVELOPMENT = 150
+
+
+def starting_treasury(total_development: int) -> int:
+    if total_development >= LARGE_COUNTRY_DEVELOPMENT:
+        return 50
+    if total_development >= MEDIUM_COUNTRY_DEVELOPMENT:
+        return 200
+    return 600
 DIPLOMACY_FIELDS = [
     "country_a", "country_b", "relationship_type", "start_date", "end_date",
     "initial_opinion", "organization", "source", "verification_notes",
@@ -199,7 +213,7 @@ def bootstrap_country_setup(country_rows: Sequence[dict[str, str]], provinces: S
         tier = technology_tier(country)
         values = aggregates[tag]
         total_development = values["tax"] + values["production"] + values["manpower"]
-        treasury = max(25, min(2000, round(total_development * (0.35 + tier * 0.08))))
+        treasury = starting_treasury(total_development)
         manpower = max(1000, round(values["manpower"] * 750))
         sailors = round(owned_coastal.get(tag, 0) * (150 + tier * 50))
         level = tech_level_by_tier[tier]
@@ -349,6 +363,7 @@ def validate(
     setup_tags = [row["tag"] for row in setup_rows]
     if len(setup_tags) != len(set(setup_tags)) or set(setup_tags) != active:
         errors.append("country setup must contain exactly one row for every active tag")
+    aggregates = aggregate_provinces(provinces)
     owned_by_id = {row["province_id"]: row["owner"] for row in provinces}
     for row in setup_rows:
         tag = row["tag"]
@@ -364,6 +379,15 @@ def validate(
             errors.append(f"{tag}: undefined institution metadata")
         if institutions:
             errors.append(f"{tag}: institutions must not be embraced before 2000.4.1")
+        total_development = round(sum(
+            aggregates[tag][field] for field in ("tax", "production", "manpower")
+        ))
+        expected_treasury = starting_treasury(total_development)
+        if row["treasury"] != str(expected_treasury):
+            errors.append(
+                f"{tag}: treasury must be {expected_treasury} for "
+                f"{total_development} development"
+            )
     diplomacy_keys: set[tuple[str, str, str, str]] = set()
     for row in diplomacy_rows:
         a, b = row["country_a"], row["country_b"]
@@ -412,7 +436,7 @@ def main() -> int:
     parser.add_argument(
         "--rebalance-economy",
         action="store_true",
-        help="recalculate development-derived national reserves without replacing other setup data",
+        help="recalculate size-based treasury and development-derived reserves without replacing other setup data",
     )
     args = parser.parse_args()
 
@@ -440,7 +464,7 @@ def main() -> int:
             for field in ("treasury", "manpower", "sailors", "navy_quality_tier"):
                 row[field] = source[field]
             row["verification_notes"] = (
-                "Development-derived economy rebalanced for the EU4 2K province model; "
+                "Size-tier treasury and development-derived reserves rebalanced for the EU4 2K province model; "
                 "manual historical verification pending."
             )
         write_csv(COUNTRY_DATA, COUNTRY_FIELDS, setup_rows)

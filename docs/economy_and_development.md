@@ -11,9 +11,16 @@ starting values from `data/country_setup_2000.csv`:
 - manpower and sailors
 - economic and infrastructure tier flags
 
-The generator resets EU4's automatically derived starting values before adding
-the scenario value. This makes the CSV the source of truth instead of treating
-it as a bonus on top of the vanilla starting calculation.
+Treasury follows a size-balancing rule based on total owned development:
+
+- large countries (500 or more development): 50 ducats
+- medium countries (150-499 development): 200 ducats
+- small countries (below 150 development): 600 ducats
+
+The generator applies treasury with `set_treasury`, making the CSV value exact.
+Other bounded starting values are reset before adding the scenario value. This
+makes the CSV the source of truth instead of treating it as a bonus on top of
+the vanilla starting calculation.
 
 Manpower is stored in the CSV as people and divided by 1,000 when written to
 EU4 history. Sailors are written as individual sailors. Economic and
@@ -59,23 +66,43 @@ its owner's canonical infrastructure tier, whether it is the national capital,
 center-of-trade status, and its balanced tax, production, and manpower values.
 The generator also limits assignments with a conservative building-slot budget.
 
-The initial global distribution is:
+The current global distribution is:
 
 - 1,143 marketplaces
 - 969 workshops
-- 760 temples
-- 451 barracks
-- 176 courthouses
-- 3,499 buildings across 1,189 provinces
+- 681 courthouses
+- 342 temples
+- 262 docks
+- 105 barracks
+- 88 shipyards
+- 3,590 buildings across 1,189 provinces
 
 Capitals receive administrative and economic priority. Centers of trade receive
 marketplaces, productive provinces receive workshops, high-tax provinces
 receive temples, and manpower centers receive barracks. Gold provinces do not
 receive workshops because the vanilla building forbids them.
 
-Forts, docks, and shipyards are deferred to dedicated military and naval
-infrastructure audits so starting maintenance and force limits remain
-controllable.
+Naval buildings are restricted to provinces confirmed as coastal directly from
+the province bitmap. Docks begin at infrastructure tier two in important ports;
+shipyards begin at tier three and prioritize capitals, level-two or level-three
+trade centers, and the strongest developed ports. No inland province receives a
+naval building.
+
+Forts remain deferred to a military infrastructure audit so starting
+maintenance remains controllable.
+
+## Modern centers of trade
+
+The ET center-of-trade baseline is retained outside an explicit modern-hub
+audit. Twelve global hubs start at level three: Amsterdam, Paris, London, Dubai,
+Guangzhou, New York, Tokyo, Beijing, Shanghai, Frankfurt, Hong Kong, and
+Singapore. Berlin, Brussels, Rome, Istanbul, Madrid, Moscow, Seoul, Los Angeles,
+Washington, Sydney, Toronto, San Francisco, and Chicago are among the audited
+level-two hubs.
+
+Genoa, Venice, Chittagong, and Khambhat are reduced from ET level three to level
+two. The final distribution is 12 level-three, 128 level-two, and 214 level-one
+centers.
 
 ## Generation and validation
 
