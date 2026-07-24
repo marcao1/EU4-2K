@@ -1,0 +1,1345 @@
+# Generated from data/leadership_events_2000_2005.csv
+namespace = eu4_2k_politics
+
+country_event = {
+	id = eu4_2k_politics.1
+	title = eu4_2k_politics.1.t
+	desc = eu4_2k_politics.1.d
+	picture = ELECTION_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		tag = CRO
+		NOT = { has_country_flag = eu4_2k_political_timeline_diverged }
+		NOT = { has_country_flag = eu4_2k_political_event_1_resolved }
+	}
+	option = {
+		name = eu4_2k_politics.1.a
+		ai_chance = { factor = 90 }
+		clr_country_flag = eu4_2k_ruling_group_cro_croatian_democratic_union
+		clr_country_flag = eu4_2k_ruling_group_cro_social_democratic_party
+		define_ruler = {
+			name = "Ivica Racan"
+			adm = 4
+			dip = 4
+			mil = 2
+			age = 55
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_cro_social_democratic_party
+		set_country_flag = eu4_2k_political_event_1_resolved
+		add_prestige = 2
+	}
+	option = {
+		name = eu4_2k_politics.1.b
+		ai_chance = { factor = 10 }
+		clr_country_flag = eu4_2k_ruling_group_cro_croatian_democratic_union
+		clr_country_flag = eu4_2k_ruling_group_cro_social_democratic_party
+		define_ruler = {
+			name = "Zlatko Matesa"
+			adm = 3
+			dip = 3
+			mil = 2
+			age = 50
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_cro_croatian_democratic_union
+		set_country_flag = eu4_2k_political_timeline_diverged
+		set_country_flag = eu4_2k_political_event_1_resolved
+		add_prestige = 2
+	}
+}
+
+country_event = {
+	id = eu4_2k_politics.2
+	title = eu4_2k_politics.2.t
+	desc = eu4_2k_politics.2.d
+	picture = ELECTION_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		tag = HAB
+		NOT = { has_country_flag = eu4_2k_political_timeline_diverged }
+		NOT = { has_country_flag = eu4_2k_political_event_2_resolved }
+	}
+	option = {
+		name = eu4_2k_politics.2.a
+		ai_chance = { factor = 90 }
+		clr_country_flag = eu4_2k_ruling_group_hab_austrian_peoples_party
+		clr_country_flag = eu4_2k_ruling_group_hab_social_democratic_party
+		define_ruler = {
+			name = "Wolfgang Schussel"
+			adm = 4
+			dip = 4
+			mil = 2
+			age = 54
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_hab_austrian_peoples_party
+		set_country_flag = eu4_2k_political_event_2_resolved
+		add_prestige = 2
+	}
+	option = {
+		name = eu4_2k_politics.2.b
+		ai_chance = { factor = 10 }
+		clr_country_flag = eu4_2k_ruling_group_hab_austrian_peoples_party
+		clr_country_flag = eu4_2k_ruling_group_hab_social_democratic_party
+		define_ruler = {
+			name = "Viktor Klima"
+			adm = 4
+			dip = 4
+			mil = 2
+			age = 52
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_hab_social_democratic_party
+		set_country_flag = eu4_2k_political_timeline_diverged
+		set_country_flag = eu4_2k_political_event_2_resolved
+		add_prestige = 2
+	}
+}
+
+country_event = {
+	id = eu4_2k_politics.3
+	title = eu4_2k_politics.3.t
+	desc = eu4_2k_politics.3.d
+	picture = ELECTION_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		tag = JAP
+		NOT = { has_country_flag = eu4_2k_political_timeline_diverged }
+		NOT = { has_country_flag = eu4_2k_political_event_3_resolved }
+	}
+	option = {
+		name = eu4_2k_politics.3.a
+		ai_chance = { factor = 90 }
+		clr_country_flag = eu4_2k_ruling_group_jap_liberal_democratic_party
+		define_ruler = {
+			name = "Yoshiro Mori"
+			adm = 3
+			dip = 3
+			mil = 2
+			age = 62
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_jap_liberal_democratic_party
+		set_country_flag = eu4_2k_political_event_3_resolved
+		add_prestige = 2
+	}
+	option = {
+		name = eu4_2k_politics.3.b
+		ai_chance = { factor = 10 }
+		clr_country_flag = eu4_2k_ruling_group_jap_liberal_democratic_party
+		define_ruler = {
+			name = "Koichi Kato"
+			adm = 4
+			dip = 4
+			mil = 2
+			age = 60
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_jap_liberal_democratic_party
+		set_country_flag = eu4_2k_political_timeline_diverged
+		set_country_flag = eu4_2k_political_event_3_resolved
+		add_prestige = 2
+	}
+}
+
+country_event = {
+	id = eu4_2k_politics.4
+	title = eu4_2k_politics.4.t
+	desc = eu4_2k_politics.4.d
+	picture = ELECTION_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		tag = ITA
+		NOT = { has_country_flag = eu4_2k_political_timeline_diverged }
+		NOT = { has_country_flag = eu4_2k_political_event_4_resolved }
+	}
+	option = {
+		name = eu4_2k_politics.4.a
+		ai_chance = { factor = 90 }
+		clr_country_flag = eu4_2k_ruling_group_ita_democrats_of_the_left
+		clr_country_flag = eu4_2k_ruling_group_ita_house_of_freedoms
+		clr_country_flag = eu4_2k_ruling_group_ita_the_olive_tree
+		define_ruler = {
+			name = "Giuliano Amato"
+			adm = 4
+			dip = 4
+			mil = 2
+			age = 61
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_ita_the_olive_tree
+		set_country_flag = eu4_2k_political_event_4_resolved
+		add_prestige = 2
+	}
+	option = {
+		name = eu4_2k_politics.4.b
+		ai_chance = { factor = 10 }
+		clr_country_flag = eu4_2k_ruling_group_ita_democrats_of_the_left
+		clr_country_flag = eu4_2k_ruling_group_ita_house_of_freedoms
+		clr_country_flag = eu4_2k_ruling_group_ita_the_olive_tree
+		define_ruler = {
+			name = "Massimo D'Alema"
+			adm = 4
+			dip = 4
+			mil = 2
+			age = 51
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_ita_democrats_of_the_left
+		set_country_flag = eu4_2k_political_timeline_diverged
+		set_country_flag = eu4_2k_political_event_4_resolved
+		add_prestige = 2
+	}
+}
+
+country_event = {
+	id = eu4_2k_politics.5
+	title = eu4_2k_politics.5.t
+	desc = eu4_2k_politics.5.d
+	picture = ELECTION_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		tag = RUS
+		NOT = { has_country_flag = eu4_2k_political_timeline_diverged }
+		NOT = { has_country_flag = eu4_2k_political_event_5_resolved }
+	}
+	option = {
+		name = eu4_2k_politics.5.a
+		ai_chance = { factor = 90 }
+		clr_country_flag = eu4_2k_ruling_group_rus_independent
+		clr_country_flag = eu4_2k_ruling_group_rus_unity
+		clr_country_flag = eu4_2k_ruling_group_rus_yabloko
+		define_ruler = {
+			name = "Vladimir Putin"
+			adm = 5
+			dip = 4
+			mil = 4
+			age = 47
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_rus_unity
+		set_country_flag = eu4_2k_political_event_5_resolved
+		add_prestige = 2
+	}
+	option = {
+		name = eu4_2k_politics.5.b
+		ai_chance = { factor = 10 }
+		clr_country_flag = eu4_2k_ruling_group_rus_independent
+		clr_country_flag = eu4_2k_ruling_group_rus_unity
+		clr_country_flag = eu4_2k_ruling_group_rus_yabloko
+		define_ruler = {
+			name = "Grigory Yavlinsky"
+			adm = 5
+			dip = 5
+			mil = 2
+			age = 48
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_rus_yabloko
+		set_country_flag = eu4_2k_political_timeline_diverged
+		set_country_flag = eu4_2k_political_event_5_resolved
+		add_prestige = 2
+	}
+}
+
+country_event = {
+	id = eu4_2k_politics.6
+	title = eu4_2k_politics.6.t
+	desc = eu4_2k_politics.6.d
+	picture = ELECTION_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		tag = FRM
+		NOT = { has_country_flag = eu4_2k_political_timeline_diverged }
+		NOT = { has_country_flag = eu4_2k_political_event_6_resolved }
+	}
+	option = {
+		name = eu4_2k_politics.6.a
+		ai_chance = { factor = 90 }
+		clr_country_flag = eu4_2k_ruling_group_frm_democratic_progressive_party
+		clr_country_flag = eu4_2k_ruling_group_frm_independent_or_nonpartisan
+		clr_country_flag = eu4_2k_ruling_group_frm_kuomintang
+		define_ruler = {
+			name = "Chen Shui-bian"
+			adm = 4
+			dip = 4
+			mil = 3
+			age = 49
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_frm_democratic_progressive_party
+		set_country_flag = eu4_2k_political_event_6_resolved
+		add_prestige = 2
+	}
+	option = {
+		name = eu4_2k_politics.6.b
+		ai_chance = { factor = 10 }
+		clr_country_flag = eu4_2k_ruling_group_frm_democratic_progressive_party
+		clr_country_flag = eu4_2k_ruling_group_frm_independent_or_nonpartisan
+		clr_country_flag = eu4_2k_ruling_group_frm_kuomintang
+		define_ruler = {
+			name = "Lien Chan"
+			adm = 4
+			dip = 4
+			mil = 2
+			age = 63
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_frm_kuomintang
+		set_country_flag = eu4_2k_political_timeline_diverged
+		set_country_flag = eu4_2k_political_event_6_resolved
+		add_prestige = 2
+	}
+}
+
+country_event = {
+	id = eu4_2k_politics.7
+	title = eu4_2k_politics.7.t
+	desc = eu4_2k_politics.7.d
+	picture = ELECTION_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		tag = YUG
+		NOT = { has_country_flag = eu4_2k_political_timeline_diverged }
+		NOT = { has_country_flag = eu4_2k_political_event_7_resolved }
+	}
+	option = {
+		name = eu4_2k_politics.7.a
+		ai_chance = { factor = 90 }
+		clr_country_flag = eu4_2k_ruling_group_yug_democratic_opposition_of_serbia
+		clr_country_flag = eu4_2k_ruling_group_yug_socialist_party_of_serbia
+		define_ruler = {
+			name = "Vojislav Kostunica"
+			adm = 4
+			dip = 4
+			mil = 3
+			age = 56
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_yug_democratic_opposition_of_serbia
+		set_country_flag = eu4_2k_political_event_7_resolved
+		add_prestige = 2
+	}
+	option = {
+		name = eu4_2k_politics.7.b
+		ai_chance = { factor = 10 }
+		clr_country_flag = eu4_2k_ruling_group_yug_democratic_opposition_of_serbia
+		clr_country_flag = eu4_2k_ruling_group_yug_socialist_party_of_serbia
+		define_ruler = {
+			name = "Slobodan Milosevic"
+			adm = 4
+			dip = 3
+			mil = 4
+			age = 59
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_yug_socialist_party_of_serbia
+		set_country_flag = eu4_2k_political_timeline_diverged
+		set_country_flag = eu4_2k_political_event_7_resolved
+		add_prestige = 2
+	}
+}
+
+country_event = {
+	id = eu4_2k_politics.8
+	title = eu4_2k_politics.8.t
+	desc = eu4_2k_politics.8.d
+	picture = ELECTION_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		tag = USA
+		NOT = { has_country_flag = eu4_2k_political_timeline_diverged }
+		NOT = { has_country_flag = eu4_2k_political_event_8_resolved }
+	}
+	option = {
+		name = eu4_2k_politics.8.a
+		ai_chance = { factor = 90 }
+		clr_country_flag = eu4_2k_ruling_group_usa_democratic_party
+		clr_country_flag = eu4_2k_ruling_group_usa_republican_party
+		define_ruler = {
+			name = "George W. Bush"
+			adm = 4
+			dip = 3
+			mil = 4
+			age = 54
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_usa_republican_party
+		set_country_flag = eu4_2k_political_event_8_resolved
+		add_prestige = 2
+	}
+	option = {
+		name = eu4_2k_politics.8.b
+		ai_chance = { factor = 10 }
+		clr_country_flag = eu4_2k_ruling_group_usa_democratic_party
+		clr_country_flag = eu4_2k_ruling_group_usa_republican_party
+		define_ruler = {
+			name = "Al Gore"
+			adm = 5
+			dip = 5
+			mil = 3
+			age = 52
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_usa_democratic_party
+		set_country_flag = eu4_2k_political_timeline_diverged
+		set_country_flag = eu4_2k_political_event_8_resolved
+		add_prestige = 2
+	}
+}
+
+country_event = {
+	id = eu4_2k_politics.9
+	title = eu4_2k_politics.9.t
+	desc = eu4_2k_politics.9.d
+	picture = ELECTION_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		tag = ISR
+		NOT = { has_country_flag = eu4_2k_political_timeline_diverged }
+		NOT = { has_country_flag = eu4_2k_political_event_9_resolved }
+	}
+	option = {
+		name = eu4_2k_politics.9.a
+		ai_chance = { factor = 90 }
+		clr_country_flag = eu4_2k_ruling_group_isr_likud
+		clr_country_flag = eu4_2k_ruling_group_isr_one_israel
+		define_ruler = {
+			name = "Ariel Sharon"
+			adm = 3
+			dip = 3
+			mil = 5
+			age = 73
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_isr_likud
+		set_country_flag = eu4_2k_political_event_9_resolved
+		add_prestige = 2
+	}
+	option = {
+		name = eu4_2k_politics.9.b
+		ai_chance = { factor = 10 }
+		clr_country_flag = eu4_2k_ruling_group_isr_likud
+		clr_country_flag = eu4_2k_ruling_group_isr_one_israel
+		define_ruler = {
+			name = "Ehud Barak"
+			adm = 4
+			dip = 4
+			mil = 5
+			age = 59
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_isr_one_israel
+		set_country_flag = eu4_2k_political_timeline_diverged
+		set_country_flag = eu4_2k_political_event_9_resolved
+		add_prestige = 2
+	}
+}
+
+country_event = {
+	id = eu4_2k_politics.10
+	title = eu4_2k_politics.10.t
+	desc = eu4_2k_politics.10.d
+	picture = ELECTION_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		tag = JAP
+		NOT = { has_country_flag = eu4_2k_political_timeline_diverged }
+		NOT = { has_country_flag = eu4_2k_political_event_10_resolved }
+	}
+	option = {
+		name = eu4_2k_politics.10.a
+		ai_chance = { factor = 90 }
+		clr_country_flag = eu4_2k_ruling_group_jap_liberal_democratic_party
+		define_ruler = {
+			name = "Junichiro Koizumi"
+			adm = 5
+			dip = 4
+			mil = 3
+			age = 59
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_jap_liberal_democratic_party
+		set_country_flag = eu4_2k_political_event_10_resolved
+		add_prestige = 2
+	}
+	option = {
+		name = eu4_2k_politics.10.b
+		ai_chance = { factor = 10 }
+		clr_country_flag = eu4_2k_ruling_group_jap_liberal_democratic_party
+		define_ruler = {
+			name = "Ryutaro Hashimoto"
+			adm = 4
+			dip = 4
+			mil = 3
+			age = 63
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_jap_liberal_democratic_party
+		set_country_flag = eu4_2k_political_timeline_diverged
+		set_country_flag = eu4_2k_political_event_10_resolved
+		add_prestige = 2
+	}
+}
+
+country_event = {
+	id = eu4_2k_politics.11
+	title = eu4_2k_politics.11.t
+	desc = eu4_2k_politics.11.d
+	picture = ELECTION_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		tag = ITA
+		NOT = { has_country_flag = eu4_2k_political_timeline_diverged }
+		NOT = { has_country_flag = eu4_2k_political_event_11_resolved }
+	}
+	option = {
+		name = eu4_2k_politics.11.a
+		ai_chance = { factor = 90 }
+		clr_country_flag = eu4_2k_ruling_group_ita_democrats_of_the_left
+		clr_country_flag = eu4_2k_ruling_group_ita_house_of_freedoms
+		clr_country_flag = eu4_2k_ruling_group_ita_the_olive_tree
+		define_ruler = {
+			name = "Silvio Berlusconi"
+			adm = 4
+			dip = 4
+			mil = 3
+			age = 64
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_ita_house_of_freedoms
+		set_country_flag = eu4_2k_political_event_11_resolved
+		add_prestige = 2
+	}
+	option = {
+		name = eu4_2k_politics.11.b
+		ai_chance = { factor = 10 }
+		clr_country_flag = eu4_2k_ruling_group_ita_democrats_of_the_left
+		clr_country_flag = eu4_2k_ruling_group_ita_house_of_freedoms
+		clr_country_flag = eu4_2k_ruling_group_ita_the_olive_tree
+		define_ruler = {
+			name = "Francesco Rutelli"
+			adm = 4
+			dip = 4
+			mil = 2
+			age = 46
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_ita_the_olive_tree
+		set_country_flag = eu4_2k_political_timeline_diverged
+		set_country_flag = eu4_2k_political_event_11_resolved
+		add_prestige = 2
+	}
+}
+
+country_event = {
+	id = eu4_2k_politics.12
+	title = eu4_2k_politics.12.t
+	desc = eu4_2k_politics.12.d
+	picture = ELECTION_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		tag = POL
+		NOT = { has_country_flag = eu4_2k_political_timeline_diverged }
+		NOT = { has_country_flag = eu4_2k_political_event_12_resolved }
+	}
+	option = {
+		name = eu4_2k_politics.12.a
+		ai_chance = { factor = 90 }
+		clr_country_flag = eu4_2k_ruling_group_pol_democratic_left_alliance
+		clr_country_flag = eu4_2k_ruling_group_pol_solidarity_electoral_action
+		define_ruler = {
+			name = "Leszek Miller"
+			adm = 4
+			dip = 4
+			mil = 2
+			age = 55
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_pol_democratic_left_alliance
+		set_country_flag = eu4_2k_political_event_12_resolved
+		add_prestige = 2
+	}
+	option = {
+		name = eu4_2k_politics.12.b
+		ai_chance = { factor = 10 }
+		clr_country_flag = eu4_2k_ruling_group_pol_democratic_left_alliance
+		clr_country_flag = eu4_2k_ruling_group_pol_solidarity_electoral_action
+		define_ruler = {
+			name = "Jerzy Buzek"
+			adm = 4
+			dip = 4
+			mil = 2
+			age = 61
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_pol_solidarity_electoral_action
+		set_country_flag = eu4_2k_political_timeline_diverged
+		set_country_flag = eu4_2k_political_event_12_resolved
+		add_prestige = 2
+	}
+}
+
+country_event = {
+	id = eu4_2k_politics.13
+	title = eu4_2k_politics.13.t
+	desc = eu4_2k_politics.13.d
+	picture = ELECTION_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		tag = POR
+		NOT = { has_country_flag = eu4_2k_political_timeline_diverged }
+		NOT = { has_country_flag = eu4_2k_political_event_13_resolved }
+	}
+	option = {
+		name = eu4_2k_politics.13.a
+		ai_chance = { factor = 90 }
+		clr_country_flag = eu4_2k_ruling_group_por_social_democratic_party
+		clr_country_flag = eu4_2k_ruling_group_por_socialist_party
+		define_ruler = {
+			name = "Jose Manuel Barroso"
+			adm = 4
+			dip = 4
+			mil = 2
+			age = 46
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_por_social_democratic_party
+		set_country_flag = eu4_2k_political_event_13_resolved
+		add_prestige = 2
+	}
+	option = {
+		name = eu4_2k_politics.13.b
+		ai_chance = { factor = 10 }
+		clr_country_flag = eu4_2k_ruling_group_por_social_democratic_party
+		clr_country_flag = eu4_2k_ruling_group_por_socialist_party
+		define_ruler = {
+			name = "Eduardo Ferro Rodrigues"
+			adm = 4
+			dip = 4
+			mil = 2
+			age = 52
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_por_socialist_party
+		set_country_flag = eu4_2k_political_timeline_diverged
+		set_country_flag = eu4_2k_political_event_13_resolved
+		add_prestige = 2
+	}
+}
+
+country_event = {
+	id = eu4_2k_politics.14
+	title = eu4_2k_politics.14.t
+	desc = eu4_2k_politics.14.d
+	picture = ELECTION_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		tag = NED
+		NOT = { has_country_flag = eu4_2k_political_timeline_diverged }
+		NOT = { has_country_flag = eu4_2k_political_event_14_resolved }
+	}
+	option = {
+		name = eu4_2k_politics.14.a
+		ai_chance = { factor = 90 }
+		clr_country_flag = eu4_2k_ruling_group_ned_christian_democratic_appeal
+		clr_country_flag = eu4_2k_ruling_group_ned_labour_party
+		define_ruler = {
+			name = "Jan Peter Balkenende"
+			adm = 4
+			dip = 4
+			mil = 2
+			age = 46
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_ned_christian_democratic_appeal
+		set_country_flag = eu4_2k_political_event_14_resolved
+		add_prestige = 2
+	}
+	option = {
+		name = eu4_2k_politics.14.b
+		ai_chance = { factor = 10 }
+		clr_country_flag = eu4_2k_ruling_group_ned_christian_democratic_appeal
+		clr_country_flag = eu4_2k_ruling_group_ned_labour_party
+		define_ruler = {
+			name = "Ad Melkert"
+			adm = 4
+			dip = 4
+			mil = 2
+			age = 46
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_ned_labour_party
+		set_country_flag = eu4_2k_political_timeline_diverged
+		set_country_flag = eu4_2k_political_event_14_resolved
+		add_prestige = 2
+	}
+}
+
+country_event = {
+	id = eu4_2k_politics.15
+	title = eu4_2k_politics.15.t
+	desc = eu4_2k_politics.15.d
+	picture = ELECTION_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		tag = CHN
+		NOT = { has_country_flag = eu4_2k_political_timeline_diverged }
+		NOT = { has_country_flag = eu4_2k_political_event_15_resolved }
+	}
+	option = {
+		name = eu4_2k_politics.15.a
+		ai_chance = { factor = 90 }
+		clr_country_flag = eu4_2k_ruling_group_chn_chinese_communist_party
+		define_ruler = {
+			name = "Hu Jintao"
+			adm = 5
+			dip = 4
+			mil = 3
+			age = 59
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_chn_chinese_communist_party
+		set_country_flag = eu4_2k_political_event_15_resolved
+		add_prestige = 2
+	}
+	option = {
+		name = eu4_2k_politics.15.b
+		ai_chance = { factor = 10 }
+		clr_country_flag = eu4_2k_ruling_group_chn_chinese_communist_party
+		define_ruler = {
+			name = "Jiang Zemin"
+			adm = 5
+			dip = 4
+			mil = 3
+			age = 76
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_chn_chinese_communist_party
+		set_country_flag = eu4_2k_political_timeline_diverged
+		set_country_flag = eu4_2k_political_event_15_resolved
+		add_prestige = 2
+	}
+}
+
+country_event = {
+	id = eu4_2k_politics.16
+	title = eu4_2k_politics.16.t
+	desc = eu4_2k_politics.16.d
+	picture = ELECTION_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		tag = CRO
+		NOT = { has_country_flag = eu4_2k_political_timeline_diverged }
+		NOT = { has_country_flag = eu4_2k_political_event_16_resolved }
+	}
+	option = {
+		name = eu4_2k_politics.16.a
+		ai_chance = { factor = 90 }
+		clr_country_flag = eu4_2k_ruling_group_cro_croatian_democratic_union
+		clr_country_flag = eu4_2k_ruling_group_cro_social_democratic_party
+		define_ruler = {
+			name = "Ivo Sanader"
+			adm = 4
+			dip = 4
+			mil = 2
+			age = 50
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_cro_croatian_democratic_union
+		set_country_flag = eu4_2k_political_event_16_resolved
+		add_prestige = 2
+	}
+	option = {
+		name = eu4_2k_politics.16.b
+		ai_chance = { factor = 10 }
+		clr_country_flag = eu4_2k_ruling_group_cro_croatian_democratic_union
+		clr_country_flag = eu4_2k_ruling_group_cro_social_democratic_party
+		define_ruler = {
+			name = "Ivica Racan"
+			adm = 4
+			dip = 4
+			mil = 2
+			age = 59
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_cro_social_democratic_party
+		set_country_flag = eu4_2k_political_timeline_diverged
+		set_country_flag = eu4_2k_political_event_16_resolved
+		add_prestige = 2
+	}
+}
+
+country_event = {
+	id = eu4_2k_politics.17
+	title = eu4_2k_politics.17.t
+	desc = eu4_2k_politics.17.d
+	picture = ELECTION_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		tag = GEO
+		NOT = { has_country_flag = eu4_2k_political_timeline_diverged }
+		NOT = { has_country_flag = eu4_2k_political_event_17_resolved }
+	}
+	option = {
+		name = eu4_2k_politics.17.a
+		ai_chance = { factor = 90 }
+		clr_country_flag = eu4_2k_ruling_group_geo_democrats
+		clr_country_flag = eu4_2k_ruling_group_geo_union_of_citizens_of_georgia
+		clr_country_flag = eu4_2k_ruling_group_geo_united_national_movement
+		define_ruler = {
+			name = "Mikheil Saakashvili"
+			adm = 4
+			dip = 5
+			mil = 3
+			age = 36
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_geo_united_national_movement
+		set_country_flag = eu4_2k_political_event_17_resolved
+		add_prestige = 2
+	}
+	option = {
+		name = eu4_2k_politics.17.b
+		ai_chance = { factor = 10 }
+		clr_country_flag = eu4_2k_ruling_group_geo_democrats
+		clr_country_flag = eu4_2k_ruling_group_geo_union_of_citizens_of_georgia
+		clr_country_flag = eu4_2k_ruling_group_geo_united_national_movement
+		define_ruler = {
+			name = "Nino Burjanadze"
+			adm = 4
+			dip = 4
+			mil = 2
+			age = 39
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_geo_democrats
+		set_country_flag = eu4_2k_political_timeline_diverged
+		set_country_flag = eu4_2k_political_event_17_resolved
+		add_prestige = 2
+	}
+}
+
+country_event = {
+	id = eu4_2k_politics.18
+	title = eu4_2k_politics.18.t
+	desc = eu4_2k_politics.18.d
+	picture = ELECTION_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		tag = GRE
+		NOT = { has_country_flag = eu4_2k_political_timeline_diverged }
+		NOT = { has_country_flag = eu4_2k_political_event_18_resolved }
+	}
+	option = {
+		name = eu4_2k_politics.18.a
+		ai_chance = { factor = 90 }
+		clr_country_flag = eu4_2k_ruling_group_gre_new_democracy
+		clr_country_flag = eu4_2k_ruling_group_gre_pasok
+		define_ruler = {
+			name = "Kostas Karamanlis"
+			adm = 4
+			dip = 4
+			mil = 2
+			age = 47
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_gre_new_democracy
+		set_country_flag = eu4_2k_political_event_18_resolved
+		add_prestige = 2
+	}
+	option = {
+		name = eu4_2k_politics.18.b
+		ai_chance = { factor = 10 }
+		clr_country_flag = eu4_2k_ruling_group_gre_new_democracy
+		clr_country_flag = eu4_2k_ruling_group_gre_pasok
+		define_ruler = {
+			name = "George Papandreou"
+			adm = 4
+			dip = 5
+			mil = 2
+			age = 51
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_gre_pasok
+		set_country_flag = eu4_2k_political_timeline_diverged
+		set_country_flag = eu4_2k_political_event_18_resolved
+		add_prestige = 2
+	}
+}
+
+country_event = {
+	id = eu4_2k_politics.19
+	title = eu4_2k_politics.19.t
+	desc = eu4_2k_politics.19.d
+	picture = ELECTION_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		tag = SPA
+		NOT = { has_country_flag = eu4_2k_political_timeline_diverged }
+		NOT = { has_country_flag = eu4_2k_political_event_19_resolved }
+	}
+	option = {
+		name = eu4_2k_politics.19.a
+		ai_chance = { factor = 90 }
+		clr_country_flag = eu4_2k_ruling_group_spa_peoples_party
+		clr_country_flag = eu4_2k_ruling_group_spa_spanish_socialist_workers_party
+		define_ruler = {
+			name = "Jose Luis Rodriguez Zapatero"
+			adm = 4
+			dip = 4
+			mil = 2
+			age = 43
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_spa_spanish_socialist_workers_party
+		set_country_flag = eu4_2k_political_event_19_resolved
+		add_prestige = 2
+	}
+	option = {
+		name = eu4_2k_politics.19.b
+		ai_chance = { factor = 10 }
+		clr_country_flag = eu4_2k_ruling_group_spa_peoples_party
+		clr_country_flag = eu4_2k_ruling_group_spa_spanish_socialist_workers_party
+		define_ruler = {
+			name = "Mariano Rajoy"
+			adm = 4
+			dip = 4
+			mil = 2
+			age = 49
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_spa_peoples_party
+		set_country_flag = eu4_2k_political_timeline_diverged
+		set_country_flag = eu4_2k_political_event_19_resolved
+		add_prestige = 2
+	}
+}
+
+country_event = {
+	id = eu4_2k_politics.20
+	title = eu4_2k_politics.20.t
+	desc = eu4_2k_politics.20.d
+	picture = ELECTION_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		tag = INI
+		NOT = { has_country_flag = eu4_2k_political_timeline_diverged }
+		NOT = { has_country_flag = eu4_2k_political_event_20_resolved }
+	}
+	option = {
+		name = eu4_2k_politics.20.a
+		ai_chance = { factor = 90 }
+		clr_country_flag = eu4_2k_ruling_group_ini_bharatiya_janata_party
+		clr_country_flag = eu4_2k_ruling_group_ini_indian_national_congress
+		define_ruler = {
+			name = "Manmohan Singh"
+			adm = 6
+			dip = 5
+			mil = 2
+			age = 71
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_ini_indian_national_congress
+		set_country_flag = eu4_2k_political_event_20_resolved
+		add_prestige = 2
+	}
+	option = {
+		name = eu4_2k_politics.20.b
+		ai_chance = { factor = 10 }
+		clr_country_flag = eu4_2k_ruling_group_ini_bharatiya_janata_party
+		clr_country_flag = eu4_2k_ruling_group_ini_indian_national_congress
+		define_ruler = {
+			name = "Atal Bihari Vajpayee"
+			adm = 4
+			dip = 4
+			mil = 3
+			age = 79
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_ini_bharatiya_janata_party
+		set_country_flag = eu4_2k_political_timeline_diverged
+		set_country_flag = eu4_2k_political_event_20_resolved
+		add_prestige = 2
+	}
+}
+
+country_event = {
+	id = eu4_2k_politics.21
+	title = eu4_2k_politics.21.t
+	desc = eu4_2k_politics.21.d
+	picture = ELECTION_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		tag = POR
+		NOT = { has_country_flag = eu4_2k_political_timeline_diverged }
+		NOT = { has_country_flag = eu4_2k_political_event_21_resolved }
+	}
+	option = {
+		name = eu4_2k_politics.21.a
+		ai_chance = { factor = 90 }
+		clr_country_flag = eu4_2k_ruling_group_por_social_democratic_party
+		clr_country_flag = eu4_2k_ruling_group_por_socialist_party
+		define_ruler = {
+			name = "Pedro Santana Lopes"
+			adm = 3
+			dip = 3
+			mil = 2
+			age = 48
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_por_social_democratic_party
+		set_country_flag = eu4_2k_political_event_21_resolved
+		add_prestige = 2
+	}
+	option = {
+		name = eu4_2k_politics.21.b
+		ai_chance = { factor = 10 }
+		clr_country_flag = eu4_2k_ruling_group_por_social_democratic_party
+		clr_country_flag = eu4_2k_ruling_group_por_socialist_party
+		define_ruler = {
+			name = "Jose Socrates"
+			adm = 4
+			dip = 4
+			mil = 2
+			age = 46
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_por_socialist_party
+		set_country_flag = eu4_2k_political_timeline_diverged
+		set_country_flag = eu4_2k_political_event_21_resolved
+		add_prestige = 2
+	}
+}
+
+country_event = {
+	id = eu4_2k_politics.22
+	title = eu4_2k_politics.22.t
+	desc = eu4_2k_politics.22.d
+	picture = ELECTION_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		tag = UKR
+		NOT = { has_country_flag = eu4_2k_political_timeline_diverged }
+		NOT = { has_country_flag = eu4_2k_political_event_22_resolved }
+	}
+	option = {
+		name = eu4_2k_politics.22.a
+		ai_chance = { factor = 90 }
+		clr_country_flag = eu4_2k_ruling_group_ukr_independent
+		clr_country_flag = eu4_2k_ruling_group_ukr_our_ukraine
+		clr_country_flag = eu4_2k_ruling_group_ukr_party_of_regions
+		define_ruler = {
+			name = "Viktor Yushchenko"
+			adm = 4
+			dip = 5
+			mil = 2
+			age = 50
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_ukr_our_ukraine
+		set_country_flag = eu4_2k_political_event_22_resolved
+		add_prestige = 2
+	}
+	option = {
+		name = eu4_2k_politics.22.b
+		ai_chance = { factor = 10 }
+		clr_country_flag = eu4_2k_ruling_group_ukr_independent
+		clr_country_flag = eu4_2k_ruling_group_ukr_our_ukraine
+		clr_country_flag = eu4_2k_ruling_group_ukr_party_of_regions
+		define_ruler = {
+			name = "Viktor Yanukovych"
+			adm = 3
+			dip = 3
+			mil = 3
+			age = 54
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_ukr_party_of_regions
+		set_country_flag = eu4_2k_political_timeline_diverged
+		set_country_flag = eu4_2k_political_event_22_resolved
+		add_prestige = 2
+	}
+}
+
+country_event = {
+	id = eu4_2k_politics.23
+	title = eu4_2k_politics.23.t
+	desc = eu4_2k_politics.23.d
+	picture = ELECTION_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		tag = POR
+		NOT = { has_country_flag = eu4_2k_political_timeline_diverged }
+		NOT = { has_country_flag = eu4_2k_political_event_23_resolved }
+	}
+	option = {
+		name = eu4_2k_politics.23.a
+		ai_chance = { factor = 90 }
+		clr_country_flag = eu4_2k_ruling_group_por_social_democratic_party
+		clr_country_flag = eu4_2k_ruling_group_por_socialist_party
+		define_ruler = {
+			name = "Jose Socrates"
+			adm = 4
+			dip = 4
+			mil = 2
+			age = 47
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_por_socialist_party
+		set_country_flag = eu4_2k_political_event_23_resolved
+		add_prestige = 2
+	}
+	option = {
+		name = eu4_2k_politics.23.b
+		ai_chance = { factor = 10 }
+		clr_country_flag = eu4_2k_ruling_group_por_social_democratic_party
+		clr_country_flag = eu4_2k_ruling_group_por_socialist_party
+		define_ruler = {
+			name = "Pedro Santana Lopes"
+			adm = 3
+			dip = 3
+			mil = 2
+			age = 48
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_por_social_democratic_party
+		set_country_flag = eu4_2k_political_timeline_diverged
+		set_country_flag = eu4_2k_political_event_23_resolved
+		add_prestige = 2
+	}
+}
+
+country_event = {
+	id = eu4_2k_politics.24
+	title = eu4_2k_politics.24.t
+	desc = eu4_2k_politics.24.d
+	picture = ELECTION_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		tag = GER
+		NOT = { has_country_flag = eu4_2k_political_timeline_diverged }
+		NOT = { has_country_flag = eu4_2k_political_event_24_resolved }
+	}
+	option = {
+		name = eu4_2k_politics.24.a
+		ai_chance = { factor = 90 }
+		clr_country_flag = eu4_2k_ruling_group_ger_christian_democratic_union
+		clr_country_flag = eu4_2k_ruling_group_ger_social_democratic_party
+		define_ruler = {
+			name = "Angela Merkel"
+			adm = 5
+			dip = 4
+			mil = 3
+			age = 51
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_ger_christian_democratic_union
+		set_country_flag = eu4_2k_political_event_24_resolved
+		add_prestige = 2
+	}
+	option = {
+		name = eu4_2k_politics.24.b
+		ai_chance = { factor = 10 }
+		clr_country_flag = eu4_2k_ruling_group_ger_christian_democratic_union
+		clr_country_flag = eu4_2k_ruling_group_ger_social_democratic_party
+		define_ruler = {
+			name = "Gerhard Schroder"
+			adm = 5
+			dip = 4
+			mil = 3
+			age = 61
+			claim = 95
+		}
+		set_country_flag = eu4_2k_ruling_group_ger_social_democratic_party
+		set_country_flag = eu4_2k_political_timeline_diverged
+		set_country_flag = eu4_2k_political_event_24_resolved
+		add_prestige = 2
+	}
+}
+
+# Generated post-2000 crisis paths
+
+country_event = {
+	id = eu4_2k_politics.100
+	title = eu4_2k_politics.100.t
+	desc = eu4_2k_politics.100.d
+	picture = DIPLOMACY_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		OR = { tag = USA }
+		NOT = { has_country_flag = eu4_2k_political_event_100_resolved }
+	}
+	option = {
+		name = eu4_2k_politics.100.a
+		ai_chance = { factor = 90 }
+		set_global_flag = eu4_2k_september_11_attacks
+		set_country_flag = eu4_2k_war_on_terror_path
+		add_stability = -1
+		add_prestige = 5
+		add_mil_power = 25
+		set_country_flag = eu4_2k_political_event_100_resolved
+	}
+	option = {
+		name = eu4_2k_politics.100.b
+		ai_chance = { factor = 10 }
+		set_global_flag = eu4_2k_september_11_attacks
+		set_country_flag = eu4_2k_restrained_counterterrorism_path
+		add_stability = -1
+		add_republican_tradition = 3
+		set_country_flag = eu4_2k_political_event_100_resolved
+	}
+}
+
+country_event = {
+	id = eu4_2k_politics.101
+	title = eu4_2k_politics.101.t
+	desc = eu4_2k_politics.101.d
+	picture = DIPLOMACY_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		OR = { tag = AFG }
+		NOT = { has_country_flag = eu4_2k_political_event_101_resolved }
+		has_global_flag = eu4_2k_september_11_attacks
+	}
+	option = {
+		name = eu4_2k_politics.101.a
+		ai_chance = { factor = 90 }
+		set_country_flag = eu4_2k_afghanistan_rejected_ultimatum
+		add_stability = 1
+		add_prestige = -5
+		set_country_flag = eu4_2k_political_event_101_resolved
+	}
+	option = {
+		name = eu4_2k_politics.101.b
+		ai_chance = { factor = 10 }
+		set_country_flag = eu4_2k_afghanistan_accepted_ultimatum
+		add_stability = -1
+		add_prestige = 5
+		add_opinion = { who = USA modifier = eu4_2k_counterterrorism_cooperation }
+		set_country_flag = eu4_2k_political_event_101_resolved
+	}
+}
+
+country_event = {
+	id = eu4_2k_politics.102
+	title = eu4_2k_politics.102.t
+	desc = eu4_2k_politics.102.d
+	picture = DIPLOMACY_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		OR = { tag = USA }
+		NOT = { has_country_flag = eu4_2k_political_event_102_resolved }
+		has_global_flag = eu4_2k_september_11_attacks
+		AFG = { has_country_flag = eu4_2k_afghanistan_rejected_ultimatum }
+	}
+	option = {
+		name = eu4_2k_politics.102.a
+		ai_chance = { factor = 85 }
+		set_country_flag = eu4_2k_afghanistan_intervention_authorized
+		add_prestige = 10
+		add_mil_power = 50
+		add_opinion = { who = AFG modifier = eu4_2k_security_confrontation }
+		set_country_flag = eu4_2k_political_event_102_resolved
+	}
+	option = {
+		name = eu4_2k_politics.102.b
+		ai_chance = { factor = 15 }
+		set_country_flag = eu4_2k_afghanistan_containment_path
+		add_dip_power = 50
+		add_opinion = { who = AFG modifier = eu4_2k_security_disagreement }
+		set_country_flag = eu4_2k_political_event_102_resolved
+	}
+}
+
+country_event = {
+	id = eu4_2k_politics.103
+	title = eu4_2k_politics.103.t
+	desc = eu4_2k_politics.103.d
+	picture = DIPLOMACY_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		OR = { tag = IRQ }
+		NOT = { has_country_flag = eu4_2k_political_event_103_resolved }
+	}
+	option = {
+		name = eu4_2k_politics.103.a
+		ai_chance = { factor = 35 }
+		set_global_flag = eu4_2k_iraq_resolution_1441
+		set_country_flag = eu4_2k_iraq_cooperates_with_inspections
+		add_stability = -1
+		add_prestige = 5
+		set_country_flag = eu4_2k_political_event_103_resolved
+	}
+	option = {
+		name = eu4_2k_politics.103.b
+		ai_chance = { factor = 65 }
+		set_global_flag = eu4_2k_iraq_resolution_1441
+		set_country_flag = eu4_2k_iraq_obstructs_inspections
+		add_stability = 1
+		add_prestige = -10
+		add_opinion = { who = USA modifier = eu4_2k_security_confrontation }
+		set_country_flag = eu4_2k_political_event_103_resolved
+	}
+}
+
+country_event = {
+	id = eu4_2k_politics.104
+	title = eu4_2k_politics.104.t
+	desc = eu4_2k_politics.104.d
+	picture = DIPLOMACY_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		OR = { tag = USA }
+		NOT = { has_country_flag = eu4_2k_political_event_104_resolved }
+		has_global_flag = eu4_2k_iraq_resolution_1441
+	}
+	option = {
+		name = eu4_2k_politics.104.a
+		ai_chance = { factor = 80 }
+		set_country_flag = eu4_2k_iraq_regime_change_path
+		add_mil_power = 50
+		add_prestige = 5
+		add_opinion = { who = IRQ modifier = eu4_2k_security_confrontation }
+		set_country_flag = eu4_2k_political_event_104_resolved
+	}
+	option = {
+		name = eu4_2k_politics.104.b
+		ai_chance = { factor = 20 }
+		set_country_flag = eu4_2k_iraq_containment_path
+		add_dip_power = 50
+		add_republican_tradition = 2
+		add_opinion = { who = IRQ modifier = eu4_2k_security_disagreement }
+		set_country_flag = eu4_2k_political_event_104_resolved
+	}
+}
+
+country_event = {
+	id = eu4_2k_politics.105
+	title = eu4_2k_politics.105.t
+	desc = eu4_2k_politics.105.d
+	picture = DIPLOMACY_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		OR = { tag = GBR tag = FR2 tag = GER tag = RUS tag = CHN }
+		NOT = { has_country_flag = eu4_2k_political_event_105_resolved }
+		has_global_flag = eu4_2k_september_11_attacks
+	}
+	option = {
+		name = eu4_2k_politics.105.a
+		ai_chance = { factor = 85 }
+		set_country_flag = eu4_2k_counterterrorism_cooperation_path
+		add_dip_power = 10
+		add_opinion = { who = USA modifier = eu4_2k_counterterrorism_cooperation }
+		set_country_flag = eu4_2k_political_event_105_resolved
+	}
+	option = {
+		name = eu4_2k_politics.105.b
+		ai_chance = { factor = 15 }
+		set_country_flag = eu4_2k_independent_security_path
+		add_prestige = 2
+		add_opinion = { who = USA modifier = eu4_2k_security_disagreement }
+		set_country_flag = eu4_2k_political_event_105_resolved
+	}
+}

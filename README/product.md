@@ -18,6 +18,8 @@ The project now has a reproducible `2000.1.1` country and ownership foundation: 
 
 Step 3 canonical inputs are now established for all 188 active countries: country technology/economic setup, effective diplomacy and organization membership, and simplified army/navy formation records. Starting ADM/DIP/MIL technology, the modern institution sequence, first-pass national economy/reserve values, ten curated bilateral alliances, one Taiwan guarantee, bilateral starting opinions, 188 armies, and 80 suitable fleets are integrated. Organization memberships remain metadata-only.
 
+The first post-start political timeline is integrated for 2000–2005. It contains 24 dated leadership transitions with historical and alternate outcomes, plus September 11, Afghanistan, international counterterrorism responses, and Iraq crisis paths. Historical AI choices are strongly favored without being forced; choosing an alternate leader prevents later scripted successions from overwriting that country's divergent path.
+
 Province development is gameplay-balanced for the modern start: major countries use explicit national totals, extreme city values use diminishing returns with a 50-development cap, and underrepresented Balkan capitals receive regional floors. Trade nodes and connections use the complete vanilla EU4 network, with visual paths aligned to the imported Extended Timeline map.
 
 Trade goods remain on the vanilla EU4 set. Starting military infrastructure is restrained and strategic: forts prioritize international borders and important capitals, while barracks concentrate in national manpower centers. Countries begin without regimental camps.

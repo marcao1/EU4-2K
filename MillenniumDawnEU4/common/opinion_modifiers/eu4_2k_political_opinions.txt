@@ -1,0 +1,4 @@
+# Political-event opinion effects.
+eu4_2k_counterterrorism_cooperation = { opinion = 25 }
+eu4_2k_security_disagreement = { opinion = -15 }
+eu4_2k_security_confrontation = { opinion = -75 }
