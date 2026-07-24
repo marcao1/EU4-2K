@@ -1,0 +1,17 @@
+# EU4 2K uses IRA as modern Iran. Disable the vanilla Persia formation so IRA
+# cannot automatically change into the historical PER tag.
+country_decisions = {
+	persian_nation = {
+		major = yes
+		potential = {
+			always = no
+		}
+		allow = {
+			always = no
+		}
+		effect = { }
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

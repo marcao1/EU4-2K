@@ -40,13 +40,13 @@ province's tax/production/manpower proportions. Owned provinces have a minimum
 of 3 development and all provinces have a hard cap of 50. The current snapshot
 totals:
 
-- 13,458 base tax
-- 13,083 base production
-- 10,776 base manpower
-- 37,317 total development, including 37,200 in owned provinces
+- 13,612 base tax
+- 13,152 base production
+- 10,803 base manpower
+- 37,567 total development, including 37,450 in owned provinces
 
 The explicit major-country targets are 3,000 for the United States, 2,400 for
-China, 1,900 for India, 1,650 for Russia, 1,400 for Germany, 1,150 for France,
+China, 1,800 for India, 2,000 for Russia, 1,400 for Germany, 1,150 for France,
 1,125 for Japan, 1,100 for the United Kingdom, 950 for Italy, 920 for Indonesia,
 915 for Brazil, and 845 for Mexico. Other countries retain their balanced ET
 total within a 15-1,500 national band. This avoids forcing countries with very
@@ -88,16 +88,15 @@ The generator also limits assignments with a conservative building-slot budget.
 
 The current global distribution is:
 
-- 865 marketplaces
-- 579 workshops
+- 883 marketplaces
+- 605 workshops
 - 400 barracks
-- 284 courthouses
+- 308 courthouses
 - 196 strategic forts
-- 99 temples
+- 104 temples
 - 107 docks
-- 58 regimental camps
-- 17 shipyards
-- 2,605 buildings across 1,115 provinces
+- 18 shipyards
+- 2,621 buildings across 1,121 provinces
 
 Capitals receive administrative and economic priority. Centers of trade receive
 marketplaces, productive provinces receive workshops, high-tax provinces
@@ -122,10 +121,9 @@ starting maintenance.
 
 Military infrastructure is deliberately concentrated rather than universal.
 The strongest manpower provinces in infrastructure-tier-two or better countries
-receive 400 barracks. Infrastructure-tier-four and tier-five countries receive
-58 regimental camps in a small number of forts, capitals, and manpower centers.
-Strategic buildings receive first priority in the province slot budget, while
-the economic and naval building rules remain unchanged.
+receive 400 barracks. No country begins with regimental camps. Strategic
+buildings receive first priority in the province slot budget, while the economic
+and naval building rules remain unchanged.
 
 Placement is derived deterministically from the ET province bitmap, current
 ownership, canonical capitals, development, trade centers, and infrastructure

@@ -28,18 +28,18 @@
 27,Finland,FIN,FIN,FIN,finnish,protestant,Turku,grain,6,5,4,yes,no,0,10,2,2,et:history/provinces/27 - Finland.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 28,Nyland,FIN,FIN,FIN,finnish,protestant,Helsinki,glass,10,10,9,yes,no,0,10,2,1,et:history/provinces/28 - Nyland.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 29,Tavastland,FIN,FIN,FIN,finnish,protestant,Jyväskylä,naval_supplies,4,4,4,yes,no,0,10,2,3,et:history/provinces/29 - Tavastland.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-30,Viborg,RUS,RUS,RUS,novgorodian,orthodox,Vyborg,naval_supplies,2,2,2,yes,no,0,10,2,3,et:history/provinces/30 - Viborg.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+30,Viborg,RUS,RUS,RUS,novgorodian,orthodox,Vyborg,naval_supplies,3,2,2,yes,no,0,10,2,3,et:history/provinces/30 - Viborg.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 31,Savolaks,FIN,FIN,FIN,finnish,protestant,Kuopio,paper,4,4,4,yes,no,0,10,2,4,et:history/provinces/31 - Savolaks.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-32,Keksholm,RUS,RUS,RUS,novgorodian,orthodox,Priozersk,fur,2,2,1,yes,no,0,10,2,4,et:history/provinces/32 - Keksholm.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-33,Neva,RUS,RUS,RUS,russian,orthodox,St.Petersburg,fur,11,11,10,yes,no,1,8,2,2,et:history/provinces/33 - Neva.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-34,Ingermanland,RUS,RUS,RUS,ingrian,orthodox,Ivangorod,fur,3,3,1,yes,no,0,6,2,2,et:history/provinces/34 - Ingermanland.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+32,Keksholm,RUS,RUS,RUS,novgorodian,orthodox,Priozersk,fur,3,2,1,yes,no,0,10,2,4,et:history/provinces/32 - Keksholm.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+33,Neva,RUS,RUS,RUS,russian,orthodox,St.Petersburg,fur,13,13,13,yes,no,1,8,2,2,et:history/provinces/33 - Neva.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+34,Ingermanland,RUS,RUS,RUS,ingrian,orthodox,Ivangorod,fur,4,3,1,yes,no,0,6,2,2,et:history/provinces/34 - Ingermanland.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 35,Osel,EST,EST,EST,estonian,protestant,Kuressaare,grain,1,1,1,yes,no,0,10,2,3,et:history/provinces/35 - Osel.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 36,Estland,EST,EST,EST,estonian,protestant,Tallinn,grain,4,4,2,yes,no,0,10,2,3,et:history/provinces/36 - Estland.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 37,Livland,EST,EST,EST,estonian,protestant,Pärnu,livestock,3,3,2,yes,no,0,10,2,1,et:history/provinces/37 - Livland.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 38,Riga,LTV,LTV,LTV,latvian,protestant,Riga,naval_supplies,5,5,1,yes,no,1,10,2,4,et:history/provinces/38 - Riga.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 39,Kurland,LTV,LTV,LTV,latvian,protestant,Liepaja,naval_supplies,3,3,1,yes,no,0,10,2,1,et:history/provinces/39 - Kurland.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 40,Memel,LIT,LIT,LIT,lithuanian,catholic,Klaipeda,livestock,3,3,5,yes,no,0,7,2,3,et:history/provinces/40 - Memel.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-41,Ostpreussen,RUS,RUS,RUS,russian,orthodox,Kaliningrad,gems,8,7,4,yes,no,1,0,0,0,et:history/provinces/41 - Ostpreussen.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+41,Ostpreussen,RUS,RUS,RUS,russian,orthodox,Kaliningrad,gems,10,9,5,yes,no,1,0,0,0,et:history/provinces/41 - Ostpreussen.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 42,Warmia,POL,POL,POL,polish,catholic,Olsztyn,naval_supplies,3,3,2,yes,no,0,0,0,0,et:history/provinces/42 - Warmia.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 43,Danzig,POL,POL,POL,polish,catholic,Gdansk,grain,7,7,2,yes,no,2,0,0,0,et:history/provinces/43 - Danzig.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 44,Hamburg,GER,GER,GER,lower_saxon,protestant,Hamburg,glass,11,10,8,yes,no,2,0,0,0,et:history/provinces/44 - Hamburg.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
@@ -272,7 +272,7 @@
 271,Samogitia,LIT,LIT,LIT,lithuanian,catholic,Siauliai,livestock,2,2,2,yes,no,0,0,0,0,et:history/provinces/271 - Samogitia.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 272,Lithuania,LIT,LIT,LIT,lithuanian,catholic,Vilna,grain,5,5,3,yes,no,1,0,0,0,et:history/provinces/272 - Lithuania.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 273,Wenden,LTV,LTV,LTV,latvian,catholic,Daugavpils,livestock,2,2,1,yes,no,0,0,0,0,et:history/provinces/273 - Wenden.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-274,Pskov,RUS,RUS,RUS,novgorodian,orthodox,Pskov,livestock,5,4,4,yes,no,1,0,0,0,et:history/provinces/274 - Pskov.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+274,Pskov,RUS,RUS,RUS,novgorodian,orthodox,Pskov,livestock,6,6,5,yes,no,1,0,0,0,et:history/provinces/274 - Pskov.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 275,Polotsk,BLR,BLR,BLR,byelorussian,orthodox,Polotsk,iron,4,4,1,yes,no,0,0,0,0,et:history/provinces/275 - Polotsk.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 276,Minsk,BLR,BLR,BLR,byelorussian,orthodox,Minsk,naval_supplies,3,3,2,yes,no,0,0,0,0,et:history/provinces/276 - Minsk.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 277,Brest,BLR,BLR,BLR,byelorussian,catholic,Brest-Litovsk,wool,2,2,2,yes,no,0,0,0,0,et:history/provinces/277 - Brest.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -284,35 +284,35 @@
 283,Zaporozhia,UKR,UKR,UKR,ruthenian,orthodox,Zaporizhia,livestock,1,1,2,yes,no,0,0,0,0,et:history/provinces/283 - Zaporozhia.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 284,Crimea,UKR,UKR,UKR,russian,orthodox,Yevpatoria,salt,6,6,6,yes,no,0,0,0,0,et:history/provinces/284 - Crimea.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 285,Kaffa,UKR,UKR,UKR,russian,orthodox,Feodosiya,wine,4,5,4,yes,no,2,0,0,0,et:history/provinces/285 - Kaffa.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-286,Azow,RUS,RUS,RUS,russian,orthodox,Rostov-na-Donu,salt,8,8,7,yes,no,0,0,0,0,et:history/provinces/286 - Azow.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-287,Kouban,RUS,RUS,RUS,russian,sunni,Krasnodar,livestock,3,3,3,yes,no,0,0,0,0,et:history/provinces/287 - Kouban.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-288,Cherkassk,RUS,RUS,RUS,russian,orthodox,Shakhty,livestock,5,4,4,yes,no,0,0,0,0,et:history/provinces/288 - Cherkassk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+286,Azow,RUS,RUS,RUS,russian,orthodox,Rostov-na-Donu,salt,10,9,9,yes,no,0,0,0,0,et:history/provinces/286 - Azow.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+287,Kouban,RUS,RUS,RUS,russian,sunni,Krasnodar,livestock,4,4,3,yes,no,0,0,0,0,et:history/provinces/287 - Kouban.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+288,Cherkassk,RUS,RUS,RUS,russian,orthodox,Shakhty,livestock,6,5,6,yes,no,0,0,0,0,et:history/provinces/288 - Cherkassk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 289,Chernigov,UKR,UKR,UKR,ruthenian,orthodox,Chernigov,iron,2,2,1,yes,no,0,0,0,0,et:history/provinces/289 - Chernigov.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 290,Poltava,UKR,UKR,UKR,ruthenian,orthodox,Poltava,grain,2,2,1,yes,no,0,0,0,0,et:history/provinces/290 - Poltava.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 291,Kharkov,UKR,UKR,UKR,ruthenian,orthodox,Kharkov,iron,2,2,1,yes,no,0,0,0,0,et:history/provinces/291 - Kharkov.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 292,Mogilyov,BLR,BLR,BLR,byelorussian,orthodox,Mogilev,wool,2,2,2,yes,no,0,0,0,0,et:history/provinces/292 - Mogilyov.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-293,Smolensk,RUS,RUS,RUS,russian,orthodox,Smolensk,grain,5,5,1,yes,no,2,0,0,0,et:history/provinces/293 - Smolensk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-294,Tver,RUS,RUS,RUS,russian,orthodox,Tver,iron,7,6,3,yes,no,0,0,0,0,et:history/provinces/294 - Tver.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-295,Moskva,RUS,RUS,RUS,russian,orthodox,Moskva,glass,12,12,11,yes,no,2,0,0,0,et:history/provinces/295 - Moskva.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-296,Mozhaisk,RUS,RUS,RUS,russian,orthodox,Kaluga,grain,5,5,2,yes,no,0,0,0,0,et:history/provinces/296 - Mozhaisk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-297,Bryansk,RUS,RUS,RUS,russian,orthodox,Bryansk,grain,2,2,1,yes,no,0,0,0,0,et:history/provinces/297 - Bryansk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-298,Kursk,RUS,RUS,RUS,russian,orthodox,Kursk,grain,3,2,2,yes,no,0,0,0,0,et:history/provinces/298 - Kursk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-299,Voronezh,RUS,RUS,RUS,russian,orthodox,Voronezh,livestock,3,3,2,yes,no,0,0,0,0,et:history/provinces/299 - Voronezh.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-300,Tula,RUS,RUS,RUS,russian,orthodox,Tula,iron,4,4,4,yes,no,0,0,0,0,et:history/provinces/300 - Tula.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-301,Ryazan,RUS,RUS,RUS,russian,orthodox,Ryazan,wool,7,6,6,yes,no,0,0,0,0,et:history/provinces/301 - Ryazan.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-302,Tambow,RUS,RUS,RUS,russian,orthodox,Tambov,iron,3,3,3,yes,no,0,0,0,0,et:history/provinces/302 - Tambow.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-303,Saratow,RUS,RUS,RUS,russian,orthodox,Saratov,livestock,4,4,4,yes,no,0,0,0,0,et:history/provinces/303 - Saratow.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-304,Pensa,RUS,RUS,RUS,russian,orthodox,Saransk,livestock,3,3,2,yes,no,0,0,0,0,et:history/provinces/304 - Pensa.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-305,Perm,RUS,RUS,RUS,russian,orthodox,Perm,copper,7,7,6,yes,no,0,0,0,0,et:history/provinces/305 - Perm.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-306,Nijni-Novgorod,RUS,RUS,RUS,russian,orthodox,Nizhny Novgorod,copper,8,7,3,yes,no,2,0,0,0,et:history/provinces/306 - Nijni-Novgorod.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-307,Vladimir,RUS,RUS,RUS,russian,orthodox,Vladimir,iron,5,4,3,yes,no,0,0,0,0,et:history/provinces/307 - Vladimir.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-308,Yaroslavl,RUS,RUS,RUS,russian,orthodox,Yaroslavl,livestock,6,5,4,yes,no,1,0,0,0,et:history/provinces/308 - Yaroslavl.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-309,Olonets,RUS,RUS,RUS,novgorodian,orthodox,Petrozavodsk,iron,3,3,2,yes,no,0,0,0,0,et:history/provinces/309 - Olonets.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-310,Novgorod,RUS,RUS,RUS,novgorodian,orthodox,Veliky Novgorod,fur,5,5,5,yes,no,2,0,0,0,et:history/provinces/310 - Novgorod.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-311,Kholm,RUS,RUS,RUS,novgorodian,orthodox,Staraja Russa,naval_supplies,2,2,2,yes,no,0,0,0,0,et:history/provinces/311 - Kholm.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-312,Vologda,RUS,RUS,RUS,novgorodian,orthodox,Belozersk,naval_supplies,5,5,4,yes,no,0,0,0,0,et:history/provinces/312 - Vologda.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-313,Archangelsk,RUS,RUS,RUS,novgorodian,orthodox,Archangelsk,fur,2,2,2,yes,no,0,0,0,0,et:history/provinces/313 - Archangelsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-314,Ustyug,RUS,RUS,RUS,novgorodian,orthodox,Vologda,iron,3,3,2,yes,no,0,0,0,0,et:history/provinces/314 - Ustyug.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+293,Smolensk,RUS,RUS,RUS,russian,orthodox,Smolensk,grain,6,6,1,yes,no,2,0,0,0,et:history/provinces/293 - Smolensk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+294,Tver,RUS,RUS,RUS,russian,orthodox,Tver,iron,8,8,4,yes,no,0,0,0,0,et:history/provinces/294 - Tver.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+295,Moskva,RUS,RUS,RUS,russian,orthodox,Moskva,glass,15,14,14,yes,no,2,0,0,0,et:history/provinces/295 - Moskva.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+296,Mozhaisk,RUS,RUS,RUS,russian,orthodox,Kaluga,grain,6,6,2,yes,no,0,0,0,0,et:history/provinces/296 - Mozhaisk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+297,Bryansk,RUS,RUS,RUS,russian,orthodox,Bryansk,grain,3,2,1,yes,no,0,0,0,0,et:history/provinces/297 - Bryansk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+298,Kursk,RUS,RUS,RUS,russian,orthodox,Kursk,grain,4,2,2,yes,no,0,0,0,0,et:history/provinces/298 - Kursk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+299,Voronezh,RUS,RUS,RUS,russian,orthodox,Voronezh,livestock,4,3,2,yes,no,0,0,0,0,et:history/provinces/299 - Voronezh.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+300,Tula,RUS,RUS,RUS,russian,orthodox,Tula,iron,5,5,4,yes,no,0,0,0,0,et:history/provinces/300 - Tula.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+301,Ryazan,RUS,RUS,RUS,russian,orthodox,Ryazan,wool,9,8,7,yes,no,0,0,0,0,et:history/provinces/301 - Ryazan.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+302,Tambow,RUS,RUS,RUS,russian,orthodox,Tambov,iron,4,4,3,yes,no,0,0,0,0,et:history/provinces/302 - Tambow.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+303,Saratow,RUS,RUS,RUS,russian,orthodox,Saratov,livestock,5,5,4,yes,no,0,0,0,0,et:history/provinces/303 - Saratow.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+304,Pensa,RUS,RUS,RUS,russian,orthodox,Saransk,livestock,4,3,2,yes,no,0,0,0,0,et:history/provinces/304 - Pensa.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+305,Perm,RUS,RUS,RUS,russian,orthodox,Perm,copper,9,8,8,yes,no,0,0,0,0,et:history/provinces/305 - Perm.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+306,Nijni-Novgorod,RUS,RUS,RUS,russian,orthodox,Nizhny Novgorod,copper,10,10,3,yes,no,2,0,0,0,et:history/provinces/306 - Nijni-Novgorod.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+307,Vladimir,RUS,RUS,RUS,russian,orthodox,Vladimir,iron,6,6,3,yes,no,0,0,0,0,et:history/provinces/307 - Vladimir.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+308,Yaroslavl,RUS,RUS,RUS,russian,orthodox,Yaroslavl,livestock,7,7,5,yes,no,1,0,0,0,et:history/provinces/308 - Yaroslavl.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+309,Olonets,RUS,RUS,RUS,novgorodian,orthodox,Petrozavodsk,iron,4,3,2,yes,no,0,0,0,0,et:history/provinces/309 - Olonets.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+310,Novgorod,RUS,RUS,RUS,novgorodian,orthodox,Veliky Novgorod,fur,6,6,7,yes,no,2,0,0,0,et:history/provinces/310 - Novgorod.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+311,Kholm,RUS,RUS,RUS,novgorodian,orthodox,Staraja Russa,naval_supplies,3,2,2,yes,no,0,0,0,0,et:history/provinces/311 - Kholm.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+312,Vologda,RUS,RUS,RUS,novgorodian,orthodox,Belozersk,naval_supplies,6,6,6,yes,no,0,0,0,0,et:history/provinces/312 - Vologda.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+313,Archangelsk,RUS,RUS,RUS,novgorodian,orthodox,Archangelsk,fur,3,2,2,yes,no,0,0,0,0,et:history/provinces/313 - Archangelsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+314,Ustyug,RUS,RUS,RUS,novgorodian,orthodox,Vologda,iron,4,3,2,yes,no,0,0,0,0,et:history/provinces/314 - Ustyug.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 315,Finnmark,NOR,NOR,NOR,norwegian,protestant,Tromsø,fish,4,3,1,yes,no,0,5,2,2,et:history/provinces/315 - Finnmark.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 316,Bithynia,TKY,TKY,TKY,turkish,sunni,Izmit,grain,7,7,3,yes,no,0,0,0,0,et:history/provinces/316 - Bithynia.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 317,Bursa,TKY,TKY,TKY,turkish,sunni,Bursa,iron,8,8,6,yes,no,2,0,0,0,et:history/provinces/317 - Bursa.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -423,7 +423,7 @@
 422,Imereti,GEO,GEO,GEO,georgian,orthodox,Kutaisi,cloth,3,3,3,yes,no,0,0,0,0,et:history/provinces/422 - Imereti.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 423,Kartli,GEO,GEO,GEO,georgian,orthodox,T'bilisi,dyes,4,4,2,yes,no,1,0,0,0,et:history/provinces/423 - Kartli.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 424,Shirva,IRA,IRA,IRA,azerbaijani,shiite,Ardabil,dyes,4,4,4,yes,no,0,0,0,0,et:history/provinces/424 - Shirva.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-425,Dagestan,RUS,RUS,RUS,dagestani,shiite,Derbent,fish,3,3,1,yes,no,0,0,0,0,et:history/provinces/425 - Dagestan.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+425,Dagestan,RUS,RUS,RUS,dagestani,shiite,Derbent,fish,4,3,1,yes,no,0,0,0,0,et:history/provinces/425 - Dagestan.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 426,Mazandaran,IRA,IRA,IRA,mazandarani,shiite,Amol,silk,4,4,2,yes,no,0,0,0,0,et:history/provinces/426 - Mazandaran.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 427,Qumis,IRA,IRA,IRA,khorasani,shiite,Damghan,wool,4,4,1,yes,no,0,0,0,0,et:history/provinces/427 - Qumis.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 428,Ajam,IRA,IRA,IRA,persian,shiite,Tehran,iron,11,11,12,yes,no,1,0,0,0,et:history/provinces/428 - Ajam.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -461,24 +461,24 @@
 460,Uzkend,KYR,KYR,KYR,kirgiz,sunni,Osh,wool,4,4,4,yes,no,0,0,0,0,et:history/provinces/460 - Uzkend.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 461,Zhetysu,KZK,KZK,KZK,khazak,sunni,Almaty,cloth,4,4,4,yes,no,0,0,0,0,et:history/provinces/461 - Zhetysu.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 462,Georgia,GEO,GEO,GEO,georgian,orthodox,Batumi,wine,2,2,2,yes,no,1,0,0,0,et:history/provinces/462 - Georgia.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-463,Circassia,RUS,RUS,RUS,russian,orthodox,Cherkessk,livestock,4,4,4,yes,no,0,0,0,0,et:history/provinces/463 - Circassia.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-464,Astrakhan,RUS,RUS,RUS,russian,orthodox,Astrakhan,wool,6,6,5,yes,no,0,0,0,0,et:history/provinces/464 - Astrakhan.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+463,Circassia,RUS,RUS,RUS,russian,orthodox,Cherkessk,livestock,5,5,4,yes,no,0,0,0,0,et:history/provinces/463 - Circassia.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+464,Astrakhan,RUS,RUS,RUS,russian,orthodox,Astrakhan,wool,7,7,7,yes,no,0,0,0,0,et:history/provinces/464 - Astrakhan.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 465,Nogay,KZK,KZK,KZK,khazak,sunni,Atyrau,coal,3,3,3,yes,no,0,0,0,0,et:history/provinces/465 - Nogay.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-466,Sarai,RUS,RUS,RUS,russian,orthodox,Akhtubinsk,wool,3,3,2,yes,no,1,0,0,0,et:history/provinces/466 - Sarai.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-467,Borisoglebsk,RUS,RUS,RUS,russian,orthodox,Borisoglebsk,livestock,2,2,2,yes,no,0,0,0,0,et:history/provinces/467 - Borisoglebsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-468,Khazaria,RUS,RUS,RUS,russian,orthodox,Volgodonsk,livestock,4,4,4,yes,no,0,0,0,0,et:history/provinces/468 - Khazaria.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+466,Sarai,RUS,RUS,RUS,russian,orthodox,Akhtubinsk,wool,4,3,2,yes,no,1,0,0,0,et:history/provinces/466 - Sarai.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+467,Borisoglebsk,RUS,RUS,RUS,russian,orthodox,Borisoglebsk,livestock,3,2,2,yes,no,0,0,0,0,et:history/provinces/467 - Borisoglebsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+468,Khazaria,RUS,RUS,RUS,russian,orthodox,Volgodonsk,livestock,5,5,4,yes,no,0,0,0,0,et:history/provinces/468 - Khazaria.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 469,Ryn,KZK,KZK,KZK,khazak,sunni,Ganyushkino,fish,1,1,1,yes,no,0,0,0,0,et:history/provinces/469 - Ryn.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 470,Bayuly,KZK,KZK,KZK,khazak,sunni,Makat,livestock,1,1,1,yes,no,0,0,0,0,et:history/provinces/470 - Bayuly.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 471,Alimuly,KZK,KZK,KZK,khazak,sunni,Alga,livestock,1,1,1,yes,no,0,0,0,0,et:history/provinces/471 - Alimuly.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 472,Jetyru,KZK,KZK,KZK,khazak,sunni,Aktobe,naval_supplies,3,3,2,yes,no,0,0,0,0,et:history/provinces/472 - Jetyru.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-473,Samara,RUS,RUS,RUS,russian,orthodox,Samara,iron,7,7,7,yes,no,0,0,0,0,et:history/provinces/473 - Samara.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+473,Samara,RUS,RUS,RUS,russian,orthodox,Samara,iron,8,8,10,yes,no,0,0,0,0,et:history/provinces/473 - Samara.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 474,Yaik,KZK,KZK,KZK,russian,orthodox,Oral,coal,2,4,2,yes,no,0,0,0,0,et:history/provinces/474 - Yaik.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-475,Bashkortostan,RUS,RUS,RUS,russian,orthodox,Ufa,wool,7,7,7,yes,no,0,5,2,3,et:history/provinces/475 - Bashkortostan.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+475,Bashkortostan,RUS,RUS,RUS,russian,orthodox,Ufa,wool,8,8,10,yes,no,0,5,2,3,et:history/provinces/475 - Bashkortostan.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 476,Kypshak,KZK,KZK,KZK,khazak,sunni,Astana,grain,6,6,6,yes,no,0,0,0,0,et:history/provinces/476 - Kypshak.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 477,Nadym,KZK,KZK,KZK,khazak,sunni,Balkhash,copper,2,2,2,yes,no,0,0,0,0,et:history/provinces/477 - Nadym.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 478,Argyn,KZK,KZK,KZK,khazak,sunni,Koktobe,wool,1,1,1,yes,no,0,0,0,0,et:history/provinces/478 - Argyn.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 479,Kerey,KZK,KZK,KZK,khazak,sunni,Kokshetau,copper,2,2,2,yes,no,0,0,0,0,et:history/provinces/479 - Kerey.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-480,Kulunda,RUS,RUS,RUS,russian,orthodox,Novosibirsk,wool,7,7,6,yes,no,0,5,2,3,et:history/provinces/480 - Kulunda.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+480,Kulunda,RUS,RUS,RUS,russian,orthodox,Novosibirsk,wool,8,10,7,yes,no,0,5,2,3,et:history/provinces/480 - Kulunda.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 481,Bermuda,GBR,GBR,GBR,british_caribbean,protestant,St. George,naval_supplies,1,1,1,yes,no,0,0,0,0,et:history/provinces/481 - Bermuda.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 482,Bahamas,BHM,BHM,BHM,british_caribbean,protestant,Nassau,cotton,5,5,5,yes,no,0,5,2,5,et:history/provinces/482 - Bahamas.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 483,Turks Islands,GBR,GBR,GBR,british_caribbean,protestant,Cockburn Town,cotton,3,3,1,yes,no,0,10,1,3,et:history/provinces/483 - Turks Islands.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
@@ -501,46 +501,46 @@
 500,St. Lucia,SLU,SLU,SLU,british_caribbean,protestant,Castries,sugar,6,8,1,yes,no,0,15,1,4,et:history/provinces/500 - St. Lucia.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 501,Barbados,BBD,BBD,BBD,british_caribbean,protestant,Bridgetown,sugar,6,8,1,yes,no,0,15,1,5,et:history/provinces/501 - Barbados.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 502,Trinidad,TRN,TRN,TRN,british_caribbean,protestant,Port-of-Spain,sugar,9,9,7,yes,no,0,25,2,9,et:history/provinces/502 - Trinidad.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-503,Kutch,INI,INI,INI,gujarati,hinduism,Bhuj,copper,2,2,1,yes,no,0,0,0,0,et:history/provinces/503 - Kutch.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+503,Kutch,INI,INI,INI,gujarati,hinduism,Bhuj,copper,2,1,1,yes,no,0,0,0,0,et:history/provinces/503 - Kutch.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 504,Lower Sind,PAK,PAK,PAK,sindhi,sunni,Karachi,cloth,12,11,11,yes,no,0,0,0,0,et:history/provinces/504 - Lower Sind.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 505,Sehwan,PAK,PAK,PAK,sindhi,shiite,Sehwan,silk,3,3,2,yes,no,0,0,0,0,et:history/provinces/505 - Sehwan.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 506,Multan,PAK,PAK,PAK,panjabi,sunni,Multan,cloth,11,11,10,yes,no,1,0,0,0,et:history/provinces/506 - Multan.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 507,Punjab,PAK,PAK,PAK,panjabi,sikhism,Lahore,silk,12,12,12,yes,no,2,0,0,0,et:history/provinces/507 - Punjab.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-508,Kashmir,INI,INI,INI,kashmiri,shiite,Srinagar,paper,4,4,3,yes,no,0,0,0,0,et:history/provinces/508 - Kashmir.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-509,Kangra,INI,INI,INI,pahari,hinduism,Kangra,cotton,2,2,2,yes,no,0,0,0,0,et:history/provinces/509 - Kangra.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+508,Kashmir,INI,INI,INI,kashmiri,shiite,Srinagar,paper,4,3,3,yes,no,0,0,0,0,et:history/provinces/508 - Kashmir.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+509,Kangra,INI,INI,INI,pahari,hinduism,Kangra,cotton,2,2,1,yes,no,0,0,0,0,et:history/provinces/509 - Kangra.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 510,Sirhind,INI,INI,INI,panjabi,sikhism,Ludhiana,cotton,5,5,4,yes,no,1,0,0,0,et:history/provinces/510 - Sirhind.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 511,Garhwal,INI,INI,INI,pahari,hinduism,Dehradun,cotton,3,3,2,yes,no,0,0,0,0,et:history/provinces/511 - Garhwal.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-512,Jangladesh,INI,INI,INI,rajput,hinduism,Bikaner,livestock,2,2,2,yes,no,0,0,0,0,et:history/provinces/512 - Jangladesh.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+512,Jangladesh,INI,INI,INI,rajput,hinduism,Bikaner,livestock,2,2,1,yes,no,0,0,0,0,et:history/provinces/512 - Jangladesh.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 513,Jaisalmer,INI,INI,INI,rajput,hinduism,Jaisalmer,wool,2,1,1,yes,no,0,0,0,0,et:history/provinces/513 - Jaisalmer.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-514,Marwar,INI,INI,INI,rajput,hinduism,Jodphur,cotton,2,2,2,yes,no,0,0,0,0,et:history/provinces/514 - Marwar.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-515,Girnar,INI,INI,INI,gujarati,hinduism,Girnar,iron,2,2,2,yes,no,0,0,0,0,et:history/provinces/515 - Girnar.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+514,Marwar,INI,INI,INI,rajput,hinduism,Jodphur,cotton,2,2,1,yes,no,0,0,0,0,et:history/provinces/514 - Marwar.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+515,Girnar,INI,INI,INI,gujarati,hinduism,Girnar,iron,2,2,1,yes,no,0,0,0,0,et:history/provinces/515 - Girnar.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 516,Baroda,INI,INI,INI,gujarati,hinduism,Varodara,dyes,4,4,3,yes,no,0,0,0,0,et:history/provinces/516 - Baroda.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-517,Surat,INI,INI,INI,gujarati,hinduism,Surat,silk,5,4,4,yes,no,2,0,0,0,et:history/provinces/517 - Surat.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-518,Chittor,INI,INI,INI,rajput,hinduism,Chittor,grain,2,2,2,yes,no,1,0,0,0,et:history/provinces/518 - Chittor.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+517,Surat,INI,INI,INI,gujarati,hinduism,Surat,silk,4,4,4,yes,no,2,0,0,0,et:history/provinces/517 - Surat.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+518,Chittor,INI,INI,INI,rajput,hinduism,Chittor,grain,2,2,1,yes,no,1,0,0,0,et:history/provinces/518 - Chittor.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 519,Dhundar,INI,INI,INI,rajput,hinduism,Jaipur,copper,5,4,4,yes,no,1,0,0,0,et:history/provinces/519 - Dhundar.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 520,Mewat,INI,INI,INI,rajput,hinduism,Alwar,glass,4,4,3,yes,no,0,0,0,0,et:history/provinces/520 - Mewat.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-521,Rajkot,INI,INI,INI,gujarati,hinduism,Rajkot,dyes,2,2,2,yes,no,0,0,0,0,et:history/provinces/521 - Rajkot.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-522,Upper Doab,INI,INI,INI,kanauji,hinduism,Delhi,silk,8,8,7,yes,no,2,0,0,0,et:history/provinces/522 - Upper Doab.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-523,Oudh,INI,INI,INI,avadhi,hinduism,Lucknow,glass,6,6,5,yes,no,0,0,0,0,et:history/provinces/523 - Oudh.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-524,Central Doab,INI,INI,INI,kanauji,hinduism,Agra,iron,6,6,6,yes,no,2,0,0,0,et:history/provinces/524 - Central Doab.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-525,Gird,INI,INI,INI,vindhyan,hinduism,Gwalior,dyes,4,3,3,yes,no,0,0,0,0,et:history/provinces/525 - Gird.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-526,Mandu,INI,INI,INI,malvi,hinduism,Indore,iron,6,5,5,yes,no,0,0,0,0,et:history/provinces/526 - Mandu.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+521,Rajkot,INI,INI,INI,gujarati,hinduism,Rajkot,dyes,2,2,1,yes,no,0,0,0,0,et:history/provinces/521 - Rajkot.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+522,Upper Doab,INI,INI,INI,kanauji,hinduism,Delhi,silk,8,7,7,yes,no,2,0,0,0,et:history/provinces/522 - Upper Doab.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+523,Oudh,INI,INI,INI,avadhi,hinduism,Lucknow,glass,6,5,5,yes,no,0,0,0,0,et:history/provinces/523 - Oudh.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+524,Central Doab,INI,INI,INI,kanauji,hinduism,Agra,iron,6,6,5,yes,no,2,0,0,0,et:history/provinces/524 - Central Doab.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+525,Gird,INI,INI,INI,vindhyan,hinduism,Gwalior,dyes,3,3,3,yes,no,0,0,0,0,et:history/provinces/525 - Gird.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+526,Mandu,INI,INI,INI,malvi,hinduism,Indore,iron,5,5,5,yes,no,0,0,0,0,et:history/provinces/526 - Mandu.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 527,Khandesh,INI,INI,INI,marathi,hinduism,Burhanpur,cloth,3,3,3,yes,no,2,0,0,0,et:history/provinces/527 - Khandesh.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-528,Hadoti,INI,INI,INI,rajput,hinduism,Kota,cotton,2,2,2,yes,no,0,0,0,0,et:history/provinces/528 - Hadoti.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-529,North Konkan,INI,INI,INI,marathi,hinduism,Mumbai,cloth,6,6,6,yes,no,1,0,0,0,et:history/provinces/529 - North Konkan.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-530,Malvana,INI,INI,INI,marathi,hinduism,Dabhol,spices,3,3,1,yes,no,0,0,0,0,et:history/provinces/530 - Malvana.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-531,North Kanara,INI,INI,INI,kannada,hinduism,Bhatkal,spices,2,2,1,yes,no,1,0,0,0,et:history/provinces/531 - North Kanara.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-532,Raichur Doab,INI,INI,INI,kannada,hinduism,Raichur,cloth,3,3,2,yes,no,0,0,0,0,et:history/provinces/532 - Raichur Doab.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+528,Hadoti,INI,INI,INI,rajput,hinduism,Kota,cotton,2,2,1,yes,no,0,0,0,0,et:history/provinces/528 - Hadoti.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+529,North Konkan,INI,INI,INI,marathi,hinduism,Mumbai,cloth,6,6,5,yes,no,1,0,0,0,et:history/provinces/529 - North Konkan.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+530,Malvana,INI,INI,INI,marathi,hinduism,Dabhol,spices,2,2,2,yes,no,0,0,0,0,et:history/provinces/530 - Malvana.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+531,North Kanara,INI,INI,INI,kannada,hinduism,Bhatkal,spices,2,1,1,yes,no,1,0,0,0,et:history/provinces/531 - North Kanara.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+532,Raichur Doab,INI,INI,INI,kannada,hinduism,Raichur,cloth,3,2,2,yes,no,0,0,0,0,et:history/provinces/532 - Raichur Doab.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 533,Mysore,INI,INI,INI,kannada,hinduism,Mysore,iron,3,3,3,yes,no,0,0,0,0,et:history/provinces/533 - Mysore.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 534,Malabar,INI,INI,INI,malayalam,hinduism,Kozhikode,spices,3,2,2,yes,no,2,0,0,0,et:history/provinces/534 - Malabar.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-535,Kochin,INI,INI,INI,malayalam,hinduism,Kochi,spices,4,3,3,yes,no,0,0,0,0,et:history/provinces/535 - Kochin.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+535,Kochin,INI,INI,INI,malayalam,hinduism,Kochi,spices,3,3,3,yes,no,0,0,0,0,et:history/provinces/535 - Kochin.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 536,Madurai,INI,INI,INI,tamil,hinduism,Madurai,silk,5,5,4,yes,no,1,0,0,0,et:history/provinces/536 - Madurai.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-537,Venad,INI,INI,INI,malayalam,hinduism,Thiruvananthapuram,spices,4,3,3,yes,no,0,0,0,0,et:history/provinces/537 - Venad.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-538,Kongu,INI,INI,INI,tamil,hinduism,Coimbatore,incense,5,4,4,yes,no,0,0,0,0,et:history/provinces/538 - Kongu.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-539,Tondainadu,INI,INI,INI,telegu,hinduism,Chennai,iron,7,7,6,yes,no,2,0,0,0,et:history/provinces/539 - Tondainadu.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-540,Coromandel,INI,INI,INI,tamil,hinduism,Pondicherry,cloth,4,3,3,yes,no,2,0,0,0,et:history/provinces/540 - Coromandel.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-541,Vijayanagar,INI,INI,INI,kannada,hinduism,Ballari,grain,3,3,2,yes,no,1,0,0,0,et:history/provinces/541 - Vijayanagar.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-542,Colconda,INI,INI,INI,telegu,hinduism,Hyderabad,gems,5,5,5,yes,no,1,0,0,0,et:history/provinces/542 - Colconda.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+537,Venad,INI,INI,INI,malayalam,hinduism,Thiruvananthapuram,spices,3,3,3,yes,no,0,0,0,0,et:history/provinces/537 - Venad.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+538,Kongu,INI,INI,INI,tamil,hinduism,Coimbatore,incense,4,4,4,yes,no,0,0,0,0,et:history/provinces/538 - Kongu.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+539,Tondainadu,INI,INI,INI,telegu,hinduism,Chennai,iron,7,6,6,yes,no,2,0,0,0,et:history/provinces/539 - Tondainadu.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+540,Coromandel,INI,INI,INI,tamil,hinduism,Pondicherry,cloth,3,3,3,yes,no,2,0,0,0,et:history/provinces/540 - Coromandel.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+541,Vijayanagar,INI,INI,INI,kannada,hinduism,Ballari,grain,3,2,2,yes,no,1,0,0,0,et:history/provinces/541 - Vijayanagar.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+542,Colconda,INI,INI,INI,telegu,hinduism,Hyderabad,gems,5,5,4,yes,no,1,0,0,0,et:history/provinces/542 - Colconda.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 543,Velanadi,INI,INI,INI,telegu,hinduism,Machilipatnam,gems,3,3,2,yes,no,1,0,0,0,et:history/provinces/543 - Velanadi.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 544,Ahmadnagar,INI,INI,INI,marathi,hinduism,Bhingar,cotton,3,3,2,yes,no,0,0,0,0,et:history/provinces/544 - Ahmadnagar.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 545,Marathwada,INI,INI,INI,marathi,hinduism,Aurangabad,paper,4,4,3,yes,no,2,0,0,0,et:history/provinces/545 - Marathwada.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
@@ -550,28 +550,28 @@
 549,Kalingandhra,INI,INI,INI,telegu,hinduism,Vishakhapatnam,cotton,5,5,4,yes,no,1,0,0,0,et:history/provinces/549 - Kalingandhra.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 550,Mahakoshal,INI,INI,INI,bagheli,hinduism,Jabalpur,grain,3,3,2,yes,no,0,0,0,0,et:history/provinces/550 - Mahakoshal.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 551,Mahakoshal,INI,INI,INI,gondi,hinduism,Jabalpur,copper,3,2,2,yes,no,0,0,0,0,et:history/provinces/551 - Mahakoshal.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-552,Rajabara,INI,INI,INI,oriya,hinduism,Cuttack,cloth,6,5,5,yes,no,1,0,0,0,et:history/provinces/552 - Rajabara.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-553,Sambalpur,INI,INI,INI,garjati,hinduism,Sambalpur,cloth,2,2,2,yes,no,1,0,0,0,et:history/provinces/553 - Sambalpur.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+552,Rajabara,INI,INI,INI,oriya,hinduism,Cuttack,cloth,5,5,5,yes,no,1,0,0,0,et:history/provinces/552 - Rajabara.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+553,Sambalpur,INI,INI,INI,garjati,hinduism,Sambalpur,cloth,2,2,1,yes,no,1,0,0,0,et:history/provinces/553 - Sambalpur.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 554,Baisi Rajya,NPL,NPL,NPL,nepali,hinduism,Jumla,wool,2,2,1,yes,no,0,0,0,0,et:history/provinces/554 - Baisi Rajya.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 555,Jaunpur,INI,INI,INI,avadhi,hinduism,Jaunpur,paper,5,5,4,yes,no,0,0,0,0,et:history/provinces/555 - Jaunpur.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 556,Lower Doab,INI,INI,INI,avadhi,hinduism,Prayagraj,cloth,5,5,4,yes,no,2,0,0,0,et:history/provinces/556 - Lower Doab.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 557,Katmandu,NPL,NPL,NPL,nepali,hinduism,Kathmandu,incense,3,3,2,yes,no,1,0,0,0,et:history/provinces/557 - Katmandu.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-558,Bihar,INI,INI,INI,bihari,hinduism,Patna,paper,7,7,6,yes,no,2,0,0,0,et:history/provinces/558 - Bihar.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-559,Bundelkhand,INI,INI,INI,vindhyan,hinduism,Jhansi,iron,4,3,3,yes,no,0,0,0,0,et:history/provinces/559 - Bundelkhand.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+558,Bihar,INI,INI,INI,bihari,hinduism,Patna,paper,7,6,6,yes,no,2,0,0,0,et:history/provinces/558 - Bihar.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+559,Bundelkhand,INI,INI,INI,vindhyan,hinduism,Jhansi,iron,3,3,3,yes,no,0,0,0,0,et:history/provinces/559 - Bundelkhand.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 560,Jharkand,INI,INI,INI,bihari,hinduism,Ranchi,copper,5,5,4,yes,no,0,0,0,0,et:history/provinces/560 - Jharkand.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-561,Bengal Delta,INI,INI,INI,bengali,hinduism,Calcutta,silk,7,7,7,yes,no,1,0,0,0,et:history/provinces/561 - Bengal Delta.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-562,Koch,INI,INI,INI,assamese,hinduism,Cooch Behar,grain,4,3,3,yes,no,0,0,0,0,et:history/provinces/562 - Koch.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-563,Gauda,INI,INI,INI,bengali,hinduism,Malda,paper,6,5,5,yes,no,2,0,0,0,et:history/provinces/563 - Gauda.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+561,Bengal Delta,INI,INI,INI,bengali,hinduism,Calcutta,silk,7,7,6,yes,no,1,0,0,0,et:history/provinces/561 - Bengal Delta.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+562,Koch,INI,INI,INI,assamese,hinduism,Cooch Behar,grain,3,3,3,yes,no,0,0,0,0,et:history/provinces/562 - Koch.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+563,Gauda,INI,INI,INI,bengali,hinduism,Malda,paper,5,5,5,yes,no,2,0,0,0,et:history/provinces/563 - Gauda.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 564,Dacca,BGD,BGD,BGD,bengali,sunni,Dhaka,cloth,13,13,13,yes,no,1,0,0,0,et:history/provinces/564 - Dacca.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 565,Bhutan,BHU,BHU,BHU,kochi,vajrayana,Thimphu,wool,4,3,2,yes,no,0,0,0,0,et:history/provinces/565 - Bhutan.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 566,Assam,INI,INI,INI,assamese,hinduism,Golaghat,grain,3,3,2,yes,no,0,0,0,0,et:history/provinces/566 - Assam.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 567,Silhet,BGD,BGD,BGD,bengali,sunni,Sylhet,cotton,6,6,5,yes,no,0,0,0,0,et:history/provinces/567 - Silhet.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 568,Chittagong,BGD,BGD,BGD,bengali,sunni,Chittagong,cotton,11,11,10,yes,no,2,0,0,0,et:history/provinces/568 - Chittagong.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-569,Bijapur,INI,INI,INI,kannada,hinduism,Bijapur,cotton,3,3,2,yes,no,1,0,0,0,et:history/provinces/569 - Bijapur.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-570,Naga,INI,INI,INI,chin,protestant,Kohima,tropical_wood,2,2,1,yes,no,0,0,0,0,et:history/provinces/570 - Naga.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-571,Darrang,INI,INI,INI,assamese,hinduism,Nagaon,silk,5,5,5,yes,no,0,0,0,0,et:history/provinces/571 - Darrang.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+569,Bijapur,INI,INI,INI,kannada,hinduism,Bijapur,cotton,3,2,2,yes,no,1,0,0,0,et:history/provinces/569 - Bijapur.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+570,Naga,INI,INI,INI,chin,protestant,Kohima,tropical_wood,2,1,1,yes,no,0,0,0,0,et:history/provinces/570 - Naga.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+571,Darrang,INI,INI,INI,assamese,hinduism,Nagaon,silk,5,5,4,yes,no,0,0,0,0,et:history/provinces/571 - Darrang.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 572,Ceylon,SRL,SRL,SRL,sinhala,buddhism,Colombo,spices,13,12,12,yes,no,1,0,0,0,et:history/provinces/572 - Ceylon.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-573,Cachar,INI,INI,INI,bengali,hinduism,Silchar,grain,3,3,3,yes,no,0,0,0,0,et:history/provinces/573 - Cachar.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+573,Cachar,INI,INI,INI,bengali,hinduism,Silchar,grain,3,3,2,yes,no,0,0,0,0,et:history/provinces/573 - Cachar.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 574,The Andamans,INI,INI,INI,bengali,hinduism,Port Blair,fish,1,1,1,yes,no,0,5,1,7,et:history/provinces/574 - The Andamans.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 575,Makran,PAK,PAK,PAK,baluchi,sunni,Gwadar,fish,1,1,1,yes,no,0,0,0,0,et:history/provinces/575 - Makran.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 576,Kalat,PAK,PAK,PAK,baluchi,sunni,Kalat,dyes,3,3,4,yes,no,0,0,0,0,et:history/provinces/576 - Kalat.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -714,7 +714,7 @@
 713,Kuruk Tag,CHN,CHN,CHN,uyghur,sunni,Qitai,salt,1,1,1,yes,no,0,0,0,0,et:history/provinces/713 - Kuruk Tag.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 714,Hoboksar,CHN,CHN,CHN,khazak,sunni,Hoboksar,livestock,1,1,1,yes,no,0,0,0,0,et:history/provinces/714 - Hoboksar.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 715,Urumqi,CHN,CHN,CHN,xibei,sunni,Urumqi,grain,3,4,4,yes,no,0,0,0,0,et:history/provinces/715 - Urumqi.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-716,Tannu Tuva,RUS,RUS,RUS,tuvan,vajrayana,Kyzyl,fur,2,2,3,yes,no,0,0,0,0,et:history/provinces/716 - Tannu Tuva.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+716,Tannu Tuva,RUS,RUS,RUS,tuvan,vajrayana,Kyzyl,fur,2,2,4,yes,no,0,0,0,0,et:history/provinces/716 - Tannu Tuva.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 717,Selenge,KHA,KHA,KHA,mongol,vajrayana,Öndörkhaan,livestock,1,1,1,yes,no,0,0,0,0,et:history/provinces/717 - Selenge.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 718,Govi Altay,KHA,KHA,KHA,oirats,vajrayana,Khovd,cloth,2,2,2,yes,no,0,0,0,0,et:history/provinces/718 - Govi Altay.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 719,Khangai,KHA,KHA,KHA,oirats,vajrayana,Uliastai,wool,3,3,3,yes,no,0,0,0,0,et:history/provinces/719 - Khangai.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -727,7 +727,7 @@
 726,Liaodong,CHN,CHN,CHN,manchu_new,confucianism,Shenyang,gems,6,6,6,yes,no,0,0,0,0,et:history/provinces/726 - Liaodong.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 727,Aigun,CHN,CHN,CHN,manchu_new,confucianism,Heihe,fur,2,1,1,yes,no,0,20,1,3,et:history/provinces/727 - Aigun.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 728,Heilongjiang,CHN,CHN,CHN,manchu_new,confucianism,Bei'an,livestock,2,1,1,yes,no,0,20,1,3,et:history/provinces/728 - Heilongjiang.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-729,Wusuli,RUS,RUS,RUS,russian,orthodox,Khabarovsk,fish,2,2,2,yes,no,0,15,1,3,et:history/provinces/729 - Wusuli.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+729,Wusuli,RUS,RUS,RUS,russian,orthodox,Khabarovsk,fish,3,2,2,yes,no,0,15,1,3,et:history/provinces/729 - Wusuli.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 730,Haixi,CHN,CHN,CHN,manchu_new,confucianism,Jilin,grain,5,5,5,yes,no,2,0,0,0,et:history/provinces/730 - Haixi.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 731,Yichun,CHN,CHN,CHN,manchu_new,confucianism,Shuangyashan,naval_supplies,3,2,2,yes,no,0,20,1,3,et:history/provinces/731 - Yichun.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 732,Hamgyeong,NOK,NOK,NOK,korean,catholic,Hamheung,fish,1,1,2,yes,no,0,0,0,0,et:history/provinces/732 - Hamgyeong.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -765,7 +765,7 @@
 764,Santo Amaro,BRZ,BRZ,BRZ,brazilian,catholic,São José dos Campos,sugar,9,9,7,yes,no,0,10,1,1,et:history/provinces/764 - Santo Amaro.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 765,Minas Gerais,BRZ,BRZ,BRZ,brazilian,catholic,Belo Horizonte,iron,11,10,10,yes,no,0,10,1,7,et:history/provinces/765 - Minas Gerais.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 766,Sao Vicente,BRZ,BRZ,BRZ,brazilian,catholic,São Paulo,copper,12,12,12,yes,no,0,10,1,2,et:history/provinces/766 - Sao Vicente.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-767,Wystruc,RUS,RUS,RUS,russian,orthodox,Chernyakhovsk,naval_supplies,3,3,2,yes,no,0,0,0,0,et:history/provinces/767 - Wystruc.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+767,Wystruc,RUS,RUS,RUS,russian,orthodox,Chernyakhovsk,naval_supplies,4,3,2,yes,no,0,0,0,0,et:history/provinces/767 - Wystruc.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 768,Guayra,BRZ,BRZ,BRZ,brazilian,catholic,Foz do Iguacu,tobacco,4,3,3,yes,no,0,10,1,5,et:history/provinces/768 - Guayra.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 769,Santana,BRZ,BRZ,BRZ,brazilian,catholic,Curitiba,iron,11,10,10,yes,no,0,5,1,2,et:history/provinces/769 - Santana.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 770,Lida,BLR,BLR,BLR,byelorussian,orthodox,Braslaw,livestock,3,3,2,yes,no,0,0,0,0,et:history/provinces/770 - Lida.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -1030,58 +1030,58 @@
 1029,Kai,JAP,JAP,JAP,japanese,shinto,Kofu,gold,5,4,2,yes,no,0,0,0,0,et:history/provinces/1029 - Kai.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 1030,Owari,JAP,JAP,JAP,japanese,shinto,Nagoya,iron,13,13,12,yes,no,0,0,0,0,et:history/provinces/1030 - Owari.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 1031,Kamikawa,JAP,JAP,JAP,japanese,shinto,Asahikawa,fish,8,7,5,yes,no,0,0,0,0,et:history/provinces/1031 - Kamikawa.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1032,Kurils,RUS,RUS,RUS,japanese,shinto,Kurilsk,fish,1,1,1,yes,no,0,5,1,1,et:history/provinces/1032 - Kurils.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1033,Sakhalin,RUS,RUS,RUS,russian,orthodox,Yuzhno-Sakhalinsk,fish,1,1,1,yes,no,0,5,1,1,et:history/provinces/1033 - Sakhalin.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1034,Kamchatka,RUS,RUS,RUS,russian,orthodox,Petropavlovsk,fish,2,2,1,yes,no,0,50,2,5,et:history/provinces/1034 - Kamchatka.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1035,Penchisky,RUS,RUS,RUS,kamchatkan,orthodox,Tilichiki,fish,1,1,1,yes,no,0,5,1,3,et:history/provinces/1035 - Penchisky.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1036,Podzhiversk,RUS,RUS,RUS,yukagyr,orthodox,Chersky,fur,1,1,1,yes,no,0,5,1,3,et:history/provinces/1036 - Podzhiversk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1037,Nizhe-Kolymsk,RUS,RUS,RUS,kamchatkan,orthodox,Bilibino,fur,1,1,1,yes,no,0,5,1,3,et:history/provinces/1037 - Nizhe-Kolymsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1038,Anadyrsk,RUS,RUS,RUS,kamchatkan,orthodox,Palana,fish,1,1,1,yes,no,0,5,1,3,et:history/provinces/1038 - Anadyrsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1039,Verkhoyansk,RUS,RUS,RUS,yakut,orthodox,Verkhoyansk,gems,1,1,1,yes,no,0,5,1,3,et:history/provinces/1039 - Verkhoyansk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1040,Suntar Khayat,RUS,RUS,RUS,yukagyr,orthodox,Ust-Nera,fur,1,1,1,yes,no,0,5,1,3,et:history/provinces/1040 - Suntar Khayat.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1041,Gizhiga,RUS,RUS,RUS,kamchatkan,orthodox,Omsukchan,fur,1,1,1,yes,no,0,5,1,3,et:history/provinces/1041 - Gizhiga.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1042,Kamnuskoye,RUS,RUS,RUS,yakut,orthodox,Khandyga,fur,1,1,1,yes,no,0,5,1,3,et:history/provinces/1042 - Kamnuskoye.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1043,Okhotsk,RUS,RUS,RUS,tungus,orthodox,Okhotsk,fish,1,1,1,yes,no,0,10,1,3,et:history/provinces/1043 - Okhotsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1044,Tauisk,RUS,RUS,RUS,russian,orthodox,Magadan,gold,1,1,1,yes,no,0,10,1,3,et:history/provinces/1044 - Tauisk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1045,Yakutsk,RUS,RUS,RUS,yakut,orthodox,Vilyuysk,gold,1,1,1,yes,no,0,5,1,3,et:history/provinces/1045 - Yakutsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1046,Butalsk,RUS,RUS,RUS,yakut,orthodox,Ust-Maya,fur,1,1,1,yes,no,0,10,1,3,et:history/provinces/1046 - Butalsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1047,Jugjur,RUS,RUS,RUS,tungus,orthodox,Ayan,naval_supplies,1,1,1,yes,no,0,10,1,3,et:history/provinces/1047 - Jugjur.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1048,Miyoo Gasan,RUS,RUS,RUS,tungus,orthodox,Nikolayevsk-na-Amure,fur,2,1,1,yes,no,0,10,1,3,et:history/provinces/1048 - Miyoo Gasan.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1049,Saghalian Oula,RUS,RUS,RUS,russian,orthodox,Blagoveshchensk,fur,2,2,2,yes,no,0,10,1,3,et:history/provinces/1049 - Saghalian Oula.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1050,Deren,RUS,RUS,RUS,nivkh,orthodox,Susanino,fur,1,1,1,yes,no,0,10,1,3,et:history/provinces/1050 - Deren.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1051,Uchurskoye,RUS,RUS,RUS,yakut,orthodox,Aldan,fur,1,1,1,yes,no,0,5,1,3,et:history/provinces/1051 - Uchurskoye.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1052,Verkohzehkoye,RUS,RUS,RUS,tungus,orthodox,Neryungri,fur,1,1,1,yes,no,0,30,1,5,et:history/provinces/1052 - Verkohzehkoye.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1032,Kurils,RUS,RUS,RUS,japanese,shinto,Kurilsk,fish,2,1,1,yes,no,0,5,1,1,et:history/provinces/1032 - Kurils.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1033,Sakhalin,RUS,RUS,RUS,russian,orthodox,Yuzhno-Sakhalinsk,fish,2,1,1,yes,no,0,5,1,1,et:history/provinces/1033 - Sakhalin.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1034,Kamchatka,RUS,RUS,RUS,russian,orthodox,Petropavlovsk,fish,3,2,1,yes,no,0,50,2,5,et:history/provinces/1034 - Kamchatka.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1035,Penchisky,RUS,RUS,RUS,kamchatkan,orthodox,Tilichiki,fish,2,1,1,yes,no,0,5,1,3,et:history/provinces/1035 - Penchisky.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1036,Podzhiversk,RUS,RUS,RUS,yukagyr,orthodox,Chersky,fur,2,1,1,yes,no,0,5,1,3,et:history/provinces/1036 - Podzhiversk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1037,Nizhe-Kolymsk,RUS,RUS,RUS,kamchatkan,orthodox,Bilibino,fur,2,1,1,yes,no,0,5,1,3,et:history/provinces/1037 - Nizhe-Kolymsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1038,Anadyrsk,RUS,RUS,RUS,kamchatkan,orthodox,Palana,fish,2,1,1,yes,no,0,5,1,3,et:history/provinces/1038 - Anadyrsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1039,Verkhoyansk,RUS,RUS,RUS,yakut,orthodox,Verkhoyansk,gems,2,1,1,yes,no,0,5,1,3,et:history/provinces/1039 - Verkhoyansk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1040,Suntar Khayat,RUS,RUS,RUS,yukagyr,orthodox,Ust-Nera,fur,2,1,1,yes,no,0,5,1,3,et:history/provinces/1040 - Suntar Khayat.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1041,Gizhiga,RUS,RUS,RUS,kamchatkan,orthodox,Omsukchan,fur,2,1,1,yes,no,0,5,1,3,et:history/provinces/1041 - Gizhiga.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1042,Kamnuskoye,RUS,RUS,RUS,yakut,orthodox,Khandyga,fur,2,1,1,yes,no,0,5,1,3,et:history/provinces/1042 - Kamnuskoye.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1043,Okhotsk,RUS,RUS,RUS,tungus,orthodox,Okhotsk,fish,2,1,1,yes,no,0,10,1,3,et:history/provinces/1043 - Okhotsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1044,Tauisk,RUS,RUS,RUS,russian,orthodox,Magadan,gold,2,1,1,yes,no,0,10,1,3,et:history/provinces/1044 - Tauisk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1045,Yakutsk,RUS,RUS,RUS,yakut,orthodox,Vilyuysk,gold,2,1,1,yes,no,0,5,1,3,et:history/provinces/1045 - Yakutsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1046,Butalsk,RUS,RUS,RUS,yakut,orthodox,Ust-Maya,fur,2,1,1,yes,no,0,10,1,3,et:history/provinces/1046 - Butalsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1047,Jugjur,RUS,RUS,RUS,tungus,orthodox,Ayan,naval_supplies,2,1,1,yes,no,0,10,1,3,et:history/provinces/1047 - Jugjur.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1048,Miyoo Gasan,RUS,RUS,RUS,tungus,orthodox,Nikolayevsk-na-Amure,fur,3,1,1,yes,no,0,10,1,3,et:history/provinces/1048 - Miyoo Gasan.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1049,Saghalian Oula,RUS,RUS,RUS,russian,orthodox,Blagoveshchensk,fur,3,2,2,yes,no,0,10,1,3,et:history/provinces/1049 - Saghalian Oula.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1050,Deren,RUS,RUS,RUS,nivkh,orthodox,Susanino,fur,2,1,1,yes,no,0,10,1,3,et:history/provinces/1050 - Deren.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1051,Uchurskoye,RUS,RUS,RUS,yakut,orthodox,Aldan,fur,2,1,1,yes,no,0,5,1,3,et:history/provinces/1051 - Uchurskoye.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1052,Verkohzehkoye,RUS,RUS,RUS,tungus,orthodox,Neryungri,fur,2,1,1,yes,no,0,30,1,5,et:history/provinces/1052 - Verkohzehkoye.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 1053,Jiagedaqi,CHN,CHN,CHN,manchu_new,tengri_pagan_reformed,Tahe,fur,1,2,3,yes,no,0,10,1,3,et:history/provinces/1053 - Jiagedaqi.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1054,Ilimsk,RUS,RUS,RUS,yakut,orthodox,Lensk,fur,1,1,1,yes,no,0,10,1,3,et:history/provinces/1054 - Ilimsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1055,Verkne-Angarsky,RUS,RUS,RUS,russian,orthodox,Severobaykalsk,fur,2,2,2,yes,no,0,10,1,3,et:history/provinces/1055 - Verkne-Angarsky.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1056,Barguzinsky,RUS,RUS,RUS,russian,orthodox,Chita,gold,3,3,3,yes,no,0,10,1,3,et:history/provinces/1056 - Barguzinsky.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1057,Udinsky,RUS,RUS,RUS,russian,orthodox,Ulan-Ude,fish,3,3,2,yes,no,0,10,1,3,et:history/provinces/1057 - Udinsky.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1058,Nerchinsky,RUS,RUS,RUS,russian,orthodox,Borzya,copper,1,1,1,yes,no,0,10,1,3,et:history/provinces/1058 - Nerchinsky.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1059,Bratsk,RUS,RUS,RUS,russian,orthodox,Ust-Ilimsk,coal,1,1,1,yes,no,0,10,1,3,et:history/provinces/1059 - Bratsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1060,Irkutsk,RUS,RUS,RUS,russian,orthodox,Irkutsk,unknown,4,3,3,yes,no,0,10,1,3,et:history/provinces/1060 - Irkutsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1061,Yeniseysk,RUS,RUS,RUS,tungus,orthodox,Novosyolovo,coal,1,1,1,yes,no,0,10,1,3,et:history/provinces/1061 - Yeniseysk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1062,Kachinsk,RUS,RUS,RUS,russian,orthodox,Bratsk,fur,1,1,1,yes,no,0,10,1,3,et:history/provinces/1062 - Kachinsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1063,Sayan,RUS,RUS,RUS,russian,orthodox,Nizhneudinsk,fur,1,1,1,yes,no,0,10,1,3,et:history/provinces/1063 - Sayan.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1064,Tomsk,RUS,RUS,RUS,russian,orthodox,Tomsk,fur,2,2,2,yes,no,0,5,2,3,et:history/provinces/1064 - Tomsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1065,Kuznetsk,RUS,RUS,RUS,russian,orthodox,Novokuznetsk,fur,4,3,3,yes,no,0,10,1,3,et:history/provinces/1065 - Kuznetsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1066,Altai,RUS,RUS,RUS,tuvan,orthodox,Gorno-Altaysk,fur,3,3,3,yes,no,0,0,0,0,et:history/provinces/1066 - Altai.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1067,Narym,RUS,RUS,RUS,tungus,orthodox,Podkamennaya Tunguska,fur,1,1,1,yes,no,0,5,2,3,et:history/provinces/1067 - Narym.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1068,Pegaya Orda,RUS,RUS,RUS,russian,orthodox,Kolpashevo,iron,1,1,1,yes,no,0,10,2,3,et:history/provinces/1068 - Pegaya Orda.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1069,Surgut,RUS,RUS,RUS,samoyed,orthodox,Surgut,fur,2,2,2,yes,no,0,4,3,2,et:history/provinces/1069 - Surgut.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1070,Koda,RUS,RUS,RUS,russian,orthodox,Nizhnevartovsk,fur,1,1,1,yes,no,0,4,3,2,et:history/provinces/1070 - Koda.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1071,Tara,RUS,RUS,RUS,russian,orthodox,Tara,fur,2,2,2,yes,no,0,4,3,2,et:history/provinces/1071 - Tara.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1072,Obdorsk,RUS,RUS,RUS,samoyed,orthodox,Salekhard,coal,2,2,2,yes,no,0,2,5,5,et:history/provinces/1072 - Obdorsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1073,Berezov,RUS,RUS,RUS,russian,orthodox,Noyabrsk,coal,1,2,1,yes,no,0,50,2,5,et:history/provinces/1073 - Berezov.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1074,Sibir,RUS,RUS,RUS,russian,orthodox,Tobolsk,coal,2,4,2,yes,no,0,4,3,2,et:history/provinces/1074 - Sibir.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1075,Tyumen,RUS,RUS,RUS,russian,orthodox,Tyumen,coal,4,4,4,yes,no,0,50,2,2,et:history/provinces/1075 - Tyumen.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1076,Kurgan,RUS,RUS,RUS,russian,orthodox,Kurgan,copper,3,3,3,yes,no,0,50,2,2,et:history/provinces/1076 - Kurgan.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1077,Solikamsk,RUS,RUS,RUS,russian,orthodox,Solikamsk,salt,4,5,3,yes,no,0,30,2,2,et:history/provinces/1077 - Solikamsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1078,Middle Urals,RUS,RUS,RUS,russian,orthodox,Yekaterinburg,coal,8,7,7,yes,no,0,4,3,2,et:history/provinces/1078 - Middle Urals.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1079,Viatka,RUS,RUS,RUS,russian,orthodox,Kirov,coal,3,3,4,yes,no,0,4,3,2,et:history/provinces/1079 - Viatka.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1080,North Urals,RUS,RUS,RUS,russian,orthodox,Serov,iron,3,3,3,yes,no,0,50,2,5,et:history/provinces/1080 - North Urals.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1081,Simbirsk,RUS,RUS,RUS,russian,orthodox,Ulyanovsk,iron,3,3,2,yes,no,0,4,3,2,et:history/provinces/1081 - Simbirsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1082,Kazan,RUS,RUS,RUS,kazani,orthodox,Kazan,coal,9,8,8,yes,no,2,4,3,2,et:history/provinces/1082 - Kazan.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1083,Zavolochye,RUS,RUS,RUS,russian,orthodox,Yoshkar-Ola,grain,3,3,2,yes,no,0,4,3,2,et:history/provinces/1083 - Zavolochye.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1054,Ilimsk,RUS,RUS,RUS,yakut,orthodox,Lensk,fur,2,1,1,yes,no,0,10,1,3,et:history/provinces/1054 - Ilimsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1055,Verkne-Angarsky,RUS,RUS,RUS,russian,orthodox,Severobaykalsk,fur,3,2,2,yes,no,0,10,1,3,et:history/provinces/1055 - Verkne-Angarsky.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1056,Barguzinsky,RUS,RUS,RUS,russian,orthodox,Chita,gold,4,4,3,yes,no,0,10,1,3,et:history/provinces/1056 - Barguzinsky.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1057,Udinsky,RUS,RUS,RUS,russian,orthodox,Ulan-Ude,fish,4,3,2,yes,no,0,10,1,3,et:history/provinces/1057 - Udinsky.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1058,Nerchinsky,RUS,RUS,RUS,russian,orthodox,Borzya,copper,2,1,1,yes,no,0,10,1,3,et:history/provinces/1058 - Nerchinsky.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1059,Bratsk,RUS,RUS,RUS,russian,orthodox,Ust-Ilimsk,coal,2,1,1,yes,no,0,10,1,3,et:history/provinces/1059 - Bratsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1060,Irkutsk,RUS,RUS,RUS,russian,orthodox,Irkutsk,unknown,5,4,3,yes,no,0,10,1,3,et:history/provinces/1060 - Irkutsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1061,Yeniseysk,RUS,RUS,RUS,tungus,orthodox,Novosyolovo,coal,2,1,1,yes,no,0,10,1,3,et:history/provinces/1061 - Yeniseysk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1062,Kachinsk,RUS,RUS,RUS,russian,orthodox,Bratsk,fur,2,1,1,yes,no,0,10,1,3,et:history/provinces/1062 - Kachinsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1063,Sayan,RUS,RUS,RUS,russian,orthodox,Nizhneudinsk,fur,2,1,1,yes,no,0,10,1,3,et:history/provinces/1063 - Sayan.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1064,Tomsk,RUS,RUS,RUS,russian,orthodox,Tomsk,fur,3,2,2,yes,no,0,5,2,3,et:history/provinces/1064 - Tomsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1065,Kuznetsk,RUS,RUS,RUS,russian,orthodox,Novokuznetsk,fur,5,4,3,yes,no,0,10,1,3,et:history/provinces/1065 - Kuznetsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1066,Altai,RUS,RUS,RUS,tuvan,orthodox,Gorno-Altaysk,fur,4,4,3,yes,no,0,0,0,0,et:history/provinces/1066 - Altai.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1067,Narym,RUS,RUS,RUS,tungus,orthodox,Podkamennaya Tunguska,fur,2,1,1,yes,no,0,5,2,3,et:history/provinces/1067 - Narym.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1068,Pegaya Orda,RUS,RUS,RUS,russian,orthodox,Kolpashevo,iron,2,1,1,yes,no,0,10,2,3,et:history/provinces/1068 - Pegaya Orda.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1069,Surgut,RUS,RUS,RUS,samoyed,orthodox,Surgut,fur,3,2,2,yes,no,0,4,3,2,et:history/provinces/1069 - Surgut.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1070,Koda,RUS,RUS,RUS,russian,orthodox,Nizhnevartovsk,fur,2,1,1,yes,no,0,4,3,2,et:history/provinces/1070 - Koda.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1071,Tara,RUS,RUS,RUS,russian,orthodox,Tara,fur,3,2,2,yes,no,0,4,3,2,et:history/provinces/1071 - Tara.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1072,Obdorsk,RUS,RUS,RUS,samoyed,orthodox,Salekhard,coal,3,2,2,yes,no,0,2,5,5,et:history/provinces/1072 - Obdorsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1073,Berezov,RUS,RUS,RUS,russian,orthodox,Noyabrsk,coal,1,3,1,yes,no,0,50,2,5,et:history/provinces/1073 - Berezov.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1074,Sibir,RUS,RUS,RUS,russian,orthodox,Tobolsk,coal,2,5,2,yes,no,0,4,3,2,et:history/provinces/1074 - Sibir.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1075,Tyumen,RUS,RUS,RUS,russian,orthodox,Tyumen,coal,5,5,4,yes,no,0,50,2,2,et:history/provinces/1075 - Tyumen.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1076,Kurgan,RUS,RUS,RUS,russian,orthodox,Kurgan,copper,4,4,3,yes,no,0,50,2,2,et:history/provinces/1076 - Kurgan.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1077,Solikamsk,RUS,RUS,RUS,russian,orthodox,Solikamsk,salt,5,6,3,yes,no,0,30,2,2,et:history/provinces/1077 - Solikamsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1078,Middle Urals,RUS,RUS,RUS,russian,orthodox,Yekaterinburg,coal,10,9,8,yes,no,0,4,3,2,et:history/provinces/1078 - Middle Urals.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1079,Viatka,RUS,RUS,RUS,russian,orthodox,Kirov,coal,4,3,5,yes,no,0,4,3,2,et:history/provinces/1079 - Viatka.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1080,North Urals,RUS,RUS,RUS,russian,orthodox,Serov,iron,4,4,3,yes,no,0,50,2,5,et:history/provinces/1080 - North Urals.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1081,Simbirsk,RUS,RUS,RUS,russian,orthodox,Ulyanovsk,iron,4,3,2,yes,no,0,4,3,2,et:history/provinces/1081 - Simbirsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1082,Kazan,RUS,RUS,RUS,kazani,orthodox,Kazan,coal,11,11,9,yes,no,2,4,3,2,et:history/provinces/1082 - Kazan.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1083,Zavolochye,RUS,RUS,RUS,russian,orthodox,Yoshkar-Ola,grain,4,3,2,yes,no,0,4,3,2,et:history/provinces/1083 - Zavolochye.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 1084,Wadjuk,AUS,AUS,AUS,british_australian,protestant,Bunbury,livestock,3,4,2,yes,no,0,5,1,9,et:history/provinces/1084 - Wadjuk.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1085,Paredarerme,AUS,AUS,AUS,british_australian,protestant,Hobart,copper,5,5,4,yes,no,0,5,1,0,et:history/provinces/1085 - Paredarerme.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1086,Kaurna,AUS,AUS,AUS,british_australian,protestant,Adelaide,iron,11,11,10,yes,no,1,10,1,9,et:history/provinces/1086 - Kaurna.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -1261,10 +1261,10 @@
 1749,Cadiz,SPA,SPA,SPA,castillian,catholic,Cadiz,naval_supplies,11,11,10,yes,no,1,0,0,0,et:history/provinces/1749 - Cadiz.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1750,Alicante,SPA,SPA,SPA,catalan,catholic,Alàcant,wine,11,10,9,yes,no,0,0,0,0,et:history/provinces/1750 - Alicante.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1751,Ceuta,SPA,SPA,SPA,moroccan,catholic,Ceuta,fish,3,3,1,yes,no,0,0,0,0,et:history/provinces/1751 - Ceuta.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-1752,Rzhev,RUS,RUS,RUS,russian,orthodox,Rzhev,grain,5,4,3,yes,no,0,0,0,0,et:history/provinces/1752 - Rzhev.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1753,Kostroma,RUS,RUS,RUS,russian,orthodox,Kostroma,cloth,3,3,3,yes,no,0,0,0,0,et:history/provinces/1753 - Kostroma.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1754,Orel,RUS,RUS,RUS,russian,orthodox,Murom,coal,4,4,4,yes,no,0,0,0,0,et:history/provinces/1754 - Orel.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1755,Ustyug,RUS,RUS,RUS,novgorodian,orthodox,Veliky Ustyug,copper,2,2,1,yes,no,0,0,0,0,et:history/provinces/1755 - Ustyug.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1752,Rzhev,RUS,RUS,RUS,russian,orthodox,Rzhev,grain,6,6,3,yes,no,0,0,0,0,et:history/provinces/1752 - Rzhev.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1753,Kostroma,RUS,RUS,RUS,russian,orthodox,Kostroma,cloth,4,4,3,yes,no,0,0,0,0,et:history/provinces/1753 - Kostroma.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1754,Orel,RUS,RUS,RUS,russian,orthodox,Murom,coal,5,5,4,yes,no,0,0,0,0,et:history/provinces/1754 - Orel.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1755,Ustyug,RUS,RUS,RUS,novgorodian,orthodox,Veliky Ustyug,copper,3,2,1,yes,no,0,0,0,0,et:history/provinces/1755 - Ustyug.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 1756,Budjak,UKR,UKR,UKR,ruthenian,orthodox,Kiliya,wool,5,4,2,yes,no,0,0,0,0,et:history/provinces/1756 - Budjak.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1757,Oberpfalz,GER,GER,GER,bavarian,catholic,Amberg,iron,5,5,3,yes,no,0,0,0,0,et:history/provinces/1757 - Oberpfalz.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 1758,Hannover,GER,GER,GER,lower_saxon,protestant,Hannover,iron,9,9,7,yes,no,0,0,0,0,et:history/provinces/1758 - Hannover.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
@@ -1285,14 +1285,14 @@
 1773,Achaea,GRE,GRE,GRE,greek,orthodox,Patrai,wine,4,4,1,yes,no,0,0,0,0,et:history/provinces/1773 - Achaea.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1774,Treviso,ITA,ITA,ITA,venetian,catholic,Treviso,paper,7,6,4,yes,no,0,0,0,0,et:history/provinces/1774 - Treviso.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 1775,Holstein,GER,GER,GER,lower_saxon,protestant,Kiel,livestock,7,7,7,yes,no,1,0,0,0,et:history/provinces/1775 - Holstein.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1776,Karelia,RUS,RUS,RUS,novgorodian,orthodox,Kem,salt,1,1,1,yes,no,0,4,2,1,et:history/provinces/1776 - Karelia.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1777,Kola,RUS,RUS,RUS,novgorodian,orthodox,Murmansk,fur,3,2,2,yes,no,0,2,2,1,et:history/provinces/1777 - Kola.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1778,Kasimov,RUS,RUS,RUS,russian,orthodox,Kasimov,livestock,5,4,5,yes,no,0,0,0,0,et:history/provinces/1778 - Kasimov.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1776,Karelia,RUS,RUS,RUS,novgorodian,orthodox,Kem,salt,2,1,1,yes,no,0,4,2,1,et:history/provinces/1776 - Karelia.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1777,Kola,RUS,RUS,RUS,novgorodian,orthodox,Murmansk,fur,4,2,2,yes,no,0,2,2,1,et:history/provinces/1777 - Kola.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1778,Kasimov,RUS,RUS,RUS,russian,orthodox,Kasimov,livestock,7,5,6,yes,no,0,0,0,0,et:history/provinces/1778 - Kasimov.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 1779,Rub' al Khali,SAU,SAU,SAU,bedouin_arabic,sunni,Shaybah,coal,1,5,1,yes,no,0,0,0,0,et:history/provinces/1779 - Rub' al Khali.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-1780,Komi,RUS,RUS,RUS,samoyed,orthodox,Ukhta,fur,1,1,1,yes,no,0,10,4.5,8,et:history/provinces/1780 - Komi.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1781,Western Siberia,RUS,RUS,RUS,yakut,orthodox,Khatanga,fur,1,1,1,yes,no,0,5,1,3,et:history/provinces/1781 - Western Siberia.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1782,Central Siberia,RUS,RUS,RUS,yakut,orthodox,Udachny,fur,1,1,1,yes,no,0,5,1,3,et:history/provinces/1782 - Central Siberia.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1783,Eastern Siberia,RUS,RUS,RUS,yakut,orthodox,Zhigansk,gems,1,1,1,yes,no,0,5,1,3,et:history/provinces/1783 - Eastern Siberia.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1780,Komi,RUS,RUS,RUS,samoyed,orthodox,Ukhta,fur,2,1,1,yes,no,0,10,4.5,8,et:history/provinces/1780 - Komi.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1781,Western Siberia,RUS,RUS,RUS,yakut,orthodox,Khatanga,fur,2,1,1,yes,no,0,5,1,3,et:history/provinces/1781 - Western Siberia.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1782,Central Siberia,RUS,RUS,RUS,yakut,orthodox,Udachny,fur,2,1,1,yes,no,0,5,1,3,et:history/provinces/1782 - Central Siberia.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1783,Eastern Siberia,RUS,RUS,RUS,yakut,orthodox,Zhigansk,gems,2,1,1,yes,no,0,5,1,3,et:history/provinces/1783 - Eastern Siberia.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 1784,Tiam Shan,,,,,,Tiam Shan,unknown,1,1,1,no,no,0,0,0,0,et:history/provinces/1784 - Tiam Shan.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1785,Pamir,,,,,,Pamir,unknown,1,1,1,no,no,0,0,0,0,et:history/provinces/1785 - Pamir.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1786,Takla Makan,,,,,,Takla Makan,unknown,1,1,1,no,no,0,0,0,0,et:history/provinces/1786 - Takla Makan.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -1359,7 +1359,7 @@
 1847,Shiribeshi,JAP,JAP,JAP,japanese,shinto,Sapporo,coal,13,12,11,yes,no,0,0,0,0,et:history/provinces/1847 - Shiribeshi.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 1848,Hamid,TKY,TKY,TKY,turkish,sunni,Isparta,grain,6,5,5,yes,no,0,0,0,0,et:history/provinces/1848 - Hamid.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1849,Hamah,SYR,SYR,SYR,al_suryah_arabic,sunni,Hama,cotton,2,2,2,yes,no,0,0,0,0,et:history/provinces/1849 - Hamah.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-1850,Yaran,RUS,RUS,RUS,russian,orthodox,Dalnegorsk,fish,2,2,3,yes,no,0,0,0,0,et:history/provinces/1850 - Yaran.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1850,Yaran,RUS,RUS,RUS,russian,orthodox,Dalnegorsk,fish,2,2,4,yes,no,0,0,0,0,et:history/provinces/1850 - Yaran.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 1851,Ribatejo,POR,POR,POR,portugese,catholic,Coimbra,grain,4,4,5,yes,no,0,0,0,0,et:history/provinces/1851 - Ribatejo.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1852,Tokachi,JAP,JAP,JAP,japanese,shinto,Kushiro,fish,4,4,2,yes,no,0,0,0,0,et:history/provinces/1852 - Tokachi.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 1853,Kozani,GRE,GRE,GRE,greek,orthodox,Kozani,wine,3,2,2,yes,no,0,0,0,0,et:history/provinces/1853 - Kozani.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -1409,32 +1409,32 @@
 1944,Cherkasy,UKR,UKR,UKR,ruthenian,orthodox,Cherkasy,livestock,1,1,1,yes,no,0,0,0,0,et:history/provinces/1944 - Cherkasy.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1945,Novgorod-Seversky,UKR,UKR,UKR,russian,orthodox,Novhorod-Siverskyi,iron,1,2,1,yes,no,0,0,0,0,et:history/provinces/1945 - Novgorod-Seversky.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1946,Desh,INI,INI,INI,marathi,hinduism,Satara,copper,3,3,2,yes,no,0,0,0,0,et:history/provinces/1946 - Desh.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1947,Gingee,INI,INI,INI,tamil,hinduism,Tiruvannamalai,cloth,3,3,2,yes,no,0,0,0,0,et:history/provinces/1947 - Gingee.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1948,Bidar,INI,INI,INI,kannada,hinduism,Bidar,silk,3,3,2,yes,no,2,0,0,0,et:history/provinces/1948 - Bidar.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1947,Gingee,INI,INI,INI,tamil,hinduism,Tiruvannamalai,cloth,3,2,2,yes,no,0,0,0,0,et:history/provinces/1947 - Gingee.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1948,Bidar,INI,INI,INI,kannada,hinduism,Bidar,silk,3,2,2,yes,no,2,0,0,0,et:history/provinces/1948 - Bidar.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 1949,Rayalaseema,INI,INI,INI,telegu,hinduism,Kadiri,cotton,3,1,2,yes,no,0,0,0,0,et:history/provinces/1949 - Rayalaseema.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 1950,Meghalaya,INI,INI,INI,khasi,protestant,Shillong,unknown,3,2,2,yes,no,0,0,0,0,et:history/provinces/1950 - Meghalaya.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 1951,Hunyad,RMN,RMN,RMN,romanian,orthodox,Cluj-Napoca,iron,5,5,5,yes,no,0,0,0,0,et:history/provinces/1951 - Hunyad.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1952,Maramaros,UKR,UKR,UKR,ruthenian,catholic,Uzhorod,naval_supplies,2,2,1,yes,no,0,0,0,0,et:history/provinces/1952 - Maramaros.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1953,Szabolcs,HUN,HUN,HUN,hungarian,reformed,Debrecen,livestock,5,5,5,yes,no,0,0,0,0,et:history/provinces/1953 - Szabolcs.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1954,Torontal,YUG,YUG,YUG,serbian,orthodox,Zrenjanin,livestock,3,3,2,yes,no,0,0,0,0,et:history/provinces/1954 - Torontal.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-1955,Kholmogory,RUS,RUS,RUS,novgorodian,orthodox,Belomorsk,fur,2,2,1,yes,no,2,0,0,0,et:history/provinces/1955 - Kholmogory.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1956,Suzdal,RUS,RUS,RUS,russian,orthodox,Ivanovo,grain,6,5,3,yes,no,0,0,0,0,et:history/provinces/1956 - Suzdal.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1957,Galich,RUS,RUS,RUS,russian,orthodox,Kineshma,salt,4,5,3,yes,no,0,0,0,0,et:history/provinces/1957 - Galich.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1958,Kargopol,RUS,RUS,RUS,novgorodian,orthodox,Kargopol,naval_supplies,3,3,1,yes,no,0,0,0,0,et:history/provinces/1958 - Kargopol.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1959,Torzhok,RUS,RUS,RUS,novgorodian,orthodox,Torzhok,naval_supplies,3,3,1,yes,no,0,0,0,0,et:history/provinces/1959 - Torzhok.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1960,Ostrov,RUS,RUS,RUS,novgorodian,orthodox,Ostrov,naval_supplies,2,2,2,yes,no,0,0,0,0,et:history/provinces/1960 - Ostrov.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1961,Ladoga,RUS,RUS,RUS,novgorodian,orthodox,Novaya Ladoga,fur,4,4,2,yes,no,0,0,0,0,et:history/provinces/1961 - Ladoga.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1962,Kudymkar,RUS,RUS,RUS,uralic,orthodox,Kudymkar,fur,1,1,1,yes,no,0,25,2,2,et:history/provinces/1962 - Kudymkar.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1963,Cherdyn,RUS,RUS,RUS,russian,orthodox,Cherdyn,salt,3,3,2,yes,no,1,20,2,2,et:history/provinces/1963 - Cherdyn.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1964,Ust-Sysolsk,RUS,RUS,RUS,russian,orthodox,Syktyvkar,fur,2,2,1,yes,no,0,25,2,2,et:history/provinces/1964 - Ust-Sysolsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1965,Buzuluk,RUS,RUS,RUS,russian,orthodox,Buzuluk,iron,2,2,2,yes,no,0,0,0,0,et:history/provinces/1965 - Buzuluk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1966,Chelyaba,RUS,RUS,RUS,russian,orthodox,Chelyabinsk,fur,6,6,6,yes,no,0,0,0,0,et:history/provinces/1966 - Chelyaba.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1955,Kholmogory,RUS,RUS,RUS,novgorodian,orthodox,Belomorsk,fur,3,2,1,yes,no,2,0,0,0,et:history/provinces/1955 - Kholmogory.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1956,Suzdal,RUS,RUS,RUS,russian,orthodox,Ivanovo,grain,7,7,4,yes,no,0,0,0,0,et:history/provinces/1956 - Suzdal.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1957,Galich,RUS,RUS,RUS,russian,orthodox,Kineshma,salt,5,6,3,yes,no,0,0,0,0,et:history/provinces/1957 - Galich.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1958,Kargopol,RUS,RUS,RUS,novgorodian,orthodox,Kargopol,naval_supplies,4,3,1,yes,no,0,0,0,0,et:history/provinces/1958 - Kargopol.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1959,Torzhok,RUS,RUS,RUS,novgorodian,orthodox,Torzhok,naval_supplies,4,3,1,yes,no,0,0,0,0,et:history/provinces/1959 - Torzhok.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1960,Ostrov,RUS,RUS,RUS,novgorodian,orthodox,Ostrov,naval_supplies,3,2,2,yes,no,0,0,0,0,et:history/provinces/1960 - Ostrov.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1961,Ladoga,RUS,RUS,RUS,novgorodian,orthodox,Novaya Ladoga,fur,5,5,2,yes,no,0,0,0,0,et:history/provinces/1961 - Ladoga.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1962,Kudymkar,RUS,RUS,RUS,uralic,orthodox,Kudymkar,fur,2,1,1,yes,no,0,25,2,2,et:history/provinces/1962 - Kudymkar.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1963,Cherdyn,RUS,RUS,RUS,russian,orthodox,Cherdyn,salt,4,3,2,yes,no,1,20,2,2,et:history/provinces/1963 - Cherdyn.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1964,Ust-Sysolsk,RUS,RUS,RUS,russian,orthodox,Syktyvkar,fur,3,2,1,yes,no,0,25,2,2,et:history/provinces/1964 - Ust-Sysolsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1965,Buzuluk,RUS,RUS,RUS,russian,orthodox,Buzuluk,iron,3,2,2,yes,no,0,0,0,0,et:history/provinces/1965 - Buzuluk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1966,Chelyaba,RUS,RUS,RUS,russian,orthodox,Chelyabinsk,fur,7,7,9,yes,no,0,0,0,0,et:history/provinces/1966 - Chelyaba.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 1967,Khujand,TJK,TJK,TJK,tajik,sunni,Khujand,silk,2,2,3,yes,no,0,0,0,0,et:history/provinces/1967 - Khujand.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1968,Kulob,TJK,TJK,TJK,tajik,sunni,Dushanbe,wool,2,2,3,yes,no,0,0,0,0,et:history/provinces/1968 - Kulob.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1969,Sozak,KZK,KZK,KZK,khazak,sunni,Turkistan,salt,1,1,1,yes,no,0,0,0,0,et:history/provinces/1969 - Sozak.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1970,Syghnak,KZK,KZK,KZK,khazak,sunni,Kazaly,livestock,2,2,2,yes,no,0,0,0,0,et:history/provinces/1970 - Syghnak.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-1971,Tsaritsyn,RUS,RUS,RUS,russian,orthodox,Volgograd,livestock,7,7,7,yes,no,0,0,0,0,et:history/provinces/1971 - Tsaritsyn.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-1972,Udmurtia,RUS,RUS,RUS,russian,orthodox,Mozhga,grain,2,2,2,yes,no,0,0,0,0,et:history/provinces/1972 - Udmurtia.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1971,Tsaritsyn,RUS,RUS,RUS,russian,orthodox,Volgograd,livestock,10,8,8,yes,no,0,0,0,0,et:history/provinces/1971 - Tsaritsyn.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+1972,Udmurtia,RUS,RUS,RUS,russian,orthodox,Mozhga,grain,3,2,2,yes,no,0,0,0,0,et:history/provinces/1972 - Udmurtia.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 1973,Urgench,UZB,UZB,UZB,uzbehk,sunni,Urgench,cotton,4,4,4,yes,no,0,0,0,0,et:history/provinces/1973 - Urgench.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1974,Yedishkul,UKR,UKR,UKR,ruthenian,orthodox,Kherson,salt,4,4,2,yes,no,0,0,0,0,et:history/provinces/1974 - Yedishkul.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1978,Shetlands,GBR,GBR,GBR,scottish,reformed,Lerwick,fish,1,1,1,yes,no,0,0,0,0,et:history/provinces/1978 - Shetlands.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
@@ -1487,39 +1487,39 @@
 2028,Mahur,INI,INI,INI,telegu,hinduism,Adilabad,tropical_wood,2,2,1,yes,no,0,0,0,0,et:history/provinces/2028 - Mahur.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2029,South Kanara,INI,INI,INI,kannada,hinduism,Mangalore,tropical_wood,2,2,2,yes,no,0,0,0,0,et:history/provinces/2029 - South Kanara.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2030,Kanara,INI,INI,INI,marathi,hinduism,Panaji,spices,2,2,1,yes,no,2,0,0,0,et:history/provinces/2030 - Kanara.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2031,Morasanadu,INI,INI,INI,kannada,hinduism,Bangalore,grain,4,4,4,yes,no,0,0,0,0,et:history/provinces/2031 - Morasanadu.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2031,Morasanadu,INI,INI,INI,kannada,hinduism,Bangalore,grain,4,4,3,yes,no,0,0,0,0,et:history/provinces/2031 - Morasanadu.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2032,Malenadu,INI,INI,INI,kannada,hinduism,Bhadravati,iron,3,2,2,yes,no,0,0,0,0,et:history/provinces/2032 - Malenadu.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2033,Savanaur,INI,INI,INI,kannada,hinduism,Hubli,cotton,3,2,2,yes,no,0,0,0,0,et:history/provinces/2033 - Savanaur.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2034,Pune,INI,INI,INI,marathi,hinduism,Pune,iron,5,5,5,yes,no,0,0,0,0,et:history/provinces/2034 - Pune.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2035,Gulbarga,INI,INI,INI,kannada,hinduism,Gulbarga,grain,3,3,2,yes,no,0,0,0,0,et:history/provinces/2035 - Gulbarga.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2034,Pune,INI,INI,INI,marathi,hinduism,Pune,iron,5,5,4,yes,no,0,0,0,0,et:history/provinces/2034 - Pune.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2035,Gulbarga,INI,INI,INI,kannada,hinduism,Gulbarga,grain,3,2,2,yes,no,0,0,0,0,et:history/provinces/2035 - Gulbarga.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2036,Baglana,INI,INI,INI,saurashtri,hinduism,Nandurbar,grain,3,3,2,yes,no,0,0,0,0,et:history/provinces/2036 - Baglana.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2037,Telingana,INI,INI,INI,telegu,hinduism,Warangal,cotton,3,3,2,yes,no,0,0,0,0,et:history/provinces/2037 - Telingana.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2038,Midnapore,INI,INI,INI,bengali,hinduism,Midnapore,spices,5,5,5,yes,no,0,0,0,0,et:history/provinces/2038 - Midnapore.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2037,Telingana,INI,INI,INI,telegu,hinduism,Warangal,cotton,3,2,2,yes,no,0,0,0,0,et:history/provinces/2037 - Telingana.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2038,Midnapore,INI,INI,INI,bengali,hinduism,Midnapore,spices,5,5,4,yes,no,0,0,0,0,et:history/provinces/2038 - Midnapore.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2039,Sunderbans,BGD,BGD,BGD,bengali,sunni,Barisal,grain,7,7,6,yes,no,0,0,0,0,et:history/provinces/2039 - Sunderbans.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-2040,Sadiya,INI,INI,INI,assamese,hinduism,Dibrugarh,tea,4,3,3,yes,no,0,0,0,0,et:history/provinces/2040 - Sadiya.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2040,Sadiya,INI,INI,INI,assamese,hinduism,Dibrugarh,tea,3,3,3,yes,no,0,0,0,0,et:history/provinces/2040 - Sadiya.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2041,Manipur,INI,INI,INI,chin,hinduism,Imphal,cloth,3,3,2,yes,no,0,0,0,0,et:history/provinces/2041 - Manipur.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2042,Koch Hajo,INI,INI,INI,assamese,hinduism,Guwahati,cotton,3,3,2,yes,no,0,0,0,0,et:history/provinces/2042 - Koch Hajo.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2043,Balasore,INI,INI,INI,oriya,hinduism,Balasore,cloth,5,4,4,yes,no,0,0,0,0,et:history/provinces/2043 - Balasore.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2044,Bhagalpur,INI,INI,INI,bihari,hinduism,Bhagalpur,silk,6,5,5,yes,no,0,0,0,0,et:history/provinces/2044 - Bhagalpur.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2043,Balasore,INI,INI,INI,oriya,hinduism,Balasore,cloth,4,4,4,yes,no,0,0,0,0,et:history/provinces/2043 - Balasore.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2044,Bhagalpur,INI,INI,INI,bihari,hinduism,Bhagalpur,silk,5,5,5,yes,no,0,0,0,0,et:history/provinces/2044 - Bhagalpur.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2045,Barind,BGD,BGD,BGD,bengali,sunni,Rangpur,cloth,10,10,9,yes,no,0,0,0,0,et:history/provinces/2045 - Barind.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 2046,Nasirabad,BGD,BGD,BGD,bengali,sunni,Mymensingh,cotton,7,7,6,yes,no,0,0,0,0,et:history/provinces/2046 - Nasirabad.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 2047,Tirhut,INI,INI,INI,bihari,hinduism,Darbhanga,dyes,4,4,3,yes,no,1,0,0,0,et:history/provinces/2047 - Tirhut.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2048,Garjat,INI,INI,INI,garjati,hinduism,Jeypore,tropical_wood,2,2,2,yes,no,0,0,0,0,et:history/provinces/2048 - Garjat.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2049,Khurda,INI,INI,INI,garjati,hinduism,Khordha,grain,3,3,2,yes,no,0,0,0,0,et:history/provinces/2049 - Khurda.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2049,Khurda,INI,INI,INI,garjati,hinduism,Khordha,grain,3,2,2,yes,no,0,0,0,0,et:history/provinces/2049 - Khurda.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2050,Chanda,INI,INI,INI,marathi,hinduism,Chandrapur,coal,3,2,2,yes,no,0,0,0,0,et:history/provinces/2050 - Chanda.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2051,Bhavnagar,INI,INI,INI,gujarati,hinduism,Bhavnagar,salt,3,2,2,yes,no,0,0,0,0,et:history/provinces/2051 - Bhavnagar.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2052,Kathiawar,INI,INI,INI,gujarati,hinduism,Navanagar,gems,2,2,2,yes,no,0,0,0,0,et:history/provinces/2052 - Kathiawar.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2053,Patan,INI,INI,INI,gujarati,hinduism,Patan,cloth,2,2,2,yes,no,0,0,0,0,et:history/provinces/2053 - Patan.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2054,Gujarat,INI,INI,INI,gujarati,hinduism,Ahmadabad,paper,6,6,5,yes,no,0,0,0,0,et:history/provinces/2054 - Gujarat.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2055,Gorakhpur,INI,INI,INI,bihari,hinduism,Gorakhpur,grain,4,3,3,yes,no,0,0,0,0,et:history/provinces/2055 - Gorakhpur.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2052,Kathiawar,INI,INI,INI,gujarati,hinduism,Navanagar,gems,2,2,1,yes,no,0,0,0,0,et:history/provinces/2052 - Kathiawar.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2053,Patan,INI,INI,INI,gujarati,hinduism,Patan,cloth,2,2,1,yes,no,0,0,0,0,et:history/provinces/2053 - Patan.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2054,Gujarat,INI,INI,INI,gujarati,hinduism,Ahmadabad,paper,6,5,5,yes,no,0,0,0,0,et:history/provinces/2054 - Gujarat.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2055,Gorakhpur,INI,INI,INI,bihari,hinduism,Gorakhpur,grain,3,3,3,yes,no,0,0,0,0,et:history/provinces/2055 - Gorakhpur.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2056,Rewa Kantha,INI,INI,INI,saurashtri,hinduism,Godhra,wool,2,1,1,yes,no,0,0,0,0,et:history/provinces/2056 - Rewa Kantha.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2057,Bhilsa,INI,INI,INI,malvi,hinduism,Bhopal,cloth,5,5,4,yes,no,0,0,0,0,et:history/provinces/2057 - Bhilsa.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2058,Mewar,INI,INI,INI,rajput,hinduism,Udaipur,gold,3,3,2,yes,no,0,0,0,0,et:history/provinces/2058 - Mewar.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2059,Kalpi,INI,INI,INI,vindhyan,hinduism,Kalpi,cloth,3,3,2,yes,no,0,0,0,0,et:history/provinces/2059 - Kalpi.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2060,Upper Doab,INI,INI,INI,kanauji,hinduism,Meerut,cloth,5,4,4,yes,no,0,0,0,0,et:history/provinces/2060 - Upper Doab.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2061,Katehar,INI,INI,INI,kanauji,hinduism,Rampur,cotton,3,3,2,yes,no,0,0,0,0,et:history/provinces/2061 - Katehar.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2062,Panipat,INI,INI,INI,kanauji,hinduism,Panipat,cotton,5,4,4,yes,no,0,0,0,0,et:history/provinces/2062 - Panipat.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2063,Etawah,INI,INI,INI,kanauji,hinduism,Etawah,dyes,6,5,5,yes,no,0,0,0,0,et:history/provinces/2063 - Etawah.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2062,Panipat,INI,INI,INI,kanauji,hinduism,Panipat,cotton,4,4,4,yes,no,0,0,0,0,et:history/provinces/2062 - Panipat.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2063,Etawah,INI,INI,INI,kanauji,hinduism,Etawah,dyes,5,5,5,yes,no,0,0,0,0,et:history/provinces/2063 - Etawah.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2064,Shehkawati,INI,INI,INI,rajput,hinduism,Sikar,copper,2,1,1,yes,no,0,0,0,0,et:history/provinces/2064 - Shehkawati.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2065,Bathlana,INI,INI,INI,panjabi,sikhism,Hisar,livestock,4,4,3,yes,no,0,0,0,0,et:history/provinces/2065 - Bathlana.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2066,Nagaur,INI,INI,INI,rajput,hinduism,Nagaur,livestock,2,1,1,yes,no,0,0,0,0,et:history/provinces/2066 - Nagaur.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
@@ -1539,9 +1539,9 @@
 2080,Srikakulam,INI,INI,INI,oriya,hinduism,Srikakulam,sugar,2,2,1,yes,no,0,0,0,0,et:history/provinces/2080 - Srikakulam.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2081,Lakhnor,INI,INI,INI,bengali,hinduism,Bardhaman,copper,5,5,4,yes,no,0,0,0,0,et:history/provinces/2081 - Lakhnor.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2082,Raipur,INI,INI,INI,jharkhandi,hinduism,Raipur,grain,3,3,2,yes,no,0,0,0,0,et:history/provinces/2082 - Raipur.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2083,Kosta,INI,INI,INI,telegu,hinduism,Kadapa,cotton,3,3,1,yes,no,0,0,0,0,et:history/provinces/2083 - Kosta.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2083,Kosta,INI,INI,INI,telegu,hinduism,Kadapa,cotton,2,2,2,yes,no,0,0,0,0,et:history/provinces/2083 - Kosta.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2084,Konaseema,INI,INI,INI,telegu,hinduism,Rajahmundry,cloth,3,3,2,yes,no,0,0,0,0,et:history/provinces/2084 - Konaseema.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2085,Carnatic,INI,INI,INI,tamil,hinduism,Tiruchirapalli,cotton,4,4,3,yes,no,0,0,0,0,et:history/provinces/2085 - Carnatic.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2085,Carnatic,INI,INI,INI,tamil,hinduism,Tiruchirapalli,cotton,4,3,3,yes,no,0,0,0,0,et:history/provinces/2085 - Carnatic.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2086,Cholistan,PAK,PAK,PAK,panjabi,sunni,Rahim Yar Khan,livestock,4,4,3,yes,no,0,0,0,0,et:history/provinces/2086 - Cholistan.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 2087,Ajmer,INI,INI,INI,rajput,hinduism,Ajmer,salt,3,2,2,yes,no,1,0,0,0,et:history/provinces/2087 - Ajmer.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2088,Umarkot,PAK,PAK,PAK,sindhi,hinduism,Umarkot,wool,3,3,2,yes,no,0,0,0,0,et:history/provinces/2088 - Umarkot.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -1549,20 +1549,20 @@
 2090,Kurnool,INI,INI,INI,telegu,hinduism,Kurnool,iron,3,2,2,yes,no,0,0,0,0,et:history/provinces/2090 - Kurnool.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2091,Tripura,INI,INI,INI,bengali,hinduism,Agartala,tropical_wood,3,2,2,yes,no,0,0,0,0,et:history/provinces/2091 - Tripura.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2092,Mahadeo,INI,INI,INI,marathi,hinduism,Chhindwara,copper,3,3,2,yes,no,0,0,0,0,et:history/provinces/2092 - Mahadeo.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2093,Malwa,INI,INI,INI,malvi,hinduism,Mandsaur,spices,4,3,3,yes,no,0,0,0,0,et:history/provinces/2093 - Malwa.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2093,Malwa,INI,INI,INI,malvi,hinduism,Mandsaur,spices,3,3,3,yes,no,0,0,0,0,et:history/provinces/2093 - Malwa.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2094,Bahreich,INI,INI,INI,avadhi,hinduism,Bahreich,cotton,3,3,2,yes,no,0,0,0,0,et:history/provinces/2094 - Bahreich.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2095,Varanasi,INI,INI,INI,bihari,hinduism,Varanasi,silk,6,5,5,yes,no,0,0,0,0,et:history/provinces/2095 - Varanasi.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2096,Damin,INI,INI,INI,bihari,hinduism,Deoghar,coal,5,4,4,yes,no,0,0,0,0,et:history/provinces/2096 - Damin.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2095,Varanasi,INI,INI,INI,bihari,hinduism,Varanasi,silk,5,5,5,yes,no,0,0,0,0,et:history/provinces/2095 - Varanasi.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2096,Damin,INI,INI,INI,bihari,hinduism,Deoghar,coal,4,4,4,yes,no,0,0,0,0,et:history/provinces/2096 - Damin.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2097,Baghelkhand,INI,INI,INI,bagheli,hinduism,Rewa,copper,3,3,2,yes,no,0,0,0,0,et:history/provinces/2097 - Baghelkhand.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2098,Mandla,INI,INI,INI,jharkhandi,hinduism,Ambikapur,cotton,3,3,2,yes,no,0,0,0,0,et:history/provinces/2098 - Mandla.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2098,Mandla,INI,INI,INI,jharkhandi,hinduism,Ambikapur,cotton,3,2,2,yes,no,0,0,0,0,et:history/provinces/2098 - Mandla.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2099,Kandy,SRL,SRL,SRL,sinhala,buddhism,Kandy,gems,4,4,4,yes,no,0,0,0,0,et:history/provinces/2099 - Kandy.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 2100,Vanni,SRL,SRL,SRL,tamil,hinduism,Yapapatuna,gems,4,4,3,yes,no,0,0,0,0,et:history/provinces/2100 - Vanni.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 2101,Tirunveli,INI,INI,INI,tamil,hinduism,Tirunelveli,gems,3,3,2,yes,no,0,0,0,0,et:history/provinces/2101 - Tirunveli.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2102,Urkan,RUS,RUS,RUS,russian,orthodox,Tynda,fur,2,2,1,yes,no,0,30,1,5,et:history/provinces/2102 - Urkan.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2103,Udi,RUS,RUS,RUS,russian,orthodox,Chumikan,fur,1,1,1,yes,no,0,10,1,3,et:history/provinces/2103 - Udi.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2104,Birija,RUS,RUS,RUS,russian,orthodox,Obluchye,fish,1,1,1,yes,no,0,10,1,3,et:history/provinces/2104 - Birija.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2105,Kuru,RUS,RUS,RUS,russian,orthodox,Birobidzhan,fish,2,1,1,yes,no,0,10,1,3,et:history/provinces/2105 - Kuru.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2106,Khanka,RUS,RUS,RUS,russian,orthodox,Vladivostok,naval_supplies,5,5,4,yes,no,1,20,1,3,et:history/provinces/2106 - Khanka.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2102,Urkan,RUS,RUS,RUS,russian,orthodox,Tynda,fur,3,2,1,yes,no,0,30,1,5,et:history/provinces/2102 - Urkan.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2103,Udi,RUS,RUS,RUS,russian,orthodox,Chumikan,fur,2,1,1,yes,no,0,10,1,3,et:history/provinces/2103 - Udi.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2104,Birija,RUS,RUS,RUS,russian,orthodox,Obluchye,fish,2,1,1,yes,no,0,10,1,3,et:history/provinces/2104 - Birija.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2105,Kuru,RUS,RUS,RUS,russian,orthodox,Birobidzhan,fish,3,1,1,yes,no,0,10,1,3,et:history/provinces/2105 - Kuru.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2106,Khanka,RUS,RUS,RUS,russian,orthodox,Vladivostok,naval_supplies,6,6,6,yes,no,1,20,1,3,et:history/provinces/2106 - Khanka.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2107,Ninguta,CHN,CHN,CHN,manchu_new,confucianism,Ning'an,coal,3,3,3,yes,no,0,0,0,0,et:history/provinces/2107 - Ninguta.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2108,Hunchun,CHN,CHN,CHN,korean,confucianism,Hunchun,naval_supplies,3,2,2,yes,no,0,0,0,0,et:history/provinces/2108 - Hunchun.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2109,Hinggan,CHN,CHN,CHN,manchu_new,vajrayana,Fuyu,coal,2,3,2,yes,no,0,0,0,0,et:history/provinces/2109 - Hinggan.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
@@ -1642,7 +1642,7 @@
 2183,Taozhou,CHN,CHN,CHN,di,vajrayana,Tewo,chinaware,3,2,2,yes,no,0,0,0,0,et:history/provinces/2183 - Taozhou.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2184,Xining,CHN,CHN,CHN,xibei,vajrayana,Xining,salt,3,2,2,yes,no,0,0,0,0,et:history/provinces/2184 - Xining.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2185,Mergen,CHN,CHN,CHN,manchu_new,confucianism,Nenjiang,naval_supplies,2,2,1,yes,no,0,20,1,3,et:history/provinces/2185 - Mergen.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2186,Iman,RUS,RUS,RUS,russian,orthodox,Spassk-Dalny,naval_supplies,1,1,1,yes,no,0,0,0,0,et:history/provinces/2186 - Iman.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2186,Iman,RUS,RUS,RUS,russian,orthodox,Spassk-Dalny,naval_supplies,2,1,1,yes,no,0,0,0,0,et:history/provinces/2186 - Iman.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2187,Sartu,CHN,CHN,CHN,manchu_new,confucianism,Daqing,coal,3,2,3,yes,no,0,0,0,0,et:history/provinces/2187 - Sartu.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2188,Alchuka,CHN,CHN,CHN,manchu_new,confucianism,Harbin,grain,7,4,6,yes,no,0,0,0,0,et:history/provinces/2188 - Alchuka.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2189,Tsetserleg,KHA,KHA,KHA,mongol,vajrayana,Tsetserleg,fur,2,2,2,yes,no,0,0,0,0,et:history/provinces/2189 - Tsetserleg.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -1651,20 +1651,20 @@
 2192,Korla,CHN,CHN,CHN,uyghur,sunni,Korla,grain,2,1,2,yes,no,0,0,0,0,et:history/provinces/2192 - Korla.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2193,Govi,KHA,KHA,KHA,mongol,vajrayana,Bayangovi,livestock,1,1,1,yes,no,0,0,0,0,et:history/provinces/2193 - Govi.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 2194,Kunlun Shan,,,,,,Kunlun Shan,unknown,1,1,1,no,no,0,0,0,0,et:history/provinces/2194 - Kunlun Shan.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-2195,Ubykhia,RUS,RUS,RUS,russian,orthodox,Sochi,livestock,5,5,5,yes,no,0,0,0,0,et:history/provinces/2195 - Ubykhia.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2195,Ubykhia,RUS,RUS,RUS,russian,orthodox,Sochi,livestock,7,6,6,yes,no,0,0,0,0,et:history/provinces/2195 - Ubykhia.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2196,Guria,TKY,TKY,TKY,turkish,sunni,Artvin,fish,3,3,2,yes,no,0,0,0,0,et:history/provinces/2196 - Guria.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-2197,Kabardia,RUS,RUS,RUS,circassian,orthodox,Nalchik,wool,4,3,5,yes,no,0,0,0,0,et:history/provinces/2197 - Kabardia.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2198,Khundzia,RUS,RUS,RUS,dagestani,sunni,Grozny,coal,2,5,3,yes,no,0,0,0,0,et:history/provinces/2198 - Khundzia.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2199,Tarki,RUS,RUS,RUS,nogaybak,shiite,Mahachkala,fish,3,3,4,yes,no,0,0,0,0,et:history/provinces/2199 - Tarki.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2197,Kabardia,RUS,RUS,RUS,circassian,orthodox,Nalchik,wool,5,3,6,yes,no,0,0,0,0,et:history/provinces/2197 - Kabardia.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2198,Khundzia,RUS,RUS,RUS,dagestani,sunni,Grozny,coal,2,6,4,yes,no,0,0,0,0,et:history/provinces/2198 - Khundzia.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2199,Tarki,RUS,RUS,RUS,nogaybak,shiite,Mahachkala,fish,4,3,5,yes,no,0,0,0,0,et:history/provinces/2199 - Tarki.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2200,Erg Iguidi,,,,,,Erg Iguidi,unknown,1,1,1,no,no,0,0,0,0,et:history/provinces/2200 - Erg Iguidi.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-2201,Alania,RUS,RUS,RUS,alan,orthodox,Vladikavkaz,wool,4,3,3,yes,no,0,0,0,0,et:history/provinces/2201 - Alania.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2201,Alania,RUS,RUS,RUS,alan,orthodox,Vladikavkaz,wool,5,4,3,yes,no,0,0,0,0,et:history/provinces/2201 - Alania.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2202,Melikates,AZE,AZE,AZE,armenian,coptic,Stepanakert,livestock,3,3,3,yes,no,0,0,0,0,et:history/provinces/2202 - Melikates.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 2203,Kakheti,GEO,GEO,GEO,georgian,orthodox,Telavi,wine,3,3,3,yes,no,0,0,0,0,et:history/provinces/2203 - Kakheti.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 2204,Samtskhe,TKY,TKY,TKY,turkish,sunni,Kars,wine,4,3,3,yes,no,0,0,0,0,et:history/provinces/2204 - Samtskhe.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 2205,Nakhchivan,AZE,AZE,AZE,azerbaijani,shiite,Nakhchivan,wine,2,2,2,yes,no,0,0,0,0,et:history/provinces/2205 - Nakhchivan.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 2206,Urmia,IRA,IRA,IRA,kurdish,sunni,Urmiyeh,wine,3,3,4,yes,no,0,0,0,0,et:history/provinces/2206 - Urmia.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 2207,Maragheh,IRA,IRA,IRA,azerbaijani,shiite,Marageh,wool,3,3,3,yes,no,0,0,0,0,et:history/provinces/2207 - Maragheh.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-2208,Terek,RUS,RUS,RUS,dagestani,orthodox,Kizlyar,livestock,3,3,3,yes,no,0,0,0,0,et:history/provinces/2208 - Terek.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2208,Terek,RUS,RUS,RUS,dagestani,orthodox,Kizlyar,livestock,4,4,3,yes,no,0,0,0,0,et:history/provinces/2208 - Terek.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2209,Ilam,IRA,IRA,IRA,kurdish,shiite,Ilam,coal,5,11,5,yes,no,0,0,0,0,et:history/provinces/2209 - Ilam.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 2210,Kirmanshah,IRA,IRA,IRA,kurdish,shiite,Kermanshah,cloth,6,6,4,yes,no,0,0,0,0,et:history/provinces/2210 - Kirmanshah.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 2211,Ardalan,IRA,IRA,IRA,kurdish,shiite,Sanandaj,cloth,3,3,1,yes,no,0,0,0,0,et:history/provinces/2211 - Ardalan.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -1864,46 +1864,46 @@
 2405,Bessarabia,MDV,MDV,MDV,romanian,orthodox,Chisinau,wine,4,3,2,yes,no,0,0,0,0,et:history/provinces/2405 - Bessarabia.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2406,Ingil,UKR,UKR,UKR,ruthenian,orthodox,Mykolaiv,wine,1,1,1,yes,no,0,0,0,0,et:history/provinces/2406 - Ingil.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 2407,Pereyaslav,UKR,UKR,UKR,ruthenian,orthodox,Pryluky,grain,2,2,1,yes,no,0,0,0,0,et:history/provinces/2407 - Pereyaslav.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-2408,Lipetsk,RUS,RUS,RUS,russian,orthodox,Lipetsk,livestock,3,3,1,yes,no,0,0,0,0,et:history/provinces/2408 - Lipetsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2408,Lipetsk,RUS,RUS,RUS,russian,orthodox,Lipetsk,livestock,4,3,1,yes,no,0,0,0,0,et:history/provinces/2408 - Lipetsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2409,Bahmut,UKR,UKR,UKR,russian,orthodox,Luhansk,iron,2,2,1,yes,no,0,0,0,0,et:history/provinces/2409 - Bahmut.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 2410,Theodoro,UKR,UKR,UKR,russian,orthodox,Sevastopol,wine,3,3,3,yes,no,0,0,0,0,et:history/provinces/2410 - Theodoro.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 2411,Mansur,UKR,UKR,UKR,ruthenian,orthodox,Dnipropetrovsk,livestock,3,3,2,yes,no,0,0,0,0,et:history/provinces/2411 - Mansur.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 2412,Kyzyl Yar,UKR,UKR,UKR,ruthenian,orthodox,Mariupol,salt,4,4,3,yes,no,0,0,0,0,et:history/provinces/2412 - Kyzyl Yar.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 2413,Tyn,UKR,UKR,UKR,russian,orthodox,Donetsk,livestock,3,3,2,yes,no,0,0,0,0,et:history/provinces/2413 - Tyn.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-2414,Azaraba,RUS,RUS,RUS,russian,orthodox,Novocherkassk,livestock,3,3,3,yes,no,0,0,0,0,et:history/provinces/2414 - Azaraba.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2415,Etkara,RUS,RUS,RUS,russian,orthodox,Atkarsk,livestock,3,3,2,yes,no,0,0,0,0,et:history/provinces/2415 - Etkara.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2416,Majar,RUS,RUS,RUS,russian,orthodox,Stavropol,livestock,4,4,4,yes,no,0,0,0,0,et:history/provinces/2416 - Majar.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2417,Kuma,RUS,RUS,RUS,oirats,vajrayana,Elista,iron,2,2,2,yes,no,0,0,0,0,et:history/provinces/2417 - Kuma.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2418,Ukek,RUS,RUS,RUS,russian,orthodox,Engels,iron,4,2,3,yes,no,0,0,0,0,et:history/provinces/2418 - Ukek.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2419,Kanadey,RUS,RUS,RUS,russian,orthodox,Syzran,livestock,2,2,2,yes,no,0,0,0,0,et:history/provinces/2419 - Kanadey.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2420,Agyidel,RUS,RUS,RUS,russian,orthodox,Orenburg,iron,4,4,3,yes,no,0,5,2,3,et:history/provinces/2420 - Agyidel.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2421,Ar-Chally,RUS,RUS,RUS,kazani,sunni,Almetyevsk,coal,2,2,2,yes,no,0,4,3,2,et:history/provinces/2421 - Ar-Chally.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2422,Veda-Suva,RUS,RUS,RUS,bulgar,orthodox,Cheboksary,grain,3,3,3,yes,no,0,4,3,2,et:history/provinces/2422 - Veda-Suva.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2423,Alatyr,RUS,RUS,RUS,russian,orthodox,Alatyr,grain,3,3,2,yes,no,0,4,3,2,et:history/provinces/2423 - Alatyr.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2414,Azaraba,RUS,RUS,RUS,russian,orthodox,Novocherkassk,livestock,4,4,3,yes,no,0,0,0,0,et:history/provinces/2414 - Azaraba.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2415,Etkara,RUS,RUS,RUS,russian,orthodox,Atkarsk,livestock,4,3,2,yes,no,0,0,0,0,et:history/provinces/2415 - Etkara.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2416,Majar,RUS,RUS,RUS,russian,orthodox,Stavropol,livestock,5,5,4,yes,no,0,0,0,0,et:history/provinces/2416 - Majar.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2417,Kuma,RUS,RUS,RUS,oirats,vajrayana,Elista,iron,3,2,2,yes,no,0,0,0,0,et:history/provinces/2417 - Kuma.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2418,Ukek,RUS,RUS,RUS,russian,orthodox,Engels,iron,5,2,4,yes,no,0,0,0,0,et:history/provinces/2418 - Ukek.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2419,Kanadey,RUS,RUS,RUS,russian,orthodox,Syzran,livestock,3,2,2,yes,no,0,0,0,0,et:history/provinces/2419 - Kanadey.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2420,Agyidel,RUS,RUS,RUS,russian,orthodox,Orenburg,iron,5,5,3,yes,no,0,5,2,3,et:history/provinces/2420 - Agyidel.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2421,Ar-Chally,RUS,RUS,RUS,kazani,sunni,Almetyevsk,coal,3,2,2,yes,no,0,4,3,2,et:history/provinces/2421 - Ar-Chally.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2422,Veda-Suva,RUS,RUS,RUS,bulgar,orthodox,Cheboksary,grain,4,4,3,yes,no,0,4,3,2,et:history/provinces/2422 - Veda-Suva.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2423,Alatyr,RUS,RUS,RUS,russian,orthodox,Alatyr,grain,4,3,2,yes,no,0,4,3,2,et:history/provinces/2423 - Alatyr.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2424,Przemysl,POL,POL,POL,polish,catholic,Przemysl,livestock,4,4,3,yes,no,0,0,0,0,et:history/provinces/2424 - Przemysl.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-2425,Nenets,RUS,RUS,RUS,samoyed,orthodox,Naryan-Mar,fur,1,1,1,yes,no,0,10,4.5,8,et:history/provinces/2425 - Nenets.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2426,Norilsk,RUS,RUS,RUS,samoyed,orthodox,Norilsk,copper,1,1,2,yes,no,0,50,2,5,et:history/provinces/2426 - Norilsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2427,Ostyaki,RUS,RUS,RUS,russian,orthodox,Tavda,fur,3,3,3,yes,no,0,4,3,2,et:history/provinces/2427 - Ostyaki.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2428,Yugan,RUS,RUS,RUS,russian,orthodox,Novy Vasyugan,copper,1,1,1,yes,no,0,4,3,2,et:history/provinces/2428 - Yugan.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2429,Agan,RUS,RUS,RUS,russian,orthodox,Kargasok,fur,1,1,1,yes,no,0,3,3,2,et:history/provinces/2429 - Agan.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2430,Baykha,RUS,RUS,RUS,tungus,orthodox,Turukhansk,fur,1,1,1,yes,no,0,5,2,3,et:history/provinces/2430 - Baykha.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2431,Uchamin,RUS,RUS,RUS,tungus,orthodox,Uchaminskiy,fur,1,1,1,yes,no,0,5,2,3,et:history/provinces/2431 - Uchamin.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2432,Chulym,RUS,RUS,RUS,tungus,orthodox,Lesosibirsk,gold,1,1,1,yes,no,0,8,1,3,et:history/provinces/2432 - Chulym.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2433,Vah,RUS,RUS,RUS,russian,orthodox,Kuybyshev,fur,2,2,2,yes,no,0,5,2,3,et:history/provinces/2433 - Vah.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2434,Barnaul,RUS,RUS,RUS,russian,orthodox,Barnaul,livestock,2,2,2,yes,no,0,10,1,3,et:history/provinces/2434 - Barnaul.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2435,Nukhtui,RUS,RUS,RUS,yakut,orthodox,Olyokminsk,fish,1,1,1,yes,no,0,6,1,3,et:history/provinces/2435 - Nukhtui.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2436,Chuna,RUS,RUS,RUS,tungus,orthodox,Tura,fish,1,1,1,yes,no,0,4,1,3,et:history/provinces/2436 - Chuna.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2437,Seganka,RUS,RUS,RUS,yakut,orthodox,Mirny,fur,1,1,1,yes,no,0,2,1,3,et:history/provinces/2437 - Seganka.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2438,Kharya,RUS,RUS,RUS,yakut,orthodox,Yakutsk,fur,1,1,1,yes,no,0,4,1,3,et:history/provinces/2438 - Kharya.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2439,Yarmanka,RUS,RUS,RUS,yukagyr,orthodox,Zasjiversk,gold,1,1,1,yes,no,0,1,1,3,et:history/provinces/2439 - Yarmanka.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2440,Kagyrgyn,RUS,RUS,RUS,kamchatkan,orthodox,Anadyr,fish,1,1,1,yes,no,0,5,1,2,et:history/provinces/2440 - Kagyrgyn.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2441,Iglino,RUS,RUS,RUS,russian,orthodox,Iglino,fur,3,3,2,yes,no,0,0,0,0,et:history/provinces/2441 - Iglino.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2442,Ust-Kut,RUS,RUS,RUS,russian,orthodox,Ust-Kut,fish,1,1,1,yes,no,0,5,1,2,et:history/provinces/2442 - Ust-Kut.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2443,Kan,RUS,RUS,RUS,russian,orthodox,Kansk,fish,2,3,3,yes,no,0,10,1,3,et:history/provinces/2443 - Kan.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2444,Bashgird,RUS,RUS,RUS,bashkir,sunni,Zlatoust,gold,3,3,3,yes,no,0,5,2,3,et:history/provinces/2444 - Bashgird.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2445,Mangazea,RUS,RUS,RUS,samoyed,orthodox,Urengoy,coal,2,3,1,yes,no,0,1,1,1,et:history/provinces/2445 - Mangazea.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2446,Chara,RUS,RUS,RUS,russian,orthodox,Chara,wool,2,2,3,yes,no,0,3,1,3,et:history/provinces/2446 - Chara.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2447,Matrega,RUS,RUS,RUS,russian,orthodox,Novorossiysk,livestock,3,3,3,yes,no,0,0,0,0,et:history/provinces/2447 - Matrega.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2425,Nenets,RUS,RUS,RUS,samoyed,orthodox,Naryan-Mar,fur,2,1,1,yes,no,0,10,4.5,8,et:history/provinces/2425 - Nenets.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2426,Norilsk,RUS,RUS,RUS,samoyed,orthodox,Norilsk,copper,1,1,3,yes,no,0,50,2,5,et:history/provinces/2426 - Norilsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2427,Ostyaki,RUS,RUS,RUS,russian,orthodox,Tavda,fur,4,4,3,yes,no,0,4,3,2,et:history/provinces/2427 - Ostyaki.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2428,Yugan,RUS,RUS,RUS,russian,orthodox,Novy Vasyugan,copper,2,1,1,yes,no,0,4,3,2,et:history/provinces/2428 - Yugan.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2429,Agan,RUS,RUS,RUS,russian,orthodox,Kargasok,fur,2,1,1,yes,no,0,3,3,2,et:history/provinces/2429 - Agan.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2430,Baykha,RUS,RUS,RUS,tungus,orthodox,Turukhansk,fur,2,1,1,yes,no,0,5,2,3,et:history/provinces/2430 - Baykha.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2431,Uchamin,RUS,RUS,RUS,tungus,orthodox,Uchaminskiy,fur,2,1,1,yes,no,0,5,2,3,et:history/provinces/2431 - Uchamin.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2432,Chulym,RUS,RUS,RUS,tungus,orthodox,Lesosibirsk,gold,2,1,1,yes,no,0,8,1,3,et:history/provinces/2432 - Chulym.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2433,Vah,RUS,RUS,RUS,russian,orthodox,Kuybyshev,fur,3,2,2,yes,no,0,5,2,3,et:history/provinces/2433 - Vah.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2434,Barnaul,RUS,RUS,RUS,russian,orthodox,Barnaul,livestock,3,2,2,yes,no,0,10,1,3,et:history/provinces/2434 - Barnaul.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2435,Nukhtui,RUS,RUS,RUS,yakut,orthodox,Olyokminsk,fish,2,1,1,yes,no,0,6,1,3,et:history/provinces/2435 - Nukhtui.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2436,Chuna,RUS,RUS,RUS,tungus,orthodox,Tura,fish,2,1,1,yes,no,0,4,1,3,et:history/provinces/2436 - Chuna.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2437,Seganka,RUS,RUS,RUS,yakut,orthodox,Mirny,fur,2,1,1,yes,no,0,2,1,3,et:history/provinces/2437 - Seganka.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2438,Kharya,RUS,RUS,RUS,yakut,orthodox,Yakutsk,fur,2,1,1,yes,no,0,4,1,3,et:history/provinces/2438 - Kharya.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2439,Yarmanka,RUS,RUS,RUS,yukagyr,orthodox,Zasjiversk,gold,2,1,1,yes,no,0,1,1,3,et:history/provinces/2439 - Yarmanka.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2440,Kagyrgyn,RUS,RUS,RUS,kamchatkan,orthodox,Anadyr,fish,2,1,1,yes,no,0,5,1,2,et:history/provinces/2440 - Kagyrgyn.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2441,Iglino,RUS,RUS,RUS,russian,orthodox,Iglino,fur,4,3,2,yes,no,0,0,0,0,et:history/provinces/2441 - Iglino.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2442,Ust-Kut,RUS,RUS,RUS,russian,orthodox,Ust-Kut,fish,2,1,1,yes,no,0,5,1,2,et:history/provinces/2442 - Ust-Kut.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2443,Kan,RUS,RUS,RUS,russian,orthodox,Kansk,fish,2,4,3,yes,no,0,10,1,3,et:history/provinces/2443 - Kan.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2444,Bashgird,RUS,RUS,RUS,bashkir,sunni,Zlatoust,gold,4,4,3,yes,no,0,5,2,3,et:history/provinces/2444 - Bashgird.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2445,Mangazea,RUS,RUS,RUS,samoyed,orthodox,Urengoy,coal,2,4,1,yes,no,0,1,1,1,et:history/provinces/2445 - Mangazea.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2446,Chara,RUS,RUS,RUS,russian,orthodox,Chara,wool,2,2,4,yes,no,0,3,1,3,et:history/provinces/2446 - Chara.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2447,Matrega,RUS,RUS,RUS,russian,orthodox,Novorossiysk,livestock,4,4,3,yes,no,0,0,0,0,et:history/provinces/2447 - Matrega.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2448,Sabha,LBY,LBY,LBY,tunisian,sunni,Murzuk,grain,1,1,1,yes,no,0,0,0,0,et:history/provinces/2448 - Sabha.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 2449,Jufra,LBY,LBY,LBY,tunisian,sunni,Hun,livestock,1,1,1,yes,no,0,0,0,0,et:history/provinces/2449 - Jufra.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 2450,Ghadames,LBY,LBY,LBY,tunisian,sunni,Ghadames,grain,1,1,1,yes,no,0,0,0,0,et:history/provinces/2450 - Ghadames.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -2205,7 +2205,7 @@
 2746,Vidin,BUL,BUL,BUL,bulgarian,orthodox,Vidin,grain,2,3,1,yes,no,0,0,0,0,et:history/provinces/2746 - Vidin.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 2747,Ulanqab,CHN,CHN,CHN,chahar,vajrayana,Guyang,livestock,1,1,1,yes,no,0,0,0,0,et:history/provinces/2747 - Ulanqab.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2748,Qujing,CHN,CHN,CHN,yi,animism,Xichang,grain,6,6,6,yes,no,0,0,0,0,et:history/provinces/2748 - Qujing.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2749,Tikhvin,RUS,RUS,RUS,novgorodian,orthodox,Tikhvin,iron,4,5,2,yes,no,0,0,0,0,et:history/provinces/2749 - Tikhvin.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2749,Tikhvin,RUS,RUS,RUS,novgorodian,orthodox,Tikhvin,iron,5,6,2,yes,no,0,0,0,0,et:history/provinces/2749 - Tikhvin.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2750,Plovdiv,BUL,BUL,BUL,bulgarian,orthodox,Plovdiv,grain,3,3,3,yes,no,0,0,0,0,et:history/provinces/2750 - Plovdiv.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 2751,Cuenca,SPA,SPA,SPA,castillian,catholic,Cuenca,cloth,4,4,3,yes,no,0,0,0,0,et:history/provinces/2751 - Cuenca.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 2752,Sogn,NOR,NOR,NOR,norwegian,protestant,Molde,coal,3,5,2,yes,no,0,15,2,4,et:history/provinces/2752 - Sogn.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -2720,8 +2720,8 @@
 4113,Lappland,FIN,FIN,FIN,finnish,protestant,Rovaniemi,paper,2,2,1,yes,no,0,5,2,1,et:history/provinces/4113 - Lappland.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4114,Jokkmokk,SWE,SWE,SWE,sapmi,protestant,Kiruna,iron,2,3,1,yes,no,0,3,2,1,et:history/provinces/4114 - Jokkmokk.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4115,Mazyr,BLR,BLR,BLR,byelorussian,orthodox,Mazyr,grain,2,2,2,yes,no,0,0,0,0,et:history/provinces/4115 - Mazyr.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-4116,Odayev,RUS,RUS,RUS,russian,orthodox,Odayev,grain,3,3,3,yes,no,0,0,0,0,et:history/provinces/4116 - Odayev.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4117,Bezhetsk,RUS,RUS,RUS,russian,orthodox,Bezhetsk,naval_supplies,2,2,3,yes,no,0,0,0,0,et:history/provinces/4117 - Bezhetsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4116,Odayev,RUS,RUS,RUS,russian,orthodox,Odayev,grain,4,4,3,yes,no,0,0,0,0,et:history/provinces/4116 - Odayev.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4117,Bezhetsk,RUS,RUS,RUS,russian,orthodox,Bezhetsk,naval_supplies,2,2,4,yes,no,0,0,0,0,et:history/provinces/4117 - Bezhetsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4118,Munster,IRE,IRE,IRE,irish,catholic,Cork,copper,6,6,5,yes,no,1,0,0,0,et:history/provinces/4118 - Munster.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4119,Sligo,IRE,IRE,IRE,irish,catholic,Sligo,naval_supplies,3,3,2,yes,no,0,0,0,0,et:history/provinces/4119 - Sligo.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4120,Kildare,IRE,IRE,IRE,irish,catholic,Naas,grain,4,4,4,yes,no,0,0,0,0,et:history/provinces/4120 - Kildare.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -2742,8 +2742,8 @@
 4144,Bratsberg,NOR,NOR,NOR,norwegian,protestant,Skien,naval_supplies,5,5,3,yes,no,0,10,2,3,et:history/provinces/4144 - Bratsberg.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4145,Agdesiden,NOR,NOR,NOR,norwegian,protestant,Kristiansand,coal,7,7,3,yes,no,0,10,2,3,et:history/provinces/4145 - Agdesiden.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4146,Idehan Murzuk,,,,,,Idehan Murzuk,unknown,1,1,1,no,no,0,0,0,0,et:history/provinces/4146 - Idehan Murzuk.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-4147,Rostov,RUS,RUS,RUS,russian,orthodox,Rostov,grain,6,5,2,yes,no,0,0,0,0,et:history/provinces/4147 - Rostov.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4148,Luki,RUS,RUS,RUS,novgorodian,orthodox,Velikiye Luki,naval_supplies,2,1,1,yes,no,0,0,0,0,et:history/provinces/4148 - Luki.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4147,Rostov,RUS,RUS,RUS,russian,orthodox,Rostov,grain,7,7,3,yes,no,0,0,0,0,et:history/provinces/4147 - Rostov.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4148,Luki,RUS,RUS,RUS,novgorodian,orthodox,Velikiye Luki,naval_supplies,3,1,1,yes,no,0,0,0,0,et:history/provinces/4148 - Luki.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4149,Kolding,DAN,DAN,DAN,danish,protestant,Kolding,livestock,3,3,2,yes,no,0,0,0,0,et:history/provinces/4149 - Kolding.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4150,Evora,POR,POR,POR,portugese,catholic,Évora,wine,4,4,3,yes,no,0,0,0,0,et:history/provinces/4150 - Evora.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4151,Kainuu,FIN,FIN,FIN,finnish,protestant,Kajaani,paper,1,1,1,yes,no,0,5,2,1,et:history/provinces/4151 - Kainuu.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -2809,7 +2809,7 @@
 4214,Kalar,RUS,RUS,RUS,russian,orthodox,Komsomolsk-na-Amure,fur,1,1,1,yes,no,0,10,1,3,et:history/provinces/4214 - Kalar.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4215,Fudali,RUS,RUS,RUS,russian,orthodox,Amursk,fish,1,1,1,yes,no,0,10,1,3,et:history/provinces/4215 - Fudali.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4216,Ulch,RUS,RUS,RUS,russian,orthodox,Vanino,fish,1,1,1,yes,no,0,15,1,3,et:history/provinces/4216 - Ulch.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4217,Pijin,RUS,RUS,RUS,russian,orthodox,Dalnerechensk,naval_supplies,2,2,2,yes,no,0,15,1,3,et:history/provinces/4217 - Pijin.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4217,Pijin,RUS,RUS,RUS,russian,orthodox,Dalnerechensk,naval_supplies,3,2,2,yes,no,0,15,1,3,et:history/provinces/4217 - Pijin.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4218,Butaha,CHN,CHN,CHN,manchu_new,vajrayana,Morin Dawa,livestock,1,1,1,yes,no,0,15,1,3,et:history/provinces/4218 - Butaha.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4219,Bayan Tumen,KHA,KHA,KHA,mongol,vajrayana,Choibalsan,livestock,1,1,2,yes,no,0,0,0,0,et:history/provinces/4219 - Bayan Tumen.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4220,Khiagt,KHA,KHA,KHA,mongol,vajrayana,Darkhan,fur,2,2,3,yes,no,0,0,0,0,et:history/provinces/4220 - Khiagt.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -2829,31 +2829,31 @@
 4240,Fejer,HUN,HUN,HUN,hungarian,catholic,Székesfehérvár,livestock,3,3,2,yes,no,0,0,0,0,et:history/provinces/4240 - Fejer.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4241,Wenden,LTV,LTV,LTV,latvian,protestant,Cesis,livestock,2,2,2,yes,no,0,0,0,0,et:history/provinces/4241 - Wenden.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4242,Ula,BLR,BLR,BLR,byelorussian,orthodox,Barysaw,iron,2,2,1,yes,no,0,0,0,0,et:history/provinces/4242 - Ula.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-4243,Toropets,RUS,RUS,RUS,russian,orthodox,Toropets,grain,2,2,1,yes,no,0,0,0,0,et:history/provinces/4243 - Toropets.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4244,Trubchevsk,RUS,RUS,RUS,russian,orthodox,Unecha,grain,2,2,1,yes,no,0,0,0,0,et:history/provinces/4244 - Trubchevsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4245,Vyazma,RUS,RUS,RUS,russian,orthodox,Vyazma,cloth,4,4,1,yes,no,0,0,0,0,et:history/provinces/4245 - Vyazma.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4243,Toropets,RUS,RUS,RUS,russian,orthodox,Toropets,grain,3,2,1,yes,no,0,0,0,0,et:history/provinces/4243 - Toropets.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4244,Trubchevsk,RUS,RUS,RUS,russian,orthodox,Unecha,grain,3,2,1,yes,no,0,0,0,0,et:history/provinces/4244 - Trubchevsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4245,Vyazma,RUS,RUS,RUS,russian,orthodox,Vyazma,cloth,5,5,1,yes,no,0,0,0,0,et:history/provinces/4245 - Vyazma.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4246,Mstislav,BLR,BLR,BLR,byelorussian,orthodox,Mstsislaw,wool,1,1,1,yes,no,0,0,0,0,et:history/provinces/4246 - Mstislav.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4247,Owrucz,UKR,UKR,UKR,ruthenian,orthodox,Ovruch,grain,1,2,1,yes,no,0,0,0,0,et:history/provinces/4247 - Owrucz.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-4248,Kashin,RUS,RUS,RUS,russian,orthodox,Kashin,livestock,5,5,1,yes,no,0,0,0,0,et:history/provinces/4248 - Kashin.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4249,Zubtsov,RUS,RUS,RUS,russian,orthodox,Zubtsov,grain,5,5,1,yes,no,0,0,0,0,et:history/provinces/4249 - Zubtsov.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4250,Mologa,RUS,RUS,RUS,russian,orthodox,Rybinsk,livestock,3,3,3,yes,no,0,0,0,0,et:history/provinces/4250 - Mologa.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4251,Mozhaisk,RUS,RUS,RUS,russian,orthodox,Mozhaisk,grain,5,5,2,yes,no,0,0,0,0,et:history/provinces/4251 - Mozhaisk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4252,Kolomna,RUS,RUS,RUS,russian,orthodox,Kolomna,livestock,4,4,2,yes,no,0,0,0,0,et:history/provinces/4252 - Kolomna.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4253,Yuriev,RUS,RUS,RUS,russian,orthodox,Yuryev-Polsky,salt,5,4,2,yes,no,1,0,0,0,et:history/provinces/4253 - Yuriev.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4254,Starodub,RUS,RUS,RUS,russian,orthodox,Kovrov,grain,5,4,2,yes,no,0,0,0,0,et:history/provinces/4254 - Starodub.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4255,Pronsk,RUS,RUS,RUS,russian,orthodox,Pronsk,iron,4,4,3,yes,no,0,0,0,0,et:history/provinces/4255 - Pronsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4248,Kashin,RUS,RUS,RUS,russian,orthodox,Kashin,livestock,6,6,1,yes,no,0,0,0,0,et:history/provinces/4248 - Kashin.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4249,Zubtsov,RUS,RUS,RUS,russian,orthodox,Zubtsov,grain,6,6,1,yes,no,0,0,0,0,et:history/provinces/4249 - Zubtsov.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4250,Mologa,RUS,RUS,RUS,russian,orthodox,Rybinsk,livestock,4,4,3,yes,no,0,0,0,0,et:history/provinces/4250 - Mologa.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4251,Mozhaisk,RUS,RUS,RUS,russian,orthodox,Mozhaisk,grain,6,6,2,yes,no,0,0,0,0,et:history/provinces/4251 - Mozhaisk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4252,Kolomna,RUS,RUS,RUS,russian,orthodox,Kolomna,livestock,5,5,2,yes,no,0,0,0,0,et:history/provinces/4252 - Kolomna.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4253,Yuriev,RUS,RUS,RUS,russian,orthodox,Yuryev-Polsky,salt,6,6,2,yes,no,1,0,0,0,et:history/provinces/4253 - Yuriev.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4254,Starodub,RUS,RUS,RUS,russian,orthodox,Kovrov,grain,6,6,2,yes,no,0,0,0,0,et:history/provinces/4254 - Starodub.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4255,Pronsk,RUS,RUS,RUS,russian,orthodox,Pronsk,iron,5,5,3,yes,no,0,0,0,0,et:history/provinces/4255 - Pronsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4256,Solvychegodsk,RUS,RUS,RUS,novgorodian,orthodox,Solvychegodsk,fur,1,1,1,yes,no,0,0,0,0,et:history/provinces/4256 - Solvychegodsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4257,Mezen,RUS,RUS,RUS,novgorodian,orthodox,Mezen,fish,1,1,1,yes,no,0,0,0,0,et:history/provinces/4257 - Mezen.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4258,Onega,RUS,RUS,RUS,novgorodian,orthodox,Onega,fur,1,1,1,yes,no,0,0,0,0,et:history/provinces/4258 - Onega.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4259,Velsk,RUS,RUS,RUS,novgorodian,orthodox,Velsk,naval_supplies,1,1,1,yes,no,0,0,0,0,et:history/provinces/4259 - Velsk.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4260,Vyshny Volochyok,RUS,RUS,RUS,novgorodian,orthodox,Vyshny Volochyok,naval_supplies,2,2,2,yes,no,0,0,0,0,et:history/provinces/4260 - Vyshny Volochyok.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4261,Ustyuzhna,RUS,RUS,RUS,novgorodian,orthodox,Cherepovets,naval_supplies,3,3,3,yes,no,0,0,0,0,et:history/provinces/4261 - Ustyuzhna.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4260,Vyshny Volochyok,RUS,RUS,RUS,novgorodian,orthodox,Vyshny Volochyok,naval_supplies,3,2,2,yes,no,0,0,0,0,et:history/provinces/4260 - Vyshny Volochyok.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4261,Ustyuzhna,RUS,RUS,RUS,novgorodian,orthodox,Cherepovets,naval_supplies,4,4,3,yes,no,0,0,0,0,et:history/provinces/4261 - Ustyuzhna.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4262,Totma,RUS,RUS,RUS,novgorodian,orthodox,Totma,fur,1,1,1,yes,no,0,0,0,0,et:history/provinces/4262 - Totma.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4263,Sol Galitskaya,RUS,RUS,RUS,novgorodian,orthodox,Soligalich,grain,1,1,1,yes,no,0,0,0,0,et:history/provinces/4263 - Sol Galitskaya.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4264,Tetyushi,RUS,RUS,RUS,russian,orthodox,Buinsk,grain,2,2,2,yes,no,0,4,3,2,et:history/provinces/4264 - Tetyushi.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4265,Ar-Chally,RUS,RUS,RUS,kazani,sunni,Naberezhnye Chelny,grain,2,2,2,yes,no,0,5,2,3,et:history/provinces/4265 - Ar-Chally.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4266,Izhkar,RUS,RUS,RUS,uralic,orthodox,Izhevsk,iron,2,1,2,yes,no,0,0,0,0,et:history/provinces/4266 - Izhkar.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4267,Bolgar,RUS,RUS,RUS,russian,orthodox,Tolyatti,coal,3,3,3,yes,no,0,4,3,2,et:history/provinces/4267 - Bolgar.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4264,Tetyushi,RUS,RUS,RUS,russian,orthodox,Buinsk,grain,3,2,2,yes,no,0,4,3,2,et:history/provinces/4264 - Tetyushi.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4265,Ar-Chally,RUS,RUS,RUS,kazani,sunni,Naberezhnye Chelny,grain,3,2,2,yes,no,0,5,2,3,et:history/provinces/4265 - Ar-Chally.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4266,Izhkar,RUS,RUS,RUS,uralic,orthodox,Izhevsk,iron,3,1,2,yes,no,0,0,0,0,et:history/provinces/4266 - Izhkar.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4267,Bolgar,RUS,RUS,RUS,russian,orthodox,Tolyatti,coal,4,4,3,yes,no,0,4,3,2,et:history/provinces/4267 - Bolgar.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4268,Aqaba,JOR,JOR,JOR,bedouin_arabic,sunni,Aqaba,fish,1,1,1,yes,no,0,0,0,0,et:history/provinces/4268 - Aqaba.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4269,Al Wajh,SAU,SAU,SAU,bedouin_arabic,sunni,Al Wajh,fish,2,2,2,yes,no,0,0,0,0,et:history/provinces/4269 - Al Wajh.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4270,Azraq,JOR,JOR,JOR,bedouin_arabic,sunni,Azraq,livestock,1,1,2,yes,no,0,0,0,0,et:history/provinces/4270 - Azraq.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -2892,7 +2892,7 @@
 4303,Tao,TKY,TKY,TKY,turkish,sunni,Kars,livestock,3,3,2,yes,no,0,0,0,0,et:history/provinces/4303 - Tao.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4304,Khoy,IRA,IRA,IRA,azerbaijani,sunni,Khoy,wool,3,3,2,yes,no,0,0,0,0,et:history/provinces/4304 - Khoy.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4305,Shaki,AZE,AZE,AZE,azerbaijani,shiite,Shaki,wool,2,2,1,yes,no,0,0,0,0,et:history/provinces/4305 - Shaki.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-4306,Lakia,RUS,RUS,RUS,dagestani,sunni,Kumukh,iron,3,3,3,yes,no,0,0,0,0,et:history/provinces/4306 - Lakia.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4306,Lakia,RUS,RUS,RUS,dagestani,sunni,Kumukh,iron,4,4,3,yes,no,0,0,0,0,et:history/provinces/4306 - Lakia.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4307,Aksaray,TKY,TKY,TKY,turkish,sunni,Aksaray,livestock,3,3,2,yes,no,0,0,0,0,et:history/provinces/4307 - Aksaray.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4308,Denizli,TKY,TKY,TKY,turkish,sunni,Denizli,cloth,8,8,1,yes,no,0,0,0,0,et:history/provinces/4308 - Denizli.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4309,Aydin,TKY,TKY,TKY,turkish,sunni,Aydin,salt,5,5,4,yes,no,0,0,0,0,et:history/provinces/4309 - Aydin.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -2995,70 +2995,70 @@
 4411,Samana,INI,INI,INI,panjabi,sikhism,Patiala,cloth,4,4,3,yes,no,0,0,0,0,et:history/provinces/4411 - Samana.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4412,Dindigul,INI,INI,INI,tamil,hinduism,Dindigul,naval_supplies,3,2,2,yes,no,0,0,0,0,et:history/provinces/4412 - Dindigul.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4413,Cannanore,INI,INI,INI,malayalam,hinduism,Kannur,spices,3,2,2,yes,no,1,0,0,0,et:history/provinces/4413 - Cannanore.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4414,Salem,INI,INI,INI,tamil,hinduism,Salem,cotton,2,2,2,yes,no,0,0,0,0,et:history/provinces/4414 - Salem.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4414,Salem,INI,INI,INI,tamil,hinduism,Salem,cotton,2,2,1,yes,no,0,0,0,0,et:history/provinces/4414 - Salem.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4415,Negapatam,INI,INI,INI,tamil,hinduism,Nagapattinam,cloth,3,2,2,yes,no,0,0,0,0,et:history/provinces/4415 - Negapatam.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4416,Tranqebar,INI,INI,INI,tamil,hinduism,Mayiladuthurai,cloth,3,2,2,yes,no,0,0,0,0,et:history/provinces/4416 - Tranqebar.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4417,Kanchipuram,INI,INI,INI,telegu,hinduism,Kanchipuram,cloth,3,3,2,yes,no,0,0,0,0,et:history/provinces/4417 - Kanchipuram.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4418,Nellore,INI,INI,INI,telegu,hinduism,Nellore,cotton,4,3,3,yes,no,0,0,0,0,et:history/provinces/4418 - Nellore.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4418,Nellore,INI,INI,INI,telegu,hinduism,Nellore,cotton,3,3,3,yes,no,0,0,0,0,et:history/provinces/4418 - Nellore.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4419,Adanki,INI,INI,INI,telegu,hinduism,Ongole,cotton,3,3,2,yes,no,0,0,0,0,et:history/provinces/4419 - Adanki.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4420,Chandragiri,INI,INI,INI,telegu,hinduism,Tirupati,cotton,3,2,2,yes,no,0,0,0,0,et:history/provinces/4420 - Chandragiri.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4421,Seringapatam,INI,INI,INI,kannada,hinduism,Hassan,gold,2,2,2,yes,no,0,0,0,0,et:history/provinces/4421 - Seringapatam.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4421,Seringapatam,INI,INI,INI,kannada,hinduism,Hassan,gold,2,2,1,yes,no,0,0,0,0,et:history/provinces/4421 - Seringapatam.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4422,Sira,INI,INI,INI,kannada,hinduism,Tumkur,grain,3,2,2,yes,no,0,0,0,0,et:history/provinces/4422 - Sira.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4423,Gutti,INI,INI,INI,telegu,hinduism,Anantapur,iron,2,2,2,yes,no,0,0,0,0,et:history/provinces/4423 - Gutti.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4424,Adavani,INI,INI,INI,telegu,hinduism,Adoni,grain,2,2,2,yes,no,0,0,0,0,et:history/provinces/4424 - Adavani.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4425,Kondavidu,INI,INI,INI,telegu,hinduism,Vijayawada,gems,4,3,3,yes,no,0,0,0,0,et:history/provinces/4425 - Kondavidu.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4425,Kondavidu,INI,INI,INI,telegu,hinduism,Vijayawada,gems,3,3,3,yes,no,0,0,0,0,et:history/provinces/4425 - Kondavidu.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4426,Chitradurg,INI,INI,INI,kannada,hinduism,Chitradurga,cotton,3,2,2,yes,no,0,0,0,0,et:history/provinces/4426 - Chitradurg.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4427,Honnavara,INI,INI,INI,kannada,hinduism,Karwar,spices,2,2,2,yes,no,0,0,0,0,et:history/provinces/4427 - Honnavara.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4428,Mudgal,INI,INI,INI,kannada,hinduism,Mudgal,cloth,3,4,2,yes,no,0,0,0,0,et:history/provinces/4428 - Mudgal.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4429,Rajapur,INI,INI,INI,marathi,hinduism,Rajapur,spices,2,2,1,yes,no,0,0,0,0,et:history/provinces/4429 - Rajapur.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4427,Honnavara,INI,INI,INI,kannada,hinduism,Karwar,spices,2,2,1,yes,no,0,0,0,0,et:history/provinces/4427 - Honnavara.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4428,Mudgal,INI,INI,INI,kannada,hinduism,Mudgal,cloth,3,3,2,yes,no,0,0,0,0,et:history/provinces/4428 - Mudgal.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4429,Rajapur,INI,INI,INI,marathi,hinduism,Rajapur,spices,2,1,1,yes,no,0,0,0,0,et:history/provinces/4429 - Rajapur.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4430,Daman,INI,INI,INI,gujarati,hinduism,Daman,cloth,3,3,2,yes,no,0,0,0,0,et:history/provinces/4430 - Daman.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4431,Kolhapur,INI,INI,INI,marathi,hinduism,Kolhapur,naval_supplies,4,3,3,yes,no,0,0,0,0,et:history/provinces/4431 - Kolhapur.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4432,Junir,INI,INI,INI,marathi,hinduism,Sangamner,cotton,3,3,1,yes,no,0,0,0,0,et:history/provinces/4432 - Junir.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4431,Kolhapur,INI,INI,INI,marathi,hinduism,Kolhapur,naval_supplies,3,3,3,yes,no,0,0,0,0,et:history/provinces/4431 - Kolhapur.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4432,Junir,INI,INI,INI,marathi,hinduism,Sangamner,cotton,2,2,2,yes,no,0,0,0,0,et:history/provinces/4432 - Junir.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4433,Nasik,INI,INI,INI,marathi,hinduism,Nashik,wine,5,5,4,yes,no,0,0,0,0,et:history/provinces/4433 - Nasik.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4434,Dharangaon,INI,INI,INI,marathi,hinduism,Jalgaon,cotton,3,2,2,yes,no,0,0,0,0,et:history/provinces/4434 - Dharangaon.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4435,Sholhapur,INI,INI,INI,marathi,hinduism,Solapur,cotton,3,3,2,yes,no,0,0,0,0,et:history/provinces/4435 - Sholhapur.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4436,Devarakonda,INI,INI,INI,telegu,hinduism,Mahbubnagar,iron,3,2,2,yes,no,0,0,0,0,et:history/provinces/4436 - Devarakonda.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4437,Paithre,INI,INI,INI,marathi,hinduism,Beed,cloth,3,2,2,yes,no,0,0,0,0,et:history/provinces/4437 - Paithre.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4435,Sholhapur,INI,INI,INI,marathi,hinduism,Solapur,cotton,3,2,2,yes,no,0,0,0,0,et:history/provinces/4435 - Sholhapur.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4436,Devarakonda,INI,INI,INI,telegu,hinduism,Mahbubnagar,iron,2,2,2,yes,no,0,0,0,0,et:history/provinces/4436 - Devarakonda.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4437,Paithre,INI,INI,INI,marathi,hinduism,Beed,cloth,2,2,2,yes,no,0,0,0,0,et:history/provinces/4437 - Paithre.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4438,Nander,INI,INI,INI,marathi,hinduism,Nanded,silk,2,2,2,yes,no,0,0,0,0,et:history/provinces/4438 - Nander.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4439,Khamammet,INI,INI,INI,telegu,hinduism,Khammam,dyes,3,3,2,yes,no,0,0,0,0,et:history/provinces/4439 - Khamammet.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4440,Narayanpur,INI,INI,INI,assamese,hinduism,Jorhat,tea,5,4,4,yes,no,0,0,0,0,et:history/provinces/4440 - Narayanpur.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4441,Ganjam,INI,INI,INI,oriya,hinduism,Brahmapur,salt,4,3,3,yes,no,0,0,0,0,et:history/provinces/4441 - Ganjam.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4442,Washim,INI,INI,INI,marathi,hinduism,Washim,cloth,2,2,2,yes,no,0,0,0,0,et:history/provinces/4442 - Washim.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4443,Karanja,INI,INI,INI,marathi,hinduism,Yavatmal,cotton,3,3,2,yes,no,0,0,0,0,et:history/provinces/4443 - Karanja.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4439,Khamammet,INI,INI,INI,telegu,hinduism,Khammam,dyes,3,2,2,yes,no,0,0,0,0,et:history/provinces/4439 - Khamammet.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4440,Narayanpur,INI,INI,INI,assamese,hinduism,Jorhat,tea,4,4,4,yes,no,0,0,0,0,et:history/provinces/4440 - Narayanpur.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4441,Ganjam,INI,INI,INI,oriya,hinduism,Brahmapur,salt,3,3,3,yes,no,0,0,0,0,et:history/provinces/4441 - Ganjam.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4442,Washim,INI,INI,INI,marathi,hinduism,Washim,cloth,2,2,1,yes,no,0,0,0,0,et:history/provinces/4442 - Washim.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4443,Karanja,INI,INI,INI,marathi,hinduism,Yavatmal,cotton,3,2,2,yes,no,0,0,0,0,et:history/provinces/4443 - Karanja.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4444,Manidurg,INI,INI,INI,telegu,hinduism,Karimnagar,tropical_wood,2,2,2,yes,no,0,0,0,0,et:history/provinces/4444 - Manidurg.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4445,Kanker,INI,INI,INI,jharkhandi,hinduism,Kanker,tropical_wood,2,1,1,yes,no,0,0,0,0,et:history/provinces/4445 - Kanker.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4446,Kalahandi,INI,INI,INI,garjati,hinduism,Bhawanipatna,tropical_wood,2,1,1,yes,no,0,0,0,0,et:history/provinces/4446 - Kalahandi.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4447,Patna,INI,INI,INI,garjati,hinduism,Balangir,cotton,2,2,2,yes,no,0,0,0,0,et:history/provinces/4447 - Patna.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4447,Patna,INI,INI,INI,garjati,hinduism,Balangir,cotton,2,2,1,yes,no,0,0,0,0,et:history/provinces/4447 - Patna.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4448,Parlakhimedi,INI,INI,INI,garjati,hinduism,Paralakhemundi,tropical_wood,2,1,1,yes,no,0,0,0,0,et:history/provinces/4448 - Parlakhimedi.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4449,Jammu,INI,INI,INI,kashmiri,shiite,Jammu,silk,4,3,3,yes,no,0,0,0,0,et:history/provinces/4449 - Jammu.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4450,Mayurbhanj,INI,INI,INI,garjati,hinduism,Baripada,iron,3,2,2,yes,no,0,0,0,0,et:history/provinces/4450 - Mayurbhanj.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4449,Jammu,INI,INI,INI,kashmiri,shiite,Jammu,silk,3,3,3,yes,no,0,0,0,0,et:history/provinces/4449 - Jammu.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4450,Mayurbhanj,INI,INI,INI,garjati,hinduism,Baripada,iron,2,2,2,yes,no,0,0,0,0,et:history/provinces/4450 - Mayurbhanj.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4451,Sonpur,INI,INI,INI,garjati,hinduism,Sonepur,naval_supplies,2,1,1,yes,no,0,0,0,0,et:history/provinces/4451 - Sonpur.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4452,Ratanpur,INI,INI,INI,jharkhandi,hinduism,Bilaspur,grain,3,2,2,yes,no,0,0,0,0,et:history/provinces/4452 - Ratanpur.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4452,Ratanpur,INI,INI,INI,jharkhandi,hinduism,Bilaspur,grain,2,2,2,yes,no,0,0,0,0,et:history/provinces/4452 - Ratanpur.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4453,Thalner,INI,INI,INI,marathi,hinduism,Shirpur,cotton,2,2,2,yes,no,0,0,0,0,et:history/provinces/4453 - Thalner.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4454,Porbandar,INI,INI,INI,gujarati,hinduism,Porbandar,cotton,2,1,1,yes,no,0,0,0,0,et:history/provinces/4454 - Porbandar.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4455,Diu,INI,INI,INI,gujarati,hinduism,Diu,sugar,2,1,1,yes,no,0,0,0,0,et:history/provinces/4455 - Diu.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4456,Jhalavad,INI,INI,INI,gujarati,hinduism,Dhrangadhra,cotton,2,1,1,yes,no,0,0,0,0,et:history/provinces/4456 - Jhalavad.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4457,Khambhat,INI,INI,INI,gujarati,hinduism,Khambhat,cloth,3,3,2,yes,no,2,0,0,0,et:history/provinces/4457 - Khambhat.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4458,Narbada,INI,INI,INI,bagheli,hinduism,Narsinghpur,tropical_wood,2,2,2,yes,no,0,0,0,0,et:history/provinces/4458 - Narbada.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4459,Saugor,INI,INI,INI,vindhyan,hinduism,Sagar,grain,4,3,3,yes,no,0,0,0,0,et:history/provinces/4459 - Saugor.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4460,Handia,INI,INI,INI,malvi,hinduism,Hoshangabad,cotton,2,2,2,yes,no,0,0,0,0,et:history/provinces/4460 - Handia.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4461,Ujjain,INI,INI,INI,malvi,hinduism,Ujjain,spices,4,4,3,yes,no,2,0,0,0,et:history/provinces/4461 - Ujjain.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4458,Narbada,INI,INI,INI,bagheli,hinduism,Narsinghpur,tropical_wood,2,2,1,yes,no,0,0,0,0,et:history/provinces/4458 - Narbada.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4459,Saugor,INI,INI,INI,vindhyan,hinduism,Sagar,grain,3,3,3,yes,no,0,0,0,0,et:history/provinces/4459 - Saugor.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4460,Handia,INI,INI,INI,malvi,hinduism,Hoshangabad,cotton,2,2,1,yes,no,0,0,0,0,et:history/provinces/4460 - Handia.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4461,Ujjain,INI,INI,INI,malvi,hinduism,Ujjain,spices,4,3,3,yes,no,2,0,0,0,et:history/provinces/4461 - Ujjain.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4462,Vagad,INI,INI,INI,rajput,hinduism,Kotharia,copper,2,1,1,yes,no,0,0,0,0,et:history/provinces/4462 - Vagad.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4463,Bhatnair,INI,INI,INI,panjabi,sikhism,Bathinda,livestock,4,3,3,yes,no,0,0,0,0,et:history/provinces/4463 - Bhatnair.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4464,Bundi,INI,INI,INI,rajput,hinduism,Bundi,cotton,2,1,1,yes,no,0,0,0,0,et:history/provinces/4464 - Bundi.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4465,Ranthambore,INI,INI,INI,rajput,hinduism,Sawai Madhopur,dyes,2,2,2,yes,no,0,0,0,0,et:history/provinces/4465 - Ranthambore.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4465,Ranthambore,INI,INI,INI,rajput,hinduism,Sawai Madhopur,dyes,2,2,1,yes,no,0,0,0,0,et:history/provinces/4465 - Ranthambore.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4466,Mahoba,INI,INI,INI,vindhyan,hinduism,Mahoba,grain,3,3,2,yes,no,0,0,0,0,et:history/provinces/4466 - Mahoba.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4467,Kalinjar,INI,INI,INI,vindhyan,hinduism,Panna,gems,3,3,2,yes,no,0,0,0,0,et:history/provinces/4467 - Kalinjar.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4468,Bandogarh,INI,INI,INI,bagheli,hinduism,Shahdol,grain,3,2,2,yes,no,0,0,0,0,et:history/provinces/4468 - Bandogarh.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4469,Rohtaspur,INI,INI,INI,bihari,hinduism,Aurangabad,salt,4,3,3,yes,no,0,0,0,0,et:history/provinces/4469 - Rohtaspur.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4470,Soumelpur,INI,INI,INI,bihari,hinduism,Gumla,iron,3,2,2,yes,no,0,0,0,0,et:history/provinces/4470 - Soumelpur.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4471,Bishnupur,INI,INI,INI,bengali,hinduism,Bishnupur,copper,5,4,4,yes,no,0,0,0,0,et:history/provinces/4471 - Bishnupur.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4469,Rohtaspur,INI,INI,INI,bihari,hinduism,Aurangabad,salt,3,3,3,yes,no,0,0,0,0,et:history/provinces/4469 - Rohtaspur.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4470,Soumelpur,INI,INI,INI,bihari,hinduism,Gumla,iron,2,2,2,yes,no,0,0,0,0,et:history/provinces/4470 - Soumelpur.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4471,Bishnupur,INI,INI,INI,bengali,hinduism,Bishnupur,copper,4,4,4,yes,no,0,0,0,0,et:history/provinces/4471 - Bishnupur.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4472,Monghyr,INI,INI,INI,bihari,hinduism,Munger,silk,4,4,3,yes,no,0,0,0,0,et:history/provinces/4472 - Monghyr.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4473,Mizoram,INI,INI,INI,chin,protestant,Aizawl,tropical_wood,2,1,1,yes,no,0,5,1,9,et:history/provinces/4473 - Mizoram.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4474,Sonargaon,BGD,BGD,BGD,bengali,sunni,Comilla,cloth,8,8,7,yes,no,0,0,0,0,et:history/provinces/4474 - Sonargaon.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4475,Fathabad,BGD,BGD,BGD,bengali,sunni,Khulna,grain,10,10,9,yes,no,0,0,0,0,et:history/provinces/4475 - Fathabad.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4476,Nadia,INI,INI,INI,bengali,hinduism,Krishnanagar,silk,5,5,4,yes,no,0,0,0,0,et:history/provinces/4476 - Nadia.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4477,Satgaon,INI,INI,INI,bengali,hinduism,Chinsurah,spices,5,4,4,yes,no,1,0,0,0,et:history/provinces/4477 - Satgaon.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4477,Satgaon,INI,INI,INI,bengali,hinduism,Chinsurah,spices,4,4,4,yes,no,1,0,0,0,et:history/provinces/4477 - Satgaon.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4478,Haibitnagar,BGD,BGD,BGD,bengali,sunni,Kishoreganj Sadar,cotton,5,5,4,yes,no,0,0,0,0,et:history/provinces/4478 - Haibitnagar.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4479,Goraghat,BGD,BGD,BGD,bengali,sunni,Rajshahi,silk,9,9,8,yes,no,0,0,0,0,et:history/provinces/4479 - Goraghat.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4480,Manikantha,INI,INI,INI,saurashtri,hinduism,Idar,cloth,2,1,1,yes,no,0,0,0,0,et:history/provinces/4480 - Manikantha.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
@@ -3067,33 +3067,33 @@
 4483,Morang,NPL,NPL,NPL,nepali,hinduism,Biratnagar,wool,2,2,2,yes,no,0,0,0,0,et:history/provinces/4483 - Morang.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4484,Makwanpur,NPL,NPL,NPL,nepali,hinduism,Birgunj,wool,2,2,2,yes,no,0,0,0,0,et:history/provinces/4484 - Makwanpur.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4485,Palpa,NPL,NPL,NPL,nepali,hinduism,Siddharthanagar,naval_supplies,2,2,1,yes,no,0,0,0,0,et:history/provinces/4485 - Palpa.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-4486,Purnia,INI,INI,INI,bihari,hinduism,Purnia,silk,5,5,4,yes,no,0,0,0,0,et:history/provinces/4486 - Purnia.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4486,Purnia,INI,INI,INI,bihari,hinduism,Purnia,silk,5,4,4,yes,no,0,0,0,0,et:history/provinces/4486 - Purnia.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4487,Saran,INI,INI,INI,bihari,hinduism,Chhapra,cotton,4,4,3,yes,no,0,0,0,0,et:history/provinces/4487 - Saran.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4488,Champaran,INI,INI,INI,bihari,hinduism,Motihari,grain,3,3,2,yes,no,0,0,0,0,et:history/provinces/4488 - Champaran.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4489,Hajipur,INI,INI,INI,bihari,hinduism,Hajipur,glass,4,4,3,yes,no,0,0,0,0,et:history/provinces/4489 - Hajipur.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4490,Ghazipur,INI,INI,INI,bihari,hinduism,Ghazipur,cloth,5,4,4,yes,no,0,0,0,0,et:history/provinces/4490 - Ghazipur.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4490,Ghazipur,INI,INI,INI,bihari,hinduism,Ghazipur,cloth,4,4,4,yes,no,0,0,0,0,et:history/provinces/4490 - Ghazipur.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4491,Dang,NPL,NPL,NPL,nepali,hinduism,Ghorahi,wool,2,2,1,yes,no,0,0,0,0,et:history/provinces/4491 - Dang.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4492,Doti,NPL,NPL,NPL,nepali,hinduism,Dipayal Silgadhi,wool,1,1,1,yes,no,0,0,0,0,et:history/provinces/4492 - Doti.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4493,Sirmur,INI,INI,INI,pahari,hinduism,Shimla,cotton,3,3,2,yes,no,0,0,0,0,et:history/provinces/4493 - Sirmur.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4494,Khairabad,INI,INI,INI,avadhi,hinduism,Sitapur,cloth,3,3,2,yes,no,0,0,0,0,et:history/provinces/4494 - Khairabad.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4495,Feyzabad,INI,INI,INI,avadhi,hinduism,Feyzabad,cloth,5,4,4,yes,no,0,0,0,0,et:history/provinces/4495 - Feyzabad.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4496,Kora,INI,INI,INI,avadhi,hinduism,Kanpur,cotton,6,5,5,yes,no,0,0,0,0,et:history/provinces/4496 - Kora.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4495,Feyzabad,INI,INI,INI,avadhi,hinduism,Feyzabad,cloth,4,4,4,yes,no,0,0,0,0,et:history/provinces/4495 - Feyzabad.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4496,Kora,INI,INI,INI,avadhi,hinduism,Kanpur,cotton,5,5,5,yes,no,0,0,0,0,et:history/provinces/4496 - Kora.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4497,Kannauj,INI,INI,INI,avadhi,hinduism,Kannauj,grain,4,4,3,yes,no,1,0,0,0,et:history/provinces/4497 - Kannauj.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4498,Sambhal,INI,INI,INI,kanauji,hinduism,Sambhal,cotton,4,3,3,yes,no,0,0,0,0,et:history/provinces/4498 - Sambhal.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4499,Bareily,INI,INI,INI,kanauji,hinduism,Bareily,cotton,3,2,2,yes,no,0,0,0,0,et:history/provinces/4499 - Bareily.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4500,Bharatpur,INI,INI,INI,rajput,hinduism,Bharatpur,livestock,3,2,2,yes,no,0,0,0,0,et:history/provinces/4500 - Bharatpur.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4501,Bhilwara,INI,INI,INI,rajput,hinduism,Bhilwara,grain,2,2,2,yes,no,0,0,0,0,et:history/provinces/4501 - Bhilwara.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4498,Sambhal,INI,INI,INI,kanauji,hinduism,Sambhal,cotton,3,3,3,yes,no,0,0,0,0,et:history/provinces/4498 - Sambhal.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4499,Bareily,INI,INI,INI,kanauji,hinduism,Bareily,cotton,2,2,2,yes,no,0,0,0,0,et:history/provinces/4499 - Bareily.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4500,Bharatpur,INI,INI,INI,rajput,hinduism,Bharatpur,livestock,2,2,2,yes,no,0,0,0,0,et:history/provinces/4500 - Bharatpur.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4501,Bhilwara,INI,INI,INI,rajput,hinduism,Bhilwara,grain,2,2,1,yes,no,0,0,0,0,et:history/provinces/4501 - Bhilwara.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4502,Merta,INI,INI,INI,rajput,hinduism,Merta,livestock,2,1,1,yes,no,0,0,0,0,et:history/provinces/4502 - Merta.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4503,Mansura,PAK,PAK,PAK,sindhi,shiite,Nawabshah,cloth,5,5,4,yes,no,1,0,0,0,et:history/provinces/4503 - Mansura.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4504,Nasirpur,PAK,PAK,PAK,sindhi,shiite,Hyderabad,cotton,11,11,11,yes,no,0,0,0,0,et:history/provinces/4504 - Nasirpur.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4505,Khairpur,PAK,PAK,PAK,sindhi,shiite,Khairpur,livestock,4,4,3,yes,no,0,0,0,0,et:history/provinces/4505 - Khairpur.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-4506,Barmer,INI,INI,INI,rajput,hinduism,Barmer,livestock,2,1,1,yes,no,0,0,0,0,et:history/provinces/4506 - Barmer.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4506,Barmer,INI,INI,INI,rajput,hinduism,Barmer,livestock,1,1,1,yes,no,0,0,0,0,et:history/provinces/4506 - Barmer.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4507,Churu,INI,INI,INI,rajput,hinduism,Churu,livestock,2,1,1,yes,no,0,0,0,0,et:history/provinces/4507 - Churu.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4508,Uch,PAK,PAK,PAK,panjabi,sunni,Bahawalpur,livestock,4,4,3,yes,no,0,0,0,0,et:history/provinces/4508 - Uch.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4509,Karor,PAK,PAK,PAK,panjabi,sunni,Dera Ismail Khan,iron,5,5,4,yes,no,0,0,0,0,et:history/provinces/4509 - Karor.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4510,Shorkot,PAK,PAK,PAK,panjabi,sikhism,Faisalabad,cloth,10,10,9,yes,no,0,0,0,0,et:history/provinces/4510 - Shorkot.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4511,Bhera,PAK,PAK,PAK,panjabi,sikhism,Khushab,salt,5,5,4,yes,no,0,0,0,0,et:history/provinces/4511 - Bhera.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-4512,Bharuch,INI,INI,INI,gujarati,hinduism,Bharuch,silk,2,2,2,yes,no,0,0,0,0,et:history/provinces/4512 - Bharuch.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4512,Bharuch,INI,INI,INI,gujarati,hinduism,Bharuch,silk,2,2,1,yes,no,0,0,0,0,et:history/provinces/4512 - Bharuch.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4513,Dipalpur,PAK,PAK,PAK,panjabi,sikhism,Sahiwal,silk,8,8,7,yes,no,0,0,0,0,et:history/provinces/4513 - Dipalpur.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4514,Sakya,CHN,CHN,CHN,tibetan,vajrayana,Sakya,livestock,1,1,1,yes,no,0,0,0,0,et:history/provinces/4514 - Sakya.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4515,Gyirong,CHN,CHN,CHN,tibetan,vajrayana,Gyirong,livestock,1,1,1,yes,no,0,0,0,0,et:history/provinces/4515 - Gyirong.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
@@ -3243,7 +3243,7 @@
 4659,Tulutingshan,RUS,RUS,RUS,russian,orthodox,Chegdomyn,fish,1,1,1,yes,no,0,10,1,3,et:history/provinces/4659 - Tulutingshan.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4660,Tunhe,CHN,CHN,CHN,manchu_new,confucianism,Yichun,livestock,2,1,1,yes,no,0,20,1,3,et:history/provinces/4660 - Tunhe.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4661,Edala,CHN,CHN,CHN,manchu_new,confucianism,Jiaohe,grain,2,1,1,yes,no,0,0,0,0,et:history/provinces/4661 - Edala.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4662,Halacha,RUS,RUS,RUS,russian,orthodox,Svobodny,fur,2,2,2,yes,no,0,10,1,3,et:history/provinces/4662 - Halacha.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4662,Halacha,RUS,RUS,RUS,russian,orthodox,Svobodny,fur,3,2,2,yes,no,0,10,1,3,et:history/provinces/4662 - Halacha.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4663,Jixi,CHN,CHN,CHN,manchu_new,confucianism,Jixi,naval_supplies,2,3,3,yes,no,0,20,1,3,et:history/provinces/4663 - Jixi.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4664,Oroqen,CHN,CHN,CHN,manchu_new,vajrayana,Jiagedaqi,livestock,1,1,1,yes,no,0,15,1,3,et:history/provinces/4664 - Oroqen.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4665,West Buteha,CHN,CHN,CHN,chahar,vajrayana,Zalantun,livestock,1,1,1,yes,no,0,15,1,3,et:history/provinces/4665 - West Buteha.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
@@ -3269,10 +3269,10 @@
 4685,Karagandy,KZK,KZK,KZK,khazak,sunni,Karagandy,wool,2,2,2,yes,no,0,0,0,0,et:history/provinces/4685 - Karagandy.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4686,Ekibastuz,KZK,KZK,KZK,khazak,sunni,Ekibastuz,salt,2,2,1,yes,no,0,0,0,0,et:history/provinces/4686 - Ekibastuz.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4687,Imakia,KZK,KZK,KZK,russian,orthodox,Pavlodar,copper,2,3,2,yes,no,0,0,0,0,et:history/provinces/4687 - Imakia.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-4688,Baraba,RUS,RUS,RUS,russian,orthodox,Barabinsk,livestock,2,2,2,yes,no,0,10,1,3,et:history/provinces/4688 - Baraba.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4689,Om,RUS,RUS,RUS,russian,orthodox,Omsk,fur,6,6,6,yes,no,0,4,3,2,et:history/provinces/4689 - Om.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4688,Baraba,RUS,RUS,RUS,russian,orthodox,Barabinsk,livestock,3,2,2,yes,no,0,10,1,3,et:history/provinces/4688 - Baraba.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4689,Om,RUS,RUS,RUS,russian,orthodox,Omsk,fur,9,7,7,yes,no,0,4,3,2,et:history/provinces/4689 - Om.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4690,Ishim,RUS,RUS,RUS,russian,orthodox,Ishim,fur,1,1,1,yes,no,0,4,3,2,et:history/provinces/4690 - Ishim.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4691,As,RUS,RUS,RUS,russian,orthodox,Khanty-Mansiysk,coal,1,3,1,yes,no,0,10,1,3,et:history/provinces/4691 - As.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+4691,As,RUS,RUS,RUS,russian,orthodox,Khanty-Mansiysk,coal,1,4,1,yes,no,0,10,1,3,et:history/provinces/4691 - As.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4692,Turgay,KZK,KZK,KZK,russian,orthodox,Kostanay,iron,2,2,2,yes,no,0,0,0,0,et:history/provinces/4692 - Turgay.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4693,Keriya,CHN,CHN,CHN,uyghur,sunni,Keriya,wool,1,1,1,yes,no,0,0,0,0,et:history/provinces/4693 - Keriya.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4694,Foix,FR2,FR2,FR2,gascon,reformed,Foix,wool,2,2,1,yes,no,0,0,0,0,et:history/provinces/4694 - Foix.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.

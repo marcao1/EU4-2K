@@ -1,0 +1,17 @@
+# EU4 2K uses TKY as modern Turkey. The vanilla Turkish nation decision would
+# otherwise treat it as a generic Turkish-culture country and turn it into RUM.
+country_decisions = {
+	turkish_nation = {
+		major = yes
+		potential = {
+			always = no
+		}
+		allow = {
+			always = no
+		}
+		effect = { }
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

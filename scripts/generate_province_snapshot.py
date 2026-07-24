@@ -60,8 +60,8 @@ MINIMUM_OWNED_PROVINCE_DEVELOPMENT = 3
 NATIONAL_DEVELOPMENT_TARGETS = {
     "USA": 3000,
     "CHN": 2400,
-    "INI": 1900,
-    "RUS": 1650,
+    "INI": 1800,
+    "RUS": 2000,
     "GER": 1400,
     "JAP": 1125,
     "FR2": 1150,
@@ -442,8 +442,8 @@ def strategic_infrastructure(
     rows: Sequence[dict[str, str]],
     tiers: dict[str, int],
     capitals: dict[str, int],
-) -> tuple[set[int], set[int], set[int]]:
-    """Select restrained forts, manpower hubs, and force-limit centers."""
+) -> tuple[set[int], set[int]]:
+    """Select restrained forts and manpower hubs."""
     by_id = {int(row["province_id"]): row for row in rows}
     owned: dict[str, list[dict[str, str]]] = {}
     for row in rows:
@@ -452,7 +452,6 @@ def strategic_infrastructure(
     neighbors = direct_land_neighbors()
     forts: set[int] = set()
     manpower_hubs: set[int] = set()
-    force_limit_hubs: set[int] = set()
 
     for tag, provinces in sorted(owned.items()):
         tier = tiers[tag]
@@ -524,21 +523,7 @@ def strategic_infrastructure(
             manpower_hubs.update(
                 int(row["province_id"]) for row in ranked_manpower[:manpower_budget]
             )
-        if tier >= 4:
-            force_budget = min(3, max(1, math.ceil(count / 60)))
-            ranked_force = sorted(
-                provinces,
-                key=lambda row: (
-                    -(int(row["province_id"]) in forts),
-                    -(capitals.get(tag) == int(row["province_id"])),
-                    -int(row["base_manpower"]),
-                    int(row["province_id"]),
-                ),
-            )
-            force_limit_hubs.update(
-                int(row["province_id"]) for row in ranked_force[:force_budget]
-            )
-    return forts, manpower_hubs, force_limit_hubs
+    return forts, manpower_hubs
 
 
 def infrastructure_context() -> tuple[dict[str, int], dict[str, int]]:
@@ -564,7 +549,6 @@ def starting_buildings(
     coastal: set[int],
     forts: set[int],
     manpower_hubs: set[int],
-    force_limit_hubs: set[int],
 ) -> list[str]:
     """Assign a restrained first-pass infrastructure set from canonical tiers."""
     owner = row["owner"]
@@ -601,15 +585,13 @@ def starting_buildings(
         is_capital or center_of_trade >= 2 or total >= 34 - 3 * tier
     ):
         candidates.append("shipyard")
-    if province_id in force_limit_hubs:
-        candidates.append("regimental_camp")
     if province_id in forts:
         candidates.append(FORT_BUILDING)
 
     priority = {
-        FORT_BUILDING: 0, "barracks": 1, "regimental_camp": 2,
-        "marketplace": 3, "workshop": 4, "courthouse": 5,
-        "dock": 6, "shipyard": 7, "temple": 8,
+        FORT_BUILDING: 0, "barracks": 1,
+        "marketplace": 2, "workshop": 3, "courthouse": 4,
+        "dock": 5, "shipyard": 6, "temple": 7,
     }
     candidates.sort(key=priority.__getitem__)
 
@@ -618,7 +600,7 @@ def starting_buildings(
     # selected strategic infrastructure is never discarded by the slot budget.
     slot_budget = max(1, 1 + total // 10 + (1 if is_capital else 0))
     strategic_slots = sum(
-        building in {FORT_BUILDING, "barracks", "regimental_camp"}
+        building in {FORT_BUILDING, "barracks"}
         for building in candidates
     )
     slot_budget = max(slot_budget, strategic_slots)
@@ -772,7 +754,7 @@ def outputs(rows: Sequence[dict[str, str]], game: Path) -> dict[Path, tuple[str,
     tiers, capitals = infrastructure_context()
     import generate_starting_world as starting_world
     coastal = starting_world.coastal_land_provinces()
-    forts, manpower_hubs, force_limit_hubs = strategic_infrastructure(
+    forts, manpower_hubs = strategic_infrastructure(
         rows, tiers, capitals
     )
     for row in rows:
@@ -781,7 +763,7 @@ def outputs(rows: Sequence[dict[str, str]], game: Path) -> dict[Path, tuple[str,
         result[path] = (
             province_history(row, starting_buildings(
                 row, tiers, capitals, coastal,
-                forts, manpower_hubs, force_limit_hubs,
+                forts, manpower_hubs,
             )),
             "cp1252",
         )
@@ -932,12 +914,11 @@ def check_outputs(rows: Sequence[dict[str, str]], game: Path) -> None:
     import generate_starting_world as starting_world
     coastal = starting_world.coastal_land_provinces()
     tiers, capitals = infrastructure_context()
-    expected_forts, expected_manpower, expected_force_limit = strategic_infrastructure(
+    expected_forts, expected_manpower = strategic_infrastructure(
         rows, tiers, capitals
     )
     actual_forts: set[int] = set()
     actual_manpower: set[int] = set()
-    actual_force_limit: set[int] = set()
     for path in expected_history:
         match = re.match(r"^(\d+)", path.name)
         if not match:
@@ -949,7 +930,7 @@ def check_outputs(rows: Sequence[dict[str, str]], game: Path) -> None:
         if "barracks = yes" in text:
             actual_manpower.add(province_id)
         if "regimental_camp = yes" in text:
-            actual_force_limit.add(province_id)
+            errors.append(f"province {province_id} has a forbidden regimental camp")
         if province_id not in coastal and re.search(
             r"(?m)^(dock|shipyard) = yes$", text
         ):
@@ -957,7 +938,6 @@ def check_outputs(rows: Sequence[dict[str, str]], game: Path) -> None:
     for label, actual, wanted in (
         ("strategic forts", actual_forts, expected_forts),
         ("manpower hubs", actual_manpower, expected_manpower),
-        ("force-limit centers", actual_force_limit, expected_force_limit),
     ):
         if actual != wanted:
             errors.append(

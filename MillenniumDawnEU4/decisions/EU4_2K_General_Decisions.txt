@@ -1,0 +1,164 @@
+country_decisions = {
+	eu4_2k_national_infrastructure_program = {
+		potential = {
+			num_of_cities = 1
+			NOT = { has_country_modifier = eu4_2k_infrastructure_program }
+		}
+		allow = {
+			is_at_war = no
+			adm_power = 150
+			years_of_income = 0.5
+		}
+		effect = {
+			add_adm_power = -150
+			add_years_of_income = -0.5
+			add_country_modifier = {
+				name = eu4_2k_infrastructure_program
+				duration = 3650
+			}
+		}
+		ai_will_do = {
+			factor = 0.35
+			modifier = { factor = 0.25 is_at_war = yes }
+			modifier = { factor = 1.5 adm_power = 400 }
+		}
+	}
+
+	eu4_2k_introduce_economic_reforms = {
+		potential = {
+			num_of_cities = 1
+			NOT = { has_country_modifier = eu4_2k_economic_reforms }
+		}
+		allow = {
+			is_at_war = no
+			adm_power = 125
+			dip_power = 75
+			years_of_income = 0.4
+			stability = 0
+		}
+		effect = {
+			add_adm_power = -125
+			add_dip_power = -75
+			add_years_of_income = -0.4
+			add_country_modifier = {
+				name = eu4_2k_economic_reforms
+				duration = 3650
+			}
+		}
+		ai_will_do = {
+			factor = 0.3
+			modifier = { factor = 1.5 inflation = 5 }
+			modifier = { factor = 1.5 corruption = 3 }
+		}
+	}
+
+	eu4_2k_modernize_armed_forces = {
+		potential = {
+			num_of_cities = 1
+			NOT = { has_country_modifier = eu4_2k_armed_forces_modernization }
+		}
+		allow = {
+			is_at_war = no
+			mil_power = 175
+			years_of_income = 0.6
+		}
+		effect = {
+			add_mil_power = -175
+			add_years_of_income = -0.6
+			add_country_modifier = {
+				name = eu4_2k_armed_forces_modernization
+				duration = 3650
+			}
+		}
+		ai_will_do = {
+			factor = 0.3
+			modifier = { factor = 1.5 mil_power = 400 }
+			modifier = { factor = 1.25 any_neighbor_country = { is_rival = ROOT } }
+		}
+	}
+
+	eu4_2k_expand_higher_education = {
+		potential = {
+			num_of_cities = 1
+			NOT = { has_country_modifier = eu4_2k_higher_education_investment }
+		}
+		allow = {
+			is_at_war = no
+			adm_power = 100
+			dip_power = 100
+			years_of_income = 0.4
+		}
+		effect = {
+			add_adm_power = -100
+			add_dip_power = -100
+			add_years_of_income = -0.4
+			add_country_modifier = {
+				name = eu4_2k_higher_education_investment
+				duration = 3650
+			}
+		}
+		ai_will_do = {
+			factor = 0.3
+			modifier = { factor = 1.5 adm_power = 400 }
+			modifier = { factor = 1.5 dip_power = 400 }
+		}
+	}
+
+	eu4_2k_launch_anti_corruption_campaign = {
+		potential = {
+			num_of_cities = 1
+			corruption = 1
+			NOT = { has_country_modifier = eu4_2k_anti_corruption_campaign }
+		}
+		allow = {
+			is_at_war = no
+			adm_power = 125
+			dip_power = 75
+			years_of_income = 0.25
+			stability = 0
+		}
+		effect = {
+			add_adm_power = -125
+			add_dip_power = -75
+			add_years_of_income = -0.25
+			add_corruption = -1
+			add_country_modifier = {
+				name = eu4_2k_anti_corruption_campaign
+				duration = 3650
+			}
+		}
+		ai_will_do = {
+			factor = 0.5
+			modifier = { factor = 2 corruption = 5 }
+			modifier = { factor = 2 corruption = 10 }
+		}
+	}
+
+	eu4_2k_national_technology_initiative = {
+		potential = {
+			num_of_cities = 1
+			NOT = { has_country_modifier = eu4_2k_technology_initiative }
+		}
+		allow = {
+			is_at_war = no
+			adm_power = 150
+			dip_power = 150
+			years_of_income = 0.75
+			stability = 1
+		}
+		effect = {
+			add_adm_power = -150
+			add_dip_power = -150
+			add_years_of_income = -0.75
+			add_country_modifier = {
+				name = eu4_2k_technology_initiative
+				duration = 3650
+			}
+		}
+		ai_will_do = {
+			factor = 0.2
+			modifier = { factor = 2 adm_power = 500 }
+			modifier = { factor = 2 dip_power = 500 }
+		}
+	}
+}

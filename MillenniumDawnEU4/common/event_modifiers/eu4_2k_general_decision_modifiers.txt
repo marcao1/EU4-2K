@@ -1,0 +1,42 @@
+eu4_2k_infrastructure_program = {
+	global_tax_modifier = 0.05
+	production_efficiency = 0.05
+	development_cost = -0.05
+	build_cost = -0.10
+	build_time = -0.10
+}
+
+eu4_2k_economic_reforms = {
+	global_tax_modifier = 0.10
+	production_efficiency = 0.10
+	trade_efficiency = 0.05
+	global_unrest = 1
+}
+
+eu4_2k_armed_forces_modernization = {
+	discipline = 0.025
+	land_morale = 0.10
+	naval_morale = 0.10
+	reinforce_speed = 0.10
+	land_maintenance_modifier = 0.05
+}
+
+eu4_2k_higher_education_investment = {
+	technology_cost = -0.03
+	idea_cost = -0.05
+	global_institution_spread = 0.15
+	development_cost = -0.03
+}
+
+eu4_2k_anti_corruption_campaign = {
+	yearly_corruption = -0.10
+	global_unrest = -1
+	global_tax_modifier = -0.05
+}
+
+eu4_2k_technology_initiative = {
+	technology_cost = -0.05
+	idea_cost = -0.05
+	global_institution_spread = 0.20
+	advisor_cost = 0.10
+}

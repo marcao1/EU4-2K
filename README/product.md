@@ -20,7 +20,7 @@ Step 3 canonical inputs are now established for all 188 active countries: countr
 
 Province development is gameplay-balanced for the modern start: major countries use explicit national totals, extreme city values use diminishing returns with a 50-development cap, and underrepresented Balkan capitals receive regional floors. Trade nodes and connections use the complete vanilla EU4 network, with visual paths aligned to the imported Extended Timeline map.
 
-Trade goods remain on the vanilla EU4 set. Starting military infrastructure is restrained and strategic: forts prioritize international borders and important capitals, while barracks and regimental camps concentrate in national manpower and force-limit centers.
+Trade goods remain on the vanilla EU4 set. Starting military infrastructure is restrained and strategic: forts prioritize international borders and important capitals, while barracks concentrate in national manpower centers. Countries begin without regimental camps.
 
 Starting infrastructure is generated from country infrastructure tiers and province development. Capitals, trade centers, productive provinces, tax centers, manpower centers, and confirmed ports receive a restrained baseline of vanilla economic, administrative, and naval buildings. Twelve modern global trade hubs receive level-three centers of trade; forts remain a separate balance pass.
 
