@@ -48,7 +48,28 @@ TRADE_GOOD_FALLBACKS = {
 # regional-capital floors repair the most compressed Balkan starting capitals.
 DEVELOPMENT_SOFT_CAP = 30
 DEVELOPMENT_EXPONENT = 0.65
-DEVELOPMENT_HARD_CAP = 60
+DEVELOPMENT_HARD_CAP = 50
+MINIMUM_OWNED_PROVINCE_DEVELOPMENT = 3
+
+# Exact national totals for the major-country balance pass. These targets use
+# average development only as a guardrail; the allocator preserves the existing
+# urban/rural ordering and each province's tax/production/manpower proportions.
+NATIONAL_DEVELOPMENT_TARGETS = {
+    "USA": 3500,
+    "CHN": 2850,
+    "INI": 2550,
+    "RUS": 1500,
+    "GER": 1400,
+    "JAP": 1125,
+    "FR2": 1150,
+    "GBR": 1100,
+    "ITA": 950,
+    "BRZ": 915,
+    "IDN": 920,
+    "MEX": 845,
+}
+MINIMUM_NATIONAL_DEVELOPMENT = 15
+MAXIMUM_NON_TARGET_NATIONAL_DEVELOPMENT = 1500
 BALKAN_CAPITAL_FLOORS = {
     4750: 25,  # Tirana
     3002: 28,  # Sarajevo
@@ -185,6 +206,119 @@ def apply_development_balance(row: dict[str, str]) -> None:
     )
 
 
+def national_development_target(tag: str, current_total: int) -> int:
+    """Return the explicit major target or keep other states within tier bounds."""
+    if tag in NATIONAL_DEVELOPMENT_TARGETS:
+        return NATIONAL_DEVELOPMENT_TARGETS[tag]
+    return min(
+        max(current_total, MINIMUM_NATIONAL_DEVELOPMENT),
+        MAXIMUM_NON_TARGET_NATIONAL_DEVELOPMENT,
+    )
+
+
+def constrained_province_totals(
+    rows: Sequence[dict[str, str]], target_total: int
+) -> list[int]:
+    """Apportion an exact country total with province floors and a hard cap."""
+    weights = [
+        sum(float(row[field]) for field in (
+            "base_tax", "base_production", "base_manpower"
+        ))
+        for row in rows
+    ]
+    floors = [
+        max(
+            MINIMUM_OWNED_PROVINCE_DEVELOPMENT,
+            BALKAN_CAPITAL_FLOORS.get(int(row["province_id"]), 0),
+        )
+        for row in rows
+    ]
+    if target_total < sum(floors) or target_total > len(rows) * DEVELOPMENT_HARD_CAP:
+        raise RuntimeError(
+            f"National development target {target_total} is infeasible for "
+            f"{len(rows)} provinces"
+        )
+
+    active = set(range(len(rows)))
+    desired = [0.0] * len(rows)
+    remaining = float(target_total)
+    while active:
+        weight_total = sum(weights[index] for index in active)
+        changed = False
+        for index in sorted(active):
+            share = (
+                remaining / len(active)
+                if weight_total <= 0
+                else remaining * weights[index] / weight_total
+            )
+            if share < floors[index]:
+                desired[index] = float(floors[index])
+            elif share > DEVELOPMENT_HARD_CAP:
+                desired[index] = float(DEVELOPMENT_HARD_CAP)
+            else:
+                continue
+            remaining -= desired[index]
+            active.remove(index)
+            changed = True
+            break
+        if not changed:
+            for index in active:
+                desired[index] = (
+                    remaining / len(active)
+                    if weight_total <= 0
+                    else remaining * weights[index] / weight_total
+                )
+            break
+
+    totals = [math.floor(value) for value in desired]
+    remainder = target_total - sum(totals)
+    order = sorted(
+        range(len(rows)),
+        key=lambda index: (desired[index] - totals[index], -int(rows[index]["province_id"])),
+        reverse=True,
+    )
+    for index in order:
+        if remainder <= 0:
+            break
+        if totals[index] < DEVELOPMENT_HARD_CAP:
+            totals[index] += 1
+            remainder -= 1
+    if remainder:
+        raise RuntimeError("Could not apportion exact national development target")
+    return totals
+
+
+def apply_national_development_balance(rows: Sequence[dict[str, str]]) -> None:
+    owned: dict[str, list[dict[str, str]]] = {}
+    for row in rows:
+        if row["owner"]:
+            owned.setdefault(row["owner"], []).append(row)
+    for tag, provinces in sorted(owned.items()):
+        current_total = round(sum(
+            sum(float(row[field]) for field in (
+                "base_tax", "base_production", "base_manpower"
+            ))
+            for row in provinces
+        ))
+        target = national_development_target(tag, current_total)
+        if target == current_total:
+            continue
+        for row, province_total in zip(
+            provinces, constrained_province_totals(provinces, target)
+        ):
+            values = tuple(float(row[field]) for field in (
+                "base_tax", "base_production", "base_manpower"
+            ))
+            tax, production, manpower = allocate_development(province_total, values)
+            row["base_tax"] = str(tax)
+            row["base_production"] = str(production)
+            row["base_manpower"] = str(manpower)
+            row["verification_notes"] = (
+                "Effective ET state on 2000.1.1; EU4 2K national-target "
+                "development model."
+            )
+
+
 def apply_trade_center_balance(row: dict[str, str]) -> None:
     level = MODERN_CENTER_OF_TRADE_OVERRIDES.get(int(row["province_id"]))
     if level is not None:
@@ -241,6 +375,7 @@ def bootstrap_rows(game: Path) -> list[dict[str, str]]:
         apply_development_balance(row)
         apply_trade_center_balance(row)
         rows.append(row)
+    apply_national_development_balance(rows)
     return rows
 
 
@@ -516,6 +651,7 @@ def validate_rows(rows: Sequence[dict[str, str]], game: Path) -> None:
     owned_tags: set[str] = set()
     vanilla = vanilla_religions(game)
     trade_goods = vanilla_trade_goods(game)
+    national_totals: dict[str, int] = {}
     for row in rows:
         province_id = int(row["province_id"])
         if not 1 <= province_id <= 4941 or province_id in non_land:
@@ -547,6 +683,15 @@ def validate_rows(rows: Sequence[dict[str, str]], game: Path) -> None:
                 float(row[field])
                 for field in ("base_tax", "base_production", "base_manpower")
             )
+            if row["owner"]:
+                if total_development < MINIMUM_OWNED_PROVINCE_DEVELOPMENT:
+                    errors.append(
+                        f"province {province_id}: owned development below "
+                        f"{MINIMUM_OWNED_PROVINCE_DEVELOPMENT}"
+                    )
+                national_totals[row["owner"]] = (
+                    national_totals.get(row["owner"], 0) + round(total_development)
+                )
             if total_development > DEVELOPMENT_HARD_CAP:
                 errors.append(
                     f"province {province_id}: development exceeds {DEVELOPMENT_HARD_CAP}"
@@ -561,6 +706,16 @@ def validate_rows(rows: Sequence[dict[str, str]], game: Path) -> None:
     missing = active - owned_tags
     if missing:
         errors.append("active countries without territory: " + ", ".join(sorted(missing)))
+    for tag, total in sorted(national_totals.items()):
+        expected = national_development_target(tag, total)
+        if tag in NATIONAL_DEVELOPMENT_TARGETS and total != expected:
+            errors.append(f"{tag}: development must total {expected}, found {total}")
+        if tag not in NATIONAL_DEVELOPMENT_TARGETS and not (
+            MINIMUM_NATIONAL_DEVELOPMENT
+            <= total
+            <= MAXIMUM_NON_TARGET_NATIONAL_DEVELOPMENT
+        ):
+            errors.append(f"{tag}: development total {total} is outside tier bounds")
     country_rows = {row["tag"]: row for row in countries.load_manifest() if row["active_2000"] == "yes"}
     by_id = {row["province_id"]: row for row in rows}
     for tag, country in country_rows.items():

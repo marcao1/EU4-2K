@@ -25,7 +25,7 @@ add_corruption = 0
 add_legitimacy = -100
 add_legitimacy = 60
 add_manpower = -1000000
-add_manpower = 105
+add_manpower = 103.5
 add_sailors = -1000000
 add_sailors = 2100
 # Canonical starting ADM/DIP/MIL technology from data/country_setup_2000.csv

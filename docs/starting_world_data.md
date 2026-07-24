@@ -136,9 +136,11 @@ The non-mutating check rejects:
 The 3,521 land provinces initialize `base_tax`, `base_production`, and
 `base_manpower` from the ET-derived `2000.1.1` snapshot after a deterministic
 EU4-focused balance curve. Values up to 30 are preserved, extreme metropolitan
-values are compressed to a maximum of 60, and the most underrepresented Balkan
-capitals receive explicit floors. National treasury and reserve values are
-recalculated from the balanced province data.
+values are compressed to a maximum of 50, and the most underrepresented Balkan
+capitals receive explicit floors. A national-target pass controls major-power
+totals without imposing identical averages on maps with different province
+density. National treasury and reserve values are recalculated from the
+balanced province data.
 
 A later historical audit can refine the balance with modern population, GDP,
 and urban-economic evidence, beginning with Europe, the United States, China,

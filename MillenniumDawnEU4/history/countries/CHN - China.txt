@@ -25,7 +25,7 @@ add_corruption = 0
 add_republican_tradition = -100
 add_republican_tradition = 60
 add_manpower = -1000000
-add_manpower = 1284
+add_manpower = 684.75
 add_sailors = -1000000
 add_sailors = 11550
 # Canonical starting ADM/DIP/MIL technology from data/country_setup_2000.csv

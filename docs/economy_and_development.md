@@ -31,18 +31,28 @@ and event mechanics; they deliberately grant no hidden research modifier.
 
 Province history starts from ET's effective values on `2000.1.1`, then applies
 an EU4-focused balance curve. Development up to 30 is retained. Above 30,
-diminishing returns compress extreme metropolitan values, with a hard cap of
-60. The current snapshot totals:
+diminishing returns compress extreme metropolitan values. A second national
+pass rescales major-country totals while preserving province ordering and each
+province's tax/production/manpower proportions. Owned provinces have a minimum
+of 3 development and all provinces have a hard cap of 50. The current snapshot
+totals:
 
-- 16,620 base tax
-- 16,606 base production
-- 13,775 base manpower
-- 47,001 total development
+- 13,953 base tax
+- 13,612 base production
+- 11,202 base manpower
+- 38,767 total development, including 38,650 in owned provinces
 
-Singapore is the sole 60-development province. New York, Los Angeles, and Tokyo
-start at 58; Berlin at 47; London and Paris at 46. Balkan capital floors repair
-the sharpest ET underrepresentation: Athens and Bucharest start at 38, Belgrade
-and Sofia at 32, Zagreb at 30, Sarajevo at 28, and Tirana and Skopje at 25.
+The explicit major-country targets are 3,500 for the United States, 2,850 for
+China, 2,550 for India, 1,500 for Russia, 1,400 for Germany, 1,150 for France,
+1,125 for Japan, 1,100 for the United Kingdom, 950 for Italy, 920 for Indonesia,
+915 for Brazil, and 845 for Mexico. Other countries retain their balanced ET
+total within a 15-1,500 national band. This avoids forcing countries with very
+different province counts toward the same average.
+
+London starts at 45, Paris at 42, Tokyo at 38, and New York and Los Angeles at
+28. Balkan capital floors repair the sharpest ET underrepresentation: Athens
+and Bucharest start at 38, Belgrade and Sofia at 32, Zagreb at 30, Sarajevo at
+28, and Tirana and Skopje at 25.
 
 The proportional tax/production/manpower mix of each source province is
 preserved. These values remain a gameplay baseline rather than a precise GDP or
@@ -68,14 +78,14 @@ The generator also limits assignments with a conservative building-slot budget.
 
 The current global distribution is:
 
-- 1,143 marketplaces
-- 969 workshops
-- 681 courthouses
-- 342 temples
-- 262 docks
-- 105 barracks
-- 88 shipyards
-- 3,590 buildings across 1,189 provinces
+- 952 marketplaces
+- 732 workshops
+- 462 courthouses
+- 197 temples
+- 175 docks
+- 59 barracks
+- 38 shipyards
+- 2,615 buildings across 1,010 provinces
 
 Capitals receive administrative and economic priority. Centers of trade receive
 marketplaces, productive provinces receive workshops, high-tax provinces
