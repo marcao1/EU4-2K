@@ -43,10 +43,14 @@ population model.
 
 ## Trade routes
 
-EU4 2K does not override `common/tradenodes`. The base game therefore supplies
-the complete vanilla network of 80 trade nodes, 159 connections, and its
-original route geometry. This choice does not affect the mod's borders,
-ownership, province history, or balanced development.
+EU4 2K retains the complete vanilla network of 80 trade nodes and 159
+connections. For the 141 connections also present in Extended Timeline, it uses
+ET's path and control coordinates so the route arrows align with the imported
+map instead of stretching and repeating across Italy, the Balkans, and nearby
+seas. The remaining 18 connections retain their vanilla geometry.
+
+The route shader itself is vanilla. This does not alter borders, ownership,
+province history, or balanced development.
 
 ## Generation and validation
 

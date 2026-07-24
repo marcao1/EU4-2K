@@ -18,7 +18,7 @@ The project now has a reproducible `2000.1.1` country and ownership foundation: 
 
 Step 3 canonical inputs are now established for all 188 active countries: country technology/economic setup, effective diplomacy and organization membership, and simplified army/navy formation records. Starting ADM/DIP/MIL technology, the modern institution sequence, and first-pass national economy/reserve values are integrated; diplomacy and individual formations remain data-only until their later integration passes.
 
-Province development is gameplay-balanced for the modern start: extreme city values use diminishing returns with a 60-development cap, while underrepresented Balkan capitals receive regional floors. Trade nodes and routes use the complete vanilla EU4 network.
+Province development is gameplay-balanced for the modern start: extreme city values use diminishing returns with a 60-development cap, while underrepresented Balkan capitals receive regional floors. Trade nodes and connections use the complete vanilla EU4 network, with visual paths aligned to the imported Extended Timeline map.
 
 The institution system now uses eight modern institutions from Globalized Economy (`2000.4.1`) through Space Marines (`2350.4.1`), spaced fifty years apart. Their vanilla internal IDs are retained only for EU4 compatibility; names, bonuses, emergence rules, descriptions, and spread rules are replaced.
 
