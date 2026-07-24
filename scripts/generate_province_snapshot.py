@@ -246,7 +246,59 @@ def quote(value: str) -> str:
     return countries.quote(value)
 
 
-def province_history(row: dict[str, str]) -> str:
+def infrastructure_context() -> tuple[dict[str, int], dict[str, int]]:
+    with countries.COUNTRY_SETUP_DATA.open(
+        "r", encoding="utf-8-sig", newline=""
+    ) as handle:
+        tiers = {
+            row["tag"]: int(row["infrastructure_tier"])
+            for row in csv.DictReader(handle)
+        }
+    capitals = {
+        row["tag"]: int(row["capital"])
+        for row in countries.load_manifest()
+        if row["active_2000"] == "yes"
+    }
+    return tiers, capitals
+
+
+def starting_buildings(
+    row: dict[str, str], tiers: dict[str, int], capitals: dict[str, int]
+) -> list[str]:
+    """Assign a restrained first-pass infrastructure set from canonical tiers."""
+    owner = row["owner"]
+    if not owner or owner not in tiers:
+        return []
+    tier = tiers[owner]
+    province_id = int(row["province_id"])
+    is_capital = capitals.get(owner) == province_id
+    tax = int(float(row["base_tax"]))
+    production = int(float(row["base_production"]))
+    manpower = int(float(row["base_manpower"]))
+    total = tax + production + manpower
+    center_of_trade = int(row["center_of_trade"] or 0)
+
+    candidates: list[str] = []
+    if is_capital or center_of_trade > 0 or total >= 34 - 4 * tier:
+        candidates.append("marketplace")
+    if tier >= 2 and row["trade_goods"] != "gold" and (
+        is_capital or production >= 15 - 2 * tier
+    ):
+        candidates.append("workshop")
+    if tier >= 2 and (is_capital or tax >= 15 - 2 * tier):
+        candidates.append("temple")
+    if tier >= 2 and (is_capital or manpower >= 15 - 2 * tier):
+        candidates.append("barracks")
+    if tier >= 3 and (is_capital or total >= 38 - 4 * tier):
+        candidates.append("courthouse")
+
+    # Keep the starting set within a conservative approximation of available
+    # building slots. Capitals receive one additional administrative slot.
+    slot_budget = max(1, 1 + total // 10 + (1 if is_capital else 0))
+    return candidates[:slot_budget]
+
+
+def province_history(row: dict[str, str], buildings: Sequence[str] = ()) -> str:
     lines = ["# Generated effective snapshot for 2000.1.1; no earlier dated history retained."]
     owner = row["owner"]
     if owner:
@@ -266,6 +318,8 @@ def province_history(row: dict[str, str]) -> str:
     ])
     if row["center_of_trade"] not in {"", "0"}:
         lines.append(f"center_of_trade = {row['center_of_trade']}")
+    for building in buildings:
+        lines.append(f"{building} = yes")
     if not owner and row["native_size"] not in {"", "0"}:
         lines.extend([
             f"native_size = {row['native_size']}",
@@ -388,10 +442,14 @@ def aligned_vanilla_trade_nodes(game: Path) -> str:
 def outputs(rows: Sequence[dict[str, str]], game: Path) -> dict[Path, tuple[str, str]]:
     result: dict[Path, tuple[str, str]] = {}
     localization = ["l_english:"]
+    tiers, capitals = infrastructure_context()
     for row in rows:
         province_id = row["province_id"]
         path = MOD / "history" / "provinces" / f"{province_id} - {safe_name(row['name'])}.txt"
-        result[path] = (province_history(row), "cp1252")
+        result[path] = (
+            province_history(row, starting_buildings(row, tiers, capitals)),
+            "cp1252",
+        )
         display = row["name"].replace('"', r'\"')
         localization.extend([f' PROV{province_id}:0 "{display}"', f' PROV_ADJ{province_id}:0 "{display}"'])
     definition_names = province_definition_names()

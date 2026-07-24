@@ -52,6 +52,31 @@ seas. The remaining 18 connections retain their vanilla geometry.
 The route shader itself is vanilla. This does not alter borders, ownership,
 province history, or balanced development.
 
+## Starting infrastructure
+
+Every owned province receives a deterministic first-pass building set based on
+its owner's canonical infrastructure tier, whether it is the national capital,
+center-of-trade status, and its balanced tax, production, and manpower values.
+The generator also limits assignments with a conservative building-slot budget.
+
+The initial global distribution is:
+
+- 1,143 marketplaces
+- 969 workshops
+- 760 temples
+- 451 barracks
+- 176 courthouses
+- 3,499 buildings across 1,189 provinces
+
+Capitals receive administrative and economic priority. Centers of trade receive
+marketplaces, productive provinces receive workshops, high-tax provinces
+receive temples, and manpower centers receive barracks. Gold provinces do not
+receive workshops because the vanilla building forbids them.
+
+Forts, docks, and shipyards are deferred to dedicated military and naval
+infrastructure audits so starting maintenance and force limits remain
+controllable.
+
 ## Generation and validation
 
 ```powershell
