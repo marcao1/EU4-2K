@@ -250,47 +250,272 @@ groups = {
 	}
 	# EU4 2K equal-cost regional modern technology groups
 	modern_western = {
-		start_level = 0
+		start_level = 5
+		start_cost_modifier = 0
+		nation_designer_unit_type = western
+	}
+	modern_western_tier_5 = {
+		start_level = 5
+		start_cost_modifier = 0
+		nation_designer_unit_type = western
+	}
+	modern_western_tier_6 = {
+		start_level = 6
+		start_cost_modifier = 0
+		nation_designer_unit_type = western
+	}
+	modern_western_tier_7 = {
+		start_level = 7
+		start_cost_modifier = 0
+		nation_designer_unit_type = western
+	}
+	modern_western_tier_8 = {
+		start_level = 8
+		start_cost_modifier = 0
+		nation_designer_unit_type = western
+	}
+	modern_western_tier_9 = {
+		start_level = 9
 		start_cost_modifier = 0
 		nation_designer_unit_type = western
 	}
 	modern_post_soviet = {
-		start_level = 0
+		start_level = 5
+		start_cost_modifier = 0
+		nation_designer_unit_type = eastern
+	}
+	modern_post_soviet_tier_5 = {
+		start_level = 5
+		start_cost_modifier = 0
+		nation_designer_unit_type = eastern
+	}
+	modern_post_soviet_tier_6 = {
+		start_level = 6
+		start_cost_modifier = 0
+		nation_designer_unit_type = eastern
+	}
+	modern_post_soviet_tier_7 = {
+		start_level = 7
+		start_cost_modifier = 0
+		nation_designer_unit_type = eastern
+	}
+	modern_post_soviet_tier_8 = {
+		start_level = 8
+		start_cost_modifier = 0
+		nation_designer_unit_type = eastern
+	}
+	modern_post_soviet_tier_9 = {
+		start_level = 9
 		start_cost_modifier = 0
 		nation_designer_unit_type = eastern
 	}
 	modern_east_asian = {
-		start_level = 0
+		start_level = 5
+		start_cost_modifier = 0
+		nation_designer_unit_type = chinese
+	}
+	modern_east_asian_tier_5 = {
+		start_level = 5
+		start_cost_modifier = 0
+		nation_designer_unit_type = chinese
+	}
+	modern_east_asian_tier_6 = {
+		start_level = 6
+		start_cost_modifier = 0
+		nation_designer_unit_type = chinese
+	}
+	modern_east_asian_tier_7 = {
+		start_level = 7
+		start_cost_modifier = 0
+		nation_designer_unit_type = chinese
+	}
+	modern_east_asian_tier_8 = {
+		start_level = 8
+		start_cost_modifier = 0
+		nation_designer_unit_type = chinese
+	}
+	modern_east_asian_tier_9 = {
+		start_level = 9
 		start_cost_modifier = 0
 		nation_designer_unit_type = chinese
 	}
 	modern_south_asian = {
-		start_level = 0
+		start_level = 5
+		start_cost_modifier = 0
+		nation_designer_unit_type = indian
+	}
+	modern_south_asian_tier_5 = {
+		start_level = 5
+		start_cost_modifier = 0
+		nation_designer_unit_type = indian
+	}
+	modern_south_asian_tier_6 = {
+		start_level = 6
+		start_cost_modifier = 0
+		nation_designer_unit_type = indian
+	}
+	modern_south_asian_tier_7 = {
+		start_level = 7
+		start_cost_modifier = 0
+		nation_designer_unit_type = indian
+	}
+	modern_south_asian_tier_8 = {
+		start_level = 8
+		start_cost_modifier = 0
+		nation_designer_unit_type = indian
+	}
+	modern_south_asian_tier_9 = {
+		start_level = 9
 		start_cost_modifier = 0
 		nation_designer_unit_type = indian
 	}
 	modern_southeast_asian = {
-		start_level = 0
+		start_level = 5
+		start_cost_modifier = 0
+		nation_designer_unit_type = chinese
+	}
+	modern_southeast_asian_tier_5 = {
+		start_level = 5
+		start_cost_modifier = 0
+		nation_designer_unit_type = chinese
+	}
+	modern_southeast_asian_tier_6 = {
+		start_level = 6
+		start_cost_modifier = 0
+		nation_designer_unit_type = chinese
+	}
+	modern_southeast_asian_tier_7 = {
+		start_level = 7
+		start_cost_modifier = 0
+		nation_designer_unit_type = chinese
+	}
+	modern_southeast_asian_tier_8 = {
+		start_level = 8
+		start_cost_modifier = 0
+		nation_designer_unit_type = chinese
+	}
+	modern_southeast_asian_tier_9 = {
+		start_level = 9
 		start_cost_modifier = 0
 		nation_designer_unit_type = chinese
 	}
 	modern_middle_eastern_north_african = {
-		start_level = 0
+		start_level = 5
+		start_cost_modifier = 0
+		nation_designer_unit_type = muslim
+	}
+	modern_middle_eastern_north_african_tier_5 = {
+		start_level = 5
+		start_cost_modifier = 0
+		nation_designer_unit_type = muslim
+	}
+	modern_middle_eastern_north_african_tier_6 = {
+		start_level = 6
+		start_cost_modifier = 0
+		nation_designer_unit_type = muslim
+	}
+	modern_middle_eastern_north_african_tier_7 = {
+		start_level = 7
+		start_cost_modifier = 0
+		nation_designer_unit_type = muslim
+	}
+	modern_middle_eastern_north_african_tier_8 = {
+		start_level = 8
+		start_cost_modifier = 0
+		nation_designer_unit_type = muslim
+	}
+	modern_middle_eastern_north_african_tier_9 = {
+		start_level = 9
 		start_cost_modifier = 0
 		nation_designer_unit_type = muslim
 	}
 	modern_sub_saharan_african = {
-		start_level = 0
+		start_level = 5
+		start_cost_modifier = 0
+		nation_designer_unit_type = sub_saharan
+	}
+	modern_sub_saharan_african_tier_5 = {
+		start_level = 5
+		start_cost_modifier = 0
+		nation_designer_unit_type = sub_saharan
+	}
+	modern_sub_saharan_african_tier_6 = {
+		start_level = 6
+		start_cost_modifier = 0
+		nation_designer_unit_type = sub_saharan
+	}
+	modern_sub_saharan_african_tier_7 = {
+		start_level = 7
+		start_cost_modifier = 0
+		nation_designer_unit_type = sub_saharan
+	}
+	modern_sub_saharan_african_tier_8 = {
+		start_level = 8
+		start_cost_modifier = 0
+		nation_designer_unit_type = sub_saharan
+	}
+	modern_sub_saharan_african_tier_9 = {
+		start_level = 9
 		start_cost_modifier = 0
 		nation_designer_unit_type = sub_saharan
 	}
 	modern_latin_american = {
-		start_level = 0
+		start_level = 5
+		start_cost_modifier = 0
+		nation_designer_unit_type = south_american
+	}
+	modern_latin_american_tier_5 = {
+		start_level = 5
+		start_cost_modifier = 0
+		nation_designer_unit_type = south_american
+	}
+	modern_latin_american_tier_6 = {
+		start_level = 6
+		start_cost_modifier = 0
+		nation_designer_unit_type = south_american
+	}
+	modern_latin_american_tier_7 = {
+		start_level = 7
+		start_cost_modifier = 0
+		nation_designer_unit_type = south_american
+	}
+	modern_latin_american_tier_8 = {
+		start_level = 8
+		start_cost_modifier = 0
+		nation_designer_unit_type = south_american
+	}
+	modern_latin_american_tier_9 = {
+		start_level = 9
 		start_cost_modifier = 0
 		nation_designer_unit_type = south_american
 	}
 	modern_oceanian = {
-		start_level = 0
+		start_level = 5
+		start_cost_modifier = 0
+		nation_designer_unit_type = polynesian_tech
+	}
+	modern_oceanian_tier_5 = {
+		start_level = 5
+		start_cost_modifier = 0
+		nation_designer_unit_type = polynesian_tech
+	}
+	modern_oceanian_tier_6 = {
+		start_level = 6
+		start_cost_modifier = 0
+		nation_designer_unit_type = polynesian_tech
+	}
+	modern_oceanian_tier_7 = {
+		start_level = 7
+		start_cost_modifier = 0
+		nation_designer_unit_type = polynesian_tech
+	}
+	modern_oceanian_tier_8 = {
+		start_level = 8
+		start_cost_modifier = 0
+		nation_designer_unit_type = polynesian_tech
+	}
+	modern_oceanian_tier_9 = {
+		start_level = 9
 		start_cost_modifier = 0
 		nation_designer_unit_type = polynesian_tech
 	}

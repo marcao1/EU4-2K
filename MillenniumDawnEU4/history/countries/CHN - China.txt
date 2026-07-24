@@ -6,10 +6,30 @@ add_government_reform = eu4_2k_unitary_state
 add_government_reform = eu4_2k_single_party_system
 primary_culture = chihan
 religion = confucianism
-technology_group = modern_east_asian
+technology_group = modern_east_asian_tier_8
 unit_type = chinese
 capital = 1816
 set_country_flag = eu4_2k_ruling_group_chn_chinese_communist_party
+# Canonical 2000 economy and reserves from data/country_setup_2000.csv
+set_country_flag = eu4_2k_economic_tier_4
+set_country_flag = eu4_2k_infrastructure_tier_4
+add_treasury = -1000000
+add_treasury = 2000
+add_inflation = -100
+add_inflation = 0
+add_stability = -3
+add_stability = 3
+add_prestige = -1000
+add_prestige = 100
+add_corruption = -100
+add_corruption = 0
+add_republican_tradition = -100
+add_republican_tradition = 60
+add_manpower = -1000000
+add_manpower = 1284
+add_sailors = -1000000
+add_sailors = 11550
+# Canonical starting ADM/DIP/MIL technology from data/country_setup_2000.csv
 # Historical executive birth date: 1926.8.17
 monarch = {
 	name = "Jiang Zemin"

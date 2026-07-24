@@ -6,10 +6,30 @@ add_government_reform = eu4_2k_unitary_state
 add_government_reform = eu4_2k_multiparty_system
 primary_culture = sinhala
 religion = buddhism
-technology_group = modern_south_asian
+technology_group = modern_south_asian_tier_7
 unit_type = indian
 capital = 572
 set_country_flag = eu4_2k_ruling_group_srl_independent_or_nonpartisan
+# Canonical 2000 economy and reserves from data/country_setup_2000.csv
+set_country_flag = eu4_2k_economic_tier_3
+set_country_flag = eu4_2k_infrastructure_tier_3
+add_treasury = -1000000
+add_treasury = 63
+add_inflation = -100
+add_inflation = 0
+add_stability = -3
+add_stability = 3
+add_prestige = -1000
+add_prestige = 100
+add_corruption = -100
+add_corruption = 0
+add_republican_tradition = -100
+add_republican_tradition = 60
+add_manpower = -1000000
+add_manpower = 25.5
+add_sailors = -1000000
+add_sailors = 1500
+# Canonical starting ADM/DIP/MIL technology from data/country_setup_2000.csv
 # Historical executive birth date: 1944.6.29
 monarch = {
 	name = "Chandrika Kumaratunga"

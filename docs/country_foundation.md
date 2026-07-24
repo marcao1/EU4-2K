@@ -9,7 +9,9 @@ The generated country foundation targets EU4 `1.37.5` and contains:
 - 193 generated country definitions, flags, history snapshots, names, and adjectives.
 - 898 inert history stubs for registered vanilla compatibility tags, for a total of 1,091 history files.
 - One bookmark at `2000.1.1` and an engine end date of `9999.12.31`.
-- Nine equal-cost regional technology groups.
+- Nine equal-cost regional technology families, each with level 5–9 startup
+  variants. This ensures every unit family has an unlocked land regiment and
+  makes EU4 apply each country's canonical ADM/DIP/MIL level directly.
 - Seventeen neutral modern government reforms across executive, state-structure, and political-competition dimensions.
 - A minimal generated subset of the 45 Extended Timeline culture identifiers required by the snapshot.
 - Vanilla religions only.

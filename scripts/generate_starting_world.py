@@ -202,7 +202,6 @@ def bootstrap_country_setup(country_rows: Sequence[dict[str, str]], provinces: S
         treasury = max(25, min(2000, round(total_development * (0.35 + tier * 0.08))))
         manpower = max(1000, round(values["manpower"] * 750))
         sailors = round(owned_coastal.get(tag, 0) * (150 + tier * 50))
-        institution_count = {1: 5, 2: 6, 3: 7, 4: 8, 5: 8}[tier]
         level = tech_level_by_tier[tier]
         rows.append({
             "tag": tag,
@@ -210,7 +209,8 @@ def bootstrap_country_setup(country_rows: Sequence[dict[str, str]], provinces: S
             "dip_tech": str(level),
             "mil_tech": str(level),
             "technology_tier": str(tier),
-            "embraced_institutions": "|".join(INSTITUTIONS[:institution_count]),
+            # All eight institutions now emerge after the 2000.1.1 bookmark.
+            "embraced_institutions": "",
             "treasury": str(treasury),
             "inflation": "0",
             "stability": "-1" if tag in FRAGILE_STATES else "0",
@@ -362,6 +362,8 @@ def validate(
         institutions = row["embraced_institutions"].split("|") if row["embraced_institutions"] else []
         if any(institution not in INSTITUTIONS for institution in institutions):
             errors.append(f"{tag}: undefined institution metadata")
+        if institutions:
+            errors.append(f"{tag}: institutions must not be embraced before 2000.4.1")
     diplomacy_keys: set[tuple[str, str, str, str]] = set()
     for row in diplomacy_rows:
         a, b = row["country_a"], row["country_b"]
@@ -407,6 +409,11 @@ def main() -> int:
     parser.add_argument("mode", nargs="?", choices=("generate",), default="generate")
     parser.add_argument("--check", action="store_true", help="validate canonical CSVs without writing")
     parser.add_argument("--rebuild-data", action="store_true", help="replace all three canonical CSVs")
+    parser.add_argument(
+        "--rebalance-economy",
+        action="store_true",
+        help="recalculate development-derived national reserves without replacing other setup data",
+    )
     args = parser.parse_args()
 
     country_rows = active_country_rows()
@@ -414,6 +421,8 @@ def main() -> int:
     missing = [path for path in (COUNTRY_DATA, DIPLOMACY_DATA, FORCES_DATA) if not path.exists()]
     if args.check and missing:
         raise SystemExit("Canonical starting-world data is missing; run generate first")
+    if args.check and args.rebalance_economy:
+        raise SystemExit("--check cannot be combined with --rebalance-economy")
     if args.rebuild_data or missing:
         setup_rows = bootstrap_country_setup(country_rows, provinces)
         diplomacy_rows = effective_diplomacy(country_rows)
@@ -421,6 +430,20 @@ def main() -> int:
         write_csv(COUNTRY_DATA, COUNTRY_FIELDS, setup_rows)
         write_csv(DIPLOMACY_DATA, DIPLOMACY_FIELDS, diplomacy_rows)
         write_csv(FORCES_DATA, FORCES_FIELDS, force_rows)
+    elif args.rebalance_economy:
+        setup_rows = read_csv(COUNTRY_DATA, COUNTRY_FIELDS)
+        recalculated = {
+            row["tag"]: row for row in bootstrap_country_setup(country_rows, provinces)
+        }
+        for row in setup_rows:
+            source = recalculated[row["tag"]]
+            for field in ("treasury", "manpower", "sailors", "navy_quality_tier"):
+                row[field] = source[field]
+            row["verification_notes"] = (
+                "Development-derived economy rebalanced for the EU4 2K province model; "
+                "manual historical verification pending."
+            )
+        write_csv(COUNTRY_DATA, COUNTRY_FIELDS, setup_rows)
     setup_rows = read_csv(COUNTRY_DATA, COUNTRY_FIELDS)
     diplomacy_rows = read_csv(DIPLOMACY_DATA, DIPLOMACY_FIELDS)
     force_rows = read_csv(FORCES_DATA, FORCES_FIELDS)

@@ -16,7 +16,11 @@
 
 The project now has a reproducible `2000.1.1` country and ownership foundation: 188 active countries, five dormant successor tags, 3,521 clean land-province snapshots, one modern bookmark, an effective `9999.12.31` engine end date, vanilla religions, modern political reforms, equal-cost regional technology groups, and deterministic generation from canonical CSV data. Diplomacy, armed forces, technology levels, institutions, and detailed balance remain the next phase.
 
-Step 3 canonical inputs are now established for all 188 active countries: country technology/economic setup, effective diplomacy and organization membership, and simplified army/navy formation records. These datasets remain data-only until the starting-world integration generator writes them into EU4 history.
+Step 3 canonical inputs are now established for all 188 active countries: country technology/economic setup, effective diplomacy and organization membership, and simplified army/navy formation records. Starting ADM/DIP/MIL technology, the modern institution sequence, and first-pass national economy/reserve values are integrated; diplomacy and individual formations remain data-only until their later integration passes.
+
+Province development is gameplay-balanced for the modern start: extreme city values use diminishing returns with a 60-development cap, while underrepresented Balkan capitals receive regional floors. Trade nodes and routes use the complete vanilla EU4 network.
+
+The institution system now uses eight modern institutions from Globalized Economy (`2000.4.1`) through Space Marines (`2350.4.1`), spaced fifty years apart. Their vanilla internal IDs are retained only for EU4 compatibility; names, bonuses, emergence rules, descriptions, and spread rules are replaced.
 
 This document defines what EU4 2K should become and what must be included in its first playable release. It is a product guide, not a promise that every idea listed here is already implemented.
 

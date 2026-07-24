@@ -1,0 +1,33 @@
+# Permanent markers for modern institution origin provinces.
+
+eu4_2k_birthplace_feudalism = {
+	local_institution_spread = 0.25
+}
+
+eu4_2k_birthplace_renaissance = {
+	local_institution_spread = 0.25
+}
+
+eu4_2k_birthplace_new_world_i = {
+	local_institution_spread = 0.25
+}
+
+eu4_2k_birthplace_printing_press = {
+	local_institution_spread = 0.25
+}
+
+eu4_2k_birthplace_global_trade = {
+	local_institution_spread = 0.25
+}
+
+eu4_2k_birthplace_manufactories = {
+	local_institution_spread = 0.25
+}
+
+eu4_2k_birthplace_enlightenment = {
+	local_institution_spread = 0.25
+}
+
+eu4_2k_birthplace_industrialization = {
+	local_institution_spread = 0.25
+}

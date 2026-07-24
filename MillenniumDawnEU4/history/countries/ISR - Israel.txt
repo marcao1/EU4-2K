@@ -6,10 +6,30 @@ add_government_reform = eu4_2k_unitary_state
 add_government_reform = eu4_2k_multiparty_system
 primary_culture = israeli
 religion = jewish
-technology_group = modern_middle_eastern_north_african
+technology_group = modern_middle_eastern_north_african_tier_8
 unit_type = muslim
 capital = 1854
 set_country_flag = eu4_2k_ruling_group_isr_one_israel
+# Canonical 2000 economy and reserves from data/country_setup_2000.csv
+set_country_flag = eu4_2k_economic_tier_4
+set_country_flag = eu4_2k_infrastructure_tier_4
+add_treasury = -1000000
+add_treasury = 64
+add_inflation = -100
+add_inflation = 0
+add_stability = -3
+add_stability = 3
+add_prestige = -1000
+add_prestige = 100
+add_corruption = -100
+add_corruption = 0
+add_republican_tradition = -100
+add_republican_tradition = 60
+add_manpower = -1000000
+add_manpower = 22.5
+add_sailors = -1000000
+add_sailors = 1050
+# Canonical starting ADM/DIP/MIL technology from data/country_setup_2000.csv
 # Historical executive birth date: 1942.2.12
 monarch = {
 	name = "Ehud Barak"

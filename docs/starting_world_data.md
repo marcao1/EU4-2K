@@ -2,7 +2,7 @@
 
 ## Scope
 
-This stage establishes authoritative input data for the playable `2000.1.1` world. It does not yet write technology, finances, diplomacy, armies, or navies into EU4 history.
+This stage establishes authoritative input data for the playable `2000.1.1` world. Technology and the first-pass economy/reserve setup are now written into EU4 country history; diplomacy and individual army/navy formations remain data-only.
 
 The three canonical datasets are:
 
@@ -49,7 +49,18 @@ Ordinary generation and checks treat existing CSVs as authoritative. Use `--rebu
 
 The first pass is deterministic and uses country technology region, explicit major-power overrides, owned development, manpower development, and coastal access. Technology capacity is deliberately separate from political stability: for example, Yugoslavia and Iraq may start unstable without being assigned medieval technology.
 
-The values are planning inputs until the Step 3 integration generator defines exact EU4 unit conversions. Manpower is recorded as people; formation quantity is recorded as intended EU4 regiments or ships.
+The financial and reserve values are integrated into the generated country
+snapshots. Treasury uses ducats, manpower is converted from recorded people to
+EU4's thousands, and sailors use EU4's individual-sailor scale. Stability,
+prestige, inflation, corruption, and legitimacy or republican tradition are
+reset before the canonical value is applied, preventing EU4's automatic
+scenario defaults from being added a second time. Formation quantity remains
+the intended number of EU4 regiments or ships.
+
+Economic and infrastructure tiers are also stored as stable country flags
+(`eu4_2k_economic_tier_1` through `_5` and
+`eu4_2k_infrastructure_tier_1` through `_5`) for later buildings, events, and
+missions. They currently have no passive modifier by themselves.
 
 ## Diplomacy
 
@@ -85,6 +96,23 @@ Coastal provinces are detected deterministically from `provinces.bmp` and `sea_s
 
 The initial dataset contains 188 army formations and 148 fleet formations.
 
+The formation rows are canonical order-of-battle metadata and are not yet
+written as individual regiments or ships. EU4 currently creates its normal
+starting forces from force limit. All modern technology groups therefore use a
+level-5 through level-9 variants so the engine has valid infantry types and
+applies each country's CSV technology directly during initialization.
+
+Starting technology is integrated into the generated country histories. The
+current first-pass scale is level 5 for tier 1 through level 9 for tier 5. Each
+of the nine regional families has internal tier variants with identical
+research costs; the starting differences represent the scenario snapshot
+rather than permanent regional penalties.
+
+The vanilla institution sequence has been replaced by eight future-facing
+institutions beginning with Globalized Economy on `2000.4.1`. No institution is
+embraced at the bookmark. See `docs/modern_institutions.md` for the complete
+fifty-year schedule, bonuses, and internal compatibility mapping.
+
 ## Validation
 
 The non-mutating check rejects:
@@ -98,6 +126,19 @@ The non-mutating check rejects:
 - Forces located outside their owner's territory
 - Invalid formation quantities or quality tiers
 - Active countries without an army record
+
+## Economy and development baseline
+
+The 3,521 land provinces initialize `base_tax`, `base_production`, and
+`base_manpower` from the ET-derived `2000.1.1` snapshot after a deterministic
+EU4-focused balance curve. Values up to 30 are preserved, extreme metropolitan
+values are compressed to a maximum of 60, and the most underrepresented Balkan
+capitals receive explicit floors. National treasury and reserve values are
+recalculated from the balanced province data.
+
+A later historical audit can refine the balance with modern population, GDP,
+and urban-economic evidence, beginning with Europe, the United States, China,
+and Russia.
 
 ## Next integration task
 

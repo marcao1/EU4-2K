@@ -6,10 +6,30 @@ add_government_reform = eu4_2k_unitary_state
 add_government_reform = eu4_2k_multiparty_system
 primary_culture = khmer
 religion = buddhism
-technology_group = modern_southeast_asian
+technology_group = modern_southeast_asian_tier_7
 unit_type = chinese
 capital = 2380
 set_country_flag = eu4_2k_ruling_group_khm_cambodian_peoples_party
+# Canonical 2000 economy and reserves from data/country_setup_2000.csv
+set_country_flag = eu4_2k_economic_tier_3
+set_country_flag = eu4_2k_infrastructure_tier_3
+add_treasury = -1000000
+add_treasury = 47
+add_inflation = -100
+add_inflation = 0
+add_stability = -3
+add_stability = 3
+add_prestige = -1000
+add_prestige = 100
+add_corruption = -100
+add_corruption = 0
+add_republican_tradition = -100
+add_republican_tradition = 60
+add_manpower = -1000000
+add_manpower = 14.25
+add_sailors = -1000000
+add_sailors = 600
+# Canonical starting ADM/DIP/MIL technology from data/country_setup_2000.csv
 # Historical executive birth date: 1952.8.5
 monarch = {
 	name = "Hun Sen"

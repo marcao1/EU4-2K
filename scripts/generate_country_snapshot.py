@@ -2,8 +2,10 @@
 """Generate the clean EU4 2K country foundation for 2000.1.1.
 
 The canonical CSV is bootstrapped from Extended Timeline once. Subsequent
-generation treats that CSV as the source of truth. The script intentionally
-does not import dated country history, diplomacy, wars, missions, or events.
+generation treats that CSV as the source of truth. Starting technology,
+economy, and reserve values are read from the Step 3 country setup CSV. The
+script intentionally does not import dated country history, diplomacy, wars,
+missions, or events.
 """
 
 from __future__ import annotations
@@ -22,6 +24,7 @@ ROOT = Path(__file__).resolve().parents[1]
 MOD = ROOT / "MillenniumDawnEU4"
 DATA = ROOT / "data" / "countries_2000.csv"
 PROVINCE_DATA = ROOT / "data" / "provinces_2000.csv"
+COUNTRY_SETUP_DATA = ROOT / "data" / "country_setup_2000.csv"
 ET = ROOT / "ExtendedTimeline 1.18.2" / "ExtendedTimeline"
 DEFAULT_GAME_CANDIDATES = (
     Path(r"F:\Steam\steamapps\common\Europa Universalis IV"),
@@ -44,6 +47,62 @@ TECH_GROUPS = {
     "modern_latin_american": "south_american",
     "modern_oceanian": "polynesian_tech",
 }
+
+# EU4 generates initial armies only when a valid infantry type is unlocked.
+# Five is the lowest level in the canonical 2000 setup, so it is the shared
+# group baseline; country history adds the remaining levels up to each tag's
+# individual ADM/DIP/MIL targets.
+MODERN_START_LEVEL = 5
+MODERN_TECH_LEVELS = tuple(range(5, 10))
+
+# The internal identifiers remain vanilla so the existing technology tables,
+# interface art, and hard-coded institution slots continue to work. Everything
+# players see and every gameplay definition is replaced with the modern model.
+MODERN_INSTITUTIONS = (
+    ("feudalism", "Globalized Economy", "2000.4.1", ("merchants", "1")),
+    ("renaissance", "Advanced Automation", "2050.4.1", (("development_cost", "-0.05"), ("build_cost", "-0.05"))),
+    ("new_world_i", "Drone Technology", "2100.4.1", ("free_leader_pool", "1")),
+    ("printing_press", "Social Media", "2150.4.1", ("stability_cost_modifier", "-0.05")),
+    ("global_trade", "Renewable Energy", "2200.4.1", ("global_trade_goods_size_modifier", "0.10")),
+    ("manufactories", "Artificial Intelligence", "2250.4.1", ("global_prov_trade_power_modifier", "0.10")),
+    ("enlightenment", "Mars Economy", "2300.4.1", ("global_tax_modifier", "0.15")),
+    ("industrialization", "Space Marines", "2350.4.1", ("global_manpower_modifier", "0.25")),
+)
+
+INSTITUTION_DESCRIPTIONS = {
+    "feudalism": "National economies become tightly connected through global finance, supply chains, trade, and communications.",
+    "renaissance": "Advanced robotics and autonomous production transform construction, industry, and the efficient use of land.",
+    "new_world_i": "Uncrewed aerial, naval, ground, and orbital systems reshape warfare and command structures.",
+    "printing_press": "Networked social platforms become a central arena for public opinion, political organization, and state legitimacy.",
+    "global_trade": "Large-scale renewable generation, storage, and distribution provide abundant energy for a productive economy.",
+    "manufactories": "Artificial intelligence becomes embedded in government, commerce, logistics, research, and strategic planning.",
+    "enlightenment": "Permanent settlement and industry on Mars create a new interplanetary tax base and commercial system.",
+    "industrialization": "Specialized forces trained and equipped for warfare beyond Earth greatly expand national military manpower.",
+}
+
+INSTITUTION_HISTORICAL_ORIGINS = {
+    "feudalism": 965,          # New York
+    "renaissance": 1028,      # Tokyo
+    "new_world_i": 953,       # Washington
+    "printing_press": 4637,   # San Francisco
+    "global_trade": 12,       # Copenhagen
+    "manufactories": 1816,    # Beijing
+    "enlightenment": 888,     # Houston
+    "industrialization": 295, # Moscow
+}
+
+
+def tiered_technology_group(group: str, level: int) -> str:
+    return f"{group}_tier_{level}"
+
+
+def all_modern_technology_groups() -> dict[str, tuple[str, int]]:
+    groups: dict[str, tuple[str, int]] = {}
+    for group, unit_type in TECH_GROUPS.items():
+        groups[group] = (unit_type, MODERN_START_LEVEL)
+        for level in MODERN_TECH_LEVELS:
+            groups[tiered_technology_group(group, level)] = (unit_type, level)
+    return groups
 
 EXECUTIVE_MODELS = {
     "parliamentary_republic": ("republic", "eu4_2k_parliamentary_republic"),
@@ -718,6 +777,74 @@ def load_manifest() -> list[dict[str, str]]:
         return list(csv.DictReader(handle))
 
 
+def load_technology_setup(rows: Sequence[dict[str, str]]) -> dict[str, dict[str, int]]:
+    """Load canonical technology, economy, and reserve values for active tags."""
+    if not COUNTRY_SETUP_DATA.exists():
+        raise RuntimeError(
+            "Missing data/country_setup_2000.csv; run generate_starting_world.py first"
+        )
+    with COUNTRY_SETUP_DATA.open("r", encoding="utf-8-sig", newline="") as handle:
+        reader = csv.DictReader(handle)
+        numeric_fields = {
+            "adm_tech", "dip_tech", "mil_tech", "technology_tier",
+            "treasury", "inflation", "stability", "prestige", "corruption",
+            "legitimacy_or_tradition", "manpower", "sailors",
+            "economic_tier", "infrastructure_tier",
+        }
+        required = {"tag", *numeric_fields}
+        if not reader.fieldnames or not required.issubset(reader.fieldnames):
+            raise RuntimeError("country_setup_2000.csv is missing setup columns")
+        setup: dict[str, dict[str, int]] = {}
+        for source in reader:
+            tag = source["tag"]
+            if tag in setup:
+                raise RuntimeError(f"Duplicate country setup for {tag}")
+            try:
+                levels = {key: int(source[key]) for key in numeric_fields}
+            except ValueError as exc:
+                raise RuntimeError(f"Invalid numeric country setup for {tag}") from exc
+            technology_levels = [
+                levels[key] for key in ("adm_tech", "dip_tech", "mil_tech")
+            ]
+            if any(
+                level < MODERN_START_LEVEL or level > 32
+                for level in technology_levels
+            ):
+                raise RuntimeError(
+                    f"{tag}: technology must be between {MODERN_START_LEVEL} and 32"
+                )
+            if len(set(technology_levels)) != 1:
+                raise RuntimeError(
+                    f"{tag}: tiered startup requires equal ADM/DIP/MIL levels"
+                )
+            if levels["treasury"] < 0 or levels["inflation"] < 0:
+                raise RuntimeError(f"{tag}: treasury and inflation cannot be negative")
+            if not -3 <= levels["stability"] <= 3:
+                raise RuntimeError(f"{tag}: stability must be between -3 and 3")
+            if not -100 <= levels["prestige"] <= 100:
+                raise RuntimeError(f"{tag}: prestige must be between -100 and 100")
+            if not 0 <= levels["corruption"] <= 100:
+                raise RuntimeError(f"{tag}: corruption must be between 0 and 100")
+            if not 0 <= levels["legitimacy_or_tradition"] <= 100:
+                raise RuntimeError(f"{tag}: legitimacy/tradition must be between 0 and 100")
+            if levels["manpower"] < 0 or levels["sailors"] < 0:
+                raise RuntimeError(f"{tag}: manpower and sailors cannot be negative")
+            if not 1 <= levels["economic_tier"] <= 5:
+                raise RuntimeError(f"{tag}: economic tier must be between 1 and 5")
+            if not 1 <= levels["infrastructure_tier"] <= 5:
+                raise RuntimeError(f"{tag}: infrastructure tier must be between 1 and 5")
+            setup[tag] = levels
+    active = {row["tag"] for row in rows if row["active_2000"] == "yes"}
+    if set(setup) != active:
+        missing = sorted(active - set(setup))
+        extra = sorted(set(setup) - active)
+        raise RuntimeError(
+            "Country setup tags do not match active countries; "
+            f"missing={missing}, extra={extra}"
+        )
+    return setup
+
+
 def validate_rows(rows: Sequence[dict[str, str]], game: Path) -> None:
     active = [row for row in rows if row["active_2000"] == "yes"]
     dormant = [row for row in rows if row["active_2000"] == "no"]
@@ -805,12 +932,173 @@ def technology_text(game: Path) -> str:
     if index < 0:
         raise RuntimeError("Could not locate technology groups closing marker")
     blocks = ["\n\t# EU4 2K equal-cost regional modern technology groups"]
-    for group, unit_type in TECH_GROUPS.items():
+    for group, (unit_type, start_level) in all_modern_technology_groups().items():
         blocks.extend([
-            f"\t{group} = {{", "\t\tstart_level = 0", "\t\tstart_cost_modifier = 0",
+            f"\t{group} = {{", f"\t\tstart_level = {start_level}", "\t\tstart_cost_modifier = 0",
             f"\t\tnation_designer_unit_type = {unit_type}", "\t}",
         ])
     return source[:index] + "\n".join(blocks) + source[index:]
+
+
+def institutions_text() -> str:
+    """Render the eight modern institutions over vanilla-compatible IDs."""
+    blocks = [
+        "# Generated EU4 2K modern institution sequence.",
+        "# Vanilla identifiers are retained for engine and technology compatibility.",
+        "",
+    ]
+    previous: str | None = None
+    for event_id, (institution_id, name, date, raw_bonus) in enumerate(
+        MODERN_INSTITUTIONS, start=1
+    ):
+        year = date.split(".", 1)[0]
+        if isinstance(raw_bonus[0], str):
+            bonuses = (raw_bonus,)
+        else:
+            bonuses = raw_bonus
+        blocks.extend([institution_id + " = {", "\tbonus = {"])
+        for modifier, value in bonuses:
+            blocks.append(f"\t\t{modifier} = {value}")
+        blocks.extend([
+            "\t}",
+            f"\thistorical_start_date = {date}",
+            f"\thistorical_start_province = {INSTITUTION_HISTORICAL_ORIGINS[institution_id]}",
+            "\thistory = { always = no }",
+            "",
+            "\tcan_start = {",
+            f"\t\tis_year = {year}",
+            "\t\tis_month = 3 # April or later",
+            "\t\tis_city = yes",
+            "\t\tis_state = yes",
+            "\t\tis_capital = yes",
+            "\t\tdevelopment = 20",
+        ])
+        if previous:
+            blocks.extend([
+                f"\t\tis_institution_enabled = {previous}",
+                f"\t\t{previous} = 100",
+            ])
+        blocks.extend([
+            "\t}",
+            "\tstart_chance = 100",
+            f"\ton_start = eu4_2k_institution_events.{event_id}",
+            "",
+            "\tcan_embrace = {",
+        ])
+        if previous:
+            blocks.append(f"\t\towner = {{ has_institution = {previous} }}")
+        else:
+            blocks.append("\t\talways = yes")
+        blocks.extend([
+            "\t}",
+            "",
+            "\tembracement_speed = {",
+            "\t\tmodifier = {",
+            "\t\t\tfactor = 0.6",
+            "\t\t\tscale = yes",
+            f"\t\t\tany_friendly_coast_border_province = {{ {institution_id} = 100 }}",
+            "\t\t}",
+            "\t\tmodifier = {",
+            "\t\t\tfactor = 0.25",
+            "\t\t\tscale = yes",
+            f"\t\t\tany_neighbor_province = {{ {institution_id} = 100 }}",
+            "\t\t}",
+            "\t\tmodifier = {",
+            "\t\t\tfactor = 0.10",
+            "\t\t\tscale = yes",
+            "\t\t\tis_capital = yes",
+            "\t\t\tdevelopment = 20",
+            "\t\t}",
+            "\t\tmodifier = {",
+            "\t\t\tfactor = 1",
+            "\t\t\tscale = yes",
+            f"\t\t\towner = {{ has_institution = {institution_id} }}",
+            "\t\t}",
+            "\t}",
+            "",
+            "\tai_will_do = {",
+            "\t\tfactor = 24",
+            "\t\tmodifier = { factor = 0.25 is_at_war = yes }",
+            "\t}",
+            "}",
+            "",
+        ])
+        previous = institution_id
+    return "\n".join(blocks)
+
+
+def institution_events_text() -> str:
+    lines = [
+        "# Generated origin events for the EU4 2K institution sequence.",
+        "namespace = eu4_2k_institution_events",
+        "",
+    ]
+    for event_id, (institution_id, _, _, _) in enumerate(MODERN_INSTITUTIONS, start=1):
+        lines.extend([
+            "country_event = {",
+            f"\tid = eu4_2k_institution_events.{event_id}",
+            f"\ttitle = eu4_2k_institution_events.{event_id}.t",
+            f"\tdesc = eu4_2k_institution_events.{event_id}.d",
+            "\tpicture = BIG_BOOK_eventPicture",
+            "\tis_triggered_only = yes",
+            "\tgoto = institution_origin",
+            "\ttrigger = { always = yes }",
+            "\timmediate = {",
+            "\t\thidden_effect = {",
+            "\t\t\tFROM = {",
+            "\t\t\t\tsave_event_target_as = institution_origin",
+            f"\t\t\t\tsave_global_event_target_as = eu4_2k_origin_{institution_id}",
+            "\t\t\t}",
+            "\t\t}",
+            "\t}",
+            "\toption = {",
+            "\t\tname = eu4_2k_institution_events.origin_option",
+            "\t\tFROM = {",
+            "\t\t\tadd_permanent_province_modifier = {",
+            f"\t\t\t\tname = eu4_2k_birthplace_{institution_id}",
+            "\t\t\t\tduration = -1",
+            "\t\t\t}",
+            "\t\t}",
+            "\t}",
+            "}",
+            "",
+        ])
+    return "\n".join(lines)
+
+
+def institution_modifiers_text() -> str:
+    lines = ["# Permanent markers for modern institution origin provinces.", ""]
+    for institution_id, _, _, _ in MODERN_INSTITUTIONS:
+        lines.extend([
+            f"eu4_2k_birthplace_{institution_id} = {{",
+            "\tlocal_institution_spread = 0.25",
+            "}",
+            "",
+        ])
+    return "\n".join(lines)
+
+
+def institution_localisation() -> str:
+    lines = ["l_english:"]
+    for event_id, (institution_id, name, date, _) in enumerate(
+        MODERN_INSTITUTIONS, start=1
+    ):
+        description = INSTITUTION_DESCRIPTIONS[institution_id].replace('"', r'\"')
+        lines.append(f' {institution_id}:0 "{name}"')
+        lines.append(f' desc_{institution_id}:0 "{description}\\n\\nExpected emergence: §Y{date}§!."')
+        lines.append(f' eu4_2k_institution_events.{event_id}.t:0 "The Birth of {name}"')
+        lines.append(
+            f' eu4_2k_institution_events.{event_id}.d:0 "{name} first emerged in §Y[From.GetName]§!. This province will remain recorded as its birthplace."'
+        )
+        lines.append(f' eu4_2k_birthplace_{institution_id}:0 "Birthplace of {name}"')
+        lines.append(
+            f' desc_eu4_2k_birthplace_{institution_id}:0 "This province is where {name} first emerged. It receives faster institution spread and remains the permanent historical origin."'
+        )
+        lines.append(
+            f' eu4_2k_birthplace_{institution_id}_desc:0 "This province is where {name} first emerged. It receives faster institution spread and remains the permanent historical origin."'
+        )
+    lines.append(' eu4_2k_institution_events.origin_option:0 "A new era begins."')
+    return "\n".join(lines) + "\n"
 
 
 def extract_named_block(text: str, key: str) -> str | None:
@@ -916,7 +1204,49 @@ def modern_cultures(rows: Sequence[dict[str, str]], game: Path) -> tuple[str, li
     return "\n".join(lines) + "\n", sorted(assignments)
 
 
-def country_history(row: dict[str, str]) -> str:
+def starting_economy_history(
+    row: dict[str, str], setup: dict[str, int]
+) -> list[str]:
+    """Render exact 2000 economy and reserve values as history effects.
+
+    EU4 derives cash and reserve pools from development before country history
+    effects are applied. Resetting each bounded value first prevents those
+    engine defaults from being added to the canonical scenario values.
+    """
+    manpower_thousands = setup["manpower"] / 1000
+    manpower_value = f"{manpower_thousands:.3f}".rstrip("0").rstrip(".")
+    government, _ = EXECUTIVE_MODELS[row["government_model"]]
+    authority_effect = {
+        "monarchy": "add_legitimacy",
+        "republic": "add_republican_tradition",
+        "theocracy": "add_devotion",
+    }[government]
+    return [
+        "# Canonical 2000 economy and reserves from data/country_setup_2000.csv",
+        f"set_country_flag = eu4_2k_economic_tier_{setup['economic_tier']}",
+        f"set_country_flag = eu4_2k_infrastructure_tier_{setup['infrastructure_tier']}",
+        "add_treasury = -1000000",
+        f"add_treasury = {setup['treasury']}",
+        "add_inflation = -100",
+        f"add_inflation = {setup['inflation']}",
+        "add_stability = -3",
+        f"add_stability = {setup['stability'] + 3}",
+        "add_prestige = -1000",
+        f"add_prestige = {setup['prestige'] + 100}",
+        "add_corruption = -100",
+        f"add_corruption = {setup['corruption']}",
+        f"{authority_effect} = -100",
+        f"{authority_effect} = {setup['legitimacy_or_tradition']}",
+        "add_manpower = -1000000",
+        f"add_manpower = {manpower_value}",
+        "add_sailors = -1000000",
+        f"add_sailors = {setup['sailors']}",
+    ]
+
+
+def country_history(
+    row: dict[str, str], technology_setup: dict[str, dict[str, int]]
+) -> str:
     government, executive_reform = EXECUTIVE_MODELS[row["government_model"]]
     lines = [
         "# Generated 2000.1.1 snapshot; later historical changes belong in events.",
@@ -929,12 +1259,21 @@ def country_history(row: dict[str, str]) -> str:
     for culture in filter(None, row["accepted_cultures"].split("|")):
         if culture != row["primary_culture"]:
             lines.append(f"add_accepted_culture = {culture}")
+    technology_group = row["technology_group"]
+    if row["active_2000"] == "yes":
+        levels = technology_setup[row["tag"]]
+        technology_group = tiered_technology_group(technology_group, levels["adm_tech"])
     lines.extend([
-        f"religion = {row['religion']}", f"technology_group = {row['technology_group']}",
+        f"religion = {row['religion']}", f"technology_group = {technology_group}",
         f"unit_type = {row['unit_type']}", f"capital = {row['capital']}",
         f"set_country_flag = eu4_2k_ruling_group_{row['tag'].lower()}_{slug(row['ruling_group'])}",
     ])
     if row["active_2000"] == "yes":
+        lines.extend(starting_economy_history(row, technology_setup[row["tag"]]))
+        lines.append(
+            "# Canonical starting ADM/DIP/MIL technology from "
+            "data/country_setup_2000.csv"
+        )
         lines.extend([
             f"# Historical executive birth date: {row['executive_birth']}",
             "monarch = {", f"\tname = {quote(row['executive'])}",
@@ -1005,6 +1344,15 @@ def framework_localisation(rows: Sequence[dict[str, str]]) -> str:
     for key, value in sorted(labels.items()):
         lines.append(f' {key}:0 "{value}"')
         lines.append(f' {key}_desc:0 "A modern political or technological classification used by EU4 2K."')
+    for group, label in sorted(
+        (key, value) for key, value in labels.items() if key in TECH_GROUPS
+    ):
+        for level in MODERN_TECH_LEVELS:
+            key = tiered_technology_group(group, level)
+            lines.append(f' {key}:0 "{label}"')
+            lines.append(
+                f' {key}_desc:0 "{label} technology tier {level} at the 2000 start."'
+            )
     lines.extend([
         ' EU4_2K_2000_NAME:0 "The New Millennium"',
         ' EU4_2K_2000_DESC:0 "On 1 January 2000, globalization, regional integration, technological change, and unresolved conflicts shape a new century."',
@@ -1030,17 +1378,25 @@ def country_localisation(rows: Sequence[dict[str, str]]) -> str:
     return "\n".join(lines) + "\n"
 
 
-def text_outputs(rows: Sequence[dict[str, str]], game: Path) -> dict[Path, tuple[str, str]]:
+def text_outputs(
+    rows: Sequence[dict[str, str]],
+    game: Path,
+    technology_setup: dict[str, dict[str, int]],
+) -> dict[Path, tuple[str, str]]:
     outputs: dict[Path, tuple[str, str]] = {
         MOD / "common" / "country_tags" / "00_countries.txt": (generated_country_tag_text(rows, game), "cp1252"),
         MOD / "common" / "government_reforms" / "00_eu4_2k_government_reforms.txt": (government_reforms_text(), "cp1252"),
         MOD / "common" / "cultures" / "00_eu4_2k_cultures.txt": (modern_cultures(rows, game)[0], "cp1252"),
         MOD / "common" / "technology.txt": (technology_text(game), "cp1252"),
+        MOD / "common" / "institutions" / "00_Core.txt": (institutions_text(), "cp1252"),
+        MOD / "common" / "event_modifiers" / "zz_eu4_2k_institution_origins.txt": (institution_modifiers_text(), "cp1252"),
+        MOD / "events" / "eu4_2k_institution_events.txt": (institution_events_text(), "cp1252"),
         MOD / "common" / "defines" / "zz_eu4_2k_dates.lua": ('NDefines.NGame.START_DATE = "2000.1.1"\nNDefines.NGame.END_DATE = "9999.12.31"\n', "ascii"),
         MOD / "common" / "bookmarks" / "00_eu4_2k_2000.txt": ("bookmark = {\n\tname = \"EU4_2K_2000_NAME\"\n\tdesc = \"EU4_2K_2000_DESC\"\n\tdate = 2000.1.1\n\tcountry = USA\n\tcountry = RUS\n\tcountry = CHN\n\tcountry = GER\n\tcountry = FR2\n\tcountry = GBR\n\tcountry = YUG\n}\n", "cp1252"),
         MOD / "localisation" / "replace" / "zz_eu4_2k_countries_l_english.yml": (country_localisation(rows), "utf-8-sig"),
         MOD / "localisation" / "eu4_2k_framework_l_english.yml": (framework_localisation(rows), "utf-8-sig"),
         MOD / "localisation" / "eu4_2k_cultures_l_english.yml": (culture_localisation(rows, game), "utf-8-sig"),
+        MOD / "localisation" / "replace" / "zz_eu4_2k_institutions_l_english.yml": (institution_localisation(), "utf-8-sig"),
     }
     if not PROVINCE_DATA.exists():
         outputs[MOD / "history" / "provinces" / "00_placeholder.txt"] = (
@@ -1050,7 +1406,10 @@ def text_outputs(rows: Sequence[dict[str, str]], game: Path) -> dict[Path, tuple
     for row in rows:
         outputs[MOD / "common" / "countries" / f"EU4_2K_{row['tag']}.txt"] = (country_definition(row, game), "cp1252")
         safe_name = re.sub(r'[<>:"/\\|?*]', "", row["name"])
-        outputs[MOD / "history" / "countries" / f"{row['tag']} - {safe_name}.txt"] = (country_history(row), "cp1252")
+        outputs[MOD / "history" / "countries" / f"{row['tag']} - {safe_name}.txt"] = (
+            country_history(row, technology_setup),
+            "cp1252",
+        )
     snapshot_tags = {row["tag"] for row in rows}
     for tag in registered_tags(rows, game):
         if tag not in snapshot_tags:
@@ -1067,8 +1426,12 @@ def flag_source(row: dict[str, str], game: Path) -> Path:
     return (ET if prefix == "et" else game) / relative
 
 
-def write_outputs(rows: Sequence[dict[str, str]], game: Path) -> None:
-    outputs = text_outputs(rows, game)
+def write_outputs(
+    rows: Sequence[dict[str, str]],
+    game: Path,
+    technology_setup: dict[str, dict[str, int]],
+) -> None:
+    outputs = text_outputs(rows, game, technology_setup)
     legacy_country_localisation = MOD / "localisation" / "eu4_2k_countries_l_english.yml"
     if legacy_country_localisation.exists():
         legacy_country_localisation.unlink()
@@ -1105,9 +1468,13 @@ def write_outputs(rows: Sequence[dict[str, str]], game: Path) -> None:
             shutil.copyfile(source, target)
 
 
-def check_outputs(rows: Sequence[dict[str, str]], game: Path) -> None:
+def check_outputs(
+    rows: Sequence[dict[str, str]],
+    game: Path,
+    technology_setup: dict[str, dict[str, int]],
+) -> None:
     errors: list[str] = []
-    expected = text_outputs(rows, game)
+    expected = text_outputs(rows, game, technology_setup)
     for path, (content, encoding) in expected.items():
         if not path.exists():
             errors.append(f"missing generated file: {path.relative_to(ROOT)}")
@@ -1130,8 +1497,8 @@ def check_outputs(rows: Sequence[dict[str, str]], game: Path) -> None:
         if "secularism" in text or "irreligious" in text:
             errors.append(f"forbidden religion found: {path.name}")
     tech = expected[MOD / "common" / "technology.txt"][0]
-    costs = re.findall(r"(?s)(modern_[a-z_]+)\s*=\s*\{.*?start_cost_modifier\s*=\s*([0-9.]+)", tech)
-    if len(costs) != len(TECH_GROUPS) or {cost for _, cost in costs} != {"0"}:
+    costs = re.findall(r"(?s)(modern_[a-z0-9_]+)\s*=\s*\{.*?start_cost_modifier\s*=\s*([0-9.]+)", tech)
+    if len(costs) != len(all_modern_technology_groups()) or {cost for _, cost in costs} != {"0"}:
         errors.append("regional modern technology groups do not all have equal zero base cost")
     if errors:
         raise RuntimeError("Generated output check failed:\n- " + "\n- ".join(errors))
@@ -1152,12 +1519,13 @@ def main() -> int:
         write_manifest(rows)
     rows = load_manifest()
     validate_rows(rows, game)
+    technology_setup = load_technology_setup(rows)
     if args.check:
-        check_outputs(rows, game)
+        check_outputs(rows, game, technology_setup)
         print(f"Validated {len(rows)} countries ({sum(r['active_2000'] == 'yes' for r in rows)} active, {len(SUCCESSORS)} dormant).")
     else:
-        write_outputs(rows, game)
-        check_outputs(rows, game)
+        write_outputs(rows, game, technology_setup)
+        check_outputs(rows, game, technology_setup)
         print(f"Generated {len(rows)} countries ({sum(r['active_2000'] == 'yes' for r in rows)} active, {len(SUCCESSORS)} dormant).")
     return 0
 

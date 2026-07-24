@@ -1,0 +1,218 @@
+# Generated origin events for the EU4 2K institution sequence.
+namespace = eu4_2k_institution_events
+
+country_event = {
+	id = eu4_2k_institution_events.1
+	title = eu4_2k_institution_events.1.t
+	desc = eu4_2k_institution_events.1.d
+	picture = BIG_BOOK_eventPicture
+	is_triggered_only = yes
+	goto = institution_origin
+	trigger = { always = yes }
+	immediate = {
+		hidden_effect = {
+			FROM = {
+				save_event_target_as = institution_origin
+				save_global_event_target_as = eu4_2k_origin_feudalism
+			}
+		}
+	}
+	option = {
+		name = eu4_2k_institution_events.origin_option
+		FROM = {
+			add_permanent_province_modifier = {
+				name = eu4_2k_birthplace_feudalism
+				duration = -1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = eu4_2k_institution_events.2
+	title = eu4_2k_institution_events.2.t
+	desc = eu4_2k_institution_events.2.d
+	picture = BIG_BOOK_eventPicture
+	is_triggered_only = yes
+	goto = institution_origin
+	trigger = { always = yes }
+	immediate = {
+		hidden_effect = {
+			FROM = {
+				save_event_target_as = institution_origin
+				save_global_event_target_as = eu4_2k_origin_renaissance
+			}
+		}
+	}
+	option = {
+		name = eu4_2k_institution_events.origin_option
+		FROM = {
+			add_permanent_province_modifier = {
+				name = eu4_2k_birthplace_renaissance
+				duration = -1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = eu4_2k_institution_events.3
+	title = eu4_2k_institution_events.3.t
+	desc = eu4_2k_institution_events.3.d
+	picture = BIG_BOOK_eventPicture
+	is_triggered_only = yes
+	goto = institution_origin
+	trigger = { always = yes }
+	immediate = {
+		hidden_effect = {
+			FROM = {
+				save_event_target_as = institution_origin
+				save_global_event_target_as = eu4_2k_origin_new_world_i
+			}
+		}
+	}
+	option = {
+		name = eu4_2k_institution_events.origin_option
+		FROM = {
+			add_permanent_province_modifier = {
+				name = eu4_2k_birthplace_new_world_i
+				duration = -1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = eu4_2k_institution_events.4
+	title = eu4_2k_institution_events.4.t
+	desc = eu4_2k_institution_events.4.d
+	picture = BIG_BOOK_eventPicture
+	is_triggered_only = yes
+	goto = institution_origin
+	trigger = { always = yes }
+	immediate = {
+		hidden_effect = {
+			FROM = {
+				save_event_target_as = institution_origin
+				save_global_event_target_as = eu4_2k_origin_printing_press
+			}
+		}
+	}
+	option = {
+		name = eu4_2k_institution_events.origin_option
+		FROM = {
+			add_permanent_province_modifier = {
+				name = eu4_2k_birthplace_printing_press
+				duration = -1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = eu4_2k_institution_events.5
+	title = eu4_2k_institution_events.5.t
+	desc = eu4_2k_institution_events.5.d
+	picture = BIG_BOOK_eventPicture
+	is_triggered_only = yes
+	goto = institution_origin
+	trigger = { always = yes }
+	immediate = {
+		hidden_effect = {
+			FROM = {
+				save_event_target_as = institution_origin
+				save_global_event_target_as = eu4_2k_origin_global_trade
+			}
+		}
+	}
+	option = {
+		name = eu4_2k_institution_events.origin_option
+		FROM = {
+			add_permanent_province_modifier = {
+				name = eu4_2k_birthplace_global_trade
+				duration = -1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = eu4_2k_institution_events.6
+	title = eu4_2k_institution_events.6.t
+	desc = eu4_2k_institution_events.6.d
+	picture = BIG_BOOK_eventPicture
+	is_triggered_only = yes
+	goto = institution_origin
+	trigger = { always = yes }
+	immediate = {
+		hidden_effect = {
+			FROM = {
+				save_event_target_as = institution_origin
+				save_global_event_target_as = eu4_2k_origin_manufactories
+			}
+		}
+	}
+	option = {
+		name = eu4_2k_institution_events.origin_option
+		FROM = {
+			add_permanent_province_modifier = {
+				name = eu4_2k_birthplace_manufactories
+				duration = -1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = eu4_2k_institution_events.7
+	title = eu4_2k_institution_events.7.t
+	desc = eu4_2k_institution_events.7.d
+	picture = BIG_BOOK_eventPicture
+	is_triggered_only = yes
+	goto = institution_origin
+	trigger = { always = yes }
+	immediate = {
+		hidden_effect = {
+			FROM = {
+				save_event_target_as = institution_origin
+				save_global_event_target_as = eu4_2k_origin_enlightenment
+			}
+		}
+	}
+	option = {
+		name = eu4_2k_institution_events.origin_option
+		FROM = {
+			add_permanent_province_modifier = {
+				name = eu4_2k_birthplace_enlightenment
+				duration = -1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = eu4_2k_institution_events.8
+	title = eu4_2k_institution_events.8.t
+	desc = eu4_2k_institution_events.8.d
+	picture = BIG_BOOK_eventPicture
+	is_triggered_only = yes
+	goto = institution_origin
+	trigger = { always = yes }
+	immediate = {
+		hidden_effect = {
+			FROM = {
+				save_event_target_as = institution_origin
+				save_global_event_target_as = eu4_2k_origin_industrialization
+			}
+		}
+	}
+	option = {
+		name = eu4_2k_institution_events.origin_option
+		FROM = {
+			add_permanent_province_modifier = {
+				name = eu4_2k_birthplace_industrialization
+				duration = -1
+			}
+		}
+	}
+}

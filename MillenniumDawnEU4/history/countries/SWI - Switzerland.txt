@@ -6,10 +6,30 @@ add_government_reform = eu4_2k_federal_state
 add_government_reform = eu4_2k_multiparty_system
 primary_culture = swiss
 religion = reformed
-technology_group = modern_western
+technology_group = modern_western_tier_9
 unit_type = western
 capital = 165
 set_country_flag = eu4_2k_ruling_group_swi_swiss_peoples_party
+# Canonical 2000 economy and reserves from data/country_setup_2000.csv
+set_country_flag = eu4_2k_economic_tier_5
+set_country_flag = eu4_2k_infrastructure_tier_5
+add_treasury = -1000000
+add_treasury = 173
+add_inflation = -100
+add_inflation = 0
+add_stability = -3
+add_stability = 3
+add_prestige = -1000
+add_prestige = 100
+add_corruption = -100
+add_corruption = 0
+add_republican_tradition = -100
+add_republican_tradition = 60
+add_manpower = -1000000
+add_manpower = 49.5
+add_sailors = -1000000
+add_sailors = 0
+# Canonical starting ADM/DIP/MIL technology from data/country_setup_2000.csv
 # Historical executive birth date: 1942.7.18
 monarch = {
 	name = "Adolf Ogi"

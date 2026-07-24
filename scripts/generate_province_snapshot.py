@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import math
 import re
 import sys
 from dataclasses import dataclass, field
@@ -39,6 +40,25 @@ TRADE_GOOD_FALLBACKS = {
     "electronics": "glass",
     "aluminum": "copper",
     "uranium": "copper",
+}
+
+# ET's modern history contains several 100-216 development metropolitan
+# provinces. EU4's economic and force-limit formulas make those values
+# overpowering, so values above 30 use a diminishing-return curve. Explicit
+# regional-capital floors repair the most compressed Balkan starting capitals.
+DEVELOPMENT_SOFT_CAP = 30
+DEVELOPMENT_EXPONENT = 0.65
+DEVELOPMENT_HARD_CAP = 60
+BALKAN_CAPITAL_FLOORS = {
+    4750: 25,  # Tirana
+    3002: 28,  # Sarajevo
+    1765: 32,  # Sofia
+    131: 30,   # Zagreb
+    146: 38,   # Athens
+    3001: 25,  # Skopje
+    4531: 38,  # Bucharest
+    1769: 26,  # Slovenia's starting capital province
+    4239: 32,  # Belgrade
 }
 
 
@@ -111,6 +131,49 @@ def normalized_religion(state: ProvinceState, vanilla: set[str]) -> str:
     return candidate if candidate in vanilla else "catholic"
 
 
+def allocate_development(total: int, values: Sequence[float]) -> tuple[int, int, int]:
+    """Distribute an integer total while preserving the original proportions."""
+    source_total = sum(values)
+    if source_total <= 0:
+        return (total, 0, 0)
+    raw = [total * value / source_total for value in values]
+    result = [math.floor(value) for value in raw]
+    remainder_order = sorted(
+        range(3), key=lambda index: (raw[index] - result[index], -index), reverse=True
+    )
+    for index in remainder_order[: total - sum(result)]:
+        result[index] += 1
+    return tuple(result)  # type: ignore[return-value]
+
+
+def balanced_development(row: dict[str, str]) -> tuple[int, int, int]:
+    values = tuple(
+        float(row[field])
+        for field in ("base_tax", "base_production", "base_manpower")
+    )
+    original_total = sum(values)
+    if original_total <= DEVELOPMENT_SOFT_CAP:
+        target = round(original_total)
+    else:
+        target = round(
+            DEVELOPMENT_SOFT_CAP
+            + (original_total - DEVELOPMENT_SOFT_CAP) ** DEVELOPMENT_EXPONENT
+        )
+    target = max(target, BALKAN_CAPITAL_FLOORS.get(int(row["province_id"]), 0))
+    target = min(target, DEVELOPMENT_HARD_CAP)
+    return allocate_development(target, values)
+
+
+def apply_development_balance(row: dict[str, str]) -> None:
+    tax, production, manpower = balanced_development(row)
+    row["base_tax"] = str(tax)
+    row["base_production"] = str(production)
+    row["base_manpower"] = str(manpower)
+    row["verification_notes"] = (
+        "Effective ET state on 2000.1.1; EU4 2K balanced development model."
+    )
+
+
 def bootstrap_rows(game: Path) -> list[dict[str, str]]:
     non_land = countries.non_land_provinces()
     active_tags = {
@@ -158,6 +221,7 @@ def bootstrap_rows(game: Path) -> list[dict[str, str]]:
             "source": f"et:history/provinces/{source.name}",
             "verification_notes": "Effective ET state on 2000.1.1; clean generated baseline.",
         }
+        apply_development_balance(row)
         rows.append(row)
     return rows
 
@@ -239,7 +303,7 @@ def province_definition_names() -> dict[int, str]:
 def discovery_history_lines() -> list[str]:
     discovery_groups = (
         "western", "eastern", "muslim", "ottoman", "chinese", "indian", "sub_saharan",
-        *countries.TECH_GROUPS.keys(),
+        *countries.all_modern_technology_groups().keys(),
     )
     return [f"discovered_by = {group}" for group in discovery_groups]
 
@@ -251,7 +315,7 @@ def water_history() -> str:
     ]) + "\n"
 
 
-def outputs(rows: Sequence[dict[str, str]]) -> dict[Path, tuple[str, str]]:
+def outputs(rows: Sequence[dict[str, str]], game: Path) -> dict[Path, tuple[str, str]]:
     result: dict[Path, tuple[str, str]] = {}
     localization = ["l_english:"]
     for row in rows:
@@ -303,6 +367,22 @@ def validate_rows(rows: Sequence[dict[str, str]], game: Path) -> None:
                     raise ValueError
             except ValueError:
                 errors.append(f"province {province_id}: invalid {field_name}")
+        try:
+            total_development = sum(
+                float(row[field])
+                for field in ("base_tax", "base_production", "base_manpower")
+            )
+            if total_development > DEVELOPMENT_HARD_CAP:
+                errors.append(
+                    f"province {province_id}: development exceeds {DEVELOPMENT_HARD_CAP}"
+                )
+            required_floor = BALKAN_CAPITAL_FLOORS.get(province_id)
+            if required_floor and total_development < required_floor:
+                errors.append(
+                    f"province {province_id}: below Balkan capital floor {required_floor}"
+                )
+        except ValueError:
+            pass
     missing = active - owned_tags
     if missing:
         errors.append("active countries without territory: " + ", ".join(sorted(missing)))
@@ -316,8 +396,8 @@ def validate_rows(rows: Sequence[dict[str, str]], game: Path) -> None:
         raise RuntimeError("Province data validation failed:\n- " + "\n- ".join(errors[:100]))
 
 
-def write_outputs(rows: Sequence[dict[str, str]]) -> None:
-    expected = outputs(rows)
+def write_outputs(rows: Sequence[dict[str, str]], game: Path) -> None:
+    expected = outputs(rows, game)
     legacy_province_localisation = MOD / "localisation" / "eu4_2k_provinces_l_english.yml"
     if legacy_province_localisation.exists():
         legacy_province_localisation.unlink()
@@ -334,9 +414,9 @@ def write_outputs(rows: Sequence[dict[str, str]]) -> None:
             path.write_bytes(encoded)
 
 
-def check_outputs(rows: Sequence[dict[str, str]]) -> None:
+def check_outputs(rows: Sequence[dict[str, str]], game: Path) -> None:
     errors: list[str] = []
-    expected = outputs(rows)
+    expected = outputs(rows, game)
     for path, (content, encoding) in expected.items():
         if not path.exists():
             errors.append(f"missing generated file: {path.relative_to(ROOT)}")
@@ -361,23 +441,43 @@ def main() -> int:
     parser.add_argument("--check", action="store_true")
     parser.add_argument("--game-root")
     parser.add_argument("--rebuild-data", action="store_true")
+    parser.add_argument(
+        "--rebalance-development",
+        action="store_true",
+        help="recalculate development from the ET 2000 baseline while preserving other CSV edits",
+    )
     args = parser.parse_args()
     game = countries.find_game_root(args.game_root)
+    if args.check and args.rebalance_development:
+        raise SystemExit("--check cannot be combined with --rebalance-development")
     if args.rebuild_data or not DATA.exists():
         if args.check:
             raise SystemExit("Canonical province dataset is missing; run generate first")
         write_manifest(bootstrap_rows(game))
+    elif args.rebalance_development:
+        rows = load_manifest()
+        baseline = {
+            row["province_id"]: row for row in bootstrap_rows(game)
+        }
+        for row in rows:
+            source = baseline[row["province_id"]]
+            for field in (
+                "base_tax", "base_production", "base_manpower", "verification_notes"
+            ):
+                row[field] = source[field]
+        write_manifest(rows)
     rows = load_manifest()
     validate_rows(rows, game)
     if args.check:
-        check_outputs(rows)
+        check_outputs(rows, game)
         print(f"Validated {len(rows)} land provinces; {sum(bool(row['owner']) for row in rows)} owned; {len(water_province_ids())} water zones discovered.")
     else:
         country_rows = countries.load_manifest()
         countries.validate_rows(country_rows, game)
-        countries.write_outputs(country_rows, game)
-        write_outputs(rows)
-        check_outputs(rows)
+        technology_setup = countries.load_technology_setup(country_rows)
+        countries.write_outputs(country_rows, game, technology_setup)
+        write_outputs(rows, game)
+        check_outputs(rows, game)
         print(f"Generated {len(rows)} land provinces; {sum(bool(row['owner']) for row in rows)} owned; {len(water_province_ids())} water zones discovered.")
     return 0
 

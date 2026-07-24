@@ -7,10 +7,30 @@ add_government_reform = eu4_2k_multiparty_system
 primary_culture = lithuanian
 add_accepted_culture = polish
 religion = catholic
-technology_group = modern_post_soviet
+technology_group = modern_post_soviet_tier_7
 unit_type = eastern
 capital = 272
 set_country_flag = eu4_2k_ruling_group_lit_homeland_union
+# Canonical 2000 economy and reserves from data/country_setup_2000.csv
+set_country_flag = eu4_2k_economic_tier_3
+set_country_flag = eu4_2k_infrastructure_tier_3
+add_treasury = -1000000
+add_treasury = 32
+add_inflation = -100
+add_inflation = 0
+add_stability = -3
+add_stability = 3
+add_prestige = -1000
+add_prestige = 100
+add_corruption = -100
+add_corruption = 0
+add_republican_tradition = -100
+add_republican_tradition = 60
+add_manpower = -1000000
+add_manpower = 12
+add_sailors = -1000000
+add_sailors = 300
+# Canonical starting ADM/DIP/MIL technology from data/country_setup_2000.csv
 # Historical executive birth date: 1956.12.8
 monarch = {
 	name = "Andrius Kubilius"
