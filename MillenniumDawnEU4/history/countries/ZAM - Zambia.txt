@@ -8,7 +8,7 @@ primary_culture = bemba
 religion = catholic
 technology_group = modern_sub_saharan_african
 unit_type = sub_saharan
-capital = 1189
+capital = 4106
 set_country_flag = eu4_2k_ruling_group_zam_independent_or_nonpartisan
 # Historical executive birth date: 1943.4.30
 monarch = {

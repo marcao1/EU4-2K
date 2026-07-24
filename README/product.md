@@ -14,7 +14,9 @@
 
 ### Implemented foundation
 
-The project now has a reproducible `2000.1.1` country foundation: 188 active countries, five dormant successor tags, one modern bookmark, an effective `9999.12.31` engine end date, vanilla religions, modern political reforms, equal-cost regional technology groups, clean undated country histories, and deterministic generation from `data/countries_2000.csv`. Province ownership and the complete playable world remain the next phase.
+The project now has a reproducible `2000.1.1` country and ownership foundation: 188 active countries, five dormant successor tags, 3,521 clean land-province snapshots, one modern bookmark, an effective `9999.12.31` engine end date, vanilla religions, modern political reforms, equal-cost regional technology groups, and deterministic generation from canonical CSV data. Diplomacy, armed forces, technology levels, institutions, and detailed balance remain the next phase.
+
+Step 3 canonical inputs are now established for all 188 active countries: country technology/economic setup, effective diplomacy and organization membership, and simplified army/navy formation records. These datasets remain data-only until the starting-world integration generator writes them into EU4 history.
 
 This document defines what EU4 2K should become and what must be included in its first playable release. It is a product guide, not a promise that every idea listed here is already implemented.
 

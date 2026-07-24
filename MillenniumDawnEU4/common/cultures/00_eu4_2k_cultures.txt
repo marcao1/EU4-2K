@@ -2,8 +2,36 @@
 eu4_2k_modern_east_asian_cultures = {
 	graphical_culture = asiangfx
 
+	di = {
+			primary = DI0
+		}
+
+	khams = {
+			primary = KAM
+		}
+
+	ryukyuan = {
+			province = { local_has_samurai = yes }
+			primary = RYU
+			dynasty_names = {
+				Tenson Eiso Sho
+			}
+		}
+
 	taiwanese = {
 			primary = FRM
+		}
+
+	tangut = {
+			primary = TUY
+			male_names = {
+				Batula Toghan Galdan Amursana Erdeni Choghtu Dawa Esen Güshi Lha-bzang Khara Khula Kho Sengge Tseten 
+				Tsewang Kundelung Lobzang Sutai Tsobasa Ubasi Quduqa Toghto Altai Bäki Bayan Dayan Hami Molon Oori 
+				Sechen Radi Talman Todo Tumen Tumu Ubashi Ulan Wehe Yelu Zaya Orlök
+			}
+			female_names = {
+				Hoelun Tamülün Sorghaghtani Temülen Börte Mandukhai Samar Zaufishan Mulan Aigiarn Borte Chabi Conchaka Doquez-khatum Goland Ho'elun Khultulun Kokachin Mandughai Oghul Qamish Orqina Beki Toregene
+			}
 		}
 
 }
@@ -171,6 +199,83 @@ eu4_2k_modern_middle_eastern_north_african_cultures = {
 			}
 		}
 
+	dinka = {
+			primary = SSU
+			dynasty_names = {
+				Gok Agaar Pakam Nyang Aliab Clec Bor Nyarweng Hol
+			}
+			male_names = {
+				Kapalei Koinet Komeyicin Kurary Leboo Legeny Legishon Lemaron Lemashon Lemayian Lembui Lemuanik 
+				Lolkerra Maitera Masigonde Mbiraru Mejooli Meticiki Murunga Naengop Nampazo Ntimama Oloishona 
+				Parneres Sabore Sankei Sankale Santamo Simel Sironka Surum Tonkei
+			}
+			female_names = {
+				Isina Kingasunye Kiserian Lankenua Liloe Malazo Naeku Naimutiae Naipanoi Naisaruru Naisenya Naisiae
+				Naisianoi Nalangu Nalutuesha Namelok Namunyak Naramal Naserian Nataana Nkasiogi Peresian Pion Resson
+				Sankau Segeyian Semeyian Siglal Siatamei Simaloi Simu Sintamei Sipanto Sopiato Tanei Tentoyia Terenua
+				Tigisi
+			}
+		}
+
+	eastern_berber = {
+			primary = GAR
+			dynasty_names = {
+				Zayyanid Wattasid Rustamid Khurasanid Ifrinid Hammadid Zirid Maghrawa Awraba Midrarid Wasulid
+				Almohad Almoravid "Banu Hilal" "Beni Djellab" "Banu al-Rand" "Banu Khalef" Aghlabid
+			}
+			male_names = {
+				Barakat Basir Dawud Faris Haidar Hashim Jabbar 
+				Junayd Najib Qasim Rahim Rashîd Safi Sakhr Wahid Zahir Jamal Mustafa Muzaffaraddin N'Guna Nasr Nazar Niptasan 
+				Nizamaddin Ptolemee Ptolemy Qutaiba Rashid Sa'id Salah Salla Salomon Solomon Sammer Sayyid Seghada Sekla Shamsaddin 
+				Sifaks Sifal Sinbad Sisso Stembanos Suggut Sultan T'ar'iq Tabat Tacfin Taffounnout Tahir Takfarinas Tanan Tariq 
+				Tegama Thabitah Tifan Theophanus Tiljad Ugdada Ugwistan Umar Uqess'un Uregh Urtilian Urz'ig Uzmir Uzza Wahab 
+				Watt'as Xamida Yabdas Yaghmurasen Yahya Yattuy Yeften Yeh'lem Yiliyen Yuba Yugerten Yugurthen Youkhanna John 
+				Yunes Yusuf Joseph Yuva Z'effun Zafir Zalelsan Zayar Zer'wal Zigza Ziri Zubeyr
+			}
+			female_names = {
+				Randa Tabassum 	Dema Dimah Dinara Dua Durra Durriyya Edza Eleonorka Eleanor Faghissa Fahriya Fariza Fedada 
+				Tazenkwedt Tazirit Tazrurt Tella Temzi Tfit Tigmi Tikinas Tilelli Timmi Tinhinan Tintadefi 
+				Tintifawin Tinzert Tisent Tislit Titbirt Titrit Tizemt Tiziri Triya Tudert Tuh'r'ict Tureght 
+			}
+		}
+
+	fur_culture = {
+			primary = DAR
+			dynasty_names = {
+				Solong Keira Tayrab Dawra Lel Daju Zaghawa al-'Abbasi Silek
+			}
+			male_names = {
+				Sulayman Daali Kuuru Tunsam Musa Muhammad Umar Abu'l "Abd al-Rahman" Ibrahim Ali
+				Yusuf Raqib Adham "'Izz ad-Din" Ahmad 'Asil Abu Salih Derret Busata Murra
+			}
+			female_names = {
+				Shahira Yusra Asma Abda Ahu Aiza Aliyah Butayna Daniyah Dima Fahra Fahriya Fatima Gamila Ghada Habiba Huda Ibtisam 
+				Isra Karima Kera Khadija Layla Maha Malika Mariam Maria Munya Munia Nadia Naila Nur Rafiqa Rahat 
+				Raisa Randa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida Yasmin Zahida Zahra
+			}
+		}
+
+	haratin = {
+			dynasty_names = {
+				Zayyanid Wattasid Rustamid Khurasanid Ifrinid Hammadid Zirid Maghrawa Awraba Midrarid Wasulid
+				Almohad Almoravid "Banu Hilal" "Beni Djellab" "Banu al-Rand" "Banu Khalef" Aghlabid
+			}
+			male_names = {
+				Barakat Basir Dawud Faris Haidar Hashim Jabbar 
+				Junayd Najib Qasim Rahim Rashîd Safi Sakhr Wahid Zahir Jamal Mustafa Muzaffaraddin N'Guna Nasr Nazar Niptasan 
+				Nizamaddin Ptolemee Ptolemy Qutaiba Rashid Sa'id Salah Salla Salomon Solomon Sammer Sayyid Seghada Sekla Shamsaddin 
+				Sifaks Sifal Sinbad Sisso Stembanos Suggut Sultan T'ar'iq Tabat Tacfin Taffounnout Tahir Takfarinas Tanan Tariq 
+				Tegama Thabitah Tifan Theophanus Tiljad Ugdada Ugwistan Umar Uqess'un Uregh Urtilian Urz'ig Uzmir Uzza Wahab 
+				Watt'as Xamida Yabdas Yaghmurasen Yahya Yattuy Yeften Yeh'lem Yiliyen Yuba Yugerten Yugurthen Youkhanna John 
+				Yunes Yusuf Joseph Yuva Z'effun Zafir Zalelsan Zayar Zer'wal Zigza Ziri Zubeyr
+			}
+			female_names = {
+				Randa Tabassum 	Dema Dimah Dinara Dua Durra Durriyya Edza Eleonorka Eleanor Faghissa Fahriya Fariza Fedada 
+				Tazenkwedt Tazirit Tazrurt Tella Temzi Tfit Tigmi Tikinas Tilelli Timmi Tinhinan Tintadefi 
+				Tintifawin Tinzert Tisent Tislit Titbirt Titrit Tizemt Tiziri Triya Tudert Tuh'r'ict Tureght 
+			}
+		}
+
 	israeli = {
 			primary = ISR
 		}
@@ -197,12 +302,41 @@ eu4_2k_modern_middle_eastern_north_african_cultures = {
 			}
 		}
 
+	saidi = {
+			male_names = {
+				Muhammad Ahmad Qânsawh Tûmân Bay Inâl Khusqadam 'Abd al-'Aziz al-Musta'in al-Nasr Faraj Barsbay 
+				Qâyit Bay Shaik al-Mahmudi Timurbughâ 'Uthman Yalbay Jânbulât Yûsuf Barqûq 'Alî Baybars Hâjjî 
+				Bakr al-Hasan Isma'îl Kûjûk Sâlih 'Abd al-Malik Basir Fadl Ghayth Hatim Ilyas Jabir Nadim Nizar 
+				Sayyid Yunus Jaqmaq Qasim Sa'di Sha'bân Abû 
+			}
+			female_names = {
+				Shahira Yusra Asma Abda Ahu Aiza Aliyah Butayna Daniyah Dima Fahra Fahriya Fatima Gamila Ghada Habiba Huda Ibtisam 
+				Isra Karima Kera Khadija Layla Maha Malika Mariam Maria Munya Munia Nadia Naila Nur Rafiqa Rahat 
+				Raisa Randa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida Yasmin Zahida Zahra
+			}
+		}
+
 	sudanese = {
 			primary = SUD
 			male_names = {
 				Mohamed Ahmad Bakri Omar Hassabu Abu Abdallah Abdal Hassan Zubair Ali Salva Alhaj Osman Rahman Gaafar "Abd al-Rahman"
 				Ismail Ibrahim Sadiq Babiker Abdel Ahmed Tijani Mubarak Khidr Adel Asad Alam Isaam Fadl Khairi Yasser Hamdi
 				Mahmoud Jabar Gadir Yahiya Salih Awad Tajj Eddin Yassin Abdel-Aziz Yasir Munir Kamil Hatim
+			}
+			female_names = {
+				Shahira Yusra Asma Abda Ahu Aiza Aliyah Butayna Daniyah Dima Fahra Fahriya Fatima Gamila Ghada Habiba Huda Ibtisam 
+				Isra Karima Kera Khadija Layla Maha Malika Mariam Maria Munya Munia Nadia Naila Nur Rafiqa Rahat 
+				Raisa Randa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida Yasmin Zahida Zahra
+			}
+		}
+
+	toubou = {
+			dynasty_names = {
+				Barka Habre Mansour
+			}
+			male_names = {
+				Hissene Mamane Issa Abdel Majid Sulayman Daali Kuuru Tunsam Musa Muhammad Umar Abu'l Ibrahim Ali
+				Yusuf Raqib Adham Ahmad 'Asil Abu Salih Derret Busata Murra
 			}
 			female_names = {
 				Shahira Yusra Asma Abda Ahu Aiza Aliyah Butayna Daniyah Dima Fahra Fahriya Fatima Gamila Ghada Habiba Huda Ibtisam 
@@ -221,7 +355,20 @@ eu4_2k_modern_oceanian_cultures = {
 
 }
 eu4_2k_modern_post_soviet_cultures = {
-	graphical_culture = muslimgfx
+	graphical_culture = easterngfx
+
+	alan = {
+			primary = ALN
+			male_names = {
+				Ælbeg Æmbalan Aghsartan Alatey Akhsar Anbal Anbazuk Aravat Arsen Askhkadar Ashot Aslan Aspar Athom Balambar Balsag Barlah Bæqætar Basil Bazuk Beler Ber Biræg Boz-Uruz Buürgur Buriberdi
+				Burikhan Candak Chelakhsartag Davit Djadaron Durgulel Dzæræs Gætæg Georgy Girgon Gokhar Gubaz Guram Hasqar Huddan Istor Itaz Iveri Kandak Kandz Kavtia Kaur
+				Khankhusy Khætag Konstantin Kubal Kuddana Kul Kuluk Lak Levan Pulad Respendial Rosmag Safrak Sakhir Sangipan Saros Sathis Savkudz Soslan Suarn Syrdon Taymuraz Taus Totraz Urdure Uruzma Uturku Yasynya Zaur
+			}
+			female_names = {
+				Adadza Alda Altun Ana Atsyrukhs Baia Bedisa Borena Btsenon Burudukan Duda Elene Eliso Gergana Gulchara Guranduht Kera Keratsa Ketevan Koser
+				Lamara Lashin Lela Mariami Natia Nino Rusudan Sanatha Satinik Shatana Shorena Shukhia Tamari Tinatini Tsiala Vardo Vedokha Yeran
+			}
+		}
 
 	tajik = {
 			primary = TJK
@@ -238,9 +385,258 @@ eu4_2k_modern_post_soviet_cultures = {
 			}
 		}
 
+	tuvan = {
+			primary = TUV
+			dynasty_names = {
+				Badarhan Tabangut 
+			}
+		}
+
+}
+eu4_2k_modern_south_asian_cultures = {
+	graphical_culture = indiangfx
+
+	bagheli = {
+			primary = BGL
+			dynasty_names = {
+				Baghela Malikzada Bundela Tomara Karkare Newalkar 
+			}
+		}
+
+	hazara = {
+			dynasty_names = {
+				Aimaq Attarwala Behsud Dahla Daikundi Daizangi Daizinyat Jaghori Maska Nekpai Nikudari Poladha Pashi Qarqin Qataghan Tanoli
+			}
+			male_names = {
+				Abdul Ustad Karim Sultan Ramazan Mohammad Qazi Hussain Akram Qurban Sayed Sarwar Haji Azizullah Dawood Ghulam Nasrullah
+				Abbas Sayyed Arif Ali Asadullah
+			}
+			female_names = {
+				Habiba Sima Maryam Azra Rahila Zahera Bibi
+			}
+		}
+
+	khasi = {
+			primary = JNT
+			dynasty_names = {
+				Khynriam Pnar Bhoi War Maram Lyngngam Diko
+			}
+			male_names = {
+				Urmi Krishak Hatak Guhak Jayanta Joymalla Mahabal Bancharu Kamadeva Bhimbal Kandarpa Manik Jayanta Jayanti Bara
+				Prabhat Burha Borgohain Bijay Pratap Dhan Jasa Sundar Chota Jasamanta Gurak Srihasta Kritti Bhut Navagirvan
+				Gokul Kangsa Ishan Pravir Bhujavir Ladduk Shambhuk Navarjun Madhab
+			}
+			female_names = {
+				Aibakor Akor Apjingkyrmen Kyntiew Kyrsoi Janai Badap Baia Balari Banphira Shatsngi
+			}
+		}
+
+	ladakhi = {
+			primary = LDK
+		}
+
+}
+eu4_2k_modern_southeast_asian_cultures = {
+	graphical_culture = asiangfx
+
+	bahnaric = {
+			primary = KOH
+			dynasty_names = {
+				Angkor "Siem Reap" Oudong Battambang "Stung Treng" Kratie "Phnom Penh"
+			}
+			male_names = {
+				"Barom Reachea" "Noreay Ramathipatei" "Soriyotei" "Thommo Reachea" "Srey Sukonthor" "Ang Chan" "Reachea Ramathipatei"
+				"Chey Chettha" "Ney Khan" "Preah Ram" "Keo Hua" "Outey Reachea" "Dharmaraja" "Padumaraja" "Ramathipadi" "Satha" "Ream Reachea" "Narayanaraja" "Ponhea Yat"
+				"Sri Raja" "Rajadhiraja" "Dharmarajadhiraja" "Damkhat Sukonthor" "Reamea Chungprey" "Keo Ban On" "Ponhea Yor" "Ponhea An" "Ponhea Nhom" "Srei Soriyopear" "Udayaraja" "Ponhea To" "Ang Non" "Ponhea Chan" "Ang Sur" 
+				"Ang Chea" "Ang Nan" "Ang Sor" "Ang Yong" "Ang Em" "Ang Tham" "Ang Sngoun" "Ang Tong" "Ang Ton" "Ang Eng" 
+				"Ang Duong"
+			}
+			female_names = {
+				"Sakngea" "Ang Mey" "Anak Moneang Krachap" "Neang Pou" Achariya Akara Anchali Arunny Ary Bopha Botum 
+				Boupha Champei Champey Chamroeun Chan Chankrisna Chanlina Chanmony Channary Chanthavy Chantou Chantrea 
+				Chanvatey Chariya Chavy Chaya Chea Chenda Chhaiya Chhean Chhorvin Chhorvon Chivy Choum Da Daevy Dara 
+				Darareaksmey Davi Jorani Kalianne Kaliyanei Kalliyan Kanleakhana Kannareth Kannitha Kanya Kesor Kolab Kolthida 
+				Kravann Kun Thea Kunthea Leakena Leap Mach: Makara Malis Maly Mau Mealea Mliss Mony Nakry Thom Thyda Tina 
+				Toch Tola Vanna Veasna Veata Vimean Nary Nearidei Neary Reach Reaksmey Rangsei Reasmey Sokha Sokhanya Sokhom 
+				Sok Mean Rom Chang Rotha Samphy Roumduol Roumjong Samnang Saley Savady Sawatdee Seda Seyha Sikha Sinuon Sita 
+				Soboen Socheat Sombo Sonisay Sonith Peou Nuon Phally Phary Pich Pheakdei Pheakkley Phhoung Ponlok Ponnleu 
+				Pisey Putrea Punthea Rachana Rachany 
+			}
+		}
+
+	banjarese = {
+			primary = BNJ
+			dynasty_names = {
+				Burnei Kutai Sibu Kuching
+			}
+			male_names = {
+				"Muhammad" "Ahmad" "Sulaymân" "Bulkiah" "'Abd al-Qahhar" "Sayf ar-Rijal" "Hasan" "'Abd al-Jalîl" "Muhammad 'Alî" "'Abd al-Mubin" "Muhyî ad-Dîn" "Nasr ad-Dîn" "Kamâl ad-Dîn" "Alâ' ad-Dîn" "Sayf ad-Dîn" "Muhammad Jamâl ad-Dîn" "Muhammad Tâj ad-Dîn"
+			}
+			female_names = {
+				"Rim" Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu’utea Orama Poe Pear Poehina Poenui Poerava Puaiti 
+				Puatea Puaura Ra’ihau Ra’imere Ra’inui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani 
+				Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea 
+				Vaite Vaitiare
+			}
+		}
+
+	dayak = {
+			primary = TNP
+			dynasty_names = {
+				Burnei Kutai Sibu Kuching
+			}
+			male_names = {
+				"Muhammad" "Ahmad" "Sulaymân" "Bulkiah" "'Abd al-Qahhar" "Sayf ar-Rijal" "Hasan" "'Abd al-Jalîl" "Muhammad 'Alî" "'Abd al-Mubin" "Muhyî ad-Dîn" "Nasr ad-Dîn" "Kamâl ad-Dîn" "Alâ' ad-Dîn" "Sayf ad-Dîn" "Muhammad Jamâl ad-Dîn" "Muhammad Tâj ad-Dîn"
+			}
+			female_names = {
+				"Rim" Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu’utea Orama Poe Pear Poehina Poenui Poerava Puaiti 
+				Puatea Puaura Ra’ihau Ra’imere Ra’inui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani 
+				Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea 
+				Vaite Vaitiare
+			}
+		}
+
+	ilocano = {
+			primary = PGS
+		}
+
+	khmu = {
+			primary = CTB
+			dynasty_names = {
+				Angkor "Siem Reap" Oudong Battambang "Stung Treng" Kratie "Phnom Penh"
+			}
+			male_names = {
+				"Barom Reachea" "Noreay Ramathipatei" "Soriyotei" "Thommo Reachea" "Srey Sukonthor" "Ang Chan" "Reachea Ramathipatei"
+				"Chey Chettha" "Ney Khan" "Preah Ram" "Keo Hua" "Outey Reachea" "Dharmaraja" "Padumaraja" "Ramathipadi" "Satha" "Ream Reachea" "Narayanaraja" "Ponhea Yat"
+				"Sri Raja" "Rajadhiraja" "Dharmarajadhiraja" "Damkhat Sukonthor" "Reamea Chungprey" "Keo Ban On" "Ponhea Yor" "Ponhea An" "Ponhea Nhom" "Srei Soriyopear" "Udayaraja" "Ponhea To" "Ang Non" "Ponhea Chan" "Ang Sur" 
+				"Ang Chea" "Ang Nan" "Ang Sor" "Ang Yong" "Ang Em" "Ang Tham" "Ang Sngoun" "Ang Tong" "Ang Ton" "Ang Eng" 
+				"Ang Duong"
+			}
+			female_names = {
+				"Sakngea" "Ang Mey" "Anak Moneang Krachap" "Neang Pou" Achariya Akara Anchali Arunny Ary Bopha Botum 
+				Boupha Champei Champey Chamroeun Chan Chankrisna Chanlina Chanmony Channary Chanthavy Chantou Chantrea 
+				Chanvatey Chariya Chavy Chaya Chea Chenda Chhaiya Chhean Chhorvin Chhorvon Chivy Choum Da Daevy Dara 
+				Darareaksmey Davi Jorani Kalianne Kaliyanei Kalliyan Kanleakhana Kannareth Kannitha Kanya Kesor Kolab Kolthida 
+				Kravann Kun Thea Kunthea Leakena Leap Mach: Makara Malis Maly Mau Mealea Mliss Mony Nakry Thom Thyda Tina 
+				Toch Tola Vanna Veasna Veata Vimean Nary Nearidei Neary Reach Reaksmey Rangsei Reasmey Sokha Sokhanya Sokhom 
+				Sok Mean Rom Chang Rotha Samphy Roumduol Roumjong Samnang Saley Savady Sawatdee Seda Seyha Sikha Sinuon Sita 
+				Soboen Socheat Sombo Sonisay Sonith Peou Nuon Phally Phary Pich Pheakdei Pheakkley Phhoung Ponlok Ponnleu 
+				Pisey Putrea Punthea Rachana Rachany 
+			}
+		}
+
+	kutainese = {
+			primary = KUT
+			dynasty_names = {
+				Burnei Kutai Sibu Kuching
+			}
+			male_names = {
+				"Muhammad" "Ahmad" "Sulaymân" "Bulkiah" "'Abd al-Qahhar" "Sayf ar-Rijal" "Hasan" "'Abd al-Jalîl" "Muhammad 'Alî" "'Abd al-Mubin" "Muhyî ad-Dîn" "Nasr ad-Dîn" "Kamâl ad-Dîn" "Alâ' ad-Dîn" "Sayf ad-Dîn" "Muhammad Jamâl ad-Dîn" "Muhammad Tâj ad-Dîn"
+			}
+			female_names = {
+				"Rim" Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu’utea Orama Poe Pear Poehina Poenui Poerava Puaiti 
+				Puatea Puaura Ra’ihau Ra’imere Ra’inui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani 
+				Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea 
+				Vaite Vaitiare
+			}
+		}
+
+	minangkabau = {
+			primary = PGR
+			dynasty_names = {
+				Siak Aceh Pasai Pagarruyung Palembang Jambi
+			}
+			male_names = {
+				"Inayat" "'Alî Mugâyat" "Iskandar Tanî" "Husayn 'Alî Ri'âyat" "Menradza" "Tsalenggathu" "Gadzabadi" 
+				"Tsau-Lha" "Mengtsekya"
+			}
+			female_names = {
+				Amritpal Merenui Metetini Miri Moea Moeata Moerani Mohea Nanihi Nu’utea Orama Poe Pear Poehina Poenui Poerava Puaiti 
+				Puatea Puaura Ra’ihau Ra’imere Ra’inui Ranitea Rarahu Raunui Raurii Tahiata Taiana Taina Tania Taurua Tautiare Tehani 
+				Tehea Teora Tera Tevai Titaina Titaua Tuianu Tumata Unutea Urarii Vaea Vaiana Vaianu Vaiata Vaihere Vaimiti Vairea 
+				Vaite Vaitiare
+			}
+		}
+
+	visayan = {
+			primary = CEB
+		}
+
 }
 eu4_2k_modern_sub_saharan_african_cultures = {
 	graphical_culture = africangfx
+
+	agaw = {
+			primary = AWI
+			dynasty_names = {
+				Solomonid
+				#CK2 Ethiopian
+				"Darod" "Marisid" "Muqurrid" "Pakhoras" "Ramlid" "Sebsibeid" "Kebedeid" "Bekeleid" 
+				"Abateid" "Sabraid" "Astatkeid" "Habeshid" "Dubé" "Gobena" "Selassie" "Zagwe" "Dengel" "Sehul" 
+				"Daw" "Alwa" "Dahnay" "Gideon" "Assabi" "Afari" "Tamirat" "Mengesha" "Teka" "Getachew" "Na'akuelo" "Yostos" 
+				"Merkourios" "Shamumun" "Desta"
+				
+			}
+			male_names = {
+				Amare Dahnay Desta Getachew Geteye Girma Iskinder Abai Abebe Afework Aman Assefa Atoberhan Azmera Bekele 
+				Benaim Berhanu Berhanua Berihun Berta Bworo Daniachew Dawit Demissie Eremias Ezana Fasilidas Fethee Gabra 
+				Gebereal Gebre Gondar Hackeem Haeran Hagos Hakeem Hakiem Hakim Hakym Iskander Alexander
+				Iyasu Jima Kafa Kaleb Kelile Kelyle Kifle Lebna Lema Loua Mamo Mekonnen Melaku Mengesha Merille Miruts 
+				Negash Negasi Negus Ogbae Ogbai Oromo Rahad Selassie Semer Semere Sisay Tamirat Tariku Taye Tefere Teferi 
+				Teka Tekle Tengene Teruworq Tesfaye Tessema Tewodros Yacob Yohannas Yonas Zula
+			}
+			female_names = {
+				Habesha Abeba Abrihet Adanech Adina Alaworld Alitash Amhara Ayana Bathsheba Bekele Belkis Berhane Berta 
+				Cheren China Debre Debtera Desse
+				Desta Dilla Falasha Falashina Fana Fannah Genat Hagos Jahzara Jazarah Kayla Kelile Kelyle Keren Kess Kifle 
+				Lishan Louama Magdala Maharene
+				Makda Makeda Mandera Melesse Mellesse Misrak Negasi Nishan Nyala Qwara Retta Seble Sela Selamawit Selassie 
+				Semhar Senalat Sheba Shinasha
+				Sisay Tavavich Teru Totit Tsage Wagaye Yehudit Zala Zauditu Zeina Zena Zenia
+			}
+		}
+
+	bariba = {
+			primary = BOR
+			dynasty_names = {
+				"Tenga Niama" "Moogo" "Naaba"
+				Addy Afrifa Sadami Sabah Zakari
+				Offei Donkor Akoto
+			}
+			male_names = {
+				Sapilem Nyambre Salma Korongo Koom Yamba Sorgo Tigre Dulugu Sawadogo Karfo Baongo Kutu Wobgo Mazi 
+				Sigiri Saaga Kugri Yadega Yolomfaogona Kourita Geda Wobgho Kango Kaongo Tuguri Korogo Ragongo
+				Nyambe Moogo Totebaldbo Yemde Sanum Woboga Piiyo Bulli Wedraogo Ligidi Kobga Gigma Dramani
+			}
+			female_names = {
+				Poko Kenga Adaeze Adanna Adannaya Akachi Akuchi Amaka Schiamaka Amara Amarachi Añuli Chi 
+				Chiamaka Chibueze Chibuike Chibuzo Chichi Chidi Chidiebere Chidiebube Chidiegwu Chidimma Chijindum Chika  
+				Chike Chikelu Chikere Chinasa Chinedu Chinonso Chinwe Chinweike Chinwendu Chinweuba Chinyelu Chinyere 
+				Chioma Chizoba Ebele Ekene Ekenedilichukwu Fumnanya Funanya Ndidi Ngozi Nkechi Nkechinyere Nkemdilim Nkiru 
+				Nkiruka Nneka Nnenna Nnenne Nwanneka Ogechi Ogechukwukama Oluchi Onyeka Onyekachi Onyekachukwu Udo Uzoma
+			}
+		}
+
+	edo = {
+			primary = BEN
+			dynasty_names = {
+				Alaafin Eweka Ubah Umaru Aliu Solaja Okara
+				Ajuwa Ezinwa Kanu Opara Rufai
+			}
+			male_names = {
+				Oranyan Sango Ajaka Aganju Kari Oluaso Onigbogi Ofinran Eguguoju Orompoto Ajiboyede Abipa Obalokun Ajagbo 
+				Odorawu Kanran Jayin Ayibi Osiyago Ojigi Gberu Amuniwaiye Onisle Labisi Agboluaje Majeogbe Abiodun Awole 
+				Arongangan Adebo Maaku Aburumaku Majotu Do Aklim Dakondunu Ganye Hessu Wegbaja Akaba Agaja Tegbesu Kpengla 
+				Anonglo Haholo Kpasse Ayohuan Agbangia
+			}
+			female_names = {
+				Winona Isi Abeni Abimbola Abiodun Ade Adebola Adebowale Adedayo Adetokunbo Alaba Ayo Ayodele Ayomide 
+				Ayotunde Bolanle Bosede Dada Dayo Ekundayo Eniola Enitan Folami Gbemisola Idowu Ife Ige Kayin Mojisola 
+				Monifa Olamide Olayinka Olubunmi Olufunke Olufunmilayo Olufunmilola Oluwafunmilayo Oluwakanyinsola 
+				Oluwasegun Oluwaseun Oluwaseyi Oluwatoyin Oluwayemisi Omobolanle Omolara Oni Opeyemi Simisola Temitope 
+				Titilayo Yejide Yewande
+			}
+		}
 
 	fang = {
 			primary = GAB
@@ -259,6 +655,69 @@ eu4_2k_modern_sub_saharan_african_cultures = {
 	herero = {
 		}
 
+	igbo = {
+			primary = NR1
+			dynasty_names = {
+				Alaafin Eweka Ubah Umaru Aliu Solaja Okara
+				Ajuwa Ezinwa Kanu Opara Rufai
+			}
+			male_names = {
+				Oranyan Sango Ajaka Aganju Kari Oluaso Onigbogi Ofinran Eguguoju Orompoto Ajiboyede Abipa Obalokun Ajagbo 
+				Odorawu Kanran Jayin Ayibi Osiyago Ojigi Gberu Amuniwaiye Onisle Labisi Agboluaje Majeogbe Abiodun Awole 
+				Arongangan Adebo Maaku Aburumaku Majotu Do Aklim Dakondunu Ganye Hessu Wegbaja Akaba Agaja Tegbesu Kpengla 
+				Anonglo Haholo Kpasse Ayohuan Agbangia
+			}
+			female_names = {
+				Winona Isi Abeni Abimbola Abiodun Ade Adebola Adebowale Adedayo Adetokunbo Alaba Ayo Ayodele Ayomide 
+				Ayotunde Bolanle Bosede Dada Dayo Ekundayo Eniola Enitan Folami Gbemisola Idowu Ife Ige Kayin Mojisola 
+				Monifa Olamide Olayinka Olubunmi Olufunke Olufunmilayo Olufunmilola Oluwafunmilayo Oluwakanyinsola 
+				Oluwasegun Oluwaseun Oluwaseyi Oluwatoyin Oluwayemisi Omobolanle Omolara Oni Opeyemi Simisola Temitope 
+				Titilayo Yejide Yewande
+			}
+		}
+
+	khoi = {
+			primary = NMB
+		}
+
+	kru = {
+			dynasty_names = {
+				Denkyirahene "Oyoko Abohyen" Kotokuhene Bonohene
+				Addy Afrifa Sadami Sabah Sribor Moyoyo
+			}
+			male_names = {
+				"Beriguwiemda" "Zolgo" "Zongman" "Nengmitoni" "Dimani" "Yanza" "Dariziogo" "Luro" "Tutugri" "Zagale" 
+				"Zokuli" "Gungoble" "Boadu Akofu Berempon" "Boa Amponsem" "Ntim Gyakari" "Ose Tutu" "Opoku Fofie" 
+				"Opoku Ware" "Kusi Obodum" "Osei Bonsu" "Osei Kojo" "Osei Kwame" "Osei Fofie" "Osei Yaw" "Kwaku Dua" 
+				"Salifu Saatankugri" "Mahama Kuluguba" "Nyagse" "Zulande" "Zangina" "Andan Sigili" "Jimli" "Zibirim" 
+				"Gariba" "Yakuba" "Ayekeraa" "Kokobo" "Ahaha" "Warembe Ampen" "Agyinamoa" "Twum" "Kobla Amana" "Akenten" 
+				"Obiri Yeboa" "Opoku" "Antwi"
+			}
+			female_names = {
+				Adaeze Adanna Adannaya Akachi Akuchi Amaka Schiamaka Amara Amarachi Añuli Chi Chiamaka Chibueze Chibuike 
+				Chibuzo Chichi Chidi Chidiebere Chidiebube Chidiegwu Chidimma Chijindum Chika Chike Chikelu Chikere 
+				Chinasa Chinedu Chinonso Chinwe Chinweike Chinwendu Chinweuba Chinyelu Chinyere Chioma Chizoba Ebele Ekene 
+				Ekenedilichukwu Fumnanya Funanya Ndidi Ngozi Nkechi Nkechinyere Nkemdilim Nkiru Nkiruka Nneka Nnenna 
+				Nnenne Nwanneka Ogechi Ogechukwukama Oluchi Onyeka Onyekachi Onyekachukwu Udo Uzoma
+			}
+		}
+
+	maba = {
+			primary = WAD
+			dynasty_names = {
+				Solong Keira Tayrab Dawra Lel Daju Zaghawa al-'Abbasi Silek
+			}
+			male_names = {
+				Sulayman Daali Kuuru Tunsam Musa Muhammad Umar Abu'l "Abd al-Rahman" Ibrahim Ali
+				Yusuf Raqib Adham "'Izz ad-Din" Ahmad 'Asil Abu Salih Derret Busata Murra
+			}
+			female_names = {
+				Shahira Yusra Asma Abda Ahu Aiza Aliyah Butayna Daniyah Dima Fahra Fahriya Fatima Gamila Ghada Habiba Huda Ibtisam 
+				Isra Karima Kera Khadija Layla Maha Malika Mariam Maria Munya Munia Nadia Naila Nur Rafiqa Rahat 
+				Raisa Randa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida Yasmin Zahida Zahra
+			}
+		}
+
 	masai = {
 			primary = KEY
 			dynasty_names = {
@@ -275,6 +734,30 @@ eu4_2k_modern_sub_saharan_african_cultures = {
 				Sankau Segeyian Semeyian Siglal Siatamei Simaloi Simu Sintamei Sipanto Sopiato Tanei Tentoyia Terenua
 				Tigisi
 			}
+		}
+
+	mongo = {
+		}
+
+	san = {
+		}
+
+	sara = {
+			dynasty_names = {
+				Barka Habre Mansour
+			}
+			male_names = {
+				Hissene Mamane Issa Abdel Majid Sulayman Daali Kuuru Tunsam Musa Muhammad Umar Abu'l Ibrahim Ali
+				Yusuf Raqib Adham Ahmad 'Asil Abu Salih Derret Busata Murra
+			}
+			female_names = {
+				Shahira Yusra Asma Abda Ahu Aiza Aliyah Butayna Daniyah Dima Fahra Fahriya Fatima Gamila Ghada Habiba Huda Ibtisam 
+				Isra Karima Kera Khadija Layla Maha Malika Mariam Maria Munya Munia Nadia Naila Nur Rafiqa Rahat 
+				Raisa Randa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida Yasmin Zahida Zahra
+			}
+		}
+
+	tonga = {
 		}
 
 	tswana = {
@@ -312,10 +795,22 @@ eu4_2k_modern_sub_saharan_african_cultures = {
 eu4_2k_modern_western_cultures = {
 	graphical_culture = westerngfx
 
+	arpitan = {
+		}
+
 	british_australian = {
 		}
 
+	british_californian = {
+		}
+
 	british_canadian = {
+		}
+
+	british_la_platan = {
+		}
+
+	british_louisianan = {
 		}
 
 	british_oceanian = {
@@ -361,6 +856,99 @@ eu4_2k_modern_western_cultures = {
 				Lajoie Landry Laurin Leblanc Lesage Lévesque Lisée Marchand Marois Mercier Morin 
 				Mousseau Normandeau Ouimet Parent Parizeau Péladeau Prévost Prud'homme Sauvé Taillefer 
 				Talbot Taschereau Thériault Tremblay
+			}
+		}
+
+	french_colombian = {
+		}
+
+	gaelic_canadian = {
+			dynasty_names = {
+				"Alt Clut" "Dál Riata" Alpin Óengus Cruithne
+			}
+			male_names = {
+				Achiuir Aethon Aenbecan Allan Allcallorred Allisander Aniel Ardle Auust Bili Bran Breth Bridei Briog Broichan
+				Brude Caltram Canu Canuall Canan Caradaig Caruorst Castant Castantin Ciniod Crup Dabuut Deocillimon Deoord
+				Domelch Drest Drosten Eddarrnonn Elpin Enuidaig Erpin Galam Ganant Garalt Gede Gest Gigurum Girom Idual
+				Iduallon Iestan Iuan Irb Lutrin Mael Maelchon Manath Mordeleg Morleo Murtolic Naiton Ninian Pedric Pedur
+				Paul Pidarnoin Ru Ruatirch Rubert Rudri Telurg Telurgan Taran Tarla Uipoig Uist Uuochu
+				Uoret Unen Unuist Urguist Usuullt Uthoil Uudrost Uuen Uuid Uuirp Uuredach Uuroid
+			}
+			female_names = {
+				Addiena Abrella Allust Arnemetia Brethoc Bride Bronuen Caitrion Cristin Durilia Elaine
+				Elen Eua Madru Maelmurie Mairi Margrud Maud Mor Morag Morien Muriel Neulina Sara
+				Siunod Uen Uluen Uuena Uunis Uusbail
+			}
+		}
+
+	germanic_caribbean = {
+		}
+
+	iberian_louisianan = {
+			dynasty_names = {
+				"de Trastámara" "de Guzmán" "Álvarez de Toledo" "de la Cerda" "de Castilla" "de Valencia"
+				Téllez-Girón "Manrique de Lara" "de Ávalos" Enríquez "Osuna" "Argavieso" Ruspoli "Lasso de la Vega" "de Hoyos" Zayas "de Alcalá"
+				#CK2
+				"de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"  
+				"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
+				Zúñiga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
+			}
+			male_names = {
+				Enrique Fernando Juan Felipe Carlos Sancho Ramiro Pedro Alonso Baltasar 
+				Bernardo Bertrán Hernando
+				Cristobal Domingo Esteban Fadrique Francisco Gómez Gonzalo Hermenegildo 
+				Ignacio Laín Lope Miguel Nuño Odón Ramón Rodrigo Tomás Valeriano
+				Alfonso Alphonse Álvar Oliver Álvaro Bermudo Vermudo Diego Diaco 
+				Henry Frederick Philip Ferdinand Fruela Froila García Garcia Gil 
+				Egidius Gomez Guillén William Guillermo Gutierre Walter
+				Lupo Luis Louis Manrique Amalric Martín Martin Munio Nuno Ordoño Ordono 
+				Obeko Peter Pelayo Pelagius Roderick Salvador
+				Suero Tello Vela Oveco John
+			}
+			female_names = {
+				Aldonza Anderquina Beatriz Beatrice Berenguela Berengaria Blanca Blanche Constanza 
+				Constance Elvira Estefanía Stephania Fronilda Fronilde Gontroda Gotruda Inés Agnes 
+				Elisabeth Jimena Ximena Juana Joan Leonor Eleanor Mafalda Matilda María Maria Marina Marine 
+				Mayor Mencía Mencia Milia Emily Sancha Teresa Toda Urraca
+				Isabel
+			}
+		}
+
+	kashubian = {
+			graphical_culture = easterngfx
+			primary = PMR
+			male_names = {
+				August Wladyslaw Stanislaw Kazimierz Aleksander Henryk Albert Kazimierz Michal Stefan 
+				August Aleksander Karol Kazimierz Krzysztof Fryderyk Olbracht Jan Karol Patryk
+				Ferdynand Olbracht Albert Aleksy Andrzej Bartlomiej Bogumil Bronislaw Dawid Dominik Emil Eugeniusz 
+				Ferdynand Gustaw Igor Iwan Krystian Lech Lucjusz Ludwik Lukasz Maksym Mariusz Mieszko Miroslaw 
+				Rafal Sylwester Szymon Zygfryd Oskar
+				Aleksander Alexander Andrzej Andrew Bartosz Bartolomeus Bezprym Boguchwal Bogumil Boleslaw 
+				Boleslav Boncza Bonifacius Borzyslaw Bozydar Theodat Borzywoj Borijov Budziwuj Czcibor 
+				Czyrzniech Dalimir Daniel Daniel Dobieslaw Dobrogost Dobromir Doman Domawuj Dytryk Thierry 
+				Eustachy Eustace Gaudenty Gierolt Gerald Gniewomir Gniewosz Gosciwuj Goszczon Henryk Henry 
+				Izbor Józef Joseph Jacek Hyacinth Jaksa Jacob Jakub Jacob Jakusz John Janislaw John 
+				John Janusz John Jaroslaw Jaroslav Jerzy George Karol Charles Kazimierz Konrad Konrad 
+				Christian Krzeslaw Lambert Lambert Leszek Ctibor
+				Maciej Matthew Macko Matthew Malowuj Marcin Martin Maslaw Mateusz Matthew Mieszko Mikolaj 
+				Nicholas Milobrat Milosz Milosz Miroslaw Miroslav Msciwoj Mszczuj Nadbor Niezamysl Odon 
+				Pawel Paul Pelka Piotr Peter Piskla Prendota Przemyslaw Premysl Przybor Sambor Sedziej 
+				Sieciech Siemomysl Siemowit Skarbimir Snowid Spytko Stanislaw Stanislav
+				Stefan Stephen Stoigniew Strasz Sulislaw Sulistryj Swietopelk Svatopluk Swietoslaw 
+				Szczesny Felix Tomasz Thomas Trojden Twardomir Usciech Waclaw Vaclav Wanko Vaclav 
+				Laurence Wielislaw Wieslaw Wincenty Vincent Wit Guy Witosz Wladyslaw Vladislav Wojciech 
+				Wojuta Wszebor Vsebor Zbigniew Zbynek Zbyszko Zbynek Zegota Ignatius Zelibrat
+				Zygmunt Sigmund Albert Wawrzyniec Sviatoslav Sedzimir Otto Krystyn Janko Imram
+			}
+			female_names = {
+				Adelajda Adleta Agnieszka Agnes Aldona Anastazja Anastasia Anna Anna Beata Bozena Danuta 
+				Dobrawa Dobronega Elzbieta Elisabeth Eufemia Euphemia Eufrozyna Gertruda Gertrude 
+				Helena Helen Jadwiga Jolanta Yolanda Judyta Judith Katarzyna Catherine Kazimiera Kenna 
+				Konstancja Constance Krystyna Christina Kunegunda Lucja Lucia Ludmila Magdalena Magdalena 
+				Malgorzata Maria Maria Kinga Grzymislawa Richeza Agafia
+				Matylda Matilda Milena Nadzieja Nawoja Pechna Rycheza Ryksa Salomea Samboja Scholastyka 
+				Smiechna Stanislawa Swietoslawa Wislawa Wojslawa
+				Wolislawa Wszebora Wszemila Zofia Sophia Zwinislawa
 			}
 		}
 

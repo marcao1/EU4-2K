@@ -8,7 +8,7 @@ primary_culture = fon
 religion = shamanism
 technology_group = modern_sub_saharan_african
 unit_type = sub_saharan
-capital = 1147
+capital = 1141
 set_country_flag = eu4_2k_ruling_group_ben_independent_or_nonpartisan
 # Historical executive birth date: 1933.9.2
 monarch = {

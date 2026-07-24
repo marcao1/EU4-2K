@@ -21,6 +21,7 @@ from typing import Iterable, Iterator, Sequence
 ROOT = Path(__file__).resolve().parents[1]
 MOD = ROOT / "MillenniumDawnEU4"
 DATA = ROOT / "data" / "countries_2000.csv"
+PROVINCE_DATA = ROOT / "data" / "provinces_2000.csv"
 ET = ROOT / "ExtendedTimeline 1.18.2" / "ExtendedTimeline"
 DEFAULT_GAME_CANDIDATES = (
     Path(r"F:\Steam\steamapps\common\Europa Universalis IV"),
@@ -880,6 +881,17 @@ def modern_cultures(rows: Sequence[dict[str, str]], game: Path) -> tuple[str, li
         for culture in used:
             if culture not in base_cultures:
                 assignments.setdefault(culture, (row["technology_group"], row["graphical_culture"]))
+    countries = {row["tag"]: row for row in rows}
+    if PROVINCE_DATA.exists():
+        with PROVINCE_DATA.open("r", encoding="utf-8-sig", newline="") as handle:
+            for province in csv.DictReader(handle):
+                culture = province.get("culture", "")
+                if not culture or culture in base_cultures:
+                    continue
+                owner = countries.get(province.get("owner", ""))
+                technology_group = owner["technology_group"] if owner else "modern_western"
+                graphical_culture = owner["graphical_culture"] if owner else "westerngfx"
+                assignments.setdefault(culture, (technology_group, graphical_culture))
 
     et_source = (ET / "common" / "cultures" / "00_cultures.txt").read_bytes().decode("cp1252", errors="replace")
     groups: dict[str, list[tuple[str, str, str]]] = {}
@@ -1026,14 +1038,15 @@ def text_outputs(rows: Sequence[dict[str, str]], game: Path) -> dict[Path, tuple
         MOD / "common" / "technology.txt": (technology_text(game), "cp1252"),
         MOD / "common" / "defines" / "zz_eu4_2k_dates.lua": ('NDefines.NGame.START_DATE = "2000.1.1"\nNDefines.NGame.END_DATE = "9999.12.31"\n', "ascii"),
         MOD / "common" / "bookmarks" / "00_eu4_2k_2000.txt": ("bookmark = {\n\tname = \"EU4_2K_2000_NAME\"\n\tdesc = \"EU4_2K_2000_DESC\"\n\tdate = 2000.1.1\n\tcountry = USA\n\tcountry = RUS\n\tcountry = CHN\n\tcountry = GER\n\tcountry = FR2\n\tcountry = GBR\n\tcountry = YUG\n}\n", "cp1252"),
-        MOD / "history" / "provinces" / "00_placeholder.txt": (
-            "# Empty clean province-history layer used while generating the 2000 snapshot.\n",
-            "cp1252",
-        ),
-        MOD / "localisation" / "eu4_2k_countries_l_english.yml": (country_localisation(rows), "utf-8-sig"),
+        MOD / "localisation" / "replace" / "zz_eu4_2k_countries_l_english.yml": (country_localisation(rows), "utf-8-sig"),
         MOD / "localisation" / "eu4_2k_framework_l_english.yml": (framework_localisation(rows), "utf-8-sig"),
         MOD / "localisation" / "eu4_2k_cultures_l_english.yml": (culture_localisation(rows, game), "utf-8-sig"),
     }
+    if not PROVINCE_DATA.exists():
+        outputs[MOD / "history" / "provinces" / "00_placeholder.txt"] = (
+            "# Empty clean province-history layer used while generating the 2000 snapshot.\n",
+            "cp1252",
+        )
     for row in rows:
         outputs[MOD / "common" / "countries" / f"EU4_2K_{row['tag']}.txt"] = (country_definition(row, game), "cp1252")
         safe_name = re.sub(r'[<>:"/\\|?*]', "", row["name"])
@@ -1056,6 +1069,12 @@ def flag_source(row: dict[str, str], game: Path) -> Path:
 
 def write_outputs(rows: Sequence[dict[str, str]], game: Path) -> None:
     outputs = text_outputs(rows, game)
+    legacy_country_localisation = MOD / "localisation" / "eu4_2k_countries_l_english.yml"
+    if legacy_country_localisation.exists():
+        legacy_country_localisation.unlink()
+    old_replace_localisation = MOD / "localisation" / "replace" / "eu4_2k_countries_l_english.yml"
+    if old_replace_localisation.exists():
+        old_replace_localisation.unlink()
     history_dir = MOD / "history" / "countries"
     expected_history = {path for path in outputs if path.parent == history_dir}
     if history_dir.exists():

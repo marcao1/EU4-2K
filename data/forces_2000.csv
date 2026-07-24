@@ -1,0 +1,337 @@
+﻿country,branch,formation_name,location,unit_category,quantity,quality_tier,source,verification_notes
+AFG,army,Afghanistan Armed Forces,451,regular_army,7,1,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+AGL,army,Angola Armed Forces,1168,regular_army,7,2,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+AGL,navy,Angola Fleet,1168,surface_fleet,5,2,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+ALB,army,Albania Armed Forces,4750,regular_army,3,4,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+ALB,navy,Albania Fleet,4175,surface_fleet,5,4,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+ALG,army,Algeria Armed Forces,338,regular_army,12,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+ALG,navy,Algeria Fleet,338,surface_fleet,6,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+ANB,army,Antigua and Barbuda Armed Forces,496,regular_army,2,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+ANB,navy,Antigua and Barbuda Fleet,496,surface_fleet,3,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+ARM,army,Armenia Armed Forces,419,regular_army,3,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+AUS,army,Australia Armed Forces,4859,regular_army,17,5,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+AUS,navy,Australia Fleet,1090,surface_fleet,21,5,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+AZE,army,Azerbaijan Armed Forces,421,regular_army,6,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+BBD,army,Barbados Armed Forces,501,regular_army,2,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+BBD,navy,Barbados Fleet,501,surface_fleet,3,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+BEI,army,Brunei Armed Forces,636,regular_army,3,4,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+BEI,navy,Brunei Fleet,636,surface_fleet,3,4,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+BEL,army,Belgium Armed Forces,92,regular_army,10,5,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+BEL,navy,Belgium Fleet,1744,surface_fleet,5,5,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+BEN,army,Benin Armed Forces,1141,regular_army,3,2,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+BEN,navy,Benin Fleet,1141,surface_fleet,2,2,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+BFA,army,Burkina Faso Armed Forces,1137,regular_army,4,2,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+BGD,army,Bangladesh Armed Forces,564,regular_army,12,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+BGD,navy,Bangladesh Fleet,568,surface_fleet,4,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+BHE,army,Bosnia and Herzegovina Armed Forces,3002,regular_army,4,4,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+BHM,army,Bahamas Armed Forces,482,regular_army,2,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+BHM,navy,Bahamas Fleet,482,surface_fleet,3,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+BHR,army,Bahrain Armed Forces,396,regular_army,3,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+BHR,navy,Bahrain Fleet,396,surface_fleet,3,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+BHU,army,Bhutan Armed Forces,565,regular_army,2,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+BLR,army,Belarus Armed Forces,276,regular_army,7,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+BLZ,army,Belize Armed Forces,4589,regular_army,3,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+BLZ,navy,Belize Fleet,843,surface_fleet,4,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+BOL,army,Bolivia Armed Forces,802,regular_army,7,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+BOT,army,Botswana Armed Forces,3013,regular_army,3,2,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+BRZ,army,Brazil Armed Forces,2908,regular_army,28,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+BRZ,navy,Brazil Fleet,766,surface_fleet,13,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+BUL,army,Bulgaria Armed Forces,1765,regular_army,6,4,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+BUL,navy,Bulgaria Fleet,3250,surface_fleet,5,4,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+BUU,army,Burundi Armed Forces,4070,regular_army,2,1,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+CAF,army,Central African Republic Armed Forces,3023,regular_army,3,2,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+CAN,army,Canada Armed Forces,4892,regular_army,20,5,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+CAN,navy,Canada Fleet,973,surface_fleet,23,5,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+CDD,army,Chad Armed Forces,2287,regular_army,5,2,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+CHL,army,Chile Armed Forces,787,regular_army,10,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+CHL,navy,Chile Fleet,787,surface_fleet,9,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+CHN,army,China Armed Forces,1816,regular_army,60,4,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+CHN,navy,China Fleet,1822,surface_fleet,17,4,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+CMO,army,Comoros Armed Forces,4020,regular_army,1,2,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+CMO,navy,Comoros Fleet,4020,surface_fleet,2,2,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+CMR,army,Cameroon Armed Forces,3022,regular_army,4,2,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+CMR,navy,Cameroon Fleet,1164,surface_fleet,3,2,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+CNG,army,Republic of the Congo Armed Forces,1169,regular_army,3,2,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+CNG,navy,Republic of the Congo Fleet,1166,surface_fleet,2,2,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+COL,army,Colombia Armed Forces,825,regular_army,13,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+COL,navy,Colombia Fleet,829,surface_fleet,7,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+COS,army,Costa Rica Armed Forces,836,regular_army,4,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+COS,navy,Costa Rica Fleet,836,surface_fleet,4,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+CPV,army,Cape Verde Armed Forces,1096,regular_army,1,2,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+CPV,navy,Cape Verde Fleet,1096,surface_fleet,2,2,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+CRO,army,Croatia Armed Forces,131,regular_army,6,4,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+CRO,navy,Croatia Fleet,137,surface_fleet,7,4,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+CUB,army,Cuba Armed Forces,484,regular_army,7,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+CUB,navy,Cuba Fleet,484,surface_fleet,8,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+CYP,army,Cyprus Armed Forces,321,regular_army,3,4,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+CYP,navy,Cyprus Fleet,321,surface_fleet,3,4,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+CZE,army,Czech Republic Armed Forces,266,regular_army,9,4,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+DAN,army,Denmark Armed Forces,12,regular_army,8,5,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+DAN,navy,Denmark Fleet,12,surface_fleet,13,5,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+DGL,army,Maldives Armed Forces,1248,regular_army,2,4,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+DGL,navy,Maldives Fleet,1248,surface_fleet,3,4,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+DJI,army,Djibouti Armed Forces,1215,regular_army,2,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+DJI,navy,Djibouti Fleet,1215,surface_fleet,3,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+DMN,army,Dominica Armed Forces,498,regular_army,2,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+DMN,navy,Dominica Fleet,498,surface_fleet,3,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+DOM,army,Dominican Republic Armed Forces,490,regular_army,6,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+DOM,navy,Dominican Republic Fleet,490,surface_fleet,6,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+DRC,army,Democratic Republic of the Congo Armed Forces,3261,regular_army,7,1,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+DRC,navy,Democratic Republic of the Congo Fleet,4079,surface_fleet,2,1,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+ECU,army,Ecuador Armed Forces,820,regular_army,7,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+ECU,navy,Ecuador Fleet,819,surface_fleet,4,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+EGY,army,Egypt Armed Forces,361,regular_army,15,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+EGY,navy,Egypt Fleet,358,surface_fleet,9,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+ELS,army,El Salvador Armed Forces,839,regular_army,4,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+ELS,navy,El Salvador Fleet,839,surface_fleet,3,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+EQG,army,Equatorial Guinea Armed Forces,1097,regular_army,3,2,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+EQG,navy,Equatorial Guinea Fleet,1097,surface_fleet,3,2,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+ERT,army,Eritrea Armed Forces,2766,regular_army,3,2,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+ERT,navy,Eritrea Fleet,1230,surface_fleet,4,2,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+EST,army,Estonia Armed Forces,36,regular_army,4,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+EST,navy,Estonia Fleet,36,surface_fleet,5,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+ETH,army,Ethiopia Armed Forces,1213,regular_army,10,2,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+FIN,army,Finland Armed Forces,28,regular_army,8,5,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+FIN,navy,Finland Fleet,28,surface_fleet,8,5,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+FR2,army,France Armed Forces,183,regular_army,25,5,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+FR2,navy,France Fleet,201,surface_fleet,18,5,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+FRM,army,Taiwan Armed Forces,2154,regular_army,15,4,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+FRM,navy,Taiwan Fleet,2154,surface_fleet,6,4,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+GAB,army,Gabon Armed Forces,1165,regular_army,3,2,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+GAB,navy,Gabon Fleet,1165,surface_fleet,3,2,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+GBI,army,Guinea-Bissau Armed Forces,1114,regular_army,2,2,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+GBI,navy,Guinea-Bissau Fleet,1114,surface_fleet,2,2,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+GBR,army,United Kingdom Armed Forces,236,regular_army,25,5,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+GBR,navy,United Kingdom Fleet,236,surface_fleet,23,5,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+GEO,army,Georgia Armed Forces,423,regular_army,5,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+GEO,navy,Georgia Fleet,462,surface_fleet,4,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+GER,army,Germany Armed Forces,50,regular_army,31,5,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+GER,navy,Germany Fleet,44,surface_fleet,13,5,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+GHA,army,Ghana Armed Forces,1139,regular_army,5,2,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+GHA,navy,Ghana Fleet,1139,surface_fleet,3,2,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+GMB,army,The Gambia Armed Forces,3006,regular_army,2,4,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+GMB,navy,The Gambia Fleet,3006,surface_fleet,3,4,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+GRE,army,Greece Armed Forces,146,regular_army,9,4,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+GRE,navy,Greece Fleet,146,surface_fleet,13,4,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+GRN,army,Grenada Armed Forces,1881,regular_army,2,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+GRN,navy,Grenada Fleet,1881,surface_fleet,3,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+GTM,army,Guatemala Armed Forces,2653,regular_army,5,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+GTM,navy,Guatemala Fleet,2653,surface_fleet,4,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+GUI,army,Guinea Armed Forces,2241,regular_army,3,2,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+GUI,navy,Guinea Fleet,2241,surface_fleet,2,2,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+GYA,army,Guyana Armed Forces,744,regular_army,2,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+GYA,navy,Guyana Fleet,743,surface_fleet,4,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+GZI,army,Zimbabwe Armed Forces,2950,regular_army,4,2,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+HAB,army,Austria Armed Forces,134,regular_army,10,5,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+HAT,army,Haiti Armed Forces,488,regular_army,3,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+HAT,navy,Haiti Fleet,488,surface_fleet,5,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+HON,army,Honduras Armed Forces,2640,regular_army,3,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+HON,navy,Honduras Fleet,2640,surface_fleet,5,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+HUN,army,Hungary Armed Forces,153,regular_army,8,4,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+ICE,army,Iceland Armed Forces,370,regular_army,3,4,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+ICE,navy,Iceland Fleet,370,surface_fleet,5,4,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+IDN,army,Indonesia Armed Forces,630,regular_army,26,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+IDN,navy,Indonesia Fleet,630,surface_fleet,25,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+INI,army,India Armed Forces,522,regular_army,44,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+INI,navy,India Fleet,561,surface_fleet,17,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+IRA,army,Iran Armed Forces,428,regular_army,18,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+IRA,navy,Iran Fleet,412,surface_fleet,7,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+IRE,army,Ireland Armed Forces,373,regular_army,8,4,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+IRE,navy,Ireland Fleet,373,surface_fleet,9,4,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+IRQ,army,Iraq Armed Forces,410,regular_army,11,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+IRQ,navy,Iraq Fleet,408,surface_fleet,3,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+ISR,army,Israel Armed Forces,1854,regular_army,8,4,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+ISR,navy,Israel Fleet,3244,surface_fleet,5,4,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+ITA,army,Italy Armed Forces,118,regular_army,23,4,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+ITA,navy,Italy Fleet,118,surface_fleet,17,4,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+IVO,army,Ivory Coast Armed Forces,1125,regular_army,4,2,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+IVO,navy,Ivory Coast Fleet,1126,surface_fleet,3,2,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+JAI,army,Malta Armed Forces,126,regular_army,2,4,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+JAI,navy,Malta Fleet,126,surface_fleet,3,4,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+JAP,army,Japan Armed Forces,1020,regular_army,34,5,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+JAP,navy,Japan Fleet,1028,surface_fleet,21,5,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+JMC,army,Jamaica Armed Forces,487,regular_army,3,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+JMC,navy,Jamaica Fleet,487,surface_fleet,3,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+JOR,army,Jordan Armed Forces,381,regular_army,3,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+JOR,navy,Jordan Fleet,4268,surface_fleet,3,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+KEY,army,Kenya Armed Forces,1273,regular_army,6,2,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+KEY,navy,Kenya Fleet,1202,surface_fleet,4,2,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+KHA,army,Mongolia Armed Forces,4678,regular_army,7,4,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+KHM,army,Cambodia Armed Forces,2380,regular_army,6,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+KHM,navy,Cambodia Fleet,4826,surface_fleet,4,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+KIR,army,Kiribati Armed Forces,1991,regular_army,2,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+KIR,navy,Kiribati Fleet,1241,surface_fleet,4,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+KUW,army,Kuwait Armed Forces,2340,regular_army,8,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+KUW,navy,Kuwait Fleet,2340,surface_fleet,3,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+KYR,army,Kyrgyzstan Armed Forces,2126,regular_army,4,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+KZK,army,Kazakhstan Armed Forces,476,regular_army,10,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+LAO,army,Laos Armed Forces,614,regular_army,6,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+LAP,army,Argentina Armed Forces,778,regular_army,15,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+LAP,navy,Argentina Fleet,778,surface_fleet,8,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+LBR,army,Liberia Armed Forces,2242,regular_army,2,1,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+LBR,navy,Liberia Fleet,1119,surface_fleet,2,1,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+LBY,army,Libya Armed Forces,354,regular_army,5,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+LBY,navy,Libya Fleet,354,surface_fleet,7,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+LEB,army,Lebanon Armed Forces,378,regular_army,5,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+LEB,navy,Lebanon Fleet,378,surface_fleet,4,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+LES,army,Lesotho Armed Forces,3011,regular_army,2,2,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+LIT,army,Lithuania Armed Forces,272,regular_army,5,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+LIT,navy,Lithuania Fleet,40,surface_fleet,3,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+LTV,army,Latvia Armed Forces,38,regular_army,4,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+LTV,navy,Latvia Fleet,38,surface_fleet,4,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+LUX,army,Luxembourg Armed Forces,94,regular_army,4,4,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+MAC,army,Macedonia Armed Forces,3001,regular_army,3,4,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+MAL,army,Mali Armed Forces,1124,regular_army,8,2,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+MDG,army,Madagascar Armed Forces,1792,regular_army,6,2,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+MDG,navy,Madagascar Fleet,1193,surface_fleet,7,2,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+MDV,army,Moldova Armed Forces,2405,regular_army,2,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+MEX,army,Mexico Armed Forces,852,regular_army,23,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+MEX,navy,Mexico Fleet,848,surface_fleet,16,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+MIC,army,Micronesia Armed Forces,1995,regular_army,1,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+MIC,navy,Micronesia Fleet,1995,surface_fleet,3,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+MLA,army,Malaysia Armed Forces,2392,regular_army,14,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+MLA,navy,Malaysia Fleet,2392,surface_fleet,10,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+MNM,army,Myanmar Armed Forces,4399,regular_army,11,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+MNM,navy,Myanmar Fleet,586,surface_fleet,8,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+MOR,army,Morocco Armed Forces,2469,regular_army,9,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+MOR,navy,Morocco Fleet,2469,surface_fleet,10,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+MRS,army,Marshall Islands Armed Forces,1993,regular_army,1,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+MRS,navy,Marshall Islands Fleet,1993,surface_fleet,3,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+MRT,army,Mauritania Armed Forces,1112,regular_army,4,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+MRT,navy,Mauritania Fleet,1111,surface_fleet,4,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+MTU,army,Mauritius Armed Forces,1102,regular_army,3,2,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+MTU,navy,Mauritius Fleet,1102,surface_fleet,2,2,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+MWI,army,Malawi Armed Forces,4040,regular_army,3,2,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+MZM,army,Mozambique Armed Forces,1182,regular_army,6,2,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+MZM,navy,Mozambique Fleet,1182,surface_fleet,6,2,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+NAU,army,Nauru Armed Forces,1992,regular_army,1,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+NAU,navy,Nauru Fleet,1992,surface_fleet,3,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+NCR,army,Nicaragua Armed Forces,2660,regular_army,3,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+NCR,navy,Nicaragua Fleet,2660,surface_fleet,5,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+NED,army,Netherlands Armed Forces,97,regular_army,14,5,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+NED,navy,Netherlands Fleet,4383,surface_fleet,11,5,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+NGR,army,Niger Armed Forces,1142,regular_army,6,2,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+NIG,army,Nigeria Armed Forces,1153,regular_army,17,2,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+NIG,navy,Nigeria Fleet,2290,surface_fleet,5,2,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+NMB,army,Namibia Armed Forces,1173,regular_army,3,2,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+NMB,navy,Namibia Fleet,1174,surface_fleet,3,2,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+NOK,army,North Korea Armed Forces,1845,regular_army,4,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+NOK,navy,North Korea Fleet,1845,surface_fleet,7,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+NOR,army,Norway Armed Forces,17,regular_army,9,5,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+NOR,navy,Norway Fleet,17,surface_fleet,11,5,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+NPL,army,Nepal Armed Forces,557,regular_army,5,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+NZL,army,New Zealand Armed Forces,1107,regular_army,7,5,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+NZL,navy,New Zealand Fleet,1107,surface_fleet,13,5,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+OMA,army,Oman Armed Forces,400,regular_army,6,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+OMA,navy,Oman Fleet,400,surface_fleet,6,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+PAK,army,Pakistan Armed Forces,2077,regular_army,15,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+PAK,navy,Pakistan Fleet,504,surface_fleet,4,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+PEU,army,Peru Armed Forces,809,regular_army,10,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+PEU,navy,Peru Fleet,809,surface_fleet,8,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+PHI,army,Philippines Armed Forces,656,regular_army,14,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+PHI,navy,Philippines Fleet,656,surface_fleet,12,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+PLS,army,Palestine Armed Forces,379,regular_army,3,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+PLU,army,Palau Armed Forces,1996,regular_army,1,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+PLU,navy,Palau Fleet,1996,surface_fleet,3,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+PNG,army,Papua New Guinea Armed Forces,1237,regular_army,3,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+PNG,navy,Papua New Guinea Fleet,1236,surface_fleet,6,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+PNM,army,Panama Armed Forces,835,regular_army,5,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+PNM,navy,Panama Fleet,835,surface_fleet,5,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+POL,army,Poland Armed Forces,257,regular_army,16,4,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+POL,navy,Poland Fleet,1858,surface_fleet,7,4,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+POR,army,Portugal Armed Forces,227,regular_army,9,4,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+POR,navy,Portugal Fleet,227,surface_fleet,9,4,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+PRG,army,Paraguay Armed Forces,775,regular_army,4,4,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+QTR,army,Qatar Armed Forces,395,regular_army,9,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+QTR,navy,Qatar Fleet,395,surface_fleet,3,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+RMN,army,Romania Armed Forces,161,regular_army,10,4,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+RMN,navy,Romania Fleet,4706,surface_fleet,3,4,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+RSA,army,South Africa Armed Forces,4781,regular_army,13,2,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+RSA,navy,South Africa Fleet,1177,surface_fleet,6,2,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+RUS,army,Russia Armed Forces,295,regular_army,29,4,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+RUS,navy,Russia Fleet,33,surface_fleet,19,4,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+RWA,army,Rwanda Armed Forces,4067,regular_army,2,2,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+SAM,army,Samoa Armed Forces,1243,regular_army,2,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+SAM,navy,Samoa Fleet,1243,surface_fleet,3,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+SAU,army,Saudi Arabia Armed Forces,392,regular_army,20,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+SAU,navy,Saudi Arabia Fleet,394,surface_fleet,7,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+SEY,army,Seychelles Armed Forces,1100,regular_army,2,2,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+SEY,navy,Seychelles Fleet,1100,surface_fleet,2,2,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+SGA,army,Singapore Armed Forces,4815,regular_army,10,5,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+SGA,navy,Singapore Fleet,4815,surface_fleet,3,5,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+SGL,army,Senegal Armed Forces,1113,regular_army,4,2,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+SGL,navy,Senegal Fleet,1113,surface_fleet,3,2,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+SIA,army,Thailand Armed Forces,4831,regular_army,16,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+SIA,navy,Thailand Fleet,4831,surface_fleet,7,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+SKN,army,St. Kitts and Nevis Armed Forces,495,regular_army,2,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+SKN,navy,St. Kitts and Nevis Fleet,495,surface_fleet,3,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+SKO,army,South Korea Armed Forces,735,regular_army,20,5,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+SKO,navy,South Korea Fleet,735,surface_fleet,11,5,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+SLM,army,Solomon Islands Armed Forces,1238,regular_army,1,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+SLM,navy,Solomon Islands Fleet,1238,surface_fleet,3,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+SLU,army,St. Lucia Armed Forces,500,regular_army,2,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+SLU,navy,St. Lucia Fleet,500,surface_fleet,3,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+SOM,army,Somalia Armed Forces,1205,regular_army,7,1,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+SOM,navy,Somalia Fleet,1209,surface_fleet,6,1,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+SPA,army,Spain Armed Forces,217,regular_army,20,4,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+SPA,navy,Spain Fleet,213,surface_fleet,16,4,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+SRA,army,Sierra Leone Armed Forces,1118,regular_army,2,2,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+SRA,navy,Sierra Leone Fleet,1118,surface_fleet,3,2,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+SRL,army,Sri Lanka Armed Forces,572,regular_army,8,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+SRL,navy,Sri Lanka Fleet,572,surface_fleet,6,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+SRN,army,Suriname Armed Forces,745,regular_army,2,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+SRN,navy,Suriname Fleet,745,surface_fleet,3,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+STP,army,Sao Tome and Principe Armed Forces,1306,regular_army,1,2,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+STP,navy,Sao Tome and Principe Fleet,1306,surface_fleet,2,2,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+SUD,army,Sudan Armed Forces,2798,regular_army,7,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+SUD,navy,Sudan Fleet,1232,surface_fleet,3,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+SVG,army,St. Vincent and the Grenadines Armed Forces,3057,regular_army,2,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+SVG,navy,St. Vincent and the Grenadines Fleet,3057,surface_fleet,3,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+SVK,army,Slovakia Armed Forces,1772,regular_army,6,4,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+SVN,army,Slovenia Armed Forces,1769,regular_army,4,4,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+SVN,navy,Slovenia Fleet,1769,surface_fleet,3,4,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+SWE,army,Sweden Armed Forces,1,regular_army,11,5,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+SWE,navy,Sweden Fleet,1,surface_fleet,12,5,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+SWI,army,Switzerland Armed Forces,165,regular_army,11,5,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+SWZ,army,Swaziland Armed Forces,4783,regular_army,2,2,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+SYR,army,Syria Armed Forces,382,regular_army,6,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+SYR,navy,Syria Fleet,3070,surface_fleet,3,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+TGO,army,Togo Armed Forces,3007,regular_army,2,2,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+TGO,navy,Togo Fleet,3007,surface_fleet,2,2,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+TJK,army,Tajikistan Armed Forces,1968,regular_army,3,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+TKY,army,Turkey Armed Forces,326,regular_army,20,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+TKY,navy,Turkey Fleet,151,surface_fleet,11,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+TNZ,army,Tanzania Armed Forces,4058,regular_army,6,2,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+TNZ,navy,Tanzania Fleet,1196,surface_fleet,5,2,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+TOG,army,Tonga Armed Forces,1989,regular_army,2,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+TOG,navy,Tonga Fleet,1989,surface_fleet,3,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+TRK,army,Turkmenistan Armed Forces,437,regular_army,5,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+TRN,army,Trinidad and Tobago Armed Forces,502,regular_army,4,4,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+TRN,navy,Trinidad and Tobago Fleet,502,surface_fleet,3,4,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+TUN,army,Tunisia Armed Forces,341,regular_army,6,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+TUN,navy,Tunisia Fleet,341,surface_fleet,6,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+TVL,army,Tuvalu Armed Forces,1990,regular_army,1,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+TVL,navy,Tuvalu Fleet,1990,surface_fleet,3,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+UAE,army,United Arab Emirates Armed Forces,2333,regular_army,13,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+UAE,navy,United Arab Emirates Fleet,397,surface_fleet,4,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+UGA,army,Uganda Armed Forces,4064,regular_army,5,2,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+UKR,army,Ukraine Armed Forces,280,regular_army,11,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+UKR,navy,Ukraine Fleet,284,surface_fleet,7,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+URU,army,Uruguay Armed Forces,2850,regular_army,4,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+URU,navy,Uruguay Fleet,2850,surface_fleet,5,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+USA,army,United States Armed Forces,953,regular_army,60,5,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+USA,navy,United States Fleet,868,surface_fleet,30,5,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+UZB,army,Uzbekistan Armed Forces,457,regular_army,7,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+VIT,army,Fiji Armed Forces,1242,regular_army,3,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+VIT,navy,Fiji Fleet,1242,surface_fleet,4,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+VNU,army,Vanuatu Armed Forces,1239,regular_army,1,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+VNU,navy,Vanuatu Fleet,1239,surface_fleet,3,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+VNZ,army,Venezuela Armed Forces,831,regular_army,12,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+VNZ,navy,Venezuela Fleet,831,surface_fleet,8,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+VTN,army,Vietnam Armed Forces,613,regular_army,11,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+VTN,navy,Vietnam Fleet,605,surface_fleet,10,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+YEM,army,Yemen Armed Forces,4280,regular_army,7,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+YEM,navy,Yemen Fleet,388,surface_fleet,7,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+YUG,army,Yugoslavia Armed Forces,4239,regular_army,6,3,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.
+YUG,navy,Yugoslavia Fleet,4754,surface_fleet,3,3,generated:coastal-provinces-and-technology-tier,Simplified first-pass fleet; real naval inventory pending.
+ZAM,army,Zambia Armed Forces,4106,regular_army,4,2,generated:development-and-technology-tier,Simplified first-pass formation; real order of battle pending.

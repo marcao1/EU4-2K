@@ -14,7 +14,7 @@ The generated country foundation targets EU4 `1.37.5` and contains:
 - A minimal generated subset of the 45 Extended Timeline culture identifiers required by the snapshot.
 - Vanilla religions only.
 
-Province ownership, cores, development, diplomacy, armed forces, and starting technology levels are deliberately deferred to the province/world setup phase. Until that snapshot exists, `history/provinces` is replaced by a clean empty layer. This prevents incompatible vanilla province IDs from being applied to the Extended Timeline map.
+Province ownership is now supplied by the clean generated `2000.1.1` province snapshot. Diplomacy, armed forces, starting technology levels, detailed claims, and manual province balancing remain deferred.
 
 ## Source of truth
 
@@ -70,9 +70,10 @@ The generator owns these outputs under `MillenniumDawnEU4/`:
 - `common/defines/zz_eu4_2k_dates.lua`
 - `common/bookmarks/00_eu4_2k_2000.txt`
 - `history/countries/`
-- `history/provinces/00_placeholder.txt`
+- `history/provinces/` through the province snapshot generator
 - `gfx/flags/`
-- `localisation/eu4_2k_*_l_english.yml`
+- `localisation/eu4_2k_*_l_english.yml` for new framework keys
+- `localisation/replace/eu4_2k_*_l_english.yml` for country and province overrides
 
 Country definitions retain only color, graphical culture, and the name pools EU4 requires. They do not import obsolete ideas, historical units, governments, or score data. Country histories contain one undated snapshot and no diplomacy, wars, armies, treasury, province ownership, or scheduled successors.
 
@@ -92,10 +93,10 @@ The EU4 `1.37.5` smoke test through the existing mod junction reached a responsi
 Two classes of log noise remain outside this phase's acceptance criteria:
 
 1. EU4 emits checksum-only `version.cpp` and `virtualfilesystem_physfs.cpp` messages for files below replaced subdirectories. The same files are subsequently loaded and validated by the relevant content databases.
-2. Province-name/adjective and one unused-bitmap-province warning remain in the ET map layer. Vanilla province history is now explicitly blocked because applying it to ET province IDs caused an access-violation crash during scenario initialization.
+2. A small amount of underlying ET map localization/bitmap warning noise remains. Vanilla province history is explicitly blocked because applying it to ET province IDs caused an access-violation crash during scenario initialization.
 
-The crash fix was verified by launching beyond the previous failure point: EU4 remained responsive, produced no new crash dump, logged no invalid province-owner assignments, and left `setup_error.log` empty. The current country-only milestone reaches the menu but is not yet a playable territorial scenario because the replacement province layer is intentionally empty.
+The crash fix and generated ownership were verified together: EU4 remained responsive through full initialization, produced no new crash dump, logged no invalid province-owner assignments or province-history errors, and left `setup_error.log` empty.
 
 ## Next phase
 
-Generate one clean history file for every land province, based on the effective ET state at `2000.1.1`, then validate ownership, control, cores, province culture, vanilla religion, trade goods, development, and country capitals as one synchronized world snapshot.
+Build starting diplomacy, technology, institutions, armies, navies, autonomy, disputed claims, and the first regional manual accuracy audit on top of the synchronized country and province snapshots.

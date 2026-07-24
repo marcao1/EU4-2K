@@ -69,7 +69,7 @@ No dated history is stored in the copied `map/` package, so it contains no pre-1
 
 ## Descriptor policy
 
-The country-foundation phase now also replaces `common/bookmarks`, `history/countries`, and `history/provinces`. Province history currently contains only a placeholder so incompatible vanilla ownership cannot be applied to ET province IDs. The proper clean `2000.1.1` province snapshot is the next world-setup phase.
+The generated foundation replaces `common/bookmarks`, `history/countries`, and `history/provinces`. The province path now contains the clean effective `2000.1.1` snapshot, preventing incompatible vanilla ownership from being applied to ET province IDs.
 
 ## Next step
 
