@@ -57,3 +57,5 @@ ship_names = {
 
 	Freedom Unity Republic Horizon Discovery Endeavour Enterprise Liberty Peace Hope
 }
+army_names = { "Singapore Armed Forces" }
+fleet_names = { "Singapore Fleet" }

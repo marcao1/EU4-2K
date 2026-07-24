@@ -132,3 +132,5 @@ ship_names = {
 
 	Freedom Unity Republic Horizon Discovery Endeavour Enterprise Liberty Peace Hope
 }
+army_names = { "Brazil Armed Forces" }
+fleet_names = { "Brazil Fleet" }

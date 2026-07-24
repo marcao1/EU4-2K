@@ -34,3 +34,5 @@ ship_names = {
 
 	Freedom Unity Republic Horizon Discovery Endeavour Enterprise Liberty Peace Hope
 }
+army_names = { "Democratic Republic of the Congo Armed Forces" }
+fleet_names = { "Democratic Republic of the Congo Fleet" }

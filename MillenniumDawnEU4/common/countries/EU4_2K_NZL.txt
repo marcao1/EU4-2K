@@ -72,3 +72,5 @@ ship_names = {
 
 	Freedom Unity Republic Horizon Discovery Endeavour Enterprise Liberty Peace Hope
 }
+army_names = { "New Zealand Armed Forces" }
+fleet_names = { "New Zealand Fleet" }

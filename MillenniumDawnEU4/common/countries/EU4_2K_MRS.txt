@@ -52,3 +52,5 @@ ship_names = {
 
 	Freedom Unity Republic Horizon Discovery Endeavour Enterprise Liberty Peace Hope
 }
+army_names = { "Marshall Islands Armed Forces" }
+fleet_names = { "Marshall Islands Fleet" }

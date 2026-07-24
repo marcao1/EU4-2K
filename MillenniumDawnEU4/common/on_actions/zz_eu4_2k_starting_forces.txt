@@ -1,0 +1,12 @@
+# One-time replacement of EU4's generated opening forces.
+on_startup = {
+	if = {
+		limit = {
+			is_year = 2000
+			NOT = { is_year = 2001 }
+			NOT = { has_country_flag = eu4_2k_starting_forces_initialized }
+		}
+		eu4_2k_initialize_starting_forces = yes
+		set_country_flag = eu4_2k_starting_forces_initialized
+	}
+}

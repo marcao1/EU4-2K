@@ -1,0 +1,255 @@
+# Generic modern missions for every playable EU4 2K country.
+
+eu4_2k_security_missions = {
+	slot = 1
+	generic = yes
+	ai = yes
+	potential = { num_of_cities = 1 }
+	has_country_shield = no
+
+	eu4_2k_operational_readiness = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		trigger = {
+			army_size_percentage = 0.80
+			manpower_percentage = 0.50
+		}
+		effect = {
+			add_country_modifier = { name = eu4_2k_operational_readiness_mod duration = 3650 }
+			add_mil_power = 50
+		}
+	}
+
+	eu4_2k_modern_military_logistics = {
+		icon = mission_assemble_an_army
+		position = 2
+		required_missions = { eu4_2k_operational_readiness }
+		trigger = {
+			has_country_modifier = eu4_2k_armed_forces_modernization
+			army_size_percentage = 0.90
+		}
+		effect = {
+			add_country_modifier = { name = eu4_2k_modern_logistics_mod duration = 5475 }
+		}
+	}
+
+	eu4_2k_professional_armed_forces = {
+		icon = mission_cannons_firing
+		position = 3
+		required_missions = { eu4_2k_modern_military_logistics }
+		trigger = {
+			OR = {
+				army_professionalism = 0.30
+				army_tradition = 50
+			}
+		}
+		effect = {
+			add_country_modifier = { name = eu4_2k_professional_forces_mod duration = 5475 }
+			add_army_professionalism = 0.05
+		}
+	}
+
+	eu4_2k_secure_national_borders = {
+		icon = mission_forts
+		position = 4
+		required_missions = { eu4_2k_professional_armed_forces }
+		trigger = {
+			is_at_war = no
+			stability = 1
+			NOT = { war_exhaustion = 1 }
+			all_owned_province = { controlled_by = ROOT }
+		}
+		effect = {
+			add_country_modifier = { name = eu4_2k_secure_borders_mod duration = 5475 }
+			add_stability_or_adm_power = yes
+		}
+	}
+
+	eu4_2k_modern_defense_structure = {
+		icon = mission_unite_home_region
+		position = 5
+		required_missions = { eu4_2k_secure_national_borders }
+		trigger = {
+			is_at_war = no
+			army_size_percentage = 1
+			manpower_percentage = 0.75
+			stability = 1
+			NOT = { num_of_loans = 1 }
+		}
+		effect = {
+			add_country_modifier = { name = eu4_2k_modern_defense_mod duration = 7300 }
+			add_power_projection = { type = mission_rewards_power_projection amount = 15 }
+		}
+	}
+}
+
+eu4_2k_international_missions = {
+	slot = 3
+	generic = yes
+	ai = yes
+	potential = { num_of_cities = 1 }
+	has_country_shield = no
+
+	eu4_2k_international_partnerships = {
+		icon = mission_alliances
+		position = 1
+		trigger = {
+			num_of_allies = 2
+			calc_true_if = {
+				amount = 2
+				all_ally = { has_opinion = { who = ROOT value = 100 } }
+			}
+		}
+		effect = {
+			add_country_modifier = { name = eu4_2k_partnerships_mod duration = 3650 }
+			add_dip_power = 50
+		}
+	}
+
+	eu4_2k_regional_cooperation = {
+		icon = mission_monarch_in_throne_room
+		position = 2
+		required_missions = { eu4_2k_international_partnerships }
+		trigger = {
+			calc_true_if = {
+				amount = 2
+				all_neighbor_country = { has_opinion = { who = ROOT value = 75 } }
+			}
+		}
+		effect = {
+			add_country_modifier = { name = eu4_2k_regional_cooperation_mod duration = 5475 }
+			add_prestige = 10
+		}
+	}
+
+	eu4_2k_expand_international_trade = {
+		icon = mission_dominate_home_trade_node
+		position = 3
+		required_missions = { eu4_2k_regional_cooperation }
+		trigger = {
+			trade_income_percentage = 0.20
+			num_of_merchants = 2
+		}
+		effect = {
+			add_country_modifier = { name = eu4_2k_international_trade_mod duration = 5475 }
+			add_mercantilism_or_monarch_power = { amount = 2 }
+		}
+	}
+
+	eu4_2k_strengthen_global_influence = {
+		icon = mission_establish_high_seas_navy
+		position = 4
+		required_missions = { eu4_2k_expand_international_trade }
+		trigger = {
+			prestige = 25
+			diplomatic_reputation = 1
+			num_of_allies = 3
+		}
+		effect = {
+			add_country_modifier = { name = eu4_2k_global_influence_mod duration = 5475 }
+			add_dip_power = 100
+		}
+	}
+
+	eu4_2k_international_leadership = {
+		icon = mission_empire
+		position = 5
+		required_missions = { eu4_2k_strengthen_global_influence }
+		trigger = {
+			prestige = 50
+			stability = 1
+			diplomatic_reputation = 2
+			NOT = { num_of_loans = 1 }
+		}
+		effect = {
+			add_country_modifier = { name = eu4_2k_international_leadership_mod duration = 7300 }
+			add_power_projection = { type = mission_rewards_power_projection amount = 15 }
+		}
+	}
+}
+
+eu4_2k_development_missions = {
+	slot = 5
+	generic = yes
+	ai = yes
+	potential = { num_of_cities = 1 }
+	has_country_shield = no
+
+	eu4_2k_stabilize_public_finances = {
+		icon = mission_war_chest
+		position = 1
+		trigger = {
+			monthly_income = 1
+			NOT = { num_of_loans = 1 }
+			NOT = { inflation = 5 }
+		}
+		effect = {
+			add_country_modifier = { name = eu4_2k_stable_finances_mod duration = 3650 }
+			add_inflation = -1
+		}
+	}
+
+	eu4_2k_invest_national_infrastructure = {
+		icon = mission_early_game_buildings
+		position = 2
+		required_missions = { eu4_2k_stabilize_public_finances }
+		trigger = { has_country_modifier = eu4_2k_infrastructure_program }
+		effect = {
+			add_country_modifier = { name = eu4_2k_mission_infrastructure_mod duration = 5475 }
+			add_adm_power = 50
+		}
+	}
+
+	eu4_2k_expand_education_system = {
+		icon = mission_early_modern_university
+		position = 3
+		required_missions = { eu4_2k_invest_national_infrastructure }
+		trigger = { has_country_modifier = eu4_2k_higher_education_investment }
+		effect = {
+			add_country_modifier = { name = eu4_2k_education_system_mod duration = 5475 }
+			add_adm_power = 50
+			add_dip_power = 50
+		}
+	}
+
+	eu4_2k_develop_modern_economy = {
+		icon = mission_have_manufactories
+		position = 4
+		required_missions = { eu4_2k_expand_education_system }
+		trigger = {
+			has_country_modifier = eu4_2k_economic_reforms
+			if = {
+				limit = { num_of_cities = 50 }
+				num_of_owned_provinces_with = { value = 20 has_production_building_trigger = yes }
+			}
+			else_if = {
+				limit = { num_of_cities = 20 }
+				num_of_owned_provinces_with = { value = 10 has_production_building_trigger = yes }
+			}
+			else = {
+				num_of_owned_provinces_with = { value = 3 has_production_building_trigger = yes }
+			}
+		}
+		effect = {
+			add_country_modifier = { name = eu4_2k_modern_economy_mod duration = 5475 }
+			add_years_of_income = 0.5
+		}
+	}
+
+	eu4_2k_advanced_economy = {
+		icon = mission_high_income
+		position = 5
+		required_missions = { eu4_2k_develop_modern_economy }
+		trigger = {
+			has_country_modifier = eu4_2k_technology_initiative
+			share_of_starting_income = 1.25
+			stability = 1
+			NOT = { num_of_loans = 1 }
+			NOT = { corruption = 2 }
+		}
+		effect = {
+			add_country_modifier = { name = eu4_2k_advanced_economy_mod duration = 7300 }
+			add_prestige_or_monarch_power = { amount = 25 }
+		}
+	}
+}

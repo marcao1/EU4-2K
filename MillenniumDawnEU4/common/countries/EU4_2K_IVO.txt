@@ -41,3 +41,5 @@ ship_names = {
 
 	Freedom Unity Republic Horizon Discovery Endeavour Enterprise Liberty Peace Hope
 }
+army_names = { "Ivory Coast Armed Forces" }
+fleet_names = { "Ivory Coast Fleet" }

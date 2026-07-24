@@ -35,3 +35,5 @@ ship_names = {
 
 	Freedom Unity Republic Horizon Discovery Endeavour Enterprise Liberty Peace Hope
 }
+army_names = { "Botswana Armed Forces" }
+fleet_names = { "Botswana Fleet" }

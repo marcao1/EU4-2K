@@ -71,3 +71,5 @@ ship_names = {
 
 	Freedom Unity Republic Horizon Discovery Endeavour Enterprise Liberty Peace Hope
 }
+army_names = { "Bosnia and Herzegovina Armed Forces" }
+fleet_names = { "Bosnia and Herzegovina Fleet" }

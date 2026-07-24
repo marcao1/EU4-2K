@@ -116,3 +116,5 @@ ship_names = {
 
 	Freedom Unity Republic Horizon Discovery Endeavour Enterprise Liberty Peace Hope
 }
+army_names = { "Italy Armed Forces" }
+fleet_names = { "Italy Fleet" }

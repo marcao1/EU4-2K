@@ -33,3 +33,5 @@ ship_names = {
 
 	Freedom Unity Republic Horizon Discovery Endeavour Enterprise Liberty Peace Hope
 }
+army_names = { "Swaziland Armed Forces" }
+fleet_names = { "Swaziland Fleet" }

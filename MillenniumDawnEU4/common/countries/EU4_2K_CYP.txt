@@ -70,3 +70,5 @@ ship_names = {
 
 	Freedom Unity Republic Horizon Discovery Endeavour Enterprise Liberty Peace Hope
 }
+army_names = { "Cyprus Armed Forces" }
+fleet_names = { "Cyprus Fleet" }

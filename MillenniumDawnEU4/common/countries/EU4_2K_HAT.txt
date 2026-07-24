@@ -79,3 +79,5 @@ ship_names = {
 
 	Freedom Unity Republic Horizon Discovery Endeavour Enterprise Liberty Peace Hope
 }
+army_names = { "Haiti Armed Forces" }
+fleet_names = { "Haiti Fleet" }

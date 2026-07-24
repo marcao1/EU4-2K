@@ -123,3 +123,5 @@ ship_names = {
 
 	Freedom Unity Republic Horizon Discovery Endeavour Enterprise Liberty Peace Hope
 }
+army_names = { "Spain Armed Forces" }
+fleet_names = { "Spain Fleet" }

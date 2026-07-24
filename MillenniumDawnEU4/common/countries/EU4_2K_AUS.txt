@@ -72,3 +72,5 @@ ship_names = {
 
 	Freedom Unity Republic Horizon Discovery Endeavour Enterprise Liberty Peace Hope
 }
+army_names = { "Australia Armed Forces" }
+fleet_names = { "Australia Fleet" }

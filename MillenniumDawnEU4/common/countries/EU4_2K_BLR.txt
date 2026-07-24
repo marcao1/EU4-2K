@@ -92,3 +92,5 @@ ship_names = {
 
 	Freedom Unity Republic Horizon Discovery Endeavour Enterprise Liberty Peace Hope
 }
+army_names = { "Belarus Armed Forces" }
+fleet_names = { "Belarus Fleet" }

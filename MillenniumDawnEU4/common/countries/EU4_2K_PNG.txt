@@ -82,3 +82,5 @@ ship_names = {
 
 	Freedom Unity Republic Horizon Discovery Endeavour Enterprise Liberty Peace Hope
 }
+army_names = { "Papua New Guinea Armed Forces" }
+fleet_names = { "Papua New Guinea Fleet" }

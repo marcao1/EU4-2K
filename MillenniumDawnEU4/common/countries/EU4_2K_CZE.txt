@@ -103,3 +103,5 @@ ship_names = {
 
 	Freedom Unity Republic Horizon Discovery Endeavour Enterprise Liberty Peace Hope
 }
+army_names = { "Czech Republic Armed Forces" }
+fleet_names = { "Czech Republic Fleet" }

@@ -46,3 +46,5 @@ ship_names = {
 
 	Freedom Unity Republic Horizon Discovery Endeavour Enterprise Liberty Peace Hope
 }
+army_names = { "Seychelles Armed Forces" }
+fleet_names = { "Seychelles Fleet" }

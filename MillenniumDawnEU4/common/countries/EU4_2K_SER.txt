@@ -76,3 +76,5 @@ ship_names = {
 
 	Freedom Unity Republic Horizon Discovery Endeavour Enterprise Liberty Peace Hope
 }
+army_names = { "Serbia Armed Forces" }
+fleet_names = { "Serbia Fleet" }

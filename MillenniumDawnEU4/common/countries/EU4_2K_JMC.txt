@@ -60,3 +60,5 @@ ship_names = {
 
 	Freedom Unity Republic Horizon Discovery Endeavour Enterprise Liberty Peace Hope
 }
+army_names = { "Jamaica Armed Forces" }
+fleet_names = { "Jamaica Fleet" }

@@ -1,0 +1,3347 @@
+# Generated exact 2000 starting forces.
+# EU4's force-limit-generated units are cleared once before these are created.
+eu4_2k_initialize_starting_forces = {
+	trigger_switch = {
+		on_trigger = tag
+		AFG = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Afghanistan Armed Forces: 5 infantry, 1 artillery
+			451 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+			}
+		}
+		AGL = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Angola Armed Forces: 5 infantry, 1 artillery
+			1168 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+			}
+			# Angola Fleet: 2 light_ship, 1 transport
+			1168 = {
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+			}
+		}
+		ALB = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Albania Armed Forces: 3 infantry
+			4750 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+			}
+			# Albania Fleet: 2 light_ship, 1 transport
+			4175 = {
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+			}
+		}
+		ALG = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Algeria Armed Forces: 6 infantry, 1 cavalry, 2 artillery
+			338 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Algeria Fleet: 1 heavy_ship, 2 light_ship, 1 transport
+			338 = {
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+			}
+		}
+		ANB = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Antigua and Barbuda Armed Forces: 2 infantry
+			496 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		ARM = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Armenia Armed Forces: 2 infantry
+			419 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		AUS = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Australia Armed Forces: 7 infantry, 1 cavalry, 5 artillery
+			4859 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Australia Fleet: 4 heavy_ship, 5 light_ship, 3 transport
+			1090 = {
+				heavy_ship = PREV
+				heavy_ship = PREV
+				heavy_ship = PREV
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+				transport = PREV
+				transport = PREV
+			}
+		}
+		AZE = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Azerbaijan Armed Forces: 3 infantry, 1 artillery
+			421 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+			}
+		}
+		BBD = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Barbados Armed Forces: 2 infantry
+			501 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		BEI = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Brunei Armed Forces: 2 infantry
+			636 = {
+				infantry = PREV
+				infantry = PREV
+			}
+			# Brunei Fleet: 2 light_ship
+			636 = {
+				light_ship = PREV
+				light_ship = PREV
+			}
+		}
+		BEL = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Belgium Armed Forces: 4 infantry, 1 cavalry, 3 artillery
+			92 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Belgium Fleet: 2 light_ship, 1 transport
+			1744 = {
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+			}
+		}
+		BEN = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Benin Armed Forces: 2 infantry
+			1141 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		BFA = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Burkina Faso Armed Forces: 3 infantry, 1 artillery
+			1137 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+			}
+		}
+		BGD = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Bangladesh Armed Forces: 6 infantry, 1 cavalry, 2 artillery
+			564 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Bangladesh Fleet: 2 light_ship, 1 transport
+			568 = {
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+			}
+		}
+		BHE = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Bosnia and Herzegovina Armed Forces: 3 infantry, 1 artillery
+			3002 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+			}
+		}
+		BHM = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Bahamas Armed Forces: 2 infantry
+			482 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		BHR = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Bahrain Armed Forces: 2 infantry
+			396 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		BHU = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Bhutan Armed Forces: 2 infantry
+			565 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		BLR = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Belarus Armed Forces: 4 infantry, 1 artillery
+			276 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+			}
+		}
+		BLZ = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Belize Armed Forces: 2 infantry
+			4589 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		BOL = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Bolivia Armed Forces: 4 infantry, 1 artillery
+			802 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+			}
+		}
+		BOT = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Botswana Armed Forces: 3 infantry
+			3013 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		BRZ = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Brazil Armed Forces: 12 infantry, 1 cavalry, 4 artillery
+			2908 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Brazil Fleet: 2 heavy_ship, 5 light_ship, 2 transport
+			763 = {
+				heavy_ship = PREV
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+				transport = PREV
+			}
+		}
+		BUL = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Bulgaria Armed Forces: 3 infantry, 2 artillery
+			1765 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Bulgaria Fleet: 2 light_ship, 1 transport
+			3250 = {
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+			}
+		}
+		BUU = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Burundi Armed Forces: 2 infantry
+			4070 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		CAF = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Central African Republic Armed Forces: 2 infantry
+			3023 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		CAN = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Canada Armed Forces: 9 infantry, 1 cavalry, 5 artillery
+			4892 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Canada Fleet: 4 heavy_ship, 7 light_ship, 4 transport
+			973 = {
+				heavy_ship = PREV
+				heavy_ship = PREV
+				heavy_ship = PREV
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+				transport = PREV
+				transport = PREV
+				transport = PREV
+			}
+		}
+		CDD = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Chad Armed Forces: 3 infantry, 1 artillery
+			2287 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+			}
+		}
+		CHL = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Chile Armed Forces: 5 infantry, 1 cavalry, 2 artillery
+			787 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Chile Fleet: 1 heavy_ship, 3 light_ship, 2 transport
+			787 = {
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+				transport = PREV
+			}
+		}
+		CHN = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# China Armed Forces: 17 infantry, 2 cavalry, 8 artillery
+			1816 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# China Fleet: 4 heavy_ship, 7 light_ship, 4 transport
+			667 = {
+				heavy_ship = PREV
+				heavy_ship = PREV
+				heavy_ship = PREV
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+				transport = PREV
+				transport = PREV
+				transport = PREV
+			}
+		}
+		CMO = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Comoros Armed Forces: 2 infantry
+			4020 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		CMR = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Cameroon Armed Forces: 3 infantry
+			3022 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		CNG = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Republic of the Congo Armed Forces: 3 infantry
+			1169 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		COL = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Colombia Armed Forces: 7 infantry, 1 cavalry, 2 artillery
+			825 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Colombia Fleet: 1 heavy_ship, 3 light_ship, 1 transport
+			829 = {
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+			}
+		}
+		COS = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Costa Rica Armed Forces: 3 infantry
+			836 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		CPV = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Cape Verde Armed Forces: 2 infantry
+			1096 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		CRO = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Croatia Armed Forces: 4 infantry, 2 artillery
+			131 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Croatia Fleet: 1 heavy_ship, 3 light_ship, 1 transport
+			137 = {
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+			}
+		}
+		CUB = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Cuba Armed Forces: 4 infantry, 2 artillery
+			484 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Cuba Fleet: 1 heavy_ship, 3 light_ship, 1 transport
+			484 = {
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+			}
+		}
+		CYP = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Cyprus Armed Forces: 2 infantry
+			321 = {
+				infantry = PREV
+				infantry = PREV
+			}
+			# Cyprus Fleet: 2 light_ship
+			321 = {
+				light_ship = PREV
+				light_ship = PREV
+			}
+		}
+		CZE = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Czech Republic Armed Forces: 5 infantry, 2 artillery
+			266 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+		}
+		DAN = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Denmark Armed Forces: 4 infantry, 2 artillery
+			12 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Denmark Fleet: 2 heavy_ship, 4 light_ship, 2 transport
+			12 = {
+				heavy_ship = PREV
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+				transport = PREV
+			}
+		}
+		DGL = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Maldives Armed Forces: 2 infantry
+			1248 = {
+				infantry = PREV
+				infantry = PREV
+			}
+			# Maldives Fleet: 2 light_ship
+			1248 = {
+				light_ship = PREV
+				light_ship = PREV
+			}
+		}
+		DJI = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Djibouti Armed Forces: 2 infantry
+			1215 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		DMN = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Dominica Armed Forces: 2 infantry
+			498 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		DOM = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Dominican Republic Armed Forces: 4 infantry, 1 artillery
+			490 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+			}
+		}
+		DRC = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Democratic Republic of the Congo Armed Forces: 4 infantry, 1 artillery
+			3261 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+			}
+			# Democratic Republic of the Congo Fleet: 2 light_ship
+			4079 = {
+				light_ship = PREV
+				light_ship = PREV
+			}
+		}
+		ECU = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Ecuador Armed Forces: 4 infantry, 1 artillery
+			820 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+			}
+			# Ecuador Fleet: 2 light_ship, 1 transport
+			819 = {
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+			}
+		}
+		EGY = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Egypt Armed Forces: 8 infantry, 1 cavalry, 3 artillery
+			361 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Egypt Fleet: 1 heavy_ship, 3 light_ship, 2 transport
+			358 = {
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+				transport = PREV
+			}
+		}
+		ELS = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# El Salvador Armed Forces: 3 infantry
+			839 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		EQG = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Equatorial Guinea Armed Forces: 2 infantry
+			1097 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		ERT = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Eritrea Armed Forces: 3 infantry
+			2766 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		EST = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Estonia Armed Forces: 3 infantry
+			36 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		ETH = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Ethiopia Armed Forces: 5 infantry, 1 cavalry, 2 artillery
+			1213 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+		}
+		FIN = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Finland Armed Forces: 4 infantry, 2 artillery
+			28 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Finland Fleet: 2 heavy_ship, 2 light_ship, 1 transport
+			28 = {
+				heavy_ship = PREV
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+			}
+		}
+		FR2 = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# France Armed Forces: 11 infantry, 1 cavalry, 7 artillery
+			183 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# France Fleet: 4 heavy_ship, 7 light_ship, 4 transport
+			201 = {
+				heavy_ship = PREV
+				heavy_ship = PREV
+				heavy_ship = PREV
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+				transport = PREV
+				transport = PREV
+				transport = PREV
+			}
+		}
+		FRM = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Taiwan Armed Forces: 5 infantry, 2 artillery
+			2154 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Taiwan Fleet: 1 heavy_ship, 2 light_ship, 1 transport
+			738 = {
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+			}
+		}
+		GAB = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Gabon Armed Forces: 2 infantry
+			1165 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		GBI = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Guinea-Bissau Armed Forces: 2 infantry
+			1114 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		GBR = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# United Kingdom Armed Forces: 11 infantry, 1 cavalry, 6 artillery
+			236 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# United Kingdom Fleet: 5 heavy_ship, 9 light_ship, 4 transport
+			236 = {
+				heavy_ship = PREV
+				heavy_ship = PREV
+				heavy_ship = PREV
+				heavy_ship = PREV
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+				transport = PREV
+				transport = PREV
+				transport = PREV
+			}
+		}
+		GEO = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Georgia Armed Forces: 3 infantry, 1 artillery
+			423 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+			}
+		}
+		GER = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Germany Armed Forces: 13 infantry, 1 cavalry, 7 artillery
+			50 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Germany Fleet: 3 heavy_ship, 5 light_ship, 2 transport
+			44 = {
+				heavy_ship = PREV
+				heavy_ship = PREV
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+				transport = PREV
+			}
+		}
+		GHA = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Ghana Armed Forces: 3 infantry, 1 artillery
+			1139 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+			}
+		}
+		GMB = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# The Gambia Armed Forces: 2 infantry
+			3006 = {
+				infantry = PREV
+				infantry = PREV
+			}
+			# The Gambia Fleet: 2 light_ship
+			3006 = {
+				light_ship = PREV
+				light_ship = PREV
+			}
+		}
+		GRE = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Greece Armed Forces: 5 infantry, 2 artillery
+			146 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Greece Fleet: 2 heavy_ship, 4 light_ship, 2 transport
+			146 = {
+				heavy_ship = PREV
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+				transport = PREV
+			}
+		}
+		GRN = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Grenada Armed Forces: 2 infantry
+			1881 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		GTM = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Guatemala Armed Forces: 3 infantry, 1 artillery
+			2653 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+			}
+		}
+		GUI = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Guinea Armed Forces: 3 infantry
+			2241 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		GYA = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Guyana Armed Forces: 2 infantry
+			744 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		GZI = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Zimbabwe Armed Forces: 3 infantry
+			2950 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		HAB = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Austria Armed Forces: 4 infantry, 1 cavalry, 3 artillery
+			134 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+		}
+		HAT = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Haiti Armed Forces: 3 infantry
+			488 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		HON = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Honduras Armed Forces: 3 infantry
+			2640 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		HUN = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Hungary Armed Forces: 4 infantry, 2 artillery
+			153 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+		}
+		ICE = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Iceland Armed Forces: 2 infantry
+			370 = {
+				infantry = PREV
+				infantry = PREV
+			}
+			# Iceland Fleet: 2 light_ship, 1 transport
+			370 = {
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+			}
+		}
+		IDN = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Indonesia Armed Forces: 12 infantry, 1 cavalry, 4 artillery
+			630 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Indonesia Fleet: 3 heavy_ship, 9 light_ship, 4 transport
+			630 = {
+				heavy_ship = PREV
+				heavy_ship = PREV
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+				transport = PREV
+				transport = PREV
+				transport = PREV
+			}
+		}
+		INI = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# India Armed Forces: 15 infantry, 2 cavalry, 6 artillery
+			522 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# India Fleet: 2 heavy_ship, 7 light_ship, 3 transport
+			561 = {
+				heavy_ship = PREV
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+				transport = PREV
+				transport = PREV
+			}
+		}
+		IRA = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Iran Armed Forces: 9 infantry, 1 cavalry, 4 artillery
+			428 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Iran Fleet: 1 heavy_ship, 3 light_ship, 1 transport
+			412 = {
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+			}
+		}
+		IRE = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Ireland Armed Forces: 4 infantry, 2 artillery
+			373 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Ireland Fleet: 2 heavy_ship, 2 light_ship, 2 transport
+			373 = {
+				heavy_ship = PREV
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+				transport = PREV
+			}
+		}
+		IRQ = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Iraq Armed Forces: 6 infantry, 1 cavalry, 2 artillery
+			410 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Iraq Fleet: 2 light_ship
+			408 = {
+				light_ship = PREV
+				light_ship = PREV
+			}
+		}
+		ISR = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Israel Armed Forces: 3 infantry, 2 artillery
+			1854 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Israel Fleet: 2 light_ship, 1 transport
+			3244 = {
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+			}
+		}
+		ITA = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Italy Armed Forces: 11 infantry, 1 cavalry, 5 artillery
+			118 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Italy Fleet: 3 heavy_ship, 6 light_ship, 3 transport
+			118 = {
+				heavy_ship = PREV
+				heavy_ship = PREV
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+				transport = PREV
+				transport = PREV
+			}
+		}
+		IVO = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Ivory Coast Armed Forces: 3 infantry
+			1125 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		JAI = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Malta Armed Forces: 2 infantry
+			126 = {
+				infantry = PREV
+				infantry = PREV
+			}
+			# Malta Fleet: 2 light_ship
+			126 = {
+				light_ship = PREV
+				light_ship = PREV
+			}
+		}
+		JAP = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Japan Armed Forces: 11 infantry, 1 cavalry, 6 artillery
+			1020 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Japan Fleet: 5 heavy_ship, 9 light_ship, 4 transport
+			1021 = {
+				heavy_ship = PREV
+				heavy_ship = PREV
+				heavy_ship = PREV
+				heavy_ship = PREV
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+				transport = PREV
+				transport = PREV
+				transport = PREV
+			}
+		}
+		JMC = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Jamaica Armed Forces: 2 infantry
+			487 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		JOR = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Jordan Armed Forces: 3 infantry
+			381 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		KEY = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Kenya Armed Forces: 4 infantry, 1 artillery
+			1273 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+			}
+		}
+		KHA = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Mongolia Armed Forces: 4 infantry, 2 artillery
+			4678 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+		}
+		KHM = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Cambodia Armed Forces: 4 infantry, 1 artillery
+			2380 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+			}
+			# Cambodia Fleet: 2 light_ship
+			4826 = {
+				light_ship = PREV
+				light_ship = PREV
+			}
+		}
+		KIR = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Kiribati Armed Forces: 2 infantry
+			1991 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		KUW = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Kuwait Armed Forces: 3 infantry, 1 artillery
+			2340 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+			}
+		}
+		KYR = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Kyrgyzstan Armed Forces: 3 infantry
+			2126 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		KZK = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Kazakhstan Armed Forces: 5 infantry, 1 cavalry, 2 artillery
+			476 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+		}
+		LAO = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Laos Armed Forces: 4 infantry, 1 artillery
+			614 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+			}
+		}
+		LAP = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Argentina Armed Forces: 7 infantry, 1 cavalry, 3 artillery
+			778 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Argentina Fleet: 1 heavy_ship, 3 light_ship, 1 transport
+			778 = {
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+			}
+		}
+		LBR = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Liberia Armed Forces: 2 infantry
+			2242 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		LBY = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Libya Armed Forces: 3 infantry, 1 artillery
+			354 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+			}
+		}
+		LEB = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Lebanon Armed Forces: 3 infantry, 1 artillery
+			378 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+			}
+		}
+		LES = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Lesotho Armed Forces: 2 infantry
+			3011 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		LIT = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Lithuania Armed Forces: 3 infantry, 1 artillery
+			272 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+			}
+		}
+		LTV = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Latvia Armed Forces: 3 infantry
+			38 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		LUX = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Luxembourg Armed Forces: 3 infantry
+			94 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		MAC = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Macedonia Armed Forces: 3 infantry
+			3001 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		MAL = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Mali Armed Forces: 6 infantry, 1 artillery
+			1124 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+			}
+		}
+		MDG = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Madagascar Armed Forces: 4 infantry, 1 artillery
+			1792 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+			}
+			# Madagascar Fleet: 1 heavy_ship, 3 light_ship, 1 transport
+			1193 = {
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+			}
+		}
+		MDV = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Moldova Armed Forces: 2 infantry
+			2405 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		MEX = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Mexico Armed Forces: 11 infantry, 1 cavalry, 4 artillery
+			852 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Mexico Fleet: 2 heavy_ship, 6 light_ship, 3 transport
+			848 = {
+				heavy_ship = PREV
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+				transport = PREV
+				transport = PREV
+			}
+		}
+		MIC = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Micronesia Armed Forces: 2 infantry
+			1995 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		MLA = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Malaysia Armed Forces: 7 infantry, 1 cavalry, 3 artillery
+			2392 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Malaysia Fleet: 1 heavy_ship, 4 light_ship, 2 transport
+			2392 = {
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+				transport = PREV
+			}
+		}
+		MNM = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Myanmar Armed Forces: 6 infantry, 1 cavalry, 2 artillery
+			4399 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Myanmar Fleet: 1 heavy_ship, 3 light_ship, 1 transport
+			586 = {
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+			}
+		}
+		MOR = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Morocco Armed Forces: 5 infantry, 2 artillery
+			2469 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Morocco Fleet: 1 heavy_ship, 3 light_ship, 2 transport
+			2469 = {
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+				transport = PREV
+			}
+		}
+		MRS = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Marshall Islands Armed Forces: 2 infantry
+			1993 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		MRT = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Mauritania Armed Forces: 3 infantry
+			1112 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		MTU = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Mauritius Armed Forces: 2 infantry
+			1102 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		MWI = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Malawi Armed Forces: 3 infantry
+			4040 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		MZM = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Mozambique Armed Forces: 4 infantry, 1 artillery
+			1182 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+			}
+			# Mozambique Fleet: 1 heavy_ship, 2 light_ship, 1 transport
+			1182 = {
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+			}
+		}
+		NAU = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Nauru Armed Forces: 2 infantry
+			1992 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		NCR = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Nicaragua Armed Forces: 2 infantry
+			2660 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		NED = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Netherlands Armed Forces: 5 infantry, 1 cavalry, 4 artillery
+			97 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Netherlands Fleet: 2 heavy_ship, 3 light_ship, 2 transport
+			4383 = {
+				heavy_ship = PREV
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+				transport = PREV
+			}
+		}
+		NGR = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Niger Armed Forces: 4 infantry, 1 artillery
+			1142 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+			}
+		}
+		NIG = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Nigeria Armed Forces: 9 infantry, 1 cavalry, 3 artillery
+			1153 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Nigeria Fleet: 2 light_ship, 1 transport
+			2290 = {
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+			}
+		}
+		NMB = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Namibia Armed Forces: 3 infantry
+			1173 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		NOK = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# North Korea Armed Forces: 3 infantry, 1 artillery
+			1845 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+			}
+		}
+		NOR = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Norway Armed Forces: 5 infantry, 2 artillery
+			17 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Norway Fleet: 2 heavy_ship, 3 light_ship, 2 transport
+			17 = {
+				heavy_ship = PREV
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+				transport = PREV
+			}
+		}
+		NPL = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Nepal Armed Forces: 3 infantry, 1 artillery
+			557 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+			}
+		}
+		NZL = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# New Zealand Armed Forces: 3 infantry, 2 artillery
+			1107 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# New Zealand Fleet: 3 heavy_ship, 4 light_ship, 2 transport
+			1107 = {
+				heavy_ship = PREV
+				heavy_ship = PREV
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+				transport = PREV
+			}
+		}
+		OMA = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Oman Armed Forces: 4 infantry, 1 artillery
+			400 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+			}
+			# Oman Fleet: 1 heavy_ship, 2 light_ship, 1 transport
+			400 = {
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+			}
+		}
+		PAK = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Pakistan Armed Forces: 8 infantry, 1 cavalry, 3 artillery
+			2077 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Pakistan Fleet: 2 light_ship, 1 transport
+			504 = {
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+			}
+		}
+		PEU = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Peru Armed Forces: 5 infantry, 1 cavalry, 2 artillery
+			809 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Peru Fleet: 1 heavy_ship, 3 light_ship, 1 transport
+			809 = {
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+			}
+		}
+		PHI = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Philippines Armed Forces: 7 infantry, 1 cavalry, 2 artillery
+			656 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Philippines Fleet: 2 heavy_ship, 4 light_ship, 2 transport
+			656 = {
+				heavy_ship = PREV
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+				transport = PREV
+			}
+		}
+		PLS = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Palestine Armed Forces: 2 infantry
+			379 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		PLU = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Palau Armed Forces: 2 infantry
+			1996 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		PNG = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Papua New Guinea Armed Forces: 2 infantry
+			1237 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		PNM = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Panama Armed Forces: 3 infantry, 1 artillery
+			835 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+			}
+		}
+		POL = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Poland Armed Forces: 7 infantry, 1 cavalry, 4 artillery
+			257 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Poland Fleet: 1 heavy_ship, 2 light_ship, 1 transport
+			1858 = {
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+			}
+		}
+		POR = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Portugal Armed Forces: 5 infantry, 2 artillery
+			227 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Portugal Fleet: 2 heavy_ship, 2 light_ship, 2 transport
+			227 = {
+				heavy_ship = PREV
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+				transport = PREV
+			}
+		}
+		PRG = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Paraguay Armed Forces: 3 infantry
+			775 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		QTR = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Qatar Armed Forces: 3 infantry, 1 artillery
+			395 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+			}
+		}
+		RMN = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Romania Armed Forces: 5 infantry, 1 cavalry, 2 artillery
+			161 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Romania Fleet: 2 light_ship
+			4706 = {
+				light_ship = PREV
+				light_ship = PREV
+			}
+		}
+		RSA = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# South Africa Armed Forces: 7 infantry, 1 cavalry, 2 artillery
+			4781 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# South Africa Fleet: 1 heavy_ship, 2 light_ship, 1 transport
+			1177 = {
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+			}
+		}
+		RUS = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Russia Armed Forces: 15 infantry, 2 cavalry, 8 artillery
+			295 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Russia Fleet: 4 heavy_ship, 6 light_ship, 4 transport
+			33 = {
+				heavy_ship = PREV
+				heavy_ship = PREV
+				heavy_ship = PREV
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+				transport = PREV
+				transport = PREV
+				transport = PREV
+			}
+		}
+		RWA = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Rwanda Armed Forces: 2 infantry
+			4067 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		SAM = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Samoa Armed Forces: 2 infantry
+			1243 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		SAU = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Saudi Arabia Armed Forces: 8 infantry, 1 cavalry, 3 artillery
+			392 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Saudi Arabia Fleet: 1 heavy_ship, 3 light_ship, 1 transport
+			394 = {
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+			}
+		}
+		SEY = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Seychelles Armed Forces: 2 infantry
+			1100 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		SGA = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Singapore Armed Forces: 3 infantry, 1 artillery
+			4815 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+			}
+			# Singapore Fleet: 2 light_ship
+			4815 = {
+				light_ship = PREV
+				light_ship = PREV
+			}
+		}
+		SGL = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Senegal Armed Forces: 3 infantry
+			1113 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		SIA = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Thailand Armed Forces: 8 infantry, 1 cavalry, 3 artillery
+			4831 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Thailand Fleet: 1 heavy_ship, 3 light_ship, 1 transport
+			4831 = {
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+			}
+		}
+		SKN = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# St. Kitts and Nevis Armed Forces: 2 infantry
+			495 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		SKO = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# South Korea Armed Forces: 7 infantry, 1 cavalry, 4 artillery
+			735 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# South Korea Fleet: 2 heavy_ship, 4 light_ship, 2 transport
+			735 = {
+				heavy_ship = PREV
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+				transport = PREV
+			}
+		}
+		SLM = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Solomon Islands Armed Forces: 2 infantry
+			1238 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		SLU = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# St. Lucia Armed Forces: 2 infantry
+			500 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		SOM = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Somalia Armed Forces: 5 infantry, 1 artillery
+			1205 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+			}
+			# Somalia Fleet: 1 heavy_ship, 2 light_ship, 1 transport
+			1209 = {
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+			}
+		}
+		SPA = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Spain Armed Forces: 10 infantry, 1 cavalry, 4 artillery
+			217 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Spain Fleet: 2 heavy_ship, 6 light_ship, 2 transport
+			213 = {
+				heavy_ship = PREV
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+				transport = PREV
+			}
+		}
+		SRA = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Sierra Leone Armed Forces: 2 infantry
+			1118 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		SRL = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Sri Lanka Armed Forces: 4 infantry, 2 artillery
+			572 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Sri Lanka Fleet: 1 heavy_ship, 2 light_ship, 1 transport
+			572 = {
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+			}
+		}
+		SRN = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Suriname Armed Forces: 2 infantry
+			745 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		STP = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Sao Tome and Principe Armed Forces: 2 infantry
+			1306 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		SUD = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Sudan Armed Forces: 4 infantry, 2 artillery
+			2798 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Sudan Fleet: 2 light_ship
+			1232 = {
+				light_ship = PREV
+				light_ship = PREV
+			}
+		}
+		SVG = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# St. Vincent and the Grenadines Armed Forces: 2 infantry
+			3057 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		SVK = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Slovakia Armed Forces: 3 infantry, 2 artillery
+			1772 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+		}
+		SVN = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Slovenia Armed Forces: 3 infantry, 1 artillery
+			1769 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+			}
+			# Slovenia Fleet: 2 light_ship
+			1769 = {
+				light_ship = PREV
+				light_ship = PREV
+			}
+		}
+		SWE = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Sweden Armed Forces: 4 infantry, 1 cavalry, 3 artillery
+			1 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Sweden Fleet: 2 heavy_ship, 4 light_ship, 2 transport
+			1 = {
+				heavy_ship = PREV
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+				transport = PREV
+			}
+		}
+		SWI = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Switzerland Armed Forces: 4 infantry, 1 cavalry, 3 artillery
+			165 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+		}
+		SWZ = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Swaziland Armed Forces: 2 infantry
+			4783 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		SYR = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Syria Armed Forces: 4 infantry, 1 artillery
+			382 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+			}
+			# Syria Fleet: 2 light_ship
+			3070 = {
+				light_ship = PREV
+				light_ship = PREV
+			}
+		}
+		TGO = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Togo Armed Forces: 2 infantry
+			3007 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		TJK = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Tajikistan Armed Forces: 2 infantry
+			1968 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		TKY = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Turkey Armed Forces: 10 infantry, 1 cavalry, 4 artillery
+			326 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Turkey Fleet: 2 heavy_ship, 4 light_ship, 2 transport
+			151 = {
+				heavy_ship = PREV
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+				transport = PREV
+			}
+		}
+		TNZ = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Tanzania Armed Forces: 4 infantry, 1 artillery
+			4058 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+			}
+			# Tanzania Fleet: 2 light_ship, 1 transport
+			1196 = {
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+			}
+		}
+		TOG = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Tonga Armed Forces: 2 infantry
+			1989 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		TRK = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Turkmenistan Armed Forces: 3 infantry, 1 artillery
+			437 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+			}
+		}
+		TRN = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Trinidad and Tobago Armed Forces: 3 infantry
+			502 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+			}
+			# Trinidad and Tobago Fleet: 2 light_ship
+			502 = {
+				light_ship = PREV
+				light_ship = PREV
+			}
+		}
+		TUN = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Tunisia Armed Forces: 4 infantry, 1 artillery
+			341 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+			}
+		}
+		TVL = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Tuvalu Armed Forces: 2 infantry
+			1990 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		UAE = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# United Arab Emirates Armed Forces: 4 infantry, 2 artillery
+			2333 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# United Arab Emirates Fleet: 2 light_ship, 1 transport
+			397 = {
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+			}
+		}
+		UGA = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Uganda Armed Forces: 3 infantry, 1 artillery
+			4064 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+			}
+		}
+		UKR = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Ukraine Armed Forces: 5 infantry, 1 cavalry, 2 artillery
+			280 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Ukraine Fleet: 1 heavy_ship, 3 light_ship, 1 transport
+			284 = {
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+			}
+		}
+		URU = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Uruguay Armed Forces: 3 infantry
+			2850 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		USA = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# United States Armed Forces: 18 infantry, 2 cavalry, 10 artillery
+			953 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# United States Fleet: 7 heavy_ship, 11 light_ship, 6 transport
+			868 = {
+				heavy_ship = PREV
+				heavy_ship = PREV
+				heavy_ship = PREV
+				heavy_ship = PREV
+				heavy_ship = PREV
+				heavy_ship = PREV
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+				transport = PREV
+				transport = PREV
+				transport = PREV
+				transport = PREV
+				transport = PREV
+			}
+		}
+		UZB = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Uzbekistan Armed Forces: 4 infantry, 1 artillery
+			457 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+			}
+		}
+		VIT = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Fiji Armed Forces: 2 infantry
+			1242 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		VNU = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Vanuatu Armed Forces: 2 infantry
+			1239 = {
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+		VNZ = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Venezuela Armed Forces: 6 infantry, 1 cavalry, 2 artillery
+			831 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Venezuela Fleet: 1 heavy_ship, 3 light_ship, 1 transport
+			831 = {
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+			}
+		}
+		VTN = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Vietnam Armed Forces: 6 infantry, 1 cavalry, 2 artillery
+			613 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				cavalry = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Vietnam Fleet: 1 heavy_ship, 3 light_ship, 2 transport
+			605 = {
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+				transport = PREV
+			}
+		}
+		YEM = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Yemen Armed Forces: 4 infantry, 1 artillery
+			4280 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+			}
+			# Yemen Fleet: 1 heavy_ship, 3 light_ship, 1 transport
+			388 = {
+				heavy_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				light_ship = PREV
+				transport = PREV
+			}
+		}
+		YUG = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Yugoslavia Armed Forces: 4 infantry, 2 artillery
+			4239 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+				artillery = PREV
+				artillery = PREV
+			}
+			# Yugoslavia Fleet: 2 light_ship
+			4754 = {
+				light_ship = PREV
+				light_ship = PREV
+			}
+		}
+		ZAM = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Zambia Armed Forces: 3 infantry
+			4106 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+			}
+		}
+	}
+}

@@ -110,3 +110,5 @@ ship_names = {
 
 	Freedom Unity Republic Horizon Discovery Endeavour Enterprise Liberty Peace Hope
 }
+army_names = { "Samoa Armed Forces" }
+fleet_names = { "Samoa Fleet" }

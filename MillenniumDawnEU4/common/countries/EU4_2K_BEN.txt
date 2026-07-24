@@ -75,3 +75,5 @@ ship_names = {
 
 	Freedom Unity Republic Horizon Discovery Endeavour Enterprise Liberty Peace Hope
 }
+army_names = { "Benin Armed Forces" }
+fleet_names = { "Benin Fleet" }

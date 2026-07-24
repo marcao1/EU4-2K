@@ -107,3 +107,5 @@ ship_names = {
 
 	Freedom Unity Republic Horizon Discovery Endeavour Enterprise Liberty Peace Hope
 }
+army_names = { "South Korea Armed Forces" }
+fleet_names = { "South Korea Fleet" }

@@ -69,3 +69,5 @@ ship_names = {
 
 	Freedom Unity Republic Horizon Discovery Endeavour Enterprise Liberty Peace Hope
 }
+army_names = { "Tajikistan Armed Forces" }
+fleet_names = { "Tajikistan Fleet" }

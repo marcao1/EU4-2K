@@ -40,3 +40,5 @@ ship_names = {
 
 	Freedom Unity Republic Horizon Discovery Endeavour Enterprise Liberty Peace Hope
 }
+army_names = { "Uganda Armed Forces" }
+fleet_names = { "Uganda Fleet" }

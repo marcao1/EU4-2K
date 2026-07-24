@@ -122,3 +122,5 @@ ship_names = {
 
 	Freedom Unity Republic Horizon Discovery Endeavour Enterprise Liberty Peace Hope
 }
+army_names = { "Albania Armed Forces" }
+fleet_names = { "Albania Fleet" }

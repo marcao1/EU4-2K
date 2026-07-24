@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Bootstrap, validate, and integrate canonical Step 3 starting-world data.
 
-This stage owns the canonical CSVs and clean bilateral diplomacy history.
-International-organization memberships and individual forces remain data-only.
+This stage owns the canonical CSVs, clean bilateral diplomacy history, and the
+one-time starting-force initializer. International organizations remain
+data-only.
 """
 
 from __future__ import annotations
@@ -28,6 +29,8 @@ COUNTRY_DATA = ROOT / "data" / "country_setup_2000.csv"
 DIPLOMACY_DATA = ROOT / "data" / "diplomacy_2000.csv"
 FORCES_DATA = ROOT / "data" / "forces_2000.csv"
 DIPLOMACY_OUTPUT = MOD / "history" / "diplomacy" / "00_eu4_2k_diplomacy.txt"
+FORCES_EFFECT_OUTPUT = MOD / "common" / "scripted_effects" / "00_eu4_2k_starting_forces.txt"
+FORCES_ON_ACTION_OUTPUT = MOD / "common" / "on_actions" / "zz_eu4_2k_starting_forces.txt"
 
 COUNTRY_FIELDS = [
     "tag", "adm_tech", "dip_tech", "mil_tech", "technology_tier",
@@ -58,6 +61,12 @@ FORCES_FIELDS = [
     "country", "branch", "formation_name", "location", "unit_category",
     "quantity", "quality_tier", "source", "verification_notes",
 ]
+
+MAJOR_NAVY_QUANTITIES = {
+    "USA": 24, "GBR": 18, "JAP": 18, "CHN": 15, "FR2": 15,
+    "RUS": 14, "INI": 12, "AUS": 12, "ITA": 12, "GER": 10,
+    "SKO": 8,
+}
 
 INSTITUTIONS = [
     "feudalism", "renaissance", "new_world_i", "printing_press",
@@ -170,6 +179,124 @@ def validate_diplomacy_output(rows: Sequence[dict[str, str]]) -> None:
     blocks = re.findall(r"(?m)^(alliance|guarantee|vassal|union|dependency|royal_marriage)\s*=\s*\{", text)
     if len(blocks) != len(bilateral_diplomacy(rows)):
         raise RuntimeError("Generated bilateral diplomacy count is incorrect")
+
+
+def army_composition(quantity: int, quality_tier: int) -> dict[str, int]:
+    """Convert a formation total into a modern EU4 combined-arms abstraction."""
+    artillery_share = {1: 0.15, 2: 0.20, 3: 0.25, 4: 0.30, 5: 0.35}.get(
+        quality_tier, 0.15
+    )
+    cavalry_share = {1: 0.05, 2: 0.08, 3: 0.08, 4: 0.08, 5: 0.05}.get(
+        quality_tier, 0.05
+    )
+    artillery = max(1, round(quantity * artillery_share)) if quantity >= 4 else 0
+    cavalry = max(1, round(quantity * cavalry_share)) if quantity >= 8 else 0
+    infantry = quantity - artillery - cavalry
+    return {"infantry": infantry, "cavalry": cavalry, "artillery": artillery}
+
+
+def navy_composition(quantity: int, quality_tier: int) -> dict[str, int]:
+    """Convert a fleet total into combatants, patrol ships, and sealift."""
+    heavy_share = {1: 0.10, 2: 0.15, 3: 0.20, 4: 0.25, 5: 0.30}.get(
+        quality_tier, 0.10
+    )
+    heavy = max(1, round(quantity * heavy_share)) if quantity >= 4 else 0
+    transport = max(1, round(quantity * 0.25)) if quantity >= 3 else 0
+    light = quantity - heavy - transport
+    return {"heavy_ship": heavy, "light_ship": light, "transport": transport}
+
+
+def starting_forces_effect(rows: Sequence[dict[str, str]]) -> str:
+    by_tag: dict[str, list[dict[str, str]]] = {}
+    for row in rows:
+        by_tag.setdefault(row["country"], []).append(row)
+    lines = [
+        "# Generated exact 2000 starting forces.",
+        "# EU4's force-limit-generated units are cleared once before these are created.",
+        "eu4_2k_initialize_starting_forces = {",
+        "\ttrigger_switch = {",
+        "\t\ton_trigger = tag",
+    ]
+    for tag, formations in sorted(by_tag.items()):
+        lines.extend([
+            f"\t\t{tag} = {{",
+            "\t\t\tevery_owned_province = {",
+            "\t\t\t\tkill_units = { who = PREV }",
+            "\t\t\t}",
+        ])
+        for row in sorted(formations, key=lambda item: item["branch"]):
+            quantity = int(row["quantity"])
+            tier = int(row["quality_tier"])
+            composition = (
+                army_composition(quantity, tier)
+                if row["branch"] == "army"
+                else navy_composition(quantity, tier)
+            )
+            safe_name = row["formation_name"].replace("#", "")
+            summary = ", ".join(
+                f"{amount} {unit_type}" for unit_type, amount in composition.items()
+                if amount
+            )
+            lines.extend([
+                f"\t\t\t# {safe_name}: {summary}",
+                f"\t\t\t{row['location']} = {{",
+            ])
+            for unit_type, amount in composition.items():
+                lines.extend([f"\t\t\t\t{unit_type} = PREV"] * amount)
+            lines.append("\t\t\t}")
+        lines.append("\t\t}")
+    lines.extend(["\t}", "}", ""])
+    return "\n".join(lines)
+
+
+def starting_forces_on_action() -> str:
+    return """# One-time replacement of EU4's generated opening forces.
+on_startup = {
+\tif = {
+\t\tlimit = {
+\t\t\tis_year = 2000
+\t\t\tNOT = { is_year = 2001 }
+\t\t\tNOT = { has_country_flag = eu4_2k_starting_forces_initialized }
+\t\t}
+\t\teu4_2k_initialize_starting_forces = yes
+\t\tset_country_flag = eu4_2k_starting_forces_initialized
+\t}
+}
+"""
+
+
+def write_starting_forces(rows: Sequence[dict[str, str]]) -> None:
+    outputs = {
+        FORCES_EFFECT_OUTPUT: starting_forces_effect(rows),
+        FORCES_ON_ACTION_OUTPUT: starting_forces_on_action(),
+    }
+    for path, content in outputs.items():
+        path.parent.mkdir(parents=True, exist_ok=True)
+        encoded = content.encode("cp1252")
+        if not path.exists() or path.read_bytes() != encoded:
+            path.write_bytes(encoded)
+
+
+def validate_starting_forces_output(rows: Sequence[dict[str, str]]) -> None:
+    expected = {
+        FORCES_EFFECT_OUTPUT: starting_forces_effect(rows).encode("cp1252"),
+        FORCES_ON_ACTION_OUTPUT: starting_forces_on_action().encode("cp1252"),
+    }
+    for path, content in expected.items():
+        if not path.exists() or path.read_bytes() != content:
+            raise RuntimeError(f"Generated starting-force output is missing or stale: {path.name}")
+    effect = expected[FORCES_EFFECT_OUTPUT].decode("cp1252")
+    if effect.count("kill_units = { who = PREV }") != len({row["country"] for row in rows}):
+        raise RuntimeError("Starting-force reset count is incorrect")
+    generated_units = sum(
+        len(re.findall(rf"(?m)^\s*{unit_type} = PREV$", effect))
+        for unit_type in ("infantry", "cavalry", "artillery", "heavy_ship", "light_ship", "transport")
+    )
+    expected_units = sum(int(row["quantity"]) for row in rows)
+    if generated_units != expected_units:
+        raise RuntimeError(
+            f"Starting-force unit count is {generated_units}, expected {expected_units}"
+        )
 
 
 def read_csv(path: Path, fields: Sequence[str]) -> list[dict[str, str]]:
@@ -385,7 +512,7 @@ def bootstrap_forces(
         country = country_by_tag[tag]
         tier = int(setup[tag]["army_quality_tier"])
         total_development = sum(aggregates[tag][key] for key in ("tax", "production", "manpower"))
-        army_quantity = max(1, min(60, round(math.sqrt(total_development) * 0.7)))
+        army_quantity = max(1, min(45, round(math.sqrt(total_development) * 0.55)))
         rows.append({
             "country": tag,
             "branch": "army",
@@ -398,12 +525,18 @@ def bootstrap_forces(
             "verification_notes": "Simplified first-pass formation; real order of battle pending.",
         })
         coastal_owned = [province for province in owned[tag] if int(province["province_id"]) in coastal]
-        if coastal_owned:
+        # EU4 ships represent meaningful naval formations, not every coast
+        # guard or patrol boat. Small low-tier coastal states therefore begin
+        # without an artificial fleet.
+        if coastal_owned and (total_development >= 75 or tier >= 4):
             port = max(
                 coastal_owned,
                 key=lambda province: sum(float(province[field]) for field in ("base_tax", "base_production", "base_manpower")),
             )
-            navy_quantity = max(1, min(40, round(math.sqrt(len(coastal_owned) * max(tier, 1)) * 1.5)))
+            navy_quantity = MAJOR_NAVY_QUANTITIES.get(
+                tag,
+                max(2, min(16, round(math.sqrt(len(coastal_owned) * max(tier, 1))))),
+            )
             rows.append({
                 "country": tag,
                 "branch": "navy",
@@ -475,6 +608,9 @@ def validate(
         if start is None or end is None or not start <= countries.START_NUMBER < end:
             errors.append(f"inactive diplomacy row at start: {key}")
     army_tags: set[str] = set()
+    navy_tags: set[str] = set()
+    force_keys: set[tuple[str, str]] = set()
+    coastal = coastal_land_provinces()
     for row in force_rows:
         tag = row["country"]
         if tag not in active:
@@ -482,8 +618,14 @@ def validate(
             continue
         if row["branch"] not in {"army", "navy"}:
             errors.append(f"{tag}: invalid force branch")
+        force_key = (tag, row["branch"])
+        if force_key in force_keys:
+            errors.append(f"{tag}: duplicate {row['branch']} formation")
+        force_keys.add(force_key)
         if owned_by_id.get(row["location"]) != tag:
             errors.append(f"{tag}: formation location {row['location']} is not owned")
+        if row["branch"] == "navy" and int(row["location"]) not in coastal:
+            errors.append(f"{tag}: fleet location {row['location']} is not coastal")
         try:
             if int(row["quantity"]) <= 0 or not 0 <= int(row["quality_tier"]) <= 5:
                 raise ValueError
@@ -491,6 +633,8 @@ def validate(
             errors.append(f"{tag}: invalid force quantity or quality")
         if row["branch"] == "army":
             army_tags.add(tag)
+        elif row["branch"] == "navy":
+            navy_tags.add(tag)
     if army_tags != active:
         errors.append("every active country must have one starting army record")
     if errors:
@@ -508,6 +652,11 @@ def main() -> int:
         help="replace only bilateral diplomacy and organization metadata",
     )
     parser.add_argument(
+        "--rebuild-forces",
+        action="store_true",
+        help="replace only the performance-bounded army and navy records",
+    )
+    parser.add_argument(
         "--rebalance-economy",
         action="store_true",
         help="recalculate size-based treasury and development-derived reserves without replacing other setup data",
@@ -519,9 +668,11 @@ def main() -> int:
     missing = [path for path in (COUNTRY_DATA, DIPLOMACY_DATA, FORCES_DATA) if not path.exists()]
     if args.check and missing:
         raise SystemExit("Canonical starting-world data is missing; run generate first")
-    if args.check and (args.rebalance_economy or args.rebuild_diplomacy):
+    if args.check and (
+        args.rebalance_economy or args.rebuild_diplomacy or args.rebuild_forces
+    ):
         raise SystemExit(
-            "--check cannot be combined with --rebalance-economy or --rebuild-diplomacy"
+            "--check cannot be combined with a rebuild or rebalance option"
         )
     if args.rebuild_data or missing:
         setup_rows = bootstrap_country_setup(country_rows, provinces)
@@ -546,15 +697,23 @@ def main() -> int:
         write_csv(COUNTRY_DATA, COUNTRY_FIELDS, setup_rows)
     elif args.rebuild_diplomacy:
         write_csv(DIPLOMACY_DATA, DIPLOMACY_FIELDS, effective_diplomacy(country_rows))
+    elif args.rebuild_forces:
+        setup_rows = read_csv(COUNTRY_DATA, COUNTRY_FIELDS)
+        write_csv(FORCES_DATA, FORCES_FIELDS, bootstrap_forces(
+            country_rows, provinces, setup_rows
+        ))
     setup_rows = read_csv(COUNTRY_DATA, COUNTRY_FIELDS)
     diplomacy_rows = read_csv(DIPLOMACY_DATA, DIPLOMACY_FIELDS)
     force_rows = read_csv(FORCES_DATA, FORCES_FIELDS)
     validate(country_rows, provinces, setup_rows, diplomacy_rows, force_rows)
     if args.check:
         validate_diplomacy_output(diplomacy_rows)
+        validate_starting_forces_output(force_rows)
     else:
         write_diplomacy(diplomacy_rows)
         validate_diplomacy_output(diplomacy_rows)
+        write_starting_forces(force_rows)
+        validate_starting_forces_output(force_rows)
     action = "Validated" if args.check else "Generated"
     print(
         f"{action} starting-world data: {len(setup_rows)} countries, "

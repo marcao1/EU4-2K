@@ -50,3 +50,5 @@ ship_names = {
 
 	Freedom Unity Republic Horizon Discovery Endeavour Enterprise Liberty Peace Hope
 }
+army_names = { "Pakistan Armed Forces" }
+fleet_names = { "Pakistan Fleet" }

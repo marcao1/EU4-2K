@@ -37,3 +37,5 @@ ship_names = {
 
 	Freedom Unity Republic Horizon Discovery Endeavour Enterprise Liberty Peace Hope
 }
+army_names = { "Niger Armed Forces" }
+fleet_names = { "Niger Fleet" }

@@ -41,3 +41,5 @@ ship_names = {
 
 	Freedom Unity Republic Horizon Discovery Endeavour Enterprise Liberty Peace Hope
 }
+army_names = { "Burkina Faso Armed Forces" }
+fleet_names = { "Burkina Faso Fleet" }

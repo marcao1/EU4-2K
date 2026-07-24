@@ -42,3 +42,5 @@ ship_names = {
 
 	Freedom Unity Republic Horizon Discovery Endeavour Enterprise Liberty Peace Hope
 }
+army_names = { "Kenya Armed Forces" }
+fleet_names = { "Kenya Fleet" }

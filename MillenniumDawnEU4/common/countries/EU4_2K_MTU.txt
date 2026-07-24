@@ -53,3 +53,5 @@ ship_names = {
 
 	Freedom Unity Republic Horizon Discovery Endeavour Enterprise Liberty Peace Hope
 }
+army_names = { "Mauritius Armed Forces" }
+fleet_names = { "Mauritius Fleet" }

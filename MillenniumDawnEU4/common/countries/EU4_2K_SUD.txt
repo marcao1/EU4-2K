@@ -43,3 +43,5 @@ ship_names = {
 
 	Freedom Unity Republic Horizon Discovery Endeavour Enterprise Liberty Peace Hope
 }
+army_names = { "Sudan Armed Forces" }
+fleet_names = { "Sudan Fleet" }

@@ -80,3 +80,5 @@ ship_names = {
 
 	Freedom Unity Republic Horizon Discovery Endeavour Enterprise Liberty Peace Hope
 }
+army_names = { "Armenia Armed Forces" }
+fleet_names = { "Armenia Fleet" }

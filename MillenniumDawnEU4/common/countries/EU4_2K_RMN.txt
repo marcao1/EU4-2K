@@ -91,3 +91,5 @@ ship_names = {
 
 	Freedom Unity Republic Horizon Discovery Endeavour Enterprise Liberty Peace Hope
 }
+army_names = { "Romania Armed Forces" }
+fleet_names = { "Romania Fleet" }

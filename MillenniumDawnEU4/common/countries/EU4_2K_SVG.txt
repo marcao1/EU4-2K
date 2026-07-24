@@ -60,3 +60,5 @@ ship_names = {
 
 	Freedom Unity Republic Horizon Discovery Endeavour Enterprise Liberty Peace Hope
 }
+army_names = { "St. Vincent and the Grenadines Armed Forces" }
+fleet_names = { "St. Vincent and the Grenadines Fleet" }

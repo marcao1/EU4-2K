@@ -194,3 +194,5 @@ ship_names = {
 
 	Freedom Unity Republic Horizon Discovery Endeavour Enterprise Liberty Peace Hope
 }
+army_names = { "Georgia Armed Forces" }
+fleet_names = { "Georgia Fleet" }

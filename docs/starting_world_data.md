@@ -2,7 +2,7 @@
 
 ## Scope
 
-This stage establishes authoritative input data for the playable `2000.1.1` world. Technology, the first-pass economy/reserve setup, and bilateral diplomacy are now written into EU4 history; international organizations and individual army/navy formations remain data-only.
+This stage establishes authoritative input data for the playable `2000.1.1` world. Technology, the first-pass economy/reserve setup, bilateral diplomacy, and bounded starting forces are now integrated; international organizations remain data-only.
 
 The three canonical datasets are:
 
@@ -102,19 +102,22 @@ Switzerland, Taiwan, Yugoslavia, Tuvalu, and Palestine are excluded from the UN-
 `forces_2000.csv` contains a mechanically bounded first-pass force model:
 
 - One army record for every active country
-- One navy record for every country with an owned province adjacent to an ET sea zone
+- One navy record for countries with suitable coastal access and sufficient naval capacity
 - Valid owned starting locations
 - Formation name, branch, unit category, quantity, and quality tier
 
-Coastal provinces are detected deterministically from `provinces.bmp` and `sea_starts`. Formation quantities are scaled from development, coastal extent, and technology tier. They are not claims of exact historical order of battle.
+Coastal provinces are detected deterministically from `provinces.bmp` and `sea_starts`. Formation quantities are scaled from development, coastal extent, and technology tier. Small low-tier coastal states do not receive artificial capital-ship fleets. The records are gameplay abstractions, not claims of exact historical order of battle.
 
-The initial dataset contains 188 army formations and 148 fleet formations.
+The integrated dataset contains 188 army formations with 1,103 regiments and
+80 fleet formations with 493 ships.
 
-The formation rows are canonical order-of-battle metadata and are not yet
-written as individual regiments or ships. EU4 currently creates its normal
-starting forces from force limit. All modern technology groups therefore use a
-level-5 through level-9 variants so the engine has valid infantry types and
-applies each country's CSV technology directly during initialization.
+EU4 normally creates opening forces from force limit rather than an order of
+battle. A one-time `on_startup` effect clears only the country's automatically
+generated units and creates the exact canonical quantity at the recorded owned
+locations. Army totals are divided among infantry, cavalry, and artillery as a
+modern combined-arms abstraction; fleets use heavy ships, light ships, and
+transports. A persistent country flag prevents the initializer from firing
+again when a save is loaded.
 
 Starting technology is integrated into the generated country histories. The
 current first-pass scale is level 5 for tier 1 through level 9 for tier 5. Each
@@ -141,8 +144,11 @@ The non-mutating check rejects:
 - Organization records appearing in generated bilateral diplomacy
 - Missing or stale bilateral diplomacy and starting-opinion output
 - Forces located outside their owner's territory
+- Fleets located in non-coastal provinces
+- Duplicate army or navy records
 - Invalid formation quantities or quality tiers
 - Active countries without an army record
+- Missing, stale, or incorrectly sized starting-force scripts
 
 ## Economy and development baseline
 
@@ -161,6 +167,6 @@ and Russia.
 
 ## Next integration task
 
-Integrate `data/forces_2000.csv` as clean starting army and navy history while
-preventing duplicate engine-generated forces. International organizations stay
-outside that pass and will be implemented as a separate system.
+Build the first event-driven leadership and political-transition framework for
+the post-2000 timeline. International organizations stay outside that pass and
+will be implemented as a separate system.

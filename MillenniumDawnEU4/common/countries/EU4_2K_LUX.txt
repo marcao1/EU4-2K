@@ -68,3 +68,5 @@ ship_names = {
 
 	Freedom Unity Republic Horizon Discovery Endeavour Enterprise Liberty Peace Hope
 }
+army_names = { "Luxembourg Armed Forces" }
+fleet_names = { "Luxembourg Fleet" }

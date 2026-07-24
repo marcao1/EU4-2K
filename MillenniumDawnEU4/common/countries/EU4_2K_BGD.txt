@@ -83,3 +83,5 @@ ship_names = {
 
 	Freedom Unity Republic Horizon Discovery Endeavour Enterprise Liberty Peace Hope
 }
+army_names = { "Bangladesh Armed Forces" }
+fleet_names = { "Bangladesh Fleet" }

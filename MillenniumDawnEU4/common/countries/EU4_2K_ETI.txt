@@ -43,3 +43,5 @@ ship_names = {
 
 	Freedom Unity Republic Horizon Discovery Endeavour Enterprise Liberty Peace Hope
 }
+army_names = { "East Timor Armed Forces" }
+fleet_names = { "East Timor Fleet" }
