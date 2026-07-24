@@ -13,7 +13,12 @@ set_country_flag = eu4_2k_ruling_group_rus_independent
 # Canonical 2000 economy and reserves from data/country_setup_2000.csv
 set_country_flag = eu4_2k_economic_tier_4
 set_country_flag = eu4_2k_infrastructure_tier_4
-set_treasury = 50
+while = { limit = { treasury = 10000 } add_treasury = -10000 }
+while = { limit = { treasury = 1000 } add_treasury = -1000 }
+while = { limit = { treasury = 100 } add_treasury = -100 }
+while = { limit = { treasury = 10 } add_treasury = -10 }
+while = { limit = { treasury = 1 } add_treasury = -1 }
+add_treasury = 50
 add_inflation = -100
 add_inflation = 0
 add_stability = -3
@@ -25,7 +30,7 @@ add_corruption = 0
 add_republican_tradition = -100
 add_republican_tradition = 60
 add_manpower = -1000000
-add_manpower = 311.25
+add_manpower = 362.25
 add_sailors = -1000000
 add_sailors = 13650
 # Canonical starting ADM/DIP/MIL technology from data/country_setup_2000.csv
@@ -36,3 +41,5 @@ monarch = {
 	dip = 4
 	mil = 4
 }
+add_opinion = { who = ARM modifier = eu4_2k_starting_opinion_100 }
+add_opinion = { who = BLR modifier = eu4_2k_starting_opinion_100 }

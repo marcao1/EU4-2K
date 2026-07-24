@@ -9,5 +9,6 @@ tags={
 replace_path="common/bookmarks"
 replace_path="common/institutions"
 replace_path="history/countries"
+replace_path="history/diplomacy"
 replace_path="history/provinces"
 replace_path="map/random"

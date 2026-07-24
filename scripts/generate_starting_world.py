@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Bootstrap and validate canonical Step 3 starting-world data.
+"""Bootstrap, validate, and integrate canonical Step 3 starting-world data.
 
-This stage owns CSV data only. It deliberately does not emit EU4 diplomacy,
-technology, economy, or unit history yet.
+This stage owns the canonical CSVs and clean bilateral diplomacy history.
+International-organization memberships and individual forces remain data-only.
 """
 
 from __future__ import annotations
@@ -27,6 +27,7 @@ ET = countries.ET
 COUNTRY_DATA = ROOT / "data" / "country_setup_2000.csv"
 DIPLOMACY_DATA = ROOT / "data" / "diplomacy_2000.csv"
 FORCES_DATA = ROOT / "data" / "forces_2000.csv"
+DIPLOMACY_OUTPUT = MOD / "history" / "diplomacy" / "00_eu4_2k_diplomacy.txt"
 
 COUNTRY_FIELDS = [
     "tag", "adm_tech", "dip_tech", "mil_tech", "technology_tier",
@@ -98,6 +99,77 @@ OPINION_BY_RELATIONSHIP = {
     "alliance": "100", "guarantee": "75", "vassal": "150",
     "union": "150", "dependency": "125", "royal_marriage": "100",
 }
+
+# Curated bilateral defence relationships effective on 2000.1.1. Membership
+# in NATO, the EU, CIS, UN, OAS, or any other organization is excluded here.
+CURATED_BILATERAL_RELATIONSHIPS = (
+    ("GBR", "POR", "alliance", "1386.5.9", "uk-portugal-treaty-of-windsor"),
+    ("USA", "AUS", "alliance", "1952.4.29", "us-state-collective-defense"),
+    ("AUS", "NZL", "alliance", "1952.4.29", "us-state-collective-defense"),
+    ("USA", "PHI", "alliance", "1952.8.27", "us-state-collective-defense"),
+    ("USA", "SKO", "alliance", "1954.11.17", "us-state-collective-defense"),
+    ("USA", "SIA", "alliance", "1954.9.8", "us-state-collective-defense"),
+    ("USA", "JAP", "alliance", "1960.6.23", "us-state-collective-defense"),
+    ("CHN", "NOK", "alliance", "1961.9.10", "china-dprk-mutual-assistance"),
+    ("RUS", "ARM", "alliance", "1997.8.29", "russia-armenia-mutual-assistance"),
+    ("RUS", "BLR", "alliance", "1999.12.8", "russia-belarus-union-state"),
+    # The Taiwan Relations Act is represented as a unilateral gameplay
+    # guarantee rather than a mutual alliance.
+    ("USA", "FRM", "guarantee", "1979.4.10", "taiwan-relations-act"),
+)
+
+
+def bilateral_diplomacy(
+    rows: Sequence[dict[str, str]],
+) -> list[dict[str, str]]:
+    """Return gameplay relationships, explicitly excluding organizations."""
+    return [row for row in rows if row["relationship_type"] in RELATIONSHIP_TYPES]
+
+
+def diplomacy_history(rows: Sequence[dict[str, str]]) -> str:
+    lines = [
+        "# Generated bilateral diplomacy effective on 2000.1.1.",
+        "# International organizations are intentionally not integrated here.",
+        "",
+    ]
+    for row in bilateral_diplomacy(rows):
+        lines.extend([
+            f"{row['relationship_type']} = {{",
+            f"\tfirst = {row['country_a']}",
+            f"\tsecond = {row['country_b']}",
+            f"\t# Historical treaty start: {row['start_date']}",
+            "\tstart_date = 2000.1.1",
+            f"\tend_date = {row['end_date']}",
+            "}",
+            "",
+        ])
+    return "\n".join(lines)
+
+
+def write_diplomacy(rows: Sequence[dict[str, str]]) -> None:
+    DIPLOMACY_OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    for path in DIPLOMACY_OUTPUT.parent.glob("*.txt"):
+        if path != DIPLOMACY_OUTPUT:
+            path.unlink()
+    content = diplomacy_history(rows).encode("cp1252")
+    if not DIPLOMACY_OUTPUT.exists() or DIPLOMACY_OUTPUT.read_bytes() != content:
+        DIPLOMACY_OUTPUT.write_bytes(content)
+
+
+def validate_diplomacy_output(rows: Sequence[dict[str, str]]) -> None:
+    expected = diplomacy_history(rows).encode("cp1252")
+    if not DIPLOMACY_OUTPUT.exists():
+        raise RuntimeError("Missing generated bilateral diplomacy history")
+    if DIPLOMACY_OUTPUT.read_bytes() != expected:
+        raise RuntimeError("Generated bilateral diplomacy history is stale")
+    text = expected.decode("cp1252")
+    if "organization_member" in text or any(
+        f"organization = {name}" in text for name in ("NATO", "EU", "CIS", "UN")
+    ):
+        raise RuntimeError("International organization leaked into diplomacy output")
+    blocks = re.findall(r"(?m)^(alliance|guarantee|vassal|union|dependency|royal_marriage)\s*=\s*\{", text)
+    if len(blocks) != len(bilateral_diplomacy(rows)):
+        raise RuntimeError("Generated bilateral diplomacy count is incorrect")
 
 
 def read_csv(path: Path, fields: Sequence[str]) -> list[dict[str, str]]:
@@ -247,35 +319,32 @@ def effective_diplomacy(country_rows: Sequence[dict[str, str]]) -> list[dict[str
     active = {row["tag"] for row in country_rows}
     result: list[dict[str, str]] = []
     seen: set[tuple[str, str, str, str]] = set()
-    for path in sorted((ET / "history" / "diplomacy").glob("*.txt")):
-        for relationship_type, value in countries.parse_file(path):
-            if relationship_type not in RELATIONSHIP_TYPES or not isinstance(value, list):
-                continue
-            values = {key: item for key, item in value if key and isinstance(item, str)}
-            first, second = values.get("first", ""), values.get("second", "")
-            start, end = values.get("start_date", "1.1.1"), values.get("end_date", "9999.12.31")
-            start_number = countries.date_number(start)
-            end_number = countries.date_number(end)
-            if first not in active or second not in active or first == second:
-                continue
-            if start_number is None or end_number is None or not (start_number <= countries.START_NUMBER < end_number):
-                continue
-            a, b = (sorted((first, second)) if relationship_type in SYMMETRIC_RELATIONSHIPS else (first, second))
-            key = (relationship_type, a, b, "")
-            if key in seen:
-                continue
-            seen.add(key)
-            result.append({
-                "country_a": a,
-                "country_b": b,
-                "relationship_type": relationship_type,
-                "start_date": start,
-                "end_date": end,
-                "initial_opinion": OPINION_BY_RELATIONSHIP[relationship_type],
-                "organization": "",
-                "source": f"et:history/diplomacy/{path.name}",
-                "verification_notes": "Effective ET relationship on 2000.1.1; manual verification pending.",
-            })
+    for first, second, relationship_type, start, source in CURATED_BILATERAL_RELATIONSHIPS:
+        if first not in active or second not in active:
+            raise RuntimeError(f"Curated diplomacy uses inactive tag: {first}/{second}")
+        a, b = (
+            sorted((first, second))
+            if relationship_type in SYMMETRIC_RELATIONSHIPS
+            else (first, second)
+        )
+        key = (relationship_type, a, b, "")
+        if key in seen:
+            raise RuntimeError(f"Duplicate curated diplomacy: {key}")
+        seen.add(key)
+        result.append({
+            "country_a": a,
+            "country_b": b,
+            "relationship_type": relationship_type,
+            "start_date": start,
+            "end_date": "9999.12.31",
+            "initial_opinion": OPINION_BY_RELATIONSHIP[relationship_type],
+            "organization": "",
+            "source": f"manual:{source}",
+            "verification_notes": (
+                "Curated bilateral relationship effective on 2000.1.1; "
+                "international organizations excluded."
+            ),
+        })
 
     memberships = (("NATO", NATO_2000), ("EU", EU_2000), ("CIS", CIS_2000), ("UN", active - UN_EXCLUSIONS_2000))
     for organization, members in memberships:
@@ -434,6 +503,11 @@ def main() -> int:
     parser.add_argument("--check", action="store_true", help="validate canonical CSVs without writing")
     parser.add_argument("--rebuild-data", action="store_true", help="replace all three canonical CSVs")
     parser.add_argument(
+        "--rebuild-diplomacy",
+        action="store_true",
+        help="replace only bilateral diplomacy and organization metadata",
+    )
+    parser.add_argument(
         "--rebalance-economy",
         action="store_true",
         help="recalculate size-based treasury and development-derived reserves without replacing other setup data",
@@ -445,8 +519,10 @@ def main() -> int:
     missing = [path for path in (COUNTRY_DATA, DIPLOMACY_DATA, FORCES_DATA) if not path.exists()]
     if args.check and missing:
         raise SystemExit("Canonical starting-world data is missing; run generate first")
-    if args.check and args.rebalance_economy:
-        raise SystemExit("--check cannot be combined with --rebalance-economy")
+    if args.check and (args.rebalance_economy or args.rebuild_diplomacy):
+        raise SystemExit(
+            "--check cannot be combined with --rebalance-economy or --rebuild-diplomacy"
+        )
     if args.rebuild_data or missing:
         setup_rows = bootstrap_country_setup(country_rows, provinces)
         diplomacy_rows = effective_diplomacy(country_rows)
@@ -468,14 +544,23 @@ def main() -> int:
                 "manual historical verification pending."
             )
         write_csv(COUNTRY_DATA, COUNTRY_FIELDS, setup_rows)
+    elif args.rebuild_diplomacy:
+        write_csv(DIPLOMACY_DATA, DIPLOMACY_FIELDS, effective_diplomacy(country_rows))
     setup_rows = read_csv(COUNTRY_DATA, COUNTRY_FIELDS)
     diplomacy_rows = read_csv(DIPLOMACY_DATA, DIPLOMACY_FIELDS)
     force_rows = read_csv(FORCES_DATA, FORCES_FIELDS)
     validate(country_rows, provinces, setup_rows, diplomacy_rows, force_rows)
+    if args.check:
+        validate_diplomacy_output(diplomacy_rows)
+    else:
+        write_diplomacy(diplomacy_rows)
+        validate_diplomacy_output(diplomacy_rows)
     action = "Validated" if args.check else "Generated"
     print(
         f"{action} starting-world data: {len(setup_rows)} countries, "
-        f"{len(diplomacy_rows)} diplomacy/membership rows, {len(force_rows)} formations."
+        f"{len(bilateral_diplomacy(diplomacy_rows))} bilateral relationships, "
+        f"{sum(row['relationship_type'] == 'organization_member' for row in diplomacy_rows)} "
+        f"organization records left data-only, {len(force_rows)} formations."
     )
     return 0
 

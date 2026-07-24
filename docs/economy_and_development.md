@@ -17,7 +17,10 @@ Treasury follows a size-balancing rule based on total owned development:
 - medium countries (150-499 development): 200 ducats
 - small countries (below 150 development): 600 ducats
 
-The generator applies treasury with `set_treasury`, making the CSV value exact.
+Because EU4 country history has no valid exact treasury setter, the generator
+uses bounded loops that subtract only cash the country currently holds before
+adding the CSV reserve. This avoids negative balances while producing the
+intended 50/200/600 starting amounts to within the engine's fractional remainder.
 Other bounded starting values are reset before adding the scenario value. This
 makes the CSV the source of truth instead of treating it as a bonus on top of
 the vanilla starting calculation.
@@ -37,13 +40,13 @@ province's tax/production/manpower proportions. Owned provinces have a minimum
 of 3 development and all provinces have a hard cap of 50. The current snapshot
 totals:
 
-- 13,953 base tax
-- 13,612 base production
-- 11,202 base manpower
-- 38,767 total development, including 38,650 in owned provinces
+- 13,458 base tax
+- 13,083 base production
+- 10,776 base manpower
+- 37,317 total development, including 37,200 in owned provinces
 
-The explicit major-country targets are 3,500 for the United States, 2,850 for
-China, 2,550 for India, 1,500 for Russia, 1,400 for Germany, 1,150 for France,
+The explicit major-country targets are 3,000 for the United States, 2,400 for
+China, 1,900 for India, 1,650 for Russia, 1,400 for Germany, 1,150 for France,
 1,125 for Japan, 1,100 for the United Kingdom, 950 for Italy, 920 for Indonesia,
 915 for Brazil, and 845 for Mexico. Other countries retain their balanced ET
 total within a 15-1,500 national band. This avoids forcing countries with very
@@ -69,6 +72,13 @@ seas. The remaining 18 connections retain their vanilla geometry.
 The route shader itself is vanilla. This does not alter borders, ownership,
 province history, or balanced development.
 
+## Trade goods
+
+The scenario retains vanilla EU4 trade goods. No modern trade-good definitions
+or replacement production system are introduced. ET-only oil, cars,
+electronics, aluminum, and uranium entries continue to use the established
+vanilla coal, iron, glass, copper, and copper compatibility mappings.
+
 ## Starting infrastructure
 
 Every owned province receives a deterministic first-pass building set based on
@@ -78,14 +88,16 @@ The generator also limits assignments with a conservative building-slot budget.
 
 The current global distribution is:
 
-- 952 marketplaces
-- 732 workshops
-- 462 courthouses
-- 197 temples
-- 175 docks
-- 59 barracks
-- 38 shipyards
-- 2,615 buildings across 1,010 provinces
+- 865 marketplaces
+- 579 workshops
+- 400 barracks
+- 284 courthouses
+- 196 strategic forts
+- 99 temples
+- 107 docks
+- 58 regimental camps
+- 17 shipyards
+- 2,605 buildings across 1,115 provinces
 
 Capitals receive administrative and economic priority. Centers of trade receive
 marketplaces, productive provinces receive workshops, high-tax provinces
@@ -98,8 +110,28 @@ shipyards begin at tier three and prioritize capitals, level-two or level-three
 trade centers, and the strongest developed ports. No inland province receives a
 naval building.
 
-Forts remain deferred to a military infrastructure audit so starting
-maintenance remains controllable.
+## Strategic forts and military infrastructure
+
+The starting world contains 196 `fort_15th` forts. They are selected from
+international-border provinces and capitals of larger countries, then ranked by
+the number of foreign borders, capital status, center-of-trade level, and
+development. The selector spaces forts apart where possible and applies a
+country budget from zero for very small states to seven for the largest,
+highest-infrastructure powers. This avoids blanket capital forts and limits
+starting maintenance.
+
+Military infrastructure is deliberately concentrated rather than universal.
+The strongest manpower provinces in infrastructure-tier-two or better countries
+receive 400 barracks. Infrastructure-tier-four and tier-five countries receive
+58 regimental camps in a small number of forts, capitals, and manpower centers.
+Strategic buildings receive first priority in the province slot budget, while
+the economic and naval building rules remain unchanged.
+
+Placement is derived deterministically from the ET province bitmap, current
+ownership, canonical capitals, development, trade centers, and infrastructure
+tiers. Validation requires the generated province histories to match the exact
+strategic selection and continues to reject naval buildings in inland
+provinces.
 
 ## Modern centers of trade
 

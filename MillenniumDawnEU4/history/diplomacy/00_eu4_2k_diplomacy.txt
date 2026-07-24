@@ -1,0 +1,90 @@
+# Generated bilateral diplomacy effective on 2000.1.1.
+# International organizations are intentionally not integrated here.
+
+alliance = {
+	first = ARM
+	second = RUS
+	# Historical treaty start: 1997.8.29
+	start_date = 2000.1.1
+	end_date = 9999.12.31
+}
+
+alliance = {
+	first = AUS
+	second = NZL
+	# Historical treaty start: 1952.4.29
+	start_date = 2000.1.1
+	end_date = 9999.12.31
+}
+
+alliance = {
+	first = AUS
+	second = USA
+	# Historical treaty start: 1952.4.29
+	start_date = 2000.1.1
+	end_date = 9999.12.31
+}
+
+alliance = {
+	first = BLR
+	second = RUS
+	# Historical treaty start: 1999.12.8
+	start_date = 2000.1.1
+	end_date = 9999.12.31
+}
+
+alliance = {
+	first = CHN
+	second = NOK
+	# Historical treaty start: 1961.9.10
+	start_date = 2000.1.1
+	end_date = 9999.12.31
+}
+
+alliance = {
+	first = GBR
+	second = POR
+	# Historical treaty start: 1386.5.9
+	start_date = 2000.1.1
+	end_date = 9999.12.31
+}
+
+alliance = {
+	first = JAP
+	second = USA
+	# Historical treaty start: 1960.6.23
+	start_date = 2000.1.1
+	end_date = 9999.12.31
+}
+
+alliance = {
+	first = PHI
+	second = USA
+	# Historical treaty start: 1952.8.27
+	start_date = 2000.1.1
+	end_date = 9999.12.31
+}
+
+alliance = {
+	first = SIA
+	second = USA
+	# Historical treaty start: 1954.9.8
+	start_date = 2000.1.1
+	end_date = 9999.12.31
+}
+
+alliance = {
+	first = SKO
+	second = USA
+	# Historical treaty start: 1954.11.17
+	start_date = 2000.1.1
+	end_date = 9999.12.31
+}
+
+guarantee = {
+	first = USA
+	second = FRM
+	# Historical treaty start: 1979.4.10
+	start_date = 2000.1.1
+	end_date = 9999.12.31
+}

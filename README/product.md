@@ -14,11 +14,13 @@
 
 ### Implemented foundation
 
-The project now has a reproducible `2000.1.1` country and ownership foundation: 188 active countries, five dormant successor tags, 3,521 clean land-province snapshots, one modern bookmark, an effective `9999.12.31` engine end date, vanilla religions, modern political reforms, equal-cost regional technology groups, and deterministic generation from canonical CSV data. Diplomacy, armed forces, technology levels, institutions, and detailed balance remain the next phase.
+The project now has a reproducible `2000.1.1` country and ownership foundation: 188 active countries, five dormant successor tags, 3,521 clean land-province snapshots, one modern bookmark, an effective `9999.12.31` engine end date, vanilla religions, modern political reforms, equal-cost regional technology groups, and deterministic generation from canonical CSV data. Bilateral diplomacy is integrated; international organizations remain separate, and individual armed forces remain the next starting-world task.
 
-Step 3 canonical inputs are now established for all 188 active countries: country technology/economic setup, effective diplomacy and organization membership, and simplified army/navy formation records. Starting ADM/DIP/MIL technology, the modern institution sequence, and first-pass national economy/reserve values are integrated; diplomacy and individual formations remain data-only until their later integration passes.
+Step 3 canonical inputs are now established for all 188 active countries: country technology/economic setup, effective diplomacy and organization membership, and simplified army/navy formation records. Starting ADM/DIP/MIL technology, the modern institution sequence, first-pass national economy/reserve values, ten curated bilateral alliances, one Taiwan guarantee, and bilateral starting opinions are integrated. Organization memberships remain metadata-only, and individual formations await their unit-history pass.
 
 Province development is gameplay-balanced for the modern start: major countries use explicit national totals, extreme city values use diminishing returns with a 50-development cap, and underrepresented Balkan capitals receive regional floors. Trade nodes and connections use the complete vanilla EU4 network, with visual paths aligned to the imported Extended Timeline map.
+
+Trade goods remain on the vanilla EU4 set. Starting military infrastructure is restrained and strategic: forts prioritize international borders and important capitals, while barracks and regimental camps concentrate in national manpower and force-limit centers.
 
 Starting infrastructure is generated from country infrastructure tiers and province development. Capitals, trade centers, productive provinces, tax centers, manpower centers, and confirmed ports receive a restrained baseline of vanilla economic, administrative, and naval buildings. Twelve modern global trade hubs receive level-three centers of trade; forts remain a separate balance pass.
 

@@ -25,6 +25,7 @@ MOD = ROOT / "MillenniumDawnEU4"
 DATA = ROOT / "data" / "countries_2000.csv"
 PROVINCE_DATA = ROOT / "data" / "provinces_2000.csv"
 COUNTRY_SETUP_DATA = ROOT / "data" / "country_setup_2000.csv"
+DIPLOMACY_DATA = ROOT / "data" / "diplomacy_2000.csv"
 ET = ROOT / "ExtendedTimeline 1.18.2" / "ExtendedTimeline"
 DEFAULT_GAME_CANDIDATES = (
     Path(r"F:\Steam\steamapps\common\Europa Universalis IV"),
@@ -1209,9 +1210,9 @@ def starting_economy_history(
 ) -> list[str]:
     """Render exact 2000 economy and reserve values as history effects.
 
-    EU4 derives cash and reserve pools from development before country history
-    effects are applied. Treasury has an exact setter; the remaining bounded
-    values are reset before their canonical scenario values are added.
+    Treasury has no exact setter in EU4 country history. Bounded loops subtract
+    only amounts the country actually holds, avoiding negative cash, before the
+    canonical reserve is added. Other bounded values use their normal resets.
     """
     manpower_thousands = setup["manpower"] / 1000
     manpower_value = f"{manpower_thousands:.3f}".rstrip("0").rstrip(".")
@@ -1225,7 +1226,12 @@ def starting_economy_history(
         "# Canonical 2000 economy and reserves from data/country_setup_2000.csv",
         f"set_country_flag = eu4_2k_economic_tier_{setup['economic_tier']}",
         f"set_country_flag = eu4_2k_infrastructure_tier_{setup['infrastructure_tier']}",
-        f"set_treasury = {setup['treasury']}",
+        "while = { limit = { treasury = 10000 } add_treasury = -10000 }",
+        "while = { limit = { treasury = 1000 } add_treasury = -1000 }",
+        "while = { limit = { treasury = 100 } add_treasury = -100 }",
+        "while = { limit = { treasury = 10 } add_treasury = -10 }",
+        "while = { limit = { treasury = 1 } add_treasury = -1 }",
+        f"add_treasury = {setup['treasury']}",
         "add_inflation = -100",
         f"add_inflation = {setup['inflation']}",
         "add_stability = -3",
@@ -1243,8 +1249,61 @@ def starting_economy_history(
     ]
 
 
+def starting_opinions(
+    rows: Sequence[dict[str, str]],
+) -> tuple[dict[str, list[tuple[str, int]]], set[int]]:
+    """Load bilateral starting affinities without integrating organizations."""
+    active = {row["tag"] for row in rows if row["active_2000"] == "yes"}
+    result: dict[str, list[tuple[str, int]]] = {tag: [] for tag in active}
+    values: set[int] = set()
+    if not DIPLOMACY_DATA.exists():
+        return result, values
+    with DIPLOMACY_DATA.open("r", encoding="utf-8-sig", newline="") as handle:
+        for relation in csv.DictReader(handle):
+            if relation["relationship_type"] == "organization_member":
+                continue
+            first, second = relation["country_a"], relation["country_b"]
+            if first not in active or second not in active:
+                raise RuntimeError(f"Invalid starting-opinion pair: {first}/{second}")
+            value = int(relation["initial_opinion"])
+            if value:
+                result[first].append((second, value))
+                result[second].append((first, value))
+                values.add(value)
+    for tag in result:
+        result[tag].sort()
+    return result, values
+
+
+def starting_opinion_modifiers(values: Iterable[int]) -> str:
+    lines = [
+        "# Generated scenario-start diplomatic affinities.",
+        "# International organizations are intentionally excluded.",
+        "",
+    ]
+    for value in sorted(set(values)):
+        lines.extend([
+            f"eu4_2k_starting_opinion_{value} = {{",
+            f"\topinion = {value}",
+            "}",
+            "",
+        ])
+    return "\n".join(lines)
+
+
+def starting_opinion_localisation(values: Iterable[int]) -> str:
+    lines = ["l_english:"]
+    for value in sorted(set(values)):
+        lines.append(
+            f' eu4_2k_starting_opinion_{value}:0 "Starting Diplomatic Relationship"'
+        )
+    return "\n".join(lines) + "\n"
+
+
 def country_history(
-    row: dict[str, str], technology_setup: dict[str, dict[str, int]]
+    row: dict[str, str],
+    technology_setup: dict[str, dict[str, int]],
+    opinions: dict[str, list[tuple[str, int]]],
 ) -> str:
     government, executive_reform = EXECUTIVE_MODELS[row["government_model"]]
     lines = [
@@ -1279,6 +1338,12 @@ def country_history(
             f"\tadm = {row['adm']}",
             f"\tdip = {row['dip']}", f"\tmil = {row['mil']}", "}",
         ])
+        for other, value in opinions.get(row["tag"], []):
+            lines.append(
+                "add_opinion = { "
+                f"who = {other} modifier = eu4_2k_starting_opinion_{value} "
+                "}"
+            )
     else:
         lines.append("set_country_flag = eu4_2k_dormant_successor")
     return "\n".join(lines) + "\n"
@@ -1382,6 +1447,7 @@ def text_outputs(
     game: Path,
     technology_setup: dict[str, dict[str, int]],
 ) -> dict[Path, tuple[str, str]]:
+    opinions, opinion_values = starting_opinions(rows)
     outputs: dict[Path, tuple[str, str]] = {
         MOD / "common" / "country_tags" / "00_countries.txt": (generated_country_tag_text(rows, game), "cp1252"),
         MOD / "common" / "government_reforms" / "00_eu4_2k_government_reforms.txt": (government_reforms_text(), "cp1252"),
@@ -1389,11 +1455,13 @@ def text_outputs(
         MOD / "common" / "technology.txt": (technology_text(game), "cp1252"),
         MOD / "common" / "institutions" / "00_Core.txt": (institutions_text(), "cp1252"),
         MOD / "common" / "event_modifiers" / "zz_eu4_2k_institution_origins.txt": (institution_modifiers_text(), "cp1252"),
+        MOD / "common" / "opinion_modifiers" / "00_eu4_2k_starting_opinions.txt": (starting_opinion_modifiers(opinion_values), "cp1252"),
         MOD / "events" / "eu4_2k_institution_events.txt": (institution_events_text(), "cp1252"),
         MOD / "common" / "defines" / "zz_eu4_2k_dates.lua": ('NDefines.NGame.START_DATE = "2000.1.1"\nNDefines.NGame.END_DATE = "9999.12.31"\n', "ascii"),
         MOD / "common" / "bookmarks" / "00_eu4_2k_2000.txt": ("bookmark = {\n\tname = \"EU4_2K_2000_NAME\"\n\tdesc = \"EU4_2K_2000_DESC\"\n\tdate = 2000.1.1\n\tcountry = GER\n\tcountry = RUS\n\tcountry = CHN\n\tcountry = USA\n\tcountry = FR2\n\tcountry = GBR\n\tcountry = YUG\n}\n", "cp1252"),
         MOD / "localisation" / "replace" / "zz_eu4_2k_countries_l_english.yml": (country_localisation(rows), "utf-8-sig"),
         MOD / "localisation" / "eu4_2k_framework_l_english.yml": (framework_localisation(rows), "utf-8-sig"),
+        MOD / "localisation" / "eu4_2k_starting_opinions_l_english.yml": (starting_opinion_localisation(opinion_values), "utf-8-sig"),
         MOD / "localisation" / "eu4_2k_cultures_l_english.yml": (culture_localisation(rows, game), "utf-8-sig"),
         MOD / "localisation" / "replace" / "zz_eu4_2k_institutions_l_english.yml": (institution_localisation(), "utf-8-sig"),
     }
@@ -1406,7 +1474,7 @@ def text_outputs(
         outputs[MOD / "common" / "countries" / f"EU4_2K_{row['tag']}.txt"] = (country_definition(row, game), "cp1252")
         safe_name = re.sub(r'[<>:"/\\|?*]', "", row["name"])
         outputs[MOD / "history" / "countries" / f"{row['tag']} - {safe_name}.txt"] = (
-            country_history(row, technology_setup),
+            country_history(row, technology_setup, opinions),
             "cp1252",
         )
     snapshot_tags = {row["tag"] for row in rows}
@@ -1485,6 +1553,9 @@ def check_outputs(
         if not target.exists() or target.read_bytes() != source.read_bytes():
             errors.append(f"missing or stale flag: {row['tag']}")
     history_dir = MOD / "history" / "countries"
+    expected_opinions, _ = starting_opinions(rows)
+    expected_opinion_count = sum(len(items) for items in expected_opinions.values())
+    actual_opinion_count = 0
     expected_history = {path for path in expected if path.parent == history_dir}
     actual_history = set(history_dir.glob("*.txt")) if history_dir.exists() else set()
     for path in sorted(actual_history - expected_history):
@@ -1495,13 +1566,29 @@ def check_outputs(
             errors.append(f"dated history block found: {path.name}")
         if "secularism" in text or "irreligious" in text:
             errors.append(f"forbidden religion found: {path.name}")
+        actual_opinion_count += text.count("modifier = eu4_2k_starting_opinion_")
+        if any(
+            marker in text
+            for marker in (
+                "eu4_2k_nato_member", "eu4_2k_eu_member",
+                "eu4_2k_cis_member", "eu4_2k_un_member",
+            )
+        ):
+            errors.append(f"international organization leaked into history: {path.name}")
         tag = path.name[:3]
         if tag in technology_setup:
             expected_treasury = technology_setup[tag]["treasury"]
-            if text.count(f"set_treasury = {expected_treasury}") != 1:
+            if text.count(f"add_treasury = {expected_treasury}") != 1:
                 errors.append(f"missing exact starting treasury: {path.name}")
-            if "add_treasury" in text:
-                errors.append(f"unsafe additive starting treasury found: {path.name}")
+            if "set_treasury" in text or re.search(
+                r"(?m)^treasury\s*=", text
+            ) or "add_treasury = -1000000" in text:
+                errors.append(f"unsafe starting treasury reset found: {path.name}")
+    if actual_opinion_count != expected_opinion_count:
+        errors.append(
+            f"starting opinion count is {actual_opinion_count}; "
+            f"expected {expected_opinion_count}"
+        )
     tech = expected[MOD / "common" / "technology.txt"][0]
     costs = re.findall(r"(?s)(modern_[a-z0-9_]+)\s*=\s*\{.*?start_cost_modifier\s*=\s*([0-9.]+)", tech)
     if len(costs) != len(all_modern_technology_groups()) or {cost for _, cost in costs} != {"0"}:

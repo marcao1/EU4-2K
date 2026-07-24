@@ -12,6 +12,7 @@ base_manpower = 9
 is_city = yes
 hre = no
 center_of_trade = 1
+fort_15th = yes
 marketplace = yes
 dock = yes
 temple = yes

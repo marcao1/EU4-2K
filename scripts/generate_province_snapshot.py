@@ -12,6 +12,9 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Sequence
 
+import numpy as np
+from PIL import Image
+
 import generate_country_snapshot as countries
 
 
@@ -55,10 +58,10 @@ MINIMUM_OWNED_PROVINCE_DEVELOPMENT = 3
 # average development only as a guardrail; the allocator preserves the existing
 # urban/rural ordering and each province's tax/production/manpower proportions.
 NATIONAL_DEVELOPMENT_TARGETS = {
-    "USA": 3500,
-    "CHN": 2850,
-    "INI": 2550,
-    "RUS": 1500,
+    "USA": 3000,
+    "CHN": 2400,
+    "INI": 1900,
+    "RUS": 1650,
     "GER": 1400,
     "JAP": 1125,
     "FR2": 1150,
@@ -92,6 +95,8 @@ MODERN_CENTER_OF_TRADE_OVERRIDES = {
     # Former ET level-three centers retained as important regional markets.
     101: 2, 112: 2, 568: 2, 4457: 2,
 }
+
+FORT_BUILDING = "fort_15th"
 
 
 @dataclass
@@ -399,6 +404,143 @@ def quote(value: str) -> str:
     return countries.quote(value)
 
 
+def direct_land_neighbors() -> dict[int, set[int]]:
+    """Read direct shared land borders from the ET province bitmap."""
+    lookup = np.full(1 << 24, -1, dtype=np.int32)
+    with (MOD / "map" / "definition.csv").open(
+        "r", encoding="cp1252", newline=""
+    ) as handle:
+        for fields in csv.reader(handle, delimiter=";"):
+            if fields and fields[0].isdigit() and int(fields[0]) > 0:
+                province_id = int(fields[0])
+                code = int(fields[1]) | (int(fields[2]) << 8) | (int(fields[3]) << 16)
+                lookup[code] = province_id
+    rgb = np.asarray(
+        Image.open(MOD / "map" / "provinces.bmp").convert("RGB"),
+        dtype=np.uint32,
+    )
+    codes = rgb[:, :, 0] | (rgb[:, :, 1] << 8) | (rgb[:, :, 2] << 16)
+    province_map = lookup[codes]
+    non_land = countries.non_land_provinces()
+    result: dict[int, set[int]] = {}
+    for left, right in (
+        (province_map[:, :-1], province_map[:, 1:]),
+        (province_map[:-1, :], province_map[1:, :]),
+    ):
+        mask = (left > 0) & (right > 0) & (left != right)
+        pairs = np.unique(np.stack((left[mask], right[mask]), axis=1), axis=0)
+        for first, second in pairs:
+            a, b = int(first), int(second)
+            if a in non_land or b in non_land:
+                continue
+            result.setdefault(a, set()).add(b)
+            result.setdefault(b, set()).add(a)
+    return result
+
+
+def strategic_infrastructure(
+    rows: Sequence[dict[str, str]],
+    tiers: dict[str, int],
+    capitals: dict[str, int],
+) -> tuple[set[int], set[int], set[int]]:
+    """Select restrained forts, manpower hubs, and force-limit centers."""
+    by_id = {int(row["province_id"]): row for row in rows}
+    owned: dict[str, list[dict[str, str]]] = {}
+    for row in rows:
+        if row["owner"]:
+            owned.setdefault(row["owner"], []).append(row)
+    neighbors = direct_land_neighbors()
+    forts: set[int] = set()
+    manpower_hubs: set[int] = set()
+    force_limit_hubs: set[int] = set()
+
+    for tag, provinces in sorted(owned.items()):
+        tier = tiers[tag]
+        count = len(provinces)
+        fort_budget = (
+            0 if count < 6 else
+            1 if count < 15 else
+            2 if count < 40 else
+            3 if count < 80 else
+            4 if count < 150 else
+            6
+        )
+        if tier >= 5 and count >= 20:
+            fort_budget += 1
+
+        def province_total(row: dict[str, str]) -> int:
+            return sum(int(row[field]) for field in (
+                "base_tax", "base_production", "base_manpower"
+            ))
+
+        def foreign_owners(province_id: int) -> set[str]:
+            return {
+                by_id[other]["owner"]
+                for other in neighbors.get(province_id, set())
+                if other in by_id and by_id[other]["owner"] not in {"", tag}
+            }
+
+        ranked_forts: list[tuple[int, int]] = []
+        for row in provinces:
+            province_id = int(row["province_id"])
+            foreign = foreign_owners(province_id)
+            is_capital = capitals.get(tag) == province_id
+            if not foreign and not (is_capital and count >= 15):
+                continue
+            score = (
+                35 * bool(foreign)
+                + 8 * len(foreign)
+                + 18 * is_capital
+                + 5 * int(row["center_of_trade"] or 0)
+                + province_total(row)
+            )
+            ranked_forts.append((score, province_id))
+        ranked_forts.sort(key=lambda item: (-item[0], item[1]))
+        chosen: list[int] = []
+        for _, province_id in ranked_forts:
+            if len(chosen) >= fort_budget:
+                break
+            if any(selected in neighbors.get(province_id, set()) for selected in chosen):
+                continue
+            chosen.append(province_id)
+        if len(chosen) < fort_budget:
+            for _, province_id in ranked_forts:
+                if len(chosen) >= fort_budget:
+                    break
+                if province_id not in chosen:
+                    chosen.append(province_id)
+        forts.update(chosen)
+
+        if tier >= 2:
+            manpower_budget = min(6, max(1, math.ceil(count / 35) + tier // 2))
+            ranked_manpower = sorted(
+                provinces,
+                key=lambda row: (
+                    -int(row["base_manpower"]),
+                    -province_total(row),
+                    int(row["province_id"]),
+                ),
+            )
+            manpower_hubs.update(
+                int(row["province_id"]) for row in ranked_manpower[:manpower_budget]
+            )
+        if tier >= 4:
+            force_budget = min(3, max(1, math.ceil(count / 60)))
+            ranked_force = sorted(
+                provinces,
+                key=lambda row: (
+                    -(int(row["province_id"]) in forts),
+                    -(capitals.get(tag) == int(row["province_id"])),
+                    -int(row["base_manpower"]),
+                    int(row["province_id"]),
+                ),
+            )
+            force_limit_hubs.update(
+                int(row["province_id"]) for row in ranked_force[:force_budget]
+            )
+    return forts, manpower_hubs, force_limit_hubs
+
+
 def infrastructure_context() -> tuple[dict[str, int], dict[str, int]]:
     with countries.COUNTRY_SETUP_DATA.open(
         "r", encoding="utf-8-sig", newline=""
@@ -420,6 +562,9 @@ def starting_buildings(
     tiers: dict[str, int],
     capitals: dict[str, int],
     coastal: set[int],
+    forts: set[int],
+    manpower_hubs: set[int],
+    force_limit_hubs: set[int],
 ) -> list[str]:
     """Assign a restrained first-pass infrastructure set from canonical tiers."""
     owner = row["owner"]
@@ -444,7 +589,7 @@ def starting_buildings(
         candidates.append("workshop")
     if tier >= 2 and (is_capital or tax >= 15 - 2 * tier):
         candidates.append("temple")
-    if tier >= 2 and (is_capital or manpower >= 15 - 2 * tier):
+    if tier >= 2 and province_id in manpower_hubs:
         candidates.append("barracks")
     if tier >= 3 and (is_capital or total >= 38 - 4 * tier):
         candidates.append("courthouse")
@@ -456,16 +601,27 @@ def starting_buildings(
         is_capital or center_of_trade >= 2 or total >= 34 - 3 * tier
     ):
         candidates.append("shipyard")
+    if province_id in force_limit_hubs:
+        candidates.append("regimental_camp")
+    if province_id in forts:
+        candidates.append(FORT_BUILDING)
 
     priority = {
-        "marketplace": 0, "workshop": 1, "courthouse": 2,
-        "dock": 3, "shipyard": 4, "temple": 5, "barracks": 6,
+        FORT_BUILDING: 0, "barracks": 1, "regimental_camp": 2,
+        "marketplace": 3, "workshop": 4, "courthouse": 5,
+        "dock": 6, "shipyard": 7, "temple": 8,
     }
     candidates.sort(key=priority.__getitem__)
 
     # Keep the starting set within a conservative approximation of available
-    # building slots. Capitals receive one additional administrative slot.
+    # building slots. Capitals receive one additional administrative slot, and
+    # selected strategic infrastructure is never discarded by the slot budget.
     slot_budget = max(1, 1 + total // 10 + (1 if is_capital else 0))
+    strategic_slots = sum(
+        building in {FORT_BUILDING, "barracks", "regimental_camp"}
+        for building in candidates
+    )
+    slot_budget = max(slot_budget, strategic_slots)
     return candidates[:slot_budget]
 
 
@@ -616,11 +772,17 @@ def outputs(rows: Sequence[dict[str, str]], game: Path) -> dict[Path, tuple[str,
     tiers, capitals = infrastructure_context()
     import generate_starting_world as starting_world
     coastal = starting_world.coastal_land_provinces()
+    forts, manpower_hubs, force_limit_hubs = strategic_infrastructure(
+        rows, tiers, capitals
+    )
     for row in rows:
         province_id = row["province_id"]
         path = MOD / "history" / "provinces" / f"{province_id} - {safe_name(row['name'])}.txt"
         result[path] = (
-            province_history(row, starting_buildings(row, tiers, capitals, coastal)),
+            province_history(row, starting_buildings(
+                row, tiers, capitals, coastal,
+                forts, manpower_hubs, force_limit_hubs,
+            )),
             "cp1252",
         )
         display = row["name"].replace('"', r'\"')
@@ -769,16 +931,39 @@ def check_outputs(rows: Sequence[dict[str, str]], game: Path) -> None:
             errors.append(f"dated history block found: {path.name}")
     import generate_starting_world as starting_world
     coastal = starting_world.coastal_land_provinces()
+    tiers, capitals = infrastructure_context()
+    expected_forts, expected_manpower, expected_force_limit = strategic_infrastructure(
+        rows, tiers, capitals
+    )
+    actual_forts: set[int] = set()
+    actual_manpower: set[int] = set()
+    actual_force_limit: set[int] = set()
     for path in expected_history:
         match = re.match(r"^(\d+)", path.name)
         if not match:
             continue
         province_id = int(match.group(1))
         text = path.read_text(encoding="cp1252", errors="replace")
+        if f"{FORT_BUILDING} = yes" in text:
+            actual_forts.add(province_id)
+        if "barracks = yes" in text:
+            actual_manpower.add(province_id)
+        if "regimental_camp = yes" in text:
+            actual_force_limit.add(province_id)
         if province_id not in coastal and re.search(
             r"(?m)^(dock|shipyard) = yes$", text
         ):
             errors.append(f"inland province {province_id} has a naval building")
+    for label, actual, wanted in (
+        ("strategic forts", actual_forts, expected_forts),
+        ("manpower hubs", actual_manpower, expected_manpower),
+        ("force-limit centers", actual_force_limit, expected_force_limit),
+    ):
+        if actual != wanted:
+            errors.append(
+                f"{label} differ from deterministic selection; "
+                f"missing={sorted(wanted - actual)}, extra={sorted(actual - wanted)}"
+            )
     if errors:
         raise RuntimeError("Province output check failed:\n- " + "\n- ".join(errors[:100]))
 

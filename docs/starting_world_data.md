@@ -2,7 +2,7 @@
 
 ## Scope
 
-This stage establishes authoritative input data for the playable `2000.1.1` world. Technology and the first-pass economy/reserve setup are now written into EU4 country history; diplomacy and individual army/navy formations remain data-only.
+This stage establishes authoritative input data for the playable `2000.1.1` world. Technology, the first-pass economy/reserve setup, and bilateral diplomacy are now written into EU4 history; international organizations and individual army/navy formations remain data-only.
 
 The three canonical datasets are:
 
@@ -52,9 +52,9 @@ The first pass is deterministic and uses country technology region, explicit maj
 The financial and reserve values are integrated into the generated country
 snapshots. Starting treasury is inverse to total owned development: countries
 with at least 500 development receive 50 ducats, countries with 150-499 receive
-200, and countries below 150 receive 600. Treasury uses EU4's exact setter;
-this avoids the extreme negative balances caused by attempting to reset cash
-with a large negative additive effect. Manpower is converted from recorded
+200, and countries below 150 receive 600. Treasury uses bounded subtraction
+loops before adding the canonical reserve; this avoids the extreme negative
+balances caused by a large negative additive reset. Manpower is converted from recorded
 people to EU4's thousands, and sailors use EU4's individual-sailor scale.
 Stability, prestige, inflation, corruption, and legitimacy or republican
 tradition are reset before the canonical value is applied. Formation quantity
@@ -69,13 +69,24 @@ missions. They currently have no passive modifier by themselves.
 
 `diplomacy_2000.csv` contains:
 
-- ET alliances, guarantees, subjects, unions, dependencies, and royal marriages effective on `2000.1.1`, limited to active starting tags
-- Start and end dates
+- A deliberately small set of historically grounded bilateral alliances and guarantees effective on `2000.1.1`
+- Historical treaty dates for documentation; generated gameplay relationships are anchored to the scenario start date
 - Initial opinion baselines
 - Source and verification notes
 - Metadata-only NATO, EU, CIS, and UN membership records
 
 Organization membership does not create ordinary EU4 alliances. This prevents NATO and EU membership from consuming diplomatic slots or automatically creating global wars before dedicated organization mechanics exist.
+
+Eleven curated bilateral relationships are integrated into
+`history/diplomacy/00_eu4_2k_diplomacy.txt`: ten alliances and one guarantee.
+The generator also applies the recorded initial opinion in both
+directions through scenario-start opinion modifiers. The mod replaces vanilla
+diplomatic history so medieval and early-modern relationships cannot leak into
+the 2000 bookmark.
+
+All 229 NATO, EU, CIS, and UN membership rows remain canonical metadata only.
+They generate no alliances, guarantees, country flags, opinion modifiers, or
+other gameplay effects and are reserved for a separate organization system.
 
 The first membership baseline contains:
 
@@ -127,6 +138,8 @@ The non-mutating check rejects:
 - Diplomacy with inactive or self-referencing endpoints
 - Duplicate or inactive-at-start relationships
 - Malformed organization membership
+- Organization records appearing in generated bilateral diplomacy
+- Missing or stale bilateral diplomacy and starting-opinion output
 - Forces located outside their owner's territory
 - Invalid formation quantities or quality tiers
 - Active countries without an army record
@@ -148,4 +161,6 @@ and Russia.
 
 ## Next integration task
 
-Extend `scripts/generate_starting_world.py` so these canonical inputs generate clean EU4 country setup, diplomacy, and unit history. File ownership between generators must remain explicit: the country and province generators continue to own their current outputs, while the starting-world generator owns only new integration outputs or clearly defined generated sections.
+Integrate `data/forces_2000.csv` as clean starting army and navy history while
+preventing duplicate engine-generated forces. International organizations stay
+outside that pass and will be implemented as a separate system.
