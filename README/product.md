@@ -22,6 +22,8 @@ The first post-start political timeline is integrated for 2000–2005. It contai
 
 Obsolete vanilla historical events are selectively disabled through generated compatibility overrides. Medieval and early-modern country flavor, removed-mission events, historical colonial and HRE content, Reformation-era religious wars, early-modern dynastic history, old revolutions, and country-specific historical disasters no longer run. Generic mechanical events remain available for later audit.
 
+A dedicated modern generic-event pool adds 40 recurring vanilla-style events across government, economy, society, infrastructure, technology, military, diplomacy, and environment. A restrained yearly pulse, no-event weight, and shared cooldown keep the system active without producing constant popups or excessive AI event processing.
+
 Province development is gameplay-balanced for the modern start: major countries use explicit national totals, extreme city values use diminishing returns with a 50-development cap, and underrepresented Balkan capitals receive regional floors. Trade nodes and connections use the complete vanilla EU4 network, with visual paths aligned to the imported Extended Timeline map.
 
 Trade goods remain on the vanilla EU4 set. Starting military infrastructure is restrained and strategic: forts prioritize international borders and important capitals, while barracks concentrate in national manpower centers. Countries begin without regimental camps.

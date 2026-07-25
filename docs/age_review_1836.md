@@ -1,5 +1,7 @@
 # EU4 2K Age Audit (1836–9999)
 
+> Historical note: this audit describes the former Extended Timeline late-age setup. It was superseded by the vanilla four-age baseline and the plan in `age_adaptation_plan.md` after the mod start date moved to 2000.
+
 ## Scope
 
 This audit reviews the active late-game ages against EU4 2K's revised technology dates, institutions, buildings, and open-ended end date. It does not change gameplay files.

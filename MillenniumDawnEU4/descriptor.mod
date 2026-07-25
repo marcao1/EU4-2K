@@ -7,6 +7,7 @@ tags={
 	"New Nations"
 }
 replace_path="common/bookmarks"
+replace_path="common/ages"
 replace_path="common/institutions"
 replace_path="decisions"
 replace_path="history/countries"
