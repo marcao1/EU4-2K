@@ -1,6 +1,30 @@
 # Generated scenario-start diplomatic affinities.
 # International organizations are intentionally excluded.
 
+eu4_2k_starting_opinion_neg_150 = {
+	opinion = -150
+}
+
+eu4_2k_starting_opinion_neg_100 = {
+	opinion = -100
+}
+
+eu4_2k_starting_opinion_neg_75 = {
+	opinion = -75
+}
+
+eu4_2k_starting_opinion_neg_50 = {
+	opinion = -50
+}
+
+eu4_2k_starting_opinion_neg_25 = {
+	opinion = -25
+}
+
+eu4_2k_starting_opinion_50 = {
+	opinion = 50
+}
+
 eu4_2k_starting_opinion_75 = {
 	opinion = 75
 }

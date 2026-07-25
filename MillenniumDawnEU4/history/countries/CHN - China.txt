@@ -42,3 +42,4 @@ monarch = {
 	mil = 3
 }
 add_opinion = { who = NOK modifier = eu4_2k_starting_opinion_100 }
+add_opinion = { who = RUS modifier = eu4_2k_starting_opinion_75 }

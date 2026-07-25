@@ -41,3 +41,8 @@ monarch = {
 	dip = 4
 	mil = 3
 }
+add_opinion = { who = ARM modifier = eu4_2k_starting_opinion_neg_75 }
+add_opinion = { who = AZE modifier = eu4_2k_starting_opinion_100 }
+add_opinion = { who = CYP modifier = eu4_2k_starting_opinion_neg_100 }
+add_opinion = { who = GRE modifier = eu4_2k_starting_opinion_neg_25 }
+historical_friend = AZE

@@ -41,3 +41,4 @@ monarch = {
 	dip = 3
 	mil = 2
 }
+add_opinion = { who = YUG modifier = eu4_2k_starting_opinion_neg_100 }

@@ -43,3 +43,6 @@ monarch = {
 }
 add_opinion = { who = ARM modifier = eu4_2k_starting_opinion_100 }
 add_opinion = { who = BLR modifier = eu4_2k_starting_opinion_100 }
+add_opinion = { who = CHN modifier = eu4_2k_starting_opinion_75 }
+add_opinion = { who = GEO modifier = eu4_2k_starting_opinion_neg_50 }
+historical_friend = ARM

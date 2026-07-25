@@ -42,6 +42,14 @@ alliance = {
 }
 
 alliance = {
+	first = CYP
+	second = GRE
+	# Historical treaty start: 1993.11.1
+	start_date = 2000.1.1
+	end_date = 9999.12.31
+}
+
+alliance = {
 	first = GBR
 	second = POR
 	# Historical treaty start: 1386.5.9

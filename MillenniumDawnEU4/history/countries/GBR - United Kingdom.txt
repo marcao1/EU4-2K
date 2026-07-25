@@ -42,4 +42,5 @@ monarch = {
 	dip = 5
 	mil = 3
 }
+add_opinion = { who = IRE modifier = eu4_2k_starting_opinion_50 }
 add_opinion = { who = POR modifier = eu4_2k_starting_opinion_100 }

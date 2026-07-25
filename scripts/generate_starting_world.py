@@ -103,14 +103,28 @@ CIS_2000 = {
 UN_EXCLUSIONS_2000 = {"SWI", "FRM", "YUG", "TVL", "PLS"}
 
 RELATIONSHIP_TYPES = {"alliance", "guarantee", "vassal", "union", "dependency", "royal_marriage"}
+AFFINITY_TYPES = {
+    "strategic_partner", "friendly", "historical_friend", "tense", "hostile",
+}
+VALID_RELATIONSHIP_TYPES = RELATIONSHIP_TYPES | AFFINITY_TYPES
 SYMMETRIC_RELATIONSHIPS = {"alliance", "royal_marriage"}
 OPINION_BY_RELATIONSHIP = {
     "alliance": "100", "guarantee": "75", "vassal": "150",
     "union": "150", "dependency": "125", "royal_marriage": "100",
+    "strategic_partner": "75", "friendly": "50", "historical_friend": "100",
+    "tense": "-25", "hostile": "-100",
+}
+OPINION_OVERRIDES = {
+    # Durable AI friendship does not require the maximum starting opinion.
+    ("historical_friend", "CZE", "SVK"): "75",
+    ("tense", "GEO", "RUS"): "-50",
+    ("hostile", "CRO", "YUG"): "-75",
+    ("hostile", "ARM", "TKY"): "-75",
+    ("hostile", "ARM", "AZE"): "-150",
 }
 
-# Curated bilateral defence relationships effective on 2000.1.1. Membership
-# in NATO, the EU, CIS, UN, OAS, or any other organization is excluded here.
+# Curated bilateral relationships effective on 2000.1.1. Membership in NATO,
+# the EU, CIS, UN, OAS, or any other organization is excluded here.
 CURATED_BILATERAL_RELATIONSHIPS = (
     ("GBR", "POR", "alliance", "1386.5.9", "uk-portugal-treaty-of-windsor"),
     ("USA", "AUS", "alliance", "1952.4.29", "us-state-collective-defense"),
@@ -122,6 +136,28 @@ CURATED_BILATERAL_RELATIONSHIPS = (
     ("CHN", "NOK", "alliance", "1961.9.10", "china-dprk-mutual-assistance"),
     ("RUS", "ARM", "alliance", "1997.8.29", "russia-armenia-mutual-assistance"),
     ("RUS", "BLR", "alliance", "1999.12.8", "russia-belarus-union-state"),
+    # Close bilateral alignments which were not mutual-defence treaties.
+    ("CHN", "RUS", "strategic_partner", "1996.4.25", "china-russia-strategic-partnership"),
+    ("GRE", "YUG", "friendly", "1868.1.1", "greece-serbia-historical-relations"),
+    ("ARM", "GRE", "friendly", "1992.1.20", "greece-armenia-diplomatic-relations"),
+    ("GBR", "IRE", "friendly", "1998.4.10", "good-friday-agreement"),
+    ("MDV", "RMN", "friendly", "1991.8.27", "romania-moldova-close-relations"),
+    ("POL", "UKR", "friendly", "1991.12.2", "poland-recognition-of-ukraine"),
+    ("ARM", "RUS", "historical_friend", "1997.8.29", "russia-armenia-friendship-mutual-assistance"),
+    ("AZE", "TKY", "historical_friend", "1991.11.9", "turkey-azerbaijan-close-relations"),
+    ("CZE", "SVK", "historical_friend", "1993.1.1", "peaceful-czechoslovak-dissolution"),
+    ("GRE", "MAC", "tense", "1991.9.8", "macedonia-name-dispute"),
+    ("GRE", "TKY", "tense", "1974.7.20", "greece-turkey-aegean-cyprus-disputes"),
+    ("GEO", "RUS", "tense", "1999.12.1", "russia-georgia-security-tensions"),
+    ("CRO", "YUG", "hostile", "1991.6.25", "yugoslav-wars-legacy"),
+    ("ALB", "YUG", "hostile", "1998.2.28", "kosovo-conflict"),
+    ("CYP", "TKY", "hostile", "1974.7.20", "cyprus-conflict-nonrecognition"),
+    ("ARM", "TKY", "hostile", "1993.4.3", "turkey-armenia-closed-border"),
+    ("ARM", "AZE", "hostile", "1988.2.20", "nagorno-karabakh-conflict"),
+    # The 1993 Greece-Cyprus Joint Defence Doctrine is represented as a
+    # gameplay alliance plus a durable AI friendship.
+    ("GRE", "CYP", "alliance", "1993.11.1", "greece-cyprus-joint-defence-doctrine"),
+    ("GRE", "CYP", "historical_friend", "1993.11.1", "greece-cyprus-close-coordination"),
     # The Taiwan Relations Act is represented as a unilateral gameplay
     # guarantee rather than a mutual alliance.
     ("USA", "FRM", "guarantee", "1979.4.10", "taiwan-relations-act"),
@@ -451,7 +487,7 @@ def effective_diplomacy(country_rows: Sequence[dict[str, str]]) -> list[dict[str
             raise RuntimeError(f"Curated diplomacy uses inactive tag: {first}/{second}")
         a, b = (
             sorted((first, second))
-            if relationship_type in SYMMETRIC_RELATIONSHIPS
+            if relationship_type in SYMMETRIC_RELATIONSHIPS or relationship_type in AFFINITY_TYPES
             else (first, second)
         )
         key = (relationship_type, a, b, "")
@@ -464,7 +500,10 @@ def effective_diplomacy(country_rows: Sequence[dict[str, str]]) -> list[dict[str
             "relationship_type": relationship_type,
             "start_date": start,
             "end_date": "9999.12.31",
-            "initial_opinion": OPINION_BY_RELATIONSHIP[relationship_type],
+            "initial_opinion": OPINION_OVERRIDES.get(
+                (relationship_type, a, b),
+                OPINION_BY_RELATIONSHIP[relationship_type],
+            ),
             "organization": "",
             "source": f"manual:{source}",
             "verification_notes": (
@@ -596,7 +635,7 @@ def validate(
         if a not in active or (b and b not in active) or a == b:
             errors.append(f"invalid diplomacy endpoints: {a}/{b}")
         relationship_type = row["relationship_type"]
-        if relationship_type != "organization_member" and relationship_type not in RELATIONSHIP_TYPES:
+        if relationship_type != "organization_member" and relationship_type not in VALID_RELATIONSHIP_TYPES:
             errors.append(f"invalid relationship type: {relationship_type}")
         if relationship_type == "organization_member" and (b or not row["organization"]):
             errors.append(f"invalid organization membership: {a}")

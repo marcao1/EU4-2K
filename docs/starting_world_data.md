@@ -74,13 +74,18 @@ missions. They currently have no passive modifier by themselves.
 - Initial opinion baselines
 - Source and verification notes
 - Metadata-only NATO, EU, CIS, and UN membership records
+- Non-treaty `friendly`, `strategic_partner`, `tense`, and `hostile` affinities,
+  plus exceptional reciprocal `historical_friend` links for durable AI
+  cooperation
 
 Organization membership does not create ordinary EU4 alliances. This prevents NATO and EU membership from consuming diplomatic slots or automatically creating global wars before dedicated organization mechanics exist.
 
-Eleven curated bilateral relationships are integrated into
-`history/diplomacy/00_eu4_2k_diplomacy.txt`: ten alliances and one guarantee.
-The generator also applies the recorded initial opinion in both
-directions through scenario-start opinion modifiers. The mod replaces vanilla
+Only formal relationships are integrated into
+`history/diplomacy/00_eu4_2k_diplomacy.txt`. Affinity records do not create
+alliances or consume diplomatic slots. The generator applies the strongest
+recorded initial opinion for each pair in both directions, without stacking an
+alliance and affinity for the same countries. Exceptional `historical_friend`
+records also produce reciprocal country-history entries. The mod replaces vanilla
 diplomatic history so medieval and early-modern relationships cannot leak into
 the 2000 bookmark.
 

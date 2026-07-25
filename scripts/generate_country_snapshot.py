@@ -1259,10 +1259,10 @@ def starting_opinions(
 ) -> tuple[dict[str, list[tuple[str, int]]], set[int]]:
     """Load bilateral starting affinities without integrating organizations."""
     active = {row["tag"] for row in rows if row["active_2000"] == "yes"}
-    result: dict[str, list[tuple[str, int]]] = {tag: [] for tag in active}
+    affinities: dict[str, dict[str, int]] = {tag: {} for tag in active}
     values: set[int] = set()
     if not DIPLOMACY_DATA.exists():
-        return result, values
+        return {tag: [] for tag in active}, values
     with DIPLOMACY_DATA.open("r", encoding="utf-8-sig", newline="") as handle:
         for relation in csv.DictReader(handle):
             if relation["relationship_type"] == "organization_member":
@@ -1272,12 +1272,36 @@ def starting_opinions(
                 raise RuntimeError(f"Invalid starting-opinion pair: {first}/{second}")
             value = int(relation["initial_opinion"])
             if value:
-                result[first].append((second, value))
-                result[second].append((first, value))
+                # A pair can have both a formal treaty and a durable affinity.
+                # Apply only the strongest starting opinion instead of stacking
+                # duplicate modifiers.
+                affinities[first][second] = max(value, affinities[first].get(second, value))
+                affinities[second][first] = max(value, affinities[second].get(first, value))
                 values.add(value)
-    for tag in result:
-        result[tag].sort()
+    result = {
+        tag: sorted(partners.items()) for tag, partners in affinities.items()
+    }
     return result, values
+
+
+def starting_historical_friends(
+    rows: Sequence[dict[str, str]],
+) -> dict[str, list[str]]:
+    """Load reciprocal durable AI friendships from canonical diplomacy."""
+    active = {row["tag"] for row in rows if row["active_2000"] == "yes"}
+    result: dict[str, set[str]] = {tag: set() for tag in active}
+    if not DIPLOMACY_DATA.exists():
+        return {tag: [] for tag in active}
+    with DIPLOMACY_DATA.open("r", encoding="utf-8-sig", newline="") as handle:
+        for relation in csv.DictReader(handle):
+            if relation["relationship_type"] != "historical_friend":
+                continue
+            first, second = relation["country_a"], relation["country_b"]
+            if first not in active or second not in active:
+                raise RuntimeError(f"Invalid historical-friend pair: {first}/{second}")
+            result[first].add(second)
+            result[second].add(first)
+    return {tag: sorted(partners) for tag, partners in result.items()}
 
 
 def starting_opinion_modifiers(values: Iterable[int]) -> str:
@@ -1287,8 +1311,9 @@ def starting_opinion_modifiers(values: Iterable[int]) -> str:
         "",
     ]
     for value in sorted(set(values)):
+        modifier = starting_opinion_modifier(value)
         lines.extend([
-            f"eu4_2k_starting_opinion_{value} = {{",
+            f"{modifier} = {{",
             f"\topinion = {value}",
             "}",
             "",
@@ -1296,11 +1321,18 @@ def starting_opinion_modifiers(values: Iterable[int]) -> str:
     return "\n".join(lines)
 
 
+def starting_opinion_modifier(value: int) -> str:
+    """Return a Paradox-safe modifier key for positive or negative opinion."""
+    suffix = f"neg_{abs(value)}" if value < 0 else str(value)
+    return f"eu4_2k_starting_opinion_{suffix}"
+
+
 def starting_opinion_localisation(values: Iterable[int]) -> str:
     lines = ["l_english:"]
     for value in sorted(set(values)):
+        modifier = starting_opinion_modifier(value)
         lines.append(
-            f' eu4_2k_starting_opinion_{value}:0 "Starting Diplomatic Relationship"'
+            f' {modifier}:0 "Starting Diplomatic Relationship"'
         )
     return "\n".join(lines) + "\n"
 
@@ -1309,6 +1341,7 @@ def country_history(
     row: dict[str, str],
     technology_setup: dict[str, dict[str, int]],
     opinions: dict[str, list[tuple[str, int]]],
+    historical_friends: dict[str, list[str]],
 ) -> str:
     government, executive_reform = EXECUTIVE_MODELS[row["government_model"]]
     lines = [
@@ -1346,9 +1379,11 @@ def country_history(
         for other, value in opinions.get(row["tag"], []):
             lines.append(
                 "add_opinion = { "
-                f"who = {other} modifier = eu4_2k_starting_opinion_{value} "
+                f"who = {other} modifier = {starting_opinion_modifier(value)} "
                 "}"
             )
+        for other in historical_friends.get(row["tag"], []):
+            lines.append(f"historical_friend = {other}")
     else:
         lines.append("set_country_flag = eu4_2k_dormant_successor")
     return "\n".join(lines) + "\n"
@@ -1453,6 +1488,7 @@ def text_outputs(
     technology_setup: dict[str, dict[str, int]],
 ) -> dict[Path, tuple[str, str]]:
     opinions, opinion_values = starting_opinions(rows)
+    historical_friends = starting_historical_friends(rows)
     outputs: dict[Path, tuple[str, str]] = {
         MOD / "common" / "country_tags" / "00_countries.txt": (generated_country_tag_text(rows, game), "cp1252"),
         MOD / "common" / "government_reforms" / "00_eu4_2k_government_reforms.txt": (government_reforms_text(), "cp1252"),
@@ -1479,7 +1515,7 @@ def text_outputs(
         outputs[MOD / "common" / "countries" / f"EU4_2K_{row['tag']}.txt"] = (country_definition(row, game), "cp1252")
         safe_name = re.sub(r'[<>:"/\\|?*]', "", row["name"])
         outputs[MOD / "history" / "countries" / f"{row['tag']} - {safe_name}.txt"] = (
-            country_history(row, technology_setup, opinions),
+            country_history(row, technology_setup, opinions, historical_friends),
             "cp1252",
         )
     snapshot_tags = {row["tag"] for row in rows}

@@ -41,3 +41,4 @@ monarch = {
 	dip = 4
 	mil = 2
 }
+add_opinion = { who = UKR modifier = eu4_2k_starting_opinion_50 }
