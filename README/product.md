@@ -20,6 +20,8 @@ Step 3 canonical inputs are now established for all 188 active countries: countr
 
 The first post-start political timeline is integrated for 2000–2005. It contains 24 dated leadership transitions with historical and alternate outcomes, plus September 11, Afghanistan, international counterterrorism responses, and Iraq crisis paths. Historical AI choices are strongly favored without being forced; choosing an alternate leader prevents later scripted successions from overwriting that country's divergent path.
 
+Obsolete vanilla historical events are selectively disabled through generated compatibility overrides. Medieval and early-modern country flavor, removed-mission events, historical colonial and HRE content, Reformation-era religious wars, early-modern dynastic history, old revolutions, and country-specific historical disasters no longer run. Generic mechanical events remain available for later audit.
+
 Province development is gameplay-balanced for the modern start: major countries use explicit national totals, extreme city values use diminishing returns with a 50-development cap, and underrepresented Balkan capitals receive regional floors. Trade nodes and connections use the complete vanilla EU4 network, with visual paths aligned to the imported Extended Timeline map.
 
 Trade goods remain on the vanilla EU4 set. Starting military infrastructure is restrained and strategic: forts prioritize international borders and important capitals, while barracks concentrate in national manpower centers. Countries begin without regimental camps.
@@ -27,6 +29,8 @@ Trade goods remain on the vanilla EU4 set. Starting military infrastructure is r
 Starting infrastructure is generated from country infrastructure tiers and province development. Capitals, trade centers, productive provinces, tax centers, manpower centers, and confirmed ports receive a restrained baseline of vanilla economic, administrative, and naval buildings. Twelve modern global trade hubs receive level-three centers of trade; forts remain a separate balance pass.
 
 The institution system now uses eight modern institutions from Globalized Economy (`2000.4.1`) through Space Marines (`2350.4.1`), spaced fifty years apart. Their vanilla internal IDs are retained only for EU4 compatibility; names, bonuses, emergence rules, descriptions, and spread rules are replaced.
+
+The technology system retains all vanilla EU4 1.37.5 effects and unlocks. Its 33 administrative, diplomatic, and military levels are redated and retitled for the modern timeline: level 9 represents 2000, levels 10–16 cover 2005–2035 in five-year steps, and the remaining unchanged vanilla levels receive increasing future dates.
 
 This document defines what EU4 2K should become and what must be included in its first playable release. It is a product guide, not a promise that every idea listed here is already implemented.
 

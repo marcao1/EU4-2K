@@ -1,0 +1,593 @@
+monarch_power = DIP
+
+# applied when a country is ahead of time in this technology
+ahead_of_time = {
+	trade_efficiency = 0.2
+	monthly_russian_modernization = 0.05
+	yearly_corruption = -0.05
+	ahead_of_time_benefit_dip = 1
+}
+
+# Pre-era techs
+technology = { #Steamship Networks
+	# Tech 0
+	year = 1900
+	
+	naval_morale			=	2.0
+	range					=	60
+	may_fabricate_claims = yes
+
+	enable = war_canoe
+
+
+}
+
+technology = { #Radio Communications
+	# Tech 1
+	year = 1920
+	expects_institution = {
+		feudalism = 0.25
+	}
+	
+	merchants = yes
+	trade_range				=	100
+	global_colonial_growth	= 	10
+}
+
+technology = { #Global Wartime Logistics
+	# Tech 2
+	year = 1940
+	expects_institution = {
+		feudalism = 0.5
+	}
+	
+	enable = barque
+	trade_range				=	100
+	enable = cog
+	enable = galley
+	
+	naval_engagement_width = 20
+
+}
+
+# The 30 big techs from here on
+
+technology = { #Jet Age Diplomacy
+	# Tech 3
+	year = 1960
+	expects_institution = {
+		feudalism = 0.5
+	}
+
+	naval_morale			=	0.1
+	naval_maintenance		= 	0.1
+	range					= 	100
+	trade_efficiency 		= 	0.02
+	global_colonial_growth	= 	15
+	may_build_flagships = yes
+	
+	enable = early_carrack
+
+
+}
+
+technology = { #Satellite Communications
+	# Tech 4
+	year = 1970
+	expects_institution = {
+		feudalism = 0.5
+	}
+		
+	trade_range	= 10
+	marketplace = yes 
+	
+	
+}
+
+technology = { #Containerized Trade
+	# Tech 5
+	year = 1980
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.15
+	}
+	
+	naval_maintenance		=	0.1	
+	trade_efficiency 		= 	0.02
+	trade_range				=	20
+	
+	coastal_defence = yes
+}
+
+technology = { #Global Financial Networks
+	# Tech 6
+	year = 1985
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.3
+	}
+	
+	dock = yes	
+	may_steal_maps = yes
+
+}
+
+technology = { #Digital Telecommunications
+	# Tech 7
+	year = 1990
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+	}
+	
+	naval_morale			= 0.3
+	range					= 115
+	impressment_offices 	= yes
+	naval_engagement_width = 10
+}
+
+technology  = { #Commercial Internet
+	# Tech 8
+	year = 1995
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+	}
+
+	
+	num_accepted_cultures = 1
+	shipyard = yes
+
+	trade_range				=	10
+	naval_morale			=	0.2
+
+}
+
+technology = { #Global Communications
+	# Tech 9
+	year = 2000
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.15
+	}
+	
+	naval_maintenance		= 	0.1
+	range					=	50
+	
+	enable = carrack
+	enable = caravel
+	may_study_technology = yes
+	
+}
+
+technology = { #Integrated Logistics
+	# Tech 10
+	year = 2005
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.3
+	}
+	
+	trade_efficiency		= 	0.02
+	trade_range				=	20
+	global_colonial_growth  = 	10
+	enable = flute
+	enable = war_galley
+}
+
+technology = { #Satellite Navigation
+	# Tech 11
+	year = 2010
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+	}
+	
+	range					= 	100
+
+	wharf = yes
+
+}
+
+technology = { #Digital Commerce
+	# Tech 12
+	year = 2015
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+	}
+
+	naval_morale			=	0.4
+	may_slander_merchants = yes
+
+	naval_battery = yes
+	naval_engagement_width = 15
+	
+}
+
+technology = { #Global Data Networks
+	# Tech 13
+	year = 2020
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+		printing_press = 0.15
+	}
+	
+	trade_efficiency 		= 	0.02
+	enable = brig
+
+}
+
+technology = { #Automated Ports
+	# Tech 14
+	year = 2025
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+		printing_press = 0.3
+	}
+	
+	tradecompany = yes
+	num_accepted_cultures = 1
+
+	
+	enable = galleass
+}
+ 
+technology = { #Autonomous Shipping
+	# Tech 15
+	year = 2030
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+		printing_press = 0.5
+	}
+	
+	naval_maintenance		= 	0.1
+	range					=	50
+	global_colonial_growth  = 	15
+	
+	enable = galleon
+	enable = early_frigate
+	may_sabotage_recruitment = yes
+
+}
+
+technology = { #Orbital Logistics
+	# Tech 16
+	year = 2035
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+		printing_press = 0.5
+	}
+	
+	trade_efficiency 		= 	0.02
+	trade_range				=	20
+
+}
+
+technology = { #Quantum Communications
+	# Tech 17
+	year = 2040
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+		printing_press = 0.5
+		global_trade = 0.15
+	}
+	
+	trade_range				=	20
+	range					=	50
+	
+	
+	trade_depot = yes 
+
+
+	enable = merchantman
+}
+
+technology = { #Hypersonic Transport
+	# Tech 18
+	year = 2045
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+		printing_press = 0.5
+		global_trade = 0.3
+	}
+	
+	enable = galiot
+	naval_morale			=	0.5
+	may_sow_discontent = yes
+	
+	naval_engagement_width = 10
+
+	
+}
+
+technology = { #Global Smart Trade
+	# Tech 19
+	year = 2050
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+	}
+	
+	naval_maintenance		= 	0.1	
+	range					=	50
+	
+	drydock = yes 
+	
+	
+	enable = wargalleon
+	enable = frigate
+}
+
+technology = { #Climate Diplomacy
+	# Tech 20
+	year = 2055
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+	}
+
+	trade_efficiency 		= 	0.02
+	trade_range				=	20
+	num_accepted_cultures = 1
+	
+}
+
+technology = { #Deep-Sea Logistics
+	# Tech 21
+	year = 2060
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		manufactories = 0.15
+	}
+
+	enable = chebeck
+	may_sabotage_reputation = yes
+
+}
+
+technology = { #Near-Space Commerce
+	# Tech 22
+	year = 2065
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		manufactories = 0.3
+	}
+	
+	naval_morale			=	0.5
+	naval_maintenance		= 	0.1
+	
+
+	stock_exchange = yes
+
+	reduced_naval_attrition = yes
+	enable = twodecker
+	enable = trabakul
+	naval_engagement_width = 5
+}
+
+technology = { #Automated Global Markets
+	# Tech 23
+	year = 2070
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		manufactories = 0.5
+	}
+	
+	global_colonial_growth  = 	25	
+	range					=	150
+	allow_client_states = yes		
+
+	
+	enable = heavy_frigate
+}
+
+technology = { #Lunar Trade Routes
+	# Tech 24
+	year = 2075
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		manufactories = 0.5
+		enlightenment = 0.15
+	}
+	
+	grand_shipyard = yes 
+
+	
+	trade_efficiency 		= 	0.02
+	trade_range				=	20
+	enable = archipelago_frigate
+	may_corrupt_officials = yes
+	naval_engagement_width = 10
+
+}
+
+technology = { #Fusion-Powered Shipping
+	# Tech 25
+	year = 2080
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		manufactories = 0.5
+		enlightenment = 0.3
+	}
+	
+	naval_morale			=	0.5
+	naval_maintenance		= 	0.1
+	
+	enable = threedecker
+}
+
+technology = { #Orbital Shipyards
+	# Tech 26
+	year = 2085
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		manufactories = 0.5
+		enlightenment = 0.5
+	}
+	
+	range					=	200
+	global_colonial_growth  = 	25
+	num_accepted_cultures = 1
+	
+	enable = eastindiaman
+	enable = great_frigate
+}
+
+technology = { #Interplanetary Commerce
+	# Tech 27
+	year = 2090
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		manufactories = 0.5
+		enlightenment = 0.5
+	}
+	
+	naval_morale			=	0.5
+	naval_maintenance		= 	0.1
+	may_agitate_for_liberty = yes
+
+}
+
+technology = { #Mars Trade Network
+	# Tech 28
+	year = 2095
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		manufactories = 0.5
+		enlightenment = 0.5
+		industrialization = 0.25
+	}
+	
+	trade_efficiency 		= 	0.02
+	trade_range				=	20
+}
+
+technology = { #Solar Trade System
+	# Tech 29
+	year = 2100
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		manufactories = 0.5
+		enlightenment = 0.5
+		industrialization = 0.5
+	}
+	
+	naval_morale			=	0.5
+	naval_maintenance		= 	0.1
+}
+
+technology = { #Lunar Economy
+	# Tech 30
+	year = 2150
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		manufactories = 0.5
+		enlightenment = 0.5
+		industrialization = 1
+	}
+	
+	trade_efficiency 		= 	0.02
+	trade_range				=	20
+	may_infiltrate_administration = yes
+}
+
+technology = { #Martian Commerce
+	# Tech 31
+	year = 2200
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+		printing_press = 0.5
+		global_trade = 0.5
+		manufactories = 1
+		enlightenment = 0.5
+		industrialization = 1
+	}
+	
+	naval_morale			=	0.5
+	naval_maintenance		= 	0.1	
+	num_accepted_cultures = 1
+}
+
+technology = { #Interplanetary Exchange
+	# Tech 32
+	year = 2250
+	expects_institution = {
+		feudalism = 0.5
+		renaissance = 0.5
+		new_world_i = 0.5
+		printing_press = 0.5
+		global_trade = 1
+		manufactories = 0.5
+		enlightenment = 1
+		industrialization = 1
+	}
+	
+	trade_efficiency 		= 	0.02
+	trade_range				=	20
+	global_colonial_growth  = 	50
+}
