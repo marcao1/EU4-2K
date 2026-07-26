@@ -44,3 +44,4 @@ monarch = {
 }
 add_opinion = { who = IRE modifier = eu4_2k_starting_opinion_50 }
 add_opinion = { who = POR modifier = eu4_2k_starting_opinion_100 }
+add_opinion = { who = RSA modifier = eu4_2k_starting_opinion_50 }

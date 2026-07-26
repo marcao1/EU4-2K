@@ -89,6 +89,11 @@ records also produce reciprocal country-history entries. The mod replaces vanill
 diplomatic history so medieval and early-modern relationships cannot leak into
 the 2000 bookmark.
 
+Formal relationships may have finite historical end dates. The Angola-, Namibia-,
+and Zimbabwe-backed Democratic Republic of the Congo coalition starts allied but
+ends on `2003.7.18`; enduring guarantees and alliances retain the open-ended
+scenario end date.
+
 All 229 NATO, EU, CIS, and UN membership rows remain canonical metadata only.
 They generate no alliances, guarantees, country flags, opinion modifiers, or
 other gameplay effects and are reserved for a separate organization system.

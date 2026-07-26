@@ -121,6 +121,23 @@ OPINION_OVERRIDES = {
     ("hostile", "CRO", "YUG"): "-75",
     ("hostile", "ARM", "TKY"): "-75",
     ("hostile", "ARM", "AZE"): "-150",
+    ("strategic_partner", "ISR", "USA"): "100",
+    ("friendly", "INI", "RUS"): "75",
+    ("friendly", "CHN", "RSA"): "25",
+    ("hostile", "ERT", "ETH"): "-150",
+    ("hostile", "DRC", "RWA"): "-150",
+    ("hostile", "DRC", "UGA"): "-125",
+    ("hostile", "INI", "PAK"): "-150",
+    ("hostile", "NOK", "SKO"): "-125",
+    ("hostile", "ALG", "MOR"): "-75",
+    ("tense", "ISR", "PLS"): "-50",
+}
+RELATIONSHIP_END_OVERRIDES = {
+    # Wartime coalition members leave the special starting alliance when the
+    # Second Congo War transitional settlement takes effect.
+    ("alliance", "AGL", "DRC"): "2003.7.18",
+    ("alliance", "DRC", "NMB"): "2003.7.18",
+    ("alliance", "DRC", "GZI"): "2003.7.18",
 }
 
 # Curated bilateral relationships effective on 2000.1.1. Membership in NATO,
@@ -136,6 +153,22 @@ CURATED_BILATERAL_RELATIONSHIPS = (
     ("CHN", "NOK", "alliance", "1961.9.10", "china-dprk-mutual-assistance"),
     ("RUS", "ARM", "alliance", "1997.8.29", "russia-armenia-mutual-assistance"),
     ("RUS", "BLR", "alliance", "1999.12.8", "russia-belarus-union-state"),
+    # Russia-centred gameplay approximation of the 1992 Collective Security
+    # Treaty until the multilateral organization has dedicated mechanics.
+    ("RUS", "KZK", "alliance", "1994.4.20", "collective-security-treaty"),
+    ("RUS", "KYR", "alliance", "1994.4.20", "collective-security-treaty"),
+    ("RUS", "TJK", "alliance", "1994.4.20", "collective-security-treaty"),
+    # Government coalition fighting together in the Second Congo War. These
+    # alliances use explicit historical end dates below.
+    ("DRC", "AGL", "alliance", "1998.8.2", "second-congo-war-government-coalition"),
+    ("DRC", "NMB", "alliance", "1998.8.2", "second-congo-war-government-coalition"),
+    ("DRC", "GZI", "alliance", "1998.8.2", "second-congo-war-government-coalition"),
+    # Bilateral defence responsibilities are guarantees, not mutual alliances.
+    ("USA", "MRS", "guarantee", "1986.10.21", "compact-of-free-association"),
+    ("USA", "MIC", "guarantee", "1986.11.3", "compact-of-free-association"),
+    ("USA", "PLU", "guarantee", "1994.10.1", "compact-of-free-association"),
+    ("INI", "BHU", "guarantee", "1949.8.8", "india-bhutan-friendship-treaty"),
+    ("FR2", "DJI", "guarantee", "1977.6.27", "france-djibouti-defence-agreement"),
     # Close bilateral alignments which were not mutual-defence treaties.
     ("CHN", "RUS", "strategic_partner", "1996.4.25", "china-russia-strategic-partnership"),
     ("GRE", "YUG", "friendly", "1868.1.1", "greece-serbia-historical-relations"),
@@ -145,15 +178,42 @@ CURATED_BILATERAL_RELATIONSHIPS = (
     ("POL", "UKR", "friendly", "1991.12.2", "poland-recognition-of-ukraine"),
     ("ARM", "RUS", "historical_friend", "1997.8.29", "russia-armenia-friendship-mutual-assistance"),
     ("AZE", "TKY", "historical_friend", "1991.11.9", "turkey-azerbaijan-close-relations"),
+    ("CAN", "USA", "historical_friend", "1958.5.12", "canada-united-states-norad-cooperation"),
+    ("CHN", "PAK", "historical_friend", "1951.5.21", "china-pakistan-longstanding-friendship"),
     ("CZE", "SVK", "historical_friend", "1993.1.1", "peaceful-czechoslovak-dissolution"),
+    ("BRZ", "CHN", "strategic_partner", "1993.11.23", "brazil-china-strategic-partnership"),
+    ("EGY", "USA", "strategic_partner", "1979.3.26", "egypt-united-states-strategic-cooperation"),
+    ("ISR", "USA", "strategic_partner", "1987.1.1", "united-states-israel-strategic-relationship"),
+    ("CHN", "SUD", "strategic_partner", "1996.1.1", "china-sudan-oil-security-cooperation"),
+    ("CHN", "GZI", "friendly", "1980.4.18", "china-zimbabwe-longstanding-relations"),
+    ("CHN", "TNZ", "friendly", "1964.4.26", "china-tanzania-longstanding-relations"),
+    ("CHN", "ZAM", "friendly", "1964.10.29", "china-zambia-longstanding-relations"),
+    ("INI", "RUS", "friendly", "1993.1.28", "india-russia-friendship-treaty"),
+    ("ISR", "TKY", "friendly", "1996.2.23", "turkey-israel-security-cooperation"),
+    ("ALG", "RUS", "friendly", "1962.3.23", "algeria-russia-longstanding-relations"),
+    ("AGL", "RUS", "friendly", "1975.11.11", "angola-russia-longstanding-relations"),
+    ("FR2", "SGL", "friendly", "1960.4.4", "france-senegal-close-relations"),
+    ("FR2", "GAB", "friendly", "1960.8.17", "france-gabon-close-relations"),
+    ("GBR", "RSA", "friendly", "1994.5.10", "britain-south-africa-post-apartheid-relations"),
+    ("CHN", "RSA", "friendly", "1998.1.1", "china-south-africa-diplomatic-relations"),
     ("GRE", "MAC", "tense", "1991.9.8", "macedonia-name-dispute"),
     ("GRE", "TKY", "tense", "1974.7.20", "greece-turkey-aegean-cyprus-disputes"),
     ("GEO", "RUS", "tense", "1999.12.1", "russia-georgia-security-tensions"),
+    ("ISR", "PLS", "tense", "2000.1.1", "israel-palestine-unresolved-oslo-process"),
     ("CRO", "YUG", "hostile", "1991.6.25", "yugoslav-wars-legacy"),
     ("ALB", "YUG", "hostile", "1998.2.28", "kosovo-conflict"),
     ("CYP", "TKY", "hostile", "1974.7.20", "cyprus-conflict-nonrecognition"),
     ("ARM", "TKY", "hostile", "1993.4.3", "turkey-armenia-closed-border"),
     ("ARM", "AZE", "hostile", "1988.2.20", "nagorno-karabakh-conflict"),
+    ("ERT", "ETH", "hostile", "1998.5.6", "eritrea-ethiopia-war"),
+    ("DRC", "RWA", "hostile", "1998.8.2", "second-congo-war"),
+    ("DRC", "UGA", "hostile", "1998.8.2", "second-congo-war"),
+    ("INI", "PAK", "hostile", "1999.5.3", "kargil-conflict"),
+    ("NOK", "SKO", "hostile", "1953.7.27", "unresolved-korean-war"),
+    ("CHN", "FRM", "hostile", "1949.12.7", "cross-strait-conflict"),
+    ("CUB", "USA", "hostile", "1961.1.3", "united-states-cuba-hostility"),
+    ("IRA", "USA", "hostile", "1980.4.7", "united-states-iran-hostility"),
+    ("ALG", "MOR", "hostile", "1994.8.27", "algeria-morocco-border-western-sahara-dispute"),
     # The 1993 Greece-Cyprus Joint Defence Doctrine is represented as a
     # gameplay alliance plus a durable AI friendship.
     ("GRE", "CYP", "alliance", "1993.11.1", "greece-cyprus-joint-defence-doctrine"),
@@ -499,7 +559,9 @@ def effective_diplomacy(country_rows: Sequence[dict[str, str]]) -> list[dict[str
             "country_b": b,
             "relationship_type": relationship_type,
             "start_date": start,
-            "end_date": "9999.12.31",
+            "end_date": RELATIONSHIP_END_OVERRIDES.get(
+                (relationship_type, a, b), "9999.12.31"
+            ),
             "initial_opinion": OPINION_OVERRIDES.get(
                 (relationship_type, a, b),
                 OPINION_BY_RELATIONSHIP[relationship_type],

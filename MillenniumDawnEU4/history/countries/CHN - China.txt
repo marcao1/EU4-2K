@@ -41,5 +41,14 @@ monarch = {
 	dip = 4
 	mil = 3
 }
+add_opinion = { who = BRZ modifier = eu4_2k_starting_opinion_75 }
+add_opinion = { who = FRM modifier = eu4_2k_starting_opinion_neg_100 }
+add_opinion = { who = GZI modifier = eu4_2k_starting_opinion_50 }
 add_opinion = { who = NOK modifier = eu4_2k_starting_opinion_100 }
+add_opinion = { who = PAK modifier = eu4_2k_starting_opinion_100 }
+add_opinion = { who = RSA modifier = eu4_2k_starting_opinion_25 }
 add_opinion = { who = RUS modifier = eu4_2k_starting_opinion_75 }
+add_opinion = { who = SUD modifier = eu4_2k_starting_opinion_75 }
+add_opinion = { who = TNZ modifier = eu4_2k_starting_opinion_50 }
+add_opinion = { who = ZAM modifier = eu4_2k_starting_opinion_50 }
+historical_friend = PAK

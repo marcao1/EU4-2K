@@ -41,4 +41,5 @@ monarch = {
 	dip = 3
 	mil = 3
 }
+add_opinion = { who = CHN modifier = eu4_2k_starting_opinion_neg_100 }
 add_opinion = { who = USA modifier = eu4_2k_starting_opinion_75 }
