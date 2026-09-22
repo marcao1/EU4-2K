@@ -1,0 +1,4 @@
+eu4_2k_peaceful_separation_opinion = {
+	opinion = 75
+	yearly_decay = 3
+}

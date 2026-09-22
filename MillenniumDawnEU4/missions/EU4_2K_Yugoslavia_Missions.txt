@@ -1,0 +1,445 @@
+# Yugoslavia and Serbia: stabilization, two exclusive national paths, and reconstruction.
+
+eu4_2k_yugoslavia_opening = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = { tag = YUG }
+	has_country_shield = yes
+
+	eu4_2k_yug_stabilize_federation = {
+		icon = mission_unite_home_region
+		position = 1
+		trigger = {
+			stability = 1
+			is_at_war = no
+			NOT = { corruption = 4 }
+			all_owned_province = { NOT = { unrest = 3 } }
+		}
+		effect = {
+			add_country_modifier = { name = eu4_2k_yug_stabilized_state duration = 3650 }
+			add_adm_power = 50
+		}
+	}
+
+	eu4_2k_yug_resolve_political_crisis = {
+		icon = mission_monarch_in_throne_room
+		position = 2
+		required_missions = { eu4_2k_yug_stabilize_federation }
+		trigger = {
+			has_country_flag = eu4_2k_political_event_7_resolved
+			stability = 1
+			prestige = 10
+			republican_tradition = 55
+		}
+		effect = { add_prestige = 10 add_dip_power = 50 }
+	}
+
+	eu4_2k_yug_restore_public_finances = {
+		icon = mission_war_chest
+		position = 3
+		required_missions = { eu4_2k_yug_resolve_political_crisis }
+		trigger = {
+			monthly_income = 10
+			treasury = 750
+			NOT = { num_of_loans = 1 }
+			NOT = { inflation = 3 }
+		}
+		effect = {
+			add_country_modifier = { name = eu4_2k_yug_fiscal_recovery duration = 3650 }
+			add_inflation = -1
+		}
+	}
+
+	eu4_2k_yug_reform_federal_institutions = {
+		icon = mission_early_modern_university
+		position = 4
+		required_missions = { eu4_2k_yug_restore_public_finances }
+		trigger = {
+			stability = 2
+			republican_tradition = 60
+			has_country_modifier = eu4_2k_anti_corruption_campaign
+			NOT = { corruption = 2 }
+		}
+		effect = {
+			add_country_modifier = { name = eu4_2k_yug_institutional_reform duration = 5475 }
+			add_republican_tradition = 5
+		}
+	}
+
+	eu4_2k_yug_choose_national_future = {
+		icon = mission_empire
+		position = 5
+		required_missions = { eu4_2k_yug_reform_federal_institutions }
+		trigger = {
+			is_year = 2002
+			is_at_war = no
+			prestige = 25
+			NOT = { num_of_loans = 1 }
+			NOT = { has_country_flag = eu4_2k_yugoslav_mission_path_chosen }
+		}
+		effect = { country_event = { id = eu4_2k_yugoslavia.1 } }
+	}
+}
+
+eu4_2k_yugoslavia_restoration = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = { tag = YUG }
+	has_country_shield = yes
+
+	eu4_2k_yug_preserve_federal_union = {
+		icon = mission_forts
+		position = 6
+		required_missions = { eu4_2k_yug_choose_national_future }
+		trigger = {
+			has_country_flag = eu4_2k_yugoslav_restoration_path
+			stability = 2
+			prestige = 30
+			army_size_percentage = 0.90
+			manpower_percentage = 0.65
+		}
+		effect = {
+			add_country_modifier = { name = eu4_2k_yug_restoration_mandate duration = 5475 }
+			add_permanent_claim = 3001
+			add_permanent_claim = 4780
+			add_permanent_claim = 139
+			add_permanent_claim = 140
+			add_permanent_claim = 1828
+			add_permanent_claim = 1831
+			add_permanent_claim = 3002
+			add_permanent_claim = 4755
+			add_permanent_claim = 130
+			add_permanent_claim = 131
+			add_permanent_claim = 136
+			add_permanent_claim = 137
+			add_permanent_claim = 152
+			add_permanent_claim = 1767
+			add_permanent_claim = 1826
+			add_permanent_claim = 4752
+			add_permanent_claim = 4753
+			add_permanent_claim = 4756
+			add_permanent_claim = 129
+			add_permanent_claim = 1769
+			add_permanent_claim = 4751
+		}
+	}
+
+	eu4_2k_yug_renew_macedonian_relations = {
+		icon = mission_alliances
+		position = 7
+		required_missions = { eu4_2k_yug_preserve_federal_union }
+		trigger = {
+			OR = {
+				AND = { exists = MAC MAC = { OR = { is_subject_of = ROOT AND = { alliance_with = ROOT has_opinion = { who = ROOT value = 150 } } } } }
+				AND = { NOT = { exists = MAC } owns = 3001 owns = 4780 }
+			}
+		}
+		effect = { add_country_modifier = { name = eu4_2k_yug_republic_cooperation duration = 3650 } add_dip_power = 50 }
+	}
+
+	eu4_2k_yug_reconcile_bosnia = {
+		icon = mission_monarch_in_throne_room
+		position = 8
+		required_missions = { eu4_2k_yug_renew_macedonian_relations }
+		trigger = {
+			OR = {
+				AND = { exists = BHE BHE = { OR = { is_subject_of = ROOT AND = { alliance_with = ROOT has_opinion = { who = ROOT value = 150 } } } } }
+				AND = { NOT = { exists = BHE } owns = 139 owns = 140 owns = 1828 owns = 1831 owns = 3002 owns = 4755 }
+			}
+		}
+		effect = { add_country_modifier = { name = eu4_2k_yug_republic_cooperation duration = 3650 } add_prestige = 10 }
+	}
+
+	eu4_2k_yug_negotiate_with_croatia = {
+		icon = mission_alliances
+		position = 9
+		required_missions = { eu4_2k_yug_reconcile_bosnia }
+		trigger = {
+			OR = {
+				AND = { exists = CRO CRO = { OR = { is_subject_of = ROOT AND = { alliance_with = ROOT has_opinion = { who = ROOT value = 150 } } } } }
+				AND = { NOT = { exists = CRO } owns = 130 owns = 131 owns = 136 owns = 137 owns = 152 owns = 1767 owns = 1826 owns = 4752 owns = 4753 owns = 4756 }
+			}
+		}
+		effect = { add_country_modifier = { name = eu4_2k_yug_republic_cooperation duration = 3650 } add_dip_power = 50 }
+	}
+
+	eu4_2k_yug_restore_slovenian_ties = {
+		icon = mission_alliances
+		position = 10
+		required_missions = { eu4_2k_yug_negotiate_with_croatia }
+		trigger = {
+			OR = {
+				AND = { exists = SVN SVN = { OR = { is_subject_of = ROOT AND = { alliance_with = ROOT has_opinion = { who = ROOT value = 150 } } } } }
+				AND = { NOT = { exists = SVN } owns = 129 owns = 1769 owns = 4751 }
+			}
+		}
+		effect = { add_country_modifier = { name = eu4_2k_yug_republic_cooperation duration = 3650 } add_prestige = 10 }
+	}
+
+	eu4_2k_yug_rebuild_common_market = {
+		icon = mission_dominate_home_trade_node
+		position = 11
+		required_missions = { eu4_2k_yug_restore_slovenian_ties }
+		trigger = {
+			trade_income_percentage = 0.20
+			monthly_income = 15
+			treasury = 1000
+			stability = 2
+			NOT = { num_of_loans = 1 }
+		}
+		effect = { add_country_modifier = { name = eu4_2k_yug_common_market duration = 7300 } add_years_of_income = 0.5 }
+	}
+
+	eu4_2k_yug_federation_of_equals = {
+		icon = mission_unite_home_region
+		position = 12
+		required_missions = { eu4_2k_yug_rebuild_common_market }
+		trigger = {
+			diplomatic_reputation = 2
+			prestige = 50
+			republican_tradition = 70
+			stability = 2
+			is_at_war = no
+		}
+		effect = { add_country_modifier = { name = eu4_2k_yug_equal_federation duration = 7300 } add_republican_tradition = 10 }
+	}
+
+	eu4_2k_yug_proclaim_renewed_yugoslavia = {
+		icon = mission_empire
+		position = 13
+		required_missions = { eu4_2k_yug_federation_of_equals eu4_2k_yug_complete_reconstruction }
+		trigger = {
+			has_country_flag = eu4_2k_yugoslav_restoration_path
+			is_at_war = no
+			stability = 3
+			prestige = 75
+			republican_tradition = 75
+			NOT = { num_of_loans = 1 }
+			NOT = { corruption = 1 }
+			OR = { AND = { exists = MAC MAC = { is_subject_of = ROOT } } AND = { NOT = { exists = MAC } owns = 3001 owns = 4780 } }
+			OR = { AND = { exists = BHE BHE = { is_subject_of = ROOT } } AND = { NOT = { exists = BHE } owns = 139 owns = 140 owns = 1828 owns = 1831 owns = 3002 owns = 4755 } }
+			OR = { AND = { exists = CRO CRO = { is_subject_of = ROOT } } AND = { NOT = { exists = CRO } owns = 130 owns = 131 owns = 136 owns = 137 owns = 152 owns = 1767 owns = 1826 owns = 4752 owns = 4753 owns = 4756 } }
+			OR = { AND = { exists = SVN SVN = { is_subject_of = ROOT } } AND = { NOT = { exists = SVN } owns = 129 owns = 1769 owns = 4751 } }
+		}
+		effect = {
+			set_country_flag = eu4_2k_renewed_yugoslavia
+			add_country_modifier = { name = eu4_2k_yug_renewed_federation duration = -1 }
+			add_power_projection = { type = mission_rewards_power_projection amount = 25 }
+			add_prestige = 25
+		}
+	}
+}
+
+eu4_2k_yugoslavia_reconstruction = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = { tag = YUG }
+	has_country_shield = yes
+
+	eu4_2k_yug_rebuild_industry = {
+		icon = mission_have_manufactories
+		position = 6
+		required_missions = { eu4_2k_yug_choose_national_future }
+		trigger = {
+			has_country_flag = eu4_2k_yugoslav_mission_path_chosen
+			has_country_modifier = eu4_2k_economic_reforms
+			monthly_income = 10
+			num_of_owned_provinces_with = { value = 5 has_production_building_trigger = yes }
+		}
+		effect = { add_country_modifier = { name = eu4_2k_yug_industrial_recovery duration = 5475 } add_years_of_income = 0.5 }
+	}
+
+	eu4_2k_yug_modernize_belgrade = {
+		icon = mission_early_game_buildings
+		position = 7
+		required_missions = { eu4_2k_yug_rebuild_industry }
+		trigger = { owns = 4239 4239 = { development = 40 } }
+		effect = { 4239 = { add_base_tax = 1 add_base_production = 1 add_base_manpower = 1 } add_prestige = 10 }
+	}
+
+	eu4_2k_yug_restore_transport_networks = {
+		icon = mission_early_game_buildings
+		position = 8
+		required_missions = { eu4_2k_yug_modernize_belgrade }
+		trigger = {
+			has_country_modifier = eu4_2k_infrastructure_program
+			treasury = 750
+			num_of_owned_provinces_with = { value = 8 has_production_building_trigger = yes }
+		}
+		effect = { add_country_modifier = { name = eu4_2k_yug_transport_network duration = 5475 } add_adm_power = 50 }
+	}
+
+	eu4_2k_yug_fight_organized_crime = {
+		icon = mission_monarch_in_throne_room
+		position = 9
+		required_missions = { eu4_2k_yug_restore_transport_networks }
+		trigger = {
+			has_country_modifier = eu4_2k_anti_corruption_campaign
+			stability = 2
+			NOT = { corruption = 1 }
+		}
+		effect = { add_country_modifier = { name = eu4_2k_yug_rule_of_law duration = 5475 } add_republican_tradition = 5 }
+	}
+
+	eu4_2k_yug_reform_higher_education = {
+		icon = mission_early_modern_university
+		position = 10
+		required_missions = { eu4_2k_yug_fight_organized_crime }
+		trigger = {
+			has_country_modifier = eu4_2k_higher_education_investment
+			has_country_modifier = eu4_2k_technology_initiative
+			republican_tradition = 65
+		}
+		effect = { add_country_modifier = { name = eu4_2k_yug_educated_workforce duration = 5475 } add_adm_power = 50 add_dip_power = 50 }
+	}
+
+	eu4_2k_yug_attract_foreign_investment = {
+		icon = mission_high_income
+		position = 11
+		required_missions = { eu4_2k_yug_reform_higher_education }
+		trigger = {
+			monthly_income = 15
+			trade_income_percentage = 0.20
+			treasury = 1000
+			stability = 2
+			diplomatic_reputation = 2
+		}
+		effect = { add_country_modifier = { name = eu4_2k_yug_foreign_investment duration = 5475 } add_years_of_income = 1 }
+	}
+
+	eu4_2k_yug_complete_reconstruction = {
+		icon = mission_empire
+		position = 12
+		required_missions = { eu4_2k_yug_attract_foreign_investment }
+		trigger = {
+			stability = 3
+			prestige = 50
+			republican_tradition = 70
+			monthly_income = 15
+			NOT = { num_of_loans = 1 }
+			NOT = { corruption = 1 }
+		}
+		effect = { add_country_modifier = { name = eu4_2k_yug_national_reconstruction duration = -1 } add_power_projection = { type = mission_rewards_power_projection amount = 15 } }
+	}
+}
+
+eu4_2k_serbian_reform = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = { tag = YUG }
+	has_country_shield = yes
+
+	eu4_2k_ser_constitutional_convention = {
+		icon = mission_monarch_in_throne_room
+		position = 6
+		required_missions = { eu4_2k_yug_choose_national_future }
+		trigger = {
+			has_country_flag = eu4_2k_serbian_reform_path
+			is_year = 2002
+			stability = 2
+			republican_tradition = 60
+			is_at_war = no
+		}
+		effect = { add_country_modifier = { name = eu4_2k_ser_constitutional_reform duration = 5475 } add_adm_power = 75 }
+	}
+
+	eu4_2k_ser_define_republic = {
+		icon = mission_unite_home_region
+		position = 7
+		required_missions = { eu4_2k_ser_constitutional_convention }
+		trigger = {
+			republican_tradition = 70
+			prestige = 25
+			NOT = { corruption = 2 }
+		}
+		effect = { add_republican_tradition = 10 add_prestige = 10 }
+	}
+
+	eu4_2k_ser_settle_montenegro = {
+		icon = mission_alliances
+		position = 8
+		required_missions = { eu4_2k_ser_define_republic }
+		trigger = {
+			owns = 138
+			owns = 4754
+			is_at_war = no
+			stability = 2
+			diplomatic_reputation = 1
+			treasury = 500
+			NOT = { has_country_flag = eu4_2k_montenegro_settlement_reached }
+		}
+		effect = { country_event = { id = eu4_2k_yugoslavia.2 } }
+	}
+
+	eu4_2k_ser_address_kosovo = {
+		icon = mission_forts
+		position = 9
+		required_missions = { eu4_2k_ser_settle_montenegro }
+		trigger = {
+			owns = 1766
+			is_at_war = no
+			stability = 2
+			republican_tradition = 70
+			NOT = { has_country_flag = eu4_2k_kosovo_settlement_reached }
+		}
+		effect = { country_event = { id = eu4_2k_yugoslavia.3 } }
+	}
+
+	eu4_2k_ser_reconstruct_economy = {
+		icon = mission_have_manufactories
+		position = 10
+		required_missions = { eu4_2k_ser_address_kosovo }
+		trigger = {
+			has_country_flag = eu4_2k_montenegro_settlement_reached
+			has_country_flag = eu4_2k_kosovo_settlement_reached
+			has_country_modifier = eu4_2k_economic_reforms
+			monthly_income = 12
+			num_of_owned_provinces_with = { value = 5 has_production_building_trigger = yes }
+			NOT = { num_of_loans = 1 }
+			NOT = { corruption = 2 }
+		}
+		effect = { add_country_modifier = { name = eu4_2k_ser_economic_transition duration = 5475 } add_years_of_income = 0.5 }
+	}
+
+	eu4_2k_ser_reconcile_region = {
+		icon = mission_alliances
+		position = 11
+		required_missions = { eu4_2k_ser_reconstruct_economy }
+		trigger = {
+			prestige = 30
+			diplomatic_reputation = 2
+			num_of_allies = 2
+			calc_true_if = { amount = 2 all_ally = { has_opinion = { who = ROOT value = 100 } } }
+			is_at_war = no
+		}
+		effect = { add_country_modifier = { name = eu4_2k_ser_regional_reconciliation duration = 5475 } add_dip_power = 100 }
+	}
+
+	eu4_2k_ser_form_republic = {
+		icon = mission_empire
+		position = 12
+		required_missions = { eu4_2k_ser_reconcile_region eu4_2k_yug_complete_reconstruction }
+		trigger = {
+			tag = YUG
+			is_year = 2005
+			stability = 3
+			prestige = 50
+			republican_tradition = 75
+			is_at_war = no
+			NOT = { num_of_loans = 1 }
+			NOT = { corruption = 1 }
+		}
+		effect = {
+			set_country_flag = eu4_2k_cancel_yugoslav_dissolution
+			set_country_flag = eu4_2k_serbia_formed_by_mission
+			change_tag = SER
+			swap_non_generic_missions = yes
+			add_prestige = 25
+			add_republican_tradition = 10
+		}
+	}
+}

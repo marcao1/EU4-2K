@@ -1,0 +1,208 @@
+# Separate post-formation mission tree for the Republic of Serbia.
+
+eu4_2k_serbia_state_missions = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = { tag = SER }
+	has_country_shield = yes
+
+	eu4_2k_ser_consolidate_republic = {
+		icon = mission_unite_home_region
+		position = 1
+		trigger = { stability = 1 is_at_war = no }
+		effect = { add_country_modifier = { name = eu4_2k_ser_consolidated_republic duration = 3650 } add_adm_power = 50 }
+	}
+
+	eu4_2k_ser_democratic_institutions = {
+		icon = mission_monarch_in_throne_room
+		position = 2
+		required_missions = { eu4_2k_ser_consolidate_republic }
+		trigger = { republican_tradition = 60 stability = 1 }
+		effect = { add_country_modifier = { name = eu4_2k_ser_democratic_institutions_mod duration = 5475 } add_republican_tradition = 5 }
+	}
+
+	eu4_2k_ser_professional_civil_service = {
+		icon = mission_early_modern_university
+		position = 3
+		required_missions = { eu4_2k_ser_democratic_institutions }
+		trigger = { NOT = { corruption = 2 } stability = 2 }
+		effect = { add_country_modifier = { name = eu4_2k_ser_civil_service_mod duration = 5475 } add_adm_power = 75 }
+	}
+
+	eu4_2k_ser_secure_rule_of_law = {
+		icon = mission_forts
+		position = 4
+		required_missions = { eu4_2k_ser_professional_civil_service }
+		trigger = { has_country_modifier = eu4_2k_anti_corruption_campaign NOT = { corruption = 1 } }
+		effect = { add_country_modifier = { name = eu4_2k_ser_rule_of_law_mod duration = -1 } add_prestige = 15 }
+	}
+}
+
+eu4_2k_serbia_economic_missions = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = { tag = SER }
+	has_country_shield = yes
+
+	eu4_2k_ser_stabilize_economy = {
+		icon = mission_war_chest
+		position = 1
+		trigger = { monthly_income = 5 NOT = { num_of_loans = 1 } NOT = { inflation = 5 } }
+		effect = { add_country_modifier = { name = eu4_2k_ser_stable_economy_mod duration = 3650 } add_inflation = -1 }
+	}
+
+	eu4_2k_ser_restructure_industry = {
+		icon = mission_have_manufactories
+		position = 2
+		required_missions = { eu4_2k_ser_stabilize_economy }
+		trigger = { has_country_modifier = eu4_2k_economic_reforms }
+		effect = { add_country_modifier = { name = eu4_2k_ser_restructured_industry_mod duration = 5475 } add_years_of_income = 0.5 }
+	}
+
+	eu4_2k_ser_connect_the_country = {
+		icon = mission_early_game_buildings
+		position = 3
+		required_missions = { eu4_2k_ser_restructure_industry }
+		trigger = { has_country_modifier = eu4_2k_infrastructure_program }
+		effect = { add_country_modifier = { name = eu4_2k_ser_connected_country_mod duration = 5475 } add_adm_power = 50 }
+	}
+
+	eu4_2k_ser_digital_economy = {
+		icon = mission_high_income
+		position = 4
+		required_missions = { eu4_2k_ser_connect_the_country }
+		trigger = { has_country_modifier = eu4_2k_technology_initiative has_country_modifier = eu4_2k_higher_education_investment }
+		effect = { add_country_modifier = { name = eu4_2k_ser_digital_economy_mod duration = -1 } add_adm_power = 50 add_dip_power = 50 }
+	}
+}
+
+eu4_2k_serbia_regional_missions = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = { tag = SER }
+	has_country_shield = yes
+
+	eu4_2k_ser_normalize_relations = {
+		icon = mission_alliances
+		position = 1
+		trigger = { prestige = 10 is_at_war = no }
+		effect = { add_country_modifier = { name = eu4_2k_ser_normalized_relations_mod duration = 3650 } add_dip_power = 50 }
+	}
+
+	eu4_2k_ser_balkan_partnerships = {
+		icon = mission_alliances
+		position = 2
+		required_missions = { eu4_2k_ser_normalize_relations }
+		trigger = { num_of_allies = 2 calc_true_if = { amount = 2 all_ally = { has_opinion = { who = ROOT value = 100 } } } }
+		effect = { add_country_modifier = { name = eu4_2k_ser_balkan_partnerships_mod duration = 5475 } add_prestige = 10 }
+	}
+
+	eu4_2k_ser_open_european_markets = {
+		icon = mission_dominate_home_trade_node
+		position = 3
+		required_missions = { eu4_2k_ser_balkan_partnerships }
+		trigger = { trade_income_percentage = 0.20 num_of_merchants = 2 diplomatic_reputation = 1 }
+		effect = { add_country_modifier = { name = eu4_2k_ser_european_markets_mod duration = 5475 } add_years_of_income = 0.5 }
+	}
+
+	eu4_2k_ser_respected_regional_power = {
+		icon = mission_empire
+		position = 4
+		required_missions = { eu4_2k_ser_open_european_markets }
+		trigger = { prestige = 50 diplomatic_reputation = 2 stability = 2 }
+		effect = { add_country_modifier = { name = eu4_2k_ser_regional_power_mod duration = -1 } add_power_projection = { type = mission_rewards_power_projection amount = 20 } }
+	}
+}
+
+eu4_2k_serbia_security_missions = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = { tag = SER }
+	has_country_shield = yes
+
+	eu4_2k_ser_reorganize_armed_forces = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		trigger = { army_size_percentage = 0.80 manpower_percentage = 0.50 }
+		effect = { add_country_modifier = { name = eu4_2k_ser_reorganized_forces_mod duration = 3650 } add_mil_power = 50 }
+	}
+
+	eu4_2k_ser_modernize_defense = {
+		icon = mission_assemble_an_army
+		position = 2
+		required_missions = { eu4_2k_ser_reorganize_armed_forces }
+		trigger = { has_country_modifier = eu4_2k_armed_forces_modernization army_size_percentage = 0.90 }
+		effect = { add_country_modifier = { name = eu4_2k_ser_modern_defense_mod duration = 5475 } add_mil_power = 50 }
+	}
+
+	eu4_2k_ser_professional_officer_corps = {
+		icon = mission_cannons_firing
+		position = 3
+		required_missions = { eu4_2k_ser_modernize_defense }
+		trigger = { OR = { army_professionalism = 0.30 army_tradition = 50 } }
+		effect = { add_country_modifier = { name = eu4_2k_ser_officer_corps_mod duration = 5475 } add_army_professionalism = 0.05 }
+	}
+
+	eu4_2k_ser_secure_republic = {
+		icon = mission_forts
+		position = 4
+		required_missions = { eu4_2k_ser_professional_officer_corps }
+		trigger = { is_at_war = no army_size_percentage = 1 manpower_percentage = 0.75 stability = 2 }
+		effect = { add_country_modifier = { name = eu4_2k_ser_secure_republic_mod duration = -1 } add_power_projection = { type = mission_rewards_power_projection amount = 20 } }
+	}
+}
+
+eu4_2k_serbia_identity_missions = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = { tag = SER }
+	has_country_shield = yes
+
+	eu4_2k_ser_resolve_federal_legacy = {
+		icon = mission_monarch_in_throne_room
+		position = 1
+		trigger = {
+			OR = {
+				has_country_flag = eu4_2k_serbia_formed_by_mission
+				AND = { NOT = { owns = 138 } NOT = { owns = 4754 } }
+				AND = { owns = 138 owns = 4754 }
+			}
+		}
+		effect = { add_country_modifier = { name = eu4_2k_ser_resolved_federal_legacy_mod duration = 3650 } add_prestige = 10 }
+	}
+
+	eu4_2k_ser_define_kosovo_policy = {
+		icon = mission_forts
+		position = 2
+		required_missions = { eu4_2k_ser_resolve_federal_legacy }
+		trigger = {
+			OR = {
+				has_country_flag = eu4_2k_kosovo_settlement_reached
+				AND = { owns = 1766 1766 = { NOT = { unrest = 3 } } }
+				AND = { NOT = { owns = 1766 } exists = KOS KOS = { has_opinion = { who = ROOT value = 0 } } }
+			}
+		}
+		effect = { add_country_modifier = { name = eu4_2k_ser_kosovo_policy_mod duration = 5475 } add_dip_power = 50 }
+	}
+
+	eu4_2k_ser_invest_in_belgrade = {
+		icon = mission_early_game_buildings
+		position = 3
+		required_missions = { eu4_2k_ser_define_kosovo_policy }
+		trigger = { owns = 4239 4239 = { development = 35 } }
+		effect = { 4239 = { add_base_tax = 1 add_base_production = 1 add_base_manpower = 1 } add_prestige = 10 }
+	}
+
+	eu4_2k_ser_modern_serbia = {
+		icon = mission_high_income
+		position = 4
+		required_missions = { eu4_2k_ser_invest_in_belgrade eu4_2k_ser_secure_rule_of_law eu4_2k_ser_digital_economy eu4_2k_ser_respected_regional_power eu4_2k_ser_secure_republic }
+		trigger = { stability = 2 NOT = { corruption = 1 } NOT = { num_of_loans = 1 } }
+		effect = { add_country_modifier = { name = eu4_2k_ser_modern_republic duration = -1 } add_power_projection = { type = mission_rewards_power_projection amount = 30 } add_prestige = 25 }
+	}
+}

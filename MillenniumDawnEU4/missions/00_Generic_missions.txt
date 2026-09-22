@@ -4,7 +4,10 @@ eu4_2k_security_missions = {
 	slot = 1
 	generic = yes
 	ai = yes
-	potential = { num_of_cities = 1 }
+	potential = {
+		num_of_cities = 1
+		NOT = { OR = { tag = YUG tag = SER } }
+	}
 	has_country_shield = no
 
 	eu4_2k_operational_readiness = {
@@ -87,7 +90,10 @@ eu4_2k_international_missions = {
 	slot = 3
 	generic = yes
 	ai = yes
-	potential = { num_of_cities = 1 }
+	potential = {
+		num_of_cities = 1
+		NOT = { OR = { tag = YUG tag = SER } }
+	}
 	has_country_shield = no
 
 	eu4_2k_international_partnerships = {
@@ -172,7 +178,10 @@ eu4_2k_development_missions = {
 	slot = 5
 	generic = yes
 	ai = yes
-	potential = { num_of_cities = 1 }
+	potential = {
+		num_of_cities = 1
+		NOT = { OR = { tag = YUG tag = SER } }
+	}
 	has_country_shield = no
 
 	eu4_2k_stabilize_public_finances = {

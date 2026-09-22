@@ -1,0 +1,125 @@
+namespace = eu4_2k_yugoslavia
+
+country_event = {
+	id = eu4_2k_yugoslavia.1
+	title = eu4_2k_yugoslavia.1.t
+	desc = eu4_2k_yugoslavia.1.d
+	picture = DIPLOMACY_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = eu4_2k_yugoslavia.1.a
+		ai_chance = {
+			factor = 35
+			modifier = { factor = 2 has_country_flag = eu4_2k_ruling_group_yug_socialist_party_of_serbia }
+		}
+		set_country_flag = eu4_2k_yugoslav_restoration_path
+		clr_country_flag = eu4_2k_serbian_reform_path
+		set_country_flag = eu4_2k_yugoslav_mission_path_chosen
+		add_prestige = 10
+	}
+
+	option = {
+		name = eu4_2k_yugoslavia.1.b
+		ai_chance = {
+			factor = 65
+			modifier = { factor = 2 has_country_flag = eu4_2k_ruling_group_yug_democratic_opposition_of_serbia }
+		}
+		set_country_flag = eu4_2k_serbian_reform_path
+		clr_country_flag = eu4_2k_yugoslav_restoration_path
+		set_country_flag = eu4_2k_yugoslav_mission_path_chosen
+		add_republican_tradition = 5
+	}
+}
+
+country_event = {
+	id = eu4_2k_yugoslavia.2
+	title = eu4_2k_yugoslavia.2.t
+	desc = eu4_2k_yugoslavia.2.d
+	picture = DIPLOMACY_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = eu4_2k_yugoslavia.2.a
+		ai_chance = { factor = 45 }
+		set_country_flag = eu4_2k_montenegro_union_preserved
+		set_country_flag = eu4_2k_montenegro_settlement_reached
+		add_adm_power = -100
+		add_dip_power = -50
+		add_country_modifier = { name = eu4_2k_ser_montenegrin_union duration = 7300 }
+		add_stability_or_adm_power = yes
+	}
+
+	option = {
+		name = eu4_2k_yugoslavia.2.b
+		ai_chance = { factor = 35 }
+		set_country_flag = eu4_2k_montenegro_confederal_settlement
+		set_country_flag = eu4_2k_montenegro_settlement_reached
+		add_adm_power = -75
+		add_dip_power = -75
+		add_country_modifier = { name = eu4_2k_ser_montenegrin_confederation duration = 7300 }
+	}
+
+	option = {
+		name = eu4_2k_yugoslavia.2.c
+		ai_chance = { factor = 20 }
+		138 = { add_core = MON }
+		4754 = { add_core = MON }
+		release = MON
+		MON = {
+			set_country_flag = eu4_2k_montenegro_independent_by_settlement
+			define_ruler = { name = "Milo Djukanovic" adm = 4 dip = 4 mil = 2 age = 38 claim = 80 }
+			add_opinion = { who = ROOT modifier = eu4_2k_peaceful_separation_opinion }
+		}
+		set_country_flag = eu4_2k_montenegro_independence_recognized
+		set_country_flag = eu4_2k_montenegro_settlement_reached
+		add_prestige = -10
+		add_dip_power = 75
+	}
+}
+
+country_event = {
+	id = eu4_2k_yugoslavia.3
+	title = eu4_2k_yugoslavia.3.t
+	desc = eu4_2k_yugoslavia.3.d
+	picture = DIPLOMACY_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = eu4_2k_yugoslavia.3.a
+		ai_chance = { factor = 45 }
+		set_country_flag = eu4_2k_kosovo_direct_integration
+		set_country_flag = eu4_2k_kosovo_settlement_reached
+		add_stability = -1
+		add_mil_power = -100
+		1766 = { add_local_autonomy = -10 }
+		add_country_modifier = { name = eu4_2k_ser_kosovo_integration duration = 7300 }
+	}
+
+	option = {
+		name = eu4_2k_yugoslavia.3.b
+		ai_chance = { factor = 40 }
+		set_country_flag = eu4_2k_kosovo_substantial_autonomy
+		set_country_flag = eu4_2k_kosovo_settlement_reached
+		add_adm_power = -100
+		add_dip_power = -50
+		1766 = { add_local_autonomy = 25 }
+		add_country_modifier = { name = eu4_2k_ser_kosovo_autonomy duration = 7300 }
+	}
+
+	option = {
+		name = eu4_2k_yugoslavia.3.c
+		ai_chance = { factor = 15 }
+		1766 = { add_core = KOS }
+		release = KOS
+		KOS = {
+			set_country_flag = eu4_2k_kosovo_independent_by_settlement
+			define_ruler = { name = "Ibrahim Rugova" adm = 3 dip = 5 mil = 2 age = 55 claim = 80 }
+			add_opinion = { who = ROOT modifier = eu4_2k_peaceful_separation_opinion }
+		}
+		set_country_flag = eu4_2k_kosovo_independence_recognized
+		set_country_flag = eu4_2k_kosovo_settlement_reached
+		add_prestige = -15
+		add_dip_power = 100
+	}
+}
