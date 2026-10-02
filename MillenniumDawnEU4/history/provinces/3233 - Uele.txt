@@ -1,6 +1,7 @@
 # Generated effective snapshot for 2000.1.1; no earlier dated history retained.
-owner = DRC
-controller = DRC
+owner = FLC
+controller = FLC
+add_core = FLC
 add_core = DRC
 culture = mongo
 religion = catholic
@@ -11,7 +12,6 @@ base_production = 1
 base_manpower = 1
 is_city = yes
 hre = no
-fort_15th = yes
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

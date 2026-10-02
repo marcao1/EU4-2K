@@ -764,18 +764,12 @@ eu4_2k_initialize_starting_forces = {
 			every_owned_province = {
 				kill_units = { who = PREV }
 			}
-			# Democratic Republic of the Congo Armed Forces: 4 infantry, 1 artillery
+			# Democratic Republic of the Congo Armed Forces: 3 infantry, 1 artillery
 			3261 = {
 				infantry = PREV
 				infantry = PREV
 				infantry = PREV
-				infantry = PREV
 				artillery = PREV
-			}
-			# Democratic Republic of the Congo Fleet: 2 light_ship
-			4079 = {
-				light_ship = PREV
-				light_ship = PREV
 			}
 		}
 		ECU = {
@@ -905,6 +899,16 @@ eu4_2k_initialize_starting_forces = {
 				light_ship = PREV
 				light_ship = PREV
 				transport = PREV
+			}
+		}
+		FLC = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Movement for the Liberation of Congo Armed Forces: 2 infantry
+			1797 = {
+				infantry = PREV
+				infantry = PREV
 			}
 		}
 		FR2 = {
@@ -1270,6 +1274,17 @@ eu4_2k_initialize_starting_forces = {
 				transport = PREV
 			}
 		}
+		ICK = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Chechen Republic of Ichkeria Armed Forces: 3 infantry
+			2198 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
+			}
+		}
 		IDN = {
 			every_owned_province = {
 				kill_units = { who = PREV }
@@ -1433,6 +1448,17 @@ eu4_2k_initialize_starting_forces = {
 			408 = {
 				light_ship = PREV
 				light_ship = PREV
+			}
+		}
+		ISA = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Northern Alliance Armed Forces: 3 infantry
+			452 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
 			}
 		}
 		ISR = {
@@ -2431,6 +2457,17 @@ eu4_2k_initialize_starting_forces = {
 				infantry = PREV
 				infantry = PREV
 				artillery = PREV
+			}
+		}
+		RCD = {
+			every_owned_province = {
+				kill_units = { who = PREV }
+			}
+			# Rally for Congolese Democracy Armed Forces: 3 infantry
+			3018 = {
+				infantry = PREV
+				infantry = PREV
+				infantry = PREV
 			}
 		}
 		RMN = {

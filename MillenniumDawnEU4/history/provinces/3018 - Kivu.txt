@@ -1,6 +1,7 @@
 # Generated effective snapshot for 2000.1.1; no earlier dated history retained.
-owner = DRC
-controller = DRC
+owner = RCD
+controller = RCD
+add_core = RCD
 add_core = DRC
 culture = ganda
 religion = catholic
@@ -11,6 +12,8 @@ base_production = 1
 base_manpower = 1
 is_city = yes
 hre = no
+fort_15th = yes
+marketplace = yes
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

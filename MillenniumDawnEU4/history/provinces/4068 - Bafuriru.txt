@@ -1,6 +1,7 @@
 # Generated effective snapshot for 2000.1.1; no earlier dated history retained.
-owner = DRC
-controller = DRC
+owner = RCD
+controller = RCD
+add_core = RCD
 add_core = DRC
 culture = rwandan
 religion = catholic

@@ -444,13 +444,13 @@
 443,Ust Yurt,KZK,KZK,KZK,khazak,sunni,Beyneu,livestock,1,1,1,yes,no,0,0,0,0,et:history/provinces/443 - Ust Yurt.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 444,Charjuy,TRK,TRK,TRK,turkmeni,sunni,Turkmenabat,livestock,2,2,2,yes,no,0,0,0,0,et:history/provinces/444 - Charjuy.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 445,Marv,TRK,TRK,TRK,turkmeni,sunni,Mary,cotton,3,3,2,yes,no,1,0,0,0,et:history/provinces/445 - Marv.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-446,Herat,AFG,AFG,AFG,tajik,sunni,Herat,paper,5,5,3,yes,no,2,0,0,0,et:history/provinces/446 - Herat.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-447,Kandahar,AFG,AFG,AFG,afghani,sunni,Kandahar,cotton,2,2,3,yes,no,0,0,0,0,et:history/provinces/447 - Kandahar.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-448,Gazni,AFG,AFG,AFG,afghani,sunni,Gazni,grain,2,2,3,yes,no,0,0,0,0,et:history/provinces/448 - Gazni.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-449,Ghor,AFG,AFG,AFG,hazara,sunni,Chaghcharan,wool,2,2,4,yes,no,0,0,0,0,et:history/provinces/449 - Ghor.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-450,Balkh,AFG,AFG,AFG,afghani,sunni,Mazar-i-Sharif,cotton,3,3,3,yes,no,0,0,0,0,et:history/provinces/450 - Balkh.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-451,Kabulistan,AFG,AFG,AFG,afghani,sunni,Kabul,gems,4,4,4,yes,no,2,0,0,0,et:history/provinces/451 - Kabulistan.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-452,Dakhshan,AFG,AFG,AFG,tajik,sunni,Fayzabad,gems,1,1,1,yes,no,0,0,0,0,et:history/provinces/452 - Dakhshan.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+446,Herat,AFG,AFG,AFG|ISA,tajik,sunni,Herat,paper,5,5,3,yes,no,2,0,0,0,et:history/provinces/446 - Herat.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+447,Kandahar,AFG,AFG,AFG|ISA,afghani,sunni,Kandahar,cotton,2,2,3,yes,no,0,0,0,0,et:history/provinces/447 - Kandahar.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+448,Gazni,AFG,AFG,AFG|ISA,afghani,sunni,Gazni,grain,2,2,3,yes,no,0,0,0,0,et:history/provinces/448 - Gazni.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+449,Ghor,AFG,AFG,AFG|ISA,hazara,sunni,Chaghcharan,wool,2,2,4,yes,no,0,0,0,0,et:history/provinces/449 - Ghor.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+450,Balkh,AFG,AFG,AFG|ISA,afghani,sunni,Mazar-i-Sharif,cotton,3,3,3,yes,no,0,0,0,0,et:history/provinces/450 - Balkh.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+451,Kabulistan,AFG,AFG,AFG|ISA,afghani,sunni,Kabul,gems,4,4,4,yes,no,2,0,0,0,et:history/provinces/451 - Kabulistan.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+452,Dakhshan,ISA,ISA,ISA|AFG,tajik,sunni,Fayzabad,gems,1,1,1,yes,no,0,0,0,0,et:history/provinces/452 - Dakhshan.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model. Conflict audit for 2000.1.1 (docs/conflicts_2000.md): held by ISA on 2000.1.1.
 453,Qarshi,UZB,UZB,UZB,uzbehk,sunni,Qarshi,cotton,1,1,2,yes,no,0,0,0,0,et:history/provinces/453 - Qarshi.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 454,Samarkand,UZB,UZB,UZB,uzbehk,sunni,Samarkand,paper,7,7,7,yes,no,2,0,0,0,et:history/provinces/454 - Samarkand.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 455,Kyrzyl-Kum,UZB,UZB,UZB,uzbehk,sunni,Uchkuduk,copper,1,1,1,yes,no,0,0,0,0,et:history/provinces/455 - Kyrzyl-Kum.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -1306,7 +1306,7 @@
 1794,Central Sahara,LBY,LBY,LBY,toubou,sunni,Al Jawf,grain,1,1,1,yes,no,0,30,2,9,et:history/provinces/1794 - Central Sahara.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1795,East Sahara,EGY,EGY,EGY,saidi,sunni,Al Qasr,grain,1,1,1,yes,no,0,30,4.5,9,et:history/provinces/1795 - East Sahara.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1796,Central Africa,CAF,CAF,CAF,gbaya,protestant,Bambari,grain,1,1,1,yes,no,0,90,2,9,et:history/provinces/1796 - Central Africa.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-1797,Inner Kongo,DRC,DRC,DRC,mongo,protestant,Zongo,tropical_wood,1,1,1,yes,no,0,90,2,9,et:history/provinces/1797 - Inner Kongo.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+1797,Inner Kongo,FLC,FLC,FLC|DRC,mongo,protestant,Zongo,tropical_wood,1,1,1,yes,no,0,90,2,9,et:history/provinces/1797 - Inner Kongo.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model. Conflict audit for 2000.1.1 (docs/conflicts_2000.md): held by FLC on 2000.1.1.
 1798,Imatong,SUD,SUD,SUD,dinka,protestant,Kapoeta,ivory,1,1,1,yes,no,0,90,4.5,9,et:history/provinces/1798 - Imatong.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1799,Urgoma,ETH,ETH,ETH,oromo,shamanism,Moyale,grain,1,1,1,yes,no,0,90,4.5,9,et:history/provinces/1799 - Urgoma.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 1800,Limpopo,MZM,MZM,MZM,nguni,protestant,Chicualacuala,ivory,1,1,1,yes,no,0,70,4,9,et:history/provinces/1800 - Limpopo.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -1654,7 +1654,7 @@
 2195,Ubykhia,RUS,RUS,RUS,russian,orthodox,Sochi,livestock,7,6,6,yes,no,0,0,0,0,et:history/provinces/2195 - Ubykhia.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2196,Guria,TKY,TKY,TKY,turkish,sunni,Artvin,fish,3,3,2,yes,no,0,0,0,0,et:history/provinces/2196 - Guria.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 2197,Kabardia,RUS,RUS,RUS,circassian,orthodox,Nalchik,wool,5,3,6,yes,no,0,0,0,0,et:history/provinces/2197 - Kabardia.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-2198,Khundzia,RUS,RUS,RUS,dagestani,sunni,Grozny,coal,2,6,4,yes,no,0,0,0,0,et:history/provinces/2198 - Khundzia.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
+2198,Chechnya,ICK,ICK,ICK|RUS,chechen,sunni,Grozny,coal,2,6,4,yes,no,0,0,0,0,et:history/provinces/2198 - Khundzia.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model. Conflict audit for 2000.1.1 (docs/conflicts_2000.md): held by ICK on 2000.1.1.
 2199,Tarki,RUS,RUS,RUS,nogaybak,shiite,Mahachkala,fish,4,3,5,yes,no,0,0,0,0,et:history/provinces/2199 - Tarki.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 2200,Erg Iguidi,,,,,,Erg Iguidi,unknown,1,1,1,no,no,0,0,0,0,et:history/provinces/2200 - Erg Iguidi.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 2201,Alania,RUS,RUS,RUS,alan,orthodox,Vladikavkaz,wool,5,4,3,yes,no,0,0,0,0,et:history/provinces/2201 - Alania.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
@@ -1680,12 +1680,12 @@
 2221,Khurasan,IRA,IRA,IRA,persian,shiite,Mashhad,copper,7,7,8,yes,no,2,0,0,0,et:history/provinces/2221 - Khurasan.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 2222,Ardakan,IRA,IRA,IRA,persian,shiite,Ardakan,incense,3,3,1,yes,no,0,0,0,0,et:history/provinces/2222 - Ardakan.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 2223,Laristan,IRA,IRA,IRA,persian,shiite,Lar,iron,3,3,4,yes,no,0,0,0,0,et:history/provinces/2223 - Laristan.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-2224,Ferah,AFG,AFG,AFG,afghani,sunni,Farah,livestock,1,1,2,yes,no,0,0,0,0,et:history/provinces/2224 - Ferah.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-2225,Bamyan,AFG,AFG,AFG,hazara,sunni,Bamyan,dyes,2,2,2,yes,no,0,0,0,0,et:history/provinces/2225 - Bamyan.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-2226,Jalalabad,AFG,AFG,AFG,afghani,sunni,Jalalabad,livestock,4,4,3,yes,no,0,0,0,0,et:history/provinces/2226 - Jalalabad.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-2227,Kunduz,AFG,AFG,AFG,afghani,sunni,Kunduz,cotton,1,1,2,yes,no,0,0,0,0,et:history/provinces/2227 - Kunduz.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-2228,Maymana,AFG,AFG,AFG,afghani,sunni,Maymana,cotton,3,3,2,yes,no,0,0,0,0,et:history/provinces/2228 - Maymana.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-2229,Bust,AFG,AFG,AFG,afghani,sunni,Lashkar Gah,livestock,1,1,3,yes,no,0,0,0,0,et:history/provinces/2229 - Bust.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+2224,Ferah,AFG,AFG,AFG|ISA,afghani,sunni,Farah,livestock,1,1,2,yes,no,0,0,0,0,et:history/provinces/2224 - Ferah.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+2225,Bamyan,AFG,AFG,AFG|ISA,hazara,sunni,Bamyan,dyes,2,2,2,yes,no,0,0,0,0,et:history/provinces/2225 - Bamyan.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+2226,Jalalabad,AFG,AFG,AFG|ISA,afghani,sunni,Jalalabad,livestock,4,4,3,yes,no,0,0,0,0,et:history/provinces/2226 - Jalalabad.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+2227,Kunduz,ISA,ISA,ISA|AFG,afghani,sunni,Kunduz,cotton,1,1,2,yes,no,0,0,0,0,et:history/provinces/2227 - Kunduz.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model. Conflict audit for 2000.1.1 (docs/conflicts_2000.md): held by ISA on 2000.1.1.
+2228,Maymana,AFG,AFG,AFG|ISA,afghani,sunni,Maymana,cotton,3,3,2,yes,no,0,0,0,0,et:history/provinces/2228 - Maymana.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+2229,Bust,AFG,AFG,AFG|ISA,afghani,sunni,Lashkar Gah,livestock,1,1,3,yes,no,0,0,0,0,et:history/provinces/2229 - Bust.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 2230,Chagai,PAK,PAK,PAK,baluchi,sunni,Dalbandin,livestock,1,1,1,yes,no,0,0,0,0,et:history/provinces/2230 - Chagai.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 2231,Bela,PAK,PAK,PAK,baluchi,sunni,Bela,fish,2,2,1,yes,no,0,0,0,0,et:history/provinces/2231 - Bela.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 2232,Kharan,PAK,PAK,PAK,baluchi,sunni,Kharan,livestock,1,1,2,yes,no,0,0,0,0,et:history/provinces/2232 - Kharan.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -2473,7 +2473,7 @@
 3015,Cuando Cubango,AGL,AGL,AGL,chokwe,protestant,Menongue,wool,1,1,1,yes,no,0,90,4.5,9,et:history/provinces/3015 - Cuando Cubango.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 3016,Lusaka,ZAM,ZAM,ZAM,tonga,protestant,Livingstone,copper,2,2,1,yes,no,0,90,4.5,9,et:history/provinces/3016 - Lusaka.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 3017,Matabeleland,GZI,GZI,GZI,shona,protestant,Lupane,grain,1,1,1,yes,no,0,90,4.5,9,et:history/provinces/3017 - Matabeleland.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-3018,Kivu,DRC,DRC,DRC,ganda,catholic,Goma,wool,1,1,1,yes,no,0,90,4.5,9,et:history/provinces/3018 - Kivu.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+3018,Kivu,RCD,RCD,RCD|DRC,ganda,catholic,Goma,wool,1,1,1,yes,no,0,90,4.5,9,et:history/provinces/3018 - Kivu.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model. Conflict audit for 2000.1.1 (docs/conflicts_2000.md): held by RCD on 2000.1.1.
 3019,Ogooue,GAB,GAB,GAB,fang,catholic,Franceville,naval_supplies,1,2,1,yes,no,0,90,4.5,9,et:history/provinces/3019 - Ogooue.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 3020,Likouala,CNG,CNG,CNG,kongolese,protestant,Impfondo,naval_supplies,1,1,1,yes,no,0,90,4.5,9,et:history/provinces/3020 - Likouala.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 3021,Equatorial Guinea,EQG,EQG,EQG,fang,catholic,Bata,naval_supplies,3,2,2,yes,no,0,90,2,9,et:history/provinces/3021 - Equatorial Guinea.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
@@ -2483,7 +2483,7 @@
 3025,Ahaggar,ALG,ALG,ALG,tuareg,sunni,Tamanrasset,grain,2,1,1,yes,no,0,30,4.5,9,et:history/provinces/3025 - Ahaggar.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 3026,Shamal Darfur,SUD,SUD,SUD,sudanese,sunni,Miski,grain,1,1,1,yes,no,0,90,4.5,9,et:history/provinces/3026 - Shamal Darfur.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 3027,Borkou,CDD,CDD,CDD,toubou,sunni,Faya-Largeau,grain,1,1,1,yes,no,0,90,2,9,et:history/provinces/3027 - Borkou.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-3028,Kisangani,DRC,DRC,DRC,mongo,catholic,Kisangani,naval_supplies,1,1,1,yes,no,0,90,2,9,et:history/provinces/3028 - Kisangani.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+3028,Kisangani,RCD,RCD,RCD|DRC,mongo,catholic,Kisangani,naval_supplies,1,1,1,yes,no,0,90,2,9,et:history/provinces/3028 - Kisangani.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model. Conflict audit for 2000.1.1 (docs/conflicts_2000.md): held by RCD on 2000.1.1.
 3029,Adrar,MRT,MRT,MRT,atlas,sunni,Zouerat,iron,1,1,1,yes,no,0,50,4,9,et:history/provinces/3029 - Adrar.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 3030,Tademait,ALG,ALG,ALG,tuareg,sunni,In Salah,grain,1,1,1,yes,no,0,30,4.5,9,et:history/provinces/3030 - Tademait.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 3031,Tindouf,ALG,ALG,ALG,atlas,sunni,Tindouf,grain,1,1,1,yes,no,0,30,4.5,9,et:history/provinces/3031 - Tindouf.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -2524,7 +2524,7 @@
 3066,Karas,NMB,NMB,NMB,khoi,protestant,Keetmanshoop,wool,1,1,1,yes,no,0,40,2,6,et:history/provinces/3066 - Karas.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 3067,Oshana,NMB,NMB,NMB,herero,protestant,Oshakati,grain,1,1,1,yes,no,0,90,4.5,9,et:history/provinces/3067 - Oshana.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 3068,Huambo,AGL,AGL,AGL,mbundu,catholic,Huambo,wool,3,3,2,yes,no,0,50,1,7,et:history/provinces/3068 - Huambo.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-3069,Maniema,DRC,DRC,DRC,luba,catholic,Kindu,grain,1,1,1,yes,no,0,90,2,9,et:history/provinces/3069 - Maniema.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+3069,Maniema,RCD,RCD,RCD|DRC,luba,catholic,Kindu,grain,1,1,1,yes,no,0,90,2,9,et:history/provinces/3069 - Maniema.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model. Conflict audit for 2000.1.1 (docs/conflicts_2000.md): held by RCD on 2000.1.1.
 3070,Latakia,SYR,SYR,SYR,al_suryah_arabic,shiite,Al-Ladhiqiyah,cloth,2,2,2,yes,no,0,0,0,0,et:history/provinces/3070 - Latakia.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 3071,Limpopo,RSA,RSA,RSA,tswana,reformed,Pietersburg,gems,5,5,4,yes,no,0,90,4.5,9,et:history/provinces/3071 - Limpopo.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 3072,Djanet,ALG,ALG,ALG,tuareg,sunni,Djanet,coal,1,1,1,yes,no,0,30,4.5,9,et:history/provinces/3072 - Djanet.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -2587,8 +2587,8 @@
 3230,Mongo,DRC,DRC,DRC,mongo,protestant,Mbandaka,naval_supplies,1,1,1,yes,no,0,90,2,9,et:history/provinces/3230 - Mongo.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 3231,Vakaga,CAF,CAF,CAF,maba,sunni,Birao,wool,1,1,1,yes,no,0,90,2,9,et:history/provinces/3231 - Vakaga.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 3232,Mbomou,CAF,CAF,CAF,mongo,protestant,Bangassou,grain,1,1,1,yes,no,0,90,2,9,et:history/provinces/3232 - Mbomou.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-3233,Uele,DRC,DRC,DRC,mongo,catholic,Dungu,grain,1,1,1,yes,no,0,90,2,9,et:history/provinces/3233 - Uele.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-3234,Ituri,DRC,DRC,DRC,mongo,catholic,Bunia,grain,1,1,1,yes,no,0,90,2,9,et:history/provinces/3234 - Ituri.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+3233,Uele,FLC,FLC,FLC|DRC,mongo,catholic,Dungu,grain,1,1,1,yes,no,0,90,2,9,et:history/provinces/3233 - Uele.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model. Conflict audit for 2000.1.1 (docs/conflicts_2000.md): held by FLC on 2000.1.1.
+3234,Ituri,FLC,FLC,FLC|DRC,mongo,catholic,Bunia,grain,1,1,1,yes,no,0,90,2,9,et:history/provinces/3234 - Ituri.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model. Conflict audit for 2000.1.1 (docs/conflicts_2000.md): held by FLC on 2000.1.1.
 3235,Salamat,CDD,CDD,CDD,maba,sunni,Am Timan,grain,2,2,1,yes,no,0,90,4.5,9,et:history/provinces/3235 - Salamat.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 3236,Rif,MOR,MOR,MOR,berber,sunni,Al Hoceima,cloth,2,2,1,yes,no,0,0,0,0,et:history/provinces/3236 - Rif.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 3237,Kakongo,AGL,AGL,AGL,kongolese,catholic,Cabinda,ivory,2,2,2,yes,no,0,70,2,7,et:history/provinces/3237 - Kakongo.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -2672,7 +2672,7 @@
 4065,Bunyoro,UGA,UGA,UGA,ganda,catholic,Hoima,salt,4,3,3,yes,no,0,90,4.5,9,et:history/provinces/4065 - Bunyoro.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4066,Nkore,UGA,UGA,UGA,ganda,protestant,Mbarara,grain,3,2,2,yes,no,0,90,4.5,9,et:history/provinces/4066 - Nkore.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4067,Rwanda,RWA,RWA,RWA,rwandan,catholic,Kigali,iron,6,5,4,yes,no,0,90,4.5,9,et:history/provinces/4067 - Rwanda.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
-4068,Bafuriru,DRC,DRC,DRC,rwandan,catholic,Bukavu,grain,1,1,1,yes,no,0,90,4.5,9,et:history/provinces/4068 - Bafuriru.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+4068,Bafuriru,RCD,RCD,RCD|DRC,rwandan,catholic,Bukavu,grain,1,1,1,yes,no,0,90,4.5,9,et:history/provinces/4068 - Bafuriru.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model. Conflict audit for 2000.1.1 (docs/conflicts_2000.md): held by RCD on 2000.1.1.
 4069,Bushubi,BUU,BUU,BUU,rwandan,catholic,Muyinga,grain,2,1,1,yes,no,0,90,4.5,9,et:history/provinces/4069 - Bushubi.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4070,Burundi,BUU,BUU,BUU,rwandan,catholic,Bujumbura,iron,4,4,3,yes,no,0,90,4.5,9,et:history/provinces/4070 - Burundi.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4071,Buyogoma,TNZ,TNZ,TNZ,rwandan,catholic,Kibondo,grain,1,1,1,yes,no,0,70,4,9,et:history/provinces/4071 - Buyogoma.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -2703,17 +2703,17 @@
 4096,Kalundwe,DRC,DRC,DRC,luba,protestant,Mbuji-Mayi,livestock,1,1,1,yes,no,0,90,4.5,9,et:history/provinces/4096 - Kalundwe.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4097,Luba,DRC,DRC,DRC,luba,protestant,Lubao,iron,1,1,1,yes,no,1,90,2,9,et:history/provinces/4097 - Luba.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4098,Upemba,DRC,DRC,DRC,luba,protestant,Kamina,salt,1,1,1,yes,no,0,90,4.5,9,et:history/provinces/4098 - Upemba.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-4099,Kalemie,DRC,DRC,DRC,luba,protestant,Kalemie,iron,1,1,1,yes,no,0,90,4.5,9,et:history/provinces/4099 - Kalemie.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+4099,Kalemie,RCD,RCD,RCD|DRC,luba,protestant,Kalemie,iron,1,1,1,yes,no,0,90,4.5,9,et:history/provinces/4099 - Kalemie.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model. Conflict audit for 2000.1.1 (docs/conflicts_2000.md): held by RCD on 2000.1.1.
 4100,Luapala,DRC,DRC,DRC,luba,protestant,Pweto,copper,1,1,1,yes,no,0,90,4.5,9,et:history/provinces/4100 - Luapala.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4101,Katanga,DRC,DRC,DRC,luba,protestant,Lubumbashi,copper,1,1,1,yes,no,0,90,4.5,9,et:history/provinces/4101 - Katanga.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4102,Luapula,ZAM,ZAM,ZAM,bemba,protestant,Mansa,grain,2,2,1,yes,no,0,90,2,9,et:history/provinces/4102 - Luapula.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4103,Tabwa,ZAM,ZAM,ZAM,luba,protestant,Mbala,copper,1,1,1,yes,no,0,90,2,9,et:history/provinces/4103 - Tabwa.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4104,Ndola,ZAM,ZAM,ZAM,bemba,protestant,Ndola,copper,2,2,1,yes,no,0,90,4.5,9,et:history/provinces/4104 - Ndola.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-4105,Kusu,DRC,DRC,DRC,luba,catholic,Kasongo,livestock,1,1,1,yes,no,0,90,2,9,et:history/provinces/4105 - Kusu.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+4105,Kusu,RCD,RCD,RCD|DRC,luba,catholic,Kasongo,livestock,1,1,1,yes,no,0,90,2,9,et:history/provinces/4105 - Kusu.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model. Conflict audit for 2000.1.1 (docs/conflicts_2000.md): held by RCD on 2000.1.1.
 4106,Lenje,ZAM,ZAM,ZAM,tonga,protestant,Lusaka,grain,2,2,1,yes,no,0,90,4.5,9,et:history/provinces/4106 - Lenje.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4107,Kolwezi,DRC,DRC,DRC,luba,protestant,Kolwezi,copper,1,1,1,yes,no,0,90,4.5,9,et:history/provinces/4107 - Kolwezi.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4108,Solwezi,ZAM,ZAM,ZAM,bemba,protestant,Solwezi,copper,1,1,1,yes,no,0,90,4.5,9,et:history/provinces/4108 - Solwezi.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-4109,Lega,DRC,DRC,DRC,luba,catholic,Kama,wool,1,1,1,yes,no,0,90,4.5,9,et:history/provinces/4109 - Lega.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+4109,Lega,RCD,RCD,RCD|DRC,luba,catholic,Kama,wool,1,1,1,yes,no,0,90,4.5,9,et:history/provinces/4109 - Lega.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model. Conflict audit for 2000.1.1 (docs/conflicts_2000.md): held by RCD on 2000.1.1.
 4110,Sutherland,GBR,GBR,GBR,highland_scottish,reformed,Dornoch,grain,2,2,2,yes,no,0,0,0,0,et:history/provinces/4110 - Sutherland.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4111,Saintonge,FR2,FR2,FR2,cosmopolitan_french,catholic,La Rochelle,grain,6,5,5,yes,no,0,0,0,0,et:history/provinces/4111 - Saintonge.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
 4112,Cahors,FR2,FR2,FR2,occitain,catholic,Cahors,wine,3,3,2,yes,no,0,0,0,0,et:history/provinces/4112 - Cahors.txt,Effective ET state on 2000.1.1; EU4 2K national-target development model.
@@ -2910,11 +2910,11 @@
 4321,Siwa,EGY,EGY,EGY,eastern_berber,sunni,Siwa,livestock,1,1,1,yes,no,0,0,0,0,et:history/provinces/4321 - Siwa.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4322,Great Sand Sea,,,,,,Great Sand Sea,unknown,1,1,1,no,no,0,0,0,0,et:history/provinces/4322 - Great Sand Sea.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4323,Farafreh,EGY,EGY,EGY,al_misr_arabic,sunni,Farafra,livestock,1,1,1,yes,no,0,0,0,0,et:history/provinces/4323 - Farafreh.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-4324,Ghuriyan,AFG,AFG,AFG,afghani,sunni,Ghuriyan,livestock,1,1,1,yes,no,0,0,0,0,et:history/provinces/4324 - Ghuriyan.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+4324,Ghuriyan,AFG,AFG,AFG|ISA,afghani,sunni,Ghuriyan,livestock,1,1,1,yes,no,0,0,0,0,et:history/provinces/4324 - Ghuriyan.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4325,Sarakhs,IRA,IRA,IRA,persian,shiite,Sarakhs,wool,2,2,1,yes,no,0,0,0,0,et:history/provinces/4325 - Sarakhs.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4326,Nishapur,IRA,IRA,IRA,khorasani,sunni,Nishapur,gems,4,4,4,yes,no,0,0,0,0,et:history/provinces/4326 - Nishapur.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4327,Jask,IRA,IRA,IRA,persian,shiite,Jask,fish,3,3,2,yes,no,0,0,0,0,et:history/provinces/4327 - Jask.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-4328,Zaranj,AFG,AFG,AFG,afghani,sunni,Zaranj,wool,3,3,2,yes,no,0,0,0,0,et:history/provinces/4328 - Zaranj.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+4328,Zaranj,AFG,AFG,AFG|ISA,afghani,sunni,Zaranj,wool,3,3,2,yes,no,0,0,0,0,et:history/provinces/4328 - Zaranj.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4329,Fasa,IRA,IRA,IRA,persian,sunni,Fasa,silk,4,4,1,yes,no,0,0,0,0,et:history/provinces/4329 - Fasa.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4330,Darab,IRA,IRA,IRA,persian,shiite,Darab,spices,3,3,3,yes,no,0,0,0,0,et:history/provinces/4330 - Darab.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4331,Kazerun,IRA,IRA,IRA,luri,shiite,Kazerun,wine,3,3,3,yes,no,0,0,0,0,et:history/provinces/4331 - Kazerun.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
@@ -2928,7 +2928,7 @@
 4340,Astara,AZE,AZE,AZE,azerbaijani,shiite,Astara,coal,2,4,2,yes,no,0,0,0,0,et:history/provinces/4340 - Astara.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4341,Sari,IRA,IRA,IRA,mazandarani,shiite,Sari,silk,5,5,3,yes,no,2,0,0,0,et:history/provinces/4341 - Sari.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4342,Malamir,IRA,IRA,IRA,luri,shiite,Izeh,wool,3,3,1,yes,no,0,0,0,0,et:history/provinces/4342 - Malamir.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
-4343,Termez,AFG,AFG,AFG,uzbehk,sunni,Andkhoy,livestock,1,1,2,yes,no,0,0,0,0,et:history/provinces/4343 - Termez.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
+4343,Termez,AFG,AFG,AFG|ISA,uzbehk,sunni,Andkhoy,livestock,1,1,2,yes,no,0,0,0,0,et:history/provinces/4343 - Termez.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4344,Kish,UZB,UZB,UZB,uzbehk,sunni,Shahrisabz,wool,2,2,2,yes,no,0,0,0,0,et:history/provinces/4344 - Kish.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4345,Saidabad,IRA,IRA,IRA,persian,sunni,Sirjan,livestock,3,2,3,yes,no,0,0,0,0,et:history/provinces/4345 - Saidabad.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.
 4348,Ifugao,PHI,PHI,PHI,ilocano,catholic,Baguio,grain,1,1,1,yes,no,0,40,1,3,et:history/provinces/4348 - Ifugao.txt,Effective ET state on 2000.1.1; EU4 2K balanced development model.

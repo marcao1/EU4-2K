@@ -2,7 +2,7 @@
 
 ## Implemented starting values
 
-Every one of the 188 active countries now receives its canonical `2000.1.1`
+Every one of the 192 active countries now receives its canonical `2000.1.1`
 starting values from `data/country_setup_2000.csv`:
 
 - treasury and inflation

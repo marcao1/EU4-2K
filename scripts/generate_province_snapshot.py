@@ -607,11 +607,17 @@ def starting_buildings(
     return candidates[:slot_budget]
 
 
+def province_cores(row: dict[str, str]) -> list[str]:
+    """Return the province's cores; the CSV separates contested cores with '|'."""
+    return [core for core in row["core"].split("|") if core]
+
+
 def province_history(row: dict[str, str], buildings: Sequence[str] = ()) -> str:
     lines = ["# Generated effective snapshot for 2000.1.1; no earlier dated history retained."]
     owner = row["owner"]
     if owner:
-        lines.extend([f"owner = {owner}", f"controller = {owner}", f"add_core = {row['core']}"])
+        lines.extend([f"owner = {owner}", f"controller = {owner}"])
+        lines.extend(f"add_core = {core}" for core in province_cores(row))
     for key in ("culture", "religion"):
         if row[key]:
             lines.append(f"{key} = {row[key]}")
@@ -804,8 +810,11 @@ def validate_rows(rows: Sequence[dict[str, str]], game: Path) -> None:
             owned_tags.add(row["owner"])
             if row["owner"] not in active:
                 errors.append(f"province {province_id}: inactive/unknown owner {row['owner']}")
-            if row["controller"] != row["owner"] or row["core"] != row["owner"]:
+            cores = province_cores(row)
+            if row["controller"] != row["owner"] or row["owner"] not in cores:
                 errors.append(f"province {province_id}: owner/controller/core mismatch")
+            if len(cores) != len(set(cores)) or any(core not in active for core in cores):
+                errors.append(f"province {province_id}: duplicate or inactive core")
             if not row["culture"] or row["religion"] not in vanilla:
                 errors.append(f"province {province_id}: missing culture or non-vanilla religion")
         if row["trade_goods"] not in trade_goods:
@@ -833,9 +842,16 @@ def validate_rows(rows: Sequence[dict[str, str]], game: Path) -> None:
                         f"province {province_id}: owned development below "
                         f"{MINIMUM_OWNED_PROVINCE_DEVELOPMENT}"
                     )
-                national_totals[row["owner"]] = (
-                    national_totals.get(row["owner"], 0) + round(total_development)
-                )
+                # Target powers keep their full national total over contested
+                # cores they do not control at the start (for example Chechnya).
+                counted = {row["owner"]} | {
+                    core for core in province_cores(row)
+                    if core in NATIONAL_DEVELOPMENT_TARGETS
+                }
+                for tag in counted:
+                    national_totals[tag] = (
+                        national_totals.get(tag, 0) + round(total_development)
+                    )
             if total_development > DEVELOPMENT_HARD_CAP:
                 errors.append(
                     f"province {province_id}: development exceeds {DEVELOPMENT_HARD_CAP}"
@@ -854,8 +870,9 @@ def validate_rows(rows: Sequence[dict[str, str]], game: Path) -> None:
         expected = national_development_target(tag, total)
         if tag in NATIONAL_DEVELOPMENT_TARGETS and total != expected:
             errors.append(f"{tag}: development must total {expected}, found {total}")
+        minimum = 0 if tag in countries.CONFLICT_ENTITIES else MINIMUM_NATIONAL_DEVELOPMENT
         if tag not in NATIONAL_DEVELOPMENT_TARGETS and not (
-            MINIMUM_NATIONAL_DEVELOPMENT
+            minimum
             <= total
             <= MAXIMUM_NON_TARGET_NATIONAL_DEVELOPMENT
         ):

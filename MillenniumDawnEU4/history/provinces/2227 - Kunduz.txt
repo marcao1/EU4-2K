@@ -1,6 +1,7 @@
 # Generated effective snapshot for 2000.1.1; no earlier dated history retained.
-owner = AFG
-controller = AFG
+owner = ISA
+controller = ISA
+add_core = ISA
 add_core = AFG
 culture = afghani
 religion = sunni

@@ -1,6 +1,7 @@
 # Generated effective snapshot for 2000.1.1; no earlier dated history retained.
-owner = AFG
-controller = AFG
+owner = ISA
+controller = ISA
+add_core = ISA
 add_core = AFG
 culture = tajik
 religion = sunni
@@ -11,6 +12,7 @@ base_production = 1
 base_manpower = 1
 is_city = yes
 hre = no
+marketplace = yes
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

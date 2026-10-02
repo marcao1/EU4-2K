@@ -36,7 +36,7 @@ Ordinary generation and checks treat existing CSVs as authoritative. Use `--rebu
 
 ## Country setup
 
-`country_setup_2000.csv` contains exactly one record for each of the 188 active countries. It records:
+`country_setup_2000.csv` contains exactly one record for each of the 192 active countries. It records:
 
 - ADM, DIP, and MIL technology baselines
 - A documented 1-5 technology tier
@@ -118,8 +118,10 @@ Switzerland, Taiwan, Yugoslavia, Tuvalu, and Palestine are excluded from the UN-
 
 Coastal provinces are detected deterministically from `provinces.bmp` and `sea_starts`. Formation quantities are scaled from development, coastal extent, and technology tier. Small low-tier coastal states do not receive artificial capital-ship fleets. The records are gameplay abstractions, not claims of exact historical order of battle.
 
-The integrated dataset contains 188 army formations with 1,103 regiments and
-80 fleet formations with 493 ships.
+The integrated dataset contains 192 army formations with 1,113 regiments and
+79 fleet formations with 491 ships. The Northern Alliance and Ichkeria use
+explicit three-regiment overrides because the development formula would give
+them only one or two regiments.
 
 EU4 normally creates opening forces from force limit rather than an order of
 battle. A one-time `on_startup` effect clears only the country's automatically

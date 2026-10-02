@@ -41,4 +41,5 @@ monarch = {
 	dip = 2
 	mil = 4
 }
+add_opinion = { who = ISA modifier = eu4_2k_starting_opinion_50 }
 add_opinion = { who = RUS modifier = eu4_2k_starting_opinion_100 }

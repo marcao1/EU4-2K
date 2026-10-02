@@ -94,6 +94,8 @@ country_event = {
 		add_mil_power = -100
 		1766 = { add_local_autonomy = -10 }
 		add_country_modifier = { name = eu4_2k_ser_kosovo_integration duration = 7300 }
+		custom_tooltip = eu4_2k_unmik_mandate_ends_tt
+		set_global_flag = eu4_2k_unmik_mandate_ended
 	}
 
 	option = {
@@ -105,6 +107,8 @@ country_event = {
 		add_dip_power = -50
 		1766 = { add_local_autonomy = 25 }
 		add_country_modifier = { name = eu4_2k_ser_kosovo_autonomy duration = 7300 }
+		custom_tooltip = eu4_2k_unmik_mandate_ends_tt
+		set_global_flag = eu4_2k_unmik_mandate_ended
 	}
 
 	option = {
@@ -119,6 +123,8 @@ country_event = {
 		}
 		set_country_flag = eu4_2k_kosovo_independence_recognized
 		set_country_flag = eu4_2k_kosovo_settlement_reached
+		custom_tooltip = eu4_2k_unmik_mandate_ends_tt
+		set_global_flag = eu4_2k_unmik_mandate_ended
 		add_prestige = -15
 		add_dip_power = 100
 	}

@@ -6,8 +6,8 @@ The clean world snapshot is effective on `2000.1.1` and contains all 3,521 land 
 
 - 3,482 owned provinces.
 - 39 unowned or uncolonized provinces.
-- 188 distinct active owners, matching the country foundation exactly.
-- Owner, controller, and one starting owner core for every owned province.
+- 192 distinct active owners, matching the country foundation exactly.
+- Owner and controller for every owned province, plus its cores. The `core` column lists the owner first; contested provinces add further cores separated by `|` (for example `ICK|RUS` for Chechnya). Major powers' development targets include contested cores they do not control at the start.
 - Effective culture, vanilla religion, settlement name, trade good, development, city status, HRE status, centers of trade, and native population values.
 - English province names and adjectives for every land province.
 - Discovery-only history for every sea, ocean, and lake zone, exposing all water through normal fog of war rather than terra incognita.

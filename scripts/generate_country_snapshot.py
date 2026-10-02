@@ -27,6 +27,8 @@ PROVINCE_DATA = ROOT / "data" / "provinces_2000.csv"
 COUNTRY_SETUP_DATA = ROOT / "data" / "country_setup_2000.csv"
 DIPLOMACY_DATA = ROOT / "data" / "diplomacy_2000.csv"
 ET = ROOT / "ExtendedTimeline 1.18.2" / "ExtendedTimeline"
+# Project-owned source assets (for example generated conflict-faction flags).
+ASSETS = ROOT / "assets"
 DEFAULT_GAME_CANDIDATES = (
     Path(r"F:\Steam\steamapps\common\Europa Universalis IV"),
     Path(r"C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV"),
@@ -35,7 +37,22 @@ DEFAULT_GAME_CANDIDATES = (
 START = (2000, 1, 1)
 START_NUMBER = 20000101
 SUCCESSORS = {"ETI", "KOS", "MON", "SER", "SSU"}
+# De facto authorities fighting the wars active on 2000.1.1. They are not part
+# of the Extended Timeline snapshot; see docs/conflicts_2000.md.
+CONFLICT_ENTITIES = {"FLC", "ICK", "ISA", "RCD"}
+ET_ACTIVE_COUNT = 188
 REMOVED_RELIGIONS = {"secularism", "irreligious"}
+
+# Cultures required by the 2000 snapshot that neither vanilla nor ET defines.
+CUSTOM_CULTURES = {
+    "chechen": (
+        "chechen = {\n"
+        "\tmale_names = { Adam Akhmed Aslan Dzhokhar Isa Khamzat Magomed Movladi Ruslan Salman Shamil Sultan Umar Vakha Zelimkhan }\n"
+        "\tfemale_names = { Aminat Khava Kheda Luiza Madina Malika Petimat Raisa Zalpa Zarema }\n"
+        "\tdynasty_names = { Akhmadov Bisultanov Gaziyev Isayev Khasanov Magomadov Musayev Saidov Umarov Visaitov Yusupov }\n"
+        "}"
+    ),
+}
 
 TECH_GROUPS = {
     "modern_western": "western",
@@ -670,8 +687,8 @@ def bootstrap_rows(game: Path) -> list[dict[str, str]]:
     histories = history_files_by_tag()
     active = {effective_owner(path) for path in sorted((ET / "history" / "provinces").glob("*.txt"))}
     active.discard("")
-    if len(active) != 188:
-        raise RuntimeError(f"Expected 188 active owner tags at 2000.1.1, found {len(active)}")
+    if len(active) != ET_ACTIVE_COUNT:
+        raise RuntimeError(f"Expected {ET_ACTIVE_COUNT} active owner tags at 2000.1.1, found {len(active)}")
     tags = sorted(active | SUCCESSORS)
     loc = load_localisation(
         list((game / "localisation").glob("*_l_english.yml"))
@@ -850,12 +867,15 @@ def validate_rows(rows: Sequence[dict[str, str]], game: Path) -> None:
     active = [row for row in rows if row["active_2000"] == "yes"]
     dormant = [row for row in rows if row["active_2000"] == "no"]
     errors: list[str] = []
-    if len(rows) != 193:
-        errors.append(f"expected 193 rows, found {len(rows)}")
-    if len(active) != 188:
-        errors.append(f"expected 188 active rows, found {len(active)}")
+    expected_active = ET_ACTIVE_COUNT + len(CONFLICT_ENTITIES)
+    if len(rows) != expected_active + len(SUCCESSORS):
+        errors.append(f"expected {expected_active + len(SUCCESSORS)} rows, found {len(rows)}")
+    if len(active) != expected_active:
+        errors.append(f"expected {expected_active} active rows, found {len(active)}")
     if {row["tag"] for row in dormant} != SUCCESSORS:
         errors.append("dormant successor set does not match ETI/KOS/MON/SER/SSU")
+    if not CONFLICT_ENTITIES <= {row["tag"] for row in active}:
+        errors.append("every conflict entity must be active at 2000.1.1")
     tags = [row["tag"] for row in rows]
     if len(tags) != len(set(tags)):
         errors.append("duplicate country tags")
@@ -880,7 +900,7 @@ def validate_rows(rows: Sequence[dict[str, str]], game: Path) -> None:
             errors.append(f"{tag}: forbidden religion {row['religion']}")
         cultures = [row["primary_culture"], *filter(None, row["accepted_cultures"].split("|"))]
         for culture in cultures:
-            if culture not in base_cultures and culture not in et_cultures:
+            if culture not in base_cultures and culture not in et_cultures and culture not in CUSTOM_CULTURES:
                 errors.append(f"{tag}: undefined culture {culture}")
         if row["government_model"] not in EXECUTIVE_MODELS:
             errors.append(f"{tag}: invalid government model {row['government_model']}")
@@ -1197,7 +1217,11 @@ def modern_cultures(rows: Sequence[dict[str, str]], game: Path) -> tuple[str, li
         "}"
     )
     for culture, (technology_group, graphical_culture) in sorted(assignments.items()):
-        block = extract_named_block(et_source, culture) or fallback.format(culture=culture)
+        block = (
+            CUSTOM_CULTURES.get(culture)
+            or extract_named_block(et_source, culture)
+            or fallback.format(culture=culture)
+        )
         groups.setdefault(technology_group, []).append((culture, graphical_culture, block))
 
     lines = ["# Generated subset of modern cultures required by the 2000 snapshot."]
@@ -1531,7 +1555,7 @@ def text_outputs(
 
 def flag_source(row: dict[str, str], game: Path) -> Path:
     prefix, relative = row["flag_source"].split(":", 1)
-    return (ET if prefix == "et" else game) / relative
+    return {"et": ET, "mod": ASSETS}.get(prefix, game) / relative
 
 
 def write_outputs(

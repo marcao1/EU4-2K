@@ -2,6 +2,7 @@
 owner = AFG
 controller = AFG
 add_core = AFG
+add_core = ISA
 culture = afghani
 religion = sunni
 capital = "Kabul"
@@ -12,6 +13,7 @@ base_manpower = 4
 is_city = yes
 hre = no
 center_of_trade = 2
+fort_15th = yes
 marketplace = yes
 discovered_by = western
 discovered_by = eastern

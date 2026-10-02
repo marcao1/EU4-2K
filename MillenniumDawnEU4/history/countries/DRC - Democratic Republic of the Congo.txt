@@ -30,7 +30,7 @@ add_corruption = 5
 add_republican_tradition = -100
 add_republican_tradition = 50
 add_manpower = -1000000
-add_manpower = 21.75
+add_manpower = 14.25
 add_sailors = -1000000
 add_sailors = 200
 # Canonical starting ADM/DIP/MIL technology from data/country_setup_2000.csv
@@ -42,7 +42,9 @@ monarch = {
 	mil = 1
 }
 add_opinion = { who = AGL modifier = eu4_2k_starting_opinion_100 }
+add_opinion = { who = FLC modifier = eu4_2k_starting_opinion_neg_150 }
 add_opinion = { who = GZI modifier = eu4_2k_starting_opinion_100 }
 add_opinion = { who = NMB modifier = eu4_2k_starting_opinion_100 }
+add_opinion = { who = RCD modifier = eu4_2k_starting_opinion_neg_150 }
 add_opinion = { who = RWA modifier = eu4_2k_starting_opinion_neg_150 }
 add_opinion = { who = UGA modifier = eu4_2k_starting_opinion_neg_125 }

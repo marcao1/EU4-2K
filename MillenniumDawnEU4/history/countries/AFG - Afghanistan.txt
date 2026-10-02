@@ -1,7 +1,7 @@
 # Generated 2000.1.1 snapshot; later historical changes belong in events.
-government = republic
+government = theocracy
 government_rank = 2
-add_government_reform = eu4_2k_presidential_republic
+add_government_reform = eu4_2k_theocratic_state
 add_government_reform = eu4_2k_unitary_state
 add_government_reform = eu4_2k_closed_authoritarian_system
 primary_culture = afghani
@@ -9,7 +9,7 @@ religion = sunni
 technology_group = modern_south_asian_tier_5
 unit_type = indian
 capital = 451
-set_country_flag = eu4_2k_ruling_group_afg_independent_or_nonpartisan
+set_country_flag = eu4_2k_ruling_group_afg_taliban
 # Canonical 2000 economy and reserves from data/country_setup_2000.csv
 set_country_flag = eu4_2k_economic_tier_1
 set_country_flag = eu4_2k_infrastructure_tier_1
@@ -27,17 +27,21 @@ add_prestige = -1000
 add_prestige = 100
 add_corruption = -100
 add_corruption = 5
-add_republican_tradition = -100
-add_republican_tradition = 50
+add_devotion = -100
+add_devotion = 50
 add_manpower = -1000000
-add_manpower = 30
+add_manpower = 27.75
 add_sailors = -1000000
 add_sailors = 0
 # Canonical starting ADM/DIP/MIL technology from data/country_setup_2000.csv
-# Historical executive birth date: 1940.9.20
+# Historical executive birth date: 1960.1.1
 monarch = {
-	name = "Burhanuddin Rabbani"
+	name = "Mohammed Omar"
 	adm = 2
-	dip = 5
+	dip = 1
 	mil = 4
 }
+add_opinion = { who = IRA modifier = eu4_2k_starting_opinion_neg_100 }
+add_opinion = { who = ISA modifier = eu4_2k_starting_opinion_neg_150 }
+add_opinion = { who = PAK modifier = eu4_2k_starting_opinion_50 }
+add_opinion = { who = USA modifier = eu4_2k_starting_opinion_neg_100 }

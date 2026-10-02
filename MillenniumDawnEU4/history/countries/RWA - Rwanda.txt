@@ -42,3 +42,4 @@ monarch = {
 	mil = 2
 }
 add_opinion = { who = DRC modifier = eu4_2k_starting_opinion_neg_150 }
+add_opinion = { who = RCD modifier = eu4_2k_starting_opinion_100 }

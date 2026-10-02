@@ -1,8 +1,9 @@
 # Generated effective snapshot for 2000.1.1; no earlier dated history retained.
-owner = RUS
-controller = RUS
+owner = ICK
+controller = ICK
+add_core = ICK
 add_core = RUS
-culture = dagestani
+culture = chechen
 religion = sunni
 capital = "Grozny"
 trade_goods = coal
@@ -11,6 +12,7 @@ base_production = 6
 base_manpower = 4
 is_city = yes
 hre = no
+marketplace = yes
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

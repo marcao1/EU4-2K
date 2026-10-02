@@ -1,0 +1,6 @@
+war_id,name,start_date,attackers,defenders,war_goal,casus_belli,target_province,source,verification_notes
+afghan_civil_war,Afghan Civil War,1996.9.27,AFG,ISA,take_core,cb_core,452,manual:taliban-capture-of-kabul-1996,Taliban Islamic Emirate against the Northern Alliance government; front line follows January 2000 control.
+second_chechen_war,Second Chechen War,1999.8.26,RUS,ICK,take_core,cb_core,2198,manual:second-chechen-war,Federal campaign against the Chechen Republic of Ichkeria; Grozny fell on 2000.2.6.
+eritrean_ethiopian_war,Eritrean-Ethiopian War,1998.5.6,ERT,ETH,superiority_insult_mutual,cb_insult,,manual:eritrean-ethiopian-war,Badme border war; cessation of hostilities on 2000.6.18 and Algiers Agreement on 2000.12.12.
+second_congo_war,Second Congo War,1998.8.2,RWA|RCD|BUU,DRC|AGL|GZI|NMB,superiority_insult_mutual,cb_insult,,manual:second-congo-war,Rwanda-backed RCD front; Pretoria Agreement on 2002.7.30.
+second_congo_war_north,Second Congo War (Northern Front),1998.11.1,UGA|FLC,DRC|GZI,superiority_insult_mutual,cb_insult,,manual:second-congo-war,Uganda-backed MLC front with Zimbabwean forces in Equateur; Luanda Agreement on 2002.9.6.

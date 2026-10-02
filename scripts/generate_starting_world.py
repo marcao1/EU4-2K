@@ -83,9 +83,12 @@ ADVANCED_TECH = {
 }
 FRAGILE_STATES = {
     "AFG", "SOM", "DRC", "SLE", "LBR", "BUU", "RWA", "GNB", "GZI",
-    "YUG", "TJK", "IRQ", "SDN", "ERI",
+    "YUG", "TJK", "IRQ", "SDN", "ERI", *countries.CONFLICT_ENTITIES,
 }
-LOW_TECH_STATES = {"AFG", "SOM", "DRC", "SLE", "LBR", "BUU"}
+LOW_TECH_STATES = {"AFG", "SOM", "DRC", "SLE", "LBR", "BUU", *countries.CONFLICT_ENTITIES}
+# The formula gives one- or two-regiment armies to the smallest conflict
+# factions. These factions fielded substantial forces from very little land.
+ARMY_QUANTITY_OVERRIDES = {"ISA": 3, "ICK": 3}
 TECH_TIER_OVERRIDES = {"RUS": 4, "YUG": 3}
 
 NATO_2000 = {
@@ -100,7 +103,9 @@ CIS_2000 = {
     "ARM", "AZE", "BLR", "GEO", "KZK", "KYR", "MDV", "RUS", "TJK",
     "TRK", "UKR", "UZB",
 }
-UN_EXCLUSIONS_2000 = {"SWI", "FRM", "YUG", "TVL", "PLS"}
+# Afghanistan's UN seat was held by the Northern Alliance government (ISA), not
+# the Taliban-controlled AFG; the other conflict factions were unrecognized.
+UN_EXCLUSIONS_2000 = {"SWI", "FRM", "YUG", "TVL", "PLS", "AFG", "ICK", "RCD", "FLC"}
 
 RELATIONSHIP_TYPES = {"alliance", "guarantee", "vassal", "union", "dependency", "royal_marriage"}
 AFFINITY_TYPES = {
@@ -131,6 +136,10 @@ OPINION_OVERRIDES = {
     ("hostile", "NOK", "SKO"): "-125",
     ("hostile", "ALG", "MOR"): "-75",
     ("tense", "ISR", "PLS"): "-50",
+    ("hostile", "AFG", "ISA"): "-150",
+    ("hostile", "ICK", "RUS"): "-150",
+    ("hostile", "DRC", "RCD"): "-150",
+    ("hostile", "DRC", "FLC"): "-150",
 }
 RELATIONSHIP_END_OVERRIDES = {
     # Wartime coalition members leave the special starting alliance when the
@@ -163,6 +172,10 @@ CURATED_BILATERAL_RELATIONSHIPS = (
     ("DRC", "AGL", "alliance", "1998.8.2", "second-congo-war-government-coalition"),
     ("DRC", "NMB", "alliance", "1998.8.2", "second-congo-war-government-coalition"),
     ("DRC", "GZI", "alliance", "1998.8.2", "second-congo-war-government-coalition"),
+    # Rebel movements and their foreign sponsors in the Second Congo War. The
+    # MLC's founding month in 1998 is approximate.
+    ("RWA", "RCD", "alliance", "1998.8.2", "second-congo-war-rcd-rwanda"),
+    ("UGA", "FLC", "alliance", "1998.11.1", "second-congo-war-mlc-uganda"),
     # Bilateral defence responsibilities are guarantees, not mutual alliances.
     ("USA", "MRS", "guarantee", "1986.10.21", "compact-of-free-association"),
     ("USA", "MIC", "guarantee", "1986.11.3", "compact-of-free-association"),
@@ -214,6 +227,18 @@ CURATED_BILATERAL_RELATIONSHIPS = (
     ("CUB", "USA", "hostile", "1961.1.3", "united-states-cuba-hostility"),
     ("IRA", "USA", "hostile", "1980.4.7", "united-states-iran-hostility"),
     ("ALG", "MOR", "hostile", "1994.8.27", "algeria-morocco-border-western-sahara-dispute"),
+    # Conflicts active on 2000.1.1; see docs/conflicts_2000.md.
+    ("AFG", "ISA", "hostile", "1996.9.27", "afghan-civil-war-taliban-northern-alliance"),
+    ("RUS", "ICK", "hostile", "1999.8.26", "second-chechen-war"),
+    ("DRC", "RCD", "hostile", "1998.8.2", "second-congo-war"),
+    ("DRC", "FLC", "hostile", "1998.11.1", "second-congo-war"),
+    ("AFG", "USA", "hostile", "1998.8.20", "us-taliban-hostility-after-embassy-bombings"),
+    ("AFG", "IRA", "hostile", "1998.8.8", "iran-taliban-mazar-i-sharif-crisis"),
+    ("AFG", "PAK", "friendly", "1997.5.25", "pakistan-recognition-of-taliban-government"),
+    ("ISA", "RUS", "friendly", "1996.9.27", "russian-support-for-northern-alliance"),
+    ("ISA", "IRA", "friendly", "1996.9.27", "iranian-support-for-northern-alliance"),
+    ("ISA", "INI", "friendly", "1996.9.27", "indian-support-for-northern-alliance"),
+    ("ISA", "TJK", "friendly", "1996.9.27", "tajik-support-for-northern-alliance"),
     # The 1993 Greece-Cyprus Joint Defence Doctrine is represented as a
     # gameplay alliance plus a durable AI friendship.
     ("GRE", "CYP", "alliance", "1993.11.1", "greece-cyprus-joint-defence-doctrine"),
@@ -613,7 +638,9 @@ def bootstrap_forces(
         country = country_by_tag[tag]
         tier = int(setup[tag]["army_quality_tier"])
         total_development = sum(aggregates[tag][key] for key in ("tax", "production", "manpower"))
-        army_quantity = max(1, min(45, round(math.sqrt(total_development) * 0.55)))
+        army_quantity = ARMY_QUANTITY_OVERRIDES.get(
+            tag, max(1, min(45, round(math.sqrt(total_development) * 0.55)))
+        )
         rows.append({
             "country": tag,
             "branch": "army",
@@ -661,8 +688,9 @@ def validate(
 ) -> None:
     errors: list[str] = []
     active = {row["tag"] for row in country_rows}
-    if len(active) != 188:
-        errors.append(f"expected 188 active tags, found {len(active)}")
+    expected_active = countries.ET_ACTIVE_COUNT + len(countries.CONFLICT_ENTITIES)
+    if len(active) != expected_active:
+        errors.append(f"expected {expected_active} active tags, found {len(active)}")
     setup_tags = [row["tag"] for row in setup_rows]
     if len(setup_tags) != len(set(setup_tags)) or set(setup_tags) != active:
         errors.append("country setup must contain exactly one row for every active tag")

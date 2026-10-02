@@ -1,6 +1,7 @@
 # Generated effective snapshot for 2000.1.1; no earlier dated history retained.
-owner = DRC
-controller = DRC
+owner = FLC
+controller = FLC
+add_core = FLC
 add_core = DRC
 culture = mongo
 religion = catholic

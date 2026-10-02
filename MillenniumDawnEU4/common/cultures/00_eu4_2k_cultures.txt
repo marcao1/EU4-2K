@@ -370,20 +370,11 @@ eu4_2k_modern_post_soviet_cultures = {
 			}
 		}
 
-	tajik = {
-			primary = TJK
-			male_names = {
-				Qahhor Rahmon Emomali Olimzhon Amir Ismoil Abduhalim Kokhir Oqil Yahyo Jamshed Abdujalil Abdumalik Akbar Azatullo
-				Abadulakhad Nazarsho Tursun Jabbor Mamdali Urunboi Abdullo Abdurrahim Mumin Polat Nusratulla Muhammad Yusuf Abubakr
-			}
-			female_names = {
-				Azizmo Sumayah Asiya Oisha Googoosh Anohito Indira
-			}
-			dynasty_names = { 
-				"Zunbil" "Jindin" "Zarbil" "Bahmanid" "Khattak" "Nandin" "Trailokyadevi" "Nagar" "of Kunduz" 
-				"Bamiyan" "Kaikanite"
-			}
-		}
+	chechen = {
+		male_names = { Adam Akhmed Aslan Dzhokhar Isa Khamzat Magomed Movladi Ruslan Salman Shamil Sultan Umar Vakha Zelimkhan }
+		female_names = { Aminat Khava Kheda Luiza Madina Malika Petimat Raisa Zalpa Zarema }
+		dynasty_names = { Akhmadov Bisultanov Gaziyev Isayev Khasanov Magomadov Musayev Saidov Umarov Visaitov Yusupov }
+	}
 
 	tuvan = {
 			primary = TUV
@@ -433,6 +424,21 @@ eu4_2k_modern_south_asian_cultures = {
 
 	ladakhi = {
 			primary = LDK
+		}
+
+	tajik = {
+			primary = TJK
+			male_names = {
+				Qahhor Rahmon Emomali Olimzhon Amir Ismoil Abduhalim Kokhir Oqil Yahyo Jamshed Abdujalil Abdumalik Akbar Azatullo
+				Abadulakhad Nazarsho Tursun Jabbor Mamdali Urunboi Abdullo Abdurrahim Mumin Polat Nusratulla Muhammad Yusuf Abubakr
+			}
+			female_names = {
+				Azizmo Sumayah Asiya Oisha Googoosh Anohito Indira
+			}
+			dynasty_names = { 
+				"Zunbil" "Jindin" "Zarbil" "Bahmanid" "Khattak" "Nandin" "Trailokyadevi" "Nagar" "of Kunduz" 
+				"Bamiyan" "Kaikanite"
+			}
 		}
 
 }
