@@ -22,8 +22,6 @@ The wars being fought on 1 January 2000 are active at the start: the Afghan civi
 
 A modern international order restrains invented conquest. AI countries cannot fabricate claims unless scripted content makes them revisionist powers. Every country pays higher costs for claims, aggressive expansion, and annexation. Declaring a war of conquest brings international condemnation under the UN Charter, while the victim rallies. See `docs/international_order.md`.
 
-Democracies hold scripted elections on their own four- or five-year cycle instead of EU4's random term elections. The result depends on stability, war exhaustion, debt, corruption, incumbency fatigue, and the campaign, and the winning political bloc (Left, Centre-Left, Liberal, Centre-Right, National-Conservative, or a neutral Governing Coalition) sets a small policy direction. Authoritarian systems hold no elections. See `docs/elections.md`.
-
 The first post-start political timeline is integrated for 2000–2005. It contains 24 dated leadership transitions with historical and alternate outcomes, plus September 11, Afghanistan, international counterterrorism responses, and Iraq crisis paths. Historical AI choices are strongly favored without being forced; choosing an alternate leader prevents later scripted successions from overwriting that country's divergent path.
 
 Obsolete vanilla historical events are selectively disabled through generated compatibility overrides. Medieval and early-modern country flavor, removed-mission events, historical colonial and HRE content, Reformation-era religious wars, early-modern dynastic history, old revolutions, and country-specific historical disasters no longer run. Generic mechanical events remain available for later audit.

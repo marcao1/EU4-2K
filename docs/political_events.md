@@ -26,10 +26,8 @@ clears known ruling-group flags before setting the new stable party flag.
 
 The timeline is scheduled once from the `2000.1.1` bookmark. Persistent country
 flags prevent duplicate scheduling or repeated events after loading a save.
-Scripted transitions replace the current executive on the event date. Each
-leader also brings their party's political bloc to power, and the historical
-Yugoslav transition starts that country's elections. Scripted elections take
-over after each country's last timeline event; see `docs/elections.md`.
+Scripted transitions replace the current executive on the event date. Deeper
+election mechanics and changes to vanilla election cycles remain a later phase.
 
 ## Initial leadership coverage
 

@@ -20,8 +20,6 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 WAR_DATA = ROOT / "data" / "wars_2000.csv"
-BLOC_DATA = ROOT / "data" / "political_blocs_2000.csv"
-KEY_COUNTRIES = ("USA", "RUS", "CHN", "GER", "FR2", "GBR", "ITA", "JAP", "YUG", "BLR")
 SAVE_CANDIDATES = tuple(
     base / "Paradox Interactive" / "Europa Universalis IV" / "save games" / "autosave.eu4"
     for base in (
@@ -79,45 +77,10 @@ def scripted_war_names() -> set[str]:
         return {row["name"] for row in csv.DictReader(handle)}
 
 
-def country_blocks(text: str) -> dict[str, str]:
-    start = text.find("\ncountries={")
-    end = text.find("\n}", start)
-    section = text[start:end]
-    return {
-        match.group(1): match.group(2)
-        for match in re.finditer(r'\n\t([A-Z][A-Z0-9]{2})=\{(.*?)\n\t\}', section, re.S)
-    }
-
-
-def politics(text: str, since: int, tags: list[str]) -> None:
-    with BLOC_DATA.open("r", encoding="utf-8-sig", newline="") as handle:
-        democracies = {row["tag"] for row in csv.DictReader(handle)}
-    blocks = country_blocks(text)
-    rulers: dict[str, list[tuple[str, str]]] = {}
-    blocs: dict[str, str] = {}
-    for tag, body in blocks.items():
-        changes = re.findall(r'\n\t\t\t(\d+\.\d+\.\d+)=\{\s*monarch=\{.*?name="([^"]+)"', body, re.S)
-        rulers[tag] = [(day, name) for day, name in changes if date_key(day)[0] >= since]
-        bloc = re.search(r'\beu4_2k_bloc_(\w+?)=', body)
-        blocs[tag] = bloc.group(1) if bloc else "-"
-    present = [tag for tag in democracies if tag in blocks]
-    print(f"\nPolitics since {since}:")
-    print(f"  Bloc distribution among {len(present)} electoral democracies: "
-          + ", ".join(f"{bloc} {count}" for bloc, count in Counter(blocs[tag] for tag in present).most_common()))
-    other = [tag for tag in blocks if tag not in democracies and rulers.get(tag)]
-    print(f"  Ruler changes in democracies: {sum(len(rulers[tag]) for tag in present)}; "
-          f"in other countries: {sum(len(rulers[tag]) for tag in other)} across {len(other)} countries")
-    for tag in tags:
-        if tag in blocks:
-            names = ", ".join(f"{day} {name}" for day, name in rulers[tag]) or "no change"
-            print(f"  {tag} [{blocs[tag]}]: {names}")
-
-
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("save", nargs="?", help="save file (defaults to the autosave)")
     parser.add_argument("--since", type=int, default=2000, help="first year counted as a new war")
-    parser.add_argument("--tags", nargs="*", default=list(KEY_COUNTRIES), help="countries whose rulers are listed")
     args = parser.parse_args()
     if args.save:
         path = Path(args.save)
@@ -153,7 +116,6 @@ def main() -> int:
     for war in sorted(new_wars, key=lambda item: date_key(item["start"])):
         status = war["outcome"] if war["state"] == "ended" else "active"
         print(f"  {war['start']:>10}  {war['attacker']} vs {war['defender']:<4} {war['casus_belli']:<22} {status:<13} {war['name']}")
-    politics(text, args.since, args.tags)
     return 0
 
 
