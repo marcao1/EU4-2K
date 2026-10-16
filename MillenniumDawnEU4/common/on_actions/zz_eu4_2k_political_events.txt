@@ -1,4 +1,4 @@
-# Schedule the clean 2000-2005 political timeline once per country.
+# Schedule the clean 2000-2025 political timeline once per country.
 on_startup = {
 	if = {
 		limit = {
@@ -11,18 +11,47 @@ on_startup = {
 			country_event = { id = eu4_2k_politics.101 days = 628 }
 		}
 		if = {
+			limit = { tag = ALB }
+			country_event = { id = eu4_2k_politics.39 days = 942 }
+			country_event = { id = eu4_2k_politics.40 days = 2079 }
+			country_event = { id = eu4_2k_politics.41 days = 5006 }
+			country_event = { id = eu4_2k_politics.900 days = 9497 }
+		}
+		if = {
+			limit = { tag = BUL }
+			country_event = { id = eu4_2k_politics.42 days = 570 }
+			country_event = { id = eu4_2k_politics.43 days = 2054 }
+			country_event = { id = eu4_2k_politics.44 days = 3495 }
+			country_event = { id = eu4_2k_politics.45 days = 4897 }
+			country_event = { id = eu4_2k_politics.46 days = 5424 }
+			country_event = { id = eu4_2k_politics.47 days = 8017 }
+			country_event = { id = eu4_2k_politics.900 days = 9497 }
+		}
+		if = {
 			limit = { tag = CHN }
 			country_event = { id = eu4_2k_politics.105 days = 620 }
 			country_event = { id = eu4_2k_politics.15 days = 1049 }
+			country_event = { id = eu4_2k_politics.134 days = 4702 }
+			country_event = { id = eu4_2k_politics.900 days = 9497 }
 		}
 		if = {
 			limit = { tag = CRO }
 			country_event = { id = eu4_2k_politics.1 days = 26 }
 			country_event = { id = eu4_2k_politics.16 days = 1452 }
+			country_event = { id = eu4_2k_politics.32 days = 3474 }
+			country_event = { id = eu4_2k_politics.33 days = 4374 }
+			country_event = { id = eu4_2k_politics.34 days = 6136 }
+			country_event = { id = eu4_2k_politics.900 days = 9497 }
 		}
 		if = {
 			limit = { tag = FR2 }
 			country_event = { id = eu4_2k_politics.105 days = 620 }
+			country_event = { id = eu4_2k_politics.74 days = 867 }
+			country_event = { id = eu4_2k_politics.75 days = 2692 }
+			country_event = { id = eu4_2k_politics.76 days = 4518 }
+			country_event = { id = eu4_2k_politics.77 days = 6343 }
+			country_event = { id = eu4_2k_politics.78 days = 8162 }
+			country_event = { id = eu4_2k_politics.900 days = 9497 }
 		}
 		if = {
 			limit = { tag = FRM }
@@ -30,7 +59,18 @@ on_startup = {
 		}
 		if = {
 			limit = { tag = GBR }
+			country_event = { id = eu4_2k_politics.79 days = 524 }
 			country_event = { id = eu4_2k_politics.105 days = 620 }
+			country_event = { id = eu4_2k_politics.80 days = 1952 }
+			country_event = { id = eu4_2k_politics.81 days = 2734 }
+			country_event = { id = eu4_2k_politics.82 days = 3783 }
+			country_event = { id = eu4_2k_politics.83 days = 5606 }
+			country_event = { id = eu4_2k_politics.84 days = 6038 }
+			country_event = { id = eu4_2k_politics.85 days = 7144 }
+			country_event = { id = eu4_2k_politics.86 days = 8284 }
+			country_event = { id = eu4_2k_politics.87 days = 8333 }
+			country_event = { id = eu4_2k_politics.88 days = 8952 }
+			country_event = { id = eu4_2k_politics.900 days = 9497 }
 		}
 		if = {
 			limit = { tag = GEO }
@@ -39,11 +79,24 @@ on_startup = {
 		if = {
 			limit = { tag = GER }
 			country_event = { id = eu4_2k_politics.105 days = 620 }
+			country_event = { id = eu4_2k_politics.68 days = 1025 }
 			country_event = { id = eu4_2k_politics.24 days = 2152 }
+			country_event = { id = eu4_2k_politics.69 days = 3588 }
+			country_event = { id = eu4_2k_politics.70 days = 5099 }
+			country_event = { id = eu4_2k_politics.71 days = 6647 }
+			country_event = { id = eu4_2k_politics.72 days = 8012 }
+			country_event = { id = eu4_2k_politics.73 days = 9257 }
+			country_event = { id = eu4_2k_politics.900 days = 9497 }
 		}
 		if = {
 			limit = { tag = GRE }
 			country_event = { id = eu4_2k_politics.18 days = 1530 }
+			country_event = { id = eu4_2k_politics.56 days = 3566 }
+			country_event = { id = eu4_2k_politics.57 days = 4332 }
+			country_event = { id = eu4_2k_politics.58 days = 4554 }
+			country_event = { id = eu4_2k_politics.59 days = 5504 }
+			country_event = { id = eu4_2k_politics.60 days = 7128 }
+			country_event = { id = eu4_2k_politics.900 days = 9497 }
 		}
 		if = {
 			limit = { tag = HAB }
@@ -52,6 +105,11 @@ on_startup = {
 		if = {
 			limit = { tag = INI }
 			country_event = { id = eu4_2k_politics.20 days = 1603 }
+			country_event = { id = eu4_2k_politics.145 days = 3429 }
+			country_event = { id = eu4_2k_politics.146 days = 5259 }
+			country_event = { id = eu4_2k_politics.147 days = 7089 }
+			country_event = { id = eu4_2k_politics.148 days = 8926 }
+			country_event = { id = eu4_2k_politics.900 days = 9497 }
 		}
 		if = {
 			limit = { tag = IRQ }
@@ -60,16 +118,51 @@ on_startup = {
 		if = {
 			limit = { tag = ISR }
 			country_event = { id = eu4_2k_politics.9 days = 431 }
+			country_event = { id = eu4_2k_politics.149 days = 2315 }
+			country_event = { id = eu4_2k_politics.150 days = 3377 }
+			country_event = { id = eu4_2k_politics.151 days = 7834 }
+			country_event = { id = eu4_2k_politics.152 days = 8217 }
+			country_event = { id = eu4_2k_politics.153 days = 8398 }
+			country_event = { id = eu4_2k_politics.900 days = 9497 }
 		}
 		if = {
 			limit = { tag = ITA }
 			country_event = { id = eu4_2k_politics.4 days = 115 }
 			country_event = { id = eu4_2k_politics.11 days = 527 }
+			country_event = { id = eu4_2k_politics.89 days = 2328 }
+			country_event = { id = eu4_2k_politics.90 days = 3050 }
+			country_event = { id = eu4_2k_politics.91 days = 4337 }
+			country_event = { id = eu4_2k_politics.92 days = 4866 }
+			country_event = { id = eu4_2k_politics.93 days = 5166 }
+			country_event = { id = eu4_2k_politics.94 days = 6190 }
+			country_event = { id = eu4_2k_politics.95 days = 6726 }
+			country_event = { id = eu4_2k_politics.96 days = 7714 }
+			country_event = { id = eu4_2k_politics.97 days = 8330 }
+			country_event = { id = eu4_2k_politics.900 days = 9497 }
 		}
 		if = {
 			limit = { tag = JAP }
 			country_event = { id = eu4_2k_politics.3 days = 95 }
 			country_event = { id = eu4_2k_politics.10 days = 481 }
+			country_event = { id = eu4_2k_politics.135 days = 2460 }
+			country_event = { id = eu4_2k_politics.136 days = 2825 }
+			country_event = { id = eu4_2k_politics.137 days = 3189 }
+			country_event = { id = eu4_2k_politics.138 days = 3546 }
+			country_event = { id = eu4_2k_politics.139 days = 3811 }
+			country_event = { id = eu4_2k_politics.140 days = 4262 }
+			country_event = { id = eu4_2k_politics.141 days = 4743 }
+			country_event = { id = eu4_2k_politics.142 days = 7564 }
+			country_event = { id = eu4_2k_politics.143 days = 7947 }
+			country_event = { id = eu4_2k_politics.144 days = 9040 }
+			country_event = { id = eu4_2k_politics.900 days = 9497 }
+		}
+		if = {
+			limit = { tag = MAC }
+			country_event = { id = eu4_2k_politics.35 days = 1035 }
+			country_event = { id = eu4_2k_politics.36 days = 2430 }
+			country_event = { id = eu4_2k_politics.37 days = 6361 }
+			country_event = { id = eu4_2k_politics.38 days = 8940 }
+			country_event = { id = eu4_2k_politics.900 days = 9497 }
 		}
 		if = {
 			limit = { tag = NED }
@@ -78,6 +171,15 @@ on_startup = {
 		if = {
 			limit = { tag = POL }
 			country_event = { id = eu4_2k_politics.12 days = 657 }
+			country_event = { id = eu4_2k_politics.109 days = 1583 }
+			country_event = { id = eu4_2k_politics.110 days = 2130 }
+			country_event = { id = eu4_2k_politics.111 days = 2386 }
+			country_event = { id = eu4_2k_politics.112 days = 2876 }
+			country_event = { id = eu4_2k_politics.113 days = 5378 }
+			country_event = { id = eu4_2k_politics.114 days = 5798 }
+			country_event = { id = eu4_2k_politics.115 days = 6554 }
+			country_event = { id = eu4_2k_politics.116 days = 8747 }
+			country_event = { id = eu4_2k_politics.900 days = 9497 }
 		}
 		if = {
 			limit = { tag = POR }
@@ -86,17 +188,63 @@ on_startup = {
 			country_event = { id = eu4_2k_politics.23 days = 1897 }
 		}
 		if = {
+			limit = { tag = RMN }
+			country_event = { id = eu4_2k_politics.48 days = 362 }
+			country_event = { id = eu4_2k_politics.49 days = 1824 }
+			country_event = { id = eu4_2k_politics.50 days = 3278 }
+			country_event = { id = eu4_2k_politics.51 days = 4510 }
+			country_event = { id = eu4_2k_politics.52 days = 5799 }
+			country_event = { id = eu4_2k_politics.53 days = 6603 }
+			country_event = { id = eu4_2k_politics.54 days = 7247 }
+			country_event = { id = eu4_2k_politics.55 days = 8566 }
+			country_event = { id = eu4_2k_politics.900 days = 9497 }
+		}
+		if = {
 			limit = { tag = RUS }
 			country_event = { id = eu4_2k_politics.5 days = 127 }
 			country_event = { id = eu4_2k_politics.105 days = 620 }
+			country_event = { id = eu4_2k_politics.130 days = 1588 }
+			country_event = { id = eu4_2k_politics.131 days = 3049 }
+			country_event = { id = eu4_2k_politics.132 days = 4510 }
+			country_event = { id = eu4_2k_politics.133 days = 6701 }
+			country_event = { id = eu4_2k_politics.900 days = 9497 }
 		}
 		if = {
 			limit = { tag = SPA }
+			country_event = { id = eu4_2k_politics.98 days = 117 }
 			country_event = { id = eu4_2k_politics.19 days = 1568 }
+			country_event = { id = eu4_2k_politics.99 days = 3024 }
+			country_event = { id = eu4_2k_politics.106 days = 4372 }
+			country_event = { id = eu4_2k_politics.107 days = 6727 }
+			country_event = { id = eu4_2k_politics.108 days = 8721 }
+			country_event = { id = eu4_2k_politics.900 days = 9497 }
+		}
+		if = {
+			limit = { tag = SVN }
+			country_event = { id = eu4_2k_politics.61 days = 1083 }
+			country_event = { id = eu4_2k_politics.62 days = 1798 }
+			country_event = { id = eu4_2k_politics.63 days = 3247 }
+			country_event = { id = eu4_2k_politics.64 days = 4423 }
+			country_event = { id = eu4_2k_politics.65 days = 5374 }
+			country_event = { id = eu4_2k_politics.66 days = 7377 }
+			country_event = { id = eu4_2k_politics.67 days = 8187 }
+			country_event = { id = eu4_2k_politics.900 days = 9497 }
+		}
+		if = {
+			limit = { tag = TKY }
+			country_event = { id = eu4_2k_politics.120 days = 1052 }
+			country_event = { id = eu4_2k_politics.121 days = 1168 }
+			country_event = { id = eu4_2k_politics.122 days = 5353 }
+			country_event = { id = eu4_2k_politics.123 days = 8554 }
+			country_event = { id = eu4_2k_politics.900 days = 9497 }
 		}
 		if = {
 			limit = { tag = UKR }
 			country_event = { id = eu4_2k_politics.22 days = 1849 }
+			country_event = { id = eu4_2k_politics.117 days = 3708 }
+			country_event = { id = eu4_2k_politics.118 days = 5271 }
+			country_event = { id = eu4_2k_politics.119 days = 7079 }
+			country_event = { id = eu4_2k_politics.900 days = 9497 }
 		}
 		if = {
 			limit = { tag = USA }
@@ -104,10 +252,25 @@ on_startup = {
 			country_event = { id = eu4_2k_politics.100 days = 619 }
 			country_event = { id = eu4_2k_politics.102 days = 645 }
 			country_event = { id = eu4_2k_politics.104 days = 1171 }
+			country_event = { id = eu4_2k_politics.124 days = 1846 }
+			country_event = { id = eu4_2k_politics.125 days = 3307 }
+			country_event = { id = eu4_2k_politics.126 days = 4768 }
+			country_event = { id = eu4_2k_politics.127 days = 6229 }
+			country_event = { id = eu4_2k_politics.128 days = 7690 }
+			country_event = { id = eu4_2k_politics.129 days = 9151 }
+			country_event = { id = eu4_2k_politics.900 days = 9497 }
 		}
 		if = {
 			limit = { tag = YUG }
 			country_event = { id = eu4_2k_politics.7 days = 280 }
+			country_event = { id = eu4_2k_politics.25 days = 390 }
+			country_event = { id = eu4_2k_politics.26 days = 1172 }
+			country_event = { id = eu4_2k_politics.27 days = 1523 }
+			country_event = { id = eu4_2k_politics.28 days = 3110 }
+			country_event = { id = eu4_2k_politics.29 days = 4534 }
+			country_event = { id = eu4_2k_politics.30 days = 5230 }
+			country_event = { id = eu4_2k_politics.31 days = 6360 }
+			country_event = { id = eu4_2k_politics.900 days = 9497 }
 		}
 		set_country_flag = eu4_2k_political_timeline_scheduled
 	}

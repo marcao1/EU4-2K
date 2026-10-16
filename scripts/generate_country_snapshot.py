@@ -26,6 +26,10 @@ DATA = ROOT / "data" / "countries_2000.csv"
 PROVINCE_DATA = ROOT / "data" / "provinces_2000.csv"
 COUNTRY_SETUP_DATA = ROOT / "data" / "country_setup_2000.csv"
 DIPLOMACY_DATA = ROOT / "data" / "diplomacy_2000.csv"
+LEADERSHIP_DATA = ROOT / "data" / "leadership_events.csv"
+# Countries in the real leadership list take their leaders from it instead of
+# EU4's term elections; see scripts/generate_political_events.py.
+SCRIPTED_LEADERSHIP_REFORM = "eu4_2k_scripted_leadership"
 ET = ROOT / "ExtendedTimeline 1.18.2" / "ExtendedTimeline"
 # Project-owned source assets (for example generated conflict-faction flags).
 ASSETS = ROOT / "assets"
@@ -943,7 +947,20 @@ def government_reforms_text() -> str:
             "\tlock_level_when_selected = yes", f"\tpotential = {{ has_reform = {reform} }}",
             "\tmodifiers = { }", "\tai = { factor = 0 }", "}", "",
         ])
+    lines.extend([
+        f"{SCRIPTED_LEADERSHIP_REFORM} = {{", '\ticon = "man_on_podium"',
+        "\tallow_normal_conversion = no", "\tvalid_for_nation_designer = no",
+        "\tlock_level_when_selected = yes",
+        f"\tpotential = {{ has_reform = {SCRIPTED_LEADERSHIP_REFORM} }}",
+        "\thas_term_election = no",
+        "\tmodifiers = { }", "\tai = { factor = 0 }", "}", "",
+    ])
     return "\n".join(lines)
+
+
+def scripted_leadership_tags() -> set[str]:
+    with LEADERSHIP_DATA.open("r", encoding="utf-8-sig", newline="") as handle:
+        return {row["tag"] for row in csv.DictReader(handle)}
 
 
 def technology_text(game: Path) -> str:
@@ -1366,6 +1383,7 @@ def country_history(
     technology_setup: dict[str, dict[str, int]],
     opinions: dict[str, list[tuple[str, int]]],
     historical_friends: dict[str, list[str]],
+    scripted_leadership: set[str],
 ) -> str:
     government, executive_reform = EXECUTIVE_MODELS[row["government_model"]]
     lines = [
@@ -1374,6 +1392,10 @@ def country_history(
         f"add_government_reform = {executive_reform}",
         f"add_government_reform = {STATE_REFORMS[row['state_structure']]}",
         f"add_government_reform = {COMPETITION_REFORMS[row['political_competition']]}",
+    ]
+    if row["tag"] in scripted_leadership:
+        lines.append(f"add_government_reform = {SCRIPTED_LEADERSHIP_REFORM}")
+    lines += [
         f"primary_culture = {row['primary_culture']}",
     ]
     for culture in filter(None, row["accepted_cultures"].split("|")):
@@ -1513,6 +1535,7 @@ def text_outputs(
 ) -> dict[Path, tuple[str, str]]:
     opinions, opinion_values = starting_opinions(rows)
     historical_friends = starting_historical_friends(rows)
+    scripted_leadership = scripted_leadership_tags()
     outputs: dict[Path, tuple[str, str]] = {
         MOD / "common" / "country_tags" / "00_countries.txt": (generated_country_tag_text(rows, game), "cp1252"),
         MOD / "common" / "government_reforms" / "00_eu4_2k_government_reforms.txt": (government_reforms_text(), "cp1252"),
@@ -1539,7 +1562,7 @@ def text_outputs(
         outputs[MOD / "common" / "countries" / f"EU4_2K_{row['tag']}.txt"] = (country_definition(row, game), "cp1252")
         safe_name = re.sub(r'[<>:"/\\|?*]', "", row["name"])
         outputs[MOD / "history" / "countries" / f"{row['tag']} - {safe_name}.txt"] = (
-            country_history(row, technology_setup, opinions, historical_friends),
+            country_history(row, technology_setup, opinions, historical_friends, scripted_leadership),
             "cp1252",
         )
     snapshot_tags = {row["tag"] for row in rows}

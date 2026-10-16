@@ -169,3 +169,14 @@ eu4_2k_closed_authoritarian_system = {
 	modifiers = { }
 	ai = { factor = 0 }
 }
+
+eu4_2k_scripted_leadership = {
+	icon = "man_on_podium"
+	allow_normal_conversion = no
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	potential = { has_reform = eu4_2k_scripted_leadership }
+	has_term_election = no
+	modifiers = { }
+	ai = { factor = 0 }
+}

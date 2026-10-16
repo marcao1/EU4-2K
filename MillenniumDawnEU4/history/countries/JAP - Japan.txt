@@ -4,6 +4,7 @@ government_rank = 3
 add_government_reform = eu4_2k_parliamentary_monarchy
 add_government_reform = eu4_2k_unitary_state
 add_government_reform = eu4_2k_dominant_party_system
+add_government_reform = eu4_2k_scripted_leadership
 primary_culture = japanese
 religion = shinto
 technology_group = modern_east_asian_tier_9

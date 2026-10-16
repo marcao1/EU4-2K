@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Generate and validate the event-driven 2000-2005 political timeline."""
+"""Generate and validate the event-driven 2000-2025 political timeline.
+
+Countries listed in the timeline get their leaders from real dated transitions
+instead of EU4's term elections. Choosing the alternate leader, or reaching the
+country's last listed transition, hands the country back to EU4 elections.
+"""
 
 from __future__ import annotations
 
@@ -17,7 +22,7 @@ import generate_country_snapshot as countries
 
 ROOT = countries.ROOT
 MOD = countries.MOD
-DATA = ROOT / "data" / "leadership_events_2000_2005.csv"
+DATA = ROOT / "data" / "leadership_events.csv"
 EVENT_OUTPUT = MOD / "events" / "eu4_2k_political_events.txt"
 ON_ACTION_OUTPUT = MOD / "common" / "on_actions" / "zz_eu4_2k_political_events.txt"
 OPINION_OUTPUT = MOD / "common" / "opinion_modifiers" / "eu4_2k_political_opinions.txt"
@@ -33,8 +38,18 @@ FIELDS = [
 ]
 
 START = date(2000, 1, 1)
-END = date(2005, 12, 31)
+END = date(2025, 12, 31)
 NAMESPACE = "eu4_2k_politics"
+# Disables EU4 term elections while a country follows the real leadership list.
+SCRIPTED_LEADERSHIP_REFORM = "eu4_2k_scripted_leadership"
+# Countries whose list covers the whole period keep it until this date, so
+# long-serving leaders (Xi, Putin, Rama) are not replaced by EU4 elections early.
+HANDOVER_DATE = date(2026, 1, 1)
+HANDOVER_EVENT_ID = 900
+# Short lists that end in the early 2000s hand over at their last listed event.
+EARLY_HANDOVER_TAGS = {"HAB", "NED", "POR", "FRM", "GEO"}
+# Successor tags that continue a country's timeline after a tag change.
+TAG_ALIASES = {"YUG": ("YUG", "SER")}
 
 CRISIS_EVENTS = (
     {
@@ -211,9 +226,13 @@ def ruler_effect(row: dict[str, str], prefix: str, flags: dict[str, set[str]]) -
 
 def leadership_events(rows: Sequence[dict[str, str]]) -> str:
     flags = known_party_flags(rows)
-    lines = ["# Generated from data/leadership_events_2000_2005.csv", f"namespace = {NAMESPACE}", ""]
+    last_event = {row["tag"]: row["event_id"] for row in rows}
+    # EU4 elections resume after the last listed transition or a divergence.
+    handover = f"remove_government_reform = {SCRIPTED_LEADERSHIP_REFORM}"
+    lines = ["# Generated from data/leadership_events.csv", f"namespace = {NAMESPACE}", ""]
     for row in rows:
         event_id = row["event_id"]
+        tags = TAG_ALIASES.get(row["tag"], (row["tag"],))
         lines.extend([
             "country_event = {",
             f"\tid = {NAMESPACE}.{event_id}",
@@ -222,7 +241,7 @@ def leadership_events(rows: Sequence[dict[str, str]]) -> str:
             "\tpicture = ELECTION_REPUBLICAN_eventPicture",
             "\tis_triggered_only = yes",
             "\ttrigger = {",
-            f"\t\ttag = {row['tag']}",
+            "\t\tOR = { " + " ".join(f"tag = {tag}" for tag in tags) + " }",
             "\t\tNOT = { has_country_flag = eu4_2k_political_timeline_diverged }",
             f"\t\tNOT = {{ has_country_flag = eu4_2k_political_event_{event_id}_resolved }}",
             "\t}",
@@ -231,6 +250,8 @@ def leadership_events(rows: Sequence[dict[str, str]]) -> str:
             "\t\tai_chance = { factor = 90 }",
         ])
         lines.extend(f"\t\t{line}" for line in ruler_effect(row, "historical", flags))
+        if last_event[row["tag"]] == event_id and row["tag"] in EARLY_HANDOVER_TAGS:
+            lines.append(f"\t\t{handover}")
         lines.extend([
             f"\t\tset_country_flag = eu4_2k_political_event_{event_id}_resolved",
             "\t\tadd_prestige = 2",
@@ -242,12 +263,29 @@ def leadership_events(rows: Sequence[dict[str, str]]) -> str:
         lines.extend(f"\t\t{line}" for line in ruler_effect(row, "alternate", flags))
         lines.extend([
             "\t\tset_country_flag = eu4_2k_political_timeline_diverged",
+            f"\t\t{handover}",
             f"\t\tset_country_flag = eu4_2k_political_event_{event_id}_resolved",
             "\t\tadd_prestige = 2",
             "\t}",
             "}",
             "",
         ])
+    lines.extend([
+        "# Hand fully covered countries back to EU4 elections when the list ends.",
+        "country_event = {",
+        f"\tid = {NAMESPACE}.{HANDOVER_EVENT_ID}",
+        f"\ttitle = {NAMESPACE}.{HANDOVER_EVENT_ID}.t",
+        f"\tdesc = {NAMESPACE}.{HANDOVER_EVENT_ID}.d",
+        "\tpicture = ELECTION_REPUBLICAN_eventPicture",
+        "\thidden = yes",
+        "\tis_triggered_only = yes",
+        "\toption = {",
+        f"\t\tname = {NAMESPACE}.{HANDOVER_EVENT_ID}.a",
+        f"\t\tif = {{ limit = {{ has_reform = {SCRIPTED_LEADERSHIP_REFORM} }} {handover} }}",
+        "\t}",
+        "}",
+        "",
+    ])
     return "\n".join(lines)
 
 
@@ -295,8 +333,11 @@ def schedule(rows: Sequence[dict[str, str]]) -> str:
         for tag in tags:
             if tag:
                 schedules[tag].append((event["id"], delay))
+    handover_delay = (HANDOVER_DATE - START).days
+    for tag in sorted({row["tag"] for row in rows} - EARLY_HANDOVER_TAGS):
+        schedules[tag].append((HANDOVER_EVENT_ID, handover_delay))
     lines = [
-        "# Schedule the clean 2000-2005 political timeline once per country.",
+        f"# Schedule the clean {START.year}-{END.year} political timeline once per country.",
         "on_startup = {",
         "\tif = {",
         "\t\tlimit = {",
@@ -347,6 +388,9 @@ def localisation(rows: Sequence[dict[str, str]]) -> str:
             suffix = chr(ord("a") + index)
             lines.append(f' {NAMESPACE}.{event_id}.{suffix}:0 "{loc_text(option)}"')
     lines.extend([
+        f' {NAMESPACE}.{HANDOVER_EVENT_ID}.t:0 "The Real Leadership List Ends"',
+        f' {NAMESPACE}.{HANDOVER_EVENT_ID}.d:0 "From now on, our leaders are chosen by regular elections."',
+        f' {NAMESPACE}.{HANDOVER_EVENT_ID}.a:0 "Continue"',
         ' eu4_2k_counterterrorism_cooperation:0 "Counterterrorism Cooperation"',
         ' eu4_2k_security_disagreement:0 "Security Policy Disagreement"',
         ' eu4_2k_security_confrontation:0 "Security Confrontation"',
@@ -375,8 +419,9 @@ def validate(rows: Sequence[dict[str, str]], check_outputs: bool = True) -> None
         except ValueError:
             errors.append(f"invalid event id: {row['event_id']}")
             continue
-        if event_id in ids or event_id >= 100:
-            errors.append(f"duplicate or reserved event id: {event_id}")
+        reserved = {event["id"] for event in CRISIS_EVENTS} | {HANDOVER_EVENT_ID}
+        if event_id in ids or event_id in reserved:
+            errors.append(f"duplicate or crisis-reserved event id: {event_id}")
         ids.add(event_id)
         if row["tag"] not in active:
             errors.append(f"inactive event country: {row['tag']}")
@@ -385,7 +430,7 @@ def validate(rows: Sequence[dict[str, str]], check_outputs: bool = True) -> None
             historical_birth = parse_date(row["historical_birth"])
             alternate_birth = parse_date(row["alternate_birth"])
             if not START <= event_date <= END:
-                errors.append(f"event outside 2000-2005: {event_id}")
+                errors.append(f"event outside {START.year}-{END.year}: {event_id}")
             if historical_birth >= event_date or alternate_birth >= event_date:
                 errors.append(f"leader born after event: {event_id}")
             dates_by_tag[row["tag"]].append(event_date)

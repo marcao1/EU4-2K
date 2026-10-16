@@ -4,6 +4,7 @@ government_rank = 2
 add_government_reform = eu4_2k_parliamentary_republic
 add_government_reform = eu4_2k_unitary_state
 add_government_reform = eu4_2k_multiparty_system
+add_government_reform = eu4_2k_scripted_leadership
 primary_culture = macedonian
 religion = orthodox
 technology_group = modern_western_tier_8
