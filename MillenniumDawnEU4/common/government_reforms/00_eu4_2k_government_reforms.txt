@@ -5,6 +5,7 @@ eu4_2k_parliamentary_republic = {
 	allow_normal_conversion = no
 	valid_for_nation_designer = no
 	lock_level_when_selected = yes
+	has_term_election = no
 	potential = { has_reform = eu4_2k_parliamentary_republic }
 	modifiers = { }
 	ai = { factor = 0 }
@@ -15,6 +16,7 @@ eu4_2k_presidential_republic = {
 	allow_normal_conversion = no
 	valid_for_nation_designer = no
 	lock_level_when_selected = yes
+	has_term_election = no
 	potential = { has_reform = eu4_2k_presidential_republic }
 	modifiers = { }
 	ai = { factor = 0 }
@@ -25,6 +27,7 @@ eu4_2k_semi_presidential_republic = {
 	allow_normal_conversion = no
 	valid_for_nation_designer = no
 	lock_level_when_selected = yes
+	has_term_election = no
 	potential = { has_reform = eu4_2k_semi_presidential_republic }
 	modifiers = { }
 	ai = { factor = 0 }
@@ -35,6 +38,7 @@ eu4_2k_parliamentary_monarchy = {
 	allow_normal_conversion = no
 	valid_for_nation_designer = no
 	lock_level_when_selected = yes
+	has_term_election = no
 	potential = { has_reform = eu4_2k_parliamentary_monarchy }
 	modifiers = { }
 	ai = { factor = 0 }
@@ -45,6 +49,7 @@ eu4_2k_absolute_monarchy = {
 	allow_normal_conversion = no
 	valid_for_nation_designer = no
 	lock_level_when_selected = yes
+	has_term_election = no
 	potential = { has_reform = eu4_2k_absolute_monarchy }
 	modifiers = { }
 	ai = { factor = 0 }
@@ -55,6 +60,7 @@ eu4_2k_one_party_state = {
 	allow_normal_conversion = no
 	valid_for_nation_designer = no
 	lock_level_when_selected = yes
+	has_term_election = no
 	potential = { has_reform = eu4_2k_one_party_state }
 	modifiers = { }
 	ai = { factor = 0 }
@@ -65,6 +71,7 @@ eu4_2k_military_government = {
 	allow_normal_conversion = no
 	valid_for_nation_designer = no
 	lock_level_when_selected = yes
+	has_term_election = no
 	potential = { has_reform = eu4_2k_military_government }
 	modifiers = { }
 	ai = { factor = 0 }
@@ -75,6 +82,7 @@ eu4_2k_theocratic_state = {
 	allow_normal_conversion = no
 	valid_for_nation_designer = no
 	lock_level_when_selected = yes
+	has_term_election = no
 	potential = { has_reform = eu4_2k_theocratic_state }
 	modifiers = { }
 	ai = { factor = 0 }
@@ -85,6 +93,7 @@ eu4_2k_transitional_government = {
 	allow_normal_conversion = no
 	valid_for_nation_designer = no
 	lock_level_when_selected = yes
+	has_term_election = no
 	potential = { has_reform = eu4_2k_transitional_government }
 	modifiers = { }
 	ai = { factor = 0 }

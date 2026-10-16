@@ -26,6 +26,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_cro_social_democratic_party
+		eu4_2k_bloc_takes_power_centre_left = yes
 		set_country_flag = eu4_2k_political_event_1_resolved
 		add_prestige = 2
 	}
@@ -43,6 +44,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_cro_croatian_democratic_union
+		eu4_2k_bloc_takes_power_centre_right = yes
 		set_country_flag = eu4_2k_political_timeline_diverged
 		set_country_flag = eu4_2k_political_event_1_resolved
 		add_prestige = 2
@@ -74,6 +76,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_hab_austrian_peoples_party
+		eu4_2k_bloc_takes_power_centre_right = yes
 		set_country_flag = eu4_2k_political_event_2_resolved
 		add_prestige = 2
 	}
@@ -91,6 +94,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_hab_social_democratic_party
+		eu4_2k_bloc_takes_power_centre_left = yes
 		set_country_flag = eu4_2k_political_timeline_diverged
 		set_country_flag = eu4_2k_political_event_2_resolved
 		add_prestige = 2
@@ -121,6 +125,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_jap_liberal_democratic_party
+		eu4_2k_bloc_takes_power_centre_right = yes
 		set_country_flag = eu4_2k_political_event_3_resolved
 		add_prestige = 2
 	}
@@ -137,6 +142,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_jap_liberal_democratic_party
+		eu4_2k_bloc_takes_power_centre_right = yes
 		set_country_flag = eu4_2k_political_timeline_diverged
 		set_country_flag = eu4_2k_political_event_3_resolved
 		add_prestige = 2
@@ -169,6 +175,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_ita_the_olive_tree
+		eu4_2k_bloc_takes_power_centre_left = yes
 		set_country_flag = eu4_2k_political_event_4_resolved
 		add_prestige = 2
 	}
@@ -187,6 +194,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_ita_democrats_of_the_left
+		eu4_2k_bloc_takes_power_centre_left = yes
 		set_country_flag = eu4_2k_political_timeline_diverged
 		set_country_flag = eu4_2k_political_event_4_resolved
 		add_prestige = 2
@@ -219,6 +227,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_rus_unity
+		eu4_2k_bloc_takes_power_national_conservative = yes
 		set_country_flag = eu4_2k_political_event_5_resolved
 		add_prestige = 2
 	}
@@ -237,6 +246,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_rus_yabloko
+		eu4_2k_bloc_takes_power_liberal = yes
 		set_country_flag = eu4_2k_political_timeline_diverged
 		set_country_flag = eu4_2k_political_event_5_resolved
 		add_prestige = 2
@@ -269,6 +279,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_frm_democratic_progressive_party
+		eu4_2k_bloc_takes_power_centre_left = yes
 		set_country_flag = eu4_2k_political_event_6_resolved
 		add_prestige = 2
 	}
@@ -287,6 +298,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_frm_kuomintang
+		eu4_2k_bloc_takes_power_centre_right = yes
 		set_country_flag = eu4_2k_political_timeline_diverged
 		set_country_flag = eu4_2k_political_event_6_resolved
 		add_prestige = 2
@@ -318,6 +330,8 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_yug_democratic_opposition_of_serbia
+		eu4_2k_bloc_takes_power_liberal = yes
+		eu4_2k_begin_competitive_politics = yes
 		set_country_flag = eu4_2k_political_event_7_resolved
 		add_prestige = 2
 	}
@@ -335,6 +349,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_yug_socialist_party_of_serbia
+		eu4_2k_bloc_takes_power_left = yes
 		set_country_flag = eu4_2k_political_timeline_diverged
 		set_country_flag = eu4_2k_political_event_7_resolved
 		add_prestige = 2
@@ -366,6 +381,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_usa_republican_party
+		eu4_2k_bloc_takes_power_centre_right = yes
 		set_country_flag = eu4_2k_political_event_8_resolved
 		add_prestige = 2
 	}
@@ -383,6 +399,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_usa_democratic_party
+		eu4_2k_bloc_takes_power_centre_left = yes
 		set_country_flag = eu4_2k_political_timeline_diverged
 		set_country_flag = eu4_2k_political_event_8_resolved
 		add_prestige = 2
@@ -414,6 +431,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_isr_likud
+		eu4_2k_bloc_takes_power_national_conservative = yes
 		set_country_flag = eu4_2k_political_event_9_resolved
 		add_prestige = 2
 	}
@@ -431,6 +449,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_isr_one_israel
+		eu4_2k_bloc_takes_power_centre_left = yes
 		set_country_flag = eu4_2k_political_timeline_diverged
 		set_country_flag = eu4_2k_political_event_9_resolved
 		add_prestige = 2
@@ -461,6 +480,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_jap_liberal_democratic_party
+		eu4_2k_bloc_takes_power_centre_right = yes
 		set_country_flag = eu4_2k_political_event_10_resolved
 		add_prestige = 2
 	}
@@ -477,6 +497,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_jap_liberal_democratic_party
+		eu4_2k_bloc_takes_power_centre_right = yes
 		set_country_flag = eu4_2k_political_timeline_diverged
 		set_country_flag = eu4_2k_political_event_10_resolved
 		add_prestige = 2
@@ -509,6 +530,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_ita_house_of_freedoms
+		eu4_2k_bloc_takes_power_centre_right = yes
 		set_country_flag = eu4_2k_political_event_11_resolved
 		add_prestige = 2
 	}
@@ -527,6 +549,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_ita_the_olive_tree
+		eu4_2k_bloc_takes_power_centre_left = yes
 		set_country_flag = eu4_2k_political_timeline_diverged
 		set_country_flag = eu4_2k_political_event_11_resolved
 		add_prestige = 2
@@ -558,6 +581,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_pol_democratic_left_alliance
+		eu4_2k_bloc_takes_power_centre_left = yes
 		set_country_flag = eu4_2k_political_event_12_resolved
 		add_prestige = 2
 	}
@@ -575,6 +599,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_pol_solidarity_electoral_action
+		eu4_2k_bloc_takes_power_centre_right = yes
 		set_country_flag = eu4_2k_political_timeline_diverged
 		set_country_flag = eu4_2k_political_event_12_resolved
 		add_prestige = 2
@@ -606,6 +631,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_por_social_democratic_party
+		eu4_2k_bloc_takes_power_centre_right = yes
 		set_country_flag = eu4_2k_political_event_13_resolved
 		add_prestige = 2
 	}
@@ -623,6 +649,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_por_socialist_party
+		eu4_2k_bloc_takes_power_centre_left = yes
 		set_country_flag = eu4_2k_political_timeline_diverged
 		set_country_flag = eu4_2k_political_event_13_resolved
 		add_prestige = 2
@@ -654,6 +681,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_ned_christian_democratic_appeal
+		eu4_2k_bloc_takes_power_centre_right = yes
 		set_country_flag = eu4_2k_political_event_14_resolved
 		add_prestige = 2
 	}
@@ -671,6 +699,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_ned_labour_party
+		eu4_2k_bloc_takes_power_centre_left = yes
 		set_country_flag = eu4_2k_political_timeline_diverged
 		set_country_flag = eu4_2k_political_event_14_resolved
 		add_prestige = 2
@@ -748,6 +777,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_cro_croatian_democratic_union
+		eu4_2k_bloc_takes_power_centre_right = yes
 		set_country_flag = eu4_2k_political_event_16_resolved
 		add_prestige = 2
 	}
@@ -765,6 +795,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_cro_social_democratic_party
+		eu4_2k_bloc_takes_power_centre_left = yes
 		set_country_flag = eu4_2k_political_timeline_diverged
 		set_country_flag = eu4_2k_political_event_16_resolved
 		add_prestige = 2
@@ -797,6 +828,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_geo_united_national_movement
+		eu4_2k_bloc_takes_power_liberal = yes
 		set_country_flag = eu4_2k_political_event_17_resolved
 		add_prestige = 2
 	}
@@ -815,6 +847,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_geo_democrats
+		eu4_2k_bloc_takes_power_liberal = yes
 		set_country_flag = eu4_2k_political_timeline_diverged
 		set_country_flag = eu4_2k_political_event_17_resolved
 		add_prestige = 2
@@ -846,6 +879,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_gre_new_democracy
+		eu4_2k_bloc_takes_power_centre_right = yes
 		set_country_flag = eu4_2k_political_event_18_resolved
 		add_prestige = 2
 	}
@@ -863,6 +897,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_gre_pasok
+		eu4_2k_bloc_takes_power_centre_left = yes
 		set_country_flag = eu4_2k_political_timeline_diverged
 		set_country_flag = eu4_2k_political_event_18_resolved
 		add_prestige = 2
@@ -894,6 +929,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_spa_spanish_socialist_workers_party
+		eu4_2k_bloc_takes_power_centre_left = yes
 		set_country_flag = eu4_2k_political_event_19_resolved
 		add_prestige = 2
 	}
@@ -911,6 +947,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_spa_peoples_party
+		eu4_2k_bloc_takes_power_centre_right = yes
 		set_country_flag = eu4_2k_political_timeline_diverged
 		set_country_flag = eu4_2k_political_event_19_resolved
 		add_prestige = 2
@@ -942,6 +979,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_ini_indian_national_congress
+		eu4_2k_bloc_takes_power_centre_left = yes
 		set_country_flag = eu4_2k_political_event_20_resolved
 		add_prestige = 2
 	}
@@ -959,6 +997,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_ini_bharatiya_janata_party
+		eu4_2k_bloc_takes_power_national_conservative = yes
 		set_country_flag = eu4_2k_political_timeline_diverged
 		set_country_flag = eu4_2k_political_event_20_resolved
 		add_prestige = 2
@@ -990,6 +1029,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_por_social_democratic_party
+		eu4_2k_bloc_takes_power_centre_right = yes
 		set_country_flag = eu4_2k_political_event_21_resolved
 		add_prestige = 2
 	}
@@ -1007,6 +1047,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_por_socialist_party
+		eu4_2k_bloc_takes_power_centre_left = yes
 		set_country_flag = eu4_2k_political_timeline_diverged
 		set_country_flag = eu4_2k_political_event_21_resolved
 		add_prestige = 2
@@ -1039,6 +1080,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_ukr_our_ukraine
+		eu4_2k_bloc_takes_power_liberal = yes
 		set_country_flag = eu4_2k_political_event_22_resolved
 		add_prestige = 2
 	}
@@ -1057,6 +1099,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_ukr_party_of_regions
+		eu4_2k_bloc_takes_power_centre_right = yes
 		set_country_flag = eu4_2k_political_timeline_diverged
 		set_country_flag = eu4_2k_political_event_22_resolved
 		add_prestige = 2
@@ -1088,6 +1131,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_por_socialist_party
+		eu4_2k_bloc_takes_power_centre_left = yes
 		set_country_flag = eu4_2k_political_event_23_resolved
 		add_prestige = 2
 	}
@@ -1105,6 +1149,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_por_social_democratic_party
+		eu4_2k_bloc_takes_power_centre_right = yes
 		set_country_flag = eu4_2k_political_timeline_diverged
 		set_country_flag = eu4_2k_political_event_23_resolved
 		add_prestige = 2
@@ -1136,6 +1181,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_ger_christian_democratic_union
+		eu4_2k_bloc_takes_power_centre_right = yes
 		set_country_flag = eu4_2k_political_event_24_resolved
 		add_prestige = 2
 	}
@@ -1153,6 +1199,7 @@ country_event = {
 			claim = 95
 		}
 		set_country_flag = eu4_2k_ruling_group_ger_social_democratic_party
+		eu4_2k_bloc_takes_power_centre_left = yes
 		set_country_flag = eu4_2k_political_timeline_diverged
 		set_country_flag = eu4_2k_political_event_24_resolved
 		add_prestige = 2

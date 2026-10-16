@@ -13,6 +13,7 @@ from pathlib import Path
 from typing import Sequence
 
 import generate_country_snapshot as countries
+import generate_elections as elections
 
 
 ROOT = countries.ROOT
@@ -35,6 +36,8 @@ FIELDS = [
 START = date(2000, 1, 1)
 END = date(2005, 12, 31)
 NAMESPACE = "eu4_2k_politics"
+# Leadership outcomes that turn a non-competitive regime into an electoral democracy.
+DEMOCRATIZING_OUTCOMES = {(7, "historical")}
 
 CRISIS_EVENTS = (
     {
@@ -188,7 +191,13 @@ def known_party_flags(rows: Sequence[dict[str, str]]) -> dict[str, set[str]]:
     return result
 
 
-def ruler_effect(row: dict[str, str], prefix: str, flags: dict[str, set[str]]) -> list[str]:
+def ruler_effect(
+    row: dict[str, str],
+    prefix: str,
+    flags: dict[str, set[str]],
+    parties: dict[tuple[str, str], str],
+    bloc_tags: set[str],
+) -> list[str]:
     event_date = parse_date(row["date"])
     birth_date = parse_date(row[f"{prefix}_birth"])
     age = event_date.year - birth_date.year - (
@@ -206,11 +215,18 @@ def ruler_effect(row: dict[str, str], prefix: str, flags: dict[str, set[str]]) -
         "}",
         f"set_country_flag = {party_flag(row['tag'], row[f'{prefix}_party'])}",
     ])
+    if row["tag"] in bloc_tags:
+        bloc = elections.party_bloc(parties, row["tag"], row[f"{prefix}_party"])
+        lines.append(f"eu4_2k_bloc_takes_power_{bloc} = yes")
+    if (int(row["event_id"]), prefix) in DEMOCRATIZING_OUTCOMES:
+        lines.append("eu4_2k_begin_competitive_politics = yes")
     return lines
 
 
 def leadership_events(rows: Sequence[dict[str, str]]) -> str:
     flags = known_party_flags(rows)
+    parties = elections.load_party_blocs()
+    bloc_tags = {row["tag"] for row in elections.load_bloc_rows()}
     lines = ["# Generated from data/leadership_events_2000_2005.csv", f"namespace = {NAMESPACE}", ""]
     for row in rows:
         event_id = row["event_id"]
@@ -230,7 +246,7 @@ def leadership_events(rows: Sequence[dict[str, str]]) -> str:
             f"\t\tname = {NAMESPACE}.{event_id}.a",
             "\t\tai_chance = { factor = 90 }",
         ])
-        lines.extend(f"\t\t{line}" for line in ruler_effect(row, "historical", flags))
+        lines.extend(f"\t\t{line}" for line in ruler_effect(row, "historical", flags, parties, bloc_tags))
         lines.extend([
             f"\t\tset_country_flag = eu4_2k_political_event_{event_id}_resolved",
             "\t\tadd_prestige = 2",
@@ -239,7 +255,7 @@ def leadership_events(rows: Sequence[dict[str, str]]) -> str:
             f"\t\tname = {NAMESPACE}.{event_id}.b",
             "\t\tai_chance = { factor = 10 }",
         ])
-        lines.extend(f"\t\t{line}" for line in ruler_effect(row, "alternate", flags))
+        lines.extend(f"\t\t{line}" for line in ruler_effect(row, "alternate", flags, parties, bloc_tags))
         lines.extend([
             "\t\tset_country_flag = eu4_2k_political_timeline_diverged",
             f"\t\tset_country_flag = eu4_2k_political_event_{event_id}_resolved",

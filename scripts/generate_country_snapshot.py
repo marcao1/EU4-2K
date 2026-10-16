@@ -933,6 +933,8 @@ def government_reforms_text() -> str:
         lines.extend([
             f"{reform} = {{", f'\ticon = "{icons[model]}"', "\tallow_normal_conversion = no",
             "\tvalid_for_nation_designer = no", "\tlock_level_when_selected = yes",
+            # Scripted elections (scripts/generate_elections.py) replace EU4's term elections.
+            "\thas_term_election = no",
             f"\tpotential = {{ has_reform = {reform} }}", "\tmodifiers = { }",
             "\tai = { factor = 0 }", "}", "",
         ])

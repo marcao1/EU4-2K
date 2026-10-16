@@ -1,0 +1,147 @@
+tag,opposition_bloc,cycle_years,first_election,competitive_at_start,source,verification_notes
+AGL,coalition,5,2000.8.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+ALB,centre_right,4,2001.6.24,yes,manual:election-calendar,Parliamentary election; blocs are a directional first-pass mapping.
+ANB,coalition,5,2004.12.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+ARM,liberal,5,2003.2.19,yes,manual:election-calendar,Presidential election; blocs are a directional first-pass mapping.
+AUS,coalition,4,2000.6.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+AZE,liberal,5,2003.10.15,yes,manual:election-calendar,Presidential election; blocs are a directional first-pass mapping.
+BBD,coalition,5,2002.9.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+BEI,coalition,5,2003.1.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+BEL,centre_right,4,2003.5.18,yes,manual:election-calendar,Federal election; blocs are a directional first-pass mapping.
+BEN,coalition,5,2003.4.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+BGD,centre_right,5,2001.10.1,yes,manual:election-calendar,Parliamentary election; blocs are a directional first-pass mapping.
+BHE,national_conservative,4,2000.11.11,yes,manual:election-calendar,General election; blocs are a directional first-pass mapping.
+BHM,coalition,5,2001.5.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+BLZ,coalition,5,2003.2.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+BOL,coalition,5,2002.7.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+BOT,coalition,5,2001.12.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+BRZ,coalition,5,2000.5.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+BUL,centre_left,4,2001.6.17,yes,manual:election-calendar,Parliamentary election; blocs are a directional first-pass mapping.
+BUU,coalition,5,2001.3.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+CAF,coalition,5,2002.10.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+CAN,coalition,4,2003.12.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+CDD,coalition,5,2002.10.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+CHL,coalition,5,2004.4.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+CMO,coalition,5,2003.8.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+COL,coalition,5,2003.7.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+COS,coalition,5,2004.11.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+CPV,coalition,5,2000.6.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+CRO,centre_left,4,2007.11.25,yes,manual:election-calendar,Parliamentary election after the timeline; blocs are a directional first-pass mapping.
+CYP,left,5,2003.2.16,yes,manual:election-calendar,Presidential election; blocs are a directional first-pass mapping.
+CZE,centre_right,4,2002.6.15,yes,manual:election-calendar,Parliamentary election; blocs are a directional first-pass mapping.
+DAN,liberal,4,2001.11.20,yes,manual:election-calendar,Parliamentary election; blocs are a directional first-pass mapping.
+DGL,coalition,5,2003.4.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+DJI,coalition,5,2000.8.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+DMN,coalition,5,2001.8.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+DOM,coalition,5,2002.8.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+ECU,coalition,5,2003.8.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+ELS,coalition,5,2000.11.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+EST,liberal,4,2003.3.2,yes,manual:election-calendar,Parliamentary election; blocs are a directional first-pass mapping.
+FIN,centre_right,4,2003.3.16,yes,manual:election-calendar,Parliamentary election; blocs are a directional first-pass mapping.
+FR2,centre_left,5,2002.5.5,yes,manual:election-calendar,"Presidential election, second round; blocs are a directional first-pass mapping."
+FRM,centre_right,4,2004.3.20,yes,manual:election-calendar,Presidential election after the timeline; blocs are a directional first-pass mapping.
+GBI,coalition,5,2002.1.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+GBR,centre_right,4,2001.6.7,yes,manual:election-calendar,General election; blocs are a directional first-pass mapping.
+GEO,coalition,5,2008.1.5,yes,manual:election-calendar,Presidential election after the timeline; blocs are a directional first-pass mapping.
+GER,centre_right,4,2009.9.27,yes,manual:election-calendar,Federal election after the timeline; blocs are a directional first-pass mapping.
+GHA,coalition,5,2000.11.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+GRE,centre_right,4,2007.9.16,yes,manual:election-calendar,Legislative election after the timeline; blocs are a directional first-pass mapping.
+GRN,coalition,5,2004.10.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+GTM,coalition,5,2000.11.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+GYA,coalition,5,2004.5.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+GZI,coalition,5,2000.11.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+HAB,centre_right,4,2002.11.24,yes,manual:election-calendar,Legislative election after the timeline; blocs are a directional first-pass mapping.
+HAT,coalition,5,2004.7.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+HON,coalition,5,2004.9.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+HUN,centre_left,4,2002.4.21,yes,manual:election-calendar,Parliamentary election; blocs are a directional first-pass mapping.
+ICE,centre_left,4,2003.5.10,yes,manual:election-calendar,Parliamentary election; blocs are a directional first-pass mapping.
+IDN,coalition,5,2003.5.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+INI,centre_left,5,2009.5.16,yes,manual:election-calendar,General election after the timeline; blocs are a directional first-pass mapping.
+IRE,centre_left,5,2002.5.17,yes,manual:election-calendar,General election; blocs are a directional first-pass mapping.
+ISR,national_conservative,4,2003.1.28,yes,manual:election-calendar,Knesset election after the timeline; blocs are a directional first-pass mapping.
+ITA,centre_right,5,2006.4.9,yes,manual:election-calendar,General election after the timeline; blocs are a directional first-pass mapping.
+IVO,coalition,5,2002.1.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+JAI,coalition,5,2003.1.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+JAP,liberal,4,2003.11.9,yes,manual:election-calendar,General election after the timeline; blocs are a directional first-pass mapping.
+JMC,coalition,5,2004.2.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+JOR,coalition,4,2002.12.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+KEY,coalition,5,2000.5.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+KHA,coalition,5,2004.11.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+KHM,liberal,5,2003.7.27,yes,manual:election-calendar,General election; blocs are a directional first-pass mapping.
+KIR,coalition,5,2002.10.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+KUW,coalition,4,2002.7.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+KYR,coalition,4,2003.5.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+LAP,coalition,5,2001.6.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+LBR,coalition,5,2004.7.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+LEB,coalition,5,2002.11.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+LES,centre_right,5,2002.5.25,yes,manual:election-calendar,General election; blocs are a directional first-pass mapping.
+LIT,centre_left,4,2000.10.8,yes,manual:election-calendar,Parliamentary election; blocs are a directional first-pass mapping.
+LTV,centre_left,4,2002.10.5,yes,manual:election-calendar,Parliamentary election; blocs are a directional first-pass mapping.
+LUX,centre_left,5,2004.6.13,yes,manual:election-calendar,General election; blocs are a directional first-pass mapping.
+MAC,centre_left,4,2002.9.15,yes,manual:election-calendar,Parliamentary election; blocs are a directional first-pass mapping.
+MAL,coalition,5,2000.8.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+MDG,coalition,5,2001.2.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+MDV,left,4,2001.2.25,yes,manual:election-calendar,Parliamentary election; blocs are a directional first-pass mapping.
+MEX,coalition,5,2004.12.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+MIC,coalition,5,2004.1.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+MLA,liberal,5,2004.3.21,yes,manual:election-calendar,General election; blocs are a directional first-pass mapping.
+MOR,coalition,4,2001.1.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+MRS,coalition,5,2000.7.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+MRT,coalition,5,2003.3.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+MTU,coalition,5,2000.5.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+MWI,coalition,5,2000.11.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+MZM,coalition,5,2003.2.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+NAU,coalition,5,2003.9.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+NCR,coalition,5,2003.8.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+NED,centre_right,4,2003.1.22,yes,manual:election-calendar,General election after the timeline; blocs are a directional first-pass mapping.
+NGR,coalition,5,2001.10.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+NIG,coalition,5,2002.4.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+NMB,coalition,5,2000.7.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+NOR,centre_left,4,2001.9.10,yes,manual:election-calendar,Parliamentary election; blocs are a directional first-pass mapping.
+NPL,left,5,2002.11.13,yes,manual:election-calendar,Scheduled general election (postponed in reality); blocs are a directional first-pass mapping.
+NZL,coalition,4,2002.2.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+PEU,coalition,5,2003.11.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+PHI,coalition,5,2003.5.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+PLS,coalition,5,2001.1.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+PLU,coalition,5,2002.2.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+PNG,coalition,5,2004.6.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+PNM,coalition,5,2002.10.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+POL,centre_left,4,2005.9.25,yes,manual:election-calendar,Parliamentary election after the timeline; blocs are a directional first-pass mapping.
+POR,centre_right,4,2009.9.27,yes,manual:election-calendar,Legislative election after the timeline; blocs are a directional first-pass mapping.
+PRG,coalition,5,2002.8.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+RMN,centre_left,4,2000.11.26,yes,manual:election-calendar,Presidential and parliamentary elections; blocs are a directional first-pass mapping.
+RSA,coalition,4,2003.3.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+RUS,left,4,2004.3.14,yes,manual:election-calendar,Presidential election after the timeline; blocs are a directional first-pass mapping.
+SAM,coalition,5,2004.5.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+SEY,coalition,5,2003.2.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+SGA,coalition,5,2000.5.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+SGL,coalition,4,2001.6.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+SIA,coalition,4,2001.1.6,yes,manual:election-calendar,General election; blocs are a directional first-pass mapping.
+SKN,coalition,5,2002.10.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+SKO,coalition,5,2000.11.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+SLM,coalition,5,2001.10.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+SLU,coalition,5,2000.7.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+SPA,centre_left,4,2008.3.9,yes,manual:election-calendar,General election after the timeline; blocs are a directional first-pass mapping.
+SRA,coalition,5,2002.5.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+SRL,coalition,5,2000.12.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+SRN,coalition,5,2001.1.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+STP,coalition,5,2001.3.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+SVG,coalition,5,2003.10.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+SVK,national_conservative,4,2002.9.21,yes,manual:election-calendar,Parliamentary election; blocs are a directional first-pass mapping.
+SVN,centre_right,4,2000.10.15,yes,manual:election-calendar,Parliamentary election; blocs are a directional first-pass mapping.
+SWE,centre_right,4,2002.9.15,yes,manual:election-calendar,General election; blocs are a directional first-pass mapping.
+SWI,centre_left,4,2003.10.19,yes,manual:election-calendar,Federal election; blocs are a directional first-pass mapping.
+TKY,centre_right,4,2002.11.3,yes,manual:election-calendar,General election; blocs are a directional first-pass mapping.
+TNZ,coalition,5,2000.7.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+TOG,coalition,5,2000.8.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+TRN,coalition,5,2002.1.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+TVL,coalition,5,2004.1.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+UKR,centre_right,5,2010.1.17,yes,manual:election-calendar,Presidential election after the timeline; blocs are a directional first-pass mapping.
+URU,coalition,5,2004.5.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+USA,centre_right,4,2004.11.2,yes,manual:election-calendar,Presidential election after the timeline; blocs are a directional first-pass mapping.
+VIT,coalition,5,2004.1.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+VNU,coalition,5,2002.4.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+VNZ,coalition,5,2002.7.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+YEM,coalition,5,2003.8.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
+YUG,national_conservative,4,,no,manual:election-calendar,Elections begin after the 2000 democratic transition; blocs are a directional first-pass mapping.
+ZAM,coalition,5,2001.7.15,yes,generated:staggered-generic-calendar,Generic governing-coalition model; manual verification pending.
